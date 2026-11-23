@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Exile's Codex</title>
+<meta name="theme-color" content="#0c0a08"><link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+/* VOICE: a terse field manual for a league start — dense, sourced, no fluff.
+   IDEA: the in-game item tooltip / stash search: dark slate, bronze frame, rarity-coloured text.
+   PICTURE: the search bar itself, framed like a tooltip header, with results as tooltip cards.
+   COLOUR+TYPE: near-black stone, bronze frame, rarity hues as status (gem teal, rare gold, unique ember, magic blue); Cinzel caps-lettering + Alegreya Sans.
+   LAYOUT: sticky search band; results column left, reader right; stacks under 900px. */
+:root{color-scheme:dark;--bg:#0c0a08;--panel:#15110d;--panel2:#1d1812;--ink:#ece2cc;--mute:#a3957c;--line:#3b3024;--bronze:#c9a46a;--bronze2:#8a6c40;
+--teal:#2fb3a6;--gold:#e5cf6b;--ember:#d9793a;--blue:#8f8fff;--red:#e0574a}
+*{box-sizing:border-box;min-width:0}
+html{scroll-padding-top:150px}
+body{margin:0;background:radial-gradient(1200px 500px at 70% -10%,#2a1d10 0,transparent 60%),var(--bg);color:var(--ink);font:16px/1.55 "Alegreya Sans",system-ui,sans-serif;overflow-x:clip;min-height:100vh}
+a{color:var(--bronze)}a:hover{color:var(--gold)}
+button,input,select{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.top{position:sticky;top:0;z-index:5;background:linear-gradient(#0c0a08 85%,#0c0a08e0);border-bottom:1px solid var(--line);padding:14px max(4vw,14px) 10px}
+.bar{display:flex;gap:16px;align-items:center;max-width:1400px;margin:0 auto;flex-wrap:wrap}
+.brand{font:700 22px/1 Cinzel,serif;color:var(--bronze);letter-spacing:.02em;text-decoration:none;white-space:nowrap}
+.brand small{display:block;font:500 12px/1.3 "Alegreya Sans";color:var(--mute);letter-spacing:0;margin-top:3px}
+.search{flex:1 1 420px;position:relative;border:1px solid var(--bronze2);background:linear-gradient(#1f1912,#130f0b);box-shadow:inset 0 0 0 1px #000,0 0 0 1px #000,0 8px 30px #0008}
+.search::before,.search::after{content:"";position:absolute;left:12px;right:12px;height:1px;background:linear-gradient(90deg,transparent,var(--bronze),transparent)}
+.search::before{top:3px}.search::after{bottom:3px}
+.search input{width:100%;border:0;background:transparent;padding:14px 16px 14px 44px;font-size:18px;outline:none}
+.search svg{position:absolute;left:14px;top:50%;translate:0 -50%;width:20px;height:20px;stroke:var(--bronze);fill:none;stroke-width:2}
+.search kbd{position:absolute;right:12px;top:50%;translate:0 -50%;font-size:12px;color:var(--mute);border:1px solid var(--line);padding:1px 6px}
+nav.views{display:flex;gap:4px;flex-wrap:wrap}
+nav.views a{padding:10px 12px;text-decoration:none;color:var(--mute);border:1px solid transparent;white-space:nowrap}
+nav.views a.on,nav.views a:hover{color:var(--ink);border-color:var(--line);background:var(--panel)}
+.filters{display:flex;flex-wrap:nowrap;overflow-x:auto;gap:6px;align-items:center;max-width:1400px;margin:10px auto 0;padding-bottom:2px;scrollbar-width:thin}
+.filters>*{flex:none}
+.chip{border:1px solid var(--line);background:var(--panel);padding:6px 11px;min-height:36px;cursor:pointer;font-size:14px;color:var(--mute)}
+.chip[aria-pressed=true]{color:var(--bg);background:var(--bronze);border-color:var(--bronze)}
+.filters select{background:var(--panel);border:1px solid var(--line);padding:6px 8px;min-height:36px;font-size:14px}
+.filters .sep{width:1px;height:24px;background:var(--line);margin:0 4px}
+.split{display:grid;grid-template-columns:minmax(0,380px) minmax(0,1fr);gap:20px;max-width:1400px;margin:0 auto;padding:18px max(4vw,14px) 60px}
+#results{position:sticky;top:calc(var(--top,150px) + 12px);align-self:start;max-height:calc(100vh - var(--top,150px) - 24px);overflow:auto;padding-right:4px}
+.rcount{font-size:13px;color:var(--mute);margin:0 0 8px}
+.hit{display:block;width:100%;text-align:left;background:var(--panel);border:1px solid var(--line);padding:10px 12px;margin:0 0 6px;cursor:pointer;text-decoration:none;color:var(--ink)}
+.hit:hover,.hit.sel{border-color:var(--bronze);background:var(--panel2)}
+.hit .k{font-size:12px;color:var(--mute)}.hit .k.u{color:var(--ember)}.hit .k.g{color:var(--teal)}
+.hit .h{font-weight:700;display:block;line-height:1.3}
+.hit .s{font-size:14px;color:var(--mute);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+mark{background:#c9a46a40;color:var(--gold);padding:0 1px}
+.browse h3{font:500 14px Cinzel,serif;color:var(--bronze);margin:16px 0 6px}
+.browse a{display:block;padding:6px 8px;text-decoration:none;color:var(--ink);border-left:2px solid var(--line);font-size:15px}
+.browse a:hover{border-color:var(--bronze);background:var(--panel)}
+#reader{background:var(--panel);border:1px solid var(--line);padding:clamp(18px,3vw,36px);box-shadow:0 10px 40px #0007;position:relative}
+#reader::before{content:"";position:absolute;inset:4px;border:1px solid #3b302455;pointer-events:none}
+#reader h1{font:700 clamp(26px,3vw,38px)/1.1 Cinzel,serif;color:var(--bronze);margin:0 0 6px;text-wrap:balance}
+#reader .path{font-size:13px;color:var(--mute);margin-bottom:14px}
+#reader h2{font:600 20px/1.25 "Alegreya Sans";color:var(--gold);margin:0 0 6px}
+#reader h3{font:500 17px Cinzel,serif;color:var(--bronze);margin:22px 0 8px}
+.entry{border-top:1px solid var(--line);padding:18px 0 10px;scroll-margin-top:calc(var(--top,150px) + 12px)}
+.entry.flash{animation:flash 1.6s ease-out}
+@keyframes flash{from{background:#c9a46a22}to{background:transparent}}
+.entry ul,.lead ul{padding-left:20px;margin:6px 0}.entry li{margin:3px 0}
+.lbl{color:var(--mute);font-weight:500}
+.lbl.c{color:var(--bronze)}
+.inf{color:var(--blue);font-weight:700}
+.badges{display:flex;flex-wrap:wrap;gap:5px;margin:2px 0 8px}
+.b{font-size:12px;padding:2px 7px;border:1px solid currentColor;white-space:nowrap;line-height:1.5}
+.b.stable{color:var(--teal)}.b.may-change{color:var(--gold)}.b.volatile,.b.conflict,.b.stale{color:var(--red)}.b.retired{color:var(--mute)}
+.b.confirmed{color:var(--teal)}.b.single-source{color:var(--mute)}.b.inferred{color:var(--blue)}
+.b.v05{color:var(--mute)}.b.v10{color:var(--ember)}.b.tier{color:var(--bronze)}
+.b.stale{background:#e0574a22}
+table{border-collapse:collapse;width:100%;font-size:15px;margin:8px 0}
+th,td{border:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}th{color:var(--bronze);font-weight:500;background:var(--panel2)}
+.scroll{overflow-x:auto}
+code{background:#000;padding:0 4px;overflow-wrap:anywhere;font-size:.92em}
+.dead{color:var(--mute);border-bottom:1px dotted var(--mute);cursor:help}
+.banner{border:1px solid var(--red);background:#e0574a14;padding:10px 14px;margin:0 0 16px;font-size:15px}
+.banner.info{border-color:var(--bronze2);background:#c9a46a10}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px;margin:14px 0}
+.tile{background:var(--panel2);border:1px solid var(--line);padding:12px 14px;text-decoration:none;color:var(--ink)}
+.tile:hover{border-color:var(--bronze)}.tile b{font:500 16px Cinzel,serif;color:var(--bronze);display:block}.tile span{font-size:14px;color:var(--mute)}
+.chg{border-left:2px solid var(--bronze2);padding:4px 0 4px 14px;margin:0 0 18px}
+.chg .d{font:500 13px Cinzel,serif;color:var(--bronze)}.chg h4{margin:2px 0 6px;font-size:17px}
+.chg ul{margin:0;padding-left:18px;font-size:15px;color:#d8ccb4}
+.refs a{font-size:13px;margin-right:8px}
+.tr{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:4px 14px;padding:6px 0;border-bottom:1px solid var(--line);font-size:15px}
+.tr .st{color:var(--mute);font-size:14px}
+.empty{color:var(--mute);padding:20px 4px}
+.foot{font-size:13px;color:var(--mute);margin-top:30px;border-top:1px solid var(--line);padding-top:12px}
+.dbf{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}.dbf label{display:flex;flex-direction:column;font-size:13px;color:var(--mute);gap:3px}
+.dbf select,.dbf input{background:var(--panel2);border:1px solid var(--line);padding:8px;min-height:40px;font-size:15px;color:var(--ink)}
+.dbf input[type=number]{width:96px}.dbf .grow{flex:1 1 220px}
+.mt td.n{white-space:nowrap}.mt td.r{text-align:right;white-space:nowrap}.mt .pre{color:var(--blue)}.mt .suf{color:var(--gold)}.mt .imp,.mt .cor{color:var(--red)}
+.tg{font-size:11px;border:1px solid var(--line);padding:0 5px;margin:0 3px 3px 0;display:inline-block;color:var(--mute)}
+.tbtn{border:1px solid var(--bronze2);background:var(--panel2);padding:8px 12px;min-height:40px;cursor:pointer}
+@media(max-width:900px){.split{grid-template-columns:minmax(0,1fr)}#results{position:static;max-height:none}html{scroll-padding-top:20px}.top{position:static}}
+@media(max-width:600px){.brand small{display:none}.search input{font-size:16px}.tr{grid-template-columns:minmax(0,1fr)}}
+@media(prefers-reduced-motion:reduce){.entry.flash{animation:none}}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="bar">
+    <a class="brand" href="#home">Exile's Codex<small>PoE2 1.0 league-start library</small></a>
+    <label class="search"><svg viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg>
+      <input id="q" type="search" placeholder="Search mechanics, items, uniques, acts, crafting, strategy…" autocomplete="off" aria-label="Search the library"><kbd>/</kbd></label>
+    <nav class="views"><a href="#home" data-v="home">Home</a><a href="#changes" data-v="changes">Recent changes</a><a href="#db" data-v="db">Mod database</a><a href="#stale" data-v="stale">Stale &amp; 1.0 checks</a></nav>
+  </div>
+  <div class="filters" id="filters"></div>
+</header>
+<main class="split">
+  <aside id="results" aria-label="Search results"></aside>
+  <article id="reader" aria-live="polite"><p class="empty">Loading the library…</p></article>
+</main>
+<script src="db.js"></script>
+<script>
+{
+const $=s=>document.querySelector(s);
+const STALE_DAYS=7, TODAY=new Date();
+let KB=null, byPath={}, entryKey={}, hits=[], sel=-1;
+const st={q:'',sec:new Set(),ver:'',vol:'',conf:''};
+try{const s=JSON.parse(localStorage.getItem('codex-f')||'{}');st.ver=s.ver||'';st.vol=s.vol||'';st.conf=s.conf||'';(s.sec||[]).forEach(x=>st.sec.add(x))}catch(e){}
+const save=()=>{try{localStorage.setItem('codex-f',JSON.stringify({ver:st.ver,vol:st.vol,conf:st.conf,sec:[...st.sec]}))}catch(e){}};
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const norm=s=>String(s).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/['’]/g,'');
+const words=s=>norm(s).split(/[^a-z0-9.%+]+/).filter(Boolean);
+const slug=s=>s.toLowerCase().replace(/[`*_\[\]()]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'').slice(0,80);
+const docId=p=>p.replace(/\.md$/,'').toLowerCase().replace(/[^a-z0-9]+/g,'-');
+const ageDays=d=>Math.floor((TODAY-new Date(d+'T00:00:00'))/864e5);
+const newest=ds=>ds&&ds.length?ds[ds.length-1]:'';
+function resolve(t){t=t.trim().replace(/^kb\//,'').replace(/\.md$/,'').replace(/[.,;]$/,'');
+  if(byPath[t])return byPath[t];const base=t.split('/').pop();
+  return KB.docs.find(d=>d.path.replace(/\.md$/,'').split('/').pop()===base)||KB.docs.find(d=>d.path.startsWith(t))||null}
+const verClass=v=>/1\.0/.test(v)&&!/0\.5/.test(v)?'v10':/0\.\d/.test(v)?'v05':'';
+function badges(e){if(!e)return '';const o=[];
+  if(e.version){const vc=verClass(e.version);o.push(`<span class="b ${vc}">${vc==='v05'?'0.5.x · pre-1.0':esc(e.version.slice(0,24))}</span>`)}
+  if(e.vol)o.push(`<span class="b ${e.vol}">${e.vol}</span>`);
+  if(e.conf)o.push(`<span class="b ${e.conf}">${e.conf}</span>`);
+  if(e.tier)o.push(`<span class="b tier">tier ${e.tier}</span>`);
+  if(e.vol==='volatile'&&newest(e.dates)){const a=ageDays(newest(e.dates));o.push(`<span class="b ${a>STALE_DAYS?'stale':'single-source'}">${a>STALE_DAYS?'⚠ ':''}data ${newest(e.dates)} · ${a} d old</span>`)}
+  return `<div class="badges">${o.join('')}</div>`}
+function inline(s,doc){s=esc(s);
+  s=s.replace(/`([^`]+)`/g,'<code>$1</code>').replace(/\*\*([^*]+)\*\*/g,'<b>$1</b>').replace(/(^|[^*])\*([^*\s][^*]*)\*/g,'$1<i>$2</i>');
+  s=s.replace(/\[\[([^\]]+)\]\]/g,(m,t)=>{const d=resolve(t);return d?`<a href="#${docId(d.path)}">${esc(d.title)}</a>`:`<span class="dead" title="Not written yet">${t}</span>`});
+  s=s.replace(/\[([^\]]+)\]\((https?:[^)\s]+)\)/g,'<a href="$2" target="_blank" rel="noopener">$1</a>');
+  s=s.replace(/(^|[\s(])(kb\/[a-z0-9\-\/.]+\.md)/g,(m,p,t)=>{const d=resolve(t);return d?`${p}<a href="#${docId(d.path)}">${t}</a>`:m});
+  s=s.replace(/\[INFERRED\]/g,'<span class="inf">[INFERRED]</span>');
+  s=s.replace(/^(Claim|Version|Volatility|Source|Confidence|Notes|Check|Reason|What each layer does \/ doesn&#39;t do)( \([^)]*\))?:/,(m)=>`<span class="lbl${m.startsWith('Claim')?' c':''}">${m}</span>`);
+  return s}
+function md(src,doc){const L=src.split('\n');let h='',i=0;
+  const list=(start)=>{let out='',stack=[];
+    while(i<L.length&&/^\s*(-|\d+\.)\s/.test(L[i])){const ind=L[i].match(/^\s*/)[0].length>>1,ol=/^\s*\d+\./.test(L[i]),txt=L[i].replace(/^\s*(-|\d+\.)\s+/,'');
+      while(stack.length>ind+1)out+=`</li></${stack.pop()}>`;
+      if(stack.length<ind+1){out+=ol?'<ol>':'<ul>';stack.push(ol?'ol':'ul')}else out+='</li>';
+      out+='<li>'+inline(txt,doc);i++}
+    while(stack.length)out+=`</li></${stack.pop()}>`;return out};
+  while(i<L.length){const l=L[i];
+    if(!l.trim()){i++;continue}
+    if(/^\|/.test(l)){const rows=[];while(i<L.length&&/^\|/.test(L[i]))rows.push(L[i++]);
+      const cells=r=>r.trim().replace(/^\||\|$/g,'').split('|').map(c=>c.trim());
+      h+='<div class="scroll"><table><thead><tr>'+cells(rows[0]).map(c=>`<th>${inline(c,doc)}</th>`).join('')+'</tr></thead><tbody>'+rows.slice(2).map(r=>'<tr>'+cells(r).map(c=>`<td>${inline(c,doc)}</td>`).join('')+'</tr>').join('')+'</tbody></table></div>';continue}
+    if(/^\s*(-|\d+\.)\s/.test(l)){h+=list();continue}
+    if(l.startsWith('### ')){h+=`<h3>${inline(l.slice(4),doc)}</h3>`;i++;continue}
+    h+=`<p>${inline(l,doc)}</p>`;i++}
+  return h}
+function renderDoc(d,anchor){const L=d.md.split('\n');const first=L.findIndex(l=>l.startsWith('## '));
+  const head=(first<0?L:L.slice(0,first)).filter(l=>!l.startsWith('# ')).join('\n');
+  let h=`<h1>${esc(d.title)}</h1><div class="path">${esc(d.sectionName)} · kb/${esc(d.path)}</div>`;
+  const ents=KB.entries.filter(e=>e.doc===d.path&&!e.intro);
+  if(ents.some(e=>e.vol==='volatile'&&newest(e.dates)&&ageDays(newest(e.dates))>STALE_DAYS))h+=`<div class="banner">⚠ This doc has price or meta data older than ${STALE_DAYS} days. Check poe.ninja or the in-game exchange before acting on it.</div>`;
+  else if(ents.some(e=>verClass(e.version)==='v05'))h+=`<div class="banner info">Most entries here are 0.5.x facts and haven't been re-checked against the 1.0 patch notes yet.</div>`;
+  h+=`<div class="lead">${md(head,d)}</div>`;
+  if(first>=0){const idx=[];L.forEach((l,j)=>{if(l.startsWith('## '))idx.push(j)});idx.push(L.length);
+    for(let k=0;k<idx.length-1;k++){const title=L[idx[k]].slice(3).trim(),a=slug(title),e=entryKey[d.path+'#'+a];
+      h+=`<section class="entry" id="${a}"><h2>${inline(title,d)}</h2>${badges(e)}${md(L.slice(idx[k]+1,idx[k+1]).join('\n'),d)}</section>`}}
+  $('#reader').innerHTML=h+foot();
+  highlight();
+  if(anchor){const el=document.getElementById(anchor);if(el){el.scrollIntoView({block:'start'});el.classList.add('flash')}}else window.scrollTo(0,0)}
+function highlight(){const toks=words(st.q).filter(t=>t.length>1);if(!toks.length)return;
+  const re=new RegExp('('+toks.map(t=>t.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')).join('|')+')','gi');
+  const w=document.createTreeWalker($('#reader'),NodeFilter.SHOW_TEXT);const ns=[];while(w.nextNode())ns.push(w.currentNode);
+  ns.forEach(n=>{if(!re.test(n.nodeValue)||n.parentNode.closest('mark,code'))return;re.lastIndex=0;const sp=document.createElement('span');sp.innerHTML=esc(n.nodeValue).replace(re,'<mark>$1</mark>');n.replaceWith(sp)})}
+const foot=()=>`<p class="foot">Library snapshot built ${esc(KB.built)} from the project's knowledge base · ${KB.docs.length} docs. Facts are paraphrased with sources linked; tier 1 = official, 5 = community. Mod data from <a href="https://poe2db.tw/us/" target="_blank" rel="noopener">poe2db.tw</a> (CC BY-NC-SA 3.0). Not affiliated with Grinding Gear Games.</p>`;
+function passes(e){const d=byPath[e.doc.replace(/\.md$/,'')];
+  if(st.sec.size&&!st.sec.has(d?d.section:''))return false;
+  if(st.ver==='05'&&verClass(e.version)!=='v05')return false;
+  if(st.ver==='10'&&verClass(e.version)!=='v10')return false;
+  if(st.vol&&e.vol!==st.vol)return false;
+  if(st.conf&&e.conf!==st.conf)return false;return true}
+function dist(a,b,max){if(Math.abs(a.length-b.length)>max)return max+1;const d=[];for(let i=0;i<=a.length;i++){d[i]=[i];for(let j=1;j<=b.length;j++)d[i][j]=i?0:j}
+  for(let i=1;i<=a.length;i++)for(let j=1;j<=b.length;j++){const c=a[i-1]===b[j-1]?0:1;d[i][j]=Math.min(d[i-1][j]+1,d[i][j-1]+1,d[i-1][j-1]+c);if(i>1&&j>1&&a[i-1]===b[j-2]&&a[i-2]===b[j-1])d[i][j]=Math.min(d[i][j],d[i-2][j-2]+1)}return d[a.length][b.length]}
+function fieldScore(tok,ws){let best=0;const tol=tok.length>=7?2:tok.length>=4?1:0;for(const w of ws){if(w===tok)return 1;if(w.startsWith(tok))best=Math.max(best,.8);else if(tol&&w.length>=4&&dist(tok,w,tol)<=tol)best=Math.max(best,.5);else if(tok.length>=3&&w.includes(tok))best=Math.max(best,.35)}return best}
+const STOP=new Set('the a an of in on to for and or is are with vs at by from my what how do does'.split(' '));
+const CONTROL=/^(00-index|01-coverage-tracker|03-changelog)/;
+function search(){const q=norm(st.q.trim()),all=words(st.q),toks=all.filter(t=>!STOP.has(t)).length?all.filter(t=>!STOP.has(t)):all;hits=[];if(!toks.length)return;
+  const scoreRec=(r,isItem)=>{let total=0,ok=true;for(const t of toks){const s=Math.max(fieldScore(t,r._h)*6,fieldScore(t,r._d)*3,fieldScore(t,r._t)*1);if(!s)ok=false;total+=s}
+    if(!ok)return 0;const hn=norm(r.heading||r.name);if(hn.includes(q))total+=8;if(isItem&&norm(r.name)===q)total+=20;if(!isItem&&q.length>4&&norm(r.text).includes(q))total+=5;
+    if(!isItem&&CONTROL.test(r.doc))total-=4;return total};
+  for(const it of KB.items){if(st.vol||st.conf)continue;const d=byPath[it.doc.replace(/\.md$/,'')];if(st.sec.size&&!st.sec.has(d.section))continue;if(st.ver==='10')continue;
+    const s=scoreRec(it,true);if(s)hits.push({s:s+4,item:it})}
+  for(const e of KB.entries){if(!passes(e))continue;const s=scoreRec(e,false);if(s)hits.push({s:s-(e.intro?2:0),e})}
+  hits.sort((a,b)=>b.s-a.s);hits=hits.slice(0,80)}
+function snippet(text){const toks=words(st.q);const n=norm(text);let p=-1;for(const t of toks){p=n.indexOf(t);if(p>=0)break}
+  const s=text.slice(Math.max(0,p-50),Math.max(0,p-50)+180);return (p>50?'…':'')+esc(s)}
+function hl(html){const toks=words(st.q).filter(t=>t.length>1);if(!toks.length)return html;return html.replace(new RegExp('('+toks.map(t=>t.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')).join('|')+')(?![^<]*>)','gi'),'<mark>$1</mark>')}
+function renderResults(){const R=$('#results');
+  if(!st.q.trim()){const g={};KB.docs.forEach(d=>{if(st.sec.size&&!st.sec.has(d.section))return;(g[d.sectionName]=g[d.sectionName]||[]).push(d)});
+    R.innerHTML='<div class="browse"><p class="rcount">Type to search, or browse by section.</p>'+Object.entries(g).map(([k,ds])=>`<h3>${esc(k)}</h3>`+ds.map(d=>`<a href="#${docId(d.path)}">${esc(d.title)}</a>`).join('')).join('')+'</div>';return}
+  if(!hits.length){R.innerHTML=`<p class="empty">Nothing in the library matches “${esc(st.q)}”${st.sec.size||st.ver||st.vol||st.conf?' with these filters':''}. Try fewer words or clear the filters. If it's an endgame topic, those docs wait for the 1.0 patch notes.</p>`;return}
+  R.innerHTML=`<p class="rcount"><a href="#db" data-dbq="1">Search item mods for “${esc(st.q)}” →</a></p><p class="rcount">${hits.length}${hits.length===80?'+':''} results</p>`+hits.map((h,i)=>{
+    if(h.item){const d=byPath[h.item.doc.replace(/\.md$/,'')];return `<a class="hit${i===sel?' sel':''}" href="#${docId(d.path)}--${h.item.anchor}" data-i="${i}"><span class="k ${/Unique/.test(h.item.kind)?'u':'g'}">${esc(h.item.kind)}</span><span class="h">${hl(esc(h.item.name))}</span><span class="s">in ${esc(d.title)}</span></a>`}
+    const e=h.e,d=byPath[e.doc.replace(/\.md$/,'')];return `<a class="hit${i===sel?' sel':''}" href="#${docId(d.path)}${e.anchor?'--'+e.anchor:''}" data-i="${i}"><span class="k">${esc(d.sectionName)} · ${esc(d.title)}</span><span class="h">${hl(esc(e.heading))}</span><span class="s">${hl(snippet(e.text))}</span></a>`}).join('')}
+function home(){const secs={};KB.docs.forEach(d=>{(secs[d.sectionName]=secs[d.sectionName]||[]).push(d)});
+  const stale=KB.entries.filter(e=>e.vol==='volatile'&&newest(e.dates)&&ageDays(newest(e.dates))>STALE_DAYS).length;
+  const c=KB.changes[0];
+  $('#reader').innerHTML=`<h1>The league-start library</h1><div class="path">${KB.docs.length} docs · ${KB.entries.length} entries · ${KB.items.length} named items (uniques, lineage gems, keystones, charms)</div>
+  <p>Search anything above: a mechanic (<a href="#" data-q="armour formula">armour formula</a>), a unique (<a href="#" data-q="Mageblood">Mageblood</a>), an act boss (<a href="#" data-q="Count Geonor">Count Geonor</a>), a crafting step (<a href="#" data-q="omen whittling">omen of whittling</a>) or a plan (<a href="#" data-q="5 div T15">5-div T15 test</a>). Every result opens the doc at that exact entry.</p>
+  ${stale?`<div class="banner">⚠ ${stale} price or meta entries are older than ${STALE_DAYS} days. <a href="#stale">See which</a>.</div>`:''}
+  <div class="banner info">This is a pre-1.0 snapshot. Most facts are 0.5.x and get re-checked when the 1.0 patch notes are out. Endgame docs (atlas, waystones, league mechanics, pinnacle bosses) are waiting for those notes.</div>
+  <div class="grid">${Object.entries(secs).map(([k,ds])=>`<a class="tile" href="#${docId(ds[0].path)}"><b>${esc(k)}</b><span>${ds.length} docs · ${ds.slice(0,3).map(d=>esc(d.title.split(/[(—:]/)[0].trim())).join(', ')}…</span></a>`).join('')}</div>
+  ${c?`<h3>Latest change</h3><div class="chg"><div class="d">${esc(c.date)}</div><h4>${esc(c.title.replace(/^\S+\s+—\s*/,''))}</h4><ul>${c.bullets.slice(0,3).map(b=>`<li>${esc(b)}</li>`).join('')}</ul><p><a href="#changes">All changes →</a></p></div>`:''}`+foot()}
+function changes(){$('#reader').innerHTML=`<h1>Recent changes</h1><div class="path">From kb/03-changelog.md, newest first</div>`+
+  KB.changes.map(c=>`<div class="chg"><div class="d">${esc(c.date)}</div><h4>${esc(c.title.replace(/^\S+\s+—\s*/,''))}</h4><ul>${c.bullets.map(b=>`<li>${esc(b)}</li>`).join('')}</ul>${c.refs.length?'<div class="refs">'+c.refs.map(r=>{const d=resolve(r);return d?`<a href="#${docId(d.path)}">${esc(d.title)}</a>`:''}).join('')+'</div>':''}</div>`).join('')+foot()}
+function stale(){const S=KB.entries.filter(e=>e.vol==='volatile'&&passes(e)).map(e=>({e,a:newest(e.dates)?ageDays(newest(e.dates)):null})).sort((x,y)=>(y.a??-1)-(x.a??-1));
+  const need=KB.tracker.filter(t=>/needs-1\.0|todo|partial/.test(t.status));
+  const row=x=>{const d=byPath[x.e.doc.replace(/\.md$/,'')];return `<div class="tr"><a href="#${docId(d.path)}--${x.e.anchor}">${esc(x.e.heading)} <span class="st">· ${esc(d.title)}</span></a><span class="st">${x.a==null?'no date':x.a>STALE_DAYS?`<b style="color:var(--red)">⚠ ${x.a} days old</b> (${newest(x.e.dates)})`:`${x.a} days old`}</span></div>`};
+  $('#reader').innerHTML=`<h1>Stale data &amp; 1.0 checks</h1><div class="path">Volatile entries (prices, meta) by age · coverage-tracker items still open</div>
+  <h3>Volatile entries (${S.length})</h3><p class="st">Anything older than ${STALE_DAYS} days is flagged. Prices are from a past league unless marked otherwise.</p>${S.map(row).join('')||'<p class="empty">None with the current filters.</p>'}
+  <h3>Open in the coverage tracker (${need.length})</h3>${need.map(t=>{const d=resolve(t.doc.split(',')[0]);return `<div class="tr">${d?`<a href="#${docId(d.path)}">${esc(t.topic)}</a>`:`<span>${esc(t.topic)} <span class="dead">not written</span></span>`}<span class="st">${esc(t.status)}</span></div>`}).join('')}`+foot()}
+function route(){const h=decodeURIComponent(location.hash.slice(1))||'home';
+  document.querySelectorAll('nav.views a').forEach(a=>a.classList.toggle('on',a.dataset.v===h));
+  if(h==='home')return home();if(h==='db')return DB.show();if(h==='changes')return changes();if(h==='stale')return stale();
+  const [id,anchor]=h.split('--');const d=KB.docs.find(x=>docId(x.path)===id);
+  if(!d){$('#reader').innerHTML='<p class="empty">That page isn’t in this snapshot.</p>';return}
+  renderDoc(d,anchor);if(innerWidth<=900)$('#reader').scrollIntoView({block:'start'})}
+function filtersUI(){const secs=[...new Set(KB.docs.map(d=>d.section))].filter(Boolean);
+  $('#filters').innerHTML=secs.map(s=>`<button class="chip" data-sec="${s}" aria-pressed="${st.sec.has(s)}">${esc(KB.docs.find(d=>d.section===s).sectionName)}</button>`).join('')+
+  `<span class="sep"></span><select id="fver" aria-label="Version"><option value="">Any version</option><option value="05">0.5.x only</option><option value="10">1.0 only</option></select>
+  <select id="fvol" aria-label="Volatility"><option value="">Any volatility</option><option>stable</option><option>may-change</option><option>volatile</option></select>
+  <select id="fconf" aria-label="Confidence"><option value="">Any confidence</option><option>confirmed</option><option>single-source</option><option>inferred</option><option>conflict</option></select>
+  <button class="chip" id="fclear">Clear</button>`;
+  $('#fver').value=st.ver;$('#fvol').value=st.vol;$('#fconf').value=st.conf}
+function update(){save();search();sel=-1;renderResults();if(/^#stale/.test(location.hash))stale()}
+function bind(){
+  $('#q').addEventListener('input',e=>{st.q=e.target.value;update()});
+  $('#filters').addEventListener('click',e=>{const b=e.target.closest('[data-sec]');if(b){st.sec.has(b.dataset.sec)?st.sec.delete(b.dataset.sec):st.sec.add(b.dataset.sec);b.setAttribute('aria-pressed',st.sec.has(b.dataset.sec));update()}
+    if(e.target.id==='fclear'){st.sec.clear();st.ver=st.vol=st.conf='';filtersUI();update()}});
+  $('#filters').addEventListener('change',e=>{if(e.target.id==='fver')st.ver=e.target.value;if(e.target.id==='fvol')st.vol=e.target.value;if(e.target.id==='fconf')st.conf=e.target.value;update()});
+  $('#results').addEventListener('click',e=>{if(e.target.closest('[data-dbq]')){e.preventDefault();location.hash='db';DB.show(st.q)}});
+  $('#reader').addEventListener('click',e=>{const a=e.target.closest('[data-q]');if(a){e.preventDefault();st.q=a.dataset.q;$('#q').value=st.q;update();const f=document.querySelector('.hit');if(f)f.click()}});
+  document.addEventListener('keydown',e=>{const inQ=document.activeElement===$('#q');
+    if(e.key==='/'&&!inQ&&!/INPUT|SELECT|TEXTAREA/.test(document.activeElement.tagName)){e.preventDefault();$('#q').focus();$('#q').select();return}
+    if(!inQ)return;
+    if(e.key==='ArrowDown'||e.key==='ArrowUp'){if(!hits.length)return;e.preventDefault();sel=Math.max(0,Math.min(hits.length-1,sel+(e.key==='ArrowDown'?1:-1)));renderResults();const el=document.querySelector('.hit.sel');if(el)el.scrollIntoView({block:'nearest'})}
+    if(e.key==='Enter'){const el=document.querySelector('.hit.sel')||document.querySelector('.hit');if(el){location.hash=el.getAttribute('href').slice(1);if(location.hash===el.getAttribute('href'))route()}}
+    if(e.key==='Escape'){$('#q').value='';st.q='';update()}});
+  addEventListener('hashchange',route);
+  const top=$('.top'),setTop=()=>{const h=innerWidth>900?top.offsetHeight:0;document.documentElement.style.setProperty('--top',h+'px')};
+  const topRO=new ResizeObserver(setTop);topRO.observe(top);addEventListener('resize',setTop)}
+fetch('kb.json').then(r=>r.json()).then(data=>{KB=data;
+  KB.docs.forEach(d=>byPath[d.path.replace(/\.md$/,'')]=d);
+  KB.entries.forEach(e=>{entryKey[e.doc+'#'+e.anchor]=e;const d=byPath[e.doc.replace(/\.md$/,'')];e._h=words(e.heading);e._d=words(d.title+' '+d.sectionName);e._t=words(e.text)});
+  KB.items.forEach(it=>{const d=byPath[it.doc.replace(/\.md$/,'')];it._h=words(it.name);it._d=words(it.kind);it._t=words(d.title)});
+  filtersUI();bind();renderResults();route()}).catch(err=>{$('#reader').innerHTML='<p class="empty">Couldn’t load the library data. Reload the page.</p>'});
+}
+</script>
+<script>if('serviceWorker' in navigator)addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}))</script>
+</body>
+</html>

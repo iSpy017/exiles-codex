@@ -1,0 +1,35 @@
+{
+"groupLabels": {
+"normal": "Base",
+"corrupted": "Corrupted",
+"desecrated": "Desecrated",
+"essence": "Essence",
+"perfect_essence": "Perfect essence",
+"corruption_upgrade": "Corruption upgrade",
+"breach_otherworldly": "Breach (otherworldly)",
+"breach_minion": "Breach (minion)",
+"breach_caster": "Breach (caster)",
+"socketable": "Socketable",
+"bonded": "Bonded"
+},
+"classes": [
+{
+"key": "Belts",
+"title": "Belts",
+"url": "https://poe2db.tw/us/Belts",
+"fetched": "2026-11-23T13:57:48Z",
+"count": 317,
+"groups": [
+"breach_caster",
+"breach_minion",
+"breach_otherworldly",
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"essence",
+"normal",
+"perfect_essence"
+]
+}
+]
+}
