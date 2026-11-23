@@ -14,6 +14,45 @@
 },
 "classes": [
 {
+"key": "Abyss_Tablet",
+"title": "Abyss Tablet",
+"url": "https://poe2db.tw/us/Abyss_Tablet",
+"fetched": "2026-11-23T15:10:29Z",
+"count": 40,
+"groups": [
+"corruption_upgrade",
+"normal"
+]
+},
+{
+"key": "Amphora_Relic",
+"title": "Amphora Relic",
+"url": "https://poe2db.tw/us/Amphora_Relic",
+"fetched": "2026-11-23T15:08:02Z",
+"count": 50,
+"groups": [
+"corrupted",
+"corruption_upgrade",
+"normal"
+]
+},
+{
+"key": "Amulets",
+"title": "Amulets",
+"url": "https://poe2db.tw/us/Amulets",
+"fetched": "2026-11-23T13:57:45Z",
+"count": 315,
+"groups": [
+"breach_otherworldly",
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"essence",
+"normal",
+"perfect_essence"
+]
+},
+{
 "key": "Belts",
 "title": "Belts",
 "url": "https://poe2db.tw/us/Belts",
@@ -29,6 +68,1300 @@
 "essence",
 "normal",
 "perfect_essence"
+]
+},
+{
+"key": "Body_Armours_dex",
+"title": "Body Armours (Dex)",
+"url": "https://poe2db.tw/us/Body_Armours_dex",
+"fetched": "2026-11-23T15:07:40Z",
+"count": 472,
+"groups": [
+"bonded",
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"essence",
+"normal",
+"perfect_essence",
+"socketable",
+"soul"
+]
+},
+{
+"key": "Body_Armours_dex_int",
+"title": "Body Armours (Dex/Int)",
+"url": "https://poe2db.tw/us/Body_Armours_dex_int",
+"fetched": "2026-11-23T15:07:47Z",
+"count": 481,
+"groups": [
+"bonded",
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"essence",
+"normal",
+"perfect_essence",
+"socketable",
+"soul"
+]
+},
+{
+"key": "Body_Armours_int",
+"title": "Body Armours (Int)",
+"url": "https://poe2db.tw/us/Body_Armours_int",
+"fetched": "2026-11-23T15:07:42Z",
+"count": 468,
+"groups": [
+"bonded",
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"essence",
+"normal",
+"perfect_essence",
+"socketable",
+"soul"
+]
+},
+{
+"key": "Body_Armours_str",
+"title": "Body Armours (Str)",
+"url": "https://poe2db.tw/us/Body_Armours_str",
+"fetched": "2026-11-23T15:07:38Z",
+"count": 470,
+"groups": [
+"bonded",
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"essence",
+"normal",
+"perfect_essence",
+"socketable",
+"soul"
+]
+},
+{
+"key": "Body_Armours_str_dex",
+"title": "Body Armours (Str/Dex)",
+"url": "https://poe2db.tw/us/Body_Armours_str_dex",
+"fetched": "2026-11-23T15:07:44Z",
+"count": 483,
+"groups": [
+"bonded",
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"essence",
+"normal",
+"perfect_essence",
+"socketable",
+"soul"
+]
+},
+{
+"key": "Body_Armours_str_dex_int",
+"title": "Body Armours (Str/Dex/Int)",
+"url": "https://poe2db.tw/us/Body_Armours_str_dex_int",
+"fetched": "2026-11-23T15:07:49Z",
+"count": 530,
+"groups": [
+"bonded",
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"essence",
+"normal",
+"perfect_essence",
+"socketable",
+"soul"
+]
+},
+{
+"key": "Body_Armours_str_int",
+"title": "Body Armours (Str/Int)",
+"url": "https://poe2db.tw/us/Body_Armours_str_int",
+"fetched": "2026-11-23T15:07:45Z",
+"count": 479,
+"groups": [
+"bonded",
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"essence",
+"normal",
+"perfect_essence",
+"socketable",
+"soul"
+]
+},
+{
+"key": "Boots_dex",
+"title": "Boots (Dex)",
+"url": "https://poe2db.tw/us/Boots_dex",
+"fetched": "2026-11-23T15:07:33Z",
+"count": 447,
+"groups": [
+"bonded",
+"chronomancy",
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"essence",
+"normal",
+"perfect_essence",
+"socketable"
+]
+},
+{
+"key": "Boots_dex_int",
+"title": "Boots (Dex/Int)",
+"url": "https://poe2db.tw/us/Boots_dex_int",
+"fetched": "2026-11-23T15:07:36Z",
+"count": 453,
+"groups": [
+"bonded",
+"chronomancy",
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"essence",
+"normal",
+"perfect_essence",
+"socketable"
+]
+},
+{
+"key": "Boots_int",
+"title": "Boots (Int)",
+"url": "https://poe2db.tw/us/Boots_int",
+"fetched": "2026-11-23T15:07:34Z",
+"count": 443,
+"groups": [
+"bonded",
+"chronomancy",
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"essence",
+"normal",
+"perfect_essence",
+"socketable"
+]
+},
+{
+"key": "Boots_str",
+"title": "Boots (Str)",
+"url": "https://poe2db.tw/us/Boots_str",
+"fetched": "2026-11-23T15:27:35Z",
+"count": 447,
+"groups": [
+"bonded",
+"chronomancy",
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"essence",
+"normal",
+"perfect_essence",
+"socketable"
+]
+},
+{
+"key": "Boots_str_dex",
+"title": "Boots (Str/Dex)",
+"url": "https://poe2db.tw/us/Boots_str_dex",
+"fetched": "2026-11-23T15:27:37Z",
+"count": 457,
+"groups": [
+"bonded",
+"chronomancy",
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"essence",
+"normal",
+"perfect_essence",
+"socketable"
+]
+},
+{
+"key": "Boots_str_int",
+"title": "Boots (Str/Int)",
+"url": "https://poe2db.tw/us/Boots_str_int",
+"fetched": "2026-11-23T15:27:39Z",
+"count": 453,
+"groups": [
+"bonded",
+"chronomancy",
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"essence",
+"normal",
+"perfect_essence",
+"socketable"
+]
+},
+{
+"key": "Bows",
+"title": "Bows",
+"url": "https://poe2db.tw/us/Bows",
+"fetched": "2026-11-23T13:57:13Z",
+"count": 412,
+"groups": [
+"bonded",
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"destruction",
+"essence",
+"normal",
+"perfect_essence",
+"socketable"
+]
+},
+{
+"key": "Breach_Tablet",
+"title": "Breach Tablet",
+"url": "https://poe2db.tw/us/Breach_Tablet",
+"fetched": "2026-11-23T15:28:25Z",
+"count": 38,
+"groups": [
+"corruption_upgrade",
+"normal"
+]
+},
+{
+"key": "Bucklers",
+"title": "Bucklers",
+"url": "https://poe2db.tw/us/Bucklers",
+"fetched": "2026-11-23T13:57:31Z",
+"count": 364,
+"groups": [
+"bonded",
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"essence",
+"normal",
+"perfect_essence",
+"socketable"
+]
+},
+{
+"key": "Charms",
+"title": "Charms",
+"url": "https://poe2db.tw/us/Charms",
+"fetched": "2026-11-23T13:57:56Z",
+"count": 51,
+"groups": [
+"normal"
+]
+},
+{
+"key": "Claws",
+"title": "Claws",
+"url": "https://poe2db.tw/us/Claws",
+"fetched": "2026-11-23T13:56:59Z",
+"count": 349,
+"groups": [
+"bonded",
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"destruction",
+"normal",
+"socketable"
+]
+},
+{
+"key": "Coffer_Relic",
+"title": "Coffer Relic",
+"url": "https://poe2db.tw/us/Coffer_Relic",
+"fetched": "2026-11-23T15:08:04Z",
+"count": 45,
+"groups": [
+"corrupted",
+"corruption_upgrade",
+"normal"
+]
+},
+{
+"key": "Crossbows",
+"title": "Crossbows",
+"url": "https://poe2db.tw/us/Crossbows",
+"fetched": "2026-11-23T13:57:24Z",
+"count": 409,
+"groups": [
+"bonded",
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"destruction",
+"essence",
+"normal",
+"perfect_essence",
+"socketable"
+]
+},
+{
+"key": "Daggers",
+"title": "Daggers",
+"url": "https://poe2db.tw/us/Daggers",
+"fetched": "2026-11-23T13:42:14Z",
+"count": 409,
+"groups": [
+"bonded",
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"destruction",
+"essence",
+"normal",
+"perfect_essence",
+"socketable"
+]
+},
+{
+"key": "Delirium_Tablet",
+"title": "Delirium Tablet",
+"url": "https://poe2db.tw/us/Delirium_Tablet",
+"fetched": "2026-11-23T15:08:07Z",
+"count": 40,
+"groups": [
+"corruption_upgrade",
+"normal"
+]
+},
+{
+"key": "Diamond",
+"title": "Diamond",
+"url": "https://poe2db.tw/us/Diamond",
+"fetched": "2026-11-23T14:29:36Z",
+"count": 215,
+"groups": [
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"liquid",
+"normal"
+]
+},
+{
+"key": "Emerald",
+"title": "Emerald",
+"url": "https://poe2db.tw/us/Emerald",
+"fetched": "2026-11-23T14:29:40Z",
+"count": 139,
+"groups": [
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"liquid",
+"normal"
+]
+},
+{
+"key": "Expedition_Tablet",
+"title": "Expedition Tablet",
+"url": "https://poe2db.tw/us/Expedition_Tablet",
+"fetched": "2026-11-23T13:45:22Z",
+"count": 44,
+"groups": [
+"corruption_upgrade",
+"normal"
+]
+},
+{
+"key": "Flails",
+"title": "Flails",
+"url": "https://poe2db.tw/us/Flails",
+"fetched": "2026-11-23T13:57:11Z",
+"count": 409,
+"groups": [
+"bonded",
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"destruction",
+"essence",
+"normal",
+"perfect_essence",
+"socketable"
+]
+},
+{
+"key": "Foci",
+"title": "Foci",
+"url": "https://poe2db.tw/us/Foci",
+"fetched": "2026-11-23T13:57:34Z",
+"count": 381,
+"groups": [
+"bonded",
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"essence",
+"normal",
+"perfect_essence",
+"socketable"
+]
+},
+{
+"key": "Gloves_dex",
+"title": "Gloves (Dex)",
+"url": "https://poe2db.tw/us/Gloves_dex",
+"fetched": "2026-11-23T16:14:03Z",
+"count": 535,
+"groups": [
+"bonded",
+"corrupted",
+"corruption_upgrade",
+"decay",
+"desecrated",
+"essence",
+"marksman",
+"normal",
+"perfect_essence",
+"socketable"
+]
+},
+{
+"key": "Gloves_dex_int",
+"title": "Gloves (Dex/Int)",
+"url": "https://poe2db.tw/us/Gloves_dex_int",
+"fetched": "2026-11-23T15:07:31Z",
+"count": 545,
+"groups": [
+"bonded",
+"corrupted",
+"corruption_upgrade",
+"decay",
+"desecrated",
+"essence",
+"marksman",
+"normal",
+"perfect_essence",
+"socketable"
+]
+},
+{
+"key": "Gloves_int",
+"title": "Gloves (Int)",
+"url": "https://poe2db.tw/us/Gloves_int",
+"fetched": "2026-11-23T15:07:29Z",
+"count": 541,
+"groups": [
+"bonded",
+"corrupted",
+"corruption_upgrade",
+"decay",
+"desecrated",
+"essence",
+"marksman",
+"normal",
+"perfect_essence",
+"socketable"
+]
+},
+{
+"key": "Gloves_str",
+"title": "Gloves (Str)",
+"url": "https://poe2db.tw/us/Gloves_str",
+"fetched": "2026-11-23T16:14:04Z",
+"count": 541,
+"groups": [
+"bonded",
+"corrupted",
+"corruption_upgrade",
+"decay",
+"desecrated",
+"essence",
+"marksman",
+"normal",
+"perfect_essence",
+"socketable"
+]
+},
+{
+"key": "Gloves_str_dex",
+"title": "Gloves (Str/Dex)",
+"url": "https://poe2db.tw/us/Gloves_str_dex",
+"fetched": "2026-11-23T16:14:06Z",
+"count": 545,
+"groups": [
+"bonded",
+"corrupted",
+"corruption_upgrade",
+"decay",
+"desecrated",
+"essence",
+"marksman",
+"normal",
+"perfect_essence",
+"socketable"
+]
+},
+{
+"key": "Gloves_str_int",
+"title": "Gloves (Str/Int)",
+"url": "https://poe2db.tw/us/Gloves_str_int",
+"fetched": "2026-11-23T16:14:08Z",
+"count": 551,
+"groups": [
+"bonded",
+"corrupted",
+"corruption_upgrade",
+"decay",
+"desecrated",
+"essence",
+"marksman",
+"normal",
+"perfect_essence",
+"socketable"
+]
+},
+{
+"key": "Grasping_Mail",
+"title": "Grasping Mail",
+"url": "https://poe2db.tw/us/Grasping_Mail",
+"fetched": "2026-11-23T13:51:53Z",
+"count": 862,
+"groups": [
+"bonded",
+"breach_caster",
+"breach_minion",
+"breach_otherworldly",
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"essence",
+"normal",
+"perfect_essence",
+"socketable",
+"soul"
+]
+},
+{
+"key": "Helmets_dex",
+"title": "Helmets (Dex)",
+"url": "https://poe2db.tw/us/Helmets_dex",
+"fetched": "2026-11-23T15:07:51Z",
+"count": 485,
+"groups": [
+"berserking",
+"bonded",
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"essence",
+"normal",
+"perfect_essence",
+"socketable"
+]
+},
+{
+"key": "Helmets_dex_int",
+"title": "Helmets (Dex/Int)",
+"url": "https://poe2db.tw/us/Helmets_dex_int",
+"fetched": "2026-11-23T15:07:53Z",
+"count": 484,
+"groups": [
+"berserking",
+"bonded",
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"essence",
+"normal",
+"perfect_essence",
+"socketable"
+]
+},
+{
+"key": "Helmets_int",
+"title": "Helmets (Int)",
+"url": "https://poe2db.tw/us/Helmets_int",
+"fetched": "2026-11-23T16:20:23Z",
+"count": 472,
+"groups": [
+"berserking",
+"bonded",
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"essence",
+"normal",
+"perfect_essence",
+"socketable"
+]
+},
+{
+"key": "Helmets_str",
+"title": "Helmets (Str)",
+"url": "https://poe2db.tw/us/Helmets_str",
+"fetched": "2026-11-23T16:20:25Z",
+"count": 486,
+"groups": [
+"berserking",
+"bonded",
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"essence",
+"normal",
+"perfect_essence",
+"socketable"
+]
+},
+{
+"key": "Helmets_str_dex",
+"title": "Helmets (Str/Dex)",
+"url": "https://poe2db.tw/us/Helmets_str_dex",
+"fetched": "2026-11-23T16:20:27Z",
+"count": 498,
+"groups": [
+"berserking",
+"bonded",
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"essence",
+"normal",
+"perfect_essence",
+"socketable"
+]
+},
+{
+"key": "Helmets_str_int",
+"title": "Helmets (Str/Int)",
+"url": "https://poe2db.tw/us/Helmets_str_int",
+"fetched": "2026-11-23T16:20:29Z",
+"count": 485,
+"groups": [
+"berserking",
+"bonded",
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"essence",
+"normal",
+"perfect_essence",
+"socketable"
+]
+},
+{
+"key": "Incense_Relic",
+"title": "Incense Relic",
+"url": "https://poe2db.tw/us/Incense_Relic",
+"fetched": "2026-11-23T15:08:06Z",
+"count": 45,
+"groups": [
+"corrupted",
+"corruption_upgrade",
+"normal"
+]
+},
+{
+"key": "Inscribed_Ultimatum",
+"title": "Inscribed Ultimatum",
+"url": "https://poe2db.tw/us/Inscribed_Ultimatum",
+"fetched": "2026-11-23T13:56:52Z",
+"count": 31,
+"groups": [
+"normal"
+]
+},
+{
+"key": "Irradiated_Tablet",
+"title": "Irradiated Tablet",
+"url": "https://poe2db.tw/us/Irradiated_Tablet",
+"fetched": "2026-11-23T16:27:49Z",
+"count": 31,
+"groups": [
+"corruption_upgrade",
+"normal"
+]
+},
+{
+"key": "Life_Flasks",
+"title": "Life Flasks",
+"url": "https://poe2db.tw/us/Life_Flasks",
+"fetched": "2026-11-23T13:57:52Z",
+"count": 57,
+"groups": [
+"normal"
+]
+},
+{
+"key": "Mana_Flasks",
+"title": "Mana Flasks",
+"url": "https://poe2db.tw/us/Mana_Flasks",
+"fetched": "2026-11-23T13:57:55Z",
+"count": 57,
+"groups": [
+"normal"
+]
+},
+{
+"key": "One_Hand_Axes",
+"title": "One Hand Axes",
+"url": "https://poe2db.tw/us/One_Hand_Axes",
+"fetched": "2026-11-23T13:57:03Z",
+"count": 401,
+"groups": [
+"bonded",
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"destruction",
+"essence",
+"normal",
+"perfect_essence",
+"socketable"
+]
+},
+{
+"key": "One_Hand_Maces",
+"title": "One Hand Maces",
+"url": "https://poe2db.tw/us/One_Hand_Maces",
+"fetched": "2026-11-23T13:57:05Z",
+"count": 429,
+"groups": [
+"bonded",
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"destruction",
+"essence",
+"normal",
+"perfect_essence",
+"socketable"
+]
+},
+{
+"key": "One_Hand_Swords",
+"title": "One Hand Swords",
+"url": "https://poe2db.tw/us/One_Hand_Swords",
+"fetched": "2026-11-23T13:42:08Z",
+"count": 411,
+"groups": [
+"bonded",
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"destruction",
+"essence",
+"normal",
+"perfect_essence",
+"socketable"
+]
+},
+{
+"key": "Overseer_Tablet",
+"title": "Overseer Tablet",
+"url": "https://poe2db.tw/us/Overseer_Tablet",
+"fetched": "2026-11-23T16:48:10Z",
+"count": 39,
+"groups": [
+"corruption_upgrade",
+"normal"
+]
+},
+{
+"key": "Quarterstaves",
+"title": "Quarterstaves",
+"url": "https://poe2db.tw/us/Quarterstaves",
+"fetched": "2026-11-23T13:57:21Z",
+"count": 428,
+"groups": [
+"bonded",
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"destruction",
+"essence",
+"normal",
+"perfect_essence",
+"socketable"
+]
+},
+{
+"key": "Quivers",
+"title": "Quivers",
+"url": "https://poe2db.tw/us/Quivers",
+"fetched": "2026-11-23T13:57:27Z",
+"count": 148,
+"groups": [
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"essence",
+"normal",
+"perfect_essence"
+]
+},
+{
+"key": "Relics",
+"title": "Relics",
+"url": "https://poe2db.tw/us/Relics",
+"fetched": "2026-11-23T13:56:48Z",
+"count": 139,
+"groups": [
+"corrupted",
+"normal"
+]
+},
+{
+"key": "Rings",
+"title": "Rings",
+"url": "https://poe2db.tw/us/Rings",
+"fetched": "2026-11-23T13:57:46Z",
+"count": 394,
+"groups": [
+"breach_caster",
+"breach_minion",
+"breach_otherworldly",
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"essence",
+"normal",
+"perfect_essence"
+]
+},
+{
+"key": "Ritual_Tablet",
+"title": "Ritual Tablet",
+"url": "https://poe2db.tw/us/Ritual_Tablet",
+"fetched": "2026-11-23T17:01:42Z",
+"count": 40,
+"groups": [
+"corruption_upgrade",
+"normal"
+]
+},
+{
+"key": "Ruby",
+"title": "Ruby",
+"url": "https://poe2db.tw/us/Ruby",
+"fetched": "2026-11-23T14:29:38Z",
+"count": 115,
+"groups": [
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"liquid",
+"normal"
+]
+},
+{
+"key": "Sapphire",
+"title": "Sapphire",
+"url": "https://poe2db.tw/us/Sapphire",
+"fetched": "2026-11-23T14:29:42Z",
+"count": 123,
+"groups": [
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"liquid",
+"normal"
+]
+},
+{
+"key": "Sceptres",
+"title": "Sceptres",
+"url": "https://poe2db.tw/us/Sceptres",
+"fetched": "2026-11-23T13:57:07Z",
+"count": 321,
+"groups": [
+"bonded",
+"corrupted",
+"corruption_upgrade",
+"destruction",
+"essence",
+"normal",
+"perfect_essence",
+"socketable"
+]
+},
+{
+"key": "Seal_Relic",
+"title": "Seal Relic",
+"url": "https://poe2db.tw/us/Seal_Relic",
+"fetched": "2026-11-23T17:15:32Z",
+"count": 65,
+"groups": [
+"corrupted",
+"corruption_upgrade",
+"normal"
+]
+},
+{
+"key": "Shields_str",
+"title": "Shields (Str)",
+"url": "https://poe2db.tw/us/Shields_str",
+"fetched": "2026-11-23T15:07:55Z",
+"count": 382,
+"groups": [
+"bonded",
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"essence",
+"normal",
+"perfect_essence",
+"socketable"
+]
+},
+{
+"key": "Shields_str_dex",
+"title": "Shields (Str/Dex)",
+"url": "https://poe2db.tw/us/Shields_str_dex",
+"fetched": "2026-11-23T15:07:56Z",
+"count": 395,
+"groups": [
+"bonded",
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"essence",
+"normal",
+"perfect_essence",
+"socketable"
+]
+},
+{
+"key": "Shields_str_int",
+"title": "Shields (Str/Int)",
+"url": "https://poe2db.tw/us/Shields_str_int",
+"fetched": "2026-11-23T15:07:58Z",
+"count": 393,
+"groups": [
+"bonded",
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"essence",
+"normal",
+"perfect_essence",
+"socketable"
+]
+},
+{
+"key": "Spears",
+"title": "Spears",
+"url": "https://poe2db.tw/us/Spears",
+"fetched": "2026-11-23T13:57:09Z",
+"count": 433,
+"groups": [
+"bonded",
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"destruction",
+"essence",
+"normal",
+"perfect_essence",
+"socketable"
+]
+},
+{
+"key": "Staves",
+"title": "Staves",
+"url": "https://poe2db.tw/us/Staves",
+"fetched": "2026-11-23T13:57:15Z",
+"count": 443,
+"groups": [
+"bonded",
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"destruction",
+"essence",
+"normal",
+"perfect_essence",
+"socketable"
+]
+},
+{
+"key": "Strongbox",
+"title": "Strongbox",
+"url": "https://poe2db.tw/us/Strongbox",
+"fetched": "2026-11-23T13:41:06Z",
+"count": 175,
+"groups": [
+"normal"
+]
+},
+{
+"key": "Strongbox_2",
+"title": "Strongbox 2",
+"url": "https://poe2db.tw/us/Chest",
+"fetched": "2026-11-23T17:01:52Z",
+"count": 175,
+"groups": [
+"normal"
+]
+},
+{
+"key": "Talismans",
+"title": "Talismans",
+"url": "https://poe2db.tw/us/Talismans",
+"fetched": "2026-11-23T13:57:26Z",
+"count": 422,
+"groups": [
+"bonded",
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"destruction",
+"essence",
+"normal",
+"perfect_essence",
+"socketable"
+]
+},
+{
+"key": "Tapestry_Relic",
+"title": "Tapestry Relic",
+"url": "https://poe2db.tw/us/Tapestry_Relic",
+"fetched": "2026-11-23T17:29:28Z",
+"count": 50,
+"groups": [
+"corrupted",
+"corruption_upgrade",
+"normal"
+]
+},
+{
+"key": "Temple_Tablet",
+"title": "Temple Tablet",
+"url": "https://poe2db.tw/us/Temple_Tablet",
+"fetched": "2026-11-23T13:52:07Z",
+"count": 38,
+"groups": [
+"corruption_upgrade",
+"normal"
+]
+},
+{
+"key": "Time-Lost_Diamond",
+"title": "Time-Lost Diamond",
+"url": "https://poe2db.tw/us/Time-Lost_Diamond",
+"fetched": "2026-11-23T14:29:44Z",
+"count": 194,
+"groups": [
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"liquid",
+"normal"
+]
+},
+{
+"key": "Time-Lost_Emerald",
+"title": "Time-Lost Emerald",
+"url": "https://poe2db.tw/us/Time-Lost_Emerald",
+"fetched": "2026-11-23T14:29:48Z",
+"count": 121,
+"groups": [
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"liquid",
+"normal"
+]
+},
+{
+"key": "Time-Lost_Ruby",
+"title": "Time-Lost Ruby",
+"url": "https://poe2db.tw/us/Time-Lost_Ruby",
+"fetched": "2026-11-23T14:29:46Z",
+"count": 97,
+"groups": [
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"liquid",
+"normal"
+]
+},
+{
+"key": "Time-Lost_Sapphire",
+"title": "Time-Lost Sapphire",
+"url": "https://poe2db.tw/us/Time-Lost_Sapphire",
+"fetched": "2026-11-23T14:29:50Z",
+"count": 104,
+"groups": [
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"liquid",
+"normal"
+]
+},
+{
+"key": "Traps",
+"title": "Traps",
+"url": "https://poe2db.tw/us/Traps",
+"fetched": "2026-11-23T13:42:16Z",
+"count": 175,
+"groups": [
+"corruption_upgrade",
+"destruction",
+"normal",
+"socketable"
+]
+},
+{
+"key": "Trarthan_Cannon",
+"title": "Trarthan Cannon",
+"url": "https://poe2db.tw/us/Trarthan_Cannon",
+"fetched": "2026-11-23T13:51:38Z",
+"count": 417,
+"groups": [
+"bonded",
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"destruction",
+"essence",
+"normal",
+"perfect_essence",
+"socketable"
+]
+},
+{
+"key": "Two_Hand_Axes",
+"title": "Two Hand Axes",
+"url": "https://poe2db.tw/us/Two_Hand_Axes",
+"fetched": "2026-11-23T13:57:17Z",
+"count": 401,
+"groups": [
+"bonded",
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"destruction",
+"essence",
+"normal",
+"perfect_essence",
+"socketable"
+]
+},
+{
+"key": "Two_Hand_Maces",
+"title": "Two Hand Maces",
+"url": "https://poe2db.tw/us/Two_Hand_Maces",
+"fetched": "2026-11-23T13:57:19Z",
+"count": 425,
+"groups": [
+"bonded",
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"destruction",
+"essence",
+"normal",
+"perfect_essence",
+"socketable"
+]
+},
+{
+"key": "Two_Hand_Swords",
+"title": "Two Hand Swords",
+"url": "https://poe2db.tw/us/Two_Hand_Swords",
+"fetched": "2026-11-23T13:42:10Z",
+"count": 411,
+"groups": [
+"bonded",
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"destruction",
+"essence",
+"normal",
+"perfect_essence",
+"socketable"
+]
+},
+{
+"key": "Urn_Relic",
+"title": "Urn Relic",
+"url": "https://poe2db.tw/us/Urn_Relic",
+"fetched": "2026-11-23T15:08:00Z",
+"count": 65,
+"groups": [
+"corrupted",
+"corruption_upgrade",
+"normal"
+]
+},
+{
+"key": "Vase_Relic",
+"title": "Vase Relic",
+"url": "https://poe2db.tw/us/Vase_Relic",
+"fetched": "2026-11-23T17:43:52Z",
+"count": 45,
+"groups": [
+"corrupted",
+"corruption_upgrade",
+"normal"
+]
+},
+{
+"key": "Wands",
+"title": "Wands",
+"url": "https://poe2db.tw/us/Wands",
+"fetched": "2026-11-23T13:57:01Z",
+"count": 452,
+"groups": [
+"bonded",
+"corrupted",
+"corruption_upgrade",
+"desecrated",
+"destruction",
+"essence",
+"normal",
+"perfect_essence",
+"socketable"
+]
+},
+{
+"key": "Waystones_low_tier",
+"title": "Waystones low tier",
+"url": "https://poe2db.tw/us/Waystones_low_tier",
+"fetched": "2026-11-23T15:08:09Z",
+"count": 56,
+"groups": [
+"desecrated",
+"normal"
+]
+},
+{
+"key": "Waystones_mid_tier",
+"title": "Waystones mid tier",
+"url": "https://poe2db.tw/us/Waystones_mid_tier",
+"fetched": "2026-11-23T15:08:11Z",
+"count": 45,
+"groups": [
+"desecrated",
+"normal"
+]
+},
+{
+"key": "Waystones_top_tier",
+"title": "Waystones top tier",
+"url": "https://poe2db.tw/us/Waystones_top_tier",
+"fetched": "2026-11-23T15:08:13Z",
+"count": 46,
+"groups": [
+"desecrated",
+"normal"
 ]
 }
 ]

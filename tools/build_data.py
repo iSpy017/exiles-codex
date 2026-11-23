@@ -120,6 +120,11 @@ def main():
         if not page:
             continue
         key = re.sub(r"[^A-Za-z0-9_-]+", "_", fname.replace(".html.gz", ""))
+        attr = re.search(r"_((?:str|dex|int)(?:_(?:str|dex|int))*)$", key)
+        if attr:
+            page["title"] += " (" + "/".join(a.capitalize() for a in attr.group(1).split("_")) + ")"
+        elif re.search(r"_\d+$", key):
+            page["title"] += " " + key.rsplit("_", 1)[1]
         (out / f"{key}.json").write_text(json.dumps(page, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
         groups = sorted({m["g"] for m in page["mods"]})
         index.append({"key": key, "title": page["title"], "url": url, "fetched": fetched,

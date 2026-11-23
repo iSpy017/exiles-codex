@@ -3,6 +3,13 @@
 Status: done (tier 1, announcement text). Retire or merge once the 1.0 patch notes land (due ~1 week before 11 Dec per Exiled Bench citing Maxroll; not yet out as of 2026-11-23).
 Source for every entry unless noted: [Path of Exile 2 — Full release page](https://pathofexile2.com/fullrelease), tier 1, read 2026-11-23 via built-in browser (page needs JavaScript; plain fetch returns nothing).
 
+## Press release figures (GGG, 7 Nov 2026)
+- Claim: Full release brings 10 playable classes, 26 ascendancies, 320+ skills, 400+ uniques and 150+ endgame maps. Conquerors adds 70+ points of interest and 23 campaign battles. 40+ new and 70+ reworked uniques (110+ total). The release text introduces the Knight as a new Duelist ascendancy.
+- Version: 1.0 (announced) · Volatility: may-change
+- Source: GGG press release dated 7 Nov 2026, as mirrored on [PoE2DB Version_1.0.0](https://poe2db.tw/us/Version_1.0.0), tier 1 text via tier 2 mirror; PoE2DB corpus crawl 2026-11-23 ([[tools/poe2db-corpus]])
+- Confidence: confirmed (counts match the full-release page; 23 battles matches tier-5 reveal notes)
+- Notes: supports the official "70+ points of interest" over Maxroll's "17" → [[04-conflicts]]. The press release names the Knight while the full-release page shows the Master-at-Arms; together they confirm both Duelist ascendancies for 1.0.
+
 ## Launch basics
 - Claim: Full release on 11 Dec 2026. PoE2 becomes free to play that day. Five new Supporter Packs.
 - Version: 1.0 (announced) · Volatility: stable · Confidence: confirmed (also Exiled Bench, lfcarry — tier 5)
@@ -18,14 +25,14 @@ Source for every entry unless noted: [Path of Exile 2 — Full release page](htt
 - Notes: second Shadow ascendancy (Infiltrator per [[classes/index]]) isn't named on this page.
 
 ## New class: Duelist
-- Claim: Sword user. New mechanic Stances: Ready Stance empowers sword skills. Upgrades: stunning an enemy → Sand Stance (sand disks); parrying → Blood Stance (hits make enemies bleed). Two ascendancies "in 1.0"; the page names the Master-at-Arms.
-- Version: 1.0 (announced) · Volatility: may-change · Confidence: confirmed (tier 1)
-- Notes: this settles the launch-brief worry that Master-at-Arms might not be there on day one: the page presents it as a 1.0 ascendancy. Second one (Knight) isn't named here. See 04-conflicts.
+- Claim: Sword user. New mechanic Stances: Ready Stance empowers sword skills. Upgrades: stunning an enemy → Sand Stance (sand disks); parrying → Blood Stance (hits make enemies bleed). Two ascendancies "in 1.0"; the page names the Master-at-Arms, the press release names the Knight.
+- Version: 1.0 (announced) · Volatility: may-change · Confidence: confirmed (tier 1, two GGG texts)
+- Notes: settles the launch-brief worry that Master-at-Arms might not be there on day one. See 04-conflicts.
 
 ## Conquerors of Wraeclast: campaign layer
-- Claim: You join Varek and his mercenaries. During the campaign: over 70 new points of interest (troop recruitment, unique missions) and over 20 new campaign missions (defend villages, assault forts, break gates). Units have strengths and weaknesses; during a battle you push the enemy back line and kill their strongest fighters.
-- Version: 1.0 · Volatility: may-change · Confidence: single-source (tier 1)
-- Notes: Maxroll's 1.0 summary (search snippet only, tier 3) says "17 new points of interest" → logged in 04-conflicts. Reveal notes said 23 campaign battles (tier 5) vs "over 20" here: consistent.
+- Claim: You join Varek and his mercenaries. During the campaign: over 70 new points of interest (troop recruitment, unique missions) and over 20 new campaign missions (defend villages, assault forts, break gates); the press release says 23 campaign battles. Units have strengths and weaknesses; during a battle you push the enemy back line and kill their strongest fighters.
+- Version: 1.0 · Volatility: may-change · Confidence: confirmed (full-release page + press release)
+- Notes: Maxroll's 1.0 summary (search snippet only, tier 3) says "17 new points of interest" → logged in 04-conflicts.
 
 ## Conquerors: stronghold and factions (endgame)
 - Claim: In the endgame you build a stronghold with Varek. Choose one of three factions, each with its own fortress style and unique troops. 20+ buildings and upgrades per faction (examples: barracks, taverns, archery ranges, cultist housing).
@@ -51,7 +58,7 @@ Source for every entry unless noted: [Path of Exile 2 — Full release page](htt
 
 ## Items, gems, tree
 - Claim: 40+ new uniques; 70+ existing uniques reworked (mods, skills, visuals). New skills for classes that lacked them (examples: molten-forge mace slams, soul extraction for more damage). Support gems massively rebalanced (better recommendations, damage types more adaptable, underperformers buffed). Passive tree: hundreds of new stats; all jewel sockets moved into the clusters.
-- Version: 1.0 · Volatility: may-change · Confidence: confirmed (accountshark, tier 5, same figures)
+- Version: 1.0 · Volatility: may-change · Confidence: confirmed (press release + accountshark, same figures)
 - Notes: jewel-socket move → [[classes/passive-tree]] needs-1.0-check (already flagged).
 
 ## Class reworks shown
