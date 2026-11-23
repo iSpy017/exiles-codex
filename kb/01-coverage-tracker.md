@@ -1,6 +1,6 @@
 # Coverage Tracker
 
-Last updated: 2026-11-23 (batch 18: official 1.0 reveal page + quest rewards; endgame still deferred — 1.0 patch notes not out yet)
+Last updated: 2026-11-23 (own-build rows added; batch 18: official 1.0 reveal page + quest rewards; endgame still deferred — 1.0 patch notes not out yet)
 
 ## Core mechanics — kb/mechanics/
 | Topic | Doc | Status | Batch |
@@ -134,6 +134,9 @@ Last updated: 2026-11-23 (batch 18: official 1.0 reveal page + quest rewards; en
 | Levelling gear breakpoints | builds/levelling-gear.md | done (0.5.5.9; 1.0 adds bases; 1 conflict) | 16 |
 | Defensive layering checklist | builds/defence-checklist.md | done (0.5.5.9 mechanics; recheck 1.0) | 16 |
 | Ice Shot Deadeye levelling playbook (practice) | builds/ice-shot-deadeye-levelling-0.5.5.md | partial (0.5.5, single-source; open items listed in doc) | 17 |
+| Own build — Storm Shaman (design) | builds/storm-shaman.md | partial (1.0 skeleton; lock on patch day) | own |
+| Own build — Storm Shaman levelling | builds/storm-shaman-levelling.md | partial (Acts 1–4 0.5 data; Acts 5–6 pending) | own |
+| Own build — Storm Shaman pivot + maps | builds/storm-shaman-pivot.md | partial (costs TBD at launch) | own |
 
 ## Strategy — kb/strategy/
 | Topic | Doc | Status |

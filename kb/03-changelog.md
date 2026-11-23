@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-11-23 — Own build: Storm Shaman (1.0 skeleton) + tools
+- New docs (partial): builds/storm-shaman, storm-shaman-levelling, storm-shaman-pivot. Built from first principles at David's request — no build guides. Sources: library docs + PoE2DB corpus crawl 2026-11-23 (tier 2; gem pages Spark, Flame Wall, Tornado, Thunderstorm, Elemental Weakness, Arctic Armour, Apocalypse; Shaman, Oracle; Ritual; Conquerors of Wraeclast league/gems).
+- Decisions: farm = Ritual (provisional, re-rank with day 2–3 prices); excluded classes = Shadow + reworked (Mercenary, Infernalist, Blood Mage, Chayula); engine = Spark through Flame Wall (clear) → Tornado absorbing ignited ground + Thunderstorm + Elemental Weakness (Ritual/bosses); Druid → Shaman for Presence exposure and Reactive Growth.
+- New 1.0 data seen in the corpus: Elemental Penetration support (30% pen, hits only) on PoE2DB's Conquerors gems page — consistent with the reported merge of element penetration supports.
+- New tools docs indexed: tools/poe2db-corpus, tools/codex-app (Exile's Codex now on GitHub Pages, 87 item classes / 26,374 mods parsed from the crawl).
+- Tracker: added rows for the three build docs. Open: Flame Wall's ignited area counting as an "Elemental Ground Surface" for Tornado (verify in game); Shaman Rage cost vs Druidic Champion.
+
 ## 2026-11-23 — Batch 18 (official 1.0 reveal + quest rewards)
 - Checked: 1.0 patch notes not published yet (web search 2026-11-23); Exiled Bench (citing Maxroll) says they come ~1 week before 11 Dec. All `todo` rows are still deferred to them, so this batch filled partial docs.
 - New doc: strategy/official-1.0-reveal (done, tier 1) — pathofexile2.com/fullrelease read in full via the built-in browser. Covers F2P launch, A5+A6 = 24 areas / 18 bosses / 20+ Champion Rares, Shadow (Stealth, traps, Assassin), Duelist (Ready/Sand/Blood Stances, Master-at-Arms), Conquerors (70+ campaign POIs, 20+ missions, stronghold with 3 factions and 20+ buildings each, Reforging into fractured mods, Blood Lord storyline, up to 3 commanders running maps/Towers/Tablets, 100+ castle faction war after the storyline), 40+ new / 70+ reworked uniques, support rebalance, jewel sockets moved into clusters, Mercenary background reload.

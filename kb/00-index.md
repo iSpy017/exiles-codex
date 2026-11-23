@@ -1,6 +1,6 @@
 # KB Index
 
-Last updated: 2026-11-23 (batch 18: official 1.0 reveal page, quest rewards, Acts 5–6 counts; endgame still deferred to 1.0 notes)
+Last updated: 2026-11-23 (own build: Storm Shaman skeleton; tools docs; batch 18 before that)
 
 ## Control docs
 - kb/00-index.md — this map
@@ -116,6 +116,9 @@ Last updated: 2026-11-23 (batch 18: official 1.0 reveal page, quest rewards, Act
 - kb/builds/budget-tiers.md — working tier cut-offs (SSF / ≤5 div / 5–50 / 50+), sourced anchors, SSF craft baseline, divine drift, first-divine priorities
 - kb/builds/levelling-gear.md — weapon base drop levels by class, martial craft loop (11/16/28/33), caster +level mod breakpoints, boots MS tiers, campaign resist checkpoints
 - kb/builds/defence-checklist.md — 8-step layering checklist (res, chaos, pool, primary layer, recovery, avoidance, stun/ailments, DoT) linked to mechanics docs
+- kb/builds/storm-shaman.md — own build (no guides): Ritual farm pick, requirements, engine choice table, Spark + Flame Wall → Tornado/Thunderstorm, Druid Shaman nodes, defence plan, patch-day checklist (partial, 1.0 skeleton)
+- kb/builds/storm-shaman-levelling.md — gem timeline by quest reward, 0.5 support recs per gem, caster +level breakpoints, Acts 1–4 take/skip, ascendancy order (partial)
+- kb/builds/storm-shaman-pivot.md — map checkpoints, first 5 upgrades (5-div test), starter → Ritual pivot, respec gold, Ritual play notes, commanders as AFK lever (partial)
 
 ## Strategy
 - kb/strategy/official-1.0-reveal.md — tier-1 full-release page: launch/F2P, A5–6 counts, Shadow (Stealth, traps, Assassin), Duelist (Stances, Master-at-Arms), Conquerors (campaign missions/POIs, stronghold, Reforging → fractured mods, Blood Lord, commanders, 100+ castle faction war), uniques/supports/tree
@@ -129,6 +132,10 @@ Last updated: 2026-11-23 (batch 18: official 1.0 reveal page, quest rewards, Act
 - kb/strategy/league-lifecycle-pricing.md — late-league uncut spirit gem spike (with L8/L10/L12 level reqs) and crafting-currency prices (0.5.5 Forbidden Rites, volatile)
 - kb/strategy/practice-build-0.5.5.md — 0.5.5 practice pick for 1.0: Ice Shot Deadeye levelled on Lightning Arrow; what carries over, what won't, tweaks
 - kb/strategy/my-profile.md — player profile: hours, league type, goals, effort tier (super-sweat), farm leanings
+
+## Tools
+- kb/tools/poe2db-corpus.md — local text corpus of the full PoE2DB crawl (2026-11-23, 16,759 pages): where it lives, how Claude uses it, refresh plan
+- kb/tools/codex-app.md — Exile's Codex app (GitHub Pages + PWA): repo layout, refresh steps for KB and mod data
 
 ## Topic folders still empty (see tracker)
 endgame/ (deferred to 1.0 patch notes)
