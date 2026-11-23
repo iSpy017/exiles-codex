@@ -1,5 +1,19 @@
 # Changelog
 
+## 2026-11-23 — Batch 19 (damage-maths data for the 0.5.5 kb-test build)
+- Why: the kb-test build design found the KB had no per-level gem damage, support values, monster life or ascendancy node text. Filled from the local PoE2DB corpus ([[tools/poe2db-corpus]], tier 2, crawl 2026-11-23) and RePoE mods.json (tier 2, pulled 2026-11-23).
+- New docs:
+  - gems/cold-spell-gems (done) — Frostbolt (tier 5; full L1–23 damage table), Ice Nova, Arctic Armour, Herald of Ice (**needs a martial weapon** — not caster-usable), Elemental Weakness (curse has an enemy-level cap tied to gem level: L10 → 52, L14 → 72, L17 → 78).
+  - gems/caster-supports (done) — Unleash, Multishot I, Considered Casting (35% more), Cold Penetration (30%), Deliberation (20% more), Inexorable Critical I, Rapid Casting II, Cold Exposure, Cold Mastery.
+  - mechanics/monster-life (done) — base monster life per level (derived from 500+ PoE2DB monster pages: L15 134 · L31 637 · L53 3,102 · L65 6,555 · L79 24,852), rarity life multipliers (Magic ×2.48, Rare ×8, Unique ×29), worked boss life, monster resistance column order (Fire/Cold/Lightning/Chaos), Count Geonor 45% cold res.
+  - classes/sorceress-ascendancies (done for 0.5) — Stormweaver, Chronomancer, Disciple node text; Arcane Surge values.
+  - endgame/sekhemas (partial, 0.5 baseline) — Honour (= life + ES + ward), Honour Resistance cap 75/90, floors/bosses, afflictions, boons, pledges, unique relic text. Written early for the test; rest of endgame stays deferred to 1.0 notes.
+  - items/caster-mod-tiers (done) — % spell / % cold / cast speed / spell crit / ES mod ladders by item level (RePoE).
+- Conflicts: 1 resolved by game data (monster crit damage bonus = +30%); 2 new open (Cold Exposure trigger wording; Zarokh elemental res 15% vs 0%).
+- Still a gap: no explicit "increased adds / more multiplies" rule anywhere in the corpus or KB (only "these bonuses are multiplicative" for specific effects). Mod tier tables are not in the PoE2DB crawl (JavaScript-rendered) — use RePoE. Item base ES/damage values not yet captured. Exact Honour-loss % not published.
+- Known typo: mechanics/monster-life "PooE2DB" in the resistances section → fix on next edit.
+- Tracker + index updated. Dashboard CSV not regenerated (re-run kb/tools/md_to_csv.py).
+
 ## 2026-11-23 — Own build: Storm Shaman (1.0 skeleton) + tools
 - New docs (partial): builds/storm-shaman, storm-shaman-levelling, storm-shaman-pivot. Built from first principles at David's request — no build guides. Sources: library docs + PoE2DB corpus crawl 2026-11-23 (tier 2; gem pages Spark, Flame Wall, Tornado, Thunderstorm, Elemental Weakness, Arctic Armour, Apocalypse; Shaman, Oracle; Ritual; Conquerors of Wraeclast league/gems).
 - Decisions: farm = Ritual (provisional, re-rank with day 2–3 prices); excluded classes = Shadow + reworked (Mercenary, Infernalist, Blood Mage, Chayula); engine = Spark through Flame Wall (clear) → Tornado absorbing ignited ground + Thunderstorm + Elemental Weakness (Ritual/bosses); Druid → Shaman for Presence exposure and Reactive Growth.

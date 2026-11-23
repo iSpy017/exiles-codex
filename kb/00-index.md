@@ -1,6 +1,6 @@
 # KB Index
 
-Last updated: 2026-11-23 (own build: Storm Shaman skeleton; tools docs; batch 18 before that)
+Last updated: 2026-11-23 (batch 19: damage-maths data — cold gems, caster supports, monster life, Sorceress ascendancies, caster mod tiers, Sekhemas 0.5 baseline; own build Storm Shaman before that)
 
 ## Control docs
 - kb/00-index.md — this map
@@ -16,7 +16,7 @@ Last updated: 2026-11-23 (own build: Storm Shaman skeleton; tools docs; batch 18
 ## Mechanics — offence & ailments
 - kb/mechanics/damage-types-conversion.md — 5 damage types, mitigation per type, two-step conversion, overconversion, gain-as-extra (0.5.x)
 - kb/mechanics/hits-vs-dot.md — hit vs DoT, what skips DoT, ailment damage locked at the hit, ES bypass (0.5.5.9)
-- kb/mechanics/crit.md — crit chance/bonus basics, scaling order, lucky and bifurcated crits, monster crit conflict (0.5.x; needs-1.0-check: crit chance leaves the tree in 1.0)
+- kb/mechanics/crit.md — crit chance/bonus basics, scaling order, lucky and bifurcated crits, monster crit (+30%, resolved) (0.5.x; needs-1.0-check: crit chance leaves the tree in 1.0)
 - kb/mechanics/attack-cast-speed.md — weapon vs skill speed, skill speed additivity, action speed, Onslaught (partial)
 - kb/mechanics/area-projectiles.md — AoE definition, area-vs-radius, Presence 4 m, projectile behaviour order (partial)
 - kb/mechanics/accuracy.md — hit chance formula, 5% floor, distance penalty 2–9 m, Dex +8 accuracy, entropy (0.5.5.9)
@@ -27,6 +27,7 @@ Last updated: 2026-11-23 (own build: Storm Shaman skeleton; tools docs; batch 18
 - kb/mechanics/poison.md — 20%/s of phys+chaos, 2 s, explicit chance, stack limit 1 (0.5.5.9)
 - kb/mechanics/bleed.md — 15%/s of phys, 5 s, +100% moving/aggravated, Corrupted Blood separate (partial)
 - kb/mechanics/exposure-penetration.md — exposure −20%/4 s, rarity reduction, penetration hits-only and floors at 0% (0.5.5.9)
+- kb/mechanics/monster-life.md — base monster life per level (L15 134 … L79 24,852), rarity life ×2.48 / ×8 / ×29, worked boss life (Geonor → Arbiter), monster res column order, monster crit +30%, Power/Effectiveness (0.5.x, derived)
 
 ## Mechanics — defences
 - kb/mechanics/resistances.md — 75% default / 90% hard cap, campaign penalty −60% by endgame (0.5.x schedule, 1.0 check), monster res mods
@@ -56,6 +57,8 @@ Last updated: 2026-11-23 (own build: Storm Shaman skeleton; tools docs; batch 18
 - kb/gems/lineage-supports.md — can't engrave, drop-only, one copy each; full 0.5.5.9 list; 0.5.x price climb
 - kb/gems/socketing-limits.md — 9 skill slots, 2→5 support sockets (Jeweller's Lesser/Greater/Perfect = 3/4/5), +5 attribute per support, duplicate rules
 - kb/gems/meta-trigger.md — meta gem list by tier (engravable vs granted), trigger tag count
+- kb/gems/cold-spell-gems.md — per-level tables: Frostbolt (tier 5, L1–23), Ice Nova, Arctic Armour, Herald of Ice (martial weapon only), Elemental Weakness (enemy-level cap by gem level) (0.5.x)
+- kb/gems/caster-supports.md — Unleash, Multishot I, Considered Casting 35% more, Cold Penetration 30%, Deliberation 20% more, Inexorable Critical I, Rapid Casting II, Cold Exposure, Cold Mastery (0.5.x)
 
 ## Classes
 - kb/classes/index.md — 8 live classes / 22 ascendancies (0.5.5.9) with start attributes; 1.0 adds Shadow (Assassin, Infiltrator) + Duelist (Knight, Master-at-Arms) → 10 / 26 (Master-at-Arms day one confirmed tier 1, 2026-11-23)
@@ -63,6 +66,7 @@ Last updated: 2026-11-23 (own build: Storm Shaman skeleton; tools docs; batch 18
 - kb/classes/passive-tree.md — 0.5.5.9 baseline: 984 notables, 33 keystones (listed), 18 jewel sockets; attribute nodes (needs-1.0-check)
 - kb/classes/weapon-set-points.md — 24 (+1) from campaign, Books of Specialisation, Witchhunter Weapon Master (100)
 - kb/classes/respec.md — Hooded One / Doryani, full gold-per-point table L1–100, attribute-node switch = half (leaning), ascendancy refund (done)
+- kb/classes/sorceress-ascendancies.md — Stormweaver / Chronomancer / Disciple of Varashta node text (Arcane Surge, Now and Again 20% Repeat, Phased Form, ES nodes) (0.5.x)
 
 ## Items
 - kb/items/bases-implicits.md — what a base decides, base counts, culture tags, full ring/amulet/belt implicit lists with drop levels
@@ -76,6 +80,7 @@ Last updated: 2026-11-23 (own build: Storm Shaman skeleton; tools docs; batch 18
 - kb/items/uniques-index.md — 441 uniques by class count, how uniques work, sources, Common→Mythic tiers, boss-restricted list (partial, early-access tables)
 - kb/items/uniques-armour.md — unique names: body armour, helmet, gloves, boots, shield (0.5.5.9)
 - kb/items/uniques-other.md — unique names: weapons, off-hands, rings, amulets, belts, jewels, charms, flasks (0.5.5.9)
+- kb/items/caster-mod-tiers.md — % spell / % cold / cast speed / spell crit / ES mod ladders by item level for wand, staff, focus, amulet, ring, Int armour (RePoE 0.5.x)
 
 ## Crafting
 - kb/crafting/currency-index.md — every core orb with effect + drop level; Greater/Perfect min mod levels (35/50, 55/70); sockets/gem/utility/Vaal currency; PoE1 data leftovers
@@ -110,6 +115,9 @@ Last updated: 2026-11-23 (own build: Storm Shaman skeleton; tools docs; batch 18
 - kb/campaign/quest-rewards.md — per-quest gem/item rewards Acts 1–4 + Interludes + map quests (PoE2DB, 0.5), league-mechanic rewards, uncut gem level by drop level (done; rebuild at 1.0)
 - kb/campaign/levelling-routes.md — 0.5 navigation cues, speed benchmarks (<5 h twink), routing principles, XP penalty (partial)
 
+## Endgame (mostly deferred to 1.0 notes)
+- kb/endgame/sekhemas.md — 0.5 baseline: Honour (= life + ES + ward; resist cap 75/90), 4 floors + bosses, afflictions, boons, pledges, unique relic text, Zarokh (partial)
+
 ## Builds (0.5.x; rebuild on 1.0 patch day)
 - kb/builds/ice-shot-deadeye-levelling-0.5.5.md — act-by-act practice playbook: gems/supports by level, ascendancy order, gear breakpoints (11/16/28/33), per-act pickups, totals, post-campaign path (0.5.5, [ML]/[ME] single-source; open items listed)
 - kb/builds/starter-archetypes.md — 0.5 Mobalytics ascendancy tiers, Fubgun 0.5.5 starter tiers, recurring archetypes, 1.0 official rework list (Mercenary, Infernalist, Blood Mage, Chayula)
@@ -137,5 +145,5 @@ Last updated: 2026-11-23 (own build: Storm Shaman skeleton; tools docs; batch 18
 - kb/tools/poe2db-corpus.md — local text corpus of the full PoE2DB crawl (2026-11-23, 16,759 pages): where it lives, how Claude uses it, refresh plan
 - kb/tools/codex-app.md — Exile's Codex app (GitHub Pages + PWA): repo layout, refresh steps for KB and mod data
 
-## Topic folders still empty (see tracker)
-endgame/ (deferred to 1.0 patch notes)
+## Topic folders still mostly empty (see tracker)
+endgame/ (deferred to 1.0 patch notes; sekhemas.md is a 0.5 baseline)

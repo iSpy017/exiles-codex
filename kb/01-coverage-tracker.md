@@ -1,13 +1,13 @@
 # Coverage Tracker
 
-Last updated: 2026-11-23 (own-build rows added; batch 18: official 1.0 reveal page + quest rewards; endgame still deferred — 1.0 patch notes not out yet)
+Last updated: 2026-11-23 (batch 19: damage-maths data for the 0.5.5 kb-test — cold gems, caster supports, monster life, Sorceress ascendancies, caster mod tiers, Sekhemas 0.5 baseline; endgame otherwise still deferred — 1.0 patch notes not out yet)
 
 ## Core mechanics — kb/mechanics/
 | Topic | Doc | Status | Batch |
 |---|---|---|---|
 | Damage types & conversion | mechanics/damage-types-conversion.md | done (0.5.x; recheck 1.0) | 1 |
 | Hits vs damage over time | mechanics/hits-vs-dot.md | done (0.5.x; recheck 1.0) | 1 |
-| Critical strikes | mechanics/crit.md | needs-1.0-check (0.5.x; GGG says crit chance leaves the passive tree in 1.0; 1 conflict) | 1 |
+| Critical strikes | mechanics/crit.md | needs-1.0-check (0.5.x; GGG says crit chance leaves the passive tree in 1.0; monster crit conflict resolved by game data 2026-11-23) | 1 |
 | Attack & cast speed | mechanics/attack-cast-speed.md | partial (no dual-wield/base-rate formulas) | 1 |
 | Area of effect & projectiles | mechanics/area-projectiles.md | partial (area-vs-radius only tier 5) | 1 |
 | Accuracy | mechanics/accuracy.md | done (0.5.x; recheck 1.0; 1 conflict) | 1 |
@@ -34,6 +34,8 @@ Last updated: 2026-11-23 (own-build rows added; batch 18: official 1.0 reveal pa
 | Dodge roll | mechanics/dodge-roll.md | done (0.5.x; recheck 1.0) | 4 |
 | Weapon swap / weapon sets | mechanics/weapon-swap.md | done (0.5.x; points need 1.0 check) | 4 |
 | Skill combos & interactions | mechanics/skill-interactions.md | done (0.5.5.9 game data only) | 4 |
+| Monster life, rarity multipliers, monster res | mechanics/monster-life.md | done (0.5.x; derived from PoE2DB monster pages; Unique ×29 on boss page life is [INFERRED]; levels 57–64 / 75–78 missing) | 19 |
+| Damage formula (increased adds / more multiplies) | — | todo (not stated in KB or PoE2DB corpus; source from poe2wiki Damage page via browser) | 19 |
 
 ## Gems — kb/gems/
 | Topic | Doc | Status | Batch |
@@ -45,6 +47,9 @@ Last updated: 2026-11-23 (own-build rows added; batch 18: official 1.0 reveal pa
 | Lineage supports (list from tier 1–2) | gems/lineage-supports.md | done (0.5.5.9 list; drop sources partial) | 5 |
 | Socketing & gem slot limits | gems/socketing-limits.md | done (0.5.x; Jeweller's resolved, 1 conflict open) | 5 |
 | Meta & trigger gems | gems/meta-trigger.md | done (0.5.5.9; sources of tier-0 metas partial) | 5 |
+| Cold spell / cold persistent gems — per-level data | gems/cold-spell-gems.md | done (0.5.x; Frostbolt, Ice Nova, Arctic Armour, Herald of Ice, Elemental Weakness) | 19 |
+| Caster / cold support effect values | gems/caster-supports.md | done (0.5.x; 9 supports; 1 conflict) | 19 |
+| Per-gem damage tables for other skills | gems/<topic>.md | todo (pull on demand from PoE2DB corpus) | 19+ |
 
 ## Classes — kb/classes/
 | Topic | Doc | Status | Batch |
@@ -54,7 +59,8 @@ Last updated: 2026-11-23 (own-build rows added; batch 18: official 1.0 reveal pa
 | Passive tree: attributes, keystones, notables | classes/passive-tree.md | needs-1.0-check (0.5.5.9 baseline; tree overhauled in 1.0; jewel sockets move into clusters) | 6 |
 | Weapon-set passive points | classes/weapon-set-points.md | done (0.5.x; recheck 1.0) | 6 |
 | Respec costs | classes/respec.md | done (0.5.x; full L1–100 gold table; depth conflict open; recheck 1.0) | 6 |
-| Per-class / per-ascendancy docs | classes/<name>.md | todo (deferred to 1.0 notes; shortlist first) | 6+ |
+| Sorceress ascendancies — node text | classes/sorceress-ascendancies.md | done (0.5.x; node pathing/adjacency not captured; granted-skill text missing) | 19 |
+| Per-class / per-ascendancy docs (others) | classes/<name>.md | todo (deferred to 1.0 notes; shortlist first) | 6+ |
 
 ## Items — kb/items/
 | Topic | Doc | Status | Batch |
@@ -67,6 +73,7 @@ Last updated: 2026-11-23 (own-build rows added; batch 18: official 1.0 reveal pa
 | Sockets, runes, soul cores, idols | items/sockets-augments.md | partial (per-slot effect tables not listed) | 7 |
 | Corruption | items/corruption.md | done (0.5.x) | 7 |
 | Uniques by slot + drop restrictions | items/uniques-index.md, uniques-armour.md, uniques-other.md | partial (names done; mods + boss tables → batch 15) | 8 |
+| Caster & ES mod tiers by item level | items/caster-mod-tiers.md | done (0.5.x RePoE; base ES / weapon base damage not captured) | 19 |
 
 ## Crafting — kb/crafting/
 | Topic | Doc | Status | Batch |
@@ -120,10 +127,10 @@ Last updated: 2026-11-23 (own-build rows added; batch 18: official 1.0 reveal pa
 | Expedition | endgame/expedition.md | todo (deferred to 1.0 patch notes — David 2026-11-17) | 14 |
 | Abyss | endgame/abyss.md | todo (deferred to 1.0 patch notes — David 2026-11-17) | 14 |
 | Trial of Chaos | endgame/trial-of-chaos.md | todo (deferred to 1.0 patch notes — David 2026-11-17) | 14 |
-| Trial of the Sekhemas | endgame/sekhemas.md | todo (deferred to 1.0 patch notes — David 2026-11-17) | 14 |
+| Trial of the Sekhemas | endgame/sekhemas.md | partial (0.5 baseline written 2026-11-23 for the kb-test: Honour, floors, afflictions, boons, pledges, unique relics; Honour-loss % unpublished; full doc at 1.0) | 14, 19 |
 | Vaal temple (verify name/version) | endgame/vaal-temple.md | todo (deferred to 1.0 patch notes — David 2026-11-17) | 14 |
 | Conquerors league mechanic (1.0) | endgame/conquerors-league.md | todo (deferred to 1.0 patch notes; official pre-notes facts staged in strategy/official-1.0-reveal) | 14 |
-| Pinnacle bosses + keys/fragments | endgame/pinnacle-bosses.md | todo (deferred to 1.0 patch notes — David 2026-11-17) | 15 |
+| Pinnacle bosses + keys/fragments | endgame/pinnacle-bosses.md | todo (deferred to 1.0 patch notes — David 2026-11-17; 0.5 boss life now in mechanics/monster-life) | 15 |
 | Uber bosses | endgame/uber-bosses.md | todo (deferred to 1.0 patch notes — David 2026-11-17) | 15 |
 
 ## Builds — kb/builds/
@@ -137,6 +144,7 @@ Last updated: 2026-11-23 (own-build rows added; batch 18: official 1.0 reveal pa
 | Own build — Storm Shaman (design) | builds/storm-shaman.md | partial (1.0 skeleton; lock on patch day) | own |
 | Own build — Storm Shaman levelling | builds/storm-shaman-levelling.md | partial (Acts 1–4 0.5 data; Acts 5–6 pending) | own |
 | Own build — Storm Shaman pivot + maps | builds/storm-shaman-pivot.md | partial (costs TBD at launch) | own |
+| KB-test build (0.5.5) | builds/kb-test-<name>-0.5.5.md | todo (outline pending approval; data batch 19 done) | test |
 
 ## Strategy — kb/strategy/
 | Topic | Doc | Status |

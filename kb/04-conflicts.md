@@ -10,10 +10,23 @@ Format:
 Game-data tie-breaker: RePoE PoE2 export (keywords.json, game version 0.5.5.9) is the in-game keyword text extracted from the game files — tier 2, authoritative for its version. Where it agrees with one side, the conflict is marked "resolved by game data" but both original claims are kept here.
 
 ## Monster critical damage bonus
-- Doc: kb/mechanics/crit.md
+- Doc: kb/mechanics/crit.md, kb/mechanics/monster-life.md
 - Source A: [poe2wiki Critical hit](https://poe2wiki.net/wiki/Critical_hit), tier 2, 0.5.x, 2026-11-17 — monsters have 40% less bonus critical damage than players (implies +60%)
 - Source B: [Mobalytics Critical Hits](https://mobalytics.gg/poe-2/guides/critical-hits), tier 3, undated, 2026-11-17 — default monster crit damage bonus is 30%
-- Status: open. Game-data keyword text only gives the player default (+100%). Check monster stat data or poe2wiki version history.
+- Source C: [PoE2DB Monster](https://poe2db.tw/us/Monster) "Monster Default" table (base_critical_hit_damage_bonus 30) + boss pages showing "Critical Damage Bonus +30%", tier 2, crawl 2026-11-23
+- Status: resolved by game data (2026-11-23) in favour of B: +30%. A likely describes an older value.
+
+## Cold Exposure support: trigger condition
+- Doc: kb/gems/caster-supports.md
+- Source A: [PoE2DB Cold Exposure](https://poe2db.tw/us/Cold_Exposure) description line, tier 2, crawl 2026-11-23 — "causing it to inflict Exposure when it inflicts Freeze"
+- Source B: same page, stat line — "Supported Skills inflict Exposure for 8 seconds on Critical Hit with Cold Damage"
+- Status: open, leaning B (stat lines are the game's functional text; the description may be stale). Check the gem tooltip in game.
+
+## Zarokh, the Temporal elemental resistances
+- Doc: kb/endgame/sekhemas.md, kb/mechanics/monster-life.md
+- Source A: [PoE2DB Zarokh, the Temporal](https://poe2db.tw/us/Zarokh,_the_Temporal) stat block, tier 2, crawl 2026-11-23 — 15% fire / cold / lightning (sub-entries 30%)
+- Source B: same page, embedded Path of Building spectre data (Spectres.lua) — fire/cold/lightning/chaos resist 0
+- Status: open. PoB spectre data may omit boss-specific mods. Check in game (inspect with a res-reducing curse) or a newer PoB.
 
 ## Distance where accuracy penalty maxes out
 - Doc: kb/mechanics/accuracy.md
