@@ -25,9 +25,9 @@ Forms are Bear, Werewolf and Wyvern. Each form page lists its skills and a passi
 
 | Form | Passive bonus while in form | Skills listed (PoE2DB) |
 |---|---|---|
-| Bear | +10 Armour per level; 30% of Armour also applies to Elemental damage; 1 Endurance Charge per 15 Rage spent | Maul, Rampage, Furious Slam, Molten Crash, Fury of the Mountain, Ferocious Roar, Walking Calamity |
+| Bear | +10 Armour per level; 30% of your Armour counts against Elemental damage too; 1 Endurance Charge per 15 Rage spent | Maul, Rampage, Furious Slam, Molten Crash, Fury of the Mountain, Ferocious Roar, Walking Calamity |
 | Werewolf | Drops to all fours after moving briefly: 30% increased movement speed when not Sprinting | Shred, Pounce, Cross Slash, Lunar Assault, Lunar Blessing, Arctic Howl |
-| Wyvern | 50% increased Stun Threshold; 50% increased Elemental Ailment Threshold; 50% faster start of ES recharge | Rend, Rolling Magma, Wing Blast, Oil Barrage, Flame Breath, Devour |
+| Wyvern | Stun Threshold and Elemental Ailment Threshold each +50% (increased); ES recharge starts sooner (50% faster start) | Rend, Rolling Magma, Wing Blast, Oil Barrage, Flame Breath, Devour |
 
 - src: poe2db:Bear_Form, poe2db:Werewolf_Form, poe2db:Wyvern_Form, poe2db:Demon_Form, tier 2, crawl 2026-11-23
 - conf: confirmed (form pages and Keywords agree)
@@ -42,7 +42,7 @@ Each form skill says "Shapeshift into X"; using it puts you in that form. Maul a
 
 ## Talismans: the weapon
 @ v=0.5.x vol=may-change conf=confirmed date=2026-11-23
-Talismans are two-handed melee weapons needing Strength and Intelligence. They let you use Shapeshift skills of the Talisman's current form and give a basic attack for that form; you can change the Talisman's form at any time. Having a Talisman in the active weapon set puts you in its form; any skill barred from Shapeshift forms is then also barred while that Talisman is equipped. Triggered and Persistent skills keep working.
+Talismans are two-handed melee weapons needing Strength and Intelligence. While wielded, a Talisman unlocks the Shapeshift skills of whichever form it is set to, plus that form's own basic attack; the set form can be switched whenever you like. Having a Talisman in the active weapon set puts you in its form; any skill barred from Shapeshift forms is then also barred while that Talisman is equipped. Triggered and Persistent skills keep working.
 - src: poe2db:Keywords (Talismans entry), poe2db:Talismans, tier 2, crawl 2026-11-23
 - conf: confirmed (two pages)
 - notes: Form skill gems show "Requires: Talismans". Spirit Vessel and Feral Invocation carry hidden stats ignoring the Talisman requirement / form restriction ([Spirit Vessel](https://poe2db.tw/us/Spirit_Vessel), [Feral Invocation](https://poe2db.tw/us/Feral_Invocation)).
@@ -58,7 +58,7 @@ Spell gems checked (Thunderstorm, Volcano, Tornado) have no "Requires: Talismans
 
 ## Rage: base rules
 @ v=0.5.x vol=may-change conf=single-source date=2026-11-23
-Rage grants 1% more Attack damage per Rage. Default max 30. You lose 1 Rage every 0.2 s. Loss is paused 4 s after gaining Rage or after taking damage. Only one Hit per 0.5 s can grant Rage.
+Each point of Rage is worth 1% more Attack damage, up to 30 by default. Rage drains at 1 point per 0.2 s, but the drain stops for 4 s whenever you gain Rage or get hit. At most one Hit every 0.5 s can give Rage.
 - src: poe2db:Keywords, tier 2, crawl 2026-11-23
 - conf: single-source. Confirms [[mechanics/recovery]]; correction: the pause also triggers on taking damage (library said only "after 4 s").
 - notes: Rage can be Leeched (one instance at a time, removed when full; hits over 40,000 damage count as 40,000).

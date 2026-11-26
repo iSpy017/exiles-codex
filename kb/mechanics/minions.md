@@ -18,13 +18,13 @@ Minions are summoned allies. Persistent minions reserve spirit while active. Rev
 
 
 ## Companions
-@ v=0.5.5.9 vol=? conf=confirmed date=2026-11-17 missing=vol
+@ v=0.5.5.9 vol=may-change conf=confirmed date=2026-11-17 fill=vol
 Companions are stronger reviving minions; by default only one companion of any type at a time (e.g. a Druid wolf pack counts as one).
 
 - src: game keywords "Companions", tier 2; poe2wiki Reviving Minions [S721], tier 2; retrieved 2026-11-17
 
 ## Reforming / died vs killed / commands / offerings
-@ v=0.5.5.9 vol=? conf=single-source date=2026-11-17 missing=vol
+@ v=0.5.5.9 vol=may-change conf=single-source date=2026-11-17 fill=vol
 Dead persistent minions get a "Minion Reforming" timer and return when it ends. Minions that expire or are despawned "died" but weren't "killed" — kill-triggers only fire at 0 life. Command skills order one minion; Offering skills target a Skeleton to make a damageable Offering Spike with buffs.
 
 - src: game keywords "Minion Reforming", "Minion Death and Killing Minions", "Minion Commands", "Offering Skills", tier 2, retrieved 2026-11-17
@@ -61,7 +61,7 @@ Minion blocks show 0% on all four resistance cells for nearly all minions. The d
 
 
 ## Which player modifiers reach minions
-@ v=0.5.x vol=? conf=single-source date=2026-11-17 missing=vol
+@ v=0.5.x vol=may-change conf=single-source date=2026-11-17 fill=vol
 There is no general inheritance rule. Minions use their own modifiers; effects pass through only where an item/passive/gem says so. Examples (PoE2DB): Carrion Call — minion res = yours, more minion max life; Loyalty / Romira's Requital — minions take part of your hit damage, lower max life; Tangmazu's Thurible — companion evasion/deflection based on yours; Chober Chaber / Trenchtimbre — minion damage / attack-speed mods also affect you; Umbilicus Immortalis — your life flask also applies to minions.
 
 - src: poe2db:Minions, tier 2, retrieved 2026-11-17

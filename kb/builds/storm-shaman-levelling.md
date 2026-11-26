@@ -29,6 +29,7 @@ Rule for this doc: gem levels/rewards are 0.5.x; supports are PoE2DB's own per-g
 - Flame Wall: Prolonged Duration I / Fortress I / Zenith I → Fire Exposure (tier 4) → Ignite III (tier 5).
 - Tornado: Magnified Area I / Prolonged Duration I / Slow Potency → Swift Affliction II (tier 3) → Advancing Storm (tier 4).
 - Thunderstorm: Magnified Area I / Prolonged Duration I / Coursing Current → Lightning Penetration (tier 2 — merged into Elemental Penetration in 1.0) → Lightning Exposure.
+- Thunderstorm Drench cap: the gem can't Drench enemies above a level that rises with gem level (gem 16 → 76, gem 17 → 78; gem 18 shows 0, read as no cap [INFERRED] from the table — [[gems/elemental-caster-gems]]). Area 79–80 maps need gem 18+ (char 78) for Drench; level the gem before high maps.
 - Support level gates: support L2 from drop level 16 (Act 2 start), L3 from 33 (Act 3 start) ([[campaign/quest-rewards]]).
 
 - src: "Recommended Support Gems" on each gem page (poe2db:Spark, poe2db:Flame_Wall, poe2db:Tornado, poe2db:Thunderstorm), tier 2, crawl 2026-11-23

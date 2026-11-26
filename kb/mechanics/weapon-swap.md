@@ -28,7 +28,7 @@ Weapon set points let you allocate some of your existing passive points differen
 - Each set can have different spirit — see [[mechanics/spirit-reservation]].
 
 ## Things lost on swap
-@ v=0.5.5.9 vol=? conf=? date=2026-11-17 missing=vol,conf,src
+@ v=0.5.5.9 vol=may-change conf=? date=2026-11-17 fill=vol missing=conf,src
 - Combo is lost on weapon swap and only builds with the weapon the combo skill is bound to (game keywords "Combo").
 - Elemental Surges are tied to the current weapon and don't carry over (game keywords "Elemental Surges").
 

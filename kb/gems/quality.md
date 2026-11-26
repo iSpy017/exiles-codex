@@ -31,7 +31,7 @@ Every skill gem page in the crawl shows a single quality-bonus block per skill o
 - conf: single-source; "one block per stat set" reading [INFERRED] from block placement
 
 ## Corruption and quality
-@ v=0.5.x vol=? conf=confirmed date=2026-11-17 missing=vol
+@ v=0.5.x vol=may-change conf=confirmed date=2026-11-17 fill=vol
 Add quality (and sockets) before corrupting; you can't add quality to a corrupted gem.
 
 - src: Mobalytics High Level Gems [S070], tier 3; Maxroll Corruption outcomes [S039], tier 3; retrieved 2026-11-17

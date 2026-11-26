@@ -29,7 +29,7 @@ Flasks use charges; kills refill them: Normal = ½ monster Power, Magic = Power,
 - src: game keywords "Flasks", tier 2; poe2wiki Flask [S616], tier 2; retrieved 2026-11-17
 
 ## Example bases (life)
-@ v=0.5.x vol=? conf=confirmed date=2026-11-17 missing=vol
+@ v=0.5.x vol=may-change conf=confirmed date=2026-11-17 fill=vol
 - Greater 150 life / 4 s · Grand 260 / 5 s · Giant 340 / 4 s · Colossal 450 / 4 s; each 10 charges per use, 70–75 max.
 - src: poe2wiki List of life flasks [S701], tier 2; Mobalytics Flasks [S067] (Colossal 10/75), tier 3; retrieved 2026-11-17
 - conf: confirmed (Colossal); single-source others
@@ -37,7 +37,7 @@ Flasks use charges; kills refill them: Normal = ½ monster Power, Magic = Power,
 
 
 ## Charge generation / instant recovery on belts and uniques
-@ v=0.5.x vol=? conf=single-source date=2026-11-17 missing=vol
+@ v=0.5.x vol=may-change conf=single-source date=2026-11-17 fill=vol
 - Examples: belts with "Flasks gain X charges per second" (e.g. Fine Belt implicit 0.17/s), "Life Flasks used while on Low Life apply Recovery Instantly", "Life Recovery from Flasks also applies to Energy Shield", Overflowing Chalice buff (+2 charges/s, 30% increased recovery).
 - src: poe2wiki Fine Belt [S695], poe2wiki List of unique belts [S702], tier 2; game keywords "Overflowing Chalice"; retrieved 2026-11-17
 - conf: single-source each

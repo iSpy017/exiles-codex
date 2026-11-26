@@ -45,7 +45,7 @@ Persistent buffs and permanent minions granted by item implicits (e.g. sceptres)
 - src: poe2wiki Spirit [S636], tier 2, retrieved 2026-11-17
 
 ## Reservation efficiency
-@ v=0.5.x vol=? conf=single-source date=2026-11-17 missing=vol
+@ v=0.5.x vol=may-change conf=single-source date=2026-11-17 fill=vol
 "Spirit Reservation Efficiency" mods reduce what skills reserve; some are conditional (e.g. per 100 max life for buff skills).
 - src: PoE2DB Spirit [S111], tier 2, retrieved 2026-11-17
 - notes: link to the user's spirit-gem price lesson in [[strategy/league-lifecycle-pricing]].

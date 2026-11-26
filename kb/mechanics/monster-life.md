@@ -49,7 +49,7 @@ Magic monsters +148% life (×2.48), Rare +700% (×8), Unique +2,800% (×29), all
 
 
 ## Worked boss life ([INFERRED]: page life × 29 for Unique)
-@ v=0.5.x vol=? conf=? date=2026-11-23 fill=v missing=vol,conf
+@ v=0.5.x vol=may-change conf=inferred date=2026-11-23 fill=v,vol
 | Boss | Area (level) | Life % | Page life | ×29 Unique |
 |---|---|---|---|---|
 | Count Geonor | Ogham Manor (15) | 237% | 318 | ~9,200 |
@@ -61,7 +61,7 @@ Magic monsters +148% life (×2.48), Rare +700% (×8), Unique +2,800% (×29), all
 | The Arbiter of Ash | Burning Monolith (74) | 990% | 147,381 | ~4.3 M |
 | The Arbiter of Divinity | Origin Tower (79) | 990% | 246,035 | ~7.1 M |
 - src: PoE2DB pages above, tier 2, crawl 2026-11-23; ×29 column [INFERRED]
-- notes: Zarokh at 75 was ~3.6 M in the first version (it used an estimated ~16,500 base at L75); the explicit table gives 18,609 → ~4.0 M. [[builds/kb-test-frostbolt-chronomancer-damage-0.5.5]] still uses 3.6 M — its CP4 kill time rises ~12% (fix on next edit). Zarokh's level follows the Djinn Barya's area level ([[classes/ascendancy-trials]]) [INFERRED]. The Desperate Alliance relic makes Zarokh take 75% less damage (= ×4 effective life) and deal 100% more ([[endgame/sekhemas]]). Campaign boss stat blocks → [[campaign/boss-data-acts-1-2]], [[campaign/boss-data-acts-3-4]].
+- notes: Zarokh at 75 was ~3.6 M in the first version (it used an estimated ~16,500 base at L75); the explicit table gives 18,609 → ~4.0 M. [[builds/kb-test-frostbolt-chronomancer-damage-0.5.5]] now uses 4.0 M (updated 2026-11-27). Zarokh's level follows the Djinn Barya's area level ([[classes/ascendancy-trials]]) [INFERRED]. The Desperate Alliance relic makes Zarokh take 75% less damage (= ×4 effective life) and deal 100% more ([[endgame/sekhemas]]). Campaign boss stat blocks → [[campaign/boss-data-acts-1-2]], [[campaign/boss-data-acts-3-4]].
 
 
 ## Monster resistances
@@ -74,7 +74,7 @@ PoE2DB lists monster resistances in the order Fire / Cold / Lightning / Chaos (c
 
 
 ## Monster crit damage (resolves an open conflict)
-@ v=0.5.x vol=? conf=single-source date=2026-11-23 fill=v missing=vol
+@ v=0.5.x vol=may-change conf=single-source date=2026-11-23 fill=v,vol
 Monster default critical damage bonus = 30%.
 
 - src: poe2db:Monster "Monster Default" (base_critical_hit_damage_bonus 30); boss pages show "Critical Damage Bonus +30%", tier 2, crawl 2026-11-23

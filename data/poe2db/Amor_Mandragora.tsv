@@ -1,0 +1,25 @@
+# https://poe2db.tw/us/Amor_Mandragora · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Family	PhysicalDamage
+Domains	Item (1)
+GenerationType	Unique (3)
+Stats	local maximum added physical damage 23 — 27 Local local minimum added physical damage 16 — 20 Local
+Craft Tags	physical_damage Damage Physical Attack
+Family	Intelligence
+Domains	Item (1)
+GenerationType	Unique (3)
+Stats	additional intelligence 8 — 15 Global
+Craft Tags	Attribute
+Family	SkillEffectDuration
+Domains	Item (1)
+GenerationType	Unique (3)
+Stats	skill effect duration +% 10 — 15 Global
+Family	HinderingPresence
+Domains	Item (1)
+GenerationType	Unique (3)
+Stats	base enemies in your presence are hindered 1 — 1 Global
+Family	DruidicProwess
+Domains	Item (1)
+GenerationType	Unique (3)
+Stats	gain druidic prowess per X rage spent 20 — 20 Global
+Offer	Your Offer	Note
+Legacy of Amor Mandragora	1x Aldur's Legacy 1x Amor Mandragora |

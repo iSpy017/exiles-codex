@@ -76,7 +76,7 @@ Main doc → [[builds/kb-test-frostbolt-chronomancer-0.5.5]].
 
 ## Checkpoint 4 — Farm-ready, mid budget (5–50 div, [[builds/budget-tiers]]), Sekhemas area 75
 @ v=0.5.5 vol=may-change conf=? date=2026-11-23 fill=v,vol missing=src
-- Target: Zarokh at Barya area 75: base ~16,500 (interpolated 74→79, [INFERRED]) × 750% × 29 ≈ **3.6M**; res 15% (PoE2DB) or 0% (PoB) — conflict in [[conflicts]].
+- Target: Zarokh at Barya area 75: base 18,609 (L75 row of the base-life table, [[mechanics/monster-life]]) × 750% × 29 ≈ **4.0M** (first version used an interpolated ~16,500 → 3.6M); res 15% (PoE2DB) or 0% (PoB) — conflict in [[conflicts]].
 | Step | Low | High | Source |
 |---|---|---|---|
 | Gem L18 (char 78) + bought staff +5–6 cold (ilvl 55) + Cold Mastery + amulet +1–2 (ilvl 10/41) → L25 / L27 | 330 + 516.5 = **846.5** | 419.5 + 651.5 = **1,071** | cold-spell-gems, levelling-gear |
@@ -86,8 +86,8 @@ Main doc → [[builds/kb-test-frostbolt-chronomancer-0.5.5]].
 | Crit: staff 80–89% (ilvl 59) → 21.6–22.7% | ×1.22 | ×1.22 | caster-mod-tiers |
 | Casts/s: 1.25 × (1 + 38–43% + 6% + 20%) × 0.85 | 1.74 | 1.80 | caster-mod-tiers, caster-supports |
 | Now and Again | ×1.2 | ×1.2 | — |
-- Low **17,700 DPS**; High **33,800 DPS** → Zarokh **105–205 s**.
-- Desperate Alliance relic: Zarokh takes 75% less damage (×4 life) and deals 100% more ([[endgame/sekhemas]]) → 7–14 min. **Not viable at this budget** — sell those relics (creator did the same early: [[strategy/sekhemas-currency-farm]]).
+- Low **17,700 DPS**; High **33,800 DPS** → Zarokh **120–229 s** (4.0M ÷ DPS; was 105–205 s at 3.6M).
+- Desperate Alliance relic: Zarokh takes 75% less damage (×4 life) and deals 100% more ([[endgame/sekhemas]]) → 8–15 min. **Not viable at this budget** — sell those relics (creator did the same early: [[strategy/sekhemas-currency-farm]]).
 
 - conf: **low** — limited by staff ilvl 78+ availability, tree %, Zarokh area-75 life (interpolated), res conflict.
 

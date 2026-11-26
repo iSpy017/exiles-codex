@@ -49,7 +49,7 @@ Keywords state a cap of 3 charm slots. Belts provide them — most belts roll (1
 
 
 ## Charges and modifiers
-@ v=0.5.x vol=? conf=single-source date=2026-11-17 missing=vol
+@ v=0.5.x vol=may-change conf=single-source date=2026-11-17 fill=vol
 Ancient Blooms (Vivid) give 5 charges to all charms. Siphon auras remove 3 charges from enemies' ... (as PoE2DB words it, "from enemies") every 3 s within 3.6 m — [INFERRED] wording unclear; monster mod "Siphons Flask Charges" drains charm charges (keywords). Charm quality: each 1% = 1% increased charm duration.
 - Modifier families on items: reduced charges used (e.g. Ryslatha's Coil, Ornate Belt; Pragmatism removes cost), increased charges gained (Double Belt, Golden Obi, Bijouborne), increased duration (Soul Tether, Long Belt), increased effect on you (Woodland Aspect, Magnum Opus).
 - src: poe2db:Charms, tier 2, retrieved 2026-11-17; Mobalytics unique belts list, tier 3

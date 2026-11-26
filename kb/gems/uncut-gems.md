@@ -9,7 +9,7 @@ defaults: v=0.5.5.9
 Version: game data 0.5.5.9 (base_items.json + skill_gems.json, RePoE) + 0.5.x sources (researched 2026-11-17). Re-check at 1.0.
 
 ## Three kinds
-@ v=0.5.5.9 vol=? conf=confirmed date=2026-11-17 missing=vol
+@ v=0.5.5.9 vol=may-change conf=confirmed date=2026-11-17 fill=vol
 - Uncut Skill Gem — engraves an active skill gem, or levels one up.
 - Uncut Spirit Gem — engraves a persistent skill gem (buff/aura/herald/permanent minion/meta), or levels one up.
 - Uncut Support Gem — engraves a support gem.
@@ -33,7 +33,7 @@ Every cuttable gem has a tier; you need an uncut gem of at least that level to e
 - src: Poe-Vault Gems Guide [S661], tier 3; game data skill_gems.json `crafting_level` matches wiki tiers (Sniper's Mark 7, Fork 3, Pierce III 5), tier 2; retrieved 2026-11-17
 
 ## Active-skill tiers (game data counts, cuttable gems only)
-@ v=0.5.5.9 vol=? conf=confirmed date=2026-11-17 missing=vol
+@ v=0.5.5.9 vol=may-change conf=confirmed date=2026-11-17 fill=vol
 - Tier 1: 33 · 3: 30 · 4: 24 · 5: 31 · 7: 29 · 8: 15 · 9: 24 · 11: 22 · 13: 24 · 14: 13. (Tiers 2/6/10/12 unused.)
 - Spirit/persistent gems sit at tiers 4, 8 and 14 (plus a few minion/meta exceptions), e.g. heralds and Arctic Armour 4; Blink, Defiance Banner 8; Archmage, Berserk, Trinity, Cast on Critical 14.
 - src: RePoE skill_gems.json, tier 2; poe2wiki Engraving [S614] (persistent tiers IV/VIII/XIV), tier 2; retrieved 2026-11-17
@@ -42,7 +42,7 @@ Every cuttable gem has a tier; you need an uncut gem of at least that level to e
 
 
 ## Where gems come from
-@ v=0.5.5.9 vol=? conf=? date=2026-11-17 fill=v missing=vol,conf
+@ v=0.5.5.9 vol=may-change conf=? date=2026-11-17 fill=v,vol missing=conf
 - Uncut gems drop from monsters (level set by area) and quest rewards. Lineage supports can't be engraved — see [[gems/lineage-supports]].
 - src: Poe-Vault Gems Guide [S661], tier 3; poe2wiki Lineage [S699], tier 2.
 

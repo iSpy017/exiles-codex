@@ -28,7 +28,7 @@ Not faster than running; roll speed scales with movement speed. Distance roughly
 - conf: single-source (speed); [INFERRED] 3.7 m — verify
 
 ## Keystones that change it
-@ v=0.5.x vol=? conf=? date=2026-11-17 missing=vol,conf,src
+@ v=0.5.x vol=may-change conf=? date=2026-11-17 fill=vol missing=conf,src
 - Unwavering Stance: can't be light stunned, but no dodge roll or sprint. (game keywords; [poe2wiki Dodge roll](https://poe2wiki.net/wiki/Dodge_roll) also says it doubles stun threshold)
 - Bulwark: rolls no longer avoid damage, instead you take 30% less hit damage while rolling. ([poe2wiki Dodge roll](https://poe2wiki.net/wiki/Dodge_roll); [PoE2DB Dodge Roll](https://poe2db.tw/us/Dodge_Roll) for the 30%)
 

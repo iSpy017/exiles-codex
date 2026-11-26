@@ -16,7 +16,7 @@ Support gems have tiers 1–5; an Uncut Support Gem of level ≥ the tier is nee
 
 
 ## Counts (game data, engravable supports)
-@ v=0.5.5.9 vol=? conf=single-source date=2026-11-17 missing=vol
+@ v=0.5.5.9 vol=may-change conf=single-source date=2026-11-17 fill=vol
 - Tier 1: 84 · Tier 2: 107 · Tier 3: 109 · Tier 4: 80 · Tier 5: 71. Plus 191 tier-0 supports — lineage (88) and supports only granted by items/ascendancies, not engravable.
 - Uncut support gem L2 drops from item level 16, L3 33, L4 45, L5 55 → tier-5 supports only realistically from area ~55+ ([[gems/uncut-gems]]).
 
@@ -24,7 +24,7 @@ Support gems have tiers 1–5; an Uncut Support Gem of level ≥ the tier is nee
 - conf: single-source (game data); tier-0 interpretation [INFERRED] from lineage count = 88 of them.
 
 ## Categories
-@ v=0.5.x vol=? conf=single-source date=2026-11-17 missing=vol
+@ v=0.5.x vol=may-change conf=single-source date=2026-11-17 fill=vol
 Each support has a Category (e.g. Pierce, Chain, Fork, Herbalism); you can't socket two supports of the same category in one skill (so Pierce I + Pierce III can't share a skill).
 
 - src: poe2wiki Spirit Gem [S724], poe2wiki Pierce [S713], tier 2, retrieved 2026-11-17

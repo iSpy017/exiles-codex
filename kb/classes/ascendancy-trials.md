@@ -15,7 +15,7 @@ Each Ascension Trial completion that meets a difficulty step grants 2 ascendancy
 - src: poe2wiki Ascension trials [S603], poe2wiki Ascendancy classes [S602], tier 2; Maxroll Trials of Ascendancy [S036], tier 3; retrieved 2026-11-17
 
 ## The two trials and their keys
-@ v=0.5.x vol=? conf=confirmed date=2026-11-17 fill=v missing=vol
+@ v=0.5.x vol=may-change conf=confirmed date=2026-11-17 fill=v,vol
 - Trial of the Sekhemas (Act 2 desert): needs a Djinn Barya. Quest key Balbala's Barya drops from Balbala, the Traitor (Traitor's Passage, Act 2).
 - Trial of Chaos (Act 3): needs an Inscribed Ultimatum. Quest key from Xyclucian, the Chimera (Chimeral Wetlands, Act 3).
 - Later keys drop randomly from monsters; their area level and floor/round count decide what you get. Keys now show whether they'll award points.
@@ -37,7 +37,7 @@ Each Ascension Trial completion that meets a difficulty step grants 2 ascendancy
 
 
 ## Changing ascendancy
-@ v=0.5.x vol=? conf=confirmed date=2026-11-17 missing=vol
+@ v=0.5.x vol=may-change conf=confirmed date=2026-11-17 fill=vol
 To switch ascendancy you must refund all ascendancy points, then complete a trial at least as hard as the highest you've done.
 - Cost → [[classes/respec]].
 

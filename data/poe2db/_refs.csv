@@ -17,6 +17,7 @@ Align_Fate,True,48,classes/druid-ascendancies
 Altered_Collarbone,True,43,crafting/desecration
 Amanamus_Gaze,True,6,endgame/abyss;items/soul-core-idol-effects
 Amanamus_Tithe,True,12,endgame/abyss
+Amor_Mandragora,True,24,builds/storm-shaman
 Amulets,True,22,items/uniques-mods-jewellery
 An_Audience_With_The_King,True,8,endgame/ritual
 Ancient_Augment,True,0,items/soul-core-idol-effects
@@ -25,7 +26,7 @@ Ancient_Collarbone,True,6,crafting/desecration
 Ancient_Crisis_Fragment,True,8,endgame/pinnacle-bosses;endgame/uber-bosses
 Ancient_Jawbone,True,6,crafting/desecration
 Ancient_Rib,True,6,crafting/desecration
-Ancient_Rune_of_Animosity,True,0,items/rune-effects
+Ancient_Rune_of_Animosity,True,0,builds/storm-shaman;items/rune-effects
 Ancient_Rune_of_Control,True,0,items/rune-effects
 Ancient_Rune_of_Decay,True,4,items/rune-effects
 Apocalypse,True,49,builds/storm-shaman;classes/druid-ascendancies;mechanics/shapeshifting
@@ -112,7 +113,7 @@ Djinn_Barya,True,0,endgame/sekhemas
 Dodge_Roll,True,8,mechanics/dodge-roll
 Druid,True,39,classes/druid-ascendancies
 Druidic_Champion,True,0,mechanics/shapeshifting
-Druidic_Prowess,True,18,mechanics/shapeshifting
+Druidic_Prowess,True,18,builds/storm-shaman;mechanics/shapeshifting
 Eastern_Enigma_Chamber,True,9,endgame/uber-bosses
 Electrocute,True,15,mechanics/shock-electrocute
 Electrocute_Threshold,True,0,mechanics/shock-electrocute
@@ -161,7 +162,7 @@ Freezing_Salvo,True,55,gems/bow-attack-gems
 From_Nothing,True,41,endgame/ritual
 Frostbolt,True,55,gems/cold-spell-gems
 Furious_Slam,True,47,mechanics/shapeshifting
-Furious_Wellspring,True,0,mechanics/shapeshifting
+Furious_Wellspring,True,0,builds/storm-shaman;mechanics/shapeshifting
 Gas_Arrow,True,54,gems/bow-attack-gems
 Gemcutters_Prism,True,8,gems/quality;items/quality
 Glacial_Rune,True,10,items/rune-effects
@@ -208,6 +209,7 @@ Idol_of_the_Martyr,True,4,items/soul-core-idol-effects
 Idol_of_the_Pharisee,True,6,items/soul-core-idol-effects
 Idol_of_the_Sycophant,True,4,items/soul-core-idol-effects
 Ignite_I,True,11,gems/elemental-supports-damage
+Ignited_Ground,True,3,builds/storm-shaman
 Inscribed_Ultimatum,True,5,endgame/trial-of-chaos
 Inspiration_Rune,True,6,items/rune-effects
 Intelligence,True,46,mechanics/mana-costs
@@ -228,6 +230,7 @@ Kulemaks_Invitation,True,8,endgame/pinnacle-bosses
 Kulka_2C_Vaal_Thaumaturge,True,11,endgame/vaal-temple
 Kurgals_Gaze,True,4,crafting/desecration
 Kurgals_Leash,True,10,endgame/abyss;gems/lineage-drop-sources
+Legacy_of_Amor_Mandragora,True,2,builds/storm-shaman
 Legacy_of_the_Maji,True,58,endgame/ritual
 Lesser_Adept_Rune,True,4,items/rune-effects
 Lesser_Body_Rune,True,4,items/rune-effects
@@ -318,7 +321,7 @@ Prolonged_Duration_II,True,13,gems/elemental-supports
 Prolonged_Duration_III,True,2,gems/elemental-supports
 Quality,True,22,gems/quality;items/quality
 Quarterstaves,True,28,items/uniques-mods-weapons
-Quest,True,159,campaign/act-5;campaign/act-6
+Quest,True,159,campaign/act-5;campaign/act-6;campaign/quest-rewards
 Quivers,True,18,items/uniques-mods-quivers
 Rabid_Talisman,True,4,items/talismans
 Rage_I,True,12,mechanics/shapeshifting

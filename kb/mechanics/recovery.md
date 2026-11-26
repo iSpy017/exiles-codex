@@ -72,7 +72,7 @@ Rage gives 1% more attack damage per point. Default max 30; you lose 1 every 0.2
 - conf: single-source (game data)
 
 ## Checkpoints & wells
-@ v=0.5.5.9 vol=? conf=single-source date=2026-11-17 missing=vol
+@ v=0.5.5.9 vol=may-change conf=single-source date=2026-11-17 fill=vol
 Reaching a checkpoint refills life, mana, flasks and charms; town wells refill flasks and restore life and mana. Waypoints count as checkpoints for revival.
 - src: game keywords "Checkpoints", "Wells", tier 2, retrieved 2026-11-17
 - conf: single-source (game data)

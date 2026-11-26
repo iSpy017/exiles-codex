@@ -35,7 +35,7 @@ Gem level → required character level (persistent/skill gem example, Herald of 
 - So the [[strategy/league-lifecycle-pricing]] play (sell campaign L8, buy L10/L12) needs char 36 for L10 and 46 for L12.
 
 ## Uncut gems make gems at their own level
-@ v=0.5.x vol=? conf=confirmed date=2026-11-17 missing=vol
+@ v=0.5.x vol=may-change conf=confirmed date=2026-11-17 fill=vol
 An uncut gem engraves a gem at the uncut gem's level; the same uncut gems also level up existing gems. Higher uncut gems drop in higher-level areas.
 - Details in [[gems/uncut-gems]].
 

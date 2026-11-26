@@ -18,7 +18,7 @@ Honour is a resource used only inside the trial. A percentage of the damage you 
 
 
 ## Floors and bosses
-@ v=0.5.x vol=? conf=single-source date=2026-11-23 fill=src missing=vol
+@ v=0.5.x vol=may-change conf=single-source date=2026-11-23 fill=src,vol
 Four floors: Test of Strength (boss Rattlecage, the Earthbreaker), Test of Will (Terracotta Sentinels), Test of Cunning (Ashar, the Sand Mother), Test of Time (Zarokh, the Temporal). Higher-level Baryas unlock more floors.
 - Room types include timed (Hourglass), Ritual, Chalice, Escape, Gauntlet, Collapsing Cavern; reward rooms: Sacred Water fountains, Pledges, Honour shrines (Halani: restore + Sacred Water; Ahkeli: big restore + Affliction; Orbala: restore + Boon; Tabana: restore), Merchant, Bronze/Silver keys.
 - A 4-floor run = 32 rooms ([[classes/ascendancy-trials]], poe2wiki).
@@ -33,7 +33,7 @@ Four floors: Test of Strength (boss Rattlecage, the Earthbreaker), Test of Will 
 - Pledge to the Powerful: 50% less Honour lost in boss rooms, 100% more in non-boss rooms. Pledge to the Guileful: open 1 reward chest per room without a key (take phys damage). Pledge to the Deserted: 50% cheaper merchant, no Sacred Water from monsters.
 
 ## Unique relics (Zarokh drops)
-@ v=0.5.x vol=? conf=single-source date=2026-11-23 fill=src missing=vol
+@ v=0.5.x vol=may-change conf=single-source date=2026-11-23 fill=src,vol
 - The Last Flame (Incense): Zarokh drops Temporalis; damage taken can't be Absorbed; max Honour is 1; only Trials level 80+.
 - The Desperate Alliance (Vase): Zarokh drops Against the Darkness; **Zarokh deals 100% more damage and takes 75% less damage**.
 - The Burden of Leadership (Tapestry): Zarokh drops Sekhema's Resolve; rooms are unknown on the Trial Map.

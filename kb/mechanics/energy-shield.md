@@ -24,7 +24,7 @@ Lost ES starts recharging after a 4 s delay, at 12.5% of max ES per second. Taki
 
 
 ## Low ES
-@ v=0.5.5.9 vol=? conf=single-source date=2026-11-17 missing=vol
+@ v=0.5.5.9 vol=may-change conf=single-source date=2026-11-17 fill=vol
 "Low Energy Shield" = at or below 35% of max ES.
 
 - src: game keywords "Low Energy Shield", tier 2, retrieved 2026-11-17
@@ -39,14 +39,14 @@ ES leech recovers a % of hit damage over 1 s. Damage per hit counts up to 40,000
 
 
 ## ES protecting mana
-@ v=0.5.5.9 vol=? conf=single-source date=2026-11-17 missing=vol
+@ v=0.5.5.9 vol=may-change conf=single-source date=2026-11-17 fill=vol
 Under "Energy Shield Protecting Mana" (keystone-style effect), ES only absorbs damage that would hit mana.
 
 - src: game keywords, tier 2, retrieved 2026-11-17
 - conf: single-source (game data)
 
 ## Life Recharge (special)
-@ v=0.5.5.9 vol=? conf=inferred date=2026-11-17 missing=vol
+@ v=0.5.5.9 vol=may-change conf=inferred date=2026-11-17 fill=vol
 A "Life Recharge" keyword exists: lost life recharges like ES (12.5%/s after 4 s) and ES recharge-rate/start modifiers apply to it.
 
 - src: game keywords "Life Recharge", tier 2, retrieved 2026-11-17

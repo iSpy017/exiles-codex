@@ -48,3 +48,9 @@ Uniques sit in four hidden tiers — Common, Uncommon, Rare, Mythic; the tier is
 - vol: may-change (bosses moved in 0.5; Arbiter relocated, new apex Arbiter of Divinity per tier-5 guide)
 - conf: single-source per boss, mostly tier 3 and dated (early access)
 - notes: poe2wiki notes that since a later patch, difficulty-scaled bosses can drop all their uniques at any difficulty, with rare ones rarer at low difficulty. Re-verify every boss table against 1.0 in batch 15. Price relevance (Ingenuity, Prism of Belief, From Nothing) → economy batch.
+
+## 1.0 uniques already on PoE2DB (pre-release data)
+@ v=1.0 vol=may-change conf=single-source date=2026-11-23
+The 2026-11-23 crawl already has 16 unique pages whose release line reads "Conquerors of Wraeclast" (the 1.0 league): Siegebreaker, Abyssus, Agnar, Ako's Answer, Ashcaller, Benevolence, Elysium, Hand of Weeping Black, Kaom's Roots, Molten Tenet, Oro's Sacrifice, Riptide, The Leviathan, The Wanderer, The Watcher in the Dark, Windripper. 15 of the 16 pages carry a "Deferred" header line and none shows more than one mod line yet, so names and required levels are known but effects mostly aren't.
+- src: PoE2DB unique pages (release-version line), tier 2, crawl 2026-11-23; generated table data/uniques.csv (release column) by tools/gen_uniques.py
+- notes: pre-release datamined pages can change before launch; re-run tools/gen_uniques.py on the 1.0 crawl.

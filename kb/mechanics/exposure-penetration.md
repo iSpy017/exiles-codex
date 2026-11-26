@@ -32,7 +32,7 @@ Penetration makes your hits treat the target's resistance as lower by the stated
 - src: game keywords "Resistance Penetration", "Ignite", "Poison", tier 2; poe2wiki Poisons [S715], tier 2; poe2wiki Damage over Time [S685], tier 2; retrieved 2026-11-17
 
 ## Practical split
-@ v=0.5.5.9 vol=? conf=? date=2026-11-17 fill=v missing=vol,conf,src
+@ v=0.5.5.9 vol=may-change conf=? date=2026-11-17 fill=v,vol missing=conf,src
 [INFERRED] DoT/ailment builds want exposure, curses and other true resistance reduction (these lower the enemy's stat for all damage); pure hit builds can use penetration but it stops at 0% resistance.
 - Reason: follows directly from the two definitions above.
 

@@ -31,6 +31,6 @@ Totems with Embankment Auras buff players in range by totem type: Artillery Ball
 
 
 ## Ballistas
-@ v=0.5.5.9 vol=? conf=? date=2026-11-17 fill=v missing=vol,conf
+@ v=0.5.5.9 vol=may-change conf=single-source date=2026-11-17 fill=v,vol
 Ballista totems use projectile attacks.
 - src: game keywords "Ballista Totems", tier 2. single-source.

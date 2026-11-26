@@ -18,36 +18,41 @@ Reaching Clearfell → uncut skill L1. Treacherous Ground → uncut support (ilv
 
 
 ## Act 2 (0.5)
-@ v=0.5.x vol=may-change conf=single-source date=2026-11-23 missing=src
+@ v=0.5.x vol=may-change conf=single-source date=2026-11-23 fill=src
 Earning Passage → uncut skill L5 (ilvl 16) + 200 gold. The Trail of Corruption → uncut skill L7 (ilvl 23) + The Horn of the Vastiri. The City of Seven Waters → uncut support (ilvl 20) + 400 gold. A Theft of Ivory → uncut support (ilvl 20) + 400 gold. A Crown of Stone → uncut support (ilvl 21) + 400 gold. Tradition's Toll → Book of Specialisation + 2 passive points + 2 respec points. Ascent to Power → Urn Relic (ilvl 22) + Balbala's Barya.
 - notes: gold amounts for Theft of Ivory / Crown of Stone appear only in the second half of the page read. Balbala's Barya = Sekhemas entry → [[ascendancy-trials]].
+- src: poe2db:Quest (the doc's stated main source for the per-act tables), tier 2, retrieved 2026-11-23
 
 
 ## Act 3 (0.5)
-@ v=0.5.x vol=may-change conf=single-source date=2026-11-23 missing=src
+@ v=0.5.x vol=may-change conf=single-source date=2026-11-23 fill=src
 Legacy of the Vaal → Waystone (Tier 1). Unnamed Act 3 entry → choice of Rawhide or Linen Belt (ilvl 39). The Slithering Dead → choice of Venom Draught (Stone / Veil / Clarity) + Artificer's Orb. Treasures of Utzaal → uncut skill L11 (ilvl 41) + 1,000 gold + Artificer's Orb. Tribal Vengeance → choice of Thawing / Staunching / Antidote / Dousing / Grounding Charm (ilvl 38). The Trials of Chaos → Chimeral Inscribed Ultimatum.
 - notes: Chimeral Inscribed Ultimatum = first Trial of Chaos key (ascendancy route). Waystone T1 from Legacy of the Vaal is a free first map.
+- src: poe2db:Quest (the doc's stated main source for the per-act tables), tier 2, retrieved 2026-11-23
 
 
 ## Act 4 (0.5)
-@ v=0.5.x vol=may-change conf=single-source date=2026-11-23 missing=src
+@ v=0.5.x vol=may-change conf=single-source date=2026-11-23 fill=src
 The Search → Boat Charter. The Blind Beast → Sulphite Potion + uncut skill L12 (ilvl 48). Shrike Island → choice of Ruby / Sapphire / Topaz / Amethyst Ring (ilvl 45) + uncut skill L12. Whakapanu Island → uncut skill L12 (two listed). Abandoned Prison → choice of Amber / Jade / Lapis Amulet (ilvl 45) + uncut skill L12. Tribal Medicine → choice of Kaom's Lesson / Rakiata's Lesson. Dark Mists → Verisium Spikes, and a second entry with Mist-shrouded Tome + 7,500 gold + uncut skill L13 (ilvl 55). The Runeseeker → 300 Verisium. Trial of the Ancestors → Tattoo of Hinekora. Siren Pearl → Pearlescent Amulet (ilvl 46). Siege of Oriath → Book of Specialisation. Greater Blank Runes → choice of Greater Desert / Glacial / Storm / Iron / Body / Mind Rune. Tawhoa's Test → Dexterity or Lightning Tattoo of Tawhoa. Tasalio's Test → Intelligence or Cold Tattoo of Tasalio. Ngamahu's Test → Strength or Fire Tattoo of Ngamahu.
 - notes: Act 4 is the richest act for free gear (ring + amulet choices) and gives several L12 skill gems — useful for skill swaps. Act 4 trial count drops in 1.0 ([[dev-statements-1.0-balance]]).
+- src: poe2db:Quest (the doc's stated main source for the per-act tables), tier 2, retrieved 2026-11-23
 
 
 ## Interludes (0.5; filed as "Act 6" on PoE2DB)
-@ v=0.5.x vol=retired conf=single-source date=2026-11-23 missing=src
+@ v=0.5.x vol=retired conf=single-source date=2026-11-23 fill=src
 Clearing the Way and Howling Winds each give a Book of Specialisation. Unnamed entries give a ring choice (Ruby / Sapphire / Topaz / Prismatic, ilvl 55), an amulet choice (Amber / Jade / Lapis / Stellar, ilvl 55) and a gem choice (Ruby / Emerald / Sapphire, ilvl 55). Recruit the Ezomytes / Maraketh / Vaal list no reward.
 - v: 0.5.x — removed in 1.0
 - vol: retired at 1.0
 - notes: → [[interludes]]. PoE2DB "Act 5" quests are separate and look like unreleased 1.0 content → [[act-5]].
+- src: poe2db:Quest (the doc's stated main source for the per-act tables), tier 2, retrieved 2026-11-23
 
 
 ## Endgame/map quests (0.5, no act)
-@ v=0.5.x vol=may-change conf=single-source date=2026-11-23 missing=src
+@ v=0.5.x vol=may-change conf=single-source date=2026-11-23 fill=src
 Map-tier quests reward atlas books and fragments, e.g. Mysterious Altars → Ritual Tablet + Ritualistic Book of Knowledge I; The Grand Quest → Expedition Tablet + Runic Book of Knowledge I; The Shadow Trickster → Delirium Tablet + Deranging Book of Knowledge I; Keepers of the Flame → Breachstone + 5 Breach Splinters + Breach Tablet + more; Abyssal Power → Kulemak's Invitation; The Grand Expedition → four named Logbooks + Triskelion items.
 - vol: may-change (endgame deferred to 1.0 notes)
 - notes: parked here until endgame docs are written → endgame/atlas-passives.md.
+- src: poe2db:Quest (the doc's stated main source for the per-act tables), tier 2, retrieved 2026-11-23
 
 
 ## League-mechanic guaranteed rewards (0.4/0.5 campaign)

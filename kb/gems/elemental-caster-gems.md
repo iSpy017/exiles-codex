@@ -10,7 +10,7 @@ Status: done for 0.5.x. Re-check at 1.0 (support rebalance, tree overhaul). Thes
 Source for every table: the gem's PoE2DB page (poe2db:Spark, poe2db:Flame_Wall, poe2db:Tornado, poe2db:Thunderstorm), tier 2, local crawl 2026-11-23 ([[notes/tools/poe2db-corpus]]), extracted 2026-11-26. Confidence: single-source (game data). "Char" = required character level (same schedule as [[gems/gem-levels]]).
 
 ## Spark
-@ v=0.5.x vol=? conf=single-source date=2026-11-26 fill=v,conf,src missing=vol
+@ v=0.5.x vol=may-change conf=single-source date=2026-11-26 fill=v,conf,src,vol
 Tier 1 spell, cast time 0.70 s. Erratic projectiles that run along the ground until they hit or expire (2 s duration); projectiles fired together can hit the same target at most once per 0.66 s. **Consumes a Cold Infusion if available** to fire many icy sparks in a circle dealing cold and lightning.
 - | Gem | Char | Mana | Lightning dmg | Projectiles | Cold-infused cold dmg | Cold-infused projectiles |
   |---|---|---|---|---|---|---|
@@ -29,7 +29,7 @@ Tier 1 spell, cast time 0.70 s. Erratic projectiles that run along the ground un
 
 
 ## Flame Wall
-@ v=0.5.x vol=? conf=single-source date=2026-11-26 fill=v,conf,src missing=vol
+@ v=0.5.x vol=may-change conf=single-source date=2026-11-26 fill=v,conf,src,vol
 Tier 1 spell, cast time 1.00 s. Wall of fire in front of you that ignites everything in it; projectiles you or allies fire through it gain added fire damage; consumes a Lightning Infusion if possible to also add lightning to those projectiles.
 - | Gem | Char | Mana | Ignites as if dealing | Wall fire DPS | Length (m) | Duration (s) | Added fire to projectiles | Infused: added lightning |
   |---|---|---|---|---|---|---|---|---|
@@ -47,7 +47,7 @@ Tier 1 spell, cast time 1.00 s. Wall of fire in front of you that ignites everyt
 
 
 ## Tornado
-@ v=0.5.x vol=? conf=single-source date=2026-11-26 fill=v,conf,src missing=vol
+@ v=0.5.x vol=may-change conf=single-source date=2026-11-26 fill=v,conf,src,vol
 Tier 11 spell, cast time 0.75 s. Storm that pulls enemies in and deals physical damage over time; overlapping an Elemental Ground Surface absorbs that surface's debuff, applies it inside the Tornado and adds DoT of that element. Spell damage modifiers apply to the debuff's DoT. Radius 3 m, duration 8 s, limit 1 Tornado. Needs Str and Int.
 - | Gem | Char | Mana | Phys DPS | DPS per absorbed element |
   |---|---|---|---|---|
@@ -64,7 +64,7 @@ Tier 11 spell, cast time 0.75 s. Storm that pulls enemies in and deals physical 
 
 
 ## Thunderstorm
-@ v=0.5.x vol=? conf=single-source date=2026-11-26 fill=v,conf,src missing=vol
+@ v=0.5.x vol=may-change conf=single-source date=2026-11-26 fill=v,conf,src,vol
 Tier 5 spell, cast time 0.90 s, castable while moving. Storm (2.3 m radius, 12 s, limit 1) hits one target every 0.35 s, each enemy at most once per 0.5 s. Enemies inside are **Drenched**: 50% more chance to be shocked, 25% more freeze buildup, lingering 2 s. **Drench has an enemy-level cap tied to gem level.**
 - | Gem | Char | Mana | Lightning dmg | Can't Drench enemies above level |
   |---|---|---|---|---|
@@ -83,6 +83,6 @@ Tier 5 spell, cast time 0.90 s, castable while moving. Storm (2.3 m radius, 12 s
 
 
 ## Recommended supports (PoE2DB's own list, not tested)
-@ v=0.5.x vol=? conf=single-source date=2026-11-26 fill=v,conf missing=vol
+@ v=0.5.x vol=may-change conf=single-source date=2026-11-26 fill=v,conf,vol
 - Thunderstorm: Magnified Area I, Prolonged Duration I, Coursing Current (T1); Lightning Penetration, Shock Conduction, Living Lightning (T2); Magnified Area II, Prolonged Duration II, Elemental Discharge (T3); Lightning Exposure, Living Lightning II, Advancing Storm (T4); Expand, Lightning Mastery (T5).
 - src: PoE2DB Thunderstorm page, tier 2 · single-source. Use as a shortlist only ([[builds/storm-shaman-levelling]]).

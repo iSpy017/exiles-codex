@@ -66,7 +66,10 @@ for d, p in sorted(docs.items()):
         if l2 in ('index', 'coverage', 'sources', 'conflicts', 'changelog') or (root / (l2 + '.md')).exists(): continue
         if l2 not in docs and not names.get(pathlib.PurePosixPath(l2).name): err['broken [[link]]'].append(f'{d} → {l2}')
     for m in re.finditer(r'\[INFERRED\]:\s*$', body, re.M): err['[INFERRED]: with empty reason'].append(f'{d}: …{body[max(0, m.start() - 50):m.start()]!r}')
-    for m in INF_NOREASON_RE.finditer(body): warn['[INFERRED] tag at line end (check reason nearby)'].append(f'{d}: …{body[max(0, m.start() - 50):m.start()]!r}')
+    for sec in re.split(r'\n(?=## )', body):
+        tags = list(re.finditer(r'\[INFERRED\]([^\n]*)', sec))
+        reasoned = any(len(re.sub(r'^[\s:\-—–]+', '', t.group(1))) >= 8 for t in tags) or re.search(r'\b(my|mine|judgement|arithmetic|interpolat|derived|reading)\b[^\n]*\[INFERRED\]', sec)
+        if tags and not reasoned: warn['[INFERRED] with no reason in its section'].append(f"{d} «{sec.split(chr(10), 1)[0][3:43]}»")
 
 print(f'lint: {len(docs)} docs, {n_entries} entries, {sum(map(len, err.values()))} errors, {sum(map(len, warn.values()))} warnings')
 for lab, dd in (('ERROR', err), ('warn', warn)):

@@ -34,14 +34,16 @@ for i, l in enumerate(L):
         cat = m.group(1); continue
     if l and len(l) < 60 and l not in seen and is_unique(l):
         seen.add(l); rows.append(dict(category=cat, name=l, base=L[i + 1] if i + 1 < len(L) else ''))
-# pages that are uniques but not on the list page (e.g. Deferred / unlisted)
+# pages that are uniques but not on the list page (e.g. Deferred / unlisted):
+# header "X Unique", or header "X" twice followed by a base type seen on the list page plus unique-generation mods
+bases = {r['base'] for r in rows if r['base']}
 for u, f in idx.items():
     if not u.startswith('https://poe2db.tw/us/') or '/' in u[21:]: continue
-    t = (C / f).read_text(encoding='utf-8', errors='replace')
-    if 'GenerationType | Unique' not in t: continue
-    hs = t.split('\n')[4:7]
-    nm = next((h[:-7] for h in hs if h.endswith(' Unique')), None)
-    if nm and nm not in seen and pname(nm) == u[21:]:
+    t = (C / f).read_text(encoding='utf-8', errors='replace'); hs = t.split('\n')[4:8]
+    nm = next((h[:-7] for h in hs if h.endswith(' Unique') and pname(h[:-7]) == u[21:]), None)
+    if not nm and len(hs) >= 3 and hs[0] == hs[1] and hs[2] in bases and 'GenerationType | Unique' in t and pname(hs[0]) == u[21:]:
+        nm = hs[0]
+    if nm and nm not in seen:
         seen.add(nm); rows.append(dict(category='Unlisted', name=nm, base=''))
 uni, mods, missing = [], [], []
 for r in rows:

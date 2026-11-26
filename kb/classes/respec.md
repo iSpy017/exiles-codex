@@ -9,7 +9,7 @@ defaults: v=0.5.x
 Version: 0.5.x (researched 2026-11-17; full gold table added batch 17). Re-check at 1.0.
 
 ## Where
-@ v=0.5.x vol=? conf=confirmed date=2026-11-17 missing=vol
+@ v=0.5.x vol=may-change conf=confirmed date=2026-11-17 fill=vol
 Refund passives at The Hooded One (unlocked in Act 1 via the "Mysterious Shade" quest) or Doryani (Act 3 / hideout, endgame).
 
 - src: Mobalytics Dual Specialisation [S064], Maxroll Passive Tree [S041], tier 3; Digital Trends [S020], tier 5; retrieved 2026-11-17
@@ -27,14 +27,14 @@ Per-point cost depends on your character level. Table (gold per point): L1 15 ·
 - Respeccing 40 points: L60 ≈ 62,000 gold; L70 ≈ 85,800; L80 ≈ 116,000; L90 ≈ 203,000. [INFERRED]: points × table value; assumes flat per-point cost.
 
 ## Attribute node switch
-@ v=0.5.x vol=? conf=single-source date=2026-11-17 missing=vol
+@ v=0.5.x vol=may-change conf=single-source date=2026-11-17 fill=vol
 Changing which attribute a travel/attribute node gives costs half the gold of refunding one passive, with no need to refund nodes after it.
 
 - src: poe2wiki Passive Skill Tree [S710], tier 2, retrieved 2026-11-17 (earlier "full respec" claim → kb/04-conflicts.md)
 - conf: single-source; conflict open
 
 ## Ascendancy points
-@ v=0.5.x vol=? conf=single-source date=2026-11-17 missing=vol
+@ v=0.5.x vol=may-change conf=single-source date=2026-11-17 fill=vol
 Refunding ascendancy points costs 5× a normal passive refund (scales with level). To change ascendancy, refund all, then redo a trial at your highest difficulty.
 
 - src: Timesaver ascendancy respec [S647], tier 5 (boosting/currency site, lead only); poe2wiki Ascension Trial [S666], tier 2; retrieved 2026-11-17

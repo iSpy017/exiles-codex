@@ -2,7 +2,7 @@
 title: Classes & Ascendancies — Index
 status: done
 tracker_topic: "Class & ascendancy index (enumerate from tier 1–2)"
-tracker_note: "done (0.5.5.9 + 1.0 announced; Master-at-Arms day-one now confirmed tier 1 — apply on next edit; rebuild at 1.0)"
+tracker_note: "done (0.5.5.9 + 1.0 announced; Master-at-Arms day one confirmed tier 1; rebuild at 1.0)"
 defaults: v=0.5.5.9
 ---
 
@@ -32,11 +32,11 @@ Version: game data 0.5.5.9 + 1.0 announcements (researched 2026-11-17). 1.0 adds
 - src: Mixed News 1.0 reveal [S044] (Duelist = Knight + Master-at-Arms), PoE2DB Conquerors of Wraeclast league page [S106], tier 2; The Outer Haven [S738] (10 classes, 26 ascendancies), tier 5; poe2-1.0-launch-brief.md (Shadow = Assassin, Infiltrator; Master-at-Arms possibly not day one), project doc; retrieved 2026-11-17
 - v: 1.0 (announced, not patch notes)
 - conf: confirmed (class names, 26 total, Knight + Master-at-Arms); single-source (Shadow ascendancy names)
-- notes: launch brief flags Master-at-Arms day-one availability as uncertain (Steam vs press text) — still open in poe2-project-instructions.md. 1.0 class reworks named in reveal notes: Infernalist (Demon Magus, hounds), Acolyte of Chayula, Blood Mage (Exsanguinate, Corrupted Blood rework), Mercenary (background reload).
+- notes: Master-at-Arms is a day-one ascendancy: the tier-1 full-release page introduces two Duelist ascendancies for 1.0 and presents Master-at-Arms (PoE2 Full release page [S007], tier 1, 2026-11-23); the launch brief's doubt is resolved ([[conflicts]] — "Is Master-at-Arms available on day one?"). 1.0 class reworks named in reveal notes: Infernalist (Demon Magus, hounds), Acolyte of Chayula, Blood Mage (Exsanguinate, Corrupted Blood rework), Mercenary (background reload).
 
 
 ## Ascendancy node counts (game data, notables per ascendancy)
-@ v=0.5.5.9 vol=? conf=? date=2026-11-17 fill=v missing=vol,conf
+@ v=0.5.5.9 vol=may-change conf=single-source date=2026-11-17 fill=v,vol
 - Most ascendancies have 8 notables; larger trees: Smith of Kitava 18, Disciple of Varashta 17, Infernalist 11, Tactician 10, Stormweaver 10, Acolyte of Chayula 10, Amazon/Spirit Walker/Invoker/Blood Mage/Lich 9.
 - src: RePoE passive_skill_trees/Default.json, tier 2. single-source. Large counts usually mean choice nodes (e.g. Smith's weapon-forging options) — [INFERRED].
 
