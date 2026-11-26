@@ -1,0 +1,1599 @@
+{
+ "exported_at": "2026-11-26T21:51:38.141Z",
+ "source": "claude.ai project 01a1c486-d784-7673-a6ed-25f61380b49e",
+ "count": 199,
+ "docs": [
+  {
+   "path": "Witchhunter - Level 96 - Unnamed - poe.ninja.build",
+   "uuid": "01b0ecdb-1f3e-407f-b95a-5dd4d592d096",
+   "created_at": "2026-11-10T08:16:32.777309Z",
+   "chars": 14980,
+   "est_tokens": 6032,
+   "sha256": "9332a00627b56d1ad345df81ea501ac5d93ba8b8ef486a7704dd7bdb1aca319e"
+  },
+  {
+   "path": "claude/data/exchange-prices-runes-of-aldur.csv",
+   "uuid": "2c4a944b-63d2-43d5-b97a-2d2ca447416b",
+   "created_at": "2026-11-10T09:10:01.117925Z",
+   "chars": 6381,
+   "est_tokens": 3337,
+   "sha256": "574930b6216b9875248c2d4188835b97e7a558312e203cb6766966fd4d2b8acf"
+  },
+  {
+   "path": "claude/data/unique-prices-forbidden-rites.csv",
+   "uuid": "88154028-a9ea-46e1-b9f9-88cca53722d1",
+   "created_at": "2026-11-10T09:10:01.636619Z",
+   "chars": 5514,
+   "est_tokens": 2832,
+   "sha256": "0e7a1d97c4620f8883f510e6e9d6cd1535719396071d86dd545e5d0d19d6e094"
+  },
+  {
+   "path": "claude/data/watchlist-1.0.csv",
+   "uuid": "edcc2e51-a665-414d-ba53-f9c98dfe0c06",
+   "created_at": "2026-11-10T09:10:27.850899Z",
+   "chars": 3106,
+   "est_tokens": 1118,
+   "sha256": "aff565fca16752d4c05843a71c37accd66b862b2b3089de59fc9918a25506f95"
+  },
+  {
+   "path": "claude/flipping-strategy.md",
+   "uuid": "605708a7-c17c-41a2-9b7d-f2955e85c80b",
+   "created_at": "2026-11-10T09:10:28.697388Z",
+   "chars": 2707,
+   "est_tokens": 925,
+   "sha256": "36da85e51d650076691a019141a6edd77c5580e87874664bc7142b1c00c6686b"
+  },
+  {
+   "path": "claude/loot-filter-custom-top.filter",
+   "uuid": "f3e7b8bc-38f8-488d-8ef6-66671439f395",
+   "created_at": "2026-11-10T09:10:28.287163Z",
+   "chars": 5243,
+   "est_tokens": 1829,
+   "sha256": "6c1071463bd0a487ad32b1a9def0d255b4bd023193361d0c90e8eb35f2f3b1f0"
+  },
+  {
+   "path": "claude/reveal-notes-and-price-findings.md",
+   "uuid": "3f4089de-a7a7-40de-ac14-0e1abd1fcbea",
+   "created_at": "2026-11-10T09:10:29.142483Z",
+   "chars": 2535,
+   "est_tokens": 785,
+   "sha256": "68efca501c6999f138ccf246e6fc27eb37fe0e8f6b97a91d18b20fef2646b081"
+  },
+  {
+   "path": "claude/starter-decision-sheet.md",
+   "uuid": "f46d236d-d3c7-4c8e-99ac-670ec2a813e9",
+   "created_at": "2026-11-10T09:01:28.996067Z",
+   "chars": 3524,
+   "est_tokens": 1137,
+   "sha256": "bb3b245818ec8f13790e605c40ccda17ac0cf422f18e74542dc4427a0040e16f"
+  },
+  {
+   "path": "kb/00-index-2.md",
+   "uuid": "32c6d8f7-5cba-4022-bb08-c0d4c49edee9",
+   "created_at": "2026-11-26T08:35:26.653117Z",
+   "chars": 5515,
+   "est_tokens": 2002,
+   "sha256": "d07c70643283cc3c0cb78799f3fecc8e551614980a90d22400f55055eecaafd2"
+  },
+  {
+   "path": "kb/00-index.md",
+   "uuid": "bf9f8c9a-4872-4450-8bb4-60b5ef2201eb",
+   "created_at": "2026-11-17T17:10:41.576810Z",
+   "chars": 19247,
+   "est_tokens": 6787,
+   "sha256": "7c4690891ecaf961e16de686691434c8ecc1259a290172346a78fd2ed004d133"
+  },
+  {
+   "path": "kb/01-coverage-tracker.md",
+   "uuid": "9e420d5e-949c-4753-bf86-e3324b152ec8",
+   "created_at": "2026-11-17T17:10:41.241241Z",
+   "chars": 19185,
+   "est_tokens": 7224,
+   "sha256": "58da9a49c37985c60cd5b0d85a6cd8e6e17d67850b6af9e7c144eaee94bd41fc"
+  },
+  {
+   "path": "kb/02-sources.md",
+   "uuid": "6ad6e969-452b-4822-a4cc-7f26cbff23fb",
+   "created_at": "2026-11-17T17:10:41.926834Z",
+   "chars": 12917,
+   "est_tokens": 4639,
+   "sha256": "adf3a9293f278661dd6eed605614db4ab2f89e6b566239f6aa84552a2b8c8e91"
+  },
+  {
+   "path": "kb/03-changelog-2.md",
+   "uuid": "c1c573de-9b33-45cb-b750-9f94f56e389a",
+   "created_at": "2026-11-26T08:35:26.319501Z",
+   "chars": 7525,
+   "est_tokens": 2378,
+   "sha256": "44287f36e44e12b8b3f4387263551088ef9678e455bc47cde5559300e748b612"
+  },
+  {
+   "path": "kb/03-changelog.md",
+   "uuid": "152caffe-3877-48eb-a477-5ea3da83bee3",
+   "created_at": "2026-11-17T17:10:42.566083Z",
+   "chars": 22174,
+   "est_tokens": 7263,
+   "sha256": "78136a77174a564a6fb242445e5e41ad0885a10a07b7c13fb1c41575b327ec9d"
+  },
+  {
+   "path": "kb/04-conflicts-2.md",
+   "uuid": "b2deca23-c88d-4041-98c2-1da66289de68",
+   "created_at": "2026-11-26T08:35:25.930734Z",
+   "chars": 9656,
+   "est_tokens": 3505,
+   "sha256": "a2033b8b779cb5dbfc599eccd10bc64fe9635b557db200e650ec3e9526a2ead6"
+  },
+  {
+   "path": "kb/04-conflicts.md",
+   "uuid": "472dd5a0-7f89-4ac7-af3f-7a157996eb2f",
+   "created_at": "2026-11-17T17:10:43.127695Z",
+   "chars": 21071,
+   "est_tokens": 7435,
+   "sha256": "3bb2e1d5cd288527efa9de55afe7ef42574f2566982c7079ca61f03bbd19a9a1"
+  },
+  {
+   "path": "kb/builds/budget-tiers.md",
+   "uuid": "00313776-4ac2-4512-b63e-7e583ba32d42",
+   "created_at": "2026-11-17T19:16:05.836841Z",
+   "chars": 4289,
+   "est_tokens": 1450,
+   "sha256": "7d1509aec3fc043534d780f0550452f0c2ed9a842942231756b82229e528771e"
+  },
+  {
+   "path": "kb/builds/defence-checklist.md",
+   "uuid": "949db130-d9cb-4b0b-a0d5-750caaa9b216",
+   "created_at": "2026-11-17T19:16:04.761715Z",
+   "chars": 6051,
+   "est_tokens": 1894,
+   "sha256": "4f4172527905f4e4dd0c94652af6cc790f28637b7e0370e58f3f011e8ea42e8e"
+  },
+  {
+   "path": "kb/builds/ice-shot-deadeye-levelling-0.5.5.md",
+   "uuid": "6794a985-2f54-4990-bec9-48b7455ce6ef",
+   "created_at": "2026-11-17T19:58:06.799704Z",
+   "chars": 8816,
+   "est_tokens": 3228,
+   "sha256": "8ebea0a05153d9045e40b57f7660e79255288ed56939a4863212b9727b76dd29"
+  },
+  {
+   "path": "kb/builds/kb-test-frostbolt-chronomancer-0.5.5.md",
+   "uuid": "207df14c-124a-4901-9adb-1aac17f2707e",
+   "created_at": "2026-11-23T21:21:43.786812Z",
+   "chars": 10293,
+   "est_tokens": 3841,
+   "sha256": "8e1a37dde0ff899da7a458c65b987b9ea96a17bff2765a3764c514e1661f2cd9"
+  },
+  {
+   "path": "kb/builds/kb-test-frostbolt-chronomancer-damage-0.5.5.md",
+   "uuid": "34ec472c-7584-4b38-9edb-4affb875526f",
+   "created_at": "2026-11-23T21:20:57.099083Z",
+   "chars": 8621,
+   "est_tokens": 3663,
+   "sha256": "a9987227802a21df5883965de9b679490e7c9267faeb15a7bc23345c19f544f4"
+  },
+  {
+   "path": "kb/builds/levelling-gear.md",
+   "uuid": "76b1e0b3-abd7-4281-a24c-496ea2c4f6bd",
+   "created_at": "2026-11-17T19:16:04.314025Z",
+   "chars": 7988,
+   "est_tokens": 3002,
+   "sha256": "1b9a9bc8945859176efdff8b77c8801713c248f3d63f2d43a734e01009b9c086"
+  },
+  {
+   "path": "kb/builds/starter-archetypes.md",
+   "uuid": "d53f6499-7eae-4b8c-b98e-06b89b592620",
+   "created_at": "2026-11-17T19:16:05.266307Z",
+   "chars": 5727,
+   "est_tokens": 2047,
+   "sha256": "2f3f0ef2c48286c4729d93108cf4d1f82af0b0b57c98e57ec6a67ac45e973047"
+  },
+  {
+   "path": "kb/builds/storm-shaman-levelling.md",
+   "uuid": "288ed0ee-a493-41ed-bea7-cc68e7faabd3",
+   "created_at": "2026-11-23T20:42:22.568000Z",
+   "chars": 5206,
+   "est_tokens": 1911,
+   "sha256": "b7c154fd0fe64259d9ed778268572c0a91cb6b0fedcacbfe83b0bc24eb4f4514"
+  },
+  {
+   "path": "kb/builds/storm-shaman-pivot.md",
+   "uuid": "88651584-2ac9-4930-8b63-ea98d9db98fc",
+   "created_at": "2026-11-23T20:42:22.934796Z",
+   "chars": 4541,
+   "est_tokens": 1470,
+   "sha256": "0c3ad51432d545c790062ada6ce9ec162c0044fecead92d66343950a5ec0dc3a"
+  },
+  {
+   "path": "kb/builds/storm-shaman.md",
+   "uuid": "058b9c18-a4f9-441c-8998-a5bef83da693",
+   "created_at": "2026-11-23T20:41:30.653944Z",
+   "chars": 7930,
+   "est_tokens": 2618,
+   "sha256": "59bd1f6ce0cb4541882d0d49f2146ac8a4d1ae5004f1b53a4788da6af884f493"
+  },
+  {
+   "path": "kb/campaign/act-1.md",
+   "uuid": "a6fb9063-290d-4d32-bcf7-0ab62c3bc9b8",
+   "created_at": "2026-11-17T18:54:34.045287Z",
+   "chars": 3192,
+   "est_tokens": 1222,
+   "sha256": "fe2dc001cfc95d2f24a7e204541c44d341bd432a298e6998e409669c01f7cbbd"
+  },
+  {
+   "path": "kb/campaign/act-2.md",
+   "uuid": "f4835e74-8f48-4dce-8f35-9ed154000f62",
+   "created_at": "2026-11-17T18:54:34.674809Z",
+   "chars": 2724,
+   "est_tokens": 1038,
+   "sha256": "ed36d6e034a7e00c5b82241a6a2bbafc6686814150c92a1d05c03988d195c463"
+  },
+  {
+   "path": "kb/campaign/act-3.md",
+   "uuid": "f55f6d2b-f53c-4f60-bdd2-4173582675b2",
+   "created_at": "2026-11-17T18:54:35.160891Z",
+   "chars": 2257,
+   "est_tokens": 921,
+   "sha256": "416d775c5c7410057477d87c58d8b9c9db2789ecaba750d2fa7eea8055439872"
+  },
+  {
+   "path": "kb/campaign/act-4.md",
+   "uuid": "aaf22c13-e167-42a4-8009-a79a48af627a",
+   "created_at": "2026-11-17T19:02:47.845719Z",
+   "chars": 2710,
+   "est_tokens": 1041,
+   "sha256": "795bf45b48ca676d063bca110459d77cadeabcea24eb0e8c9ed4381a61646f95"
+  },
+  {
+   "path": "kb/campaign/act-5.md",
+   "uuid": "0cc631c0-e1fd-44c0-b394-b60ec4ae2270",
+   "created_at": "2026-11-17T19:02:48.682883Z",
+   "chars": 3020,
+   "est_tokens": 1074,
+   "sha256": "93733f104200e0107ac70a114237600c7de47c97ba5dc29f5b08a1094224da6b"
+  },
+  {
+   "path": "kb/campaign/act-6.md",
+   "uuid": "dbd93ca6-ff7a-4b8d-8475-e9527a68370d",
+   "created_at": "2026-11-17T19:02:49.045822Z",
+   "chars": 1919,
+   "est_tokens": 692,
+   "sha256": "6c381539e42a90787ccb99d58b860aca353c9e9d99677b9b883397391da350e1"
+  },
+  {
+   "path": "kb/campaign/area-levels.md",
+   "uuid": "78872371-c482-4724-8c72-be21d5c792f4",
+   "created_at": "2026-11-17T18:54:33.657474Z",
+   "chars": 2159,
+   "est_tokens": 827,
+   "sha256": "71c59235bedec495d553b4466e691d9317abc70ae1527674fb0865fa903d88cf"
+  },
+  {
+   "path": "kb/campaign/boss-data-acts-1-2.md",
+   "uuid": "d952a8f6-f7e6-499d-81ec-4c7efde290cf",
+   "created_at": "2026-11-25T18:25:51.880454Z",
+   "chars": 6925,
+   "est_tokens": 2716,
+   "sha256": "82204f96f3260d81d8293a39e24b6971ab3bd888468b4c15fdc3e2ad8df40b89"
+  },
+  {
+   "path": "kb/campaign/boss-data-acts-3-4.md",
+   "uuid": "19739d60-bf7e-422f-a324-ffda00621642",
+   "created_at": "2026-11-25T18:25:52.265304Z",
+   "chars": 4977,
+   "est_tokens": 2084,
+   "sha256": "e4e3f48c8d02bd317a9707cf197e65cdb7781ade6ddded6300922ae25c513118"
+  },
+  {
+   "path": "kb/campaign/interludes.md",
+   "uuid": "3dd3a34b-ae2e-45db-a434-d1dafb97a3f7",
+   "created_at": "2026-11-17T19:02:48.238073Z",
+   "chars": 2648,
+   "est_tokens": 1029,
+   "sha256": "5f2aa477e6286634c0dda806ca9d24a972c3a119c470def77655f87fecafe64c"
+  },
+  {
+   "path": "kb/campaign/levelling-routes.md",
+   "uuid": "925bf932-5e7b-4b05-91b7-b0b18fc37010",
+   "created_at": "2026-11-17T19:02:50.126524Z",
+   "chars": 2823,
+   "est_tokens": 935,
+   "sha256": "d46ae9e24cfe878782c2096e2edf86ce45db86aa48410c61662328d7c2b1df74"
+  },
+  {
+   "path": "kb/campaign/permanent-rewards.md",
+   "uuid": "a12718d4-4825-4aa2-808c-4a92e819c606",
+   "created_at": "2026-11-17T18:54:35.536718Z",
+   "chars": 3288,
+   "est_tokens": 1265,
+   "sha256": "3346d5a815c5a915799c0b796563de779a35228acf090b69741d604627d47b55"
+  },
+  {
+   "path": "kb/campaign/quest-rewards.md",
+   "uuid": "a357407b-de52-4cba-8de1-1f84b0a5a79c",
+   "created_at": "2026-11-17T19:02:49.440224Z",
+   "chars": 7310,
+   "est_tokens": 2729,
+   "sha256": "7b7f5384a38a56fd6eb49302fbea955a1dfd3063201f8c84c8a2843c9738e6a0"
+  },
+  {
+   "path": "kb/classes/ascendancy-trials.md",
+   "uuid": "29a6c815-7029-4e56-b693-c2e596096bb5",
+   "created_at": "2026-11-17T18:10:48.527203Z",
+   "chars": 3547,
+   "est_tokens": 1290,
+   "sha256": "0b3e2be0f8a6ef036b26bc7459b6954cc0debe8a3c4e6de2e6ace0e517d019b4"
+  },
+  {
+   "path": "kb/classes/druid-ascendancies.md",
+   "uuid": "f22520d6-9349-43c8-93f6-e1a84f20c85b",
+   "created_at": "2026-11-26T08:21:45.362160Z",
+   "chars": 10813,
+   "est_tokens": 3727,
+   "sha256": "f0a7d372194751e677648410f78b31c9f1594fb3cf0efd895abbb54310224866"
+  },
+  {
+   "path": "kb/classes/index.md",
+   "uuid": "d5fabd38-bce2-4058-9fb0-e1caeb023eb9",
+   "created_at": "2026-11-17T18:10:48.203980Z",
+   "chars": 3485,
+   "est_tokens": 1285,
+   "sha256": "c3fc957b18287482eea9313f19b4c31b62fe3f74634e3d4981ad65075480e6bb"
+  },
+  {
+   "path": "kb/classes/passive-tree.md",
+   "uuid": "c4d2718c-1df4-4c9a-b727-f15ec7bf1b13",
+   "created_at": "2026-11-17T18:10:48.870551Z",
+   "chars": 3076,
+   "est_tokens": 1020,
+   "sha256": "e2a4531aa479845d8495d5d775add33461729e6789bba45c60ef62e5af2fdad1"
+  },
+  {
+   "path": "kb/classes/respec.md",
+   "uuid": "0c3a64a6-607d-4358-80b3-599f7501fade",
+   "created_at": "2026-11-17T18:10:49.817037Z",
+   "chars": 3393,
+   "est_tokens": 1264,
+   "sha256": "b087b9280a95486254cd5a9a3d7ea2f378eaeeea45400eddecac14fa3e077208"
+  },
+  {
+   "path": "kb/classes/sorceress-ascendancies.md",
+   "uuid": "fabc8096-4f2a-459c-a77c-eb6e183b52be",
+   "created_at": "2026-11-23T20:56:38.108723Z",
+   "chars": 4228,
+   "est_tokens": 1399,
+   "sha256": "9985780fea5a3292edb04a9716b77239bae8ce2ff35fe1169285ee625ceb882e"
+  },
+  {
+   "path": "kb/classes/weapon-set-points.md",
+   "uuid": "130385b8-72f1-4460-9977-9a2005014eb8",
+   "created_at": "2026-11-17T18:10:49.382475Z",
+   "chars": 1642,
+   "est_tokens": 560,
+   "sha256": "7e2b9fad4781c869fbcafff4f517b925325eb8aa756a53ec488f90e0dbfcbafb"
+  },
+  {
+   "path": "kb/crafting/approach.md",
+   "uuid": "7eefa08b-5e7f-4f60-8cde-59e9a93a2330",
+   "created_at": "2026-11-17T18:26:58.703495Z",
+   "chars": 4269,
+   "est_tokens": 1447,
+   "sha256": "f362989979bf6cee5dcf643961a76782003eeb1d735502e08fb10175435ea87b"
+  },
+  {
+   "path": "kb/crafting/catalysts.md",
+   "uuid": "f589b298-e432-48a6-a75d-d7143e680c99",
+   "created_at": "2026-11-17T18:26:57.583432Z",
+   "chars": 2196,
+   "est_tokens": 767,
+   "sha256": "7117257db0eade24412e344d2d90cbb71b6a1100fd0f786cff7e600413db13ef"
+  },
+  {
+   "path": "kb/crafting/craft-costs.md",
+   "uuid": "9f07f5f9-bc10-4fb8-a913-c89fbbe4c60a",
+   "created_at": "2026-11-17T18:26:59.099282Z",
+   "chars": 3418,
+   "est_tokens": 1248,
+   "sha256": "3f2593e9fa47aa1ab34a8e9f91dc70cbf206a3b75f606d764b9468b89df252d8"
+  },
+  {
+   "path": "kb/crafting/currency-index.md",
+   "uuid": "7c485796-282f-4852-9209-3703a537342d",
+   "created_at": "2026-11-17T18:22:22.160960Z",
+   "chars": 5850,
+   "est_tokens": 1962,
+   "sha256": "4f15e4930b4c5db7326015c507bb1a634d3edea35ec53d60239d5a1518a3fe3c"
+  },
+  {
+   "path": "kb/crafting/desecration.md",
+   "uuid": "053c72fd-370a-41dc-933e-5f5c70fb1a3e",
+   "created_at": "2026-11-17T18:22:23.326155Z",
+   "chars": 8199,
+   "est_tokens": 2930,
+   "sha256": "cc0226db1bc287b6f3716a1216d407f57b11a805381999602e7a626dbcc31a31"
+  },
+  {
+   "path": "kb/crafting/essence-table-high.md",
+   "uuid": "c29ac2f7-3f6f-4743-a47a-7722b8b0b0d9",
+   "created_at": "2026-11-26T08:31:48.675201Z",
+   "chars": 6951,
+   "est_tokens": 2870,
+   "sha256": "bdc5d2e08d2f56253e2a62ca6ab913814f0dd549bcbe20a5d5c1e032952b86ea"
+  },
+  {
+   "path": "kb/crafting/essence-table.md",
+   "uuid": "14981244-d3d6-4963-984f-926b5db3bc64",
+   "created_at": "2026-11-26T08:31:48.351083Z",
+   "chars": 7037,
+   "est_tokens": 3029,
+   "sha256": "0f6066cae2afbe1940a914b8163220c59e35456b3d398a079633cbb88b0438ff"
+  },
+  {
+   "path": "kb/crafting/essences.md",
+   "uuid": "eecc31dc-1341-4a8b-ae3e-ca33ec0e60bc",
+   "created_at": "2026-11-17T18:22:22.975992Z",
+   "chars": 9254,
+   "est_tokens": 3263,
+   "sha256": "12a69436068e9c6d55a47363471e6e3f9411ad3e5cfeb9dc908deef190dffb23"
+  },
+  {
+   "path": "kb/crafting/league-crafting.md",
+   "uuid": "bc0af1d5-c9cd-482e-96b6-0db4b7153671",
+   "created_at": "2026-11-17T18:26:57.947936Z",
+   "chars": 5285,
+   "est_tokens": 1970,
+   "sha256": "06c638cbfc7a8144059a93ddde82142e1ddd6541cae3eae1e8b8d49e4f3e7241"
+  },
+  {
+   "path": "kb/crafting/omens.md",
+   "uuid": "aa21b49a-1c81-4b23-a93f-6e79d7db7914",
+   "created_at": "2026-11-17T18:22:22.571489Z",
+   "chars": 5370,
+   "est_tokens": 1815,
+   "sha256": "859d1ad2fa8ea3421b72c8d311838f0f381313288e4c321823aaf8de5712d086"
+  },
+  {
+   "path": "kb/crafting/recombinator.md",
+   "uuid": "9734ed52-fbae-40ea-a614-b538b98a0ff6",
+   "created_at": "2026-11-17T18:26:58.329992Z",
+   "chars": 1335,
+   "est_tokens": 482,
+   "sha256": "0ef352e3c2b21b16ad693b6384444af1db5a1c6db5b0c3bd80ee7a5873bbf178"
+  },
+  {
+   "path": "kb/economy/currency-exchange.md",
+   "uuid": "f496cca7-e761-48b9-8abd-41fee41a4f96",
+   "created_at": "2026-11-17T18:42:03.540198Z",
+   "chars": 4880,
+   "est_tokens": 1558,
+   "sha256": "2d081b6c46b138cf157ed70ec97e0481c929844381e77365bfd393b049275c1c"
+  },
+  {
+   "path": "kb/economy/gold.md",
+   "uuid": "8514a7a0-5594-4857-8410-ab202216b96d",
+   "created_at": "2026-11-17T18:42:04.322797Z",
+   "chars": 2636,
+   "est_tokens": 909,
+   "sha256": "d19693cb2366aa583403c3640dabcda4b0b972029b5fb729a811b06e5d00d2ea"
+  },
+  {
+   "path": "kb/economy/league-lifecycle.md",
+   "uuid": "4dc89b79-3210-47af-be33-dcd3c3b135d5",
+   "created_at": "2026-11-17T18:42:05.041330Z",
+   "chars": 3160,
+   "est_tokens": 1100,
+   "sha256": "9cab25ca4f2414deb6c98c5c915580ba8a29bbc19ffdf66cd4844f98f1ef7ec0"
+  },
+  {
+   "path": "kb/economy/price-sites.md",
+   "uuid": "688612d2-179a-48cd-9f44-357fa495bb34",
+   "created_at": "2026-11-17T18:42:04.678673Z",
+   "chars": 4412,
+   "est_tokens": 1361,
+   "sha256": "fa6b02e6506acb6cbd896901b47be87c8d31f507866818b352a4742e1d5a87f2"
+  },
+  {
+   "path": "kb/economy/price-snapshot-2026-11-17.md",
+   "uuid": "a4263c49-c76c-4704-b9b8-f4c8f7b3fbd6",
+   "created_at": "2026-11-17T18:52:17.946254Z",
+   "chars": 2896,
+   "est_tokens": 1315,
+   "sha256": "caa8a3e7d9f248f566695f3cbb157f3505ee2f9003237fae9fc22e1bff6fae8e"
+  },
+  {
+   "path": "kb/economy/trade-site.md",
+   "uuid": "20d23bac-09da-43d4-861d-3e7d46f4a92a",
+   "created_at": "2026-11-17T18:42:03.923602Z",
+   "chars": 3264,
+   "est_tokens": 1049,
+   "sha256": "f46f17df2ba4f46b483a85eecba18dceb6b93aff07fe480822723ad205c97b2e"
+  },
+  {
+   "path": "kb/economy/value-retention.md",
+   "uuid": "80c03717-ab17-42ef-b164-581f742dfba5",
+   "created_at": "2026-11-17T18:42:05.372543Z",
+   "chars": 1991,
+   "est_tokens": 641,
+   "sha256": "eb73071940b42be7208f1a81d48af56508d668ec2ba2e3c945d7c277b7d80047"
+  },
+  {
+   "path": "kb/endgame/abyss.md",
+   "uuid": "a7cc36a4-2acf-451b-b408-ed00727ec816",
+   "created_at": "2026-11-26T14:05:17.607983Z",
+   "chars": 7540,
+   "est_tokens": 2684,
+   "sha256": "3c1f2a6966531a9cddf9de3ca33f35f7f9560d8803a5416647d6639f5eab2c4e"
+  },
+  {
+   "path": "kb/endgame/atlas.md",
+   "uuid": "9ae9efa3-9471-4581-a8bf-751d44af8964",
+   "created_at": "2026-11-26T14:18:28.185382Z",
+   "chars": 7427,
+   "est_tokens": 2499,
+   "sha256": "ce95f2bdc517ac720a1058b17f0a53f1ed33386bd6789adb8d6636da598e44f8"
+  },
+  {
+   "path": "kb/endgame/breach.md",
+   "uuid": "bceba496-9174-4208-aa08-0a752cf13cb9",
+   "created_at": "2026-11-26T14:06:17.214119Z",
+   "chars": 8876,
+   "est_tokens": 3174,
+   "sha256": "28583f1f5f6654c595789a3576acb012541eab5f96eeb236e1f9f7e29dbb7b83"
+  },
+  {
+   "path": "kb/endgame/delirium.md",
+   "uuid": "cb05788a-bece-4a89-81f0-6c8d243bf596",
+   "created_at": "2026-11-26T14:06:17.662347Z",
+   "chars": 9931,
+   "est_tokens": 3426,
+   "sha256": "7496dad9682fc8cde0daac0310c61f395c013b574659715bd17ee1130fd55e8b"
+  },
+  {
+   "path": "kb/endgame/expedition.md",
+   "uuid": "be4b93b9-dbdf-43c7-a559-db15353dd223",
+   "created_at": "2026-11-26T14:09:28.363754Z",
+   "chars": 10845,
+   "est_tokens": 3899,
+   "sha256": "b6d9a0a1b7e0b2aee6e96fae276f810f07a6d4c4880f64fbd0bf5f4ee06b0b75"
+  },
+  {
+   "path": "kb/endgame/pinnacle-bosses-2.md",
+   "uuid": "9fd3662b-404f-44ed-9dde-effc17a135d1",
+   "created_at": "2026-11-26T14:13:08.026586Z",
+   "chars": 7592,
+   "est_tokens": 3094,
+   "sha256": "69a10a499ba3da75c71f7292623e42475864c1fc03f9920bf11952a8e1c6b919"
+  },
+  {
+   "path": "kb/endgame/pinnacle-bosses.md",
+   "uuid": "1892b2ba-79fe-4dc8-a97f-5462c792d341",
+   "created_at": "2026-11-26T14:13:07.548735Z",
+   "chars": 10044,
+   "est_tokens": 3672,
+   "sha256": "ca0e920b8669e614245eb5611a9a14fb993416d828d04ab6644476108bcfc969"
+  },
+  {
+   "path": "kb/endgame/ritual.md",
+   "uuid": "75ace804-7024-4558-93e0-10225b904752",
+   "created_at": "2026-11-26T14:09:27.931082Z",
+   "chars": 10165,
+   "est_tokens": 3599,
+   "sha256": "1f96c588cd88b039593cfc1de95e1e7f08aae7caf0c77bbde701af8cc1b9b364"
+  },
+  {
+   "path": "kb/endgame/sekhemas-2.md",
+   "uuid": "cb983341-8ebf-471d-ba6a-6247183a035d",
+   "created_at": "2026-11-26T14:21:04.066785Z",
+   "chars": 8291,
+   "est_tokens": 3096,
+   "sha256": "d705845316a00c2184551d46d5a16035ec9ca381aeba4feb5bb5e7f994b7d919"
+  },
+  {
+   "path": "kb/endgame/sekhemas.md",
+   "uuid": "f640ff5b-cd51-4b83-881b-582184f64ff2",
+   "created_at": "2026-11-23T20:57:02.605663Z",
+   "chars": 4694,
+   "est_tokens": 1546,
+   "sha256": "0685dc91efd515c721f5ddb0bf964c6c23936e0acc31fb5839bb63b365f3d80c"
+  },
+  {
+   "path": "kb/endgame/tablets.md",
+   "uuid": "b30a3e28-8c7a-408b-a441-2444fa093bd4",
+   "created_at": "2026-11-26T14:18:06.963316Z",
+   "chars": 7987,
+   "est_tokens": 2720,
+   "sha256": "0ef76d65683b81e52d52f9a7ff64986bccbea3810294394a0035c67d82aacf56"
+  },
+  {
+   "path": "kb/endgame/trial-of-chaos.md",
+   "uuid": "9538cd98-791a-482f-acef-867b90fc9bf9",
+   "created_at": "2026-11-26T14:05:20.273716Z",
+   "chars": 6079,
+   "est_tokens": 2200,
+   "sha256": "da5d04157c615cb94316d6e37e8fb9ef8bde36d77963d2b004a7f0f13903d09c"
+  },
+  {
+   "path": "kb/endgame/uber-bosses.md",
+   "uuid": "333636fa-7d84-413e-b8bf-0c9f3a87a518",
+   "created_at": "2026-11-26T14:13:08.455393Z",
+   "chars": 4835,
+   "est_tokens": 1669,
+   "sha256": "f44b18b4c7633baf4f69827956a8ef72721a5854956c39c8417450d52ce4b3dc"
+  },
+  {
+   "path": "kb/endgame/vaal-temple.md",
+   "uuid": "93af9396-9e1d-475c-9779-a1e35ff44935",
+   "created_at": "2026-11-26T14:21:04.495994Z",
+   "chars": 10687,
+   "est_tokens": 3898,
+   "sha256": "8652396a5ba50b87bdb6bb577b4348e063a461e4a6798801ef08d0e4a89f96b4"
+  },
+  {
+   "path": "kb/endgame/waystones.md",
+   "uuid": "660384f2-efd6-4d42-b92e-3c4c33705cc4",
+   "created_at": "2026-11-26T14:18:27.727278Z",
+   "chars": 6212,
+   "est_tokens": 2320,
+   "sha256": "7876170c163b20dd1aa9ed508acf83f36285ee32c221aa1b21ee4f86862d57cf"
+  },
+  {
+   "path": "kb/gems/bow-attack-gems-2.md",
+   "uuid": "83e5a607-1fd9-41a5-be7f-5b841e1285fa",
+   "created_at": "2026-11-26T08:22:33.348064Z",
+   "chars": 7132,
+   "est_tokens": 3016,
+   "sha256": "27bff710ff7bbd07cf8f5bf70b76e191a8a22249302168e7a67e423f4e2d638a"
+  },
+  {
+   "path": "kb/gems/bow-attack-gems-3.md",
+   "uuid": "a7debb0f-9f3e-4fbc-bf52-79b4107b91e2",
+   "created_at": "2026-11-26T08:27:12.487764Z",
+   "chars": 6762,
+   "est_tokens": 2786,
+   "sha256": "77b6fa648478a6a0924dff86e8c2f2abc0dc2626124586fcba04c46ed8762e1a"
+  },
+  {
+   "path": "kb/gems/bow-attack-gems-4.md",
+   "uuid": "5993a0d8-a25f-4fba-a1bb-d240d3019f97",
+   "created_at": "2026-11-26T08:27:12.883111Z",
+   "chars": 7236,
+   "est_tokens": 3099,
+   "sha256": "5dfcfee832c450554e3bc139e136a860476862841dc510b52a1654666e7ad8b9"
+  },
+  {
+   "path": "kb/gems/bow-attack-gems.md",
+   "uuid": "eb935e29-2fac-49ef-ba48-ac43282b59ae",
+   "created_at": "2026-11-26T08:22:32.954898Z",
+   "chars": 6068,
+   "est_tokens": 2427,
+   "sha256": "cab345ad338ef862294430b7c25263ba9a0fba4224aa4d1763b45f0425b5d5b5"
+  },
+  {
+   "path": "kb/gems/caster-supports.md",
+   "uuid": "2c4a6838-c850-4fd7-ace2-bdaffe450b05",
+   "created_at": "2026-11-23T20:55:54.696673Z",
+   "chars": 3948,
+   "est_tokens": 1387,
+   "sha256": "6ed916bebeff4d483ea9d4559991dbe3fb51a823bf2b8191c8807dd2edccbeca"
+  },
+  {
+   "path": "kb/gems/cold-spell-gems.md",
+   "uuid": "5b902afc-a497-466f-b871-a0027cd0023d",
+   "created_at": "2026-11-23T20:55:38.213443Z",
+   "chars": 5911,
+   "est_tokens": 2543,
+   "sha256": "b9c3a8f8bdd4412df6a3b078480249c9a06214d88c3610ea690e03b0bfa0018f"
+  },
+  {
+   "path": "kb/gems/elemental-caster-gems.md",
+   "uuid": "99c33490-1ac1-450c-b460-e1cf9aed6e3f",
+   "created_at": "2026-11-26T03:44:28.206637Z",
+   "chars": 5946,
+   "est_tokens": 2773,
+   "sha256": "545ede6e5cac9cfaee30e49790701f1df2c2d5eccf44380f260f6a76cb08c190"
+  },
+  {
+   "path": "kb/gems/elemental-supports-damage.md",
+   "uuid": "57a79f78-2c64-4c66-a57a-d0e944d9b3e7",
+   "created_at": "2026-11-26T08:28:13.289708Z",
+   "chars": 5853,
+   "est_tokens": 1997,
+   "sha256": "22fab251688470506b560dc20e372e5fcde0858343942bdfc2f178b532f225ef"
+  },
+  {
+   "path": "kb/gems/elemental-supports.md",
+   "uuid": "4e32dfb4-eebb-4c9d-86a2-b8be4f1959d6",
+   "created_at": "2026-11-26T08:28:12.831068Z",
+   "chars": 10168,
+   "est_tokens": 3573,
+   "sha256": "724bad252579306947a9caf13502fcf55d0f18522329866f34525b7836b8fdd8"
+  },
+  {
+   "path": "kb/gems/gem-levels.md",
+   "uuid": "ba17a901-84fe-45ec-b5f4-9e724c358d1c",
+   "created_at": "2026-11-17T18:02:46.896258Z",
+   "chars": 2841,
+   "est_tokens": 1119,
+   "sha256": "ace6b4cdf54f1462c29b14e6695b9ba25fe5b49aa782420b31133cb23782062b"
+  },
+  {
+   "path": "kb/gems/lineage-drop-sources.md",
+   "uuid": "ec6cd8ad-d14d-4b19-a24c-348a2151631d",
+   "created_at": "2026-11-26T08:30:00.626038Z",
+   "chars": 15321,
+   "est_tokens": 5750,
+   "sha256": "4dad4c88a6f8d4b3cab69210dcc24c8fbc75381e92b67f0cb99ff85096c50c29"
+  },
+  {
+   "path": "kb/gems/lineage-supports.md",
+   "uuid": "f11da5a0-9846-4f3b-a62e-2b200b894900",
+   "created_at": "2026-11-17T18:02:48.465811Z",
+   "chars": 3320,
+   "est_tokens": 1313,
+   "sha256": "265c50a7dbf4b2a112cf495f74b096825f5267b75e084a57a5cd79e265d1d2a9"
+  },
+  {
+   "path": "kb/gems/meta-trigger.md",
+   "uuid": "e459c313-cd7c-4045-8f1d-78d0b4d69412",
+   "created_at": "2026-11-17T18:02:49.689099Z",
+   "chars": 2111,
+   "est_tokens": 713,
+   "sha256": "69e9cc0f9db547e464f211cb7e2345716f8728c2b07539d07e6ef896412b19db"
+  },
+  {
+   "path": "kb/gems/minion-skills.md",
+   "uuid": "9b7c8dea-5345-4dd4-894d-0a547ed430fc",
+   "created_at": "2026-11-26T03:44:27.877822Z",
+   "chars": 6062,
+   "est_tokens": 2233,
+   "sha256": "813f3afcc0b1b3cc3058c0de7fabfae089476cc82ec02ef5dc81057201241160"
+  },
+  {
+   "path": "kb/gems/minion-stats-2.md",
+   "uuid": "dc6670ee-cbe2-4080-aa6f-5b282d71a6f4",
+   "created_at": "2026-11-26T13:13:57.498969Z",
+   "chars": 4813,
+   "est_tokens": 2181,
+   "sha256": "3cbd277087992d3fbf27ee2051cf39910165dff0eae3da870b306de69d1da018"
+  },
+  {
+   "path": "kb/gems/minion-stats.md",
+   "uuid": "5493c551-5a2c-47d3-8dc8-c557217ed95c",
+   "created_at": "2026-11-26T13:13:57.016277Z",
+   "chars": 7378,
+   "est_tokens": 3005,
+   "sha256": "0a80e6e6364694d9a8d4aea1d1f1152bb3c3db305ec0b4a5907ef0752990e4e2"
+  },
+  {
+   "path": "kb/gems/quality.md",
+   "uuid": "0fe47b06-98ab-4705-a984-2144201d9836",
+   "created_at": "2026-11-17T18:02:47.678601Z",
+   "chars": 4297,
+   "est_tokens": 1486,
+   "sha256": "402071278005e57682a39c790231d274278375d8f15dcefc9d2715e3bb61d920"
+  },
+  {
+   "path": "kb/gems/socketing-limits.md",
+   "uuid": "32e5de14-e9a5-497d-a989-607293f81bfd",
+   "created_at": "2026-11-17T18:02:48.851724Z",
+   "chars": 3026,
+   "est_tokens": 1016,
+   "sha256": "54a04156d5732ba3c61280e1a9aa1bf3673f7c0c90c2ad2026f2349091e79cf9"
+  },
+  {
+   "path": "kb/gems/spirit-gems-2.md",
+   "uuid": "015719d9-46c8-4e06-9929-5b11fcf5c449",
+   "created_at": "2026-11-26T08:32:39.969008Z",
+   "chars": 5141,
+   "est_tokens": 2270,
+   "sha256": "bff8695f12d1f1600a3668e40353200aa14533a1e894f4884c4fff4da8c0e5f7"
+  },
+  {
+   "path": "kb/gems/spirit-gems.md",
+   "uuid": "efcdfd6f-e2b0-4cef-886f-c656ab407452",
+   "created_at": "2026-11-26T08:32:39.481320Z",
+   "chars": 6179,
+   "est_tokens": 2222,
+   "sha256": "5629875821b3530148ae34bde2193069269ad9c9aa5a13de0d37d017709ff1ab"
+  },
+  {
+   "path": "kb/gems/support-tiers.md",
+   "uuid": "f68797db-1c14-42e0-b672-ac866a6c968f",
+   "created_at": "2026-11-17T18:02:48.025553Z",
+   "chars": 2242,
+   "est_tokens": 826,
+   "sha256": "8c3aa58e8eb775bc524d6bb6adb7ef481fc6ca41b50b48c417e358757eab697d"
+  },
+  {
+   "path": "kb/gems/uncut-gems.md",
+   "uuid": "c743e24e-7652-4788-9d6e-134afe55fc1c",
+   "created_at": "2026-11-17T18:02:47.288452Z",
+   "chars": 3442,
+   "est_tokens": 1378,
+   "sha256": "c3b4efa0bdf3fe594d246d3c3c20a694ebb062af85b0aa2095fbffc9ace131ff"
+  },
+  {
+   "path": "kb/items/affix-tiers.md",
+   "uuid": "d71d60fc-cac2-46c5-beb9-9b283f7252af",
+   "created_at": "2026-11-17T18:17:27.628515Z",
+   "chars": 4608,
+   "est_tokens": 1747,
+   "sha256": "187a05bc586a82b2c1b06556381b0236f3b60ddedcec287de3a03370ffc5801d"
+  },
+  {
+   "path": "kb/items/bases-implicits.md",
+   "uuid": "e2a35218-d3cf-4656-ad6c-7243aa87951f",
+   "created_at": "2026-11-17T18:17:26.885279Z",
+   "chars": 6158,
+   "est_tokens": 2205,
+   "sha256": "59fade9c25a8d70e5249472e42f4c8013d03082401f9faa6dd7e48a64c25a1d2"
+  },
+  {
+   "path": "kb/items/caster-mod-tiers.md",
+   "uuid": "7b9ca74e-568a-462c-8211-230338ea37bb",
+   "created_at": "2026-11-23T20:57:16.437249Z",
+   "chars": 2952,
+   "est_tokens": 1523,
+   "sha256": "e5d7d1e331d4509ab8e9c0497560e2bd9273e31f6dc502d56d4970d6a0a56392"
+  },
+  {
+   "path": "kb/items/corruption.md",
+   "uuid": "97608a63-4ce5-4a8a-b910-36aeaa72cef6",
+   "created_at": "2026-11-17T18:17:29.206092Z",
+   "chars": 5706,
+   "est_tokens": 1931,
+   "sha256": "b42c5abc8de9a7623846925d9d0ba2f17774d693d5d2db7b9e79a021637e9605"
+  },
+  {
+   "path": "kb/items/item-level.md",
+   "uuid": "412f7300-ee3b-41a1-8d0a-d207ea5f1abb",
+   "created_at": "2026-11-17T18:17:28.021999Z",
+   "chars": 3808,
+   "est_tokens": 1378,
+   "sha256": "2c5c830a9773f3ae1dca83dff7a12d93ce178ca9533af678a20a45f16cf68f67"
+  },
+  {
+   "path": "kb/items/loot-pickup-heuristics.md",
+   "uuid": "e1d873d0-e487-4db9-b965-54fab63a4095",
+   "created_at": "2026-11-17T19:48:27.596984Z",
+   "chars": 5030,
+   "est_tokens": 1563,
+   "sha256": "7763d920fcec0733baeb6a538afef1be0f559ad3557312b2ed1d25864d33f008"
+  },
+  {
+   "path": "kb/items/quality.md",
+   "uuid": "49533f78-b172-4f94-95fe-f3bd03db88a4",
+   "created_at": "2026-11-17T18:17:28.439967Z",
+   "chars": 4462,
+   "est_tokens": 1576,
+   "sha256": "9c4654c301444cbc457d012326146fbe62cb499267dd61a17a534425b537d946"
+  },
+  {
+   "path": "kb/items/rarity.md",
+   "uuid": "5d1fffdf-f08b-4f17-927e-3f6e2616a691",
+   "created_at": "2026-11-17T18:17:27.212678Z",
+   "chars": 5024,
+   "est_tokens": 1637,
+   "sha256": "05b6a7f612f4582d1c7a68cec35bcc2751f9d9535c61e01134d342444acea2a9"
+  },
+  {
+   "path": "kb/items/rune-effects-2.md",
+   "uuid": "7ac85c81-8c40-4823-bdb0-32076f173ffd",
+   "created_at": "2026-11-26T13:23:12.617433Z",
+   "chars": 8700,
+   "est_tokens": 3127,
+   "sha256": "133074bed872680ce6d615151376ae971e46d05a9df1980d94c81e598b2cb0b9"
+  },
+  {
+   "path": "kb/items/rune-effects-3.md",
+   "uuid": "782d773c-8079-4d0f-bf37-6ebd26501827",
+   "created_at": "2026-11-26T13:23:13.013647Z",
+   "chars": 9580,
+   "est_tokens": 3566,
+   "sha256": "e1ab931425ae8fc8f9ed3ac3c5a14e2d144856de3c3baeeb1355999bd2a5d704"
+  },
+  {
+   "path": "kb/items/rune-effects-4.md",
+   "uuid": "683f59b4-98b4-4a3d-bf65-d036b123361a",
+   "created_at": "2026-11-26T13:23:13.427185Z",
+   "chars": 7238,
+   "est_tokens": 2711,
+   "sha256": "c565b6f1a73a972bd83c8236f24ce45f3629801eb796915391a5bbebb7ef198e"
+  },
+  {
+   "path": "kb/items/rune-effects-5.md",
+   "uuid": "3a7a01b0-7972-4aba-afe3-e808288995c8",
+   "created_at": "2026-11-26T13:23:13.793179Z",
+   "chars": 7780,
+   "est_tokens": 2792,
+   "sha256": "7acd4c28004b0f38f9d9e1bf6d5949c140292ea34b3e0319b624c6a99d8ca227"
+  },
+  {
+   "path": "kb/items/rune-effects-6.md",
+   "uuid": "d57e2ebc-305d-4ba5-b282-3fafbc6d0591",
+   "created_at": "2026-11-26T13:23:14.261959Z",
+   "chars": 3866,
+   "est_tokens": 1402,
+   "sha256": "6b89b598d6320ce77a84e0617fd14ada48ec6bc7eff672599093de271fb17e15"
+  },
+  {
+   "path": "kb/items/rune-effects-7.md",
+   "uuid": "3217c528-00b2-4e50-8de3-31196cc4af13",
+   "created_at": "2026-11-26T13:23:14.631151Z",
+   "chars": 5111,
+   "est_tokens": 1856,
+   "sha256": "757e8ae1ec68450ff429bf08ac0995ad229520149c94fc71f232f5e5d6122020"
+  },
+  {
+   "path": "kb/items/rune-effects-8.md",
+   "uuid": "66759f4a-71b6-4a50-944f-dff725e2eca7",
+   "created_at": "2026-11-26T13:23:15.100576Z",
+   "chars": 5437,
+   "est_tokens": 1842,
+   "sha256": "db063b36240cd5cbaf2ad54ed7fc25f177a377d23b3aa71a4ea08dab11a12b0a"
+  },
+  {
+   "path": "kb/items/rune-effects.md",
+   "uuid": "5b1d75de-fd03-440c-aa62-329bdf21e69d",
+   "created_at": "2026-11-26T08:27:23.322321Z",
+   "chars": 10270,
+   "est_tokens": 3745,
+   "sha256": "bddf19a8cca6abea03667365d4a5ab547b537c0033e43ff43a2ef039b546fbff"
+  },
+  {
+   "path": "kb/items/sockets-augments.md",
+   "uuid": "90801f9d-1409-44a6-ba3f-da39fced6d11",
+   "created_at": "2026-11-17T18:17:28.840656Z",
+   "chars": 4553,
+   "est_tokens": 1596,
+   "sha256": "90bcfd6028f0a6f96fd27fe46edf1136c6652afd4f0e187eac3af7d98642a6f0"
+  },
+  {
+   "path": "kb/items/soul-core-idol-effects-2.md",
+   "uuid": "c785df6e-a71f-4e9d-919e-d7f15fbb3d97",
+   "created_at": "2026-11-26T13:23:15.663385Z",
+   "chars": 8993,
+   "est_tokens": 3240,
+   "sha256": "ad26111758b70794b9db59b4a476e9b67369a4ad49e4c7416b1a0de65e6d7957"
+  },
+  {
+   "path": "kb/items/soul-core-idol-effects-3.md",
+   "uuid": "f6bcac36-4728-4d33-a846-b2457b97af27",
+   "created_at": "2026-11-26T13:23:16.204303Z",
+   "chars": 7358,
+   "est_tokens": 2492,
+   "sha256": "ee5291496388acdfc56de37b709a9667708342058280899495482d06fd534c1b"
+  },
+  {
+   "path": "kb/items/soul-core-idol-effects-4.md",
+   "uuid": "e6b49c86-7b9d-44d1-a321-04ed9877c68a",
+   "created_at": "2026-11-26T13:23:16.614017Z",
+   "chars": 7583,
+   "est_tokens": 2479,
+   "sha256": "15499cd5e1229cb1164c4360b3e4931d25fa3f2fe115f7cb65a7639bcaf511f6"
+  },
+  {
+   "path": "kb/items/soul-core-idol-effects.md",
+   "uuid": "81611879-c333-49bf-848e-b39afcaecc6e",
+   "created_at": "2026-11-26T08:27:13.259337Z",
+   "chars": 8433,
+   "est_tokens": 3155,
+   "sha256": "658a634cd9a25a8ef314f3c557ab91c80c9ee06f03bc2dffdd4a1eb920a20b8d"
+  },
+  {
+   "path": "kb/items/talismans.md",
+   "uuid": "7f1b71d3-5f08-47e2-ab68-69b700276ad7",
+   "created_at": "2026-11-26T08:32:39.077621Z",
+   "chars": 2267,
+   "est_tokens": 904,
+   "sha256": "80ea5e48412ee01c581945dfb5edbc7bf24457819814e03ca7885d6de66162a7"
+  },
+  {
+   "path": "kb/items/uniques-armour.md",
+   "uuid": "a3c8a007-8ccf-4c04-96bf-7d223ed195b4",
+   "created_at": "2026-11-17T18:21:11.841061Z",
+   "chars": 5056,
+   "est_tokens": 2000,
+   "sha256": "baa952cab924ac8e071e0232ed210dadc04bc7e2840a37c4b5d71535650bb77b"
+  },
+  {
+   "path": "kb/items/uniques-caster.md",
+   "uuid": "342b3a39-6781-43fa-8478-dc0251882601",
+   "created_at": "2026-11-26T08:31:49.419482Z",
+   "chars": 5812,
+   "est_tokens": 2225,
+   "sha256": "c8bcc858d9b1c212b591566010cf5fa8efc5b1513fb979a8bf39baaff02cc533"
+  },
+  {
+   "path": "kb/items/uniques-drop-sources.md",
+   "uuid": "7b71bb78-39ba-482b-b72b-8ba00b26ffc9",
+   "created_at": "2026-11-26T08:31:49.080592Z",
+   "chars": 10636,
+   "est_tokens": 3920,
+   "sha256": "32cf3f380f06928d126c4a9f587678b537dcf31a98dd1c4fd58bffd23b143c17"
+  },
+  {
+   "path": "kb/items/uniques-index.md",
+   "uuid": "1c1eea25-3fde-4324-9d9c-0340d964b9b9",
+   "created_at": "2026-11-17T18:21:12.779716Z",
+   "chars": 4153,
+   "est_tokens": 1446,
+   "sha256": "12332c52210152f9a67a840d39ec6c1d26e1e923ab0a04c232dedb22fa1427ff"
+  },
+  {
+   "path": "kb/items/uniques-mods-body-1.md",
+   "uuid": "1f341a5a-382d-4acf-becc-790c640ea6f4",
+   "created_at": "2026-11-26T13:05:45.390337Z",
+   "chars": 8332,
+   "est_tokens": 3027,
+   "sha256": "8f534e582aa5c53b8a7b063e01c5720d218cf5f31490eb09c5ce2f6c6654da8e"
+  },
+  {
+   "path": "kb/items/uniques-mods-body-2.md",
+   "uuid": "b89b5245-0e9c-491c-a1c9-f696529b63e8",
+   "created_at": "2026-11-26T13:05:45.838405Z",
+   "chars": 8235,
+   "est_tokens": 2870,
+   "sha256": "96a8da8429ae3cce19f6af254dec3b2b64bad5cbb84bd43e4c853449775bcdd3"
+  },
+  {
+   "path": "kb/items/uniques-mods-body-3.md",
+   "uuid": "3a03f1b3-adb3-4a7a-aca7-971f4fa29727",
+   "created_at": "2026-11-26T13:05:46.270105Z",
+   "chars": 7620,
+   "est_tokens": 2629,
+   "sha256": "fb4af3dc273b617b376096ea72b741148bd72256b974241a64668451d31b2b90"
+  },
+  {
+   "path": "kb/items/uniques-mods-boots.md",
+   "uuid": "4873a2ef-56a8-41d8-b163-39e599de96cf",
+   "created_at": "2026-11-26T13:05:46.760755Z",
+   "chars": 8149,
+   "est_tokens": 2822,
+   "sha256": "64ee2a45362c3be0b90d5b646245248e6906a1d5ab667cd270b9fae1903da4e8"
+  },
+  {
+   "path": "kb/items/uniques-mods-caster-weapons-1.md",
+   "uuid": "fdc5b24a-aea5-4183-acb4-95053a72f44e",
+   "created_at": "2026-11-26T13:06:36.676697Z",
+   "chars": 6465,
+   "est_tokens": 2301,
+   "sha256": "5ddacae311d1a67592ac6a899f6df4ac6104c0da2057f77fa50857e667fe8312"
+  },
+  {
+   "path": "kb/items/uniques-mods-caster-weapons-2.md",
+   "uuid": "80054db1-1456-4df1-9f1d-b9629ac25d64",
+   "created_at": "2026-11-26T13:06:36.977411Z",
+   "chars": 6445,
+   "est_tokens": 2204,
+   "sha256": "0e538e905574343aceb481a90b8304460c3a4d70e1702e8bdfc5db4b50ac1f88"
+  },
+  {
+   "path": "kb/items/uniques-mods-flasks-charms.md",
+   "uuid": "266fda8f-3de7-4ebc-8bad-4d3ea4d87da5",
+   "created_at": "2026-11-26T13:06:37.307879Z",
+   "chars": 5629,
+   "est_tokens": 1863,
+   "sha256": "6d0789685207a51eed354fb3c86c78067f3186ea3e4a50ebf6774b7c7b358c9c"
+  },
+  {
+   "path": "kb/items/uniques-mods-gloves-1.md",
+   "uuid": "53957624-2f79-4ad1-8db2-8db26d5169ab",
+   "created_at": "2026-11-26T13:05:47.396873Z",
+   "chars": 6877,
+   "est_tokens": 2460,
+   "sha256": "6edc072443c09a4809c87b7bc7912eeb60738c38ccb7cc9b7691575e67bebce1"
+  },
+  {
+   "path": "kb/items/uniques-mods-gloves-2.md",
+   "uuid": "ab2ceeee-0e30-48a5-93c9-515965f7a23b",
+   "created_at": "2026-11-26T13:05:47.837590Z",
+   "chars": 6727,
+   "est_tokens": 2363,
+   "sha256": "9be047822e11bfbde730cf988acac97ceb62c9bb3bdaf7d3449d90c0c8ae80e8"
+  },
+  {
+   "path": "kb/items/uniques-mods-helmet-1.md",
+   "uuid": "f19c3009-6470-4dc8-a251-93c63de2bfa0",
+   "created_at": "2026-11-26T13:05:48.325996Z",
+   "chars": 8890,
+   "est_tokens": 3224,
+   "sha256": "a21b515e159564a72b343549ba4f74672a4c91cf4adafb14e87eab8c377e0c7e"
+  },
+  {
+   "path": "kb/items/uniques-mods-helmet-2.md",
+   "uuid": "5f044083-17dc-4237-b36a-0c29ab6b20f2",
+   "created_at": "2026-11-26T13:05:48.815691Z",
+   "chars": 7531,
+   "est_tokens": 2569,
+   "sha256": "605d7d5762a13fc0768a5be7202d3583c110ae9e8a4380978c733c393741facf"
+  },
+  {
+   "path": "kb/items/uniques-mods-jewellery-1.md",
+   "uuid": "be89dd20-8f3f-49fa-82c3-417f32d4042e",
+   "created_at": "2026-11-26T13:06:37.635844Z",
+   "chars": 6444,
+   "est_tokens": 2240,
+   "sha256": "ed8468083dfff640d64f357e312039dd85136b6befe8af458e73b600a47beb0c"
+  },
+  {
+   "path": "kb/items/uniques-mods-jewellery-2.md",
+   "uuid": "9587e320-8d2b-4de2-b97b-87a7a56501b9",
+   "created_at": "2026-11-26T13:06:38.021119Z",
+   "chars": 6115,
+   "est_tokens": 2095,
+   "sha256": "36465c549ae2b3c7827314b9057e36a7711c4784b6d0e36561555012bda3d3b9"
+  },
+  {
+   "path": "kb/items/uniques-mods-jewellery-3.md",
+   "uuid": "edb3adec-0058-4fc0-b256-d84b667cc7b5",
+   "created_at": "2026-11-26T13:06:38.415244Z",
+   "chars": 6688,
+   "est_tokens": 2389,
+   "sha256": "d4f685207d47acc0e970ae9b1f3c8d63f4437edce922b51947f5b28c3c444beb"
+  },
+  {
+   "path": "kb/items/uniques-mods-jewellery-4.md",
+   "uuid": "3030e6fc-da42-49b3-8c21-8ac04434cf2e",
+   "created_at": "2026-11-26T13:06:38.770994Z",
+   "chars": 7337,
+   "est_tokens": 2484,
+   "sha256": "cb98fa187e8d0149d22ff0df7b6304f1dbcf6eae5b2f9b78b0dd6293e0bcb7ef"
+  },
+  {
+   "path": "kb/items/uniques-mods-jewels.md",
+   "uuid": "c66a7707-c5df-4844-b11b-53b18c829528",
+   "created_at": "2026-11-26T13:06:39.136176Z",
+   "chars": 3500,
+   "est_tokens": 1176,
+   "sha256": "40aa5906382eb32ff44dfaebbffba0a1dbec9586fbf1cc0620709ed3128f41dc"
+  },
+  {
+   "path": "kb/items/uniques-mods-quivers.md",
+   "uuid": "436ad6da-a4db-4f61-b780-3d6c1f00618e",
+   "created_at": "2026-11-26T13:06:39.743067Z",
+   "chars": 3323,
+   "est_tokens": 1174,
+   "sha256": "61950b7feaaccae4fef6d2a1efdcddce9b52978efd76aee517b426a9dec2d3ef"
+  },
+  {
+   "path": "kb/items/uniques-mods-shields-1.md",
+   "uuid": "bf304a9b-3a4e-4014-8487-af546d92c6f0",
+   "created_at": "2026-11-26T13:05:49.209379Z",
+   "chars": 6782,
+   "est_tokens": 2380,
+   "sha256": "d2929b51ee0a501e7e8659788846bd03808cae05b07c123782008c9b5805dfa4"
+  },
+  {
+   "path": "kb/items/uniques-mods-shields-2.md",
+   "uuid": "facc5bf8-ee80-4334-b8f2-3bd896896a4e",
+   "created_at": "2026-11-26T13:05:49.578694Z",
+   "chars": 6067,
+   "est_tokens": 2064,
+   "sha256": "6a697abd51d014dd1f7a61a84dcad2068679a6586e61229e7cebcbed0f5f1404"
+  },
+  {
+   "path": "kb/items/uniques-mods-weapons-1.md",
+   "uuid": "c4622b2b-c4fe-431b-99d1-1f3183a8be06",
+   "created_at": "2026-11-26T13:06:40.330543Z",
+   "chars": 7110,
+   "est_tokens": 2506,
+   "sha256": "07c2e93ee45348e44144590fcb9c059039de689541bf8b44c1350d1786d660df"
+  },
+  {
+   "path": "kb/items/uniques-mods-weapons-2.md",
+   "uuid": "1fd46c24-df76-400e-b97d-d2306e8926ba",
+   "created_at": "2026-11-26T13:06:40.758972Z",
+   "chars": 8019,
+   "est_tokens": 2781,
+   "sha256": "623b8b3ded6cb40743982802e112aa8b6fa3d7d66ad7210f31761ef5b3d4ef5d"
+  },
+  {
+   "path": "kb/items/uniques-mods-weapons-3.md",
+   "uuid": "91c7152c-0ab3-4796-adc8-0b758c323c21",
+   "created_at": "2026-11-26T13:06:41.122294Z",
+   "chars": 8012,
+   "est_tokens": 2804,
+   "sha256": "06c3c5714f13644176279fd56af4b7727e3c8c4b91038f59c81f17f4c4d2bbf9"
+  },
+  {
+   "path": "kb/items/uniques-other.md",
+   "uuid": "c7abeda8-2279-49b8-acfa-924de281d8a0",
+   "created_at": "2026-11-17T18:21:12.332153Z",
+   "chars": 8684,
+   "est_tokens": 3478,
+   "sha256": "1d9162b00776fbce1f764af040c1c06a830e3e7a8b818834061e24d03639e2eb"
+  },
+  {
+   "path": "kb/mechanics/accuracy.md",
+   "uuid": "1d9a781c-6fcb-41f3-9310-1f43e187b520",
+   "created_at": "2026-11-17T17:28:45.725607Z",
+   "chars": 3707,
+   "est_tokens": 1316,
+   "sha256": "1a015d979c3d3ad5bf6a0aac324665309b4029a11b0c3cbf41c90b3b81754c21"
+  },
+  {
+   "path": "kb/mechanics/ailments-overview.md",
+   "uuid": "25fcb1a5-33bc-4374-adc9-e808ede80757",
+   "created_at": "2026-11-17T17:42:05.637185Z",
+   "chars": 5289,
+   "est_tokens": 1750,
+   "sha256": "4927f72125a06c4b9fe203825a878bc672a0d25eba8b4b3f34a71e8fb2458f53"
+  },
+  {
+   "path": "kb/mechanics/area-projectiles.md",
+   "uuid": "971d9672-6526-4785-b2b2-95ea4f70c86c",
+   "created_at": "2026-11-17T17:28:45.377986Z",
+   "chars": 4845,
+   "est_tokens": 1623,
+   "sha256": "2996d6eb717d6cef0c80db451c03742755709331bd614770676717467b9e4b97"
+  },
+  {
+   "path": "kb/mechanics/armour.md",
+   "uuid": "8c30adb5-8694-429d-b542-5dea2c1a98d7",
+   "created_at": "2026-11-17T17:54:29.970246Z",
+   "chars": 3226,
+   "est_tokens": 1094,
+   "sha256": "2e40289b5a7b5548e79be7f090cd3031c0058f2f33a734bdcccdda815a6b1aa3"
+  },
+  {
+   "path": "kb/mechanics/attack-cast-speed.md",
+   "uuid": "514510fb-e970-45dc-b796-fe292df2c7de",
+   "created_at": "2026-11-17T17:28:45.041014Z",
+   "chars": 4822,
+   "est_tokens": 1605,
+   "sha256": "c62456980877ea44e3f83af204dea9c9a52619a70dc61f9c3e72d6946fd2dc49"
+  },
+  {
+   "path": "kb/mechanics/bleed.md",
+   "uuid": "17f2ebdc-9ea2-42e8-9ef9-a2c2bd23a433",
+   "created_at": "2026-11-17T17:42:07.613315Z",
+   "chars": 3552,
+   "est_tokens": 1177,
+   "sha256": "2a6e8b6208ebbf8299b93cfa8a46001a1453fb04fbaa62bbe3e5ab2840e7039d"
+  },
+  {
+   "path": "kb/mechanics/block.md",
+   "uuid": "1b0b881b-3301-4ea4-8ad3-a4abee276124",
+   "created_at": "2026-11-17T17:54:31.205754Z",
+   "chars": 3007,
+   "est_tokens": 1036,
+   "sha256": "326356f4fe316e2538163348f3cd4abf072b5a086269799aa9a99d41836d8c71"
+  },
+  {
+   "path": "kb/mechanics/charms.md",
+   "uuid": "7496be23-e618-443f-86c1-52a527d873c7",
+   "created_at": "2026-11-17T17:58:42.153013Z",
+   "chars": 3954,
+   "est_tokens": 1458,
+   "sha256": "96e19412e8e06123642006cbacfe44c0698815b4de14db806ab1f7a471a54a9e"
+  },
+  {
+   "path": "kb/mechanics/chill-freeze.md",
+   "uuid": "e2b07464-1eb4-4240-a1ea-2698756385f4",
+   "created_at": "2026-11-17T17:42:06.473269Z",
+   "chars": 7636,
+   "est_tokens": 2566,
+   "sha256": "b515cca4c4c5c45efd8c2b3939af1129db3e76b7b974b9398ea940e3fa7fa233"
+  },
+  {
+   "path": "kb/mechanics/crit.md",
+   "uuid": "c365c35f-aece-433d-989a-2225e8dea94c",
+   "created_at": "2026-11-17T17:28:44.717116Z",
+   "chars": 3879,
+   "est_tokens": 1316,
+   "sha256": "b1bbf2d82deefe18ef0c4a3db36307df451d7e26516ca5a6709ef2022acc53cc"
+  },
+  {
+   "path": "kb/mechanics/damage-calculation.md",
+   "uuid": "3bcbc476-8460-462e-9d45-20d1d36180d3",
+   "created_at": "2026-11-25T18:13:18.266242Z",
+   "chars": 5816,
+   "est_tokens": 1762,
+   "sha256": "a86f9e5e148fd8bbe6eb7d261c1f7570f35f8360aac82b013221080574326de5"
+  },
+  {
+   "path": "kb/mechanics/damage-types-conversion.md",
+   "uuid": "6cbbafaa-3cc9-49c9-a0ae-7bdc238fb22a",
+   "created_at": "2026-11-17T17:28:43.980984Z",
+   "chars": 5067,
+   "est_tokens": 1630,
+   "sha256": "55c5e6c31c5ee17e31249dab914babd52ca75359a4f5dbe1fb9d23bb20d26e30"
+  },
+  {
+   "path": "kb/mechanics/deflection.md",
+   "uuid": "c369ad0e-b532-4da5-9ce7-f42acf4f96ec",
+   "created_at": "2026-11-17T17:54:31.654259Z",
+   "chars": 2651,
+   "est_tokens": 988,
+   "sha256": "8f8477de1518865c8f159b00ca4915bd69e690ffcab4685440fe4584fe62cb3a"
+  },
+  {
+   "path": "kb/mechanics/dodge-roll.md",
+   "uuid": "04805812-9283-475f-9406-05046970f8e6",
+   "created_at": "2026-11-17T17:58:43.658504Z",
+   "chars": 2757,
+   "est_tokens": 963,
+   "sha256": "b15fb0994dd94f503696122209ef7d031a26ce2c97b4f30741f22f4a439f99da"
+  },
+  {
+   "path": "kb/mechanics/energy-shield.md",
+   "uuid": "58bfecfb-7d9b-490e-a2a6-4bd01756c6f1",
+   "created_at": "2026-11-17T17:54:30.771060Z",
+   "chars": 3081,
+   "est_tokens": 1013,
+   "sha256": "9fff15021028e16138752a8aca580d79fc4a8ed903f77003e47fd278f5062596"
+  },
+  {
+   "path": "kb/mechanics/evasion.md",
+   "uuid": "ff70c9bd-9d41-44e5-82ab-45cae4bf5e80",
+   "created_at": "2026-11-17T17:54:30.383625Z",
+   "chars": 2753,
+   "est_tokens": 975,
+   "sha256": "3f25276d0783ca403bb5a46cd3e135f622d18a4d3b4c369945d2d918edfc6c01"
+  },
+  {
+   "path": "kb/mechanics/exposure-penetration.md",
+   "uuid": "6ecdc72f-f29c-4f96-8c93-5361b5ba96c3",
+   "created_at": "2026-11-17T17:42:08.041671Z",
+   "chars": 2291,
+   "est_tokens": 746,
+   "sha256": "22806c9eb7b98b9ce6237436a4722146b5914a7aceba4f74f673512f1ee9ebe9"
+  },
+  {
+   "path": "kb/mechanics/flasks.md",
+   "uuid": "345abdec-b5f1-4ed6-a883-da2a93f9edb7",
+   "created_at": "2026-11-17T17:58:41.726839Z",
+   "chars": 2961,
+   "est_tokens": 1056,
+   "sha256": "1088132200a73783fceb9d5ff4cabd182f377f567524fa3442f800920850fb1b"
+  },
+  {
+   "path": "kb/mechanics/hits-vs-dot.md",
+   "uuid": "588cff1d-c8b8-4f76-813a-3674a2fa2cd1",
+   "created_at": "2026-11-17T17:28:44.367227Z",
+   "chars": 2914,
+   "est_tokens": 1002,
+   "sha256": "ac41578c193fdcf5ee2633a9deb91fe35f88867c3ba4ad972448c7d22c21276d"
+  },
+  {
+   "path": "kb/mechanics/ignite.md",
+   "uuid": "a68cb198-ee74-447b-ab5f-bf2b461740f8",
+   "created_at": "2026-11-17T17:42:06.044798Z",
+   "chars": 3549,
+   "est_tokens": 1216,
+   "sha256": "1a46ee7836647c4ff94e09fd41684d7809bc88672520d53af1d966c62a5df61e"
+  },
+  {
+   "path": "kb/mechanics/mana-costs.md",
+   "uuid": "63869ecb-c7a0-4be9-a8ab-ce037e11b7d9",
+   "created_at": "2026-11-25T18:13:18.621996Z",
+   "chars": 4751,
+   "est_tokens": 1675,
+   "sha256": "999d4538232b16dd07163c168a2bad40859875ebbde9671394261f651372ac59"
+  },
+  {
+   "path": "kb/mechanics/minions.md",
+   "uuid": "e2e4d578-3b14-4c2e-a403-8b9cf0b2ddae",
+   "created_at": "2026-11-17T17:58:42.873593Z",
+   "chars": 7377,
+   "est_tokens": 2507,
+   "sha256": "678f42646a33a49e95ff7aa17c4b0f9fc79bd5bfbedf8fe3758912f4a9f26eed"
+  },
+  {
+   "path": "kb/mechanics/monster-life.md",
+   "uuid": "32e13d1b-ac34-4aed-b9ed-4749b3277eee",
+   "created_at": "2026-11-23T20:56:20.137637Z",
+   "chars": 7151,
+   "est_tokens": 3107,
+   "sha256": "5e9da799de655dfddaf3f62d9b7d533a4d466f4b1cd7337280ddbe7ec45f2a14"
+  },
+  {
+   "path": "kb/mechanics/poison.md",
+   "uuid": "711ec47b-ff07-4b3b-af0f-c98fbe8f4abd",
+   "created_at": "2026-11-17T17:42:07.256402Z",
+   "chars": 2452,
+   "est_tokens": 842,
+   "sha256": "65072750d3b4c06e94864e34a1917b3b11a890b146f6c1224367fe2b801bda4d"
+  },
+  {
+   "path": "kb/mechanics/recovery.md",
+   "uuid": "d72488c5-36a3-4261-bdaa-d2f74e1ae0a9",
+   "created_at": "2026-11-17T17:58:41.382164Z",
+   "chars": 5269,
+   "est_tokens": 1798,
+   "sha256": "4e1fb35a7efcef319f13e215ea3238b7948ae7d204be38708a316f2192bbd4eb"
+  },
+  {
+   "path": "kb/mechanics/resistances.md",
+   "uuid": "65d1789d-90f6-4ab7-9b17-d7f245e25c12",
+   "created_at": "2026-11-17T17:54:29.536973Z",
+   "chars": 3770,
+   "est_tokens": 1228,
+   "sha256": "9034d7001f6c1bee7866092f93e0af301aa39f33d206980cbd75f230152b7d42"
+  },
+  {
+   "path": "kb/mechanics/shapeshifting.md",
+   "uuid": "4b689b29-e04e-4399-9735-795669a3cfac",
+   "created_at": "2026-11-26T08:32:38.698387Z",
+   "chars": 10107,
+   "est_tokens": 3503,
+   "sha256": "ee241f70c9dd72ac8b96f47ffe23c05a70b571662bda8e2fac771532bbe2e607"
+  },
+  {
+   "path": "kb/mechanics/shock-electrocute.md",
+   "uuid": "827268ef-68fc-4419-8c5f-e3607a280697",
+   "created_at": "2026-11-17T17:42:06.877006Z",
+   "chars": 6938,
+   "est_tokens": 2374,
+   "sha256": "7acaf22cf936bfd8e2f3f392e968711b615eb6458194f7fe8fae8dbfc0e27ea0"
+  },
+  {
+   "path": "kb/mechanics/skill-interactions.md",
+   "uuid": "ba09625a-1a42-44f6-8efb-ed27a77c8fb7",
+   "created_at": "2026-11-17T17:58:44.409208Z",
+   "chars": 3823,
+   "est_tokens": 1095,
+   "sha256": "c615621bbecfef3fdbf1dc80a947a4c01a4db985e5479e473661849ea0d50874"
+  },
+  {
+   "path": "kb/mechanics/spirit-reservation.md",
+   "uuid": "2d55dee4-26cc-4178-be7f-cc42e22fc6bf",
+   "created_at": "2026-11-17T17:58:42.474081Z",
+   "chars": 3408,
+   "est_tokens": 1131,
+   "sha256": "bf661c43a6b172a4e4fe4426c85f3d5f122cd10ea13f71563ed915a7873f5b2d"
+  },
+  {
+   "path": "kb/mechanics/stun.md",
+   "uuid": "db7a0262-0c50-4573-ad96-e006942212bc",
+   "created_at": "2026-11-17T17:54:32.043808Z",
+   "chars": 6133,
+   "est_tokens": 2068,
+   "sha256": "58c7e5b10c273eb2069fb8130a402d36a427f337d074aec06d324dc7b2371cb9"
+  },
+  {
+   "path": "kb/mechanics/totems.md",
+   "uuid": "c31ac557-8948-4e1f-99a0-346a7de992b3",
+   "created_at": "2026-11-17T17:58:43.219662Z",
+   "chars": 2097,
+   "est_tokens": 744,
+   "sha256": "4194254f60ff3cfcfafe6ccb346b8c996723c798236d0e6215f4e4a74ff66d86"
+  },
+  {
+   "path": "kb/mechanics/weapon-swap.md",
+   "uuid": "cddc5b0c-d885-4d3a-aba1-c0a0569912de",
+   "created_at": "2026-11-17T17:58:44.028432Z",
+   "chars": 2777,
+   "est_tokens": 918,
+   "sha256": "655df2024c6415b9e424dc49190666fac1eb88745f676bfea8ac4899ce6ccef2"
+  },
+  {
+   "path": "kb/strategy/atlas-starter-strategy.md",
+   "uuid": "9eafa284-e619-4eb6-89a2-a5d766880e0a",
+   "created_at": "2026-11-17T19:48:28.197148Z",
+   "chars": 3101,
+   "est_tokens": 931,
+   "sha256": "a4a0a67ec9cbc80779a1dbad0bf7b6c7257397350829064c5f519a2cd2bb9bc8"
+  },
+  {
+   "path": "kb/strategy/build-copy-method.md",
+   "uuid": "2f63401c-11a4-47d4-8d8a-ada58b5a8e53",
+   "created_at": "2026-11-17T19:48:28.854130Z",
+   "chars": 2147,
+   "est_tokens": 596,
+   "sha256": "cf123d6a64df36f4b23af17593203e419ec213192407f82f63dd6a91a268a7c2"
+  },
+  {
+   "path": "kb/strategy/dev-statements-1.0-balance.md",
+   "uuid": "25b36b4c-ef35-4d2e-ad2a-73a8c750feed",
+   "created_at": "2026-11-17T19:48:26.251717Z",
+   "chars": 6225,
+   "est_tokens": 1904,
+   "sha256": "ca144ed35d38544b5b07eeae323316ab61f2bb61a80bd5e17407727d437f2511"
+  },
+  {
+   "path": "kb/strategy/dev-statements-1.0-league.md",
+   "uuid": "f20d31a3-9164-4209-ac8b-a04fe57235d1",
+   "created_at": "2026-11-17T19:48:25.797501Z",
+   "chars": 5479,
+   "est_tokens": 1474,
+   "sha256": "3388aaf27ef5530f49ef7757535f35e4786009805c1077b135b342809d0c6a43"
+  },
+  {
+   "path": "kb/strategy/league-lifecycle-pricing.md",
+   "uuid": "e12ea7cf-a85e-4233-b50b-dcb1cfa0d31f",
+   "created_at": "2026-11-17T17:10:43.504234Z",
+   "chars": 2481,
+   "est_tokens": 886,
+   "sha256": "b53686b27ab72a8d493f83024dc5c002f6ded0d0c2c9899b4d828975bde37e91"
+  },
+  {
+   "path": "kb/strategy/league-start-framework.md",
+   "uuid": "fb63671f-9533-4e85-93ad-47f566112f35",
+   "created_at": "2026-11-17T17:45:26.803921Z",
+   "chars": 5836,
+   "est_tokens": 1615,
+   "sha256": "36eee5ecee4281035dbecf1ce6b12a718c2bed166f2f376821251cb17d87d0b3"
+  },
+  {
+   "path": "kb/strategy/my-profile.md",
+   "uuid": "e09dd3bb-9a3c-4ce6-9d86-5ba343da3698",
+   "created_at": "2026-11-17T17:10:43.825021Z",
+   "chars": 948,
+   "est_tokens": 292,
+   "sha256": "7c6c24bacc25e80a8ad1e653b9e7ede4ba1c8910957a3ec010b4566d4c5ac3e9"
+  },
+  {
+   "path": "kb/strategy/official-1.0-reveal.md",
+   "uuid": "c31fbf45-f4a2-4ad8-affe-1e7a676cf50c",
+   "created_at": "2026-11-23T13:19:24.947467Z",
+   "chars": 7126,
+   "est_tokens": 2081,
+   "sha256": "f22a06c64b382b1315a5f405b54b5613f59d4a4c15ce75e7d7a567a9c9d030bc"
+  },
+  {
+   "path": "kb/strategy/practice-build-0.5.5.md",
+   "uuid": "dbfb5864-cfc9-4afa-8d29-e3897f4b8523",
+   "created_at": "2026-11-17T19:16:06.330151Z",
+   "chars": 4152,
+   "est_tokens": 1341,
+   "sha256": "5a4a7b2a3d16bee0bc26e65f0940c5f917b0b48669b02d5e9f8b21f9c0eb9cd4"
+  },
+  {
+   "path": "kb/strategy/rarity-value.md",
+   "uuid": "45fe650a-3ce5-45ea-b9c1-c9314b4ded34",
+   "created_at": "2026-11-17T19:48:27.191701Z",
+   "chars": 2318,
+   "est_tokens": 651,
+   "sha256": "4a7fc352850c6d02d4f0330269f017295e0afefeae9deedd97dcd120cba471b1"
+  },
+  {
+   "path": "kb/strategy/sekhemas-currency-farm.md",
+   "uuid": "218dbd55-518c-4703-a9fc-8940df491007",
+   "created_at": "2026-11-17T19:48:26.673378Z",
+   "chars": 4680,
+   "est_tokens": 1422,
+   "sha256": "a4e85a7c96c7b1ffc3fb79b4d969850fa061876e31145c4e511e2f199abc6a2c"
+  },
+  {
+   "path": "kb/tools/codex-app.md",
+   "uuid": "15b0df6a-4602-45dc-a154-34546a5823c3",
+   "created_at": "2026-11-23T14:03:18.592732Z",
+   "chars": 1685,
+   "est_tokens": 565,
+   "sha256": "16db1d3d1bfb4abcdfb4f07a02a85c9744b50469bbd101b8dce7b61e7b2e9942"
+  },
+  {
+   "path": "kb/tools/md_to_csv.py",
+   "uuid": "a374ed41-ff30-4f7d-a0f1-3a75170b7d9d",
+   "created_at": "2026-11-17T17:24:59.598427Z",
+   "chars": 1648,
+   "est_tokens": 576,
+   "sha256": "ebd41012b902e711edfb02e15cbd73bb83fba67899c161837db16db5603ed832"
+  },
+  {
+   "path": "kb/tools/poe2db-corpus.md",
+   "uuid": "892cf976-b5ca-4235-878c-a53c5b04f5ba",
+   "created_at": "2026-11-23T20:21:38.495684Z",
+   "chars": 2403,
+   "est_tokens": 847,
+   "sha256": "7626c3fd0586746c897f0f1f6d4a85fce5637fb76f97cd709a4aab237f1aeaa7"
+  },
+  {
+   "path": "poe2-1.0-launch-brief.md",
+   "uuid": "95671e86-c2dd-4305-87d8-8502383f12fc",
+   "created_at": "2026-11-10T08:16:18.330248Z",
+   "chars": 7444,
+   "est_tokens": 2513,
+   "sha256": "1a4c60f37085c4498bf619d951adaaf7d9061d1e5c6ab0c473e76b171a11f669"
+  },
+  {
+   "path": "poe2-project-instructions.md",
+   "uuid": "43af40f8-cb7a-484e-a87e-42c1c2a2920d",
+   "created_at": "2026-11-10T08:16:18.315622Z",
+   "chars": 7219,
+   "est_tokens": 2182,
+   "sha256": "b1168e2052f9d730855f7ab652d27743f82809586870f3d101ddf4aa2b38d76b"
+  }
+ ]
+}

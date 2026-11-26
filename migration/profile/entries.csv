@@ -1,0 +1,909 @@
+doc,heading,has_claim,has_version,has_volatility,has_source,has_confidence,has_notes,version_raw,version,volatility,confidence,src_url,src_tier,src_date,chars,inferred,price_no_date
+kb/builds/budget-tiers.md,(preamble),False,True,True,False,False,False,0.5.x / 0.5.5 sources (researched 2026-11-17).,0.5.x,volatile,MISSING,False,,False,340,1,False
+kb/builds/budget-tiers.md,Working tier definitions [INFERRED],False,True,True,True,True,False,0.5.x,0.5.x,volatile,inferred,False,3,False,738,2,True
+kb/builds/budget-tiers.md,Sourced anchors,False,True,True,False,True,False,0.5.5,0.5.5,volatile,single-source,False,,False,1011,0,False
+kb/builds/budget-tiers.md,SSF / self-found crafting baseline,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,3,True,514,0,False
+kb/builds/budget-tiers.md,Budget denomination drifts within a league,True,True,True,True,True,True,0.5 (Runes of Aldur),0.5,volatile,single-source,False,4,True,476,1,False
+kb/builds/budget-tiers.md,Where a starter's first divines should go (sourced lists),True,True,True,True,True,True,0.2–0.5,<0.5,may-change,confirmed,True,3,True,649,0,False
+kb/builds/budget-tiers.md,Investment cut-off,True,True,True,True,True,False,pre-1.0 opinion,OTHER,stable,single-source,False,3,True,329,0,False
+kb/builds/defence-checklist.md,(preamble),False,True,False,False,False,False,built from the 0.5.5.9 mechanics docs + 0.5.x guid,OTHER,MISSING,MISSING,False,,False,355,0,False
+kb/builds/defence-checklist.md,1. Resistances,True,True,True,True,True,False,0.5.x,0.5.x,may-change,confirmed,True,2,True,714,1,False
+kb/builds/defence-checklist.md,2. Chaos resistance,True,True,True,True,True,False,0.5.5,0.5.5,may-change,confirmed,True,2,True,525,0,False
+kb/builds/defence-checklist.md,3. Pool size (life / ES),True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,single-source,False,2,True,425,0,False
+kb/builds/defence-checklist.md,"4. One primary mitigation layer, matched to your attribute",True,True,True,True,True,False,0.5,0.5,may-change,inferred,True,5,True,1091,1,False
+kb/builds/defence-checklist.md,5. Recovery,True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,single-source,False,2,True,477,0,False
+kb/builds/defence-checklist.md,"6. Avoidance extras (block, dodge roll)",True,True,True,True,True,False,0.5.x,0.5.x,may-change,confirmed,False,2,True,410,0,False
+kb/builds/defence-checklist.md,7. Stun and ailments,True,True,True,True,True,False,0.5.5.9 / 0.2 (charm advice),0.5.5.9,may-change,single-source,True,2,True,772,0,False
+kb/builds/defence-checklist.md,8. DoT blind spots,True,True,True,True,True,False,0.5.5.9,0.5.5.9,stable,confirmed,False,2,True,465,1,False
+kb/builds/ice-shot-deadeye-levelling-0.5.5.md,(preamble),False,True,True,False,False,False,0.5.5.,0.5.5,volatile,MISSING,False,,False,806,0,False
+kb/builds/kb-test-frostbolt-chronomancer-0.5.5.md,(preamble),False,True,True,False,False,False,0.5.5 (Forbidden Rites rules) · Written 2026-11-23,0.5.5,may-change,MISSING,False,,False,320,0,False
+kb/builds/kb-test-frostbolt-chronomancer-0.5.5.md,a. Why this class / ascendancy / skill,True,False,False,False,True,False,,MISSING,MISSING,single-source,False,,False,1856,3,False
+kb/builds/kb-test-frostbolt-chronomancer-damage-0.5.5.md,(preamble),False,True,True,False,False,False,0.5.5 (Forbidden Rites rules) · Written 2026-11-23,0.5.5,may-change,MISSING,False,,False,250,0,False
+kb/builds/levelling-gear.md,(preamble),False,True,False,False,False,False,game data 0.5.5.9 + 0.5.x guides (researched 2026-,OTHER,MISSING,MISSING,False,,False,325,0,False
+kb/builds/levelling-gear.md,"Rule of thumb: attacks follow the base, spells follow +levels",True,True,True,True,True,True,0.5.x,0.5.x,stable,confirmed,True,3,True,672,0,False
+kb/builds/levelling-gear.md,Weapon base tiers (drop level = earliest item level),True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,confirmed,False,2,True,2262,1,False
+kb/builds/levelling-gear.md,"Martial weapon process (Mobalytics, bows/crossbows, all martial classes)",True,True,True,True,True,True,0.4–0.5 (guide updated 2025-12-11; references Inte,<0.5,may-change,confirmed,True,3,True,1242,0,False
+kb/builds/levelling-gear.md,Caster weapon +level mod breakpoints,True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,single-source,False,2,True,913,1,False
+kb/builds/levelling-gear.md,Boots movement speed tiers,True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,confirmed,True,2,True,800,0,False
+kb/builds/levelling-gear.md,"Other levelling pickups (0.2–0.5 era, Maxroll)",True,True,True,True,True,True,0.2 (guide updated 2025-04-06; still references Cr,<0.5,may-change,single-source,True,3,True,877,0,False
+kb/builds/levelling-gear.md,Resist checkpoints during the campaign,True,True,True,True,True,True,0.2–0.5,<0.5,may-change,single-source,True,3,True,530,0,False
+kb/builds/starter-archetypes.md,(preamble),False,True,True,False,False,False,0.5 / 0.5.5 tier lists + 1.0 announcements (resear,0.5,volatile,MISSING,False,,False,234,0,False
+kb/builds/starter-archetypes.md,What makes a league starter (sourced criteria),True,True,True,True,True,True,0.5–0.5.5,0.5,may-change,confirmed,True,3,True,758,0,False
+kb/builds/starter-archetypes.md,"0.5 ascendancy tier list (Mobalytics team incl. Fubgun, Ruetoo, Jungroan)",True,True,True,True,True,False,0.5 (Return of the Ancients); no update date on pa,0.5,volatile,single-source,True,3,True,518,0,False
+kb/builds/starter-archetypes.md,"0.5.5 build tier list (Fubgun, SSF / very low budget)",True,True,True,True,True,True,0.5.5 (article 2026-09-02),0.5.5,volatile,single-source,True,5,True,830,0,False
+kb/builds/starter-archetypes.md,Archetypes that recur across both lists [INFERRED grouping],False,True,True,True,True,False,0.5.5,0.5.5,volatile,inferred,False,,False,1166,2,False
+kb/builds/starter-archetypes.md,Usage share (late 0.5.5),True,True,True,True,True,False,0.5.5,0.5.5,volatile,single-source,True,5,True,624,0,False
+kb/builds/starter-archetypes.md,What 1.0 changes for starters (official),True,True,True,True,True,True,"1.0 (announcement, not patch notes)",1.0,may-change,confirmed,True,1,True,957,1,False
+kb/builds/storm-shaman-levelling.md,Gem timeline (when each piece comes online),False,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,1030,0,False
+kb/builds/storm-shaman-pivot.md,AFK second character (brief),True,False,False,True,True,False,,MISSING,MISSING,confirmed,True,1,False,690,1,False
+kb/builds/storm-shaman.md,1. Farm pick (provisional): Ritual,True,True,True,True,True,True,0.5.x data,0.5.x,may-change,confirmed,True,2,True,1105,1,False
+kb/builds/storm-shaman.md,4. The engine (how the damage works),True,True,True,True,True,False,0.5.x,0.5.x,may-change,single-source,True,2,True,1482,0,False
+kb/builds/storm-shaman.md,5. Class & ascendancy: Druid → Shaman,True,True,True,True,True,False,0.5.x (Druid ascendancies are not on the 1.0 rewor,0.5.x,may-change,single-source,True,2,True,1882,2,False
+kb/campaign/act-1.md,(preamble),False,True,False,False,False,False,0.5.5.9. Re-check at 1.0 (campaign restructure). B,0.5.5.9,MISSING,MISSING,False,,False,249,0,False
+kb/campaign/act-1.md,"Zones, levels, bosses (route order)",True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,confirmed,True,2,True,1597,0,False
+kb/campaign/act-1.md,Permanent rewards,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,975,0,False
+kb/campaign/act-1.md,Other unlocks,True,True,True,True,True,True,0.5.0,0.5.0,may-change,single-source,True,2,True,290,0,False
+kb/campaign/act-2.md,(preamble),False,True,False,False,False,False,0.5.5.9. Re-check at 1.0. Boss stat blocks → [[cam,0.5.5.9,MISSING,MISSING,False,,False,149,0,False
+kb/campaign/act-2.md,"Zones, levels, bosses",True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,confirmed,True,2,True,1058,0,False
+kb/campaign/act-2.md,Permanent rewards,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,1022,0,False
+kb/campaign/act-2.md,Other,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,436,0,False
+kb/campaign/act-3.md,(preamble),False,True,False,False,False,False,0.5.5.9. Re-check at 1.0. Boss stat blocks → [[cam,0.5.5.9,MISSING,MISSING,False,,False,153,0,False
+kb/campaign/act-3.md,"Zones, levels, bosses",True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,confirmed,True,2,True,1105,0,False
+kb/campaign/act-3.md,Permanent rewards,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,950,1,False
+kb/campaign/act-4.md,(preamble),False,True,False,False,False,False,0.5.5.9. Re-check at 1.0 — 1.0 continues the story,0.5.5.9,MISSING,MISSING,False,,False,246,0,False
+kb/campaign/act-4.md,"Zones, levels, bosses",True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,confirmed,True,2,True,1150,0,False
+kb/campaign/act-4.md,Permanent rewards,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,1265,0,False
+kb/campaign/act-5.md,What's announced,True,True,True,True,True,True,1.0 (announced),1.0,may-change,confirmed,True,3,True,883,0,False
+kb/campaign/act-5.md,Official counts (Acts 5 + 6 combined),True,True,True,True,True,True,1.0 (announced),1.0,may-change,confirmed,True,1,True,717,0,False
+kb/campaign/act-5.md,Possible Act 5 quests already in 0.5 game data (unconfirmed),True,True,True,True,True,True,0.5.x data (unreleased content),0.5.x,may-change,inferred,True,2,True,874,1,False
+kb/campaign/act-6.md,What's announced,True,True,True,True,True,False,1.0 (announced),1.0,may-change,confirmed,True,3,True,763,0,False
+kb/campaign/act-6.md,Official counts (Acts 5 + 6 combined),True,True,True,True,True,True,1.0 (announced),1.0,may-change,confirmed,True,1,True,411,0,False
+kb/campaign/act-6.md,"""Act 6"" in 0.5 game data = the Interludes",True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,558,0,False
+kb/campaign/area-levels.md,Area level ranges by act,True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,confirmed,True,2,True,1003,0,False
+kb/campaign/area-levels.md,What area level does,True,True,True,True,True,True,0.5.x,0.5.x,stable,single-source,True,2,True,417,0,False
+kb/campaign/area-levels.md,Practical levels for the skip route,True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,inferred,False,2,False,454,1,False
+kb/campaign/interludes.md,Status in 1.0: removed,True,True,True,True,True,True,1.0 (announced),1.0,may-change,confirmed,True,3,True,862,0,False
+kb/campaign/interludes.md,What they were (0.5 reference),True,True,True,True,True,True,0.5.5.9,0.5.5.9,retired,confirmed,True,2,True,972,1,False
+kb/campaign/interludes.md,Rewards (0.5),True,True,True,True,True,False,0.5.x,0.5.x,retired,confirmed,True,3,True,697,0,False
+kb/campaign/levelling-routes.md,0.5 campaign changes that affect routing,True,True,True,True,True,True,0.5.0,0.5.0,may-change,confirmed,True,5,True,652,0,False
+kb/campaign/levelling-routes.md,Speed benchmarks,True,True,True,True,True,True,early access → 0.5.2,OTHER,may-change,single-source,True,3,True,565,1,False
+kb/campaign/levelling-routes.md,Routing principles (guides),True,True,True,True,True,True,0.4–0.5,<0.5,may-change,confirmed,True,3,True,981,1,False
+kb/campaign/levelling-routes.md,XP penalty,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,3,True,360,0,False
+kb/campaign/permanent-rewards.md,Totals (0.5),True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,3,True,1042,0,False
+kb/campaign/permanent-rewards.md,By act (0.5),True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,3,True,1497,0,False
+kb/campaign/permanent-rewards.md,Skip-route value ranking [INFERRED],True,True,True,True,True,True,0.5 (method),0.5,may-change,inferred,False,,False,430,2,False
+kb/campaign/quest-rewards.md,Act 1 (0.5),True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,False,1048,0,False
+kb/campaign/quest-rewards.md,Act 2 (0.5),True,True,True,False,True,True,0.5.x,0.5.x,may-change,single-source,False,,False,687,0,False
+kb/campaign/quest-rewards.md,Act 3 (0.5),True,True,True,False,True,True,0.5.x,0.5.x,may-change,single-source,False,,False,648,0,False
+kb/campaign/quest-rewards.md,Act 4 (0.5),True,True,True,False,True,True,0.5.x,0.5.x,may-change,single-source,False,,False,1193,0,False
+kb/campaign/quest-rewards.md,"Interludes (0.5; filed as ""Act 6"" on PoE2DB)",True,True,True,False,True,True,0.5.x — removed in 1.0,0.5.x,retired,single-source,False,,False,535,0,False
+kb/campaign/quest-rewards.md,"Endgame/map quests (0.5, no act)",True,True,True,False,True,True,0.5.x,0.5.x,may-change,single-source,False,,False,634,0,False
+kb/campaign/quest-rewards.md,League-mechanic guaranteed rewards (0.4/0.5 campaign),True,True,True,True,True,True,0.4 (Guythatdies sheet) / 0.5 (Mobalytics sheet),<0.5,may-change,single-source,True,3,True,1126,0,False
+kb/campaign/quest-rewards.md,Uncut gem level by drop level,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,586,0,False
+kb/classes/ascendancy-trials.md,(preamble),False,True,False,False,False,False,0.5.x (researched 2026-11-17). Re-check at 1.0 — t,0.5.x,MISSING,MISSING,False,,False,140,0,False
+kb/classes/ascendancy-trials.md,"8 points, 2 per trial completion",True,True,True,True,True,False,0.5.x,0.5.x,may-change,confirmed,True,2,True,661,0,False
+kb/classes/ascendancy-trials.md,Point schedule (0.5.x),False,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,3,True,1172,0,False
+kb/classes/ascendancy-trials.md,Changing ascendancy,True,True,False,True,True,False,0.5.x,0.5.x,MISSING,confirmed,True,2,True,411,0,False
+kb/classes/druid-ascendancies.md,(preamble),False,True,False,True,False,False,0.5.x (PoE2DB crawl 2026-11-23). NOT verified for ,0.5.x,MISSING,MISSING,True,2,True,625,0,False
+kb/classes/druid-ascendancies.md,Which Druid ascendancies exist,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,652,1,False
+kb/classes/druid-ascendancies.md,Druid class basics,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,628,0,False
+kb/classes/druid-ascendancies.md,Druid forms and skills listed on class page,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,716,0,False
+kb/classes/druid-ascendancies.md,Shaman: overview,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,644,1,False
+kb/classes/druid-ascendancies.md,Shaman: small (unnamed) nodes,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,484,0,False
+kb/classes/druid-ascendancies.md,Shaman: named nodes,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,1338,0,False
+kb/classes/druid-ascendancies.md,Shaman: granted skill Apocalypse,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,1152,0,False
+kb/classes/druid-ascendancies.md,Oracle: overview,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,469,1,False
+kb/classes/druid-ascendancies.md,Oracle: small nodes,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,680,0,False
+kb/classes/druid-ascendancies.md,Oracle: named nodes,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,1119,0,False
+kb/classes/druid-ascendancies.md,Oracle: granted skills,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,1242,0,False
+kb/classes/druid-ascendancies.md,1.0 status,True,True,True,True,True,True,1.0 announcement (pre-patch-notes),1.0,volatile,single-source,True,1,True,730,0,False
+kb/classes/index.md,(preamble),False,True,False,False,False,False,game data 0.5.5.9 + 1.0 announcements (researched ,OTHER,MISSING,MISSING,False,,False,182,0,False
+kb/classes/index.md,Live classes in 0.5.5.9 (8) and their ascendancies (22),False,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,single-source,True,2,True,1317,1,False
+kb/classes/index.md,1.0 additions: Shadow and Duelist,True,True,True,True,True,True,"1.0 (announced, not patch notes)",1.0,may-change,confirmed,True,2,True,1199,0,False
+kb/classes/passive-tree.md,(preamble),False,True,False,False,False,False,game data 0.5.5.9 (researched 2026-11-17). 1.0 ove,OTHER,MISSING,MISSING,False,,False,246,0,False
+kb/classes/passive-tree.md,Points,True,True,False,True,True,True,0.5.x,0.5.x,MISSING,confirmed,True,2,True,620,0,False
+kb/classes/passive-tree.md,Node types,True,True,False,True,True,False,0.5.x,0.5.x,MISSING,confirmed,True,2,True,548,0,False
+kb/classes/respec.md,(preamble),False,True,False,False,False,False,0.5.x (researched 2026-11-17; full gold table adde,0.5.x,MISSING,MISSING,False,,False,105,0,False
+kb/classes/respec.md,Where,True,True,False,True,True,False,0.5.x,0.5.x,MISSING,confirmed,True,3,True,497,0,False
+kb/classes/respec.md,Gold cost per refunded passive point (by character level),True,True,True,True,True,True,0.5.x (table as shown on wiki 2026-11-17),0.5.x,may-change,single-source,True,2,True,1026,0,False
+kb/classes/respec.md,Attribute node switch,True,True,False,True,True,False,0.5.x,0.5.x,MISSING,single-source,True,2,True,380,0,False
+kb/classes/respec.md,Ascendancy points,True,True,False,True,True,False,0.5.x,0.5.x,MISSING,single-source,True,5,True,501,0,False
+kb/classes/sorceress-ascendancies.md,(preamble),False,True,False,True,False,False,0.5.x (PoE2DB crawl 2026-11-23). 1.0 overhauls the,0.5.x,MISSING,MISSING,True,2,True,653,0,False
+kb/classes/sorceress-ascendancies.md,Tier-list view (context),False,True,True,False,True,False,0.5.x,0.5.x,may-change,single-source,False,,False,223,0,False
+kb/classes/weapon-set-points.md,(preamble),False,True,False,False,False,False,0.5.x (researched 2026-11-17). Re-check at 1.0. Fu,0.5.x,MISSING,MISSING,False,,False,165,0,False
+kb/classes/weapon-set-points.md,Summary,True,True,True,True,True,False,0.5.x,0.5.x,may-change,confirmed,True,2,True,720,0,False
+kb/classes/weapon-set-points.md,Witchhunter: Weapon Master,True,True,False,True,True,True,0.5.5.9,0.5.5.9,MISSING,confirmed,True,2,True,519,0,False
+kb/crafting/approach.md,"The 0.5 rule: one crafted mod, one desecrated mod",True,True,True,True,True,True,0.5.0+,0.5.0,may-change,confirmed,True,2,True,949,0,False
+kb/crafting/approach.md,Deterministic tools (control what you get),True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,confirmed,False,2,True,625,0,False
+kb/crafting/approach.md,Gamble tools,True,True,True,True,True,False,0.5.5.9,0.5.5.9,stable,confirmed,False,2,True,265,0,False
+kb/crafting/approach.md,"Common sequences (guides, 0.5)",True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,3,True,1448,1,False
+kb/crafting/approach.md,Gear-level crafting for the league start,True,True,True,True,True,True,0.5.x,0.5.x,may-change,inferred,True,2,True,598,1,False
+kb/crafting/catalysts.md,What catalysts do,True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,confirmed,True,2,True,896,0,False
+kb/crafting/catalysts.md,"Jewellery catalysts (rings/amulets, drop level 30)",True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,single-source,False,2,True,445,0,False
+kb/crafting/catalysts.md,"Jewel catalysts (Refined, drop level 50)",True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,confirmed,True,2,True,629,0,False
+kb/crafting/craft-costs.md,How to estimate a craft's cost,True,True,True,True,True,True,n/a (arithmetic),OTHER,stable,inferred,False,,False,749,2,False
+kb/crafting/craft-costs.md,"Unit costs per step (Forbidden Rites, 2026-11-17)",False,True,True,True,True,True,0.5.5 (Forbidden Rites),0.5.5,volatile,single-source,False,4,True,838,0,False
+kb/crafting/craft-costs.md,Reference craft costs (incomplete),True,True,True,True,True,True,0.5.5,0.5.5,volatile,inferred,False,4,False,956,2,True
+kb/crafting/craft-costs.md,Rough guide figures (not prices — orders of magnitude),True,True,True,True,True,False,0.5.x,0.5.x,volatile,inferred,False,5,True,419,1,False
+kb/crafting/currency-index.md,Rarity upgrades (normal → magic → rare),True,False,False,False,True,False,,MISSING,MISSING,single-source,False,,False,628,0,False
+kb/crafting/currency-index.md,Rare-item crafting,True,False,False,False,True,True,,MISSING,MISSING,single-source,False,,False,855,0,False
+kb/crafting/currency-index.md,Greater / Perfect = minimum modifier level,True,True,True,True,True,True,0.3+ (still 0.5.x),<0.5,may-change,confirmed,True,2,True,1197,1,False
+kb/crafting/currency-index.md,Sockets and gems,True,False,False,False,True,True,,MISSING,MISSING,single-source,False,,False,846,1,False
+kb/crafting/currency-index.md,Utility,True,False,False,False,True,True,,MISSING,MISSING,single-source,False,,False,563,1,False
+kb/crafting/currency-index.md,League / Vaal temple currency (0.5),True,False,False,False,True,True,,MISSING,MISSING,single-source,False,,False,608,0,False
+kb/crafting/currency-index.md,In data but probably not live,True,False,False,False,True,False,,MISSING,MISSING,inferred,False,,False,351,1,False
+kb/crafting/desecration.md,(preamble),False,True,False,False,False,False,0.5.x (PoE2DB crawl 2026-11-23). Not checked again,0.5.x,MISSING,MISSING,False,,False,689,0,False
+kb/crafting/desecration.md,What desecration does,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,747,0,False
+kb/crafting/desecration.md,"Bones: class, restriction, drop level",True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,2253,0,False
+kb/crafting/desecration.md,Ancient bones: minimum modifier level 40,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,742,1,False
+kb/crafting/desecration.md,Omens for desecration,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,754,0,False
+kb/crafting/desecration.md,Where bones come from,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,443,0,False
+kb/crafting/desecration.md,Mark of the Abyssal Lord,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,510,0,False
+kb/crafting/desecration.md,Abyssal Eyes (not bones),True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,516,0,False
+kb/crafting/desecration.md,Carried over from earlier version (2026-11-17),True,True,True,True,True,True,0.3+ (0.5.x),<0.5,may-change,confirmed,True,2,True,1270,0,False
+kb/crafting/essence-table-high.md,(preamble),False,True,False,False,False,False,0.5.x (PoE2DB crawl 2026-11-23). Not checked again,0.5.x,MISSING,MISSING,False,,False,325,0,False
+kb/crafting/essence-table-high.md,Greater and Perfect essence mods by family,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,6578,0,False
+kb/crafting/essence-table.md,(preamble),False,True,False,False,False,False,0.5.x (PoE2DB crawl 2026-11-23). Not checked again,0.5.x,MISSING,MISSING,False,,False,354,0,False
+kb/crafting/essence-table.md,Lesser and Normal essence mods by family,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,6637,0,False
+kb/crafting/essences.md,(preamble),False,True,False,False,False,False,0.5.x (PoE2DB crawl 2026-11-23). Nothing here is c,0.5.x,MISSING,MISSING,False,,False,507,0,False
+kb/crafting/essences.md,Tiers and how they apply,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,774,0,False
+kb/crafting/essences.md,Drop levels,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,953,0,False
+kb/crafting/essences.md,Upgrading by Forge recipe,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,643,1,False
+kb/crafting/essences.md,"Essence of Ice: cold damage, not spell crit",True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,694,0,False
+kb/crafting/essences.md,Essence of Seeking: the crit essence,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,635,0,False
+kb/crafting/essences.md,Corrupted essences,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,2410,0,False
+kb/crafting/essences.md,Atlas pattern notes (drop/quantity),True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,540,0,False
+kb/crafting/essences.md,"Non-currency ""essence"" pages",True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,561,1,False
+kb/crafting/essences.md,Carried over from earlier version (2026-11-17),True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,single-source,True,2,True,580,0,False
+kb/crafting/league-crafting.md,Remnants and Verisium,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,859,0,False
+kb/crafting/league-crafting.md,Verisium Runeforging (Verisium Anvil),True,True,True,True,True,True,0.5.0+,0.5.0,may-change,confirmed,True,2,True,864,1,False
+kb/crafting/league-crafting.md,Unlock schedule (campaign),True,True,True,True,True,True,0.5.0,0.5.0,may-change,single-source,True,2,True,707,0,False
+kb/crafting/league-crafting.md,Alloys,True,True,True,True,True,True,0.5.0+,0.5.0,may-change,confirmed,True,2,True,649,0,False
+kb/crafting/league-crafting.md,Unique Runeforging and Starlit Ores,True,True,True,True,True,True,0.5.0+,0.5.0,may-change,confirmed,True,2,True,907,0,False
+kb/crafting/league-crafting.md,Other 0.5 Remnant crafts,True,True,True,True,True,True,0.5.0,0.5.0,may-change,single-source,True,2,True,831,1,False
+kb/crafting/omens.md,How omens work,True,True,True,True,True,True,0.5.5.9,0.5.5.9,stable,single-source,True,2,True,781,1,False
+kb/crafting/omens.md,Exalted Orb omens,True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,single-source,False,2,True,596,0,False
+kb/crafting/omens.md,Chaos Orb omens,True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,single-source,False,2,True,527,0,False
+kb/crafting/omens.md,Annulment omens,True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,single-source,False,2,True,306,0,False
+kb/crafting/omens.md,Regal / Alchemy omens,True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,single-source,False,2,True,370,0,False
+kb/crafting/omens.md,Essence omens,True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,single-source,False,2,True,295,0,False
+kb/crafting/omens.md,Desecration omens,True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,confirmed,True,2,True,714,0,False
+kb/crafting/omens.md,Other currency omens,True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,single-source,False,2,True,625,0,False
+kb/crafting/omens.md,Non-crafting omens,True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,single-source,False,2,True,859,0,False
+kb/crafting/recombinator.md,Status: removed,True,True,True,True,True,True,existed 0.2–0.4; removed 0.5.0,OTHER,may-change,confirmed,True,3,True,1282,1,False
+kb/economy/currency-exchange.md,What it is,True,True,True,True,True,True,0.1+ (still 0.5.x),<0.5,stable,confirmed,True,2,True,745,0,False
+kb/economy/currency-exchange.md,Where/when it unlocks,True,True,True,True,True,True,0.3+ (Ange); older text for Alva/Finn/Risu,<0.5,may-change,single-source,True,2,True,734,0,False
+kb/economy/currency-exchange.md,Matching: instant vs limit orders,True,True,True,True,True,True,0.5.x,0.5.x,stable,confirmed,True,3,True,916,0,False
+kb/economy/currency-exchange.md,Order limits and fees,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,3,True,914,1,False
+kb/economy/currency-exchange.md,Order book visibility,True,True,True,True,True,True,current API (2026),OTHER,may-change,confirmed,True,1,True,662,0,False
+kb/economy/currency-exchange.md,Base unit,True,True,True,True,True,True,0.5 (Runes of Aldur),0.5,volatile,confirmed,False,4,True,565,0,False
+kb/economy/gold.md,Properties,True,True,True,True,True,False,0.5.x,0.5.x,stable,confirmed,True,2,True,350,0,False
+kb/economy/gold.md,Sinks,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,954,0,False
+kb/economy/gold.md,1.0: gold buys Conquerors troops,True,True,True,True,True,True,1.0 (announced),1.0,may-change,single-source,False,5,True,583,1,False
+kb/economy/gold.md,Getting gold,True,True,True,True,True,True,0.2.0g+,<0.5,may-change,confirmed,True,3,True,651,0,False
+kb/economy/league-lifecycle.md,Base-currency inflation,True,True,True,True,True,True,"0.5 (Runes of Aldur, Forbidden Rites)",0.5,volatile,single-source,False,4,True,653,0,False
+kb/economy/league-lifecycle.md,Day 1–3,True,True,True,True,True,True,0.5 (Runes of Aldur / Forbidden Rites),0.5,volatile,single-source,False,4,True,949,0,False
+kb/economy/league-lifecycle.md,Week 1,True,True,True,True,True,False,0.5,0.5,volatile,single-source,False,4,False,467,2,False
+kb/economy/league-lifecycle.md,Mid → late league,True,True,True,True,True,True,0.5,0.5,volatile,single-source,False,4,True,767,0,False
+kb/economy/price-sites.md,Where PoE2 currency prices come from,True,True,True,True,True,True,current (2026),OTHER,may-change,confirmed,True,1,True,894,0,False
+kb/economy/price-sites.md,Live test of the GGG API (2026-11-17),True,True,True,True,True,True,"live data, 2026-11-17",OTHER,volatile,single-source,True,1,True,1244,1,False
+kb/economy/price-sites.md,poe.ninja (PoE2),True,True,True,True,True,True,current (2026),OTHER,may-change,confirmed,True,4,True,887,1,False
+kb/economy/price-sites.md,poe2scout,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,535,0,False
+kb/economy/price-sites.md,How to read them,True,True,True,True,True,False,0.5.x,0.5.x,may-change,single-source,False,4,True,680,0,False
+kb/economy/trade-site.md,Three ways to trade,True,True,True,True,True,False,0.5.x,0.5.x,may-change,confirmed,True,3,True,523,0,False
+kb/economy/trade-site.md,Asynchronous trade (Merchant's Tabs),True,True,True,True,True,True,0.3.0+,<0.5,may-change,confirmed,True,2,True,1149,0,False
+kb/economy/trade-site.md,Trade site search,True,True,True,True,True,True,0.3+,<0.5,may-change,confirmed,True,5,True,816,1,False
+kb/economy/trade-site.md,Bulk exchange,True,True,True,True,True,False,0.3+,<0.5,may-change,inferred,True,5,True,529,1,False
+kb/economy/value-retention.md,Holds or gains value (0.5 pattern),True,True,True,True,True,True,0.5,0.5,volatile,single-source,False,4,True,773,1,False
+kb/economy/value-retention.md,Loses value,True,True,True,True,True,False,0.5,0.5,volatile,single-source,False,4,False,307,0,False
+kb/economy/value-retention.md,Rules for 1.0 (David's playbook),True,True,True,True,True,True,1.0 (plan),1.0,volatile,inferred,False,,True,652,2,False
+kb/endgame/abyss.md,(preamble),False,True,False,True,False,False,0.5.x (PoE2DB crawl 2026-11-23). Not checked again,0.5.x,MISSING,MISSING,True,,False,615,0,False
+kb/endgame/abyss.md,Encounter flow,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,670,0,False
+kb/endgame/abyss.md,Factions and monster groups,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,798,0,False
+kb/endgame/abyss.md,Abyssal Modifiers and Lichborn,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,678,0,False
+kb/endgame/abyss.md,Abyssal Depths,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,969,0,False
+kb/endgame/abyss.md,Preserved Bones and desecration,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,762,0,False
+kb/endgame/abyss.md,Well of Souls (link to desecration),True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,741,0,False
+kb/endgame/abyss.md,Abyssal Eyes (augments from Abyssals),True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,663,0,False
+kb/endgame/abyss.md,Lineage supports tied to the lords,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,501,0,False
+kb/endgame/atlas.md,(preamble),False,True,False,True,False,False,0.5.x (PoE2DB crawl 2026-11-23).,0.5.x,MISSING,MISSING,True,2,False,415,0,False
+kb/endgame/atlas.md,Atlas = map-node world,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,509,0,False
+kb/endgame/atlas.md,Map completion / failure,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,655,0,False
+kb/endgame/atlas.md,Map Boss tiers,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,560,0,False
+kb/endgame/atlas.md,Revivals per map,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,527,0,False
+kb/endgame/atlas.md,Biomes,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,610,0,False
+kb/endgame/atlas.md,Precursor Towers,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,661,0,False
+kb/endgame/atlas.md,Irradiated,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,332,0,False
+kb/endgame/atlas.md,Corruption in the Atlas,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,870,0,False
+kb/endgame/atlas.md,Cleansing,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,716,0,False
+kb/endgame/atlas.md,Citadels,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,737,0,False
+kb/endgame/atlas.md,Map content legend (objectives),True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,600,0,False
+kb/endgame/breach.md,(preamble),False,True,False,True,False,False,0.5.x only. Nothing here is verified for the later,0.5.x,MISSING,MISSING,True,2,True,470,0,False
+kb/endgame/breach.md,Encounter types,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,915,0,False
+kb/endgame/breach.md,Breach Tablet (decision row),True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,634,0,False
+kb/endgame/breach.md,Currency and drops from Breach,False,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,2006,0,False
+kb/endgame/breach.md,Breachstones (keys to the Twisted Domain),True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,887,0,False
+kb/endgame/breach.md,"Boss: Xesht, We That Are One (Breach pinnacle)",True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,820,0,False
+kb/endgame/breach.md,"Boss: Vruun, Marshal of Xesht (Stabilised Breach boss)",True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,774,1,False
+kb/endgame/breach.md,Boss: It That Was Tul / It That Was Esh (Fortress pair),True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,547,0,False
+kb/endgame/breach.md,Key to the pinnacle,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,730,1,False
+kb/endgame/breach.md,Unique drops tied to Breach,True,True,True,True,True,True,0.5.x,0.5.x,stable,confirmed,True,2,True,732,0,False
+kb/endgame/delirium.md,(preamble),False,True,False,True,False,False,0.5.x only. Nothing here is verified for the later,0.5.x,MISSING,MISSING,True,2,True,483,0,False
+kb/endgame/delirium.md,How the encounter works,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,1031,0,False
+kb/endgame/delirium.md,"Shards, mirrors, scaling",True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,819,0,False
+kb/endgame/delirium.md,Grand Mirror -> Simulacrum chain,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,623,0,False
+kb/endgame/delirium.md,Simulacrum (7 waves) and its splinters,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,1188,0,False
+kb/endgame/delirium.md,Delirium Tablet,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,528,0,False
+kb/endgame/delirium.md,"Liquid Emotions (Delirium currency, decision rows)",True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,1613,0,False
+kb/endgame/delirium.md,Key and chase item,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,917,1,False
+kb/endgame/delirium.md,Boss: The Raven Trickster (Delirium pinnacle),True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,640,0,False
+kb/endgame/delirium.md,Other Delirium bosses on PoE2DB,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,752,0,False
+kb/endgame/delirium.md,Unique drops tied to Delirium,True,True,True,True,True,True,0.5.x,0.5.x,stable,single-source,True,2,True,981,0,False
+kb/endgame/expedition.md,(preamble),False,True,False,True,False,False,0.5.x (PoE2DB crawl 2026-11-23). 1.0 not checked.,0.5.x,MISSING,MISSING,True,,False,721,0,False
+kb/endgame/expedition.md,What it is,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,838,0,False
+kb/endgame/expedition.md,Tablets (atlas-dependent),True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,877,0,False
+kb/endgame/expedition.md,Explosives and Runic Monsters,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,658,0,False
+kb/endgame/expedition.md,"Remnants, runes and recipes",True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,926,0,False
+kb/endgame/expedition.md,Runic Monster modifiers,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,702,0,False
+kb/endgame/expedition.md,"Verisium, Anvil and Liquid Verisium",True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,False,1139,0,False
+kb/endgame/expedition.md,Logbooks and Grand Expeditions (atlas-dependent),True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,False,834,0,False
+kb/endgame/expedition.md,Keys: Sagas,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,False,786,0,False
+kb/endgame/expedition.md,Bosses,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,False,1360,0,False
+kb/endgame/expedition.md,Boss drops and uniques,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,False,974,0,False
+kb/endgame/expedition.md,Vendors and legacy currency,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,711,0,False
+kb/endgame/pinnacle-bosses-2.md,(preamble),False,True,False,True,False,False,0.5.x (PoE2DB crawl 2026-11-23). Not checked again,0.5.x,MISSING,MISSING,True,2,False,435,0,False
+kb/endgame/pinnacle-bosses-2.md,Stat table (area-page rows),True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,1944,0,False
+kb/endgame/pinnacle-bosses-2.md,Life method check,True,True,True,True,True,True,0.5.x,0.5.x,stable,inferred,True,2,True,949,2,False
+kb/endgame/pinnacle-bosses-2.md,Biggest hits per boss (skill-block values),True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source.,True,2,True,2848,0,False
+kb/endgame/pinnacle-bosses-2.md,Resistance history,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,616,0,False
+kb/endgame/pinnacle-bosses-2.md,Drops,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,665,0,False
+kb/endgame/pinnacle-bosses.md,(preamble),False,True,False,True,False,False,0.5.x (PoE2DB crawl 2026-11-23). Nothing here chec,0.5.x,MISSING,MISSING,True,2,False,495,0,False
+kb/endgame/pinnacle-bosses.md,"Roster (map pages tagged pinnacle_boss, plus Kosis and Kulemak)",True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,1076,0,False
+kb/endgame/pinnacle-bosses.md,Shared pinnacle-area rules,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,990,1,False
+kb/endgame/pinnacle-bosses.md,"The Arbiter of Ash (The Burning Monolith, area 74)",True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,1167,0,False
+kb/endgame/pinnacle-bosses.md,"The Arbiter of Divinity (The Origin Tower, area 79)",True,True,True,True,True,True,0.5.x,0.5.x,may-change,inferred,True,2,True,1047,1,False
+kb/endgame/pinnacle-bosses.md,"Xesht, We That Are One (Twisted Domain, area 79)",True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,1035,0,False
+kb/endgame/pinnacle-bosses.md,"The Bodach (Caer Tarth, area 79)",True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,838,0,False
+kb/endgame/pinnacle-bosses.md,"The Aberration (Ruins of Kingsmarch / Fallen Star, area 79)",True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,566,0,False
+kb/endgame/pinnacle-bosses.md,"The Raven Trickster (The Withered Willow, area 79)",True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,439,0,False
+kb/endgame/pinnacle-bosses.md,"Kosis, The Revelation (Simulacrum)",True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,744,0,False
+kb/endgame/pinnacle-bosses.md,"Vessel of Kulemak (The Well of Souls endgame variant, area 79)",True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,670,0,False
+kb/endgame/pinnacle-bosses.md,Key prices,True,True,True,True,True,True,0.5.x,0.5.x,volatile,n/a,False,,False,436,0,False
+kb/endgame/ritual.md,(preamble),False,True,False,True,False,False,0.5.x (PoE2DB crawl 2026-11-23). 1.0 not checked.,0.5.x,MISSING,MISSING,True,,False,357,0,False
+kb/endgame/ritual.md,Encounter loop,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,545,0,False
+kb/endgame/ritual.md,Reroll and defer,True,True,True,True,True,True,0.5.x,0.5.x,volatile,single-source,True,2,True,651,0,False
+kb/endgame/ritual.md,Reward screen (decision rows),True,True,True,True,True,True,0.5.x (rule from 0.5.0),0.5.x,may-change,confirmed,True,2,True,960,0,False
+kb/endgame/ritual.md,Omen list (as linked from Ritual),True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,847,0,False
+kb/endgame/ritual.md,Ritual types (encounter variants),True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,924,0,False
+kb/endgame/ritual.md,Tablets and map mods (atlas-dependent),True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,1086,0,False
+kb/endgame/ritual.md,Quest chain to the pinnacle,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,1008,0,False
+kb/endgame/ritual.md,Keys and fragments,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,826,0,False
+kb/endgame/ritual.md,Bosses,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,1323,0,False
+kb/endgame/ritual.md,Unique drops tied to bosses,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,865,0,False
+kb/endgame/ritual.md,Farm decision notes,True,True,True,True,True,True,0.5.x,0.5.x,may-change,inferred,True,2,True,457,1,False
+kb/endgame/sekhemas-2.md,(preamble),False,True,False,False,False,False,0.5.x (PoE2DB crawl 2026-11-23). Not checked for 1,0.5.x,MISSING,MISSING,False,,False,410,0,False
+kb/endgame/sekhemas-2.md,Barya items (the entry coins),True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,810,1,False
+kb/endgame/sekhemas-2.md,Trial count and ascension points by Barya,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,958,0,False
+kb/endgame/sekhemas-2.md,Where Djinn Baryas come from in endgame,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,546,0,False
+kb/endgame/sekhemas-2.md,Campaign vs endgame version,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,927,0,False
+kb/endgame/sekhemas-2.md,Floor room sets (reward rooms and special rooms),True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,1139,0,False
+kb/endgame/sekhemas-2.md,"Relic slots, shapes and unlocks",True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,906,1,False
+kb/endgame/sekhemas-2.md,"Relic mod highlights (Urn Relic, top tiers)",True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,1081,0,False
+kb/endgame/sekhemas-2.md,Zarokh Reliquary Keys,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,634,0,False
+kb/endgame/sekhemas-2.md,Zarokh hourglass failure (0.3.0),True,True,True,True,True,True,0.3.0 (patch note); current 0.5.x behaviour not re,<0.5,may-change,single-source,True,2,True,523,0,False
+kb/endgame/sekhemas.md,Honour,True,True,True,False,True,True,0.5.x,0.5.x,may-change,single-source,False,,False,739,1,False
+kb/endgame/sekhemas.md,Floors and bosses,True,True,False,False,True,False,0.5.x,0.5.x,MISSING,single-source,False,,False,642,0,False
+kb/endgame/sekhemas.md,Unique relics (Zarokh drops),False,True,False,False,True,True,0.5.x,0.5.x,MISSING,single-source,False,,False,903,0,False
+kb/endgame/tablets.md,(preamble),False,True,False,True,False,False,0.5.x (PoE2DB crawl 2026-11-23). Not checked again,0.5.x,MISSING,MISSING,True,,False,465,0,False
+kb/endgame/tablets.md,What tablets are,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,487,0,False
+kb/endgame/tablets.md,Base type table,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,890,0,False
+kb/endgame/tablets.md,Uses / charges,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,757,0,False
+kb/endgame/tablets.md,Use in Precursor Towers,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,612,0,False
+kb/endgame/tablets.md,Rarity and mods,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,1882,0,False
+kb/endgame/tablets.md,Unique tablets,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,1406,0,False
+kb/endgame/tablets.md,How they drop,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,902,1,False
+kb/endgame/tablets.md,Waystone interaction,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,415,0,False
+kb/endgame/trial-of-chaos.md,(preamble),False,True,False,True,False,False,0.5.x (PoE2DB crawl 2026-11-23). Not checked again,0.5.x,MISSING,MISSING,True,,False,470,0,False
+kb/endgame/trial-of-chaos.md,Entry and quest,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,622,0,False
+kb/endgame/trial-of-chaos.md,Inscribed Ultimatum item and trial length,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,766,0,False
+kb/endgame/trial-of-chaos.md,"Round loop: modifiers, wagers, rewards",True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,1016,0,False
+kb/endgame/trial-of-chaos.md,Trial bosses and Trialmaster,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,756,0,False
+kb/endgame/trial-of-chaos.md,Fate keys and Reliquary key,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,578,0,False
+kb/endgame/trial-of-chaos.md,Soul Cores,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,453,0,False
+kb/endgame/uber-bosses.md,(preamble),False,True,False,True,False,False,0.5.x (PoE2DB crawl 2026-11-23). Not checked again,0.5.x,MISSING,MISSING,True,2,False,361,0,False
+kb/endgame/uber-bosses.md,Uber ladder (history),True,True,True,True,True,True,0.5.x (history from 0.3.0),0.5.x,may-change,confirmed,True,2,True,947,0,False
+kb/endgame/uber-bosses.md,Quest version vs Infinite Farm version,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,1015,0,False
+kb/endgame/uber-bosses.md,What differs between the versions (known),True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,1050,1,False
+kb/endgame/uber-bosses.md,"""Uber"" in internal ids",True,True,True,True,True,True,0.5.x,0.5.x,stable,confirmed,True,2,True,701,0,False
+kb/endgame/uber-bosses.md,Atlas difficulty and points,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,586,0,False
+kb/endgame/vaal-temple.md,(preamble),False,True,False,True,False,False,0.5.x (introduced 0.4.0 as the Fate of the Vaal le,0.5.x,MISSING,MISSING,True,,True,629,0,False
+kb/endgame/vaal-temple.md,Naming and what it is,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,553,0,False
+kb/endgame/vaal-temple.md,"Access flow: beacons, crystals, ruins",True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,906,0,False
+kb/endgame/vaal-temple.md,"Beacons in maps, tablets, crystal cap",True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,936,0,False
+kb/endgame/vaal-temple.md,Temple level vs player level,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,439,0,False
+kb/endgame/vaal-temple.md,"Room families (what each does, tier 1 to 4)",True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,1271,0,False
+kb/endgame/vaal-temple.md,Reward vaults (unlocked from the Architect console),True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,1006,0,False
+kb/endgame/vaal-temple.md,Medallions (9),True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,785,0,False
+kb/endgame/vaal-temple.md,Crafting devices and what they take,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,1341,0,False
+kb/endgame/vaal-temple.md,"Atziri, the Red Queen (boss)",True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,840,1,False
+kb/endgame/vaal-temple.md,Atziri drops and keys,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,908,0,False
+kb/endgame/vaal-temple.md,Architect (Xipocado) and room bosses,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,666,1,False
+kb/endgame/waystones.md,(preamble),False,True,False,True,False,False,0.5.x (PoE2DB crawl 2026-11-23). No 1.0 check done,0.5.x,MISSING,MISSING,True,2,False,368,0,False
+kb/endgame/waystones.md,Tier to area level,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,1,True,786,0,False
+kb/endgame/waystones.md,Resistance penalty by area level,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,426,1,False
+kb/endgame/waystones.md,Upgrading by vendor recipe,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,1,True,579,1,False
+kb/endgame/waystones.md,Tier progression from drops,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,750,0,False
+kb/endgame/waystones.md,Waystone mods: tradeoff pattern,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,612,0,False
+kb/endgame/waystones.md,Mod picks that matter (examples),True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,832,0,False
+kb/endgame/waystones.md,Rerolling mods: Chaos Orb and omens,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,632,0,False
+kb/endgame/waystones.md,Corruption of waystones,True,True,True,True,True,True,0.5.x,0.5.x,may-change,inferred,True,1,True,624,1,False
+kb/endgame/waystones.md,Waystone tier gates,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,314,0,False
+kb/gems/bow-attack-gems-2.md,(preamble),False,True,False,True,False,False,0.5.x (PoE2DB crawl 2026-11-23). Nothing here is c,0.5.x,MISSING,MISSING,True,2,False,855,0,False
+kb/gems/bow-attack-gems-2.md,Escape Shot,True,True,True,False,True,True,0.5.x,0.5.x,may-change,single-source,False,,False,1842,1,False
+kb/gems/bow-attack-gems-2.md,Freezing Salvo,True,True,True,False,True,True,0.5.x,0.5.x,may-change,single-source,False,,False,1448,0,False
+kb/gems/bow-attack-gems-2.md,Gas Arrow,True,True,True,False,True,True,0.5.x,0.5.x,may-change,single-source,False,,False,1419,0,False
+kb/gems/bow-attack-gems-2.md,Herald of Thunder (not a bow-only skill),True,True,True,False,True,True,0.5.x,0.5.x,may-change,single-source,False,,False,1473,1,False
+kb/gems/bow-attack-gems-3.md,(preamble),False,True,False,True,False,False,0.5.x (PoE2DB crawl 2026-11-23). Nothing here is c,0.5.x,MISSING,MISSING,True,2,False,872,1,False
+kb/gems/bow-attack-gems-3.md,Rain of Arrows,True,True,True,False,True,True,0.5.x,0.5.x,may-change,single-source,False,,False,1787,0,False
+kb/gems/bow-attack-gems-3.md,Snipe,True,True,True,False,True,True,0.5.x,0.5.x,may-change,single-source,False,,False,2335,0,False
+kb/gems/bow-attack-gems-3.md,Tornado Shot,True,True,True,False,True,True,0.5.x,0.5.x,may-change,single-source,False,,False,1721,0,False
+kb/gems/bow-attack-gems-4.md,(preamble),False,True,False,True,False,False,0.5.x (PoE2DB crawl 2026-11-23). Nothing here is c,0.5.x,MISSING,MISSING,True,2,False,811,1,False
+kb/gems/bow-attack-gems-4.md,Spiral Volley,True,True,True,False,True,True,0.5.x,0.5.x,may-change,single-source,False,,False,1508,0,False
+kb/gems/bow-attack-gems-4.md,Rapid Shot (crossbow),True,True,True,False,True,True,0.5.x,0.5.x,may-change,single-source,False,,False,1630,0,False
+kb/gems/bow-attack-gems-4.md,Explosive Shot (crossbow),True,True,True,False,True,True,0.5.x,0.5.x,may-change,single-source,False,,False,1682,0,False
+kb/gems/bow-attack-gems-4.md,Barrage,True,True,True,False,True,True,0.5.x,0.5.x,may-change,single-source,False,,False,1518,0,False
+kb/gems/bow-attack-gems.md,(preamble),False,True,False,True,False,False,0.5.x (PoE2DB crawl 2026-11-23). Nothing here is c,0.5.x,MISSING,MISSING,True,2,False,822,1,False
+kb/gems/bow-attack-gems.md,Ice Shot,True,True,True,False,True,True,0.5.x,0.5.x,may-change,single-source,False,,False,1714,0,False
+kb/gems/bow-attack-gems.md,Lightning Arrow,True,True,True,False,True,True,0.5.x,0.5.x,may-change,single-source,False,,False,1966,0,False
+kb/gems/bow-attack-gems.md,Lightning Rod,True,True,True,False,True,True,0.5.x,0.5.x,may-change,single-source,False,,False,1514,0,False
+kb/gems/caster-supports.md,(preamble),False,True,True,True,True,True,0.5.x (PoE2DB crawl 2026-11-23). Re-check at 1.0 —,0.5.x,may-change,single-source,True,2,True,3261,0,False
+kb/gems/cold-spell-gems.md,(preamble),False,True,False,False,False,False,"0.5.x (PoE2DB crawl 2026-11-23, game data 0.5.x er",0.5.x,MISSING,MISSING,False,,False,503,0,False
+kb/gems/cold-spell-gems.md,Frostbolt,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,2267,1,False
+kb/gems/cold-spell-gems.md,Ice Nova,True,True,True,True,True,False,0.5.x,0.5.x,may-change,single-source,True,2,True,843,1,False
+kb/gems/cold-spell-gems.md,Arctic Armour (persistent),True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,741,0,False
+kb/gems/cold-spell-gems.md,Herald of Ice (persistent) — needs a martial weapon,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,513,0,False
+kb/gems/cold-spell-gems.md,Elemental Weakness (curse),True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,898,2,False
+kb/gems/elemental-caster-gems.md,Spark,True,False,False,False,False,True,,MISSING,MISSING,MISSING,False,,False,1234,1,False
+kb/gems/elemental-caster-gems.md,Flame Wall,True,False,False,False,False,True,,MISSING,MISSING,MISSING,False,,False,1333,0,False
+kb/gems/elemental-caster-gems.md,Tornado,True,False,False,False,False,True,,MISSING,MISSING,MISSING,False,,False,935,1,False
+kb/gems/elemental-caster-gems.md,Thunderstorm,True,False,False,False,False,True,,MISSING,MISSING,MISSING,False,,False,1274,1,False
+kb/gems/elemental-supports-damage.md,(preamble),False,True,False,False,False,False,"0.5.x-era PoE2DB data, crawl 2026-11-23. NOT check",0.5.x,MISSING,MISSING,False,,False,675,0,False
+kb/gems/elemental-supports-damage.md,Coursing Current,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,859,0,False
+kb/gems/elemental-supports-damage.md,Shock Conduction / Shock Conduction II,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,743,1,False
+kb/gems/elemental-supports-damage.md,Living Lightning I / II,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,868,0,False
+kb/gems/elemental-supports-damage.md,Elemental Discharge,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,781,0,False
+kb/gems/elemental-supports-damage.md,Lightning Penetration,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,409,0,False
+kb/gems/elemental-supports-damage.md,Fire Penetration I / II,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,399,0,False
+kb/gems/elemental-supports-damage.md,Lightning Exposure / Fire Exposure,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,529,0,False
+kb/gems/elemental-supports-damage.md,Ignite I,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,367,0,False
+kb/gems/elemental-supports.md,(preamble),False,True,False,False,False,False,"0.5.x-era PoE2DB data, crawl 2026-11-23. NOT check",0.5.x,MISSING,MISSING,False,,False,688,0,False
+kb/gems/elemental-supports.md,Magnified Area I / II,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,598,0,False
+kb/gems/elemental-supports.md,Concentrated Area,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,378,0,False
+kb/gems/elemental-supports.md,Expand,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,670,0,False
+kb/gems/elemental-supports.md,Prolonged Duration I / II / III,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,689,0,False
+kb/gems/elemental-supports.md,Overabundance I / II (III noted),True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,765,0,False
+kb/gems/elemental-supports.md,Persistent Ground I / II / III,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,755,0,False
+kb/gems/elemental-supports.md,Advancing Storm,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,538,0,False
+kb/gems/elemental-supports.md,Spell Echo,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,524,0,False
+kb/gems/elemental-supports.md,Burning Inscription,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,614,0,False
+kb/gems/elemental-supports.md,Lightning Mastery / Fire Mastery,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,501,0,False
+kb/gems/gem-levels.md,(preamble),False,True,False,False,False,False,0.5.x / game data 0.5.5.9 (researched 2026-11-17).,0.5.x,MISSING,MISSING,False,,False,109,0,False
+kb/gems/gem-levels.md,Required character level per gem level,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,1137,1,False
+kb/gems/gem-levels.md,Uncut gems make gems at their own level,True,True,False,True,True,False,0.5.x,0.5.x,MISSING,confirmed,True,2,True,476,0,False
+kb/gems/gem-levels.md,Gem levels above 20,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,3,True,779,0,False
+kb/gems/lineage-drop-sources.md,(preamble),False,True,False,True,False,False,0.5.x data (PoE2DB crawl 2026-11-23). Not checked ,0.5.x,MISSING,MISSING,True,2,True,523,0,False
+kb/gems/lineage-drop-sources.md,Lineage page intro text,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,660,1,False
+kb/gems/lineage-drop-sources.md,Tier / requirements shared by almost all lineage supports,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,1001,0,False
+kb/gems/lineage-drop-sources.md,Drop sources as stated by PoE2DB (by source),True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,2410,0,False
+kb/gems/lineage-drop-sources.md,Lineage-tagged gems with NO drop source shown,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,878,1,False
+kb/gems/lineage-drop-sources.md,Page oddities,True,True,True,True,True,False,0.5.x,0.5.x,may-change,single-source,True,2,True,812,0,False
+kb/gems/lineage-drop-sources.md,"Per-gem table (effect summary, numbers kept)",False,True,True,False,True,True,0.5.x,0.5.x,may-change,single-source,False,,False,8780,0,False
+kb/gems/lineage-supports.md,(preamble),False,True,False,False,False,False,game data 0.5.5.9 + 0.5.x (researched 2026-11-17).,OTHER,MISSING,MISSING,False,,False,101,0,False
+kb/gems/lineage-supports.md,What they are,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,768,0,False
+kb/gems/lineage-supports.md,"Full list (game data 0.5.5.9, 88 gems flagged is_lineage)",False,True,False,True,True,False,0.5.5.9,0.5.5.9,MISSING,single-source,True,2,True,1910,1,False
+kb/gems/lineage-supports.md,Value,False,True,False,True,False,True,"0.5.x, volatility volatile",0.5.x,MISSING,MISSING,False,4,False,450,0,True
+kb/gems/meta-trigger.md,(preamble),False,True,False,False,False,False,game data 0.5.5.9 (researched 2026-11-17). Re-chec,OTHER,MISSING,MISSING,False,,False,138,0,False
+kb/gems/meta-trigger.md,"Meta gems in game data (tag ""meta""; [DNT]/unused entries removed)",False,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,single-source,True,2,True,1377,0,False
+kb/gems/minion-skills.md,Rules seen on every minion gem page,True,True,True,False,True,True,0.5.x,0.5.x,may-change,single-source,False,,False,814,2,False
+kb/gems/minion-stats-2.md,(preamble),False,True,False,True,False,False,0.5.x (PoE2DB crawl 2026-11-23). Not checked for 1,0.5.x,MISSING,MISSING,True,2,False,367,0,False
+kb/gems/minion-stats-2.md,Monster Stats table rows (minion levels 2 / 20 / 40 / 80),True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,840,0,False
+kb/gems/minion-stats-2.md,Derived minion life (Minion Life column x Life %),True,True,True,True,True,True,0.5.x,0.5.x,may-change,inferred,False,,False,1366,2,False
+kb/gems/minion-stats-2.md,Derived minion damage (Minion Damage column x Damage %),True,True,True,True,True,True,0.5.x,0.5.x,may-change,inferred,False,,False,1279,2,False
+kb/gems/minion-stats-2.md,Armour at L68 (observed),True,True,True,True,True,True,0.5.x,0.5.x,may-change,inferred,False,2,True,755,3,False
+kb/gems/minion-stats.md,(preamble),False,True,False,True,False,False,0.5.x (PoE2DB crawl 2026-11-23). Not checked for 1,0.5.x,MISSING,MISSING,True,2,False,512,0,False
+kb/gems/minion-stats.md,Gem level to minion level,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,566,0,False
+kb/gems/minion-stats.md,How minion life/damage is built (PoE2DB display),True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,1110,1,False
+kb/gems/minion-stats.md,Basic-attack hit,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,False,2,True,563,0,False
+kb/gems/minion-stats.md,Skeleton minions (multipliers),True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,1814,0,False
+kb/gems/minion-stats.md,Other minions (multipliers),False,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,1769,1,False
+kb/gems/minion-stats.md,Resistances,True,True,True,True,True,True,0.5.x,0.5.x,may-change,inferred,False,2,True,856,1,False
+kb/gems/quality.md,(preamble),False,True,False,False,False,False,"0.5.x (researched 2026-11-17; updated batch 29, 20",0.5.x,MISSING,MISSING,False,,False,183,0,False
+kb/gems/quality.md,Quality basics,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,827,0,False
+kb/gems/quality.md,Gemcutter's Prism details,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,493,0,False
+kb/gems/quality.md,One quality bonus per skill (no quality choice),True,True,True,True,True,False,0.5.x,0.5.x,may-change,single-source,True,2,True,673,1,False
+kb/gems/quality.md,Corruption and quality,True,True,False,True,True,False,0.5.x,0.5.x,MISSING,confirmed,True,3,True,352,0,False
+kb/gems/quality.md,Support gem quality,True,True,True,True,True,False,0.5.x,0.5.x,may-change,single-source,True,2,True,551,0,False
+kb/gems/quality.md,Alternate qualities — not obtainable in 0.5.x,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,1015,0,False
+kb/gems/socketing-limits.md,(preamble),False,True,False,False,False,False,0.5.x (researched 2026-11-17). Re-check at 1.0.,0.5.x,MISSING,MISSING,False,,False,88,0,False
+kb/gems/socketing-limits.md,Skill gem slots,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,454,0,False
+kb/gems/socketing-limits.md,Support sockets per skill,True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,confirmed,True,2,True,841,0,False
+kb/gems/socketing-limits.md,Attribute cost of supports,True,True,True,True,True,False,0.5.x,0.5.x,may-change,confirmed,True,3,True,524,0,False
+kb/gems/socketing-limits.md,Duplicate rules,False,True,False,True,False,False,"0.5.x, volatility may-change",0.5.x,MISSING,MISSING,True,2,True,1017,0,False
+kb/gems/spirit-gems-2.md,(preamble),False,True,True,False,True,False,0.5.x. Source for every row: the gem's own PoE2DB ,0.5.x,may-change.,single-source,False,,False,601,0,False
+kb/gems/spirit-gems.md,(preamble),False,True,False,False,False,False,0.5.x only (not checked against 1.0).,0.5.x,MISSING,MISSING,False,,False,331,0,False
+kb/gems/spirit-gems.md,Uncut spirit gem pool,True,True,True,True,True,True,0.5.x,0.5.x,stable,single-source,True,2,True,676,1,False
+kb/gems/spirit-gems.md,Gem level to character level,True,True,True,True,True,False,0.5.x,0.5.x,may-change,confirmed,True,2,True,357,0,False
+kb/gems/spirit-gems.md,Weapon-set rule,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,443,0,False
+kb/gems/support-tiers.md,(preamble),False,True,False,False,False,False,game data 0.5.5.9 + 0.5.x (researched 2026-11-17).,OTHER,MISSING,MISSING,False,,False,206,0,False
+kb/gems/support-tiers.md,Tiers 1–5,True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,confirmed,True,2,True,852,0,False
+kb/gems/support-tiers.md,"Counts (game data, engravable supports)",False,True,False,True,True,False,0.5.5.9,0.5.5.9,MISSING,single-source,False,2,True,523,1,False
+kb/gems/support-tiers.md,Categories,True,True,False,True,True,False,0.5.x,0.5.x,MISSING,single-source,True,2,True,394,0,False
+kb/gems/uncut-gems.md,(preamble),False,True,False,False,False,False,game data 0.5.5.9 (base_items.json + skill_gems.js,OTHER,MISSING,MISSING,False,,False,166,0,False
+kb/gems/uncut-gems.md,Three kinds,False,True,False,True,True,False,0.5.5.9,0.5.5.9,MISSING,confirmed,True,2,True,556,0,False
+kb/gems/uncut-gems.md,Levels and drop levels (game data),False,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,confirmed,True,2,True,984,0,False
+kb/gems/uncut-gems.md,Gem tiers gate what you can engrave,True,True,True,True,True,False,0.5.x,0.5.x,may-change,confirmed,True,3,True,455,0,False
+kb/gems/uncut-gems.md,"Active-skill tiers (game data counts, cuttable gems only)",False,True,False,True,True,True,0.5.5.9,0.5.5.9,MISSING,confirmed,True,2,True,692,0,False
+kb/items/affix-tiers.md,How a random mod is defined,True,True,True,True,True,True,0.5.5.9,0.5.5.9,stable,confirmed,True,2,True,592,0,False
+kb/items/affix-tiers.md,One mod per group,True,True,True,True,True,False,0.5.x,0.5.x,stable,single-source,True,2,True,350,0,False
+kb/items/affix-tiers.md,Tier numbering: higher = better in PoE2,True,True,True,True,True,True,0.1+ (still 0.5.x),<0.5,stable,confirmed,True,2,True,766,0,False
+kb/items/affix-tiers.md,Example ladders (mod level → value),True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,single-source,False,2,True,1112,0,False
+kb/items/affix-tiers.md,Level requirement from mods,True,True,True,True,True,True,0.5.x,0.5.x,stable,single-source,True,2,True,435,1,False
+kb/items/affix-tiers.md,Special mod kinds (game keywords),True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,single-source,False,2,True,946,0,False
+kb/items/bases-implicits.md,What a base type decides,True,True,True,True,True,True,0.5.5.9,0.5.5.9,stable,confirmed,True,2,True,683,0,False
+kb/items/bases-implicits.md,"Base counts per class (game data, released bases)",True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,inferred,False,2,True,663,1,False
+kb/items/bases-implicits.md,Armour culture tags,True,True,True,True,True,True,0.5.5.9,0.5.5.9,stable,single-source,False,2,True,516,0,False
+kb/items/bases-implicits.md,Implicits: which classes have them,True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,single-source,False,2,True,398,0,False
+kb/items/bases-implicits.md,Ring implicits (base → drop level → implicit),True,True,True,True,True,True,0.5.5.9 (some are league-mechanic bases),0.5.5.9,may-change,single-source,False,2,True,1116,0,False
+kb/items/bases-implicits.md,Amulet implicits,True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,single-source,False,2,True,818,1,False
+kb/items/bases-implicits.md,Belt implicits,True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,single-source,False,2,True,966,0,False
+kb/items/bases-implicits.md,Base vs modified stats,True,True,True,True,True,True,0.5.x,0.5.x,stable,confirmed,True,3,True,525,0,False
+kb/items/caster-mod-tiers.md,(preamble),False,True,False,True,False,False,"game data from the RePoE poe2 export (mods.json), ",OTHER,MISSING,MISSING,True,2,True,526,0,False
+kb/items/caster-mod-tiers.md,Energy shield,False,True,True,False,True,True,0.5.x,0.5.x,may-change,single-source,False,,False,665,0,False
+kb/items/corruption.md,Corrupted items,True,True,True,True,True,True,0.5.5.9,0.5.5.9,stable,confirmed,False,2,True,517,0,False
+kb/items/corruption.md,Vaal Orb outcomes: non-unique equipment,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,840,0,False
+kb/items/corruption.md,Vaal Orb outcomes: uniques,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,3,True,522,0,False
+kb/items/corruption.md,Vaal Orb outcomes: gems and waystones,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,3,True,913,0,False
+kb/items/corruption.md,Corruption-only implicits (examples),True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,single-source,False,2,True,765,1,False
+kb/items/corruption.md,Corruption altars,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,476,0,False
+kb/items/corruption.md,Double corruption and related currency,True,True,True,True,True,True,0.4/0.5 (league mechanic),<0.5,may-change,confirmed,True,2,True,827,0,False
+kb/items/corruption.md,Sanctified items,True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,confirmed,True,2,True,383,0,False
+kb/items/item-level.md,Item level = level of the source,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,732,1,False
+kb/items/item-level.md,Drop level,True,True,True,True,True,True,0.5.x,0.5.x,stable,confirmed,True,2,True,558,0,False
+kb/items/item-level.md,Waystone tier → area level,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,596,0,False
+kb/items/item-level.md,What each map tier unlocks (top-tier mods),True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,inferred,False,2,True,1088,1,False
+kb/items/item-level.md,XP penalty vs area level,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,3,True,512,0,False
+kb/items/loot-pickup-heuristics.md,(preamble),False,True,True,True,False,False,0.5.x (about 0.5.5).,0.5.x,volatile,MISSING,False,5,True,563,0,False
+kb/items/loot-pickup-heuristics.md,Value tiers of magic/rare drops (creator's buckets),True,True,True,True,True,False,0.5.x,0.5.x,volatile,single-source,False,5,True,570,0,False
+kb/items/loot-pickup-heuristics.md,Tier of an unidentified drop,True,True,True,True,True,False,0.5.x,0.5.x,may-change,confirmed,False,5,True,579,0,False
+kb/items/loot-pickup-heuristics.md,Item level,True,True,True,True,True,False,0.5.x,0.5.x,may-change,partly,False,5,True,861,0,False
+kb/items/loot-pickup-heuristics.md,Exceptional and chanceable bases,True,True,True,True,True,True,0.5.x,0.5.x,volatile,single-source,False,5,True,670,1,False
+kb/items/loot-pickup-heuristics.md,Disenchanting (league start only),True,True,True,True,True,True,0.5.x,0.5.x,volatile,single-source,False,5,True,591,0,False
+kb/items/quality.md,What quality does per item type,True,True,True,True,True,True,0.5.5.9,0.5.5.9,stable,confirmed,True,2,True,941,1,False
+kb/items/quality.md,Quality currencies,True,True,True,True,True,True,0.5.x,0.5.x,stable,confirmed,True,2,True,1172,0,False
+kb/items/quality.md,How much quality one currency adds,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,1105,2,False
+kb/items/quality.md,Going above 20%,True,True,True,True,True,True,0.2.0g+ (drops to 30%); Infusers 0.5.x,<0.5,may-change,confirmed,True,2,True,884,0,False
+kb/items/rarity.md,The four rarities and affix limits,True,True,True,True,True,True,0.5.5.9,0.5.5.9,stable,confirmed,True,2,True,696,0,False
+kb/items/rarity.md,Identification,True,True,True,True,True,True,0.5.x,0.5.x,stable,single-source,True,2,True,415,0,False
+kb/items/rarity.md,The hidden 10-tier rarity roll,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,903,0,False
+kb/items/rarity.md,Tiered unidentified items,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,1004,1,False
+kb/items/rarity.md,Exceptional items,True,True,True,True,True,True,0.5.0+,0.5.0,may-change,single-source,True,2,True,561,0,False
+kb/items/rarity.md,Unique item rarity tiers,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,461,0,False
+kb/items/rarity.md,Monster rarity,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,599,0,False
+kb/items/rune-effects-2.md,(preamble),False,True,False,True,False,False,0.5.x (PoE2DB game data crawled 2026-11-23; not ch,0.5.x,MISSING,MISSING,True,2,False,246,0,False
+kb/items/rune-effects-2.md,Mind Rune family,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,1493,0,False
+kb/items/rune-effects-2.md,Rebirth Rune family,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,1704,0,False
+kb/items/rune-effects-2.md,Inspiration Rune family,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,1712,0,False
+kb/items/rune-effects-2.md,Stone Rune family,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,1729,0,False
+kb/items/rune-effects-2.md,Vision Rune family,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,1697,0,False
+kb/items/rune-effects-3.md,(preamble),False,True,False,True,False,False,0.5.x (PoE2DB game data crawled 2026-11-23; not ch,0.5.x,MISSING,MISSING,True,2,False,262,0,False
+kb/items/rune-effects-3.md,Robust Rune family,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,1194,0,False
+kb/items/rune-effects-3.md,Adept Rune family,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,1198,0,False
+kb/items/rune-effects-3.md,Resolve Rune family,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,1235,0,False
+kb/items/rune-effects-3.md,Ward Rune family,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,1071,0,False
+kb/items/rune-effects-3.md,Charging Rune family,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,1367,0,False
+kb/items/rune-effects-3.md,Tempered Rune family (physical / thorns),True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,942,0,False
+kb/items/rune-effects-3.md,Masterwork Rune,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,452,0,False
+kb/items/rune-effects-3.md,Greater Rune of X (4 runes),True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,1646,0,False
+kb/items/rune-effects-4.md,(preamble),False,True,False,True,False,False,0.5.x (PoE2DB game data crawled 2026-11-23; not ch,0.5.x,MISSING,MISSING,True,2,False,219,0,False
+kb/items/rune-effects-4.md,"Named runes (Hedgewitch Assandra, Saqawal, Fenumus, Farrul, Craiceann, Mannan, Grannell, S",True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,4424,0,False
+kb/items/rune-effects-4.md,Ancient Rune of X (13 runes),True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,2413,0,False
+kb/items/rune-effects-5.md,(preamble),False,True,False,True,False,False,0.5.x (PoE2DB game data crawled 2026-11-23; not ch,0.5.x,MISSING,MISSING,True,2,False,226,0,False
+kb/items/rune-effects-5.md,Warding Rune of X (17 runes),True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,3704,0,False
+kb/items/rune-effects-5.md,"Rune of X, level-15 limit-1 runes (13 runes)",True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,3767,0,False
+kb/items/rune-effects-6.md,(preamble),False,True,False,True,False,False,0.5.x (PoE2DB game data crawled 2026-11-23; not ch,0.5.x,MISSING,MISSING,True,2,False,247,0,False
+kb/items/rune-effects-6.md,Aldur conversion runes + socket-bound crafting runes (13),True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,2437,0,False
+kb/items/rune-effects-6.md,Aldur's Legacy rune,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,515,0,False
+kb/items/rune-effects-6.md,[DNT-Unused] runes (8),True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,553,0,False
+kb/items/rune-effects-7.md,(preamble),False,True,False,True,False,False,0.5.x (PoE2DB game data crawled 2026-11-23; not ch,0.5.x,MISSING,MISSING,True,2,False,216,0,False
+kb/items/rune-effects-7.md,"Aldur's Legacy runes, part 1: A Worthy Foe to Horns of Bynden (32 runes)",True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,4817,0,False
+kb/items/rune-effects-8.md,(preamble),False,True,False,True,False,False,0.5.x (PoE2DB game data crawled 2026-11-23; not ch,0.5.x,MISSING,MISSING,True,2,False,216,0,False
+kb/items/rune-effects-8.md,"Aldur's Legacy runes, part 2: Hrimnor's Hymn to Wulfsbane (31 runes)",True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,5147,0,False
+kb/items/rune-effects.md,(preamble),False,True,False,True,False,False,0.5.x (PoE2DB game data crawled 2026-11-23; not ch,0.5.x,MISSING,MISSING,True,2,False,271,0,False
+kb/items/rune-effects.md,"Rune basics: tiers, sockets, Bonded",True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,1859,0,False
+kb/items/rune-effects.md,Desert Rune family,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,1569,0,False
+kb/items/rune-effects.md,Glacial Rune family,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,1576,0,False
+kb/items/rune-effects.md,Storm Rune family,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,1644,0,False
+kb/items/rune-effects.md,Iron Rune family,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,1671,0,False
+kb/items/rune-effects.md,Body Rune family,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,1528,0,False
+kb/items/sockets-augments.md,Augments and augment sockets,True,True,True,True,True,True,0.5.5.9,0.5.5.9,stable,confirmed,False,2,True,710,0,False
+kb/items/sockets-augments.md,Special augment rules,True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,single-source,False,2,True,461,0,False
+kb/items/sockets-augments.md,Max sockets per item,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,764,1,False
+kb/items/sockets-augments.md,Adding sockets,True,True,True,True,True,True,0.5.5.9,0.5.5.9,stable,confirmed,True,2,True,549,0,False
+kb/items/sockets-augments.md,Rune ladder (level requirement),True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,single-source,False,2,True,871,0,False
+kb/items/sockets-augments.md,Soul cores and idols (level requirement),True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,single-source,False,2,True,795,0,False
+kb/items/soul-core-idol-effects-2.md,(preamble),False,True,False,True,False,False,0.5.x (PoE2DB game data crawled 2026-11-23; not ch,0.5.x,MISSING,MISSING,True,2,False,274,0,False
+kb/items/soul-core-idol-effects-2.md,"Jiquani's Soul Core of X (13 cores, +1 skill level)",True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,1265,0,False
+kb/items/soul-core-idol-effects-2.md,"Soul core tier 4: Atziri's cores (4, socket-bound)",True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,1337,0,False
+kb/items/soul-core-idol-effects-2.md,"Animal idols, drop level 35 (9)",True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,3459,0,False
+kb/items/soul-core-idol-effects-2.md,Corrupted idols (3),True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,2486,0,False
+kb/items/soul-core-idol-effects-3.md,(preamble),False,True,False,True,False,False,0.5.x (PoE2DB game data crawled 2026-11-23; not ch,0.5.x,MISSING,MISSING,True,2,False,283,0,False
+kb/items/soul-core-idol-effects-3.md,"Named and rare animal idols, drop level 65 (19)",True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,7022,0,False
+kb/items/soul-core-idol-effects-4.md,(preamble),False,True,False,True,False,False,0.5.x (PoE2DB game data crawled 2026-11-23; not ch,0.5.x,MISSING,MISSING,True,2,False,298,0,False
+kb/items/soul-core-idol-effects-4.md,"Ancient Augments: Abyssal Eye ""Gaze"" (4) and Vaal ""Thesis"" soul cores (4)",True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,2884,0,False
+kb/items/soul-core-idol-effects-4.md,Ancient Augments: Emergent (4) and Carved (4) runes,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,3745,0,False
+kb/items/soul-core-idol-effects-4.md,Raven-Touched Shard,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,497,0,False
+kb/items/soul-core-idol-effects.md,(preamble),False,True,False,True,False,False,0.5.x (PoE2DB game data crawled 2026-11-23; not ch,0.5.x,MISSING,MISSING,True,2,False,274,0,False
+kb/items/soul-core-idol-effects.md,"Soul core tiers 1-2 (plain ""Soul Core of X"", 16 cores)",True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,3664,0,False
+kb/items/soul-core-idol-effects.md,"Soul core tier 3, named cores (15 non-Jiquani)",True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,3269,0,False
+kb/items/soul-core-idol-effects.md,Soul core sources and related items,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,1075,0,False
+kb/items/talismans.md,(preamble),False,True,False,False,False,False,0.5.x (PoE2DB crawl 2026-11-23). Not checked again,0.5.x,MISSING,MISSING,False,,False,281,0,False
+kb/items/talismans.md,Talisman bases and implicits,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,1228,0,False
+kb/items/talismans.md,Unique Talismans,True,True,True,True,True,False,0.5.x,0.5.x,may-change,single-source,True,2,True,703,0,False
+kb/items/uniques-armour.md,Body Armour uniques (73),True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,single-source,True,2,True,1403,0,False
+kb/items/uniques-armour.md,Helmet uniques (53),True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,single-source,True,2,True,1126,0,False
+kb/items/uniques-armour.md,Gloves uniques (37),True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,single-source,True,2,True,843,0,False
+kb/items/uniques-armour.md,Boots uniques (25),True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,single-source,True,2,True,622,0,False
+kb/items/uniques-armour.md,Shield uniques (30),True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,single-source,True,2,True,716,0,False
+kb/items/uniques-caster.md,(preamble),False,True,False,True,False,False,0.5.x (PoE2DB crawl 2026-11-23).,0.5.x,MISSING,MISSING,True,,False,583,1,False
+kb/items/uniques-caster.md,Picks,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,3983,0,False
+kb/items/uniques-caster.md,Notes,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,1225,2,False
+kb/items/uniques-drop-sources.md,(preamble),False,True,False,True,False,False,0.5.x (PoE2DB crawl 2026-11-23). Not checked again,0.5.x,MISSING,MISSING,True,,False,470,0,False
+kb/items/uniques-drop-sources.md,How PoE2DB marks restricted drops,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,955,0,False
+kb/items/uniques-drop-sources.md,Drop disabled (22 pages),True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,1330,0,False
+kb/items/uniques-drop-sources.md,Boss-restricted drops,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,5786,0,False
+kb/items/uniques-drop-sources.md,League / mechanic-restricted drops,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,1442,1,False
+kb/items/uniques-drop-sources.md,Other acquisition notes,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,492,0,False
+kb/items/uniques-index.md,Count,True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,inferred,True,2,True,787,1,False
+kb/items/uniques-index.md,How uniques work,True,True,True,True,True,True,0.5.x,0.5.x,stable,single-source,True,2,True,562,0,False
+kb/items/uniques-index.md,Where uniques come from,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,529,0,False
+kb/items/uniques-index.md,Unique rarity tiers,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,513,0,False
+kb/items/uniques-index.md,Boss-restricted uniques (partial),True,True,True,True,True,True,early access → 0.5.x; lists differ by source date,OTHER,may-change,single-source,True,3,True,1389,0,False
+kb/items/uniques-mods-body-1.md,(preamble),False,True,True,True,True,False,0.5.x data (PoE2DB crawl 2026-11-23); not checked ,0.5.x,may-change.,single-source.,True,2,True,852,0,False
+kb/items/uniques-mods-body-2.md,(preamble),False,True,True,True,True,False,0.5.x data (PoE2DB crawl 2026-11-23); not checked ,0.5.x,may-change.,single-source.,True,2,True,852,0,False
+kb/items/uniques-mods-body-3.md,(preamble),False,True,True,True,True,False,0.5.x data (PoE2DB crawl 2026-11-23); not checked ,0.5.x,may-change.,single-source.,True,2,True,852,0,False
+kb/items/uniques-mods-boots.md,(preamble),False,True,True,True,True,False,0.5.x data (PoE2DB crawl 2026-11-23); not checked ,0.5.x,may-change.,single-source.,True,2,True,719,0,False
+kb/items/uniques-mods-caster-weapons-1.md,(preamble),False,True,False,True,False,False,"0.5.x (PoE2DB game data, crawl 2026-11-23); not ch",0.5.x,MISSING,MISSING,True,2,False,198,0,False
+kb/items/uniques-mods-caster-weapons-1.md,Wands,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,2760,0,False
+kb/items/uniques-mods-caster-weapons-1.md,Staves,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,3485,0,False
+kb/items/uniques-mods-caster-weapons-2.md,(preamble),False,True,False,True,False,False,"0.5.x (PoE2DB game data, crawl 2026-11-23); not ch",0.5.x,MISSING,MISSING,True,2,False,199,0,False
+kb/items/uniques-mods-caster-weapons-2.md,Sceptres,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,3396,0,False
+kb/items/uniques-mods-caster-weapons-2.md,Foci,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,2827,0,False
+kb/items/uniques-mods-flasks-charms.md,(preamble),False,True,False,True,False,False,"0.5.x (PoE2DB game data, crawl 2026-11-23); not ch",0.5.x,MISSING,MISSING,True,2,False,199,0,False
+kb/items/uniques-mods-flasks-charms.md,Flasks,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,2688,0,False
+kb/items/uniques-mods-flasks-charms.md,Charms,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,2719,0,False
+kb/items/uniques-mods-gloves-1.md,(preamble),False,True,True,True,True,False,0.5.x data (PoE2DB crawl 2026-11-23); not checked ,0.5.x,may-change.,single-source.,True,2,True,818,0,False
+kb/items/uniques-mods-gloves-2.md,(preamble),False,True,True,True,True,False,0.5.x data (PoE2DB crawl 2026-11-23); not checked ,0.5.x,may-change.,single-source.,True,2,True,818,0,False
+kb/items/uniques-mods-helmet-1.md,(preamble),False,True,True,True,True,False,0.5.x data (PoE2DB crawl 2026-11-23); not checked ,0.5.x,may-change.,single-source.,True,2,True,818,0,False
+kb/items/uniques-mods-helmet-2.md,(preamble),False,True,True,True,True,False,0.5.x data (PoE2DB crawl 2026-11-23); not checked ,0.5.x,may-change.,single-source.,True,2,True,818,0,False
+kb/items/uniques-mods-jewellery-1.md,(preamble),False,True,False,True,False,False,"0.5.x (PoE2DB game data, crawl 2026-11-23); not ch",0.5.x,MISSING,MISSING,True,2,False,191,0,False
+kb/items/uniques-mods-jewellery-1.md,Rings,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,6242,0,False
+kb/items/uniques-mods-jewellery-2.md,(preamble),False,True,False,True,False,False,"0.5.x (PoE2DB game data, crawl 2026-11-23); not ch",0.5.x,MISSING,MISSING,True,2,False,191,0,False
+kb/items/uniques-mods-jewellery-2.md,Rings,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,5913,0,False
+kb/items/uniques-mods-jewellery-3.md,(preamble),False,True,False,True,False,False,"0.5.x (PoE2DB game data, crawl 2026-11-23); not ch",0.5.x,MISSING,MISSING,True,2,False,189,0,False
+kb/items/uniques-mods-jewellery-3.md,Amulets,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,6486,0,False
+kb/items/uniques-mods-jewellery-4.md,(preamble),False,True,False,True,False,False,"0.5.x (PoE2DB game data, crawl 2026-11-23); not ch",0.5.x,MISSING,MISSING,True,2,False,187,0,False
+kb/items/uniques-mods-jewellery-4.md,Belts,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,7139,0,False
+kb/items/uniques-mods-jewels.md,(preamble),False,True,False,True,False,False,"0.5.x (PoE2DB game data, crawl 2026-11-23); not ch",0.5.x,MISSING,MISSING,True,2,False,188,0,False
+kb/items/uniques-mods-jewels.md,Jewels,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,3300,0,False
+kb/items/uniques-mods-quivers.md,(preamble),False,True,False,True,False,False,"0.5.x (PoE2DB game data, crawl 2026-11-23); not ch",0.5.x,MISSING,MISSING,True,2,False,189,0,False
+kb/items/uniques-mods-quivers.md,Quivers,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,3121,0,False
+kb/items/uniques-mods-shields-1.md,(preamble),False,True,True,True,True,False,0.5.x data (PoE2DB crawl 2026-11-23); not checked ,0.5.x,may-change.,single-source.,True,2,True,837,0,False
+kb/items/uniques-mods-shields-2.md,(preamble),False,True,True,True,True,False,0.5.x data (PoE2DB crawl 2026-11-23); not checked ,0.5.x,may-change.,single-source.,True,2,True,837,0,False
+kb/items/uniques-mods-weapons-1.md,(preamble),False,True,False,True,False,False,"0.5.x (PoE2DB game data, crawl 2026-11-23); not ch",0.5.x,MISSING,MISSING,True,2,False,187,0,False
+kb/items/uniques-mods-weapons-1.md,Maces (one-hand and two-hand),True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,6888,0,False
+kb/items/uniques-mods-weapons-2.md,(preamble),False,True,False,True,False,False,"0.5.x (PoE2DB game data, crawl 2026-11-23); not ch",0.5.x,MISSING,MISSING,True,2,False,197,0,False
+kb/items/uniques-mods-weapons-2.md,Spears,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,4030,0,False
+kb/items/uniques-mods-weapons-2.md,Bows,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,3771,0,False
+kb/items/uniques-mods-weapons-3.md,(preamble),False,True,False,True,False,False,"0.5.x (PoE2DB game data, crawl 2026-11-23); not ch",0.5.x,MISSING,MISSING,True,2,False,217,0,False
+kb/items/uniques-mods-weapons-3.md,Crossbows,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,2349,0,False
+kb/items/uniques-mods-weapons-3.md,Quarterstaves,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,2484,0,False
+kb/items/uniques-mods-weapons-3.md,Talismans,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,2915,0,False
+kb/items/uniques-other.md,Ring uniques (39),True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,single-source,True,2,True,870,0,False
+kb/items/uniques-other.md,Amulet uniques (26),True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,single-source,True,2,True,700,0,False
+kb/items/uniques-other.md,Mace uniques (24),True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,single-source,True,2,True,608,0,False
+kb/items/uniques-other.md,Belt uniques (21),True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,single-source,True,2,True,587,0,False
+kb/items/uniques-other.md,Jewel uniques (13),True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,single-source,True,2,True,478,0,False
+kb/items/uniques-other.md,Charm uniques (12),True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,single-source,True,2,True,468,0,False
+kb/items/uniques-other.md,Bow uniques (11),True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,single-source,True,2,True,415,0,False
+kb/items/uniques-other.md,Spear uniques (10),True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,single-source,True,2,True,417,0,False
+kb/items/uniques-other.md,Staff uniques (10),True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,single-source,True,2,True,433,0,False
+kb/items/uniques-other.md,Sceptre uniques (9),True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,single-source,True,2,True,441,0,False
+kb/items/uniques-other.md,Focus uniques (8),True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,single-source,True,2,True,397,0,False
+kb/items/uniques-other.md,Quiver uniques (8),True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,single-source,True,2,True,375,0,False
+kb/items/uniques-other.md,Wand uniques (8),True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,single-source,True,2,True,388,0,False
+kb/items/uniques-other.md,Warstaff uniques (7),True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,single-source,True,2,True,374,0,False
+kb/items/uniques-other.md,Flask uniques (6),True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,single-source,True,2,True,374,0,False
+kb/items/uniques-other.md,Talisman uniques (6),True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,single-source,True,2,True,368,0,False
+kb/items/uniques-other.md,Crossbow uniques (5),True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,single-source,True,2,True,338,0,False
+kb/mechanics/accuracy.md,Who uses accuracy,True,True,True,True,True,False,0.5.5.9,0.5.5.9,stable,confirmed,True,2,True,440,0,False
+kb/mechanics/accuracy.md,Chance-to-hit formula,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,3,True,488,0,False
+kb/mechanics/accuracy.md,Hit chance floor and ceiling,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,784,1,False
+kb/mechanics/accuracy.md,Distance penalty (new in PoE2),True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,confirmed,True,2,True,777,0,False
+kb/mechanics/accuracy.md,Dexterity → accuracy,True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,confirmed,True,2,True,348,0,False
+kb/mechanics/accuracy.md,Evasion is deterministic (entropy),True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,476,0,False
+kb/mechanics/ailments-overview.md,(preamble),False,True,False,False,False,False,game data 0.5.5.9 unless noted (researched 2026-11,OTHER,MISSING,MISSING,False,,False,305,0,False
+kb/mechanics/ailments-overview.md,The seven ailments,True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,confirmed,True,2,True,639,0,False
+kb/mechanics/ailments-overview.md,Three ways ailments get applied,True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,confirmed,True,2,True,784,0,False
+kb/mechanics/ailments-overview.md,Elemental ailment threshold (players),True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,confirmed,True,2,True,574,0,False
+kb/mechanics/ailments-overview.md,Primed for Freeze / Electrocute,True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,single-source,False,2,True,439,0,False
+kb/mechanics/ailments-overview.md,"""Ailment Application"" modifiers",True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,single-source,False,2,True,328,0,False
+kb/mechanics/ailments-overview.md,Making other damage types contribute,True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,confirmed,True,2,True,457,0,False
+kb/mechanics/ailments-overview.md,Magnitude modifiers,True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,confirmed,True,2,True,362,0,False
+kb/mechanics/ailments-overview.md,Stacking: strongest wins,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,586,0,False
+kb/mechanics/ailments-overview.md,Spreading ailments,True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,single-source,False,2,True,338,0,False
+kb/mechanics/area-projectiles.md,Area of effect definition,True,True,True,True,True,False,0.5.x,0.5.x,stable,confirmed,True,2,True,481,0,False
+kb/mechanics/area-projectiles.md,"AoE modifiers scale area, not radius",True,True,True,True,True,True,0.5.x,0.5.x,may-change,inferred,True,5,True,917,2,False
+kb/mechanics/area-projectiles.md,Presence radius,True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,confirmed,True,2,True,502,0,False
+kb/mechanics/area-projectiles.md,"""Nearby""",True,True,True,True,True,False,0.5.x,0.5.x,stable,single-source,True,2,True,277,0,False
+kb/mechanics/area-projectiles.md,Projectile definition & volleys,True,True,True,True,True,False,0.5.x,0.5.x,stable,confirmed,True,2,True,538,0,False
+kb/mechanics/area-projectiles.md,Behaviour order: Split → Pierce → Fork → Chain (→ Return),True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,698,1,False
+kb/mechanics/armour.md,(preamble),False,True,False,False,False,False,game data 0.5.5.9 + 0.5.x sources (researched 2026,OTHER,MISSING,MISSING,False,,False,204,0,False
+kb/mechanics/armour.md,What armour does,True,True,True,True,True,False,0.5.5.9,0.5.5.9,stable,confirmed,True,2,True,436,0,False
+kb/mechanics/armour.md,Formula,True,True,True,True,True,True,0.5.x,0.5.x,may-change,conflict,True,3,True,692,1,False
+kb/mechanics/armour.md,Armour movement-speed penalty,True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,single-source,False,2,True,457,0,False
+kb/mechanics/armour.md,Item armour,True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,single-source,False,2,True,293,0,False
+kb/mechanics/armour.md,Armour Break (offence),True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,confirmed,True,2,True,1033,0,False
+kb/mechanics/attack-cast-speed.md,Attacks use the weapon; spells use the skill,True,True,True,True,True,False,0.5.x,0.5.x,stable,confirmed,True,2,True,415,0,False
+kb/mechanics/attack-cast-speed.md,Skill speed stacks additively with attack/cast speed,True,True,True,True,True,False,0.5.x,0.5.x,may-change,confirmed,True,2,True,561,0,False
+kb/mechanics/attack-cast-speed.md,Use-time formula,True,True,True,True,True,False,0.5.x,0.5.x,stable,single-source,False,2,True,266,0,False
+kb/mechanics/attack-cast-speed.md,Fixed use-time penalties can't be sped up,True,True,True,True,True,False,0.5.x,0.5.x,may-change,single-source,False,2,True,302,0,False
+kb/mechanics/attack-cast-speed.md,Server-frame cap,True,True,True,True,True,False,0.5.x,0.5.x,may-change,single-source,False,2,True,276,0,False
+kb/mechanics/attack-cast-speed.md,Action speed is different,True,True,True,True,True,False,0.5.x,0.5.x,may-change,confirmed,True,2,True,358,0,False
+kb/mechanics/attack-cast-speed.md,Local weapon attack speed,True,True,True,True,True,False,0.5.x,0.5.x,stable,single-source,True,2,True,365,0,False
+kb/mechanics/attack-cast-speed.md,Dual wielding,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,864,1,False
+kb/mechanics/attack-cast-speed.md,Dual-wield hits: alternate or combined,True,True,True,True,True,False,0.5.x,0.5.x,may-change,single-source,False,2,True,533,0,False
+kb/mechanics/attack-cast-speed.md,Onslaught,True,True,True,True,True,False,0.5.x,0.5.x,may-change,single-source,True,2,True,212,0,False
+kb/mechanics/bleed.md,(preamble),False,True,False,False,False,False,game data 0.5.5.9 (researched 2026-11-17; stacking,OTHER,MISSING,MISSING,False,,False,198,0,False
+kb/mechanics/bleed.md,Basics,True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,confirmed,True,2,True,372,0,False
+kb/mechanics/bleed.md,Needs an explicit bleed chance,True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,confirmed,False,2,True,291,0,False
+kb/mechanics/bleed.md,Bleed damage,True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,confirmed,True,2,False,501,0,False
+kb/mechanics/bleed.md,Moving / Aggravated: +100%,True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,confirmed,False,2,False,711,0,False
+kb/mechanics/bleed.md,Stacking: only the strongest bleed ticks,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,551,1,False
+kb/mechanics/bleed.md,"Rupture, Blood Loss, Incision",False,True,False,True,True,False,"0.5.x, volatility may-change",0.5.x,MISSING,single-source,False,2,True,453,0,False
+kb/mechanics/bleed.md,Corrupted Blood is not Bleeding,True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,single-source,False,2,True,265,0,False
+kb/mechanics/block.md,(preamble),False,True,False,False,False,False,game data 0.5.5.9 + 0.5.x sources (researched 2026,OTHER,MISSING,MISSING,False,,False,196,0,False
+kb/mechanics/block.md,What block does,True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,single-source,False,2,True,499,1,False
+kb/mechanics/block.md,Passive (chance) vs active (guaranteed) block,True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,confirmed,True,2,True,347,0,False
+kb/mechanics/block.md,Block chance math and caps,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,3,True,822,0,False
+kb/mechanics/block.md,Raising a shield = heavy-stun risk,True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,single-source,False,2,True,409,0,False
+kb/mechanics/block.md,Parry,True,True,True,True,True,False,0.5.x,0.5.x,may-change,confirmed,True,2,True,583,0,False
+kb/mechanics/charms.md,(preamble),False,True,False,False,False,False,game data 0.5.5.9 + 0.5.x sources (researched 2026,OTHER,MISSING,MISSING,False,,False,121,0,False
+kb/mechanics/charms.md,What charms are,True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,single-source,True,2,True,505,0,False
+kb/mechanics/charms.md,Charm bases (13),True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,confirmed,True,2,True,1711,0,False
+kb/mechanics/charms.md,Slots,True,True,True,True,True,True,0.5.x,0.5.x,may-change,conflict,True,2,True,621,0,False
+kb/mechanics/charms.md,Charges and modifiers,True,True,False,True,True,True,0.5.x,0.5.x,MISSING,single-source,True,2,True,918,1,False
+kb/mechanics/chill-freeze.md,(preamble),False,True,False,True,False,False,0.5.x data (PoE2DB crawl 2026-11-23). All values m,0.5.x,MISSING,MISSING,True,2,False,463,0,False
+kb/mechanics/chill-freeze.md,Chill: duration and magnitude,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,701,0,False
+kb/mechanics/chill-freeze.md,Chill: buff internals,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,374,0,False
+kb/mechanics/chill-freeze.md,Chill modifiers seen on tree nodes,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,424,0,False
+kb/mechanics/chill-freeze.md,Freeze: duration and buildup,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,545,0,False
+kb/mechanics/chill-freeze.md,Primed for Freeze,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,443,0,False
+kb/mechanics/chill-freeze.md,Freeze Threshold and Elemental Ailment Threshold,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,1026,0,False
+kb/mechanics/chill-freeze.md,Defensive freeze/chill stats (player side),True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,767,0,False
+kb/mechanics/chill-freeze.md,Freeze buildup sources,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,443,0,False
+kb/mechanics/chill-freeze.md,Immunities,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,526,0,False
+kb/mechanics/chill-freeze.md,Carried over from earlier version (2026-11-17),True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,single-source,True,2,True,1576,0,False
+kb/mechanics/crit.md,Base critical damage bonus,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,520,0,False
+kb/mechanics/crit.md,Monster crit damage,True,True,True,True,True,False,0.5.x,0.5.x,may-change,conflict,False,,False,239,0,False
+kb/mechanics/crit.md,Base crit chance source,True,True,True,True,True,False,0.5.x,0.5.x,stable,confirmed,True,2,True,384,0,False
+kb/mechanics/crit.md,Increased crit chance is relative to base,True,True,True,True,True,True,0.5.x,0.5.x,stable,single-source,True,2,True,372,0,False
+kb/mechanics/crit.md,Scaling crit damage,True,True,True,True,True,False,0.5.x,0.5.x,may-change,confirmed,True,2,True,424,0,False
+kb/mechanics/crit.md,DoT can't crit; ailments from crits benefit,True,True,True,True,True,False,0.5.x,0.5.x,may-change,single-source,True,3,True,398,0,False
+kb/mechanics/crit.md,Crit prevention wins,True,True,True,True,True,False,0.5.x,0.5.x,may-change,single-source,True,2,True,262,0,False
+kb/mechanics/crit.md,Lucky crit,True,True,True,True,True,False,0.5.x,0.5.x,stable,single-source,True,2,True,215,0,False
+kb/mechanics/crit.md,Bifurcated crits,True,True,True,True,True,False,0.5.x,0.5.x,may-change,single-source,True,2,True,427,0,False
+kb/mechanics/damage-calculation.md,Increased/reduced add; more/less multiply,True,True,True,True,True,True,0.5.x,0.5.x,stable,single-source,True,2,True,1000,2,False
+kb/mechanics/damage-calculation.md,Outgoing hit order (attacker side),False,True,True,True,True,False,0.5.x,0.5.x,may-change,single-source,False,2,True,1238,0,False
+kb/mechanics/damage-calculation.md,Incoming hit order (defender side),False,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,False,2,True,1771,0,False
+kb/mechanics/damage-calculation.md,Damage over time,True,True,True,True,True,False,0.5.x,0.5.x,may-change,confirmed,False,2,True,591,0,False
+kb/mechanics/damage-calculation.md,Weapon-local modifiers,True,True,True,True,True,False,0.5.x,0.5.x,stable,single-source,True,2,True,608,0,False
+kb/mechanics/damage-types-conversion.md,The five damage types,True,True,True,True,True,False,0.5.x,0.5.x,stable,single-source,True,2,True,303,0,False
+kb/mechanics/damage-types-conversion.md,How each type is mitigated / special behaviour,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,580,0,False
+kb/mechanics/damage-types-conversion.md,Conversion: two-step order,True,True,True,True,True,False,0.5.x,0.5.x,may-change,confirmed,True,2,True,453,0,False
+kb/mechanics/damage-types-conversion.md,Converted damage scales only as its final type,True,True,True,True,True,False,0.5.x,0.5.x,may-change,confirmed,True,2,True,466,0,False
+kb/mechanics/damage-types-conversion.md,"Any type → any type, no loops",True,True,True,True,True,False,0.5.x,0.5.x,may-change,confirmed,True,2,True,461,0,False
+kb/mechanics/damage-types-conversion.md,Overconversion,True,True,True,True,True,False,0.5.x,0.5.x,may-change,single-source,True,2,True,280,0,False
+kb/mechanics/damage-types-conversion.md,When conversion is calculated,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,675,0,False
+kb/mechanics/damage-types-conversion.md,"""Gain as extra""",True,True,True,True,True,False,0.5.x,0.5.x,may-change,single-source,True,2,True,504,0,False
+kb/mechanics/damage-types-conversion.md,Hits only,True,True,True,True,True,True,0.5.x,0.5.x,stable,confirmed,True,2,True,461,0,False
+kb/mechanics/damage-types-conversion.md,Non-damage conversion,True,True,True,True,True,False,0.5.x,0.5.x,may-change,single-source,True,2,True,303,0,False
+kb/mechanics/deflection.md,(preamble),False,True,False,False,False,False,game data 0.5.5.9 + 0.5.x sources (researched 2026,OTHER,MISSING,MISSING,False,,False,189,0,False
+kb/mechanics/deflection.md,Exists? Yes — added in 0.3,True,True,True,True,True,False,0.3+ (still in 0.5.5.9),<0.5,may-change,confirmed,True,2,True,370,0,False
+kb/mechanics/deflection.md,What it does,True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,confirmed,True,2,True,613,0,False
+kb/mechanics/deflection.md,Works on red-flash boss attacks,True,True,True,True,True,False,0.5.x,0.5.x,may-change,single-source,True,2,True,255,0,False
+kb/mechanics/deflection.md,Formula and cap,True,True,True,True,True,False,0.5.x,0.5.x,may-change,conflict,True,3,True,480,0,False
+kb/mechanics/deflection.md,Where it comes from,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,3,True,615,0,False
+kb/mechanics/dodge-roll.md,(preamble),False,True,False,False,False,False,0.5.x (researched 2026-11-17). Re-check at 1.0. No,0.5.x,MISSING,MISSING,False,,False,173,0,False
+kb/mechanics/dodge-roll.md,Basics,True,True,True,True,True,False,0.5.x,0.5.x,may-change,confirmed,True,2,True,554,0,False
+kb/mechanics/dodge-roll.md,What it avoids,True,True,True,True,True,False,0.5.x,0.5.x,may-change,confirmed,True,2,True,470,0,False
+kb/mechanics/dodge-roll.md,Speed / distance,True,True,True,True,True,False,0.5.x,0.5.x,may-change,single-source,True,2,False,313,1,False
+kb/mechanics/dodge-roll.md,Keystones that change it,False,True,False,False,False,False,"0.5.x, confidence confirmed (both named in 2 sourc",0.5.x,MISSING,MISSING,False,,False,473,0,False
+kb/mechanics/dodge-roll.md,Sprint,True,True,True,True,True,True,0.5.x (sprint added 0.3.1),0.5.x,may-change,confirmed,True,2,True,682,0,False
+kb/mechanics/energy-shield.md,(preamble),False,True,False,False,False,False,game data 0.5.5.9 (researched 2026-11-17). Re-chec,OTHER,MISSING,MISSING,False,,False,201,0,False
+kb/mechanics/energy-shield.md,What ES does,True,True,True,True,True,False,0.5.5.9,0.5.5.9,stable,confirmed,True,2,True,354,0,False
+kb/mechanics/energy-shield.md,Recharge,True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,single-source,False,2,True,538,1,False
+kb/mechanics/energy-shield.md,Low ES,True,True,False,True,True,False,0.5.5.9,0.5.5.9,MISSING,single-source,False,2,True,191,0,False
+kb/mechanics/energy-shield.md,ES leech,True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,single-source,False,2,True,476,0,False
+kb/mechanics/energy-shield.md,ES protecting mana,True,True,False,True,True,False,0.5.5.9,0.5.5.9,MISSING,single-source,False,2,True,229,0,False
+kb/mechanics/energy-shield.md,Life Recharge (special),True,True,False,True,True,False,0.5.5.9,0.5.5.9,MISSING,inferred,False,2,True,386,1,False
+kb/mechanics/energy-shield.md,Other damage buffers,False,True,False,False,False,False,"0.5.5.9, volatility may-change.",0.5.5.9,MISSING,MISSING,False,,False,575,0,False
+kb/mechanics/evasion.md,(preamble),False,True,False,False,False,False,game data 0.5.5.9 + 0.5.x sources (researched 2026,OTHER,MISSING,MISSING,False,,False,186,0,False
+kb/mechanics/evasion.md,What evasion does,True,True,True,True,True,False,0.5.5.9,0.5.5.9,stable,confirmed,True,2,True,325,0,False
+kb/mechanics/evasion.md,Formula and cap,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,3,True,507,0,False
+kb/mechanics/evasion.md,Entropy (not pure RNG),True,True,True,True,True,False,0.5.x,0.5.x,may-change,confirmed,True,2,True,434,0,False
+kb/mechanics/evasion.md,Weaknesses,True,True,True,True,True,True,0.5.5.9 / 0.5.x,0.5.5.9,may-change,single-source,True,2,True,492,1,False
+kb/mechanics/evasion.md,Distance and evasion,True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,single-source,True,2,True,587,0,False
+kb/mechanics/exposure-penetration.md,(preamble),False,True,False,False,False,False,game data 0.5.5.9 (researched 2026-11-17). Re-chec,OTHER,MISSING,MISSING,False,,False,185,0,False
+kb/mechanics/exposure-penetration.md,Exposure,True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,single-source,False,2,True,495,0,False
+kb/mechanics/exposure-penetration.md,Exposure vs monster rarity,True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,single-source,False,2,True,334,1,False
+kb/mechanics/exposure-penetration.md,Penetration,True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,confirmed,True,2,True,531,0,False
+kb/mechanics/exposure-penetration.md,Practical split,True,False,False,False,False,False,,MISSING,MISSING,MISSING,False,,False,270,1,False
+kb/mechanics/exposure-penetration.md,Related: Elemental Weakness,True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,single-source,False,2,True,363,0,False
+kb/mechanics/flasks.md,(preamble),False,True,False,False,False,False,game data 0.5.5.9 + 0.5.x sources (researched 2026,OTHER,MISSING,MISSING,False,,False,185,0,False
+kb/mechanics/flasks.md,Slots and types,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,577,1,False
+kb/mechanics/flasks.md,Recovery wasted at full,True,True,True,True,True,False,0.5.x,0.5.x,may-change,confirmed,True,3,True,451,0,False
+kb/mechanics/flasks.md,Charges,True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,confirmed,True,2,True,407,0,False
+kb/mechanics/flasks.md,Example bases (life),False,True,False,True,True,True,0.5.x,0.5.x,MISSING,confirmed,True,2,True,478,0,False
+kb/mechanics/flasks.md,Charge generation / instant recovery on belts and uniques,False,True,False,True,True,True,0.5.x,0.5.x,MISSING,single-source,True,2,True,715,0,False
+kb/mechanics/hits-vs-dot.md,Definitions,True,True,True,True,True,False,0.5.5.9,0.5.5.9,stable,confirmed,True,2,True,455,0,False
+kb/mechanics/hits-vs-dot.md,What doesn't apply to DoT,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,512,0,False
+kb/mechanics/hits-vs-dot.md,Damaging ailments,True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,confirmed,True,2,True,264,0,False
+kb/mechanics/hits-vs-dot.md,Ailment damage is locked in at the hit,True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,confirmed,True,2,True,720,0,False
+kb/mechanics/hits-vs-dot.md,Poison and bleed bypass Energy Shield,True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,confirmed,True,2,True,342,0,False
+kb/mechanics/ignite.md,(preamble),False,True,False,False,False,False,game data 0.5.5.9 (researched 2026-11-17). Re-chec,OTHER,MISSING,MISSING,False,,False,184,0,False
+kb/mechanics/ignite.md,Basics,True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,confirmed,True,2,True,271,0,False
+kb/mechanics/ignite.md,Ignite damage,True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,confirmed,True,2,True,719,1,False
+kb/mechanics/ignite.md,Chance to ignite comes from Flammability,True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,confirmed,True,2,True,685,1,False
+kb/mechanics/ignite.md,Non-hit ignites (Ignited Ground),True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,confirmed,True,2,True,414,0,False
+kb/mechanics/ignite.md,Stacking,True,True,True,True,True,False,0.5.x,0.5.x,may-change,confirmed,True,3,True,395,0,False
+kb/mechanics/ignite.md,Aggravated Ignite,True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,single-source,False,2,True,289,0,False
+kb/mechanics/ignite.md,Compounding Ignite (skill-specific),True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,single-source,False,2,True,405,0,False
+kb/mechanics/mana-costs.md,How costs are paid,True,True,True,True,True,False,0.5.x,0.5.x,may-change,single-source,True,2,True,377,0,False
+kb/mechanics/mana-costs.md,Granted / triggered skills cost 0 by default,True,True,True,True,True,False,0.5.x,0.5.x,may-change,confirmed,True,2,True,519,0,False
+kb/mechanics/mana-costs.md,Upfront vs per-second costs,True,True,True,True,True,False,0.5.x,0.5.x,may-change,single-source,True,2,True,383,0,False
+kb/mechanics/mana-costs.md,"Support ""Cost & Reservation Multiplier""",True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,736,0,False
+kb/mechanics/mana-costs.md,Stacking several multipliers,True,True,True,False,True,False,0.5.x,0.5.x,may-change,inferred,False,,False,566,2,False
+kb/mechanics/mana-costs.md,Mana pool,True,True,True,True,True,False,0.5.x,0.5.x,may-change,confirmed,True,3,True,555,0,False
+kb/mechanics/mana-costs.md,Base mana regeneration,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,614,0,False
+kb/mechanics/minions.md,(preamble),False,True,False,False,False,False,game data 0.5.5.9 + 0.5.x (researched 2026-11-17; ,OTHER,MISSING,MISSING,False,,False,595,1,False
+kb/mechanics/minions.md,Types,True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,confirmed,True,2,True,841,1,False
+kb/mechanics/minions.md,Companions,True,True,False,True,True,False,0.5.5.9,0.5.5.9,MISSING,confirmed,True,2,True,338,0,False
+kb/mechanics/minions.md,Reforming / died vs killed / commands / offerings,True,True,False,True,True,False,0.5.5.9,0.5.5.9,MISSING,single-source,False,2,True,512,0,False
+kb/mechanics/minions.md,Minion level vs gem level,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,540,0,False
+kb/mechanics/minions.md,Minion life/damage scale table (batch 39),True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,1038,1,False
+kb/mechanics/minions.md,Minion defences are per type,True,True,True,True,True,False,0.5.x,0.5.x,may-change,single-source,True,2,True,451,0,False
+kb/mechanics/minions.md,Minion resistances,True,True,True,True,True,True,0.5.x,0.5.x,may-change,inferred,True,2,True,850,1,False
+kb/mechanics/minions.md,Which player modifiers reach minions,True,True,False,True,True,False,0.5.x,0.5.x,MISSING,single-source,True,2,True,756,1,False
+kb/mechanics/minions.md,Spirit,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,972,1,False
+kb/mechanics/monster-life.md,(preamble),False,True,False,False,False,False,0.5.x (PoE2DB crawl 2026-11-23). Re-check at 1.0 (,0.5.x,MISSING,MISSING,False,,False,266,0,False
+kb/mechanics/monster-life.md,"Base monster life by level (Normal rarity, Life multiplier 100%)",True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,2655,1,False
+kb/mechanics/monster-life.md,Rarity life multipliers,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,931,1,False
+kb/mechanics/monster-life.md,Monster resistances,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,781,1,False
+kb/mechanics/monster-life.md,Monster crit damage (resolves an open conflict),True,False,False,True,True,False,,MISSING,MISSING,single-source,True,2,True,404,0,False
+kb/mechanics/poison.md,(preamble),False,True,False,False,False,False,game data 0.5.5.9 (researched 2026-11-17). Re-chec,OTHER,MISSING,MISSING,False,,False,169,0,False
+kb/mechanics/poison.md,Basics,True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,confirmed,True,2,True,361,0,False
+kb/mechanics/poison.md,Needs an explicit poison chance,True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,confirmed,True,2,True,340,0,False
+kb/mechanics/poison.md,Poison damage,True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,confirmed,True,2,True,675,0,False
+kb/mechanics/poison.md,Stack limit,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,825,0,False
+kb/mechanics/recovery.md,(preamble),False,True,False,False,False,False,game data 0.5.5.9 (researched 2026-11-17; base reg,OTHER,MISSING,MISSING,False,,False,326,0,False
+kb/mechanics/recovery.md,Leech,True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,single-source,False,2,True,725,1,False
+kb/mechanics/recovery.md,Recoup,True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,single-source,False,2,True,233,0,False
+kb/mechanics/recovery.md,Life pool from Strength,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,348,0,False
+kb/mechanics/recovery.md,Base regeneration,True,True,True,True,True,False,0.5.x,0.5.x,may-change,confirmed,True,2,True,593,0,False
+kb/mechanics/recovery.md,How regen modifiers combine,True,True,True,True,True,False,0.5.x,0.5.x,may-change,single-source,False,3,True,542,0,False
+kb/mechanics/recovery.md,Regeneration sources found so far,True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,single-source,True,2,True,667,0,False
+kb/mechanics/recovery.md,Thresholds and special cases,False,True,False,False,False,False,"0.5.5.9, volatility may-change, confidence single-",0.5.5.9,MISSING,MISSING,False,,False,780,0,False
+kb/mechanics/recovery.md,Rage (resource),True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,single-source,False,2,True,329,0,False
+kb/mechanics/recovery.md,Checkpoints & wells,True,True,False,True,True,True,0.5.5.9,0.5.5.9,MISSING,single-source,False,2,True,378,0,False
+kb/mechanics/resistances.md,(preamble),False,True,False,False,False,False,game data 0.5.5.9 + 0.5.x sources (researched 2026,OTHER,MISSING,MISSING,False,,False,268,0,False
+kb/mechanics/resistances.md,What resistances do,True,True,True,True,True,True,0.5.5.9,0.5.5.9,stable,confirmed,False,,False,656,0,False
+kb/mechanics/resistances.md,Caps,True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,confirmed,True,2,True,528,0,False
+kb/mechanics/resistances.md,Campaign penalty (0.5.x schedule),True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,1151,1,False
+kb/mechanics/resistances.md,Lowering enemy resistance,True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,confirmed,True,2,True,643,0,False
+kb/mechanics/resistances.md,Monster resistance mods,True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,single-source,False,2,True,394,0,False
+kb/mechanics/shapeshifting.md,(preamble),False,True,False,True,False,False,all entries 0.5.x (PoE2DB crawl 2026-11-23). None ,OTHER,MISSING,MISSING,True,2,False,607,0,False
+kb/mechanics/shapeshifting.md,Shapeshifting definition,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,557,0,False
+kb/mechanics/shapeshifting.md,Three animal forms,True,True,True,True,True,False,0.5.x,0.5.x,may-change,confirmed,True,2,True,1188,0,False
+kb/mechanics/shapeshifting.md,Entering and leaving a form,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,842,0,False
+kb/mechanics/shapeshifting.md,Talismans: the weapon,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,939,0,False
+kb/mechanics/shapeshifting.md,Can spells be cast in form? (relevant to Storm Shaman),True,True,True,True,True,True,0.5.x,0.5.x,may-change,inferred,True,2,True,1105,1,False
+kb/mechanics/shapeshifting.md,Rage: base rules,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source.,True,2,True,582,0,False
+kb/mechanics/shapeshifting.md,Rage: gain sources,True,True,True,True,True,False,0.5.x,0.5.x,may-change,single-source,True,2,True,801,0,False
+kb/mechanics/shapeshifting.md,Rage: spenders,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,793,0,False
+kb/mechanics/shapeshifting.md,Shaman nodes on Rage,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,1064,1,False
+kb/mechanics/shapeshifting.md,Glory,True,True,True,True,True,False,0.5.x,0.5.x,may-change,confirmed,True,2,True,625,0,False
+kb/mechanics/shapeshifting.md,Apocalypse (Shaman) and Glory,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source.,True,2,True,702,0,False
+kb/mechanics/shock-electrocute.md,(preamble),False,True,False,True,False,False,0.5.x data (PoE2DB crawl 2026-11-23). Re-check eve,0.5.x,MISSING,MISSING,True,2,False,481,0,False
+kb/mechanics/shock-electrocute.md,Shock,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,587,0,False
+kb/mechanics/shock-electrocute.md,Electrocute: what it does,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,663,0,False
+kb/mechanics/shock-electrocute.md,Electrocute threshold and priming,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,856,0,False
+kb/mechanics/shock-electrocute.md,Skills that Electrocute (0.5.x),True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,1466,0,False
+kb/mechanics/shock-electrocute.md,Supports and sources that Electrocute,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,1106,0,False
+kb/mechanics/shock-electrocute.md,Not electrocutable,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,541,0,False
+kb/mechanics/shock-electrocute.md,Carried over from earlier version (2026-11-17),True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,single-source,False,2,True,1007,1,False
+kb/mechanics/skill-interactions.md,(preamble),False,True,False,False,False,False,game data 0.5.5.9 (researched 2026-11-17). Re-chec,OTHER,MISSING,MISSING,False,,False,322,0,False
+kb/mechanics/skill-interactions.md,Triggered skills,True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,single-source,False,2,True,420,0,False
+kb/mechanics/skill-interactions.md,Meta gems & Energy,True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,single-source,False,2,True,756,0,False
+kb/mechanics/skill-interactions.md,Combo,True,False,False,True,False,False,,MISSING,MISSING,MISSING,False,2,False,285,0,False
+kb/mechanics/spirit-reservation.md,(preamble),False,True,False,False,False,False,game data 0.5.5.9 + 0.5.x sources (researched 2026,OTHER,MISSING,MISSING,False,,False,155,0,False
+kb/mechanics/spirit-reservation.md,What spirit is,True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,confirmed,True,2,True,547,0,False
+kb/mechanics/spirit-reservation.md,Spirit can differ per weapon set,True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,confirmed,True,2,True,495,0,False
+kb/mechanics/spirit-reservation.md,Campaign spirit: 100 total,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,3,True,692,0,False
+kb/mechanics/spirit-reservation.md,Gear spirit,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,3,True,695,0,False
+kb/mechanics/spirit-reservation.md,Free (non-reserving) persistents,True,True,True,True,True,False,0.5.x,0.5.x,may-change,single-source,True,2,True,300,0,False
+kb/mechanics/spirit-reservation.md,Reservation efficiency,True,True,False,True,True,True,0.5.x,0.5.x,MISSING,single-source,True,2,True,356,0,False
+kb/mechanics/stun.md,(preamble),False,True,False,True,False,False,0.5.x data (PoE2DB crawl 2026-11-23). Re-check all,0.5.x,MISSING,MISSING,True,2,False,444,0,False
+kb/mechanics/stun.md,Two kinds of stun,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,641,0,False
+kb/mechanics/stun.md,Player stun threshold,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,568,0,False
+kb/mechanics/stun.md,Enemy stun threshold and priming,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,765,0,False
+kb/mechanics/stun.md,Heavy stun duration and bar (monster game data),True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,813,2,False
+kb/mechanics/stun.md,Stun buildup multipliers,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,575,0,False
+kb/mechanics/stun.md,Monster rarity and party scaling of the stun bar,True,True,True,True,True,True,0.5.x,0.5.x,may-change,inferred,True,2,True,703,2,False
+kb/mechanics/stun.md,Stun immunity windows,True,True,True,True,True,True,0.5.x,0.5.x,may-change,single-source,True,2,True,481,0,False
+kb/mechanics/stun.md,Carried over from earlier version (2026-11-17),True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,single-source,True,2,True,846,1,False
+kb/mechanics/totems.md,(preamble),False,True,False,False,False,False,game data 0.5.5.9 + 0.5.x (researched 2026-11-17).,OTHER,MISSING,MISSING,False,,False,87,0,False
+kb/mechanics/totems.md,What totems are,True,True,True,True,True,False,0.5.5.9,0.5.5.9,stable,confirmed,True,2,True,445,0,False
+kb/mechanics/totems.md,Limit,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,805,0,False
+kb/mechanics/totems.md,Embankment auras,True,True,True,True,True,True,0.5.5.9,0.5.5.9,may-change,single-source,False,2,True,580,0,False
+kb/mechanics/totems.md,Ballistas,True,False,False,True,False,False,,MISSING,MISSING,MISSING,False,2,False,114,0,False
+kb/mechanics/weapon-swap.md,(preamble),False,True,False,False,False,False,game data 0.5.5.9 + 0.5.x (researched 2026-11-17).,OTHER,MISSING,MISSING,False,,False,196,0,False
+kb/mechanics/weapon-swap.md,"Two weapon sets, auto-swap per skill",True,True,True,True,True,False,0.5.5.9,0.5.5.9,may-change,confirmed,True,2,True,437,0,False
+kb/mechanics/weapon-swap.md,Weapon set passive points,True,True,True,True,True,True,0.5.x,0.5.x,may-change,confirmed,True,2,True,1471,0,False
+kb/mechanics/weapon-swap.md,Things lost on swap,False,True,False,False,False,False,"0.5.5.9, single-source (game data).",0.5.5.9,MISSING,MISSING,False,,False,270,0,False
+kb/strategy/atlas-starter-strategy.md,(preamble),False,True,True,True,False,False,0.5.5 atlas; the 1.0 atlas is being reworked (see ,0.5.5,volatile.,MISSING,False,5,True,527,0,False
+kb/strategy/atlas-starter-strategy.md,Loop (creator's plan),True,True,True,True,True,False,0.5.5,0.5.5,volatile,single-source,False,5,True,471,1,False
+kb/strategy/atlas-starter-strategy.md,Scaling waystones through Doryani,True,True,True,True,True,False,0.5.5,0.5.5,may-change,single-source,False,5,True,524,0,False
+kb/strategy/atlas-starter-strategy.md,Pre-marking farm content,True,True,True,True,True,True,0.5.5,0.5.5,volatile,single-source,False,5,True,614,0,False
+kb/strategy/atlas-starter-strategy.md,His example farm,True,True,True,True,True,False,0.5.5,0.5.5,volatile,single-source,False,5,True,602,0,False
+kb/strategy/build-copy-method.md,(preamble),False,True,True,True,False,False,0.5.5 context.,0.5.5,may-change.,MISSING,False,5,True,335,0,False
+kb/strategy/build-copy-method.md,Pick / learn / copy,True,True,True,True,True,False,0.5.5,0.5.5,stable,single-source,False,5,True,675,0,False
+kb/strategy/dev-statements-1.0-balance.md,(preamble),False,True,True,False,False,False,1.0 pre-release.,1.0,volatile,MISSING,False,,False,717,0,False
+kb/strategy/dev-statements-1.0-balance.md,Crit chance leaves the passive tree,True,True,True,True,True,True,1.0,1.0,may-change,confirmed,False,1,True,925,1,False
+kb/strategy/dev-statements-1.0-balance.md,Nerfs and balance stance,True,True,True,True,True,True,1.0,1.0,volatile,single-source,False,1,True,730,0,False
+kb/strategy/dev-statements-1.0-balance.md,Poison and bleed,True,True,True,True,True,True,1.0,1.0,may-change,single-source,False,1,True,696,0,False
+kb/strategy/dev-statements-1.0-balance.md,Classes and ascendancies,True,True,True,True,True,True,1.0,1.0,volatile,confirmed,False,1,True,869,0,False
+kb/strategy/dev-statements-1.0-balance.md,Crafting and currency,True,True,True,True,True,True,1.0,1.0,volatile,single-source,False,1,True,810,0,False
+kb/strategy/dev-statements-1.0-balance.md,Item rarity (magic find),True,True,True,True,True,True,1.0 (unchanged so far),1.0,may-change,single-source,False,1,True,546,0,False
+kb/strategy/dev-statements-1.0-balance.md,Campaign and new-player changes,True,True,True,True,True,True,1.0,1.0,volatile,single-source,False,1,True,721,0,False
+kb/strategy/dev-statements-1.0-league.md,(preamble),False,True,True,False,False,False,"1.0 (pre-release statements, 5 weeks before launch",1.0,volatile,MISSING,False,,False,1097,0,False
+kb/strategy/dev-statements-1.0-league.md,Structure of the mechanic,True,True,True,True,True,True,1.0,1.0,volatile,confirmed,False,1,True,673,0,False
+kb/strategy/dev-statements-1.0-league.md,"Troops, commanders, gold",True,True,True,True,True,True,1.0,1.0,volatile,single-source,False,1,True,942,0,False
+kb/strategy/dev-statements-1.0-league.md,Factions and castles,True,True,True,True,True,True,1.0,1.0,volatile,single-source,False,1,True,1059,0,False
+kb/strategy/dev-statements-1.0-league.md,Atlas changes,True,True,True,True,True,False,1.0,1.0,volatile,single-source,False,1,True,685,1,False
+kb/strategy/dev-statements-1.0-league.md,Pinnacle bosses (design statements),True,True,True,True,True,True,0.5.x design change + 1.0 stance,0.5.x,may-change,single-source,False,1,True,535,0,False
+kb/strategy/league-lifecycle-pricing.md,Late-league spike in low-level uncut spirit gems,True,True,True,True,True,False,0.5.5 (Forbidden Rites),0.5.5,volatile,single-source,False,4,True,1049,1,False
+kb/strategy/league-lifecycle-pricing.md,Crafting currency above 1 ex late-league,True,True,True,True,True,False,0.5.5 (Forbidden Rites),0.5.5,volatile,single-source,False,4,True,490,0,False
+kb/strategy/league-lifecycle-pricing.md,Reading poe.ninja,True,True,True,True,True,False,0.5.5,0.5.5,may-change,single-source,False,,True,471,0,False
+kb/strategy/league-lifecycle-pricing.md,Expectations for 1.0,True,True,True,False,True,False,1.0,1.0,volatile,inferred,False,,False,288,1,False
+kb/strategy/league-start-framework.md,(preamble),False,True,True,True,False,False,written pre-1.0 (creator refers to an upcoming lea,OTHER,may-change.,MISSING,False,3,True,441,0,False
+kb/strategy/official-1.0-reveal.md,"Press release figures (GGG, 7 Nov 2026)",True,True,True,True,True,True,1.0 (announced),1.0,may-change,confirmed,True,1,True,899,0,False
+kb/strategy/official-1.0-reveal.md,Launch basics,True,True,True,False,True,False,1.0 (announced),1.0,stable,confirmed,False,,False,210,0,False
+kb/strategy/official-1.0-reveal.md,Campaign: Acts 5 and 6,True,True,True,False,True,True,1.0 (announced),1.0,may-change,confirmed,False,,False,586,0,False
+kb/strategy/official-1.0-reveal.md,New class: Shadow,True,True,True,False,True,True,1.0 (announced),1.0,may-change,confirmed,False,,False,629,0,False
+kb/strategy/official-1.0-reveal.md,New class: Duelist,True,True,True,False,True,True,1.0 (announced),1.0,may-change,confirmed,False,,False,493,0,False
+kb/strategy/official-1.0-reveal.md,Conquerors of Wraeclast: campaign layer,True,True,True,False,True,True,1.0,1.0,may-change,confirmed,False,,False,596,0,False
+kb/strategy/official-1.0-reveal.md,Conquerors: stronghold and factions (endgame),True,True,True,False,True,False,1.0,1.0,may-change,confirmed,False,,False,348,0,False
+kb/strategy/official-1.0-reveal.md,Reforging (new crafting material),True,True,True,False,True,True,1.0,1.0,may-change,confirmed,False,,False,477,0,False
+kb/strategy/official-1.0-reveal.md,Blood Lord storyline,True,True,True,False,True,False,1.0,1.0,may-change,single-source,False,,False,209,0,False
+kb/strategy/official-1.0-reveal.md,"Commanders (""Automate your Atlas"")",True,True,True,False,True,True,1.0,1.0,may-change,confirmed,False,,False,529,0,False
+kb/strategy/official-1.0-reveal.md,Global faction war,True,True,True,False,True,False,1.0,1.0,may-change,single-source,False,,False,479,0,False
+kb/strategy/official-1.0-reveal.md,"Items, gems, tree",True,True,True,False,True,True,1.0,1.0,may-change,confirmed,False,,False,582,0,False
+kb/strategy/official-1.0-reveal.md,Class reworks shown,True,True,True,False,True,False,1.0,1.0,may-change,confirmed,False,,False,251,0,False
+kb/strategy/practice-build-0.5.5.md,"Pick: Ice Shot Deadeye, levelled with Lightning Arrow",True,True,True,True,True,False,0.5.5,0.5.5,volatile,single-source,True,3,True,772,0,False
+kb/strategy/rarity-value.md,(preamble),False,True,True,False,False,False,0.5.5 creator view; 1.0 unchanged per GGG so far.,0.5.5,may-change.,MISSING,False,,False,459,0,False
+kb/strategy/rarity-value.md,Creator's position,True,True,True,True,True,True,0.5.5,0.5.5,may-change,single-source,False,5,True,843,0,False
+kb/strategy/rarity-value.md,Dev view,True,False,False,True,True,False,,MISSING,MISSING,single-source,False,1,True,399,0,False
+kb/strategy/sekhemas-currency-farm.md,(preamble),False,True,True,True,False,False,"0.5.x (about 0.5.5, league not stated); video date",0.5.x,volatile.,MISSING,False,5,True,652,1,False
+kb/strategy/sekhemas-currency-farm.md,Three profit centres (creator's claim),True,True,True,True,True,False,0.5.x,0.5.x,volatile,single-source,False,5,True,402,0,False
+kb/strategy/sekhemas-currency-farm.md,Against the Darkness (ATD),True,False,True,True,True,False,,MISSING,volatile,single-source,False,5,False,599,0,True
+kb/strategy/sekhemas-currency-farm.md,Ascendancy carries,True,False,True,True,True,True,,MISSING,volatile,single-source,False,5,False,495,0,True

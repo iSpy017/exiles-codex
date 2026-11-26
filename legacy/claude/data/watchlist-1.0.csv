@@ -1,0 +1,16 @@
+item,kind,why_it_matters_in_1_0,evidence_from_0_5,projection,confidence,action
+Divine Orb,Currency,Store of value; Exalted inflates all league,1 Divine went 38 -> 406 -> 549 Exalted (day 1 / day 30 / now),Climbs vs Exalted,High,Convert profit to Divines every session from day 2
+Perfect Chaos / Perfect Exalted Orb,Crafting currency,Endgame crafting on item level 82+ bases,Perfect Chaos 109 -> 3320 ex; Perfect Exalted 124 -> 1540 ex (day 3 -> now),Climbs,High,Hold drops past week 1; don't sell in bulk on day 1-3
+Fracturing Orb,Crafting currency,Locks a mod; pairs with new Reforging,246 -> 3660 ex (day 3 -> now),Climbs from week 2,High,Hold
+Orb of Annulment,Crafting currency,Used in every desecrate/fix craft,13 -> 237 ex (day 3 -> now),Climbs then flattens,High,Sell week 2-4
+Crimson Iron (name per reveal notes),New 1.0 currency,Reforging bench: replaces chosen mods with fractured random mods,No 0.5 equivalent,Expensive early (castle treasury only),Medium [INFERRED],Sell first drops in week 1; craft with it later
+Blood Veils (name per reveal notes),New 1.0 currency,Replace a chosen mod with a specific one; class/skill variants,No 0.5 equivalent,Variants for top-3 builds spike,Medium [INFERRED],Price-check every drop; meta variants = T1
+Lineage support gems,Gem,Build-enablers; Breachlord's Amalgam is in the Witchhunter loop,Garukhan's Resolve 5710 -> 193000 ex; Uul-Netol's 3650 -> 333000 ex,Climbs hardest,High (pattern) / Low (which gems),Hold any lineage drop; check meta on poe.ninja day 2
+Jewels (rare + unique),Item class,Jewel sockets 18 -> 60 per tree (reveal notes),Grand Spectrum Ruby 942 -> 32300 ex (FR day 3 -> now),Climbs,Medium [INFERRED],Pick up all rare jewels; filter T2
+Chase uniques (Mageblood / Headhunter tier),Unique,Few drops; rich buyers early,Mageblood 400 div -> 125 div; Headhunter 264 div (day 7) -> 12.6 div in Forbidden Rites,Peaks week 1-2 then falls,High,Sell immediately; never hold
+Build-enabling uniques for meta,Unique,Demand follows top builds on poe.ninja,Temporalis 143000 -> 4420000 ex; Runeseeker's Call climbed all league,Climbs if build stays meta,Medium,Watch poe.ninja builds day 2-3; buy early only if build is not nerf-prone
+Tablets,Endgame item,Commanders can run tablets to farm chosen mechanics (reveal notes),Temple Tablet 15 -> 396 ex; The Grand Project 317 -> 4700 ex,Climbs,Medium [INFERRED],Keep good tablets; sell duplicates
+Simulacrum / boss fragments,Fragment,Pinnacle and Simulacrum farmers (incl. the AFK Witchhunter plan),Simulacrum 345 -> 1550 ex; Fates 60 -> 3000 ex,Climbs,High,Sell fragments in sets; keep Simulacrums for char 2
+Item level 82+ bases,Base type,200+ new bases with new implicits,0.5: endgame crafts only on ilvl 82+,Best new bases spike in week 1,Medium [INFERRED],Filter T3; price-check top 3 bases per slot on day 2
+Essences (most),Crafting,Common drops,Greater essences 12-35 -> 1-20 ex,Fades after week 1,High,Sell on day 1-3; don't stockpile
+Gold,Resource,Troops + castle upgrades + trade fees all cost gold; can't be traded,n/a,Feels scarce,Medium [INFERRED],Don't waste gold on gambling vendors early

@@ -1,0 +1,38 @@
+# Unique Body armour mods (0.5.x) - part 3 of 3
+
+Status: done for this slot part (rows sorted by required level as listed by PoE2DB). Version: 0.5.x data (PoE2DB crawl 2026-11-23); not checked against 1.0. Volatility: may-change.
+Source: [PoE2DB Unique_item](https://poe2db.tw/us/Unique_item) (armour list, tier 2) plus each unique's own PoE2DB page (mod blocks, boss-drop and release-league lines), crawl 2026-11-23. Confidence: single-source.
+Names per slot: [[items/uniques-armour]]. Drop restrictions and sources: [[items/uniques-drop-sources]]. Total uniques: [[items/uniques-index]].
+Other parts of this slot: [[items/uniques-mods-body-1]], [[items/uniques-mods-body-2]]. Other slots: [[items/uniques-mods-body-1]], [[items/uniques-mods-helmet-1]], [[items/uniques-mods-gloves-1]], [[items/uniques-mods-boots]], [[items/uniques-mods-shields-1]].
+
+## How to read
+- Mods are paraphrased compactly; (a–b) are rolled ranges, fixed numbers are not rolled. Mod order follows PoE2DB mod blocks, not in-game order. Implicits and base defences are omitted. Req lvl = level only (attribute requirements omitted).
+- Tag column: "Boss: X" = PoE2DB page says the item is dropped by that boss; "Rel: X" = release league shown on the page (blank = since 0.1.0 base data); "Drop disabled" = page carries the 「Drop disabled」 marker (22 item pages in the corpus carry it; the 12 armour ones are not on the Unique_item armour list and are appended here by hand, so the armour total is 221 listed + 12 = 233).
+- Items whose PoE2DB page also shows a "Deferred" variant (differing base/level/mods) use the 0.5.5 block here.
+
+## Body armour uniques
+
+| Name | Base | Req lvl | Explicit mods | Tag |
+|---|---|---|---|---|
+| Waveshaper | Tideseer Mantle | 51 | +(100–200) to maximum Energy Shield; +(20–40) to Spirit; +(25–35)% to Fire Resistance; +(25–35)% to Cold Resistance; Increases and Reductions to Mana Regeneration Rate also apply to Energy Shield Recharge Rate; Gain (30–50)% of Maximum Mana as Armour | Rel: Dawn of the Hunt |
+| Couture of Crimson | Gilded Vestments | 52 | (50–100)% increased Armour and Energy Shield; (10–15)% increased maximum Life; (40–60)% reduced Duration of Bleeding on You; Life Leech can Overflow Maximum Life |  |
+| Geofri's Sanctuary | Revered Vestments | 65 | +1% to all Maximum Elemental Resistances; (150–200)% increased Armour; +(10–20)% to all Elemental Resistances; Your maximum Energy Shield is equal to (200–300)% of your Strength; Maximum Energy Shield cannot be Converted; Regenerate 2 Life per second for every 10 Intelligence; Keystone: Zealot's Oath | Rel: Runes of Aldur |
+| The Unleashed | Revered Vestments | 65 | +1% to all Maximum Elemental Resistances; (150–250)% increased Armour and Energy Shield; +(10–20) to Strength and Intelligence; (15–25)% of Damage taken from Hits bypasses Energy Shield if Energy Shield is below half; Gain 1 Runic Binding on Hit with Spells, no more than once every 0.5 seconds Lose all Runic Bindings when you Shapeshift to gain that much Unbound Potential | Boss: The Aberration; Rel: Runes of Aldur |
+| Sacrosanctum | Corvus Mantle | 68 | +(20–30) to Spirit; (80–120)% increased Armour and Energy Shield; +(20–30) to Strength; +(20–30) to Intelligence; +(17–23)% to Chaos Resistance; (10–20)% of Damage taken Recouped as Life; Damage taken Recouped as Life is also Recouped as Energy Shield | Rel: Dawn of the Hunt |
+| Loreweave | Ornate Ringmail | 43 | Adds (1–4) to (8–12) Physical Damage to Attacks; +(200–300) to Accuracy Rating; +(20–30) to maximum Mana; (6–15)% increased Rarity of Items found; +(2–5)% to Quality of all Skills; (7–10)% increased Cast Speed; Your Maximum Resistances are (75–80)% | Rel: Runes of Aldur |
+| Decree of Loyalty | Ancient Mail | 70 | (200–300)% increased Armour and Energy Shield; +(15–25) to Strength and Intelligence; +(1–5)% to Maximum Chaos Resistance; Convert 1% of maximum Life to twice as much Armour per 1% Chaos Resistance above 0%; Defend with (150–200)% of Armour while you have Energy Shield; Damage over Time cannot bypass your Energy Shield | Boss: The Arbiter of Divinity; Rel: Runes of Aldur |
+| Apron of Emiran | Hermit Garb | 1 | (30–50)% increased Evasion and Energy Shield; +(10–20) to Dexterity; (40–60)% reduced Duration of Bleeding on You; Bleeding you inflict is Aggravated | 0.5.5 data (page also shows a Deferred variant) |
+| Gloomform | Waxed Jacket | 11 | (100–150)% increased Evasion Rating; +(10–20) to Dexterity; 20% reduced Light Radius; You have a Smoke Cloud around you while stationary; +(10–20)% to Fire Resistance |  |
+| Sierran Inheritance | Marabout Garb | 16 | (50–80)% increased Evasion and Energy Shield; +(30–40)% to Lightning Resistance; (15–30)% increased Energy Shield Recharge Rate; The Effect of Chill on you is reversed; -15% to Cold Resistance; All Damage taken from Hits Contributes to Magnitude of Chill inflicted on you |  |
+| The Dancing Mirage | Wayfarer Jacket | 28 | (150–200)% increased Evasion and Energy Shield; +(10–20)% to Lightning Resistance; 20% less Damage taken if you have not been Hit Recently; 100% increased Evasion Rating if you have been Hit Recently |  |
+| Redflare Conduit | Anchorite Garb | 33 | +(50–70) to maximum Mana; +(20–30)% to Lightning Resistance; 20% chance to gain a Power Charge on Hit; Lose all Power Charges on reaching maximum Power Charges; Shocks you when you reach maximum Power Charges |  |
+| Zerphi's Serape | Scalper's Jacket | 39 | (60–80)% increased Evasion and Energy Shield; +(40–60) to maximum Mana; 50% increased Attribute Requirements; (-30–30)% reduced Life Regeneration rate; (-30–30)% reduced Mana Regeneration Rate; Soul Eater | Rel: Dawn of the Hunt |
+| Cospri's Will | Assassin Garb | 73 | 5% increased Movement Speed; (150–200)% increased Evasion and Energy Shield; +(23–29)% to Chaos Resistance; Curses you inflict have infinite Duration; Curses you inflict can affect Hexproof Enemies; Withered you inflict has infinite Duration | Rel: Rise of the Abyssal |
+| Tabula Rasa | Garment | 1 | Has 6 Jewel Sockets (Hidden) | Rel: Dawn of the Hunt |
+| Skin of the Loyal | Garment | 1 | +(5–40)% to all Elemental Resistances; Elemental Ailment Threshold is increased by Uncapped Chaos Resistance; Armour is increased by Uncapped Fire Resistance; Energy Shield is increased by Uncapped Cold Resistance; Evasion Rating is increased by Uncapped Lightning Resistance | Boss: Xesht, We That Are One |
+| Morior Invictus | Grand Regalia | 65 | (300–400)% increased Armour , Evasion and Energy Shield | Boss: The Arbiter of Ash |
+| Atziri's Splendour | Sacrificial Regalia | 65 | +1 to Level of all Corrupted Skill Gems; Only Soul Cores can be Socketed in this item; (80–120)% increased Armour , Evasion and Energy Shield; +(10–20)% to all Elemental Resistances; Skills from Corrupted Gems have 50% of Mana Costs Converted to Life Costs; Has no Attribute Requirements | Rel: Fate of the Vaal |
+| Voll's Protector | Plated Vestments | 59 | (150–200)% increased Armour and Energy Shield; 25% reduced maximum Mana; 25% chance to gain a Power Charge on Critical Hit; +(13–17)% to Chaos Resistance |  |
+| Forgotten Warden | Primal Markings | 70 | Grants Spirit Vessel (Lv16); +(70–100) to Deflection Rating per 50 missing Energy Shield; (200–300)% increased Evasion and Energy Shield; +(20–30) to Dexterity; Companions have (30–50)% increased maximum Life; (10–15)% of Damage from Deflected Hits is taken from Damageable Companion 's Life before you | Boss: The Bodach; Rel: Runes of Aldur |
+
+Drop disabled (not tabulated; page shows no readable explicit mods, only an internal string): Demigod's Valor (Golden Plate, Lv1).

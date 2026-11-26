@@ -1,0 +1,41 @@
+# Unique Body armour mods (0.5.x) - part 2 of 3
+
+Status: done for this slot part (rows sorted by required level as listed by PoE2DB). Version: 0.5.x data (PoE2DB crawl 2026-11-23); not checked against 1.0. Volatility: may-change.
+Source: [PoE2DB Unique_item](https://poe2db.tw/us/Unique_item) (armour list, tier 2) plus each unique's own PoE2DB page (mod blocks, boss-drop and release-league lines), crawl 2026-11-23. Confidence: single-source.
+Names per slot: [[items/uniques-armour]]. Drop restrictions and sources: [[items/uniques-drop-sources]]. Total uniques: [[items/uniques-index]].
+Other parts of this slot: [[items/uniques-mods-body-1]], [[items/uniques-mods-body-3]]. Other slots: [[items/uniques-mods-body-1]], [[items/uniques-mods-helmet-1]], [[items/uniques-mods-gloves-1]], [[items/uniques-mods-boots]], [[items/uniques-mods-shields-1]].
+
+## How to read
+- Mods are paraphrased compactly; (a–b) are rolled ranges, fixed numbers are not rolled. Mod order follows PoE2DB mod blocks, not in-game order. Implicits and base defences are omitted. Req lvl = level only (attribute requirements omitted).
+- Tag column: "Boss: X" = PoE2DB page says the item is dropped by that boss; "Rel: X" = release league shown on the page (blank = since 0.1.0 base data); "Drop disabled" = page carries the 「Drop disabled」 marker (22 item pages in the corpus carry it; the 12 armour ones are not on the Unique_item armour list and are appended here by hand, so the armour total is 221 listed + 12 = 233).
+- Items whose PoE2DB page also shows a "Deferred" variant (differing base/level/mods) use the 0.5.5 block here.
+
+## Body armour uniques
+
+| Name | Base | Req lvl | Explicit mods | Tag |
+|---|---|---|---|---|
+| Prayers for Rain | Keth Raiment | 28 | (60–100)% increased Energy Shield; +(10–15) to Intelligence; 30% slower start of Energy Shield Recharge; Energy Shield Recharge is not interrupted by Damage if Recharge began Recently; +(10–20)% to Lightning Resistance |  |
+| Tetzlapokal's Desire | Votive Raiment | 33 | (100–150)% increased Energy Shield; +(20–30) to Strength; +(17–23)% to Chaos Resistance; Life Recharges; +(20–30) to Intelligence |  |
+| The Covenant | Altar Robe | 40 | Grants Life Remnants (Lv10); (100–150)% increased Energy Shield; +(100–150) to maximum Life; 10% of Spell Damage Leeched as Life; Skills Gain 100% of Mana Cost as Extra Life Cost |  |
+| Gloamgown | Elementalist Robe | 45 | (100–140)% increased Energy Shield; +(30–40) to Spirit; +(25–35)% to Cold Resistance; 1000% increased Energy Shield Recharge Rate; Your base Energy Shield Recharge Delay is 10 seconds | Rel: Dawn of the Hunt |
+| Vis Mortis | Plated Raiment | 58 | (70–100)% increased Energy Shield; +(70–100) to maximum Mana; Minions have 50% reduced maximum Life; Minions have Unholy Might | Rel: Dawn of the Hunt |
+| Cloak of Defiance | Havoc Raiment | 65 | (50–100)% increased Energy Shield; +(100–150) to maximum Mana; (50–100)% increased Mana Regeneration Rate; 50% of Damage is taken from Mana before Life | Rel: Dawn of the Hunt |
+| Silks of Veneration | Enlightened Robe | 68 | (40–50)% increased Mana Regeneration Rate; +(30–50) to Spirit; +(20–30) to Intelligence; (30–50)% increased Energy Shield Recharge Rate; Current Energy Shield also grants Elemental Damage reduction; (150–200)% increased Energy Shield | Rel: Dawn of the Hunt |
+| Coat of Red | Chain Mail | 1 | +(80–100) to maximum Life; +(75–150) to Stun Threshold; (80–100)% increased Armour and Evasion; 25% chance to be inflicted with Bleeding when Hit |  |
+| The Barrow Dweller | Rogue Armour | 11 | (60–100)% increased Armour and Evasion; (-20 to -10)% to Fire Resistance; +50% to Cold Resistance; 50% chance to Avoid Death from Hits; Damage of Enemies Hitting you is Unlucky while you are on Low Life |  |
+| Irongrasp | Vagabond Armour | 16 | (100–150)% increased Armour and Evasion; +(100–150) to Stun Threshold; Keystone: Iron Grip; Keystone: Iron Will; +(20–30) to Strength |  |
+| Pariah's Embrace | Cloaked Mail | 26 | (50–80)% increased Armour and Evasion; (10–15) Life Regeneration per second; +50 to Spirit; +(10–15) to all Attributes; (20–40)% increased Mana Cost Efficiency |  |
+| Belly of the Beast | Explorer Armour | 33 | (100–150)% increased Armour and Evasion; +(100–150) to maximum Life; +(100–150) to Stun Threshold; Life Recovery from Flasks is instant; (25–30) to (35–40) Physical Thorns damage |  |
+| Pragmatism | Explorer Armour | 52 | (200–300)% increased Armour and Evasion; +(10–20)% to all Elemental Resistances; -17% to Chaos Resistance; Charms use no Charges | Boss: The King in the Mists |
+| Doryani's Prototype | Scale Mail | 37 | (50–100)% increased Armour and Evasion; +(60–80) to maximum Life; +100% of Armour also applies to Lightning Damage; Enemies in your Presence have Lightning Resistance equal to yours; Lightning Resistance does not affect Lightning damage taken |  |
+| Widow's Reign | Knight Armour | 45 | (100–150)% increased Armour and Evasion; +(100–150) to maximum Life; +(17–23)% to Chaos Resistance; +(200–300) to Ailment Threshold; Life that would be lost by taking Damage is instead Reserved until you take no Damage to Life for 3 seconds | Rel: Dawn of the Hunt |
+| Perfidy | Knight Armour | 45 | (300–450)% increased Armour and Evasion; (10–30)% chance to Avoid Physical Damage from Hits; (10–30)% chance to Avoid Chaos Damage from Hits; Enemies in your Presence are Intimidated; (10–30)% chance to Avoid Fire Damage from Hits; (10–30)% chance to Avoid Cold Damage from Hits; (10–30)% chance to Avoid Lightning Damage from Hits | Boss: Kosis, The Revelation |
+| The Sunken Vessel | Knight Armour | 45 | (120–180)% increased Armour and Evasion; +(80–120) to maximum Life; 30% reduced Life Recovery rate; 33% chance to avoid Projectiles; Physical Damage of Enemies Hitting you is Unlucky; Convert All Armour to Evasion Rating | Rel: Runes of Aldur |
+| Lightning Coil | Ancestral Mail | 50 | Grants Valako's Charge (Lv12); (80–120)% increased Armour and Evasion; +(80–100) to maximum Life; +(20–30) to Dexterity; (-40 to -30)% to Lightning Resistance; (30–50)% of Physical damage from Hits taken as Lightning damage | Rel: Rise of the Abyssal |
+| The Fallen Formation | Lamellar Mail | 52 | (100–200)% increased Armour and Evasion; +(20–30) to Strength; +(20–30) to Dexterity; (8–12) Life Regeneration per second; -20 to maximum Valour; Banners always have maximum Valour | 0.5.5 data (page also shows a Deferred variant); Rel: Dawn of the Hunt; No longer drops since 0.3.0 (page version history; "reintroduced at a later date") |
+| The Coming Calamity | Heroic Armour | 65 | +(60–80) to maximum Life; +(30–40)% to all Elemental Resistances; Enemies in your Presence have no Elemental Resistances; Herald Skills deal (50–100)% increased Damage | Rel: Dawn of the Hunt |
+| Enfolding Dawn | Pilgrim Vestments | 1 | (50–100)% increased Armour and Energy Shield; +100 to Spirit; +(5–15)% to all Elemental Resistances; Gain no inherent bonus from Intelligence |  |
+| Icetomb | Mail Vestments | 16 | +(20–30) to Strength; +(20–30) to Intelligence; +(30–40)% to Cold Resistance; Gain Cold Thorns Damage equal to (10–18)% of your maximum Mana |  |
+| Reverie | Shaman Mantle | 28 | Grants Rite of Restoration (Lv8); (100–150)% increased Armour and Energy Shield; +(17–23)% to Chaos Resistance; -10% to Fire Resistance; Cannot use Life Flasks Non-Unique Life Flasks apply their Effects constantly Recovery from Life Flasks cannot be Instant Recovery from your Life Flasks cannot be applied to anything other than you; (40–60)% less Life Flask Recovery | Rel: Runes of Aldur |
+| Soul Mantle | Sacrificial Mantle | 36 | (80–120)% increased Armour and Energy Shield; +10 to Strength; +15 to Intelligence; +1 to maximum number of Summoned Totems; Inflicts a random Curse on you when your Totems die, ignoring Curse limit; +75 to Spirit | Rel: Dawn of the Hunt |
+| The Mutable Star | Cleric Vestments | 45 | (100–150)% increased Armour and Energy Shield; (50–100)% increased Energy Shield Recharge Rate; (25–35) Life Regeneration per second; (30–50)% reduced Duration of Bleeding on You; (30–50)% reduced Ignite Duration on you; Defend against Hits as though you had 1% more Armour per 1% current Energy Shield | Rel: Dawn of the Hunt |

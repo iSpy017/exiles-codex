@@ -1,0 +1,10 @@
+row,n_docs,docs
+| boss (area) | life / dmg | res f/c/l/x | damage beyond phys | biggest hits | unavoidable | adds |,2,kb/campaign/boss-data-acts-1-2.md;kb/campaign/boss-data-acts-3-4.md
+| family | tier | drop lvl | mod (range) | p/s | mod lvl | classes |,3,kb/crafting/essence-table-high.md;kb/crafting/essence-table.md;kb/crafting/essences.md
+| lv | req char lv / dex | mana | attack dmg % |,2,kb/gems/bow-attack-gems-4.md;kb/gems/bow-attack-gems.md
+| tier | req lvl/drop lvl | effect by slot |,3,kb/items/rune-effects-2.md;kb/items/rune-effects-3.md;kb/items/rune-effects.md
+| rune of | req/drop | effect (slot) | bonded |,2,kb/items/rune-effects-4.md;kb/items/rune-effects-5.md
+| legacy of | effect (slot) | bonded |,2,kb/items/rune-effects-7.md;kb/items/rune-effects-8.md
+| idol | type | req/drop | limit | slot effects | bonded | socket into |,2,kb/items/soul-core-idol-effects-2.md;kb/items/soul-core-idol-effects-3.md
+| name | base | req lvl | explicit mods | tag |,10,kb/items/uniques-mods-body-1.md;kb/items/uniques-mods-body-2.md;kb/items/uniques-mods-body-3.md;kb/items/uniques-mods-boots.md;kb/items/uniques-mods-gloves-1.md;kb/items/uniques-mods-gloves-2.md;kb/items/uniques-mods-helmet-1.md;kb/items/uniques-mods-helmet-2.md;kb/items/uniques-mods-shields-1.md;kb/items/uniques-mods-shields-2.md
+| name | base | req lvl | mods | tag |,12,kb/items/uniques-mods-caster-weapons-1.md;kb/items/uniques-mods-caster-weapons-2.md;kb/items/uniques-mods-flasks-charms.md;kb/items/uniques-mods-jewellery-1.md;kb/items/uniques-mods-jewellery-2.md;kb/items/uniques-mods-jewellery-3.md;kb/items/uniques-mods-jewellery-4.md;kb/items/uniques-mods-jewels.md;kb/items/uniques-mods-quivers.md;kb/items/uniques-mods-weapons-1.md;kb/items/uniques-mods-weapons-2.md;kb/items/uniques-mods-weapons-3.md
