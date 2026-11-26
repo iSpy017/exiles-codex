@@ -1,0 +1,8 @@
+# https://poe2db.tw/us/Advancing_Storm · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Tier	Gems
+5	Thunderstorm
+11	Tornado
+Level	Requires Level	Int
+1	0	0
+Version	Changes
+0.5.0	* Advancing Storm : Can now support any Storm Skill under any conditions, rather than only spells you use yourself.

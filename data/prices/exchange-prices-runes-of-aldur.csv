@@ -1,0 +1,92 @@
+category,item,ex_day3,ex_day7,ex_day30,ex_now,div_now,volume_div_per_day,sell_from,trend
+Currency,Exalted Orb,1,1,1,1,0.00182,31.5,Act 1,Fades
+Currency,Ancient Infuser,,31.2,85.8,355,0.647,1.83,?,Holds
+Currency,Divine Orb,60.7,89.4,406,549,1,529,Maps+,Holds
+Currency,Orb of Annulment,13.2,36.4,234,237,0.432,141,Act 3+,Holds
+Currency,Architect's Orb,58.4,52,1370,4640,8.45,152,Maps+,Climbs
+Currency,Chaos Orb,0.937,4.96,40.5,60.6,0.11,529,Skip,Holds
+Currency,Orb of Chance,14,19.1,9.01,9.77,0.0178,2,Act 3+,Fades
+Currency,Crystallised Corruption,54.7,79.1,978,2310,4.2,42.7,Maps+,Climbs
+Currency,Fracturing Orb,246,107,3250,3660,6.67,131,Maps+,Holds
+Currency,Greater Regal Orb,5.5,1.85,3.36,8.31,0.0151,1.5,Act 2,Fades
+Currency,Perfect Chaos Orb,109,246,1560,3320,6.04,188,Maps+,Climbs
+Currency,Perfect Exalted Orb,124,253,799,1540,2.8,189,Maps+,Holds
+Currency,Perfect Jeweller's Orb,78.9,92.9,142,233,0.424,24.7,Maps+,Fades
+Currency,Armourer's Scrap,0.893,0.92,2.22,4.48,0.00816,1.67,Skip,Holds
+Currency,Vaal Blacksmith's Infuser,63.1,85.7,133,446,0.812,11.5,Maps+,Holds
+Currency,Vaal Cultivation Orb,117,91.2,1050,956,1.74,21.2,Maps+,Holds
+Currency,Hinekora's Lock,5850,9340,361000,1290000,2340,2740,Maps+,Climbs
+Currency,Greater Chaos Orb,4.22,14.6,120,200,0.365,102,Act 2,Climbs
+Currency,Greater Exalted Orb,10.5,12.1,4.35,9.15,0.0167,1,Act 3+,Fades
+Currency,Mirror of Kalandra,26400,131000,1890000,3150000,5740,1910,Maps+,Climbs
+Currency,Perfect Orb of Augmentation,7.71,6.74,37.8,47.8,0.087,3.33,Act 2,Holds
+Currency,Vaal Armourer's Infuser,29.9,44.2,324,615,1.12,24.2,Act 3+,Climbs
+Currency,Vaal Catalysing Infuser,121,53.2,1010,3190,5.81,41.7,Maps+,Climbs
+Currency,Vaal Orb,1.66,2.17,3.34,7.71,0.014,9.17,Act 1,Holds
+Currency,Blacksmith's Whetstone,0.719,0.674,1.78,13.7,0.025,1.83,Skip,Climbs
+Fragment,Breachlord Sac,267,467,3060,9060,16.5,33,Maps+,Climbs
+Fragment,Call of the Shadows,,18.1,17.7,125,0.228,20.3,?,Holds
+Fragment,Ancient Crisis Fragment,120,84.2,475,286,0.52,2.17,Maps+,Fades
+Fragment,Faded Crisis Fragment,71,92,2850,2390,4.36,16,Maps+,Climbs
+Fragment,Kulemak's Invitation,23.2,15.5,690,708,1.29,22.3,Act 3+,Climbs
+Fragment,Origin Cradle,,350,1450,2300,4.19,11.2,?,Holds
+Fragment,Simulacrum,345,450,1100,1550,2.82,135,Maps+,Fades
+Fragment,Cowardly Fate,60.5,84.7,1640,2290,4.17,41.7,Maps+,Climbs
+Fragment,Deadly Fate,64.3,85.8,1600,3000,5.46,51,Maps+,Climbs
+Fragment,Origin Core,,672,2640,4390,8,30.7,?,Holds
+Fragment,Origin Spark,,274,945,1930,3.52,17,?,Holds
+Fragment,Victorious Fate,66.7,83.2,1570,2730,4.98,44.8,Maps+,Climbs
+Fragment,Weathered Crisis Fragment,124,136,491,178,0.325,2.17,Maps+,Fades
+Uncut gem,Uncut Skill Gem (Level 19),24.2,17.8,17.7,69.9,0.127,0.678,Act 3+,Fades
+Uncut gem,Uncut Spirit Gem (Level 18),17,10.8,47.8,91.5,0.167,2.83,Act 3+,Holds
+Uncut gem,Uncut Spirit Gem (Level 19),15.4,27.5,66.6,226,0.412,1.03,Act 3+,Holds
+Uncut gem,Uncut Skill Gem (Level 1),30.3,19.1,61.3,1100,2,3.67,Act 3+,Climbs
+Uncut gem,Uncut Skill Gem (Level 20),175,441,1570,4740,8.63,38.8,Maps+,Holds
+Uncut gem,Uncut Spirit Gem (Level 14),19.1,29.3,305,967,1.76,5,Act 3+,Climbs
+Uncut gem,Uncut Spirit Gem (Level 20),83.7,344,1910,4980,9.06,54.3,Maps+,Climbs
+Lineage support,Ailith's Chimes,725,191,74.9,1510,2.75,1.83,Maps+,Fades
+Lineage support,Amanamu's Tithe,54.2,117,718,824,1.5,1.5,Maps+,Holds
+Lineage support,Breachlord's Amalgam,1200,3030,1010,19600,35.7,17.8,Maps+,Holds
+Lineage support,Dialla's Desire,1650,4820,83500,48700,88.6,73.8,Maps+,Holds
+Lineage support,Atziri's Allure,45.5,34.8,1370,3020,5.5,1.83,Act 3+,Climbs
+Lineage support,Atziri's Communion,,7200,194000,99000,180,180,?,Climbs
+Lineage support,Esh's Prowess,131,89,751,2750,5,1.67,Maps+,Climbs
+Lineage support,Garukhan's Resolve,5710,17500,223000,193000,351,644,Maps+,Holds
+Lineage support,Rakiata's Flow,4730,9400,67500,38500,70.1,105,Maps+,Holds
+Lineage support,Rigwald's Ferocity,2420,5040,66100,65300,119,79.3,Maps+,Climbs
+Lineage support,Seraph's Heart,249,592,68100,74700,136,22.7,Maps+,Climbs
+Lineage support,Sione's Temper,137,86,215,2750,5,0.833,Maps+,Climbs
+Lineage support,Uhtred's Exodus,987,1890,69600,92300,168,28,Maps+,Climbs
+Lineage support,Uul-Netol's Embrace,3650,13500,165000,333000,606,202,Maps+,Climbs
+Lineage support,Her Declaration,299,919,54000,75000,137,45.5,Maps+,Climbs
+Lineage support,Khatal's Rejuvenation,160,90.3,1480,2930,5.33,10.7,Maps+,Climbs
+Lineage support,Olroth's Conviction,596,1990,4690,41300,75.3,50.2,Maps+,Climbs
+Lineage support,Tul's Stillness,1610,3400,29900,26900,49,24.5,Maps+,Holds
+Lineage support,Uhtred's Augury,843,606,20600,13200,24,8,Maps+,Holds
+Lineage support,Uhtred's Constellation,89.2,358,232,3290,6,1,Maps+,Holds
+Lineage support,Uhtred's Omen,453,584,7870,4030,7.33,3.67,Maps+,Holds
+Lineage support,Vorana's Siege,1810,3430,7670,6590,12,10,Maps+,Fades
+Lineage support,Esh's Radiance,1310,1980,36100,34600,63,10.5,Maps+,Climbs
+Essence,Essence of Delirium,15.4,12.1,275,549,1,1.83,Act 3+,Climbs
+Essence,Essence of Hysteria,103,91.2,366,364,0.662,0.552,Maps+,Fades
+Soul core,Atziri's Soul Core of Devotion,,,,23100,42,14,?,?
+Soul core,Atziri's Soul Core of Vitality,,,,5490,10,3.33,?,?
+Soul core,Soul Core of Azcapa,66.7,87.6,2640,1330,2.42,4.83,Maps+,Climbs
+Soul core,Raven-Touched Shard,617,2810,38000,49100,89.3,179,Maps+,Climbs
+Idol,Carved Majesty,712,2340,40000,114000,208,69.3,Maps+,Climbs
+Idol,Idol of Eeshta,60.7,30.5,36.9,3710,6.75,4.5,Maps+,Climbs
+Rune,Aldur's Legacy,2590,7690,78700,133000,241,443,Maps+,Climbs
+Rune,Masterwork Rune,21.7,55.4,159,526,0.958,15.3,Act 3+,Holds
+Rune,Perfect Iron Rune,121,134,364,1610,2.94,8.33,Maps+,Holds
+Rune,Perfect Resolve Rune,121,163,422,2750,5,3.33,Maps+,Climbs
+Rune,Emergent Protection,95.9,89.4,181,7140,13,2.17,Maps+,Climbs
+Rune,Emergent Vigour,146,165,1640,20900,38,6.33,Maps+,Climbs
+Rune,Serle's Triumph,152,229,819,1550,2.83,2.83,Maps+,Holds
+Expedition,Aldur's Saga,317,1860,14000,26200,47.6,643,Maps+,Climbs
+Expedition,Perfect Flux,262,939,14300,24900,45.4,159,Maps+,Climbs
+Expedition,Expedition Logbook,52.6,164,450,385,0.702,14.5,Maps+,Fades
+Expedition,Uhtred's Saga,45.5,43.8,344,386,0.703,4.33,Act 3+,Holds
+Verisium,Adaptive Alloy,,8.68,67.6,9010,16.4,46.5,?,Climbs
+Verisium,Celestial Alloy,163,480,325,6610,12,90.3,Maps+,Climbs
+Verisium,Sovereign Alloy,50.6,45.2,74.5,813,1.48,5.67,Maps+,Holds
+Verisium,Olroth's Crest of the Sun,146,190,183,1310,2.38,3.17,Maps+,Holds

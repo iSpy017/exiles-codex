@@ -1,0 +1,25 @@
+# https://poe2db.tw/us/Staves · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Item Level	Local	Weight
+1	(10 — 20) % reduced Attribute Requirements	1
+Item Level	Global	Weight
+1	+1 to Level of all Fire Spell Skills Elemental Fire Caster Gem	1
+1	+1 to Level of all Cold Spell Skills Elemental Cold Caster Gem	1
+1	+1 to Level of all Lightning Spell Skills Elemental Lightning Caster Gem	1
+1	+1 to Level of all Chaos Spell Skills Chaos Caster Gem	1
+1	+1 to Level of all Physical Spell Skills Physical Caster Gem	1
+Item Level	Global	Weight
+1	(40 — 60) % increased Spell Damage Damage Caster	1
+Item Level	Global	Weight
+1	(20 — 30) % increased Flammability Magnitude Elemental Fire Ailment	1
+Item Level	Global	Weight
+1	(20 — 30) % increased Freeze Buildup Elemental Cold Ailment	1
+Item Level	Global	Weight
+1	(20 — 30) % increased chance to Shock Elemental Lightning Ailment	1
+Item Level	Global	Weight
+1	(20 — 30) % increased Critical Hit Chance for Spells Caster Critical	1
+Item Level	Global	Weight
+1	Gain (20 — 25) Life per enemy killed Life	1
+Item Level	Global	Weight
+1	Gain (10 — 15) Mana per enemy killed Mana	1
+Item Level	Global	Weight
+1	(10 — 15) % increased Cast Speed Caster Speed	1

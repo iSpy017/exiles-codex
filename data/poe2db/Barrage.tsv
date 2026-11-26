@@ -1,0 +1,61 @@
+# https://poe2db.tw/us/Barrage · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Tier	Gems
+1	Perpetual Charge
+2	Lifetap Heightened Charges
+3	Prolonged Duration II Cooldown Recovery I
+4	Efficiency II Cooldown Recovery II
+5	Second Wind III
+Level	Requires Level	Dex	Mana	Base Damage	600 % of Empowered Skill's attack time is added to this skill's cooldown, to a maximum of 30 seconds
+1	0	4	11	100%, 100%, 100%	600, 30
+2	3	9	13	100%, 100%, 100%	590, 30
+3	6	14	14	100%, 100%, 100%	580, 30
+4	10	21	16	100%, 100%, 100%	570, 30
+5	14	28	18	100%, 100%, 100%	560, 30
+6	18	35	20	100%, 100%, 100%	550, 30
+7	22	41	21	100%, 100%, 100%	540, 30
+8	26	48	23	100%, 100%, 100%	530, 30
+9	31	57	25	100%, 100%, 100%	520, 30
+10	36	65	27	100%, 100%, 100%	510, 30
+11	41	74	29	100%, 100%, 100%	500, 30
+12	46	82	31	100%, 100%, 100%	490, 30
+13	52	92	34	100%, 100%, 100%	480, 30
+14	58	103	36	100%, 100%, 100%	470, 30
+15	64	113	38	100%, 100%, 100%	460, 30
+16	66	116	41	100%, 100%, 100%	450, 30
+17	72	126	43	100%, 100%, 100%	440, 30
+18	78	137	46	100%, 100%, 100%	430, 30
+19	84	147	48	100%, 100%, 100%	420, 30
+20	90	157	51	100%, 100%, 100%	410, 30
+21			54	100%, 100%, 100%	400, 30
+22			57	100%, 100%, 100%	390, 30
+23			59	100%, 100%, 100%	380, 30
+24			62	100%, 100%, 100%	370, 30
+25			66	100%, 100%, 100%	360, 30
+26			69	100%, 100%, 100%	350, 30
+27			72	100%, 100%, 100%	340, 30
+28			76	100%, 100%, 100%	330, 30
+29			79	100%, 100%, 100%	320, 30
+30			83	100%, 100%, 100%	310, 30
+31			86	100%, 100%, 100%	305, 30
+32			90	100%, 100%, 100%	300, 30
+33			94	100%, 100%, 100%	295, 30
+34			98	100%, 100%, 100%	290, 30
+35			102	100%, 100%, 100%	285, 30
+36			107	100%, 100%, 100%	280, 30
+37			111	100%, 100%, 100%	275, 30
+38			116	100%, 100%, 100%	270, 30
+39			120	100%, 100%, 100%	265, 30
+40			125	100%, 100%, 100%	260, 30
+Version	Changes
+0.5.2	* Reduced the damage of the Cannon Barrage and both Slam skills used by Malgor, the Nautilord. This also applies to variations of this boss.
+0.5.0	* Oil Barrage : Mana cost has been reduced by 18%. Empowered Oil Barrage now has a Mana cost per second equivalent to the initial Mana cost of Oil Barrage. Oil Barrage now deals 10% more damage at all levels, while Empowered Oil Barrage now deals 10% less damage at all levels. Empowered Oil Barrage now consumes a power charge every 1.5 seconds to continue channelling (previously every 2 seconds). * Fixed a bug where Tactician's Cannons, Ready! Notable Passive Skill would not cause totems to attack when the player uses Molten Blast, Rolling Magma, Oil Barrage, or Power Charged Falling Thunder. Prefix modifiers on Strongboxes that use skills, such as "Casts Chaos Barrages" now additionally have 10-20% more Rarity of Contained Items.
+0.4.0d	* Phantasmal Arrow no longer targets the ground. This fixes various range bugs it had with additional projectiles and Barrage.
+0.4.0b	* Fixed an issue where some channeled skills could not barrage.
+0.4.0	- Lioneye's Glare now has "Barrageable Attacks with this Bow Repeat +2 Times If no Enemies are in your Presence" (previously 1 time). - Kosis's Lighting Barrage skill should no longer hit with 9 projectiles at point blank range.
+0.3.1	* Reduced the damage and the projectile count of the Treant Foulspawn barrage skill.
+0.3.0	- Added a new Dexterity Skill Gem — Ice-Tipped Arrows: Ready your active Bow or Spear, Empowering your next Barrageable Bow or Projectile Spear Attacks to create Ice Fragments on hit. This Skill's cooldown can be bypassed by expending a Frenzy Charge. - Toxic Growth: Pustules now deal 46-100% Attack Damage at Gem levels 5-20 (previously 42% at all Gem levels). Now a rain Skill, and no longer causes you to leap into the air on use. Now has the Barrageable tag. No longer has +0.7 seconds to Total Attack Time, and now has an Attack Speed of 80% of base. - Fixed a bug where some Spells incorrectly had the Barrageable tag. - Toxic Growth: Pustules now deal 46-100% Attack Damage at Gem levels 5-20 (previously 42% at all Gem levels). Now a rain Skill, and no longer causes you to leap into the air on use. Now has the Barrageable tag. No longer has +0.7 seconds to Total Attack Time, and now has an Attack Speed of 80% of base.
+0.2.1	* Added a new gem tag "Barrageable" to indicate Skills that can be made to repeat, to clarify which Skills Barrage and similar effects can and cannot affect.
+0.2.0d	* Additional and barraged projectiles for Whirlwind Lance are now distributed closer together, spread out on and behind the targeted location.
+0.2.0	- Barrage Repeats now deal 50% less Damage at all Gem levels (previously 23-15% at Gem levels 5-20). 560-410% of repeated Skill's attack time is now added to this skill's cooldown, to a maximum of 30 seconds at Gem levels 5-20 (previously 1440-1215%). Quality now causes Repeats to deal +0-5% more Damage (previously +0-15%). - Fixed a bug where Riona, Winter's Cackle wouldn't fire any projectiles when using their Ice Spike Barrage skill.
+0.1.1	* The Volcanic Crag, Lightning Storms, Ice Spikes and Chaos Barrage Strongbox modifiers have all been adjusted to activate after a delay.
+0.1.0e	* Barrage now has 25% Less damage on Barraged Attacks [From 60% Less] at Level 1, same Scaling Per Level. * Barrage now has +2 Repeats base, from +1.

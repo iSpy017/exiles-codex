@@ -1,0 +1,52 @@
+# https://poe2db.tw/us/Conductive_Runes · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Tier	Gems
+1	Magnified Area I Innervate Elemental Armament I
+2	Lightning Penetration Elemental Armament II Living Lightning
+3	Magnified Area II Rearm I Electromagnetism
+4	Inexorable Critical II Lightning Exposure Living Lightning II
+5	Lightning Mastery Rearm II
+Level	Requires Level	Mana	Base Damage	1 to 11 base Lightning Damage
+1	0	15	100%, 100%, 100%, 50%	1, 11
+2	3	17	100%, 100%, 100%, 55%	1, 18
+3	6	19	100%, 100%, 100%, 61%	2, 29
+4	10	21	100%, 100%, 100%, 67%	2, 39
+5	14	24	100%, 100%, 100%, 73%	3, 51
+6	18	26	100%, 100%, 100%, 79%	3, 63
+7	22	29	100%, 100%, 100%, 85%	4, 76
+8	26	32	100%, 100%, 100%, 91%	5, 89
+9	31	35	100%, 100%, 100%, 97%	5, 103
+10	36	38	100%, 100%, 100%, 103%	6, 118
+11	41	42	100%, 100%, 100%, 109%	7, 133
+12	46	45	100%, 100%, 100%, 117%	8, 150
+13	52	49	100%, 100%, 100%, 125%	9, 167
+14	58	53	100%, 100%, 100%, 133%	10, 184
+15	64	57	100%, 100%, 100%, 142%	11, 202
+16	66	61	100%, 100%, 100%, 153%	12, 221
+17	72	66	100%, 100%, 100%, 164%	13, 241
+18	78	71	100%, 100%, 100%, 176%	14, 261
+19	84	76	100%, 100%, 100%, 189%	15, 282
+20	90	81	100%, 100%, 100%, 204%	16, 304
+21		86	100%, 100%, 100%, 220%	17, 326
+22		92	100%, 100%, 100%, 237%	18, 349
+23		98	100%, 100%, 100%, 255%	20, 373
+24		104	100%, 100%, 100%, 275%	21, 397
+25		110	100%, 100%, 100%, 296%	22, 423
+26		117	100%, 100%, 100%, 319%	24, 448
+27		124	100%, 100%, 100%, 344%	25, 475
+28		132	100%, 100%, 100%, 370%	26, 502
+29		140	100%, 100%, 100%, 399%	28, 530
+30		148	100%, 100%, 100%, 430%	29, 558
+31		156	100%, 100%, 100%, 463%	31, 588
+32		165	100%, 100%, 100%, 499%	32, 617
+33		174	100%, 100%, 100%, 537%	34, 648
+34		184	100%, 100%, 100%, 579%	36, 679
+35		194	100%, 100%, 100%, 624%	37, 711
+36		204	100%, 100%, 100%, 672%	39, 744
+37		215	100%, 100%, 100%, 724%	41, 777
+38		227	100%, 100%, 100%, 780%	43, 811
+39		238	100%, 100%, 100%, 840%	45, 846
+40		251	100%, 100%, 100%, 905%	46, 881
+Version	Changes
+0.5.2	* Improved Conductive Runes' description to explicitly state that its damage is not based on your weapon's damage. * Fixed a bug where Conductive Runes would deal no damage if you had certain two handed weapon types equipped. * Fixed a bug where Conductive Runes' damage did not scale with modifiers to hazard damage.
+0.5.1	* Conductive Runes now has a base Critical Strike Chance of 7%.
+0.5.0	* Added 21 Kalguuran Skills that can be crafted from Remnants: Animus Exchange, Animus Splinters, Bitter Dead, Conductive Runes, Detonate Living, Eternal March, Explosive Transmutation, Fragments of the Past, Frostflame Nova, Grim Pillars, Hollow Shell, Leylines, Powered by Verisium, Refutation, Remnants of Kalguur, Repulsion, Runic Reprieve, Skyfall, Triskelion Cascade, Verisium Manifestations, and Voltaic Barrier. * Added 21 Kalguuran Skills that can be crafted from Remnants: Animus Exchange, Animus Splinters, Bitter Dead, Conductive Runes, Detonate Living, Eternal March, Explosive Transmutation, Fragments of the Past, Frostflame Nova, Grim Pillars, Hollow Shell, Leylines, Powered by Verisium, Rain of Blades, Refutation, Remnants of Kalguur, Repulsion, Runic Reprieve, Skyfall, Triskelion Cascade, Verisium Manifestations, Voltaic Barrier, and Wardbound Minions.

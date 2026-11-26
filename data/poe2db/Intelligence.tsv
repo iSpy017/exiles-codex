@@ -1,0 +1,47 @@
+# https://poe2db.tw/us/Intelligence · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Name	Level	Pre/Suf	Description	Weight
+of the Pupil	1	Suffix	+(5 — 8) to Intelligence Attribute	ring 1 amulet 1 helmet 1 int_armour 1 str_int_armour 1 dex_int_armour 1 str_dex_int_armour 1 dagger 1 warstaff 1 flail 1 wand 1 staff 1 sceptre 1 trap 1 talisman 1 default 0
+of the Student	11	Suffix	+(9 — 12) to Intelligence Attribute	ring 1 amulet 1 helmet 1 int_armour 1 str_int_armour 1 dex_int_armour 1 str_dex_int_armour 1 dagger 1 warstaff 1 flail 1 wand 1 staff 1 sceptre 1 trap 1 talisman 1 default 0
+of the Prodigy	22	Suffix	+(13 — 16) to Intelligence Attribute	ring 1 amulet 1 helmet 1 int_armour 1 str_int_armour 1 dex_int_armour 1 str_dex_int_armour 1 dagger 1 warstaff 1 flail 1 wand 1 staff 1 sceptre 1 trap 1 talisman 1 default 0
+of the Augur	33	Suffix	+(17 — 20) to Intelligence Attribute	ring 1 amulet 1 helmet 1 int_armour 1 str_int_armour 1 dex_int_armour 1 str_dex_int_armour 1 dagger 1 warstaff 1 flail 1 wand 1 staff 1 sceptre 1 trap 1 talisman 1 default 0
+of the Philosopher	44	Suffix	+(21 — 24) to Intelligence Attribute	ring 1 amulet 1 helmet 1 int_armour 1 str_int_armour 1 dex_int_armour 1 str_dex_int_armour 1 dagger 1 warstaff 1 flail 1 wand 1 staff 1 sceptre 1 trap 1 talisman 1 default 0
+of the Sage	55	Suffix	+(25 — 27) to Intelligence Attribute	ring 1 amulet 1 helmet 1 int_armour 1 str_int_armour 1 dex_int_armour 1 str_dex_int_armour 1 dagger 1 warstaff 1 flail 1 wand 1 staff 1 sceptre 1 trap 1 talisman 1 default 0
+of the Savant	66	Suffix	+(28 — 30) to Intelligence Attribute	ring 1 amulet 1 helmet 1 int_armour 1 str_int_armour 1 dex_int_armour 1 str_dex_int_armour 1 dagger 1 warstaff 1 flail 1 wand 1 staff 1 sceptre 1 trap 1 talisman 1 default 0
+of the Virtuoso	74	Suffix	+(31 — 33) to Intelligence Attribute	ring 1 amulet 1 helmet 1 int_armour 1 str_int_armour 1 dex_int_armour 1 str_dex_int_armour 1 dagger 1 warstaff 1 flail 1 wand 1 staff 1 sceptre 1 trap 1 talisman 1 default 0
+of the Genius	81	Suffix	+(34 — 36) to Intelligence Attribute	helmet 1 default 0
+| 1	Corrupted	+(10 — 15) to Intelligence Attribute	belt 1 ring 1 amulet 1 default 0
+| 1	Unique	+(35 — 50) to Intelligence Attribute	belt 1 ring 1 amulet 1 default 0
+| 1	Unique	+(14 — 16) to Intelligence Attribute	default 1
+Name	Level	Domain	Pre/Suf	Description	Weight
+Witch's	1	Strongbox	Prefix	Contained non-Unique Armour and Weapons will require Intelligence	strongbox_robot_rare_guard 0 martial_strongbox 0 strongbox_can_roll_attribute_replacements_intelligence 1 default 0
+Shadow's	1	Strongbox	Prefix	Contained non-Unique Armour and Weapons will only require Dexterity or Intelligence	strongbox_robot_rare_guard 0 martial_strongbox 0 strongbox_can_roll_attribute_replacements_dexterity 1 strongbox_can_roll_attribute_replacements_intelligence 1 default 0
+Templar's	1	Strongbox	Prefix	Contained non-Unique Armour and Weapons will only require Strength or Intelligence	strongbox_robot_rare_guard 0 martial_strongbox 0 strongbox_can_roll_attribute_replacements_intelligence 1 strongbox_can_roll_attribute_replacements_strength 1 default 0
+Witch's	1	Strongbox	Prefix	Contained non-Unique Armour and Weapons will require Intelligence	strongbox_robot_rare_guard 0 strongbox_can_roll_attribute_replacements_intelligence_martial 1 default 0
+Shadow's	1	Strongbox	Prefix	Contained non-Unique Armour and Weapons will only require Dexterity or Intelligence	strongbox_robot_rare_guard 0 strongbox_can_roll_attribute_replacements_dexterity_martial 1 strongbox_can_roll_attribute_replacements_intelligence_martial 1 default 0
+Templar's	1	Strongbox	Prefix	Contained non-Unique Armour and Weapons will only require Strength or Intelligence	strongbox_robot_rare_guard 0 strongbox_can_roll_attribute_replacements_intelligence_martial 1 strongbox_can_roll_attribute_replacements_strength_martial 1 default 0
+| 1	Jewel	Unique	Notable Passive Skills in Radius also grant (2 — 3) % increased Intelligence Attribute |
+| 1	Jewel	Corrupted	+(4 — 6) to Intelligence Attribute	default 1
+of Intelligence	1	Jewel	Unique	+(12 — 16) to Intelligence Attribute	not_int 1 default 1
+of Spirit	1	Jewel	Unique	+(8 — 10) to Strength and Intelligence Attribute	not_dex 1 default 1
+of Cunning	1	Jewel	Unique	+(8 — 10) to Dexterity and Intelligence Attribute	not_str 1 default 1
+| 1	Jewel	Unique	Dexterity from Passives in Radius is Transformed to Intelligence local jewel effect base radius [800] Attribute |
+| 1	Jewel	Unique	Dexterity from Passives in Radius is Transformed to Intelligence local jewel effect base radius [1500] Attribute |
+| 1	Jewel	Unique	+(16 — 24) to Intelligence Attribute |
+| 1	Jewel	Unique	Intelligence from Passives in Radius is Transformed to Strength local jewel effect base radius [800] Attribute |
+| 1	Jewel	Unique	Intelligence from Passives in Radius is Transformed to Strength local jewel effect base radius [1500] Attribute |
+| 1	Jewel	Unique	Strength from Passives in Radius is Transformed to Intelligence local jewel effect base radius [800] Attribute |
+| 1	Jewel	Unique	Strength from Passives in Radius is Transformed to Intelligence local jewel effect base radius [1500] Attribute |
+| 1	Jewel	Unique	Intelligence from Passives in Radius is Transformed to Dexterity local jewel effect base radius [800] Attribute |
+| 1	Jewel	Unique	Intelligence from Passives in Radius is Transformed to Dexterity local jewel effect base radius [1500] Attribute |
+| 1	Jewel	Unique	5 % increased Chaos Damage per 10 Intelligence from Allocated Passives in Radius local jewel effect base radius [1200] Chaos |
+| 1	Jewel	Unique	Adds 1 to Maximum Life per 3 Intelligence Allocated in Radius local jewel effect base radius [1500] Life |
+| 1	Jewel	Unique	Dexterity and Intelligence from passives in Radius count towards Strength Melee Damage bonus local jewel effect base radius [1200] Damage Physical Attack |
+| 1	Jewel	Unique	With at least 40 Intelligence in Radius, Summon Skeletons can Summon up to 15 Skeleton Mages local jewel effect base radius [1200] Minion |
+| 1	Jewel	Unique	With at least 40 Intelligence in Radius, Raised Spectres have a 50 % chance to gain Soul Eater for 20 seconds on Kill local jewel effect base radius [1200] Minion |
+| 1	Jewel	Unique	With 40 total Intelligence and Dexterity in Radius, Prismatic Skills deal 50% less Fire Damage With 40 total Intelligence and Dexterity in Radius, Prismatic Skills cannot choose Fire local jewel effect base radius [1200] Damage Elemental Fire Attack |
+| 1	Jewel	Unique	With 40 total Strength and Intelligence in Radius, Prismatic Skills deal 50% less Cold Damage With 40 total Strength and Intelligence in Radius, Prismatic Skills cannot choose Cold local jewel effect base radius [1200] Damage Elemental Cold Attack |
+| 1	Atlas	Prefix	100 % increased Intelligence gained from Immortal Syndicate targets encountered in your Maps 3 uses remaining	unique_map 0 no_monster_packs 0 default 1
+| 1	Atlas	Prefix	100 % increased Intelligence gained from Immortal Syndicate targets encountered in your Maps 15 uses remaining	unique_map 0 no_monster_packs 0 default 1
+of the Abyss	1	Abyss	Suffix	(1 — 2) % increased Intelligence Attribute	strjewel 1 intjewel 1 dexjewel 1 default 0
+of Amanamu	65	Abyss	Suffix	+(9 — 15) to Strength and Intelligence amanamu Attribute	Armour 1 belt 1 ring 1 amulet 1 default 0 amanamu_mod 1
+of Kurgal	65	Abyss	Suffix	+(9 — 15) to Dexterity and Intelligence kurgal Attribute	Armour 1 belt 1 ring 1 amulet 1 default 0 kurgal_mod 1

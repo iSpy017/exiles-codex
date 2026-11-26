@@ -1,0 +1,56 @@
+# https://poe2db.tw/us/Skeletal_Sniper · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Tier	Gems
+1	Rapid Attacks I Corrosion Last Gasp
+2	Deadly Poison I Bidding I Overreach
+3	Feeding Frenzy I Gambleshot
+4	Bidding II Crazed Minions
+5	Fire Mastery Bidding III Persistent Ground III
+Level	Requires Level	Int	Mana	Base Damage	Minion Level
+1	0	4	90	100%, 100%, 100%, 100%	2
+2	3	9	65	100%, 100%, 100%, 100%	4
+3	6	14	50	100%, 100%, 100%, 100%	6
+4	10	21	41	100%, 100%, 100%, 100%	8
+5	14	28	37	100%, 100%, 100%, 100%	10
+6	18	35	37	100%, 100%, 100%, 100%	12
+7	22	41	35	100%, 100%, 100%, 100%	14
+8	26	48	35	100%, 100%, 100%, 100%	16
+9	31	57	35	100%, 100%, 100%, 100%	18
+10	36	65	33	100%, 100%, 100%, 100%	20
+11	41	74	33	100%, 100%, 100%, 100%	22
+12	46	82	33	100%, 100%, 100%, 100%	24
+13	52	92	31	100%, 100%, 100%, 100%	26
+14	58	103	31	100%, 100%, 100%, 100%	28
+15	64	113	31	100%, 100%, 100%, 100%	30
+16	66	116	31	100%, 100%, 100%, 100%	32
+17	72	126	30	100%, 100%, 100%, 100%	34
+18	78	137	30	100%, 100%, 100%, 100%	36
+19	84	147	30	100%, 100%, 100%, 100%	38
+20	90	157	30	100%, 100%, 100%, 100%	40
+21			29	100%, 100%, 100%, 100%	42
+22			29	100%, 100%, 100%, 100%	44
+23			29	100%, 100%, 100%, 100%	46
+24			29	100%, 100%, 100%, 100%	48
+25			29	100%, 100%, 100%, 100%	50
+26			28	100%, 100%, 100%, 100%	52
+27			28	100%, 100%, 100%, 100%	54
+28			28	100%, 100%, 100%, 100%	56
+29			28	100%, 100%, 100%, 100%	58
+30			28	100%, 100%, 100%, 100%	60
+31			27	100%, 100%, 100%, 100%	62
+32			27	100%, 100%, 100%, 100%	64
+33			27	100%, 100%, 100%, 100%	66
+34			27	100%, 100%, 100%, 100%	68
+35			27	100%, 100%, 100%, 100%	70
+36			26	100%, 100%, 100%, 100%	72
+37			26	100%, 100%, 100%, 100%	74
+38			26	100%, 100%, 100%, 100%	76
+39			26	100%, 100%, 100%, 100%	78
+40			26	100%, 100%, 100%, 100%	80
+Version	Changes
+0.3.0	- Skeletal Sniper: Command: Gas Arrow cooldown is now 6 seconds (previously 8). Gas Cloud now deals 80% Attack Damage (previously 70%).Quality now provides Minions deal 0-20% more Damage, instead of 0-10% reduced Reservation.
+0.2.0	- Skeletal Warrior can no longer be engraved in the Gemcutting menu, as it was only provided as a stop-gap until this functionality was implemented. Existing copies of the Skeletal Warrior skill gem have been turned into Skeletal Sniper gems. The Skeletal Warrior skill granted by some sceptres now allows you to summon additional skeletons by reserving spirit, in addition to the two free skeletons it grants automatically. - The Poison Cloud from Skeletal Sniper now gains 20% more Radius per second, up to a maximum of 80% (previously 40%, up to a maximum of 200%).
+Tags	bone_armour , bones , has_bow , medium_movement , physical_affinity , puncturing_weapon , ranged , skeleton , Stab1HMetal_onhit_audio , undead
+Family	MonsterNoDropsOrExperience
+Domains	Monster (3)
+GenerationType	Unique (3)
+Stats	monster no drops or experience 1 — 1 Global — Unscalable Value

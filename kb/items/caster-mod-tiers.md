@@ -1,7 +1,12 @@
-# Caster & ES mod tiers by item level
+---
+title: Caster & ES mod tiers by item level
+status: done
+tracker_topic: "Caster & ES mod tiers by item level"
+tracker_note: "done (0.5.x RePoE; base ES / weapon base damage not captured)"
+---
 
 Version: game data from the RePoE poe2 export (mods.json), pulled 2026-11-23 — 0.5.x. Re-check at 1.0 (200+ new bases, crafting changes).
-Source: [RePoE poe2 mods.json](https://github.com/repoe-fork/poe2), tier 2, retrieved 2026-11-23 (`required_level` = item level needed; values = min–max roll). Single-source (game data). Usage notes → [[02-sources]].
+Source: RePoE poe2 mods.json [S002], tier 2, retrieved 2026-11-23 (`required_level` = item level needed; values = min–max roll). Single-source (game data). Usage notes → [[sources]].
 Companion: +spell-level ladders and boots movement speed → [[builds/levelling-gear]]; how item level is set → [[items/item-level]].
 
 ## % increased Spell Damage (prefix)
@@ -58,9 +63,9 @@ Companion: +spell-level ladders and boots movement speed → [[builds/levelling-
 | 76 | 60–73 (wand) | 90–109 |
 
 ## Energy shield
+@ v=0.5.x vol=may-change conf=single-source date=2026-11-23 fill=src
 - Flat local ES on Int armour pieces: 10–17 (ilvl 1) · 25–30 (16) · 31–35 (25) · 36–41 (33) · 42–47 (46) · 48–60 (54) · 61–73 (60) · 74–80 (65) · 81–90 (70) · 91–96 (79).
 - % increased local ES on Int armour: 15–26 (2) · 27–42 (16) · 43–55 (33) · 56–67 (46) · 68–79 (54) · 80–91 (60) · 92–100 (65); body armour only 101–110 (75).
 - Flat max ES on amulets: 8–14 (1) · 15–20 (11) · 21–24 (16) · 25–33 (25) · 34–41 (33) · 42–51 (46) · 52–61 (54) · 62–70 (65) · 71–79 (70) · 80–89 (80).
-- Notes: item base ES (before mods) is not in this doc → gap (PoE2DB base pages / base_items.json).
-
-- Version: 0.5.x · Volatility: may-change · Confidence: single-source (game data)
+- conf: single-source (game data)
+- notes: item base ES (before mods) is not in this doc → gap (PoE2DB base pages / base_items.json).

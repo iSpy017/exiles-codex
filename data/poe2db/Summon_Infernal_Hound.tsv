@@ -1,0 +1,53 @@
+# https://poe2db.tw/us/Summon_Infernal_Hound · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Tier	Gems
+1	Meat Shield I Last Gasp Elemental Armament I
+2	Elemental Armament II Overreach Loyalty
+3	Feeding Frenzy I Meat Shield II Muster
+4	Feeding Frenzy II Searing Flame II Hulking Minions
+5	Fire Mastery Minion Mastery Elemental Armament III
+Level	Requires Level	Base Damage	Minion Level
+1	0	100%, 100%, 100%	2
+2	3	100%, 100%, 100%	4
+3	6	100%, 100%, 100%	6
+4	10	100%, 100%, 100%	8
+5	14	100%, 100%, 100%	10
+6	18	100%, 100%, 100%	12
+7	22	100%, 100%, 100%	14
+8	26	100%, 100%, 100%	16
+9	31	100%, 100%, 100%	18
+10	36	100%, 100%, 100%	20
+11	41	100%, 100%, 100%	22
+12	46	100%, 100%, 100%	24
+13	52	100%, 100%, 100%	26
+14	58	100%, 100%, 100%	28
+15	64	100%, 100%, 100%	30
+16	66	100%, 100%, 100%	32
+17	72	100%, 100%, 100%	34
+18	78	100%, 100%, 100%	36
+19	84	100%, 100%, 100%	38
+20	90	100%, 100%, 100%	40
+21		100%, 100%, 100%	42
+22		100%, 100%, 100%	44
+23		100%, 100%, 100%	46
+24		100%, 100%, 100%	48
+25		100%, 100%, 100%	50
+26		100%, 100%, 100%	52
+27		100%, 100%, 100%	54
+28		100%, 100%, 100%	56
+29		100%, 100%, 100%	58
+30		100%, 100%, 100%	60
+31		100%, 100%, 100%	62
+32		100%, 100%, 100%	64
+33		100%, 100%, 100%	66
+34		100%, 100%, 100%	68
+35		100%, 100%, 100%	70
+36		100%, 100%, 100%	72
+37		100%, 100%, 100%	74
+38		100%, 100%, 100%	76
+39		100%, 100%, 100%	78
+40		100%, 100%, 100%	80
+Tags	beast , demon , medium_movement , not_int , red_blood , Unarmed_onhit_audio
+Family	MonsterNoDropsOrExperience
+Domains	Monster (3)
+GenerationType	Unique (3)
+Stats	monster no drops or experience 1 — 1 Global — Unscalable Value

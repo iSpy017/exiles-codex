@@ -1,0 +1,19 @@
+# https://poe2db.tw/us/Crux_of_Nothingness · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Name	Show Full Descriptions
+Act	10
+Level	80
+Boss	The King in the Mists The King in the Mists
+Tags	map
+Mods	Players cannot gain or lose experience map contains powerful map boss [0]
+Topologies	arena graph
+Level	Name	Experience	Damage	Attack Time	Life	Armour	Evasion	Energy Shield			 |
+80	The King in the Mists	2,550,000	400	1.47	3,378,319	5,764		11,649	0	0	0	0
+80	The King in the Mists	2,550,000	400	1.47	3,378,319	7,925		11,649	0	0	0	0
+80	Cultist Witch	1,700,000	425	1.47	1,801,770	4,803		12,426	0	0	0	0
+80	Mystic Fetish	100,000	334	1.5	15,533	4,803		5,126	0	0	0	20
+80	Cultist Archer	130,000	434	1.5	40,385	4,803			0	0	0	0
+80	Cultist Daggerdancer	100,000	334	1.5	31,065	4,803			0	0	0	0
+80	Cultist Warrior	110,000	367	1.5	34,172	4,803			0	0	0	0
+80	Cultist Warrior	105,000	350	1.5	32,618	4,803			0	0	0	0
+80	Cultist Warrior	100,000	334	1.5	34,172	6,484			0	0	0	0
+80	Cultist Brute	150,000	501	1.5	46,598	6,004			0	0	0	0

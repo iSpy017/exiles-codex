@@ -1,0 +1,52 @@
+# https://poe2db.tw/us/Spiral_Volley · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Tier	Gems
+1	Brutality I Perpetual Charge Hourglass
+2	Chain II Brutality II Ricochet I
+3	Alignment I Gambleshot Stoicism I
+4	Alignment II Hit and Run Impale
+5	Brutality III Heft
+Level	Requires Level	Dex	Mana	Base Damage
+1	0	4	6	66%, 66%, 66%
+2	3	9	7	73%, 73%, 73%
+3	6	14	8	80%, 80%, 80%
+4	10	21	10	87%, 87%, 87%
+5	14	28	11	94%, 94%, 94%
+6	18	35	13	101%, 101%, 101%
+7	22	41	15	108%, 108%, 108%
+8	26	48	17	115%, 115%, 115%
+9	31	57	19	120%, 120%, 120%
+10	36	65	22	126%, 126%, 126%
+11	41	74	24	133%, 133%, 133%
+12	46	82	27	139%, 139%, 139%
+13	52	92	31	146%, 146%, 146%
+14	58	103	34	154%, 154%, 154%
+15	64	113	38	161%, 161%, 161%
+16	66	116	42	169%, 169%, 169%
+17	72	126	47	178%, 178%, 178%
+18	78	137	52	187%, 187%, 187%
+19	84	147	58	196%, 196%, 196%
+20	90	157	64	206%, 206%, 206%
+21			71	216%, 216%, 216%
+22			78	227%, 227%, 227%
+23			86	238%, 238%, 238%
+24			94	250%, 250%, 250%
+25			103	263%, 263%, 263%
+26			114	276%, 276%, 276%
+27			125	290%, 290%, 290%
+28			136	304%, 304%, 304%
+29			149	319%, 319%, 319%
+30			163	335%, 335%, 335%
+31			179	352%, 352%, 352%
+32			195	370%, 370%, 370%
+33			213	388%, 388%, 388%
+34			233	408%, 408%, 408%
+35			254	428%, 428%, 428%
+36			276	449%, 449%, 449%
+37			301	472%, 472%, 472%
+38			328	495%, 495%, 495%
+39			357	520%, 520%, 520%
+40			388	546%, 546%, 546%
+Version	Changes
+0.4.0	- Spiral Volley: Now deals 146-206% of Attack Damage (previously 133-187%) at Gem levels 13-20.
+0.2.0f	* Adjusted the frequency and damage of the ice shard spiral volley from Shrines.
+0.2.0	- Spiral Volley now has 30% more Damage per Frenzy Charge Consumed (previously 20%). - Spiral Volley now fires directly forward with the first arrow instead of the final arrow.

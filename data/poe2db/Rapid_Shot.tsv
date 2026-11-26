@@ -1,0 +1,56 @@
+# https://poe2db.tw/us/Rapid_Shot · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Tier	Gems
+1	Fire Attunement Rapid Attacks I Multishot I
+2	Multishot II Elemental Armament II Fresh Clip I
+3	Immolate Mobility Gambleshot
+4	Eternal Flame III Nimble Reload Fresh Clip II
+5	Pierce III Stoicism II
+Level	Requires Level	Str	Dex	Mana	Base Damage	Maximum 26 Heat
+1	0	4	4	27	100%, 100%, 100%, 26%	26, 1
+2	3	7	7	31	100%, 100%, 100%, 29%	27, 1
+3	6	9	9	36	100%, 100%, 100%, 31%	28, 1
+4	10	13	13	41	100%, 100%, 100%, 34%	29, 1
+5	14	17	17	46	100%, 100%, 100%, 37%	30, 1
+6	18	20	20	52	100%, 100%, 100%, 40%	31, 1
+7	22	24	24	58	100%, 100%, 100%, 43%	32, 1
+8	26	28	28	65	100%, 100%, 100%, 46%	33, 1
+9	31	32	32	72	100%, 100%, 100%, 49%	34, 1
+10	36	37	37	79	100%, 100%, 100%, 51%	35, 1
+11	41	41	41	87	100%, 100%, 100%, 54%	36, 1
+12	46	46	46	95	100%, 100%, 100%, 58%	37, 1
+13	52	51	51	104	100%, 100%, 100%, 61%	38, 1
+14	58	57	57	114	100%, 100%, 100%, 65%	39, 1
+15	64	62	62	124	100%, 100%, 100%, 69%	40, 1
+16	66	64	64	135	100%, 100%, 100%, 73%	41, 1
+17	72	70	70	147	100%, 100%, 100%, 78%	42, 1
+18	78	75	75	159	100%, 100%, 100%, 83%	43, 1
+19	84	80	80	172	100%, 100%, 100%, 88%	44, 1
+20	90	86	86	186	100%, 100%, 100%, 94%	45, 1
+21				201	100%, 100%, 100%, 100%	46, 1
+22				216	100%, 100%, 100%, 107%	47, 1
+23				233	100%, 100%, 100%, 114%	48, 1
+24				251	100%, 100%, 100%, 122%	49, 1
+25				269	100%, 100%, 100%, 130%	50, 1
+26				289	100%, 100%, 100%, 139%	51, 1
+27				310	100%, 100%, 100%, 148%	52, 1
+28				332	100%, 100%, 100%, 158%	53, 1
+29				356	100%, 100%, 100%, 168%	54, 1
+30				381	100%, 100%, 100%, 179%	55, 1
+31				407	100%, 100%, 100%, 191%	56, 1
+32				435	100%, 100%, 100%, 204%	57, 1
+33				465	100%, 100%, 100%, 218%	58, 1
+34				496	100%, 100%, 100%, 232%	59, 1
+35				530	100%, 100%, 100%, 248%	60, 1
+36				565	100%, 100%, 100%, 264%	61, 1
+37				602	100%, 100%, 100%, 282%	62, 1
+38				641	100%, 100%, 100%, 301%	63, 1
+39				682	100%, 100%, 100%, 321%	64, 1
+40				726	100%, 100%, 100%, 342%	65, 1
+Version	Changes
+0.5.1	* Fixed a bug with Mirage Archer targeting when using channelled Bow skills such as Snipe, Detonating Arrow, and Rapid Shot.
+0.5.0	* Fixed an issue that prevented Mirage Archer and Mirage Deadeye from properly rotating to follow their target while using Rapid Shot and similar Skills.
+0.3.0	- Rapid Shot: No longer has a delay before firing bolts, or 50% less reload speed. It now has 100 Maximum Ammunition at all Gem levels (previously 50-87) and 30-45 Maximum Heat at Gem levels 5-20 (previously 17-24). It now deals 37-94% of Attack Damage at Gem levels 5-20 (previously 21-47%). Quality now grants +0-15 Maximum Heat (previously +0-5). Heat no longer grants Rapid Shot Damage gained as Fire. Instead, reaching Maximum Heat prevents you from using the skill for 10 seconds. It now generates Heat once per attack instead of once per 0.25 seconds. Heat now begins decaying after 4 seconds without gaining Heat, at a rate of 10 Heat per second. Heat no longer grants grenade skills damage gained as fire. Instead, Explosive Grenade and Cluster Grenade consume 15 Heat to gain 50% of damage as fire damage, while Incendiary Shot consumes 30 Heat to gain 50% more ignite magnitude.
+Name	Damage%	Life%	Spectre
+Decrepit Mercenary	120	120 |
+Decrepit Mercenary	144	120 |
+Ulfred, the Afflicted	175	150 |

@@ -1,0 +1,103 @@
+# https://poe2db.tw/us/Regeneration · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Name	Level	Pre/Suf	Description	Weight
+of the Newt	1	Suffix	(1 — 2) Life Regeneration per second Life	body_armour 1 helmet 1 boots 1 belt 1 amulet 1 ring 1 default 0
+of the Lizard	5	Suffix	(2.1 — 3) Life Regeneration per second Life	body_armour 1 helmet 1 boots 1 belt 1 amulet 1 ring 1 default 0
+of the Flatworm	11	Suffix	(3.1 — 4) Life Regeneration per second Life	body_armour 1 helmet 1 boots 1 belt 1 amulet 1 ring 1 default 0
+of the Starfish	17	Suffix	(4.1 — 6) Life Regeneration per second Life	body_armour 1 helmet 1 boots 1 belt 1 amulet 1 ring 1 default 0
+of the Hydra	26	Suffix	(6.1 — 9) Life Regeneration per second Life	body_armour 1 helmet 1 boots 1 belt 1 amulet 1 ring 1 default 0
+of the Troll	35	Suffix	(9.1 — 13) Life Regeneration per second Life	body_armour 1 helmet 1 boots 1 belt 1 amulet 1 ring 1 default 0
+of Convalescence	47	Suffix	(13.1 — 18) Life Regeneration per second Life	body_armour 1 helmet 1 boots 1 belt 1 amulet 1 ring 1 default 0
+of Recuperation	58	Suffix	(18.1 — 23) Life Regeneration per second Life	body_armour 1 helmet 1 boots 1 belt 1 amulet 1 default 0
+of Resurgence	68	Suffix	(23.1 — 29) Life Regeneration per second Life	body_armour 1 belt 1 amulet 1 default 0
+of Immortality	75	Suffix	(29.1 — 33) Life Regeneration per second Life	body_armour 1 amulet 1 default 0
+of the Phoenix	81	Suffix	(33.1 — 36) Life Regeneration per second Life	body_armour 1 default 0
+of the Newt	1	Suffix	Allies in your Presence Regenerate (1 — 2) Life per second Life	sceptre 1 default 0
+of the Lizard	5	Suffix	Allies in your Presence Regenerate (2.1 — 3) Life per second Life	sceptre 1 default 0
+of the Flatworm	11	Suffix	Allies in your Presence Regenerate (3.1 — 4) Life per second Life	sceptre 1 default 0
+of the Starfish	17	Suffix	Allies in your Presence Regenerate (4.1 — 6) Life per second Life	sceptre 1 default 0
+of the Hydra	26	Suffix	Allies in your Presence Regenerate (6.1 — 9) Life per second Life	sceptre 1 default 0
+of the Troll	35	Suffix	Allies in your Presence Regenerate (9.1 — 13) Life per second Life	sceptre 1 default 0
+of Convalescence	47	Suffix	Allies in your Presence Regenerate (13.1 — 18) Life per second Life	sceptre 1 default 0
+of Recuperation	58	Suffix	Allies in your Presence Regenerate (18.1 — 23) Life per second Life	sceptre 1 default 0
+of Resurgence	68	Suffix	Allies in your Presence Regenerate (23.1 — 29) Life per second Life	sceptre 1 default 0
+of Immortality	75	Suffix	Allies in your Presence Regenerate (29.1 — 33) Life per second Life	sceptre 1 default 0
+of Excitement	1	Suffix	(10 — 19) % increased Mana Regeneration Rate Mana	ring 1 amulet 1 focus 1 sceptre 1 wand 1 trap 1 genesis_tree_caster 1 default 0
+of Joy	18	Suffix	(20 — 29) % increased Mana Regeneration Rate Mana	ring 1 amulet 1 focus 1 sceptre 1 wand 1 trap 1 genesis_tree_caster 1 default 0
+of Elation	29	Suffix	(30 — 39) % increased Mana Regeneration Rate Mana	ring 1 amulet 1 focus 1 sceptre 1 wand 1 trap 1 genesis_tree_caster 1 default 0
+of Bliss	42	Suffix	(40 — 49) % increased Mana Regeneration Rate Mana	ring 1 amulet 1 focus 1 sceptre 1 wand 1 trap 1 genesis_tree_caster 1 default 0
+of Euphoria	55	Suffix	(50 — 59) % increased Mana Regeneration Rate Mana	ring 1 amulet 1 focus 1 sceptre 1 wand 1 trap 1 genesis_tree_caster 1 default 0
+of Nirvana	79	Suffix	(60 — 69) % increased Mana Regeneration Rate Mana	ring 1 amulet 1 focus 1 sceptre 1 wand 1 trap 1 genesis_tree_caster 1 default 0
+of Excitement	1	Suffix	(15 — 29) % increased Mana Regeneration Rate Mana	staff 1 default 0
+of Joy	18	Suffix	(30 — 44) % increased Mana Regeneration Rate Mana	staff 1 default 0
+of Elation	29	Suffix	(45 — 59) % increased Mana Regeneration Rate Mana	staff 1 default 0
+of Bliss	42	Suffix	(60 — 74) % increased Mana Regeneration Rate Mana	staff 1 default 0
+of Euphoria	55	Suffix	(75 — 89) % increased Mana Regeneration Rate Mana	staff 1 default 0
+of Nirvana	79	Suffix	(90 — 104) % increased Mana Regeneration Rate Mana	staff 1 default 0
+of Warmth	8	Suffix	(8 — 12) % increased Mana Regeneration Rate 5 % increased Light Radius Mana	wand 1 staff 1 sceptre 1 ring 1 default 0
+of Kindling	15	Suffix	(13 — 17) % increased Mana Regeneration Rate 10 % increased Light Radius Mana	wand 1 staff 1 sceptre 1 ring 1 default 0
+of the Hearth	30	Suffix	(18 — 22) % increased Mana Regeneration Rate 15 % increased Light Radius Mana	wand 1 staff 1 sceptre 1 ring 1 default 0
+| 1	Corrupted	(15 — 25) % increased Life Regeneration rate Life	helmet 1 ring 1 default 0
+| 1	Corrupted	(20 — 30) % increased Mana Regeneration Rate Mana	helmet 1 ring 1 default 0
+| 1	Unique	(35 — 50) % increased Life Regeneration rate Life	helmet 1 ring 1 default 0
+| 1	Unique	(35 — 50) % increased Mana Regeneration Rate Mana	helmet 1 ring 1 default 0
+Name	Level	Pre/Suf	Description	Weight
+of the Hydra	65	Suffix	Regenerate 2 % of maximum Life per second Life	boss 0 default 1
+Sanguine	8	Unique	Regenerate 0.67 % of maximum Life per second Life	default 1
+| 1	Unique	Regenerate 1.33 % of maximum Life per second Life |
+| 1	Unique	Regenerate 10 % of maximum Life per second Life |
+| 1	Unique	Regenerate 2 % of maximum Life per second Life |
+| 1	Unique	Regenerate 1 % of maximum Life per second while on Low Life Life |
+| 1	Unique	Regenerate 1.3 % of maximum Life per second while on Low Life Life |
+| 1	Unique	Regenerate 1.7 % of maximum Energy Shield per second monsters only old bad add % of total maximum life to base maximum energy shield [100] Energy Shield |
+| 1	Unique	You cannot Recharge or Regenerate Energy Shield no movement speed [1] |
+| 1	Unique	Regenerate 5.33 % of maximum Life per second |
+| 1	Unique	Life Regeneration is applied to Energy Shield instead Life Energy Shield |
+| 1	Unique	Regenerate 1 % of maximum Life per second Life |
+| 1	Unique	Regenerate 4 % of maximum Life per second stance movement speed +% final [-300] Life Speed |
+| 1	Unique	Regenerate 5.6 % of maximum Mana per second Mana |
+| 1	Unique	base life regeneration per minute % while in lava [180] lava buff effect on self +% [-100] Life |
+| 1	Unique	100 % increased maximum Life Regenerate 2 % of maximum Life per second 50 % reduced Visibility to Enemies Life |
+| 1	Unique	50 % increased maximum Life Regenerate 1 % of maximum Life per second 50 % reduced Visibility to Enemies Life |
+Name	Level	Pre/Suf	Description	Weight
+of Stasis	1	Unique	Players cannot Regenerate Life, Mana or Energy Shield 9 % increased Rarity of Items found 6 % increased Pack Size map item drop quantity +% [16] Life Mana Energy Shield	mid_tier_map 1 top_tier_map 1 expedition_logbook 0 primordial_map 0 default 0
+of Stasis	1	Unique	Players cannot Regenerate Life, Mana or Energy Shield 9 % increased Rarity of Items found 6 % increased Pack Size map item drop quantity +% [16] Life Mana Energy Shield	mid_tier_map 0 top_tier_map 0 expedition_logbook 1 default 0
+Name	Level	Pre/Suf	Description	Weight
+of Stasis	73	Suffix	Players cannot Regenerate Life, Mana or Energy Shield heist contract alert level +% final [-6] heist contract lockdown timer +% [6] heist monster spawner alive limit +% [6] map item drop quantity +% [16] map item drop rarity +% [9] Life Mana Energy Shield	default 1
+Name	Level	Pre/Suf	Description	Weight
+of the Newt	1	Suffix	Players and their Minions Regenerate (0.8 — 1.1) % of maximum Life per second Life	heist_equipment_melee 1 default 0
+of the Lizard	45	Suffix	Players and their Minions Regenerate (1.2 — 1.4) % of maximum Life per second Life	heist_equipment_melee 1 default 0
+of the Flatworm	75	Suffix	Players and their Minions Regenerate (1.5 — 1.7) % of maximum Life per second Life	heist_equipment_melee 1 default 0
+of the Starfish	82	Suffix	Players and their Minions Regenerate (1.8 — 2) % of maximum Life per second Life	heist_equipment_melee 1 default 0
+of Excitement	1	Suffix	Players and their Minions have (21 — 25) % increased Mana Regeneration Rate Mana	heist_equipment_caster 1 default 0
+of Joy	45	Suffix	Players and their Minions have (26 — 30) % increased Mana Regeneration Rate Mana	heist_equipment_caster 1 default 0
+of Elation	75	Suffix	Players and their Minions have (31 — 35) % increased Mana Regeneration Rate Mana	heist_equipment_caster 1 default 0
+of Bliss	82	Suffix	Players and their Minions have (36 — 40) % increased Mana Regeneration Rate Mana	heist_equipment_caster 1 default 0
+Name	Level	Domain	Pre/Suf	Description	Weight
+| 1	Strongbox	Suffix	strongbox construct has monsterliferegenerationratepercentage1 [1]	strongbox_robot_rare_guard 1 default 0
+of Regeneration	1	Jewel	Suffix	(5 — 10) % increased Life Regeneration rate Life	strjewel 1 default 0
+of Energy	1	Jewel	Suffix	(5 — 15) % increased Mana Regeneration Rate Mana	intjewel 1 default 0
+of Regeneration	1	Jewel	Suffix	Notable Passive Skills in Radius also grant (3 — 5) % increased Life Regeneration rate Life	str_radius_jewel 1 default 0
+of Energy	1	Jewel	Suffix	Small Passive Skills in Radius also grant (1 — 2) % increased Mana Regeneration Rate Mana	int_radius_jewel 1 default 0
+| 1	Jewel	Unique	Regenerate 2 % of maximum Life per second Life |
+Energetic	1	Jewel	Unique	(12 — 15) % increased Mana Regeneration Rate Mana	not_int 1 default 1
+| 1	Jewel	Unique	Summoned Golems Regenerate 2 % of their maximum Life per second Life Minion |
+| 1	MapDevice	Unique	10 % more Monster Life % increased Monster Damage 10 % improved Rewards Monsters gain +20 % chance to Avoid being Stunned each time they are Revived Monsters gain 10 % increased Maximum Life each time they are Revived Monsters Regenerate 1 % of maximum Life per second for each time they have been Revived map fragment level + [2] Life Damage |
+| 1	Abyss	Unique	Conquered Small Passive Skills also grant (2 — 3) % increased Mana Regeneration rate Mana	historic_abyss_jewel_2 1 default 0
+| 1	Abyss	Unique	Conquered Small Passive Skills also grant (2 — 3) % increased Life Regeneration rate Life	historic_abyss_jewel_2 1 default 0
+| 1	Abyss	Unique	Minions Regenerate (1 — 3) % of maximum Life per second Life Minion	heart_unique_jewel_prefix 1 default 0
+| 1	Abyss	Unique	(20 — 30) % increased Mana Regeneration Rate while moving Mana	heart_unique_jewel_prefix 1 default 0
+| 1	Abyss	Unique	Regenerate (1 — 1.5) % of maximum Life per Second if you've used a Life Flask in the past 10 seconds Life	heart_unique_jewel_prefix 1 default 0
+| 1	Abyss	Unique	(6 — 12) % increased Life Regeneration rate Life	heart_unique_jewel_suffix 1 default 0
+| 1	Abyss	Unique	(4 — 8) % increased Mana Regeneration Rate Mana	heart_unique_jewel_suffix 1 default 0
+Lightless	1	Abyss	Suffix	Notable Passive Skills in Radius also grant Regenerate (0.03 — 0.07) % of maximum Life per second Life	int_radius_jewel 1 str_radius_jewel 1 dex_radius_jewel 1 default 0
+of Kurgal	65	Abyss	Suffix	(40 — 50) % increased Mana Regeneration Rate while stationary kurgal Mana	boots 1 default 0 kurgal_mod 1
+Ulaman's	65	Abyss	Prefix	(20 — 30) % increased Life Regeneration rate during Effect of any Life Flask ulaman	belt 1 default 0 ulaman_mod 1
+of Kurgal	65	Abyss	Suffix	(30 — 40) % increased Mana Regeneration Rate kurgal Mana	belt 1 default 0 kurgal_mod 1
+| 1	Abyss	Suffix	(68 — 91) % increased Mana Regeneration Rate Mana	watcher_abyss_suffix 1 default 0
+| 1	Abyss	Suffix	Allies in your Presence Regenerate (29.1 — 33) Life per second Life Aura	watcher_abyss_suffix 1 default 0
+of Ulaman	65	Abyss	Suffix	(40 — 50) % increased Life Regeneration Rate while moving ulaman Life	boots 1 default 0 ulaman_mod 1
+| 1	ExpeditionRelic	Prefix	Every 4 seconds, Runic Monsters Regenerate 15 % of maximum Life over one second	expedition_atoll_remnant_logbook 1 expedition_tundra_remnant_logbook 1 default 0
+| 0	IncursionLimb	Unique	(20 — 30) % increased Mana Regeneration Rate while moving Mana |
+Faction	Category	Show Full Descriptions	Code
+Vaal	Notable	(12 — 17) % increased Mana Regeneration Rate	vaal_small_mana_regeneration
+Karui	Notable	Regenerate 1 % of maximum Life per second	karui_notable_add_life_regen

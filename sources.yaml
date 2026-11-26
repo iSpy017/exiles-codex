@@ -1,0 +1,298 @@
+# Source registry. Entries cite [Sxxx]; PoE2DB pages are cited as poe2db:<Page> (crawl date: see S-poe2db).
+poe2db_crawl: 2026-11-23
+tiers: {1: official, 2: data refs, 3: guide sites, 4: economy data, 5: community leads}
+notes: |
+  # Source Registry
+  Tier 1 = official · 2 = data refs · 3 = guide sites · 4 = economy data · 5 = community (leads only)
+  "Reachable" = whether Claude can read it (tested 2026-11-17; updated 2026-11-25).
+  | Source | URL | Tier | Use | Reachable | Last checked |
+  |---|---|---|---|---|---|
+  | GGG 1.0 patch notes | (not published yet) | 1 | the 1.0 refresh | Not out as of 2026-11-25 web search (cheatcc 1.0 page also says not yet published); expected ~1 week before 11 Dec (Exiled Bench citing Maxroll, tier 5) | 2026-11-25 |
+  | **Dev interview transcripts (ExileCon 2026 "Behind the Scenes Interview with Jonathan & Mark About 1.0"; Thailand interview)** | David-supplied YouTube transcripts (project attachments) | 1 (staff statements) via ASR | 1.0 design statements: Conquerors, crit-on-tree removal, balance, crafting. Auto-generated transcript, imperfect — names/numbers garbled in places, flagged [INFERRED]. Re-check against the 1.0 patch notes. | YES (attached by David) | 2026-11-17 |
+  | David's own price pulls | claude/data/*.csv, claude/reveal-notes-and-price-findings.md, claude/flipping-strategy.md | 4 | dated poe.ninja data (Runes of Aldur / Forbidden Rites, 2026-11-10 & 11-17) | YES (project docs) | 2026-11-17 |
+  | Creator YouTube transcripts (5): Sekhemas Mirrors currency farm; "Why Rarity is Not Essential for Farming"; "Evaluating Loot and Item Tiers in PoE 2"; "How to Learn and Copy PoE2 Builds"; "PoE2 New Player Atlas Strategy Guide"; plus "ExileCon Highlights and Path of Exile 2 Impressions" | David-supplied (project attachments) | 5 | leads / creator opinion only; prices undated; ASR errors. Used in strategy/sekhemas-currency-farm, rarity-value, atlas-starter-strategy, build-copy-method, items/loot-pickup-heuristics | YES (attached by David) | 2026-11-17 |
+  | Reddit r/PathOfExile2 etc. | — | 5 | leads only, verify vs 1–3 | not tested | not yet |
+  ## Using the RePoE export
+  - Clone (fast, English files only): `git clone --depth 1 --filter=blob:none --no-checkout https://github.com/repoe-fork/poe2`, then sparse-checkout the needed `data/*.json` files. ~30 MB for keywords, mods, base_items, skill_gems, uniques, ascendancies, characters, world_areas, augments.
+  - It is a working copy in Claude's session workspace only — re-clone each session; never paste raw JSON into project docs (paraphrase + cite).
+  - Caveats: contains legacy/unused PoE1-era entries (e.g. characters.json lists 12 classes incl. Marauder, Duelist, Shadow, Templar; ascendancies.json has 37 ids incl. placeholders; PoE1 currency like Chromatic/Fusing/sextants; Omen of Recombination after the Recombinator's removal). Also "[DNT]" placeholder bases. Cross-check lists against poe2db/poe2wiki before treating an entry as live in-game.
+  - base_items.json `drop_level` = earliest item level a base drops at; mods.json `required_level` = item level needed to roll the mod. Charm entries also carry charges_max, charges_per_use and duration (tenths of a second).
+  - uniques.json is from game files; drop restrictions are not in game data (Path of Building's hand-maintained unique list exists at github.com/repoe-fork/pob-data).
+  - Licence: RePoE code repo LICENSE.md; game data © Grinding Gear Games.
+  ## Licences
+  - poe2db.tw and poe2wiki.net: content under CC BY-NC-SA 3.0 (https://creativecommons.org/licenses/by-nc-sa/3.0/) unless otherwise noted. Personal, non-commercial library with a link back on every entry satisfies attribution; any doc that reuses their content stays under the same licence if shared. Project rule to paraphrase still applies.
+  ## Blocked (RMT / seller marketing — never cite)
+  u4gm, mmoexp, aoeah, iggm, and similar currency-seller sites. Treat timesaver.gg, boostmatch.gg, skycoach, xboosty, lfcarry, instant-carry, accountshark and similar boosting/currency/account-selling blogs as tier 5 leads only.
+  ## Untrustworthy — do not cite
+  - `*.pages.dev` "Path of Exile 2 Wiki" sites (e.g. guide-path-of-exile-2-wiki.pages.dev, poe2guides.pages.dev, earlyguides.pages.dev) and similar SEO content farms. They impersonate a wiki and contradict each other on basic numbers (unique counts, ascendancy counts). Treat as AI-generated filler.
+  - Generic aggregator blogs (deltiasgaming, keengamer, mithrie, lootlore web.app, geekyinc, everythingedinburgh, guides-factory, etc.): tier 5 at best.
+  - Tier-5 AI research dumps (e.g. glama.ai MCP "POE2 research" markdown — its ailment formulas are PoE1-derived): leads only.
+  ## Per-guide pages
+  | Guide | URL | Tier | Version / updated | Used in |
+  |---|---|---|---|---|
+sources:
+  - {id: S001, title: "1.0 reveal summaries: Exiled Bench, accountshark, koni_pu3 (note.com)", url: "https://accountshark.net/blog/path-of-exile-2-1-0-full-release-december-11-shadow-duelist-conquerors-of-wraeclast-exilecon-2026", tier: "5", last_checked: "2026-11-23", use: "corroboration of tier-1 reveal counts; patch-notes timing lead. accountshark sells accounts → leads only", reachable: "yes (search snippets)"}
+  - {id: S002, title: "RePoE PoE2 export (game-data JSON)", url: "https://github.com/repoe-fork/poe2", tier: "2", last_checked: "2026-11-17", use: "raw game data: keywords (in-game definitions), mods, base items, skill gems, uniques, ascendancies, classes, world areas, augments, passive trees, stat translations", reachable: "YES — bulk download via git (GitHub allowed in workspace). Snapshot 2026-11-17 = game version 0.5.5.9 (version.txt). Updated automatically each game patch."}
+  - {id: S003, title: "kami-labs.fr patch-note summaries + tier-list summaries", url: "https://kami-labs.fr/en/path-of-exile-2/", tier: "5", last_checked: "2026-11-17", use: "lead only — patch dates; summary of Fubgun's 0.5.5 tier list; always verify", reachable: "yes"}
+  - {id: S004, title: "Maxroll PoE2", url: "https://maxroll.gg/poe2", tier: "3", last_checked: "2026-11-23", use: "builds, strategy, levelling, patch previews", reachable: "PARTLY — some guide pages fetched earlier on 2026-11-17; news and tier-list pages now refuse fetches (robots). Claims about Maxroll seen only on third-party sites or search snippets are unverified. \"Everything New In PoE2 1.0\" and \"ExileCon 2026 Recap\" seen as snippets 2026-11-23 (used in strategy/official-1.0-reveal, flagged)."}
+  - {id: S005, title: "Mobalytics PoE2", url: "https://mobalytics.gg/poe-2", tier: "3", last_checked: "2026-11-25", use: "builds, strategy, mechanics hub, patch-notes hubs", reachable: "YES — mechanics guides have mixed update dates (some 2024-12, Regeneration 2025-09-17, Mana 2026-11-13); check each page's date"}
+  - {id: S006, title: "1.0 reveal summaries: Exiled Bench, accountshark, koni_pu3 (note.com)", url: "https://note.com/koni_pu3/n/n23ea171383fd", tier: "5", last_checked: "2026-11-23", use: "corroboration of tier-1 reveal counts; patch-notes timing lead. accountshark sells accounts → leads only", reachable: "yes (search snippets)"}
+  - {id: S007, title: "PoE2 Full release page", url: "https://pathofexile2.com/fullrelease", tier: "1", last_checked: "2026-11-23", use: "1.0 feature reveal: A5–6 counts, Shadow/Duelist mechanics, Conquerors systems, Reforging, commanders, faction war, uniques/supports/tree", reachable: "YES via built-in browser only (read in full 2026-11-23)"}
+  - {id: S008, title: "poe.ninja PoE2", url: "https://poe.ninja/poe2", tier: "4", last_checked: "2026-11-17", use: "prices (exchange overview for currency-type items, trade listings for uniques), builds", reachable: "NO — economy pages render client-side (fetch returns no tables); shell proxy refuses the host. API docs page (https://poe.ninja/docs/api) IS readable. Get prices via David's paste/screenshot. [INFERRED] built-in browser may work like the official site — untested."}
+  - {id: S009, title: "PoE2DB", url: "https://poe2db.tw/us/", tier: "2", last_checked: "2026-11-25", use: "game-data numbers, mods, tiers, gems, atlas, quests; formatted pages", reachable: "YES via web fetch, one page at a time (pages truncate at 100k chars — use offset for the rest; Quest page is 160k chars, read in two parts 2026-11-23; Minions 387k, Mana 330k, Life 460k chars). NO bulk download from the workspace (proxy 403). Local crawl corpus exists ([[tools/poe2db-corpus]]) but needs David's folder grant each session — refused 2026-11-25. Has a 1.0 section."}
+  - {id: S010, title: "poe2scout", url: "https://poe2scout.com", tier: "4", last_checked: "2026-11-17", use: "unique + currency price history (Exalt-relative)", reachable: "NO — client-rendered page; shell proxy refuses the host"}
+  - {id: S011, title: "Vulkk", url: "https://vulkk.com", tier: "3", last_checked: "2026-11-17", use: "patch overviews (0.2.0g, 0.5.0)", reachable: "yes (search)"}
+  - {id: S012, title: "GGG Currency Exchange API (live data)", url: "https://web.poecdn.com/api/currency-exchange/poe2/<hour-timestamp", tier: "1", last_checked: "2026-11-17", use: "hourly historical digests per currency pair, all leagues: volume_traded, lowest/highest stock & ratio. No id = first hour of history (empty).", reachable: "YES via web fetch only (shell proxy refuses host). ~1.7 MB per hour; fetch truncates at 100k chars → spot checks of named pairs only. Item ids map via RePoE base_items (CurrencyModValues = Divine, CurrencyRerollRare = Chaos, CurrencyAddModToRare = Exalted, suffix 2/3 = Greater/Perfect)."}
+  - {id: S013, title: "1.0 reveal summaries: Exiled Bench, accountshark, koni_pu3 (note.com)", url: "https://www.exiledbench.com/blog/poe2-1-0-crafting-changes", tier: "5", last_checked: "2026-11-23", use: "corroboration of tier-1 reveal counts; patch-notes timing lead. accountshark sells accounts → leads only", reachable: "yes (search snippets)"}
+  - {id: S014, title: "GGG Developer Docs (API reference)", url: "https://www.pathofexile.com/developer/docs/reference", tier: "1", last_checked: "2026-11-17", use: "Currency Exchange API docs", reachable: "YES via web fetch"}
+  - {id: S015, title: "GGG forum (patch notes, staff posts)", url: "https://www.pathofexile.com/forum", tier: "1", last_checked: "2026-11-17", use: "patch notes, dev clarifications", reachable: "YES — forum thread loaded fully"}
+  - {id: S016, title: "GGG ExileCon 2026 announcements thread", url: "https://www.pathofexile.com/forum/view-thread/4012710", tier: "1", last_checked: "2026-11-17", use: "headline 1.0 items only", reachable: "YES"}
+  - {id: S017, title: "GGG 1.0 press release (2026-11-11)", url: "https://www.pathofexile.com/forum/view-thread/4013917/page/1", tier: "1", last_checked: "2026-11-17", use: "1.0 scope; named reworks (Mercenary, Infernalist, Blood Mage, Acolyte of Chayula)", reachable: "YES"}
+  - {id: S018, title: "PoE2 official site / announcements", url: "https://www.pathofexile.com/poe2", tier: "1", last_checked: "2026-11-23", use: "patch notes, announcements", reachable: "Plain fetch: NO (needs JavaScript). Built-in browser on David's PC: YES — open, wait ~5 s, get_page_text"}
+  - {id: S019, title: "PoE2 Wiki (official community wiki, GGG-hosted)", url: "https://www.poe2wiki.net", tier: "2", last_checked: "2026-11-25", use: "mechanics, items, gems, version history", reachable: "Plain fetch: NO (Anubis bot protection v1.27.0). Built-in browser on David's PC: YES — navigate, wait ~5 s for Anubis, then read with get_page_text. Faster: from a wiki tab, page JavaScript can call `/api.php?action=parse&page=<Title>&prop=text&format=json&redirects=1` and strip tables/tooltips. **Rate limit:** after ~20 API calls in a few minutes (2026-11-25) the site returned HTTP 429 and a Cloudflare checkbox check — not clicked (bot checks are the user's to complete). Space calls out; ask David to clear the check if needed. Also readable via search snippets."}
+  - {id: S020, title: "Digital Trends", url: "https://digitaltrends.com/gaming/how-to-respec-path-of-exile-2", tier: "", last_checked: "2026-11-17"}
+  - {id: S021, title: "Domistae 0.5 levelling guide", url: "https://domistae.github.io/poe2-leveling/poe2_leveling_guide.html", tier: "", last_checked: "2026-11-17"}
+  - {id: S022, title: "FRVR interview report", url: "https://frvr.com/blog/news/path-of-exile-2-lead-confirms-1-0-wont-include-all-12-classes/", tier: "", last_checked: "2026-11-17"}
+  - {id: S023, title: "game8 async trade", url: "https://game8.co/games/Path-of-Exile-2/archives/545617", tier: "", last_checked: "2026-11-17"}
+  - {id: S024, title: "glama.ai attack-damage research", url: "https://glama.ai/mcp/servers/@HivemindOverlord/poe2-mcp", tier: "", last_checked: "2026-11-25"}
+  - {id: S025, title: "Grindout leveling guide", url: "https://grindout.com/poe-2/guides/leveling", tier: "", last_checked: "2026-11-17"}
+  - {id: S026, title: "Kami-labs 0.5.0 notes copy", url: "https://kami-labs.fr/en/path-of-exile-2/poe2-patch-0-5-return-of-the-ancients-notes-complet-en/", tier: "", last_checked: "2026-11-17"}
+  - {id: S027, title: "Kami-labs summary of Fubgun's 0.5.5 tier list", url: "https://kami-labs.fr/en/path-of-exile-2/tier-list-league-start-poe2-0-5-5/", tier: "", last_checked: "2026-11-17"}
+  - {id: S028, title: "Kami-labs 0.5.0 notes copy", url: "https://kami-labs.fr/path-of-exile-2/poe2-patch-0-5-return-of-the-ancients-notes-complet-en/", tier: "", last_checked: "2026-11-17"}
+  - {id: S029, title: "lfcarry tier list", url: "https://lfcarry.com/guides/poe2-tier-list", tier: "", last_checked: "2026-11-17"}
+  - {id: S030, title: "Maketecheasier — Steam announcement", url: "https://maketecheasier.com/?p=863668", tier: "", last_checked: "2026-11-17"}
+  - {id: S031, title: "Maxroll Twink Warrior Leveling Guide", url: "https://maxroll.gg/poe2/build-guides/twink-warrior-leveling-guide", tier: "", last_checked: "2026-11-17"}
+  - {id: S032, title: "Maxroll Comprehensive League Start Leveling Guide", url: "https://maxroll.gg/poe2/getting-started/comprehensive-league-start-leveling-guide", tier: "", last_checked: "2026-11-17"}
+  - {id: S033, title: "Maxroll Damage Scaling", url: "https://maxroll.gg/poe2/getting-started/damage-scaling", tier: "", last_checked: "2026-11-17"}
+  - {id: S034, title: "Maxroll campaign guide", url: "https://maxroll.gg/poe2/getting-started/path-of-exile-2-campaign-guide", tier: "", last_checked: "2026-11-17"}
+  - {id: S035, title: "Maxroll permanent stats", url: "https://maxroll.gg/poe2/getting-started/permanent-stats-from-campaign", tier: "", last_checked: "2026-11-17"}
+  - {id: S036, title: "Maxroll Trials of Ascendancy", url: "https://maxroll.gg/poe2/getting-started/trials-of-ascendancy", tier: "", last_checked: "2026-11-17"}
+  - {id: S037, title: "Maxroll Spirit guide", url: "https://maxroll.gg/poe2/guides/spirit-guide", tier: "", last_checked: "2026-11-17"}
+  - {id: S038, title: "Maxroll Boss Loot Table Cheat Sheet", url: "https://maxroll.gg/poe2/resources/boss-loot-table-cheat-sheet", tier: "", last_checked: "2026-11-17"}
+  - {id: S039, title: "Maxroll Corruption outcomes", url: "https://maxroll.gg/poe2/resources/corruption-outcomes", tier: "", last_checked: "2026-11-17"}
+  - {id: S040, title: "Maxroll Currency Guide", url: "https://maxroll.gg/poe2/resources/currency-guide", tier: "", last_checked: "2026-11-17"}
+  - {id: S041, title: "Maxroll Passive Tree", url: "https://maxroll.gg/poe2/resources/poe-2-passive-tree-and-dual-specialization", tier: "", last_checked: "2026-11-17"}
+  - {id: S042, title: "Maxroll Rolling Waystones", url: "https://maxroll.gg/poe2/resources/rolling-waystones-and-precursor-tablets", tier: "", last_checked: "2026-11-17"}
+  - {id: S043, title: "Maxroll Runes and Soul Cores", url: "https://maxroll.gg/poe2/resources/runes-and-soul-cores", tier: "", last_checked: "2026-11-17"}
+  - {id: S044, title: "Mixed News 1.0 reveal", url: "https://mixed-news.com/en/path-of-exile-2-1-0-shadow-duelist-acts-reveal/", tier: "", last_checked: "2026-11-17"}
+  - {id: S045, title: "Mobalytics Fubgun Ice Shot Deadeye", url: "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye", tier: "", last_checked: "2026-11-17"}
+  - {id: S046, title: "Mobalytics Fubgun Ice Shot levelling guide", url: "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye-leveling-guide", tier: "", last_checked: "2026-11-17"}
+  - {id: S047, title: "Mobalytics spell gem database", url: "https://mobalytics.gg/poe-2/database/spell-skill-gems", tier: "", last_checked: "2026-11-17"}
+  - {id: S048, title: "Mobalytics 0.3 crafting changes", url: "https://mobalytics.gg/poe-2/guides/0-3-crafting-changes", tier: "", last_checked: "2026-11-17"}
+  - {id: S049, title: "Mobalytics 0.5 campaign checklist", url: "https://mobalytics.gg/poe-2/guides/0-5-campaign-checklist-stats-rewards-skillpoints-and-more", tier: "", last_checked: "2026-11-17"}
+  - {id: S050, title: "Mobalytics Accuracy", url: "https://mobalytics.gg/poe-2/guides/accuracy", tier: "", last_checked: "2026-11-17"}
+  - {id: S051, title: "Mobalytics Act 4 buffs", url: "https://mobalytics.gg/poe-2/guides/act-4-buffs", tier: "", last_checked: "2026-11-17"}
+  - {id: S052, title: "Mobalytics Ailments", url: "https://mobalytics.gg/poe-2/guides/ailments", tier: "", last_checked: "2026-11-25"}
+  - {id: S053, title: "Mobalytics Armour", url: "https://mobalytics.gg/poe-2/guides/armour", tier: "", last_checked: "2026-11-17"}
+  - {id: S054, title: "Mobalytics Block", url: "https://mobalytics.gg/poe-2/guides/block", tier: "", last_checked: "2026-11-17"}
+  - {id: S055, title: "Mobalytics Campaign Martial Weapons", url: "https://mobalytics.gg/poe-2/guides/campaign-martial-weapon-crafting", tier: "", last_checked: "2026-11-17"}
+  - {id: S056, title: "Mobalytics Chill", url: "https://mobalytics.gg/poe-2/guides/chill", tier: "", last_checked: "2026-11-17"}
+  - {id: S057, title: "Mobalytics Expedition crafting", url: "https://mobalytics.gg/poe-2/guides/crafting-expedition", tier: "", last_checked: "2026-11-17"}
+  - {id: S058, title: "Mobalytics Critical Hits", url: "https://mobalytics.gg/poe-2/guides/critical-hits", tier: "", last_checked: "2026-11-17"}
+  - {id: S059, title: "Mobalytics Currency Exchange", url: "https://mobalytics.gg/poe-2/guides/currency-exchange", tier: "", last_checked: "2026-11-17"}
+  - {id: S060, title: "Mobalytics Damage Conversion", url: "https://mobalytics.gg/poe-2/guides/damage-conversion", tier: "", last_checked: "2026-11-17"}
+  - {id: S061, title: "Mobalytics Deflection", url: "https://mobalytics.gg/poe-2/guides/deflection", tier: "", last_checked: "2026-11-17"}
+  - {id: S062, title: "Mobalytics Dodge Roll", url: "https://mobalytics.gg/poe-2/guides/dodge-roll", tier: "", last_checked: "2026-11-17"}
+  - {id: S063, title: "Mobalytics King in the Mists drop rates", url: "https://mobalytics.gg/poe-2/guides/drop-rates-the-king-in-the-mists", tier: "", last_checked: "2026-11-17"}
+  - {id: S064, title: "Mobalytics Dual Specialisation", url: "https://mobalytics.gg/poe-2/guides/dual-specialisation", tier: "", last_checked: "2026-11-17"}
+  - {id: S065, title: "Mobalytics endgame power levelling", url: "https://mobalytics.gg/poe-2/guides/endgame-power-leveling-experience-gain", tier: "", last_checked: "2026-11-17"}
+  - {id: S066, title: "Mobalytics Evasion", url: "https://mobalytics.gg/poe-2/guides/evasion", tier: "", last_checked: "2026-11-17"}
+  - {id: S067, title: "Mobalytics Flasks", url: "https://mobalytics.gg/poe-2/guides/flasks", tier: "", last_checked: "2026-11-17"}
+  - {id: S068, title: "Mobalytics Freeze", url: "https://mobalytics.gg/poe-2/guides/freeze", tier: "", last_checked: "2026-11-17"}
+  - {id: S069, title: "Mobalytics Gold explained", url: "https://mobalytics.gg/poe-2/guides/gold-explained", tier: "", last_checked: "2026-11-17"}
+  - {id: S070, title: "Mobalytics High Level Gems", url: "https://mobalytics.gg/poe-2/guides/high-level-gems", tier: "", last_checked: "2026-11-17"}
+  - {id: S071, title: "Mobalytics How to Ascend", url: "https://mobalytics.gg/poe-2/guides/how-to-ascend", tier: "", last_checked: "2026-11-17"}
+  - {id: S072, title: "Mobalytics Ignite", url: "https://mobalytics.gg/poe-2/guides/ignite", tier: "", last_checked: "2026-11-17"}
+  - {id: S073, title: "Mobalytics Item Modifiers", url: "https://mobalytics.gg/poe-2/guides/item-modifiers", tier: "", last_checked: "2026-11-17"}
+  - {id: S074, title: "Mobalytics league-mechanic reward sheet", url: "https://mobalytics.gg/poe-2/guides/league-mechanic-campaign-reward-cheat-sheet", tier: "", last_checked: "2026-11-17"}
+  - {id: S075, title: "Mobalytics Level 21 gems guide", url: "https://mobalytics.gg/poe-2/guides/level-21-skill-gems-guide-by-ignatius", tier: "", last_checked: "2026-11-17"}
+  - {id: S076, title: "Mobalytics Limit", url: "https://mobalytics.gg/poe-2/guides/limit", tier: "", last_checked: "2026-11-17"}
+  - {id: S077, title: "Mobalytics Mana", url: "https://mobalytics.gg/poe-2/guides/mana", tier: "", last_checked: "2026-11-25"}
+  - {id: S078, title: "Mobalytics Mechanics", url: "https://mobalytics.gg/poe-2/guides/mechanics", tier: "", last_checked: "2026-11-17"}
+  - {id: S079, title: "Mobalytics Omen of Recombination", url: "https://mobalytics.gg/poe-2/guides/omen-of-recombination", tier: "", last_checked: "2026-11-17"}
+  - {id: S080, title: "Mobalytics Poison", url: "https://mobalytics.gg/poe-2/guides/poison", tier: "", last_checked: "2026-11-17"}
+  - {id: S081, title: "Mobalytics Presence", url: "https://mobalytics.gg/poe-2/guides/presence", tier: "", last_checked: "2026-11-17"}
+  - {id: S082, title: "Mobalytics Regeneration", url: "https://mobalytics.gg/poe-2/guides/regeneration", tier: "", last_checked: "2026-11-25"}
+  - {id: S083, title: "Mobalytics Resistances", url: "https://mobalytics.gg/poe-2/guides/resistances", tier: "", last_checked: "2026-11-17"}
+  - {id: S084, title: "Mobalytics Respec Ascendancy", url: "https://mobalytics.gg/poe-2/guides/respec-ascendancy", tier: "", last_checked: "2026-11-17"}
+  - {id: S085, title: "Mobalytics Runes of Aldur", url: "https://mobalytics.gg/poe-2/guides/runes-of-aldur", tier: "", last_checked: "2026-11-17"}
+  - {id: S086, title: "Mobalytics Skill Gem System", url: "https://mobalytics.gg/poe-2/guides/skill-gem-system", tier: "", last_checked: "2026-11-17"}
+  - {id: S087, title: "Mobalytics Skill Speed", url: "https://mobalytics.gg/poe-2/guides/skill-speed", tier: "", last_checked: "2026-11-25"}
+  - {id: S088, title: "Mobalytics Spirit", url: "https://mobalytics.gg/poe-2/guides/spirit", tier: "", last_checked: "2026-11-17"}
+  - {id: S089, title: "Mobalytics Sprinting", url: "https://mobalytics.gg/poe-2/guides/sprinting", tier: "", last_checked: "2026-11-17"}
+  - {id: S090, title: "Mobalytics SSF Crafting", url: "https://mobalytics.gg/poe-2/guides/ssf-crafting", tier: "", last_checked: "2026-11-17"}
+  - {id: S091, title: "Mobalytics Vaal Corrupting", url: "https://mobalytics.gg/poe-2/guides/vaal-corrupting", tier: "", last_checked: "2026-11-17"}
+  - {id: S092, title: "Mobalytics Vaal currency", url: "https://mobalytics.gg/poe-2/guides/vaal-currency", tier: "", last_checked: "2026-11-17"}
+  - {id: S093, title: "Mobalytics Skill Speed explained", url: "https://mobalytics.gg/poe-2/profile/dreamcore/guides/poe-2-skill-speed-explained", tier: "", last_checked: "2026-11-25"}
+  - {id: S094, title: "Mobalytics 0.4 cheat sheet", url: "https://mobalytics.gg/poe-2/profile/guythatdies/guides/0-4-league-mechanic-reward-cheat-sheet", tier: "", last_checked: "2026-11-17"}
+  - {id: S095, title: "Mobalytics campaign XP tips (Guythatdies)", url: "https://mobalytics.gg/poe-2/profile/guythatdies/guides/how-to-campaign-exp", tier: "", last_checked: "2026-11-17"}
+  - {id: S096, title: "Mobalytics Paintmaster recoup Chronomancer crafting", url: "https://mobalytics.gg/poe-2/profile/paintmaster/guides/recoup-chronomancer-gear-crafting-guide", tier: "", last_checked: "2026-11-17"}
+  - {id: S097, title: "Mobalytics Perra PoE2 Crafting Guide", url: "https://mobalytics.gg/poe-2/profile/perra/guides/poe2-crafting-guide", tier: "", last_checked: "2026-11-17"}
+  - {id: S098, title: "Mobalytics 0.5 League Starter Tier List", url: "https://mobalytics.gg/poe-2/tier-list", tier: "", last_checked: "2026-11-17"}
+  - {id: S099, title: "Mobalytics async trading with Faustus", url: "https://mobalytics.gg/poe/guides/merchant-tabs-and-async-trading-with-faustus", tier: "", last_checked: "2026-11-17"}
+  - {id: S100, title: "NextTier PoE2 trade guide", url: "https://nexttier.pro/guide/poe2-trade-guide", tier: "", last_checked: "2026-11-17"}
+  - {id: S101, title: "Niche Gamer — Third Edict announcement", url: "https://nichegamer.com/path-of-exile-2-the-third-edict-adds-act-4-and-other-changes", tier: "", last_checked: "2026-11-17"}
+  - {id: S102, title: "Notebookcheck 1.0 reveal", url: "https://notebookcheck.net/Path-of-Exile-2-finally-reveals-its-gargantuan-full-release-update.1444706.0.html", tier: "", last_checked: "2026-11-17"}
+  - {id: S103, title: "3674502", url: "https://pathofexile.com/forum/view-thread/3674502", tier: "", last_checked: "2026-11-25"}
+  - {id: S104, title: "poe.ninja API docs", url: "https://poe.ninja/docs/api", tier: "", last_checked: "2026-11-17"}
+  - {id: S105, title: "poe.ninja PoE2 uniques post", url: "https://poe.ninja/posts/poe2-unique-items", tier: "", last_checked: "2026-11-17"}
+  - {id: S106, title: "PoE2DB Conquerors of Wraeclast league page", url: "https://poe2db.tw/Conquerors_of_Wraeclast_league", tier: "", last_checked: "2026-11-17"}
+  - {id: S107, title: "PoE2DB Damage Conversion", url: "https://poe2db.tw/Damage_Conversion", tier: "", last_checked: "2026-11-17"}
+  - {id: S108, title: "PoE2DB Deflect", url: "https://poe2db.tw/Deflect", tier: "", last_checked: "2026-11-17"}
+  - {id: S109, title: "PoE2DB Hit Damage", url: "https://poe2db.tw/Hit_Damage", tier: "", last_checked: "2026-11-17"}
+  - {id: S110, title: "PoE2DB Quality", url: "https://poe2db.tw/Quality", tier: "", last_checked: "2026-11-17"}
+  - {id: S111, title: "PoE2DB Spirit", url: "https://poe2db.tw/Spirit", tier: "", last_checked: "2026-11-17"}
+  - {id: S112, title: "PoE2DB Weapon Set Passive Skill Points", url: "https://poe2db.tw/Weapon_Set_Passive_Skill_Points", tier: "", last_checked: "2026-11-17"}
+  - {id: S113, title: "PoE2DB Dodge Roll", url: "https://poe2db.tw/fr/Dodge_Roll", tier: "", last_checked: "2026-11-17"}
+  - {id: S114, title: "PoE2DB Runeforging", url: "https://poe2db.tw/jp/Runeforging", tier: "", last_checked: "2026-11-17"}
+  - {id: S115, title: "PoE2DB 0.5.0 notes copy", url: "https://poe2db.tw/jp/markdown_raw?oldid=2844", tier: "", last_checked: "2026-11-17"}
+  - {id: S116, title: "PoE2DB Runeforging notes", url: "https://poe2db.tw/jp/markdown_raw?oldid=3128", tier: "", last_checked: "2026-11-17"}
+  - {id: S117, title: "PoE2DB Runeforging (KR)", url: "https://poe2db.tw/kr/Runeforging", tier: "", last_checked: "2026-11-17"}
+  - {id: S118, title: "PoE2DB Tools list", url: "https://poe2db.tw/kr/Tools", tier: "", last_checked: "2026-11-17"}
+  - {id: S119, title: "PoE2DB 0.5.0 notes", url: "https://poe2db.tw/kr/markdown_raw?oldid=2844", tier: "", last_checked: "2026-11-17"}
+  - {id: S120, title: "PoE2DB early-access notes", url: "https://poe2db.tw/markdown_raw?oldid=556", tier: "", last_checked: "2026-11-17"}
+  - {id: S121, title: "PoE2DB notes", url: "https://poe2db.tw/pt/markdown_raw?oldid=3128", tier: "", last_checked: "2026-11-17"}
+  - {id: S122, title: "PoE2DB <Page>", url: "https://poe2db.tw/us/<Page>", tier: "", last_checked: ""}
+  - {id: S234, title: "Doryani, Royal Thaumaturge", url: "https://poe2db.tw/us/Doryani,_Royal_Thaumaturge", tier: "", last_checked: ""}
+  - {id: S597, title: "PoE2DB 0.5.0 notes", url: "https://poe2db.tw/us/markdown_raw?oldid=3128", tier: "", last_checked: "2026-11-17"}
+  - {id: S598, title: "poe2wiki Accuracy", url: "https://poe2wiki.net/wiki/Accuracy", tier: "", last_checked: "2026-11-17"}
+  - {id: S599, title: "poe2wiki Accurate", url: "https://poe2wiki.net/wiki/Accurate", tier: "", last_checked: "2026-11-17"}
+  - {id: S600, title: "poe2wiki Act 1", url: "https://poe2wiki.net/wiki/Act_1", tier: "", last_checked: "2026-11-17"}
+  - {id: S601, title: "poe2wiki Ailment", url: "https://poe2wiki.net/wiki/Ailment", tier: "", last_checked: "2026-11-25"}
+  - {id: S602, title: "poe2wiki Ascendancy classes", url: "https://poe2wiki.net/wiki/Ascendancy_classes", tier: "", last_checked: "2026-11-17"}
+  - {id: S603, title: "poe2wiki Ascension trials", url: "https://poe2wiki.net/wiki/Ascension_trials", tier: "", last_checked: "2026-11-17"}
+  - {id: S604, title: "poe2wiki Ballista", url: "https://poe2wiki.net/wiki/Ballista", tier: "", last_checked: "2026-11-17"}
+  - {id: S605, title: "poe2wiki Chaos Resistance", url: "https://poe2wiki.net/wiki/Chaos_Resistance", tier: "", last_checked: "2026-11-17"}
+  - {id: S606, title: "poe2wiki Contributes", url: "https://poe2wiki.net/wiki/Contributes", tier: "", last_checked: "2026-11-17"}
+  - {id: S607, title: "poe2wiki Conversion", url: "https://poe2wiki.net/wiki/Convert/edit?redlink=1", tier: "", last_checked: "2026-11-17"}
+  - {id: S608, title: "poe2wiki Corrupted", url: "https://poe2wiki.net/wiki/Corrupted", tier: "", last_checked: "2026-11-17"}
+  - {id: S609, title: "poe2wiki Critical hit", url: "https://poe2wiki.net/wiki/Critical_hit", tier: "", last_checked: "2026-11-17"}
+  - {id: S610, title: "poe2wiki Damage conversion", url: "https://poe2wiki.net/wiki/Damage_conversion", tier: "", last_checked: "2026-11-17"}
+  - {id: S611, title: "poe2wiki Damage over time", url: "https://poe2wiki.net/wiki/Damage_over_time", tier: "", last_checked: "2026-11-17"}
+  - {id: S612, title: "poe2wiki Distance", url: "https://poe2wiki.net/wiki/Distance", tier: "", last_checked: "2026-11-17"}
+  - {id: S613, title: "poe2wiki Dodge roll", url: "https://poe2wiki.net/wiki/Dodge_roll", tier: "", last_checked: "2026-11-17"}
+  - {id: S614, title: "poe2wiki Engraving", url: "https://poe2wiki.net/wiki/Engraving", tier: "", last_checked: "2026-11-17"}
+  - {id: S615, title: "poe2wiki Evasion Rating", url: "https://poe2wiki.net/wiki/Evasion_Rating", tier: "", last_checked: "2026-11-17"}
+  - {id: S616, title: "poe2wiki Flask", url: "https://poe2wiki.net/wiki/Flask", tier: "", last_checked: "2026-11-17"}
+  - {id: S617, title: "poe2wiki Freeze", url: "https://poe2wiki.net/wiki/Freeze", tier: "", last_checked: "2026-11-17"}
+  - {id: S618, title: "poe2wiki Conversion (Gains)", url: "https://poe2wiki.net/wiki/Gains", tier: "", last_checked: "2026-11-17"}
+  - {id: S619, title: "poe2wiki Gem", url: "https://poe2wiki.net/wiki/Gem", tier: "", last_checked: "2026-11-17"}
+  - {id: S620, title: "poe2wiki Gemcutter's Prism", url: "https://poe2wiki.net/wiki/Gemcutter%27s_Prism", tier: "", last_checked: "2026-11-17"}
+  - {id: S621, title: "poe2wiki Gold", url: "https://poe2wiki.net/wiki/Gold", tier: "", last_checked: "2026-11-17"}
+  - {id: S622, title: "poe2wiki Ignite", url: "https://poe2wiki.net/wiki/Ignite", tier: "", last_checked: "2026-11-17"}
+  - {id: S623, title: "poe2wiki Item", url: "https://poe2wiki.net/wiki/Item", tier: "", last_checked: "2026-11-17"}
+  - {id: S624, title: "poe2wiki Level", url: "https://poe2wiki.net/wiki/Level", tier: "", last_checked: "2026-11-17"}
+  - {id: S625, title: "poe2wiki List of support gems", url: "https://poe2wiki.net/wiki/List_of_support_gems", tier: "", last_checked: "2026-11-25"}
+  - {id: S626, title: "poe2wiki Overconversion", url: "https://poe2wiki.net/wiki/Overconversion", tier: "", last_checked: "2026-11-17"}
+  - {id: S627, title: "poe2wiki Passive skill tree", url: "https://poe2wiki.net/wiki/Passive_skill_tree", tier: "", last_checked: "2026-11-17"}
+  - {id: S628, title: "poe2wiki Passive tree", url: "https://poe2wiki.net/wiki/Passive_tree", tier: "", last_checked: "2026-11-17"}
+  - {id: S629, title: "poe2wiki Projectile", url: "https://poe2wiki.net/wiki/Projectile", tier: "", last_checked: "2026-11-17"}
+  - {id: S630, title: "poe2wiki Projectiles", url: "https://poe2wiki.net/wiki/Projectiles", tier: "", last_checked: "2026-11-17"}
+  - {id: S631, title: "poe2wiki Rarity", url: "https://poe2wiki.net/wiki/Rarity", tier: "", last_checked: "2026-11-17"}
+  - {id: S632, title: "poe2wiki Recombinator", url: "https://poe2wiki.net/wiki/Recombinator", tier: "", last_checked: "2026-11-17"}
+  - {id: S633, title: "poe2wiki Respec", url: "https://poe2wiki.net/wiki/Respec", tier: "", last_checked: "2026-11-17"}
+  - {id: S634, title: "poe2wiki Rune socket", url: "https://poe2wiki.net/wiki/Rune_socket", tier: "", last_checked: "2026-11-17"}
+  - {id: S635, title: "poe2wiki Skill gem", url: "https://poe2wiki.net/wiki/Skill_gem", tier: "", last_checked: "2026-11-17"}
+  - {id: S636, title: "poe2wiki Spirit", url: "https://poe2wiki.net/wiki/Spirit", tier: "", last_checked: "2026-11-17"}
+  - {id: S637, title: "poe2wiki The King in the Mists", url: "https://poe2wiki.net/wiki/The_King_in_the_Mists", tier: "", last_checked: "2026-11-17"}
+  - {id: S638, title: "poe2wiki Tier", url: "https://poe2wiki.net/wiki/Tier", tier: "", last_checked: "2026-11-17"}
+  - {id: S639, title: "poe2wiki Totem", url: "https://poe2wiki.net/wiki/Totem", tier: "", last_checked: "2026-11-17"}
+  - {id: S640, title: "poe2wiki Unique item", url: "https://poe2wiki.net/wiki/Unique_item", tier: "", last_checked: "2026-11-17"}
+  - {id: S641, title: "poe2wiki Waystone (Tier 16)", url: "https://poe2wiki.net/wiki/Waystone_(Tier_16", tier: "", last_checked: "2026-11-17"}
+  - {id: S642, title: "poe2wiki Weapon set", url: "https://poe2wiki.net/wiki/Weapon_set", tier: "", last_checked: "2026-11-17"}
+  - {id: S643, title: "poe2db Armourer's Scrap (JP)", url: "https://poedb.tw/jp/Armourers_Scrap", tier: "", last_checked: "2026-11-17"}
+  - {id: S644, title: "PoE2DB Merchant's Tab", url: "https://poedb.tw/jp/Merchants_Tab", tier: "", last_checked: "2026-11-17"}
+  - {id: S645, title: "PoE2DB modifier notes", url: "https://poedb.tw/th/markdown_raw?oldid=4585", tier: "", last_checked: "2026-11-17"}
+  - {id: S646, title: "PoE2DB modifier notes", url: "https://poedb.tw/us/markdown_raw?oldid=2390", tier: "", last_checked: "2026-11-17"}
+  - {id: S647, title: "Timesaver ascendancy respec", url: "https://timesaver.gg/tools/poe-2/ascendancy/respec", tier: "", last_checked: "2026-11-17"}
+  - {id: S648, title: "Vulkk 0.2.0g overview", url: "https://vulkk.com/2025/05/01/path-of-exile-2-update-0-2-0g-changes-overview/", tier: "", last_checked: "2026-11-17"}
+  - {id: S649, title: "Vulkk 0.5.0 changes overview", url: "https://vulkk.com/2026/05/22/path-of-exile-2-patch-0-5-0-changes-overview/", tier: "", last_checked: "2026-11-17"}
+  - {id: S650, title: "web.poecdn.com/api/currency-exchange/poe2/1794931200", url: "https://web.poecdn.com/api/currency-exchange/poe2/1794931200", tier: "", last_checked: "2026-11-17"}
+  - {id: S651, title: "3921564", url: "https://web.poecdn.com/forum/view-thread/3921564", tier: "", last_checked: "2026-11-17"}
+  - {id: S652, title: "3932540", url: "https://web.poecdn.com/forum/view-thread/3932540/page/99", tier: "", last_checked: "2026-11-17"}
+  - {id: S653, title: "3653958", url: "https://webcdn.pathofexile.com/forum/view-thread/3653958", tier: "", last_checked: "2026-11-25"}
+  - {id: S654, title: "geekyinc 1.0 tier list", url: "https://www.geekyinc.com/path-of-exile-2-tier-list-1-0-classes-ascendancies/", tier: "", last_checked: "2026-11-17"}
+  - {id: S655, title: "Inven Global 1.0 reveal", url: "https://www.invenglobal.com/articles/28295/path-of-exile-2-officially-launches-dec-11-from-6-act-campaign-completion-to-massive-endgame-rework", tier: "", last_checked: "2026-11-17"}
+  - {id: S656, title: "3665378", url: "https://www.pathofexile.com/forum/view-thread/3665378", tier: "", last_checked: "2026-11-17"}
+  - {id: S657, title: "3672838", url: "https://www.pathofexile.com/forum/view-thread/3672838", tier: "", last_checked: "2026-11-25"}
+  - {id: S658, title: "3679890", url: "https://www.pathofexile.com/forum/view-thread/3679890", tier: "", last_checked: "2026-11-17"}
+  - {id: S659, title: "3851605", url: "https://www.pathofexile.com/forum/view-thread/3851605", tier: "", last_checked: "2026-11-17"}
+  - {id: S660, title: "PCGamesN interview", url: "https://www.pcgamesn.com/path-of-exile-2/campaign-final-acts-interview-gamescom", tier: "", last_checked: "2026-11-17"}
+  - {id: S661, title: "Poe-Vault Gems Guide", url: "https://www.poe-vault.com/poe2/guides/gems-guide", tier: "", last_checked: "2026-11-17"}
+  - {id: S662, title: "Poe-Vault Rise of the Abyssal", url: "https://www.poe-vault.com/poe2/guides/rise-of-the-abyssal-league-guide", tier: "", last_checked: "2026-11-17"}
+  - {id: S663, title: "poe2wiki Abyss", url: "https://www.poe2wiki.net/wiki/Abyss", tier: "", last_checked: "2026-11-17"}
+  - {id: S664, title: "poe2wiki Abyss lineage support", url: "https://www.poe2wiki.net/wiki/Abyss_lineage_support", tier: "", last_checked: "2026-11-17"}
+  - {id: S665, title: "poe2wiki Area of effect", url: "https://www.poe2wiki.net/wiki/Area_of_effect", tier: "", last_checked: "2026-11-25"}
+  - {id: S666, title: "poe2wiki Ascension Trial", url: "https://www.poe2wiki.net/wiki/Ascension_Trial", tier: "", last_checked: "2026-11-17"}
+  - {id: S667, title: "poe2wiki Asynchronous trading", url: "https://www.poe2wiki.net/wiki/Asynchronous_trading", tier: "", last_checked: "2026-11-17"}
+  - {id: S668, title: "poe2wiki Attack", url: "https://www.poe2wiki.net/wiki/Attack", tier: "", last_checked: "2026-11-17"}
+  - {id: S669, title: "poe2wiki Skill speed", url: "https://www.poe2wiki.net/wiki/Attack_speed", tier: "", last_checked: "2026-11-25"}
+  - {id: S670, title: "poe2wiki Bleeding", url: "https://www.poe2wiki.net/wiki/Bleeding", tier: "", last_checked: "2026-11-25"}
+  - {id: S671, title: "poe2wiki Block", url: "https://www.poe2wiki.net/wiki/Block", tier: "", last_checked: "2026-11-17"}
+  - {id: S672, title: "poe2wiki Blocked", url: "https://www.poe2wiki.net/wiki/Blocked", tier: "", last_checked: "2026-11-17"}
+  - {id: S673, title: "poe2wiki Armour Break", url: "https://www.poe2wiki.net/wiki/Broken_armour", tier: "", last_checked: "2026-11-17"}
+  - {id: S674, title: "poe2wiki Catalyst", url: "https://www.poe2wiki.net/wiki/Catalyst", tier: "", last_checked: "2026-11-23"}
+  - {id: S675, title: "poe2wiki Chained", url: "https://www.poe2wiki.net/wiki/Chained", tier: "", last_checked: "2026-11-17"}
+  - {id: S676, title: "poe2wiki Chains", url: "https://www.poe2wiki.net/wiki/Chains", tier: "", last_checked: "2026-11-17"}
+  - {id: S677, title: "poe2wiki Chaos resistance", url: "https://www.poe2wiki.net/wiki/Chaos_resistance", tier: "", last_checked: "2026-11-17"}
+  - {id: S678, title: "poe2wiki Conversion", url: "https://www.poe2wiki.net/wiki/Convert", tier: "", last_checked: "2026-11-17"}
+  - {id: S679, title: "poe2wiki Corrupt", url: "https://www.poe2wiki.net/wiki/Corrupt", tier: "", last_checked: "2026-11-17"}
+  - {id: S680, title: "poe2wiki Cost", url: "https://www.poe2wiki.net/wiki/Cost", tier: "", last_checked: "2026-11-25"}
+  - {id: S681, title: "poe2wiki Crit", url: "https://www.poe2wiki.net/wiki/Crit", tier: "", last_checked: "2026-11-17"}
+  - {id: S682, title: "poe2wiki Critical Hits", url: "https://www.poe2wiki.net/wiki/Critical_Hits", tier: "", last_checked: "2026-11-17"}
+  - {id: S683, title: "poe2wiki Critical strike chance", url: "https://www.poe2wiki.net/wiki/Critical_strike_chance", tier: "", last_checked: "2026-11-17"}
+  - {id: S684, title: "poe2wiki Currency exchange market", url: "https://www.poe2wiki.net/wiki/Currency_exchange", tier: "", last_checked: "2026-11-17"}
+  - {id: S685, title: "poe2wiki Damage over Time", url: "https://www.poe2wiki.net/wiki/Damage_over_Time", tier: "", last_checked: "2026-11-17"}
+  - {id: S686, title: "poe2wiki Deflection", url: "https://www.poe2wiki.net/wiki/Deflection", tier: "", last_checked: "2026-11-17"}
+  - {id: S687, title: "poe2wiki Desecrated modifier", url: "https://www.poe2wiki.net/wiki/Desecrated_mod", tier: "", last_checked: "2026-11-17"}
+  - {id: S688, title: "poe2wiki Dodged", url: "https://www.poe2wiki.net/wiki/Dodged", tier: "", last_checked: "2026-11-17"}
+  - {id: S689, title: "poe2wiki Item (Drop level)", url: "https://www.poe2wiki.net/wiki/Drop_level", tier: "", last_checked: "2026-11-17"}
+  - {id: S690, title: "poe2wiki Dual wielding", url: "https://www.poe2wiki.net/wiki/Dual_wielding", tier: "", last_checked: "2026-11-25"}
+  - {id: S691, title: "poe2wiki Elemental Ailments", url: "https://www.poe2wiki.net/wiki/Elemental_Ailments", tier: "", last_checked: "2026-11-17"}
+  - {id: S692, title: "poe2wiki Essence", url: "https://www.poe2wiki.net/wiki/Essence", tier: "", last_checked: "2026-11-17"}
+  - {id: S693, title: "poe2wiki Evasion rating", url: "https://www.poe2wiki.net/wiki/Evasion_rating", tier: "", last_checked: "2026-11-17"}
+  - {id: S694, title: "poe2wiki Item / Exceptional items", url: "https://www.poe2wiki.net/wiki/Exceptional_items", tier: "", last_checked: "2026-11-17"}
+  - {id: S695, title: "poe2wiki Fine Belt", url: "https://www.poe2wiki.net/wiki/Fine_Belt", tier: "", last_checked: "2026-11-17"}
+  - {id: S696, title: "poe2wiki Greater Exalted Orb", url: "https://www.poe2wiki.net/wiki/Greater_Exalted_Orb", tier: "", last_checked: "2026-11-17"}
+  - {id: S697, title: "poe2wiki Greater Orb of Transmutation", url: "https://www.poe2wiki.net/wiki/Greater_Orb_of_Transmutation", tier: "", last_checked: "2026-11-17"}
+  - {id: S698, title: "poe2wiki Life flask", url: "https://www.poe2wiki.net/wiki/Life_flask", tier: "", last_checked: "2026-11-17"}
+  - {id: S699, title: "poe2wiki Lineage", url: "https://www.poe2wiki.net/wiki/Lineage", tier: "", last_checked: "2026-11-17"}
+  - {id: S700, title: "poe2wiki Lineage Supports", url: "https://www.poe2wiki.net/wiki/Lineage_Supports", tier: "", last_checked: "2026-11-17"}
+  - {id: S701, title: "poe2wiki List of life flasks", url: "https://www.poe2wiki.net/wiki/List_of_life_flasks", tier: "", last_checked: "2026-11-17"}
+  - {id: S702, title: "poe2wiki List of unique belts", url: "https://www.poe2wiki.net/wiki/List_of_unique_belts", tier: "", last_checked: "2026-11-17"}
+  - {id: S703, title: "poe2wiki Mana regeneration", url: "https://www.poe2wiki.net/wiki/Mana_regeneration", tier: "", last_checked: "2026-11-25"}
+  - {id: S704, title: "poe2wiki Maximum Resistances", url: "https://www.poe2wiki.net/wiki/Maximum_Resistances", tier: "", last_checked: "2026-11-17"}
+  - {id: S705, title: "poe2wiki Modifier", url: "https://www.poe2wiki.net/wiki/Modifier", tier: "", last_checked: "2026-11-25"}
+  - {id: S706, title: "poe2wiki Notable", url: "https://www.poe2wiki.net/wiki/Notable", tier: "", last_checked: "2026-11-17"}
+  - {id: S707, title: "poe2wiki Omen of Sanctification", url: "https://www.poe2wiki.net/wiki/Omen_of_Sanctification", tier: "", last_checked: "2026-11-17"}
+  - {id: S708, title: "poe2wiki Omen of the Sovereign", url: "https://www.poe2wiki.net/wiki/Omen_of_the_Sovereign", tier: "", last_checked: "2026-11-17"}
+  - {id: S709, title: "poe2wiki Passive Skill Points", url: "https://www.poe2wiki.net/wiki/Passive_Skill_Points", tier: "", last_checked: "2026-11-17"}
+  - {id: S710, title: "poe2wiki Passive Skill Tree — \"Refund cost per level\"", url: "https://www.poe2wiki.net/wiki/Passive_Skill_Tree", tier: "", last_checked: "2026-11-17"}
+  - {id: S711, title: "poe2wiki Passive Tree Nodes", url: "https://www.poe2wiki.net/wiki/Passive_Tree_Nodes", tier: "", last_checked: "2026-11-17"}
+  - {id: S712, title: "poe2wiki Perfect Exalted Orb", url: "https://www.poe2wiki.net/wiki/Perfect_Exalted_Orb", tier: "", last_checked: "2026-11-17"}
+  - {id: S713, title: "poe2wiki Pierce", url: "https://www.poe2wiki.net/wiki/Pierce", tier: "", last_checked: "2026-11-17"}
+  - {id: S714, title: "poe2wiki Poisonous", url: "https://www.poe2wiki.net/wiki/Poisonous", tier: "", last_checked: "2026-11-17"}
+  - {id: S715, title: "poe2wiki Poisons", url: "https://www.poe2wiki.net/wiki/Poisons", tier: "", last_checked: "2026-11-17"}
+  - {id: S716, title: "poe2wiki Projectile behaviour", url: "https://www.poe2wiki.net/wiki/Projectile_behaviour", tier: "", last_checked: "2026-11-17"}
+  - {id: S717, title: "poe2wiki Quality", url: "https://www.poe2wiki.net/wiki/Quality", tier: "", last_checked: "2026-11-23"}
+  - {id: S718, title: "poe2wiki Quest reward", url: "https://www.poe2wiki.net/wiki/Quest_reward", tier: "", last_checked: "2026-11-17"}
+  - {id: S719, title: "poe2wiki Receiving damage", url: "https://www.poe2wiki.net/wiki/Receiving_damage", tier: "", last_checked: "2026-11-25"}
+  - {id: S720, title: "poe2wiki Refined Necrotic Catalyst", url: "https://www.poe2wiki.net/wiki/Refined_Necrotic_Catalyst", tier: "", last_checked: "2026-11-17"}
+  - {id: S721, title: "poe2wiki Reviving Minions", url: "https://www.poe2wiki.net/wiki/Reviving_Minions", tier: "", last_checked: "2026-11-17"}
+  - {id: S722, title: "poe2wiki Runes of Aldur", url: "https://www.poe2wiki.net/wiki/Runes_of_Aldur", tier: "", last_checked: "2026-11-17"}
+  - {id: S723, title: "poe2wiki Item socket", url: "https://www.poe2wiki.net/wiki/Socketable", tier: "", last_checked: "2026-11-17"}
+  - {id: S724, title: "poe2wiki Spirit Gem", url: "https://www.poe2wiki.net/wiki/Spirit_Gem", tier: "", last_checked: "2026-11-17"}
+  - {id: S725, title: "poe2wiki Sprint", url: "https://www.poe2wiki.net/wiki/Sprint", tier: "", last_checked: "2026-11-17"}
+  - {id: S726, title: "Navbox", url: "https://www.poe2wiki.net/wiki/Template:Navbox_Runes_of_Aldur", tier: "", last_checked: "2026-11-17"}
+  - {id: S727, title: "poe2wiki The Well of Souls (quest)", url: "https://www.poe2wiki.net/wiki/The_Well_of_Souls_(quest", tier: "", last_checked: "2026-11-17"}
+  - {id: S728, title: "poe2wiki Uncut Gem", url: "https://www.poe2wiki.net/wiki/Uncut_Gem", tier: "", last_checked: "2026-11-17"}
+  - {id: S729, title: "poe2wiki Uncut gem", url: "https://www.poe2wiki.net/wiki/Uncut_gem", tier: "", last_checked: "2026-11-17"}
+  - {id: S730, title: "poe2wiki Unique", url: "https://www.poe2wiki.net/wiki/Unique", tier: "", last_checked: "2026-11-17"}
+  - {id: S731, title: "poe2wiki Vaal Cultivation Orb", url: "https://www.poe2wiki.net/wiki/Vaal_Cultivation_Orb", tier: "", last_checked: "2026-11-17"}
+  - {id: S732, title: "poe2wiki Waystone", url: "https://www.poe2wiki.net/wiki/Waystone", tier: "", last_checked: "2026-11-17"}
+  - {id: S733, title: "poe2wiki Weapon Master", url: "https://www.poe2wiki.net/wiki/Weapon_Master", tier: "", last_checked: "2026-11-17"}
+  - {id: S734, title: "poe2wiki Wide Belt", url: "https://www.poe2wiki.net/wiki/Wide_Belt", tier: "", last_checked: "2026-11-17"}
+  - {id: S735, title: "poewiki Currency Exchange Market", url: "https://www.poewiki.net/wiki/Currency_Exchange_Market", tier: "", last_checked: "2026-11-17"}
+  - {id: S736, title: "Switchblade Gaming HC guide", url: "https://www.switchbladegaming.com/path-of-exile-2/hardcore-guide/", tier: "", last_checked: "2026-11-17"}
+  - {id: S737, title: "Switchblade Gaming Titan guide", url: "https://www.switchbladegaming.com/path-of-exile-2/warrior-titan-build/", tier: "", last_checked: "2026-11-25"}
+  - {id: S738, title: "The Outer Haven", url: "https://www.theouterhaven.net/?p=346033", tier: "", last_checked: "2026-11-17"}

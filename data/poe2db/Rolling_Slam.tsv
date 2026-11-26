@@ -1,0 +1,57 @@
+# https://poe2db.tw/us/Rolling_Slam · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Tier	Gems
+1	Brutality I Fist of War I Brink I
+2	Brutality II Momentum Stun I
+3	Close Combat I Fist of War II Brink II
+4	Heavy Swing Aftershock II Hit and Run
+5	Heft Defy II Brambleslam
+Level	Requires Level	Str	Mana	Base Damage
+1	0	4	14	100%, 100%, 100%, 75%, 150%
+2	3	9	16	100%, 100%, 100%, 82%, 165%
+3	6	14	18	100%, 100%, 100%, 91%, 182%
+4	10	21	21	100%, 100%, 100%, 99%, 198%
+5	14	28	24	100%, 100%, 100%, 107%, 215%
+6	18	35	27	100%, 100%, 100%, 116%, 232%
+7	22	41	30	100%, 100%, 100%, 125%, 249%
+8	26	48	33	100%, 100%, 100%, 133%, 265%
+9	31	57	37	100%, 100%, 100%, 140%, 280%
+10	36	65	41	100%, 100%, 100%, 148%, 296%
+11	41	74	45	100%, 100%, 100%, 157%, 314%
+12	46	82	49	100%, 100%, 100%, 166%, 332%
+13	52	92	54	100%, 100%, 100%, 176%, 352%
+14	58	103	59	100%, 100%, 100%, 187%, 374%
+15	64	113	64	100%, 100%, 100%, 198%, 397%
+16	66	116	70	100%, 100%, 100%, 211%, 422%
+17	72	126	76	100%, 100%, 100%, 224%, 449%
+18	78	137	82	100%, 100%, 100%, 239%, 478%
+19	84	147	89	100%, 100%, 100%, 255%, 509%
+20	90	157	96	100%, 100%, 100%, 272%, 543%
+21			104	100%, 100%, 100%, 290%, 579%
+22			112	100%, 100%, 100%, 309%, 618%
+23			121	100%, 100%, 100%, 330%, 659%
+24			130	100%, 100%, 100%, 352%, 703%
+25			140	100%, 100%, 100%, 375%, 750%
+26			150	100%, 100%, 100%, 400%, 800%
+27			161	100%, 100%, 100%, 427%, 853%
+28			172	100%, 100%, 100%, 455%, 910%
+29			185	100%, 100%, 100%, 485%, 971%
+30			198	100%, 100%, 100%, 518%, 1035%
+31			211	100%, 100%, 100%, 552%, 1104%
+32			226	100%, 100%, 100%, 589%, 1178%
+33			241	100%, 100%, 100%, 628%, 1256%
+34			258	100%, 100%, 100%, 670%, 1340%
+35			275	100%, 100%, 100%, 715%, 1429%
+36			293	100%, 100%, 100%, 762%, 1525%
+37			312	100%, 100%, 100%, 813%, 1626%
+38			333	100%, 100%, 100%, 867%, 1735%
+39			354	100%, 100%, 100%, 925%, 1850%
+40			377	100%, 100%, 100%, 987%, 1973%
+Version	Changes
+0.5.0	* Rolling Slam : Now has +1 second to total Attack time (previously +1.5 seconds). The First Slam now deals 75-272% of Attack Damage at Gem levels 1-20 (previously 90-367%), and the Second Slam now deals 150-543% of Attack Damage at Gem levels 1-20 (previously 180-735%).
+0.4.0	- Added a new Cursor Tracking input option for keyboard and mouse users, which allows skills to continue updating their target location/direction even after the skill's input key is released. This is particularly impactful for skills such as Rolling Slam and Whirling Assault, but affects a wide variety of skills. By default this option is enabled in WASD mode and disabled in click to move mode.
+0.3.0	- Rolling Slam: Now has +1.5 seconds to total attack time (previously 1 second), but no longer has an attack speed penalty. Quality now provides 0-100% increased Stun Threshold while using Skill, instead of Causes Daze Buildup equal to 0-50% of Physical damage dealt. - Fixed a bug where strike skills could sometimes have their animations cancelled at unintended times. This fix was previously applied to Rake and Whirling Slash in patch 0.2.0h, but has now been applied to all strikes. Don't worry, cancelling after part 1 of Rolling Slam is fully intended and still possible!
+0.2.0	- Rolling Slam now has +1 second to Total Attack Time (previously +1.5 seconds), and the Mana cost has been adjusted accordingly.
+0.1.0f	* Fixed a bug where aftershocks of Rolling Slam were not dealing damage.
+0.1.0e	* Rolling Slam 's Second Slam now deals 50% more Damage to Heavy Stunned Enemies
+Name	Damage%	Life%	Spectre
+Taua, the Ruthless	200	140 |

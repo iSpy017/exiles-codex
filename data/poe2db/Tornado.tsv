@@ -1,0 +1,102 @@
+# https://poe2db.tw/us/Tornado · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Tier	Gems
+1	Magnified Area I Prolonged Duration I Slow Potency
+2	Lifetap Considered Casting Acrimony
+3	Magnified Area II Prolonged Duration II Swift Affliction II
+4	Efficiency II Rapid Casting II Advancing Storm
+5	Expand Physical Mastery Catalysing Elements
+Level	Requires Level	Str	Int	Mana	Base Damage	Deals 3 Physical damage per second	Deals 6.1 damage per second of each absorbed Elemental Damage type
+1	0	4	4	10	100%, 100%, 100%	3	6.1
+2	3	7	7	12	100%, 100%, 100%	4.4	8.8
+3	6	9	9	14	100%, 100%, 100%	6.4	12.7
+4	10	13	13	17	100%, 100%, 100%	8.6	17.2
+5	14	17	17	20	100%, 100%, 100%	11.2	22.4
+6	18	20	20	22	100%, 100%, 100%	14.1	28.2
+7	22	24	24	26	100%, 100%, 100%	17.5	34.9
+8	26	28	28	29	100%, 100%, 100%	21.3	42.6
+9	31	32	32	33	100%, 100%, 100%	25.7	51.4
+10	36	37	37	37	100%, 100%, 100%	30.7	61.4
+11	41	41	41	42	100%, 100%, 100%	36.4	72.9
+12	46	46	46	47	100%, 100%, 100%	43	86
+13	52	51	51	53	100%, 100%, 100%	50.5	101.1
+14	58	57	57	59	100%, 100%, 100%	59.2	118.3
+15	64	62	62	66	100%, 100%, 100%	69.1	138.1
+16	66	64	64	73	100%, 100%, 100%	80.5	160.9
+17	72	70	70	81	100%, 100%, 100%	93.6	187.1
+18	78	75	75	90	100%, 100%, 100%	108.6	217.3
+19	84	80	80	99	100%, 100%, 100%	126	252
+20	90	86	86	110	100%, 100%, 100%	146.1	292.2
+21				121	100%, 100%, 100%	169.3	338.6
+22				134	100%, 100%, 100%	196.1	392.2
+23				147	100%, 100%, 100%	227.2	454.4
+24				162	100%, 100%, 100%	263.3	526.5
+25				178	100%, 100%, 100%	305.1	610.3
+26				195	100%, 100%, 100%	353.8	707.7
+27				214	100%, 100%, 100%	410.5	821.1
+28				234	100%, 100%, 100%	476.7	953.4
+29				256	100%, 100%, 100%	553.9	1107.9
+30				281	100%, 100%, 100%	644.3	1288.5
+31				307	100%, 100%, 100%	750.1	1500.2
+32				335	100%, 100%, 100%	874.2	1748.4
+33				366	100%, 100%, 100%	1020	2040.1
+34				399	100%, 100%, 100%	1191.6	2383.2
+35				435	100%, 100%, 100%	1393.8	2787.5
+36				474	100%, 100%, 100%	1632.4	3264.8
+37				517	100%, 100%, 100%	1914.5	3829
+38				562	100%, 100%, 100%	2248.5	4497
+39				612	100%, 100%, 100%	2644.6	5289.3
+40				666	100%, 100%, 100%	3115.2	6230.4
+Version	Changes
+0.4.0d	* Fixed a bug where the Abyssal Tornado Effect Microtransaction would remain visible forever if it has absorbed shocked ground.
+0.4.0c	* Fixed a bug where Bahlak, the Sky Seer could fail to deactivate its Tornado skill.
+0.4.0	- Added Wind type to the following Skills: Twister, Whirling Slash, Wind Blast, Wing Blast, Whirlwind Lance, Wind Serpent's Fury, Tornado, Tornado Shot, the Projectiles created by Staggering Palm
+0.2.1	* Rat Tornadoes from the Infested Ritual type have had their damage and move speed reduced slightly.
+0.2.0e	* Tornado Shot now has a maximum Tornado duration of 15 seconds at all Gem levels (previously 7-7.9 at Gem levels 11-20). * Dread Servant 's undead tornados no longer benefit from additional projectile modifiers, and now deal damage far less frequently.
+0.2.0	- Tornado Shot's splitting effect now also applies to thrown Spears.
+0.1.1	* Adjusted the damaging area of Bahlak, the Sky Seer's Tornadoes to more closely match the visual effects. Tornadoes now push you slightly away when they appear, and now deal less damage when they first appear before ramping up.
+0.1.0e	* Tornado Shot 's Damage over Time has been adjusted, it is now slightly higher at Lower Levels, and substantially lower at Higher Levels. The intention of this ability was to propagate your other Bow skills, as opposed to doing an immense amount of damage itself. * Fixed a bug where Ballista skills didn't work with Tornadoes created by Tornado Shot.
+Code	base physical damage taken per minute
+IsPublic	0
+IsLocal	0
+IsWeaponLocal	0
+IsParty	0
+IsVirtual	0
+IsScalable	1
+StatSemantics	3
+Code	base movement velocity +%
+IsPublic	1
+IsLocal	0
+IsWeaponLocal	0
+IsParty	0
+IsVirtual	0
+IsScalable	1
+StatSemantics	1
+Code	base physical damage taken per minute
+IsPublic	0
+IsLocal	0
+IsWeaponLocal	0
+IsParty	0
+IsVirtual	0
+IsScalable	1
+StatSemantics	3
+Code	base movement velocity +%
+IsPublic	1
+IsLocal	0
+IsWeaponLocal	0
+IsParty	0
+IsVirtual	0
+IsScalable	1
+StatSemantics	1
+Code	base physical damage taken per minute
+IsPublic	0
+IsLocal	0
+IsWeaponLocal	0
+IsParty	0
+IsVirtual	0
+IsScalable	1
+StatSemantics	3
+Tags	construct , ghost_armour , is_unarmed , non_attacking , very_slow_movement
+Family	MonsterNoDropsOrExperience
+Domains	Monster (3)
+GenerationType	Unique (3)
+Stats	monster no drops or experience 1 — 1 Global — Unscalable Value

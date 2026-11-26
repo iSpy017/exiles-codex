@@ -1,0 +1,57 @@
+# https://poe2db.tw/us/Skeletal_Brute · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Tier	Gems
+1	Magnified Area I Bleed I Impact Shockwave
+2	Behead I Minion Instability Bidding I
+3	Meat Shield II Behead II Muster
+4	Hulking Minions Impale
+5	Culling Strike II Heft Bidding III
+Level	Requires Level	Int	Mana	Base Damage	Minion Level
+1	0	4	165	100%, 100%, 100%, 100%	2
+2	3	9	119	100%, 100%, 100%, 100%	4
+3	6	14	91	100%, 100%, 100%, 100%	6
+4	10	21	74	100%, 100%, 100%, 100%	8
+5	14	28	63	100%, 100%, 100%, 100%	10
+6	18	35	63	100%, 100%, 100%, 100%	12
+7	22	41	58	100%, 100%, 100%, 100%	14
+8	26	48	58	100%, 100%, 100%, 100%	16
+9	31	57	58	100%, 100%, 100%, 100%	18
+10	36	65	54	100%, 100%, 100%, 100%	20
+11	41	74	54	100%, 100%, 100%, 100%	22
+12	46	82	54	100%, 100%, 100%, 100%	24
+13	52	92	51	100%, 100%, 100%, 100%	26
+14	58	103	51	100%, 100%, 100%, 100%	28
+15	64	113	51	100%, 100%, 100%, 100%	30
+16	66	116	51	100%, 100%, 100%, 100%	32
+17	72	126	48	100%, 100%, 100%, 100%	34
+18	78	137	48	100%, 100%, 100%, 100%	36
+19	84	147	48	100%, 100%, 100%, 100%	38
+20	90	157	48	100%, 100%, 100%, 100%	40
+21			46	100%, 100%, 100%, 100%	42
+22			46	100%, 100%, 100%, 100%	44
+23			46	100%, 100%, 100%, 100%	46
+24			46	100%, 100%, 100%, 100%	48
+25			46	100%, 100%, 100%, 100%	50
+26			45	100%, 100%, 100%, 100%	52
+27			45	100%, 100%, 100%, 100%	54
+28			45	100%, 100%, 100%, 100%	56
+29			45	100%, 100%, 100%, 100%	58
+30			45	100%, 100%, 100%, 100%	60
+31			44	100%, 100%, 100%, 100%	62
+32			44	100%, 100%, 100%, 100%	64
+33			44	100%, 100%, 100%, 100%	66
+34			44	100%, 100%, 100%, 100%	68
+35			44	100%, 100%, 100%, 100%	70
+36			43	100%, 100%, 100%, 100%	72
+37			43	100%, 100%, 100%, 100%	74
+38			43	100%, 100%, 100%, 100%	76
+39			43	100%, 100%, 100%, 100%	78
+40			43	100%, 100%, 100%, 100%	80
+Version	Changes
+0.5.2	* Fixed a bug where the Skeletal Brute's Shattering Roar command skill did not intimidate enemies.
+0.3.0	- Skeletal Brute: Has a new Command Skill: Shattering Roar. Shattering Roar is a Warcry that Intimidates nearby enemies and Consumes Freeze on enemies and allies to deal damage in an area around those targets. Boneshatter attack now deals 50% more Damage on the initial Strike and 100% more Damage on the Shockwave. Quality now provides Minions cause 0-40% more Stun buildup (previously 0-20%). - Skeletal Brute: Has a new Command Skill: Shattering Roar. Shattering Roar is a Warcry that Intimidates nearby enemies and Consumes Freeze on enemies and allies to deal damage in an area around those targets. Boneshatter attack now deals 50% more Damage on the initial Strike and 100% more Damage on the Shockwave. Quality now provides Minions cause 0-40% more Stun buildup (previously 0-20%).
+0.2.0	- Skeletal Brute Quality now causes Brutes to inflict more Stun Buildup instead of having increased maximum Life.
+Tags	bone_armour , bones , fast_movement , has_one_hand_sword , has_one_handed_melee , Mace2HMetal_onhit_audio , medium_height , melee , not_dex , not_int , physical_affinity , skeleton , slashing_weapon , undead
+Family	MonsterNoDropsOrExperience
+Domains	Monster (3)
+GenerationType	Unique (3)
+Stats	monster no drops or experience 1 — 1 Global — Unscalable Value

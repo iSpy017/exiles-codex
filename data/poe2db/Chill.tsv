@@ -1,0 +1,57 @@
+# https://poe2db.tw/us/Chill · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Name	Level	Pre/Suf	Description	Weight
+of Convection	20	Suffix	(36 — 40) % reduced Chill Duration on you Elemental Cold Ailment	boots 1 default 0
+of Fluidity	36	Suffix	(41 — 45) % reduced Chill Duration on you Elemental Cold Ailment	boots 1 default 0
+of Entropy	49	Suffix	(46 — 50) % reduced Chill Duration on you Elemental Cold Ailment	boots 1 default 0
+of Dissipation	63	Suffix	(51 — 55) % reduced Chill Duration on you Elemental Cold Ailment	boots 1 default 0
+of the Reversal	75	Suffix	(56 — 60) % reduced Chill Duration on you Elemental Cold Ailment	boots 1 default 0
+Name	Level	Pre/Suf	Description	Weight
+of Freezing	12	Suffix	All Damage from Hits Contributes to Chill Magnitude Chills from your Hits always reduce Action Speed by at least 10 %	cold_affinity 1 default 1
+| 1	Unique	34 % less Magnitude of Chill you inflict |
+| 1	Unique	100 % chance to Avoid being Chilled 100 % chance to Avoid being Frozen Elemental Cold Ailment |
+| 1	Unique	Chills Ground on Death monster ground effect on death base duration ms [6000] |
+| 1	Unique	Chill Effect and Freeze Duration on you are based on 100 % of Energy Shield Elemental Cold Ailment |
+| 1	Unique	100 % chance to Avoid being Chilled 100 % chance to Avoid being Frozen 100 % chance to Avoid being Ignited Unaffected by Shock Elemental Fire Cold Lightning Ailment |
+| 1	Unique	Avoids Ignited 100 % chance to Avoid being Chilled 100 % chance to Avoid being Frozen Unaffected by Shock Elemental Fire Cold Lightning Ailment |
+| 1	Unique	Avoids Frozen Avoids Chilled Avoids Ignited Unaffected by Shock Elemental Fire Cold Lightning Ailment |
+| 1	Unique	Avoids Frozen Avoids Chilled 100 % chance to Avoid being Ignited Unaffected by Shock Elemental Fire Cold Lightning Ailment |
+Aurora Cultist's Touch	1	Torment	+25 % to Cold Resistance 50 % increased Chill Duration on Enemies Physical Damage from Hits also Contributes to Chill Magnitude Elemental Cold Resistance Ailment	default 1
+| 1	Unique	Gain 50 % of Physical Damage as Extra Cold Damage All Damage from Hits Contributes to Chill Magnitude Damage Physical Elemental Cold Ailment |
+| 1	Unique	50 % chance to Avoid being Chilled 50 % chance to Avoid being Frozen 50 % chance to Avoid being Ignited 50 % chance to Avoid being Shocked 50 % chance to Avoid being Poisoned 50 % chance to Avoid Bleeding Ailment |
+Heretic's Grip	1	Torment	25 % chance to Shock All Elemental Damage from Hits Contributes to Shock Chance Physical Damage from Hits also Contributes to Chill Magnitude Elemental Cold Lightning Ailment |
+Primate-Touched	1	Torment	100 % increased Freeze Buildup All Damage from Hits Contributes to Chill Magnitude |
+Hunted by the Howling Ape	1	Torment	100 % increased Freeze Buildup All Damage from Hits Contributes to Chill Magnitude dropped items are converted to int items [1] |
+Spirit Of The Primate	1	Torment	60 % increased Freeze Buildup All Damage from Hits Contributes to Chill Magnitude |
+Name	Level	Pre/Suf	Description	Weight
+of Sleet	1	Suffix	Area has patches of Chilled Ground 12 % more Rarity of Items found in this Area 15 % more Waystones found in Area ground ice art variation [1014] map ground effect patches per 100 tiles [3] map ground effect radius [26]	map_key_low 1 default 0
+Sleet	1	Suffix	Area has patches of Chilled Ground 12 % more Rarity of Items found in this Area 15 % more Waystones found in Area ground ice art variation [1014] map ground effect patches per 100 tiles [4] map ground effect radius [26]	map_key_medium 1 default 0
+Sleet	1	Suffix	Area has patches of Chilled Ground 12 % more Rarity of Items found in this Area 15 % more Waystones found in Area ground ice art variation [1014] map ground effect patches per 100 tiles [5] map ground effect radius [26]	map_key_high 1 default 0
+Sleet	1	Suffix	Area has patches of Chilled Ground 12 % more Rarity of Items found in this Area 15 % more Waystones found in Area ground ice art variation [1014] map ground effect patches per 100 tiles [6] map ground effect radius [26]	map_key_highest 1 default 0
+of Ice	1	Unique	Area has patches of Chilled Ground 6 % increased Rarity of Items found 4 % increased Pack Size map ground effect patches per 100 tiles [16] map ground effect radius [12] map item drop quantity +% [10]	top_tier_map 0 expedition_logbook 1 default 0
+of Ice	1	Unique	Area has patches of Chilled Ground 6 % increased Rarity of Items found 4 % increased Pack Size map ground effect patches per 100 tiles [20] map ground effect radius [14] map item drop quantity +% [10]	low_tier_map 1 expedition_logbook 0 primordial_map 0 default 0
+of Ice	68	Unique	Area has patches of Chilled Ground 6 % increased Rarity of Items found 4 % increased Pack Size map ground effect patches per 100 tiles [20] map ground effect radius [14] map item drop quantity +% [10]	top_tier_map 0 expedition_logbook 1 default 0
+of Ice	1	Unique	Area has patches of Chilled Ground 6 % increased Rarity of Items found 4 % increased Pack Size map ground effect patches per 100 tiles [24] map ground effect radius [16] map item drop quantity +% [10]	mid_tier_map 1 expedition_logbook 0 primordial_map 0 default 0
+of Ice	73	Unique	Area has patches of Chilled Ground 6 % increased Rarity of Items found 4 % increased Pack Size map ground effect patches per 100 tiles [24] map ground effect radius [16] map item drop quantity +% [10]	top_tier_map 0 expedition_logbook 1 default 0
+of Ice	1	Unique	Area has patches of Chilled Ground 6 % increased Rarity of Items found 4 % increased Pack Size map ground effect patches per 100 tiles [28] map ground effect radius [18] map item drop quantity +% [10]	top_tier_map 1 maven_map 0 expedition_logbook 0 primordial_map 0 default 0
+of Ice	1	Unique	Area has patches of Chilled Ground 6 % increased Rarity of Items found map ground effect patches per 100 tiles [28] map ground effect radius [18] map item drop quantity +% [10]	top_tier_map 0 maven_map 1 primordial_map 1 default 0
+of Ice	78	Unique	Area has patches of Chilled Ground 6 % increased Rarity of Items found 4 % increased Pack Size map ground effect patches per 100 tiles [28] map ground effect radius [18] map item drop quantity +% [10]	top_tier_map 0 expedition_logbook 1 default 0
+Name	Level	Pre/Suf	Description	Weight
+| 1	DelveArea	Area has patches of Chilled Ground 10 % increased Quantity of Items found in this Area 6 % increased Rarity of Items found in this Area 4 % increased Pack size map ground effect patches per 100 tiles [20] map ground effect radius [14]	default 1
+| 52	DelveArea	Area has patches of Chilled Ground 10 % increased Quantity of Items found in this Area 6 % increased Rarity of Items found in this Area 4 % increased Pack size map ground effect patches per 100 tiles [24] map ground effect radius [16]	default 1
+| 173	DelveArea	Area has patches of Chilled Ground 10 % increased Quantity of Items found in this Area 6 % increased Rarity of Items found in this Area 4 % increased Pack size map ground effect patches per 100 tiles [28] map ground effect radius [18]	default 1
+Name	Level	Pre/Suf	Description	Weight
+of Ice	46	Suffix	Area has patches of Chilled Ground heist contract alert level +% final [-4] heist contract lockdown timer +% [4] heist monster spawner alive limit +% [4] map ground effect patches per 100 tiles [16] map ground effect radius [12] map item drop quantity +% [10] map item drop rarity +% [6] Elemental Cold Ailment	default 1
+of Ice	68	Suffix	Area has patches of Chilled Ground heist contract alert level +% final [-4] heist contract lockdown timer +% [4] heist monster spawner alive limit +% [4] map ground effect patches per 100 tiles [20] map ground effect radius [14] map item drop quantity +% [10] map item drop rarity +% [6] Elemental Cold Ailment	default 1
+of Ice	73	Suffix	Area has patches of Chilled Ground heist contract alert level +% final [-4] heist contract lockdown timer +% [4] heist monster spawner alive limit +% [4] map ground effect patches per 100 tiles [24] map ground effect radius [16] map item drop quantity +% [10] map item drop rarity +% [6] Elemental Cold Ailment	default 1
+of Ice	78	Suffix	Area has patches of Chilled Ground heist contract alert level +% final [-4] heist contract lockdown timer +% [4] heist monster spawner alive limit +% [4] map ground effect patches per 100 tiles [28] map ground effect radius [18] map item drop quantity +% [10] map item drop rarity +% [6] Elemental Cold Ailment	default 1
+Name	Level	Domain	Pre/Suf	Description	Weight
+| 1	Flask	Unique	Creates Chilled Ground on Use |
+| 1	Flask	Unique	Immunity to Freeze, Chill, Curses and Stuns during Effect |
+| 1	Strongbox	Prefix	strongbox construct has monsterchilledgroundondeath1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Suffix	strongbox construct has monsterchilledgroundtrail1 [1]	strongbox_robot_rare_guard 1 default 0
+of Frost	1	Jewel	Suffix	(15 — 25) % increased Chill Duration on Enemies Elemental Cold Ailment	intjewel 1 default 0
+of Suffering	1	Jewel	Suffix	(5 — 10) % increased Duration of Ignite , Shock and Chill on Enemies Elemental Fire Cold Lightning Ailment	dexjewel 1 default 0
+of Frost	1	Jewel	Suffix	Notable Passive Skills in Radius also grant (6 — 12) % increased Chill Duration on Enemies Elemental Cold Ailment	int_radius_jewel 1 default 0
+of Suffering	1	Jewel	Suffix	Notable Passive Skills in Radius also grant (3 — 5) % increased Duration of Ignite , Shock and Chill on Enemies Elemental Fire Cold Lightning Ailment	dex_radius_jewel 1 default 0
+of the Snowbreather	1	Jewel	Unique	(30 — 35) % reduced Effect of Chill on you Elemental Cold Ailment	default 1
+| 1	Jewel	Unique	(15 — 20) % increased Damage with Hits against Chilled Enemies Damage |

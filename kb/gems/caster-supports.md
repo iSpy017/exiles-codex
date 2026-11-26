@@ -1,7 +1,13 @@
-# Caster / cold support gems (effect values)
+---
+title: Caster / cold support gems (effect values)
+status: done
+tracker_topic: "Caster / cold support effect values"
+tracker_note: "done (0.5.x; 9 supports; 1 conflict)"
+defaults: v=0.5.x vol=may-change conf=single-source
+---
 
 Version: 0.5.x (PoE2DB crawl 2026-11-23). Re-check at 1.0 — GGG announced a support rebalance and merged elemental penetration supports ([[gems/support-tiers]]).
-Source for every entry: PoE2DB support pages in the local corpus ([[tools/poe2db-corpus]]), tier 2, crawl 2026-11-23. Single-source (game-data derived).
+Source for every entry: PoE2DB support pages in the local corpus ([[notes/tools/poe2db-corpus]]), tier 2, crawl 2026-11-23. Single-source (game-data derived).
 Rules: one support per Category per skill; tier = minimum uncut support level ([[gems/support-tiers]]). Uncut support L2 drops from ilvl 16, L3 33, L4 45, L5 55 ([[gems/uncut-gems]]).
 
 | Support | Tier | Category | Effect (all values "final" multipliers where it says more/less) | Cost mult. | Attr |

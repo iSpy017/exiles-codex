@@ -1,0 +1,12 @@
+# https://poe2db.tw/us/Ignite_I · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Tier	Gems
+3	Fireball
+5	Molten Blast
+7	Detonate Dead , Explosive Shot
+9	Detonating Arrow , Incinerate
+13	Flameblast , Flame Breath
+Level	Requires Level	Str
+1	0	0
+Version	Changes
+0.3.0	- These changes do not affect how ignite itself functions or is calculated once it has been applied. - Explosive Concoction, granted by the Explosive Concoction Notable Passive Skill choice, no longer has 200% more magnitude of ignite inflicted, and no longer inflicts Fire Exposure on hit. Now fires up to four additional mini flask projectiles at ignited enemies. Quality now grants +0-2 additional mini flask projectiles thrown at ignited enemies, instead of - Spear of Solaris: Initial Hit now deals approximately 29% less Damage, while the Pulses now deal 50% more Damage. The Ignited Ground now gains up to 100% Radius of the Ground Spear's Lifetime (previously 30%), and now deals 67% more Damage. Quality now provides 0-25% chance to retain 40% of Glory on use, instead of 0-40% more Magnitude of Ignite inflicted.
+0.2.0	- Explosive Concoction now has 200% more Magnitude of Ignite inflicted (previously 100%).

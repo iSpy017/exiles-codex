@@ -1,0 +1,42 @@
+# https://poe2db.tw/us/Delirium · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Type	Name	Quantity
+Delirium	The Raven	969
+Delirium	Apparition of Blind Faith	12
+Name	Level	Pre/Suf	Description	Weight
+| 1	Unique	Areas contain a Mirror of Delirium map affliction league [1] map extra content weighting [0]	default 1
+Name	Level	Pre/Suf	Description	Weight
+of Confusion	1	Suffix	Heist Chests have a (6 — 7) % chance to Duplicate contained Delirium Orbs and Splinters	heist_equipment_reward 1 default 0
+of Uncertainty	45	Suffix	Heist Chests have a (8 — 9) % chance to Duplicate contained Delirium Orbs and Splinters	heist_equipment_reward 1 default 0
+of Voices	75	Suffix	Heist Chests have a (10 — 12) % chance to Duplicate contained Delirium Orbs and Splinters	heist_equipment_reward 1 default 0
+of Insanity	83	Suffix	Heist Chests have a (13 — 15) % chance to Duplicate contained Delirium Orbs and Splinters	heist_equipment_reward 1 default 0
+Name	Level	Pre/Suf	Description	Weight
+of Superstition	60	Suffix	1 % chance to receive additional Delirium items when opening a Reward Chest in a Heist	default 1
+of Superstition	80	Suffix	2 % chance to receive additional Delirium items when opening a Reward Chest in a Heist	default 1
+Name	Level	Domain	Pre/Suf	Description	Weight
+Delirium	1	Strongbox	Prefix	Contains 1 additional Delirium Precursor Tablets	strongbox_robot_rare_guard 0 strongbox_can_roll_waystone_replacements 1 default 0
+| 1	Atlas	Prefix	Delirium Reward Bars fill 100 % faster in your Maps 3 uses remaining	unique_map 0 no_monster_packs 0 default 1
+| 1	Atlas	Prefix	Delirium Reward Bars fill 100 % faster in your Maps 15 uses remaining	unique_map 0 no_monster_packs 0 default 1
+| 1	Atlas	Prefix	Your Maps contain a Mirror of Delirium 3 uses remaining map affliction league [1]	no_monster_packs 0 unique_map 0 default 1
+| 1	Atlas	Prefix	Your Maps contain a Mirror of Delirium 15 uses remaining map affliction league [1]	no_monster_packs 0 unique_map 0 default 1
+| 1	Atlas	Unique	map atlas min waystone tier [6] map delirium has giga mirror [1] |
+| 1	MemoryLines	Unique	Areas contain a Mirror of Delirium map affliction league [1] |
+| 1	Tower	Unique	Adds a Mirror of Delirium to a Map 10 uses remaining |
+| 1	Tower	Unique	Adds a Mirror of Delirium to a Map 5 uses remaining |
+of the Simulacrum	1	Tower	Suffix	(15 — 30) % increased Stack size of Simulacrum Splinters found in Map delirium additional core league level [0]	tower_augment_delirium 1 default 0
+of Eternity	1	Tower	Suffix	Delirium Fog in Map lasts (6 — 12) additional seconds before dissipating delirium additional core league level [0]	tower_augment_delirium 1 default 0
+of the Unending	1	Tower	Suffix	Delirium Fog in Map dissipates (20 — 30) % slower delirium additional core league level [0]	tower_augment_delirium 1 default 0
+of Madness	1	Tower	Suffix	Delirium Fog in Map applies (15 — 30) % increased Deliriousness to Players delirium additional core league level [0]	tower_augment_delirium 1 default 0
+of Persecution	1	Tower	Suffix	Delirium Monsters in Map have (15 — 30) % increased Pack Size delirium additional core league level [0]	tower_augment_delirium 1 default 0
+of Mirrors	1	Tower	Suffix	Delirium Fog in Map spawns (15 — 30) % increased Fracturing Mirrors delirium additional core league level [0]	tower_augment_delirium 1 default 0
+of Freeze Time	1	Tower	Suffix	Slaying Rare Monsters in Map pauses the Delirium Mirror Timer for (3 — 5) seconds delirium additional core league level [0]	tower_augment_delirium 1 default 0
+of Phobia	1	Tower	Suffix	Delirium Encounters in Map are (15 — 30) % more likely to spawn Unique Bosses delirium additional core league level [0]	tower_augment_delirium 1 default 0
+of Shattering	1	Tower	Suffix	Delirium Fog in Map spawns (12 — 26) % increased Mirror Shards delirium additional core league level [0]	tower_augment_delirium 1 default 0
+| 1	Tower	Unique	Delirium Fog in your Maps never dissipates |
+| 1	Tower	Unique	Delirium Fog in Map applies (-10 — 10) % reduced Deliriousness to Players delirium additional core league level [0] |
+Name	Description
+Spatial Distortion	corpse cannot be destroyed [1]
+Wasting Touch	affliction monster debuff energy shield recovery rate +% on hit [-9] affliction monster debuff life recovery rate +% on hit [-9] Life Energy Shield
+Paralysing Touch	affliction monster debuff action speed +% on hit [-6] Speed
+Eroding Touch	affliction monster debuff damage taken +% on hit [6] Damage
+Diluting Touch	affliction monster debuff flask charges gained +% on hit [-9] affliction monster debuff flask effect +% on hit [-9]
+Vengeful Stalker	base monster will be deleted on death [1] cannot die [1] delete on death [1]

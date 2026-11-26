@@ -1,0 +1,13 @@
+# https://poe2db.tw/us/Rage_I · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Tier	Gems
+3	Tempest Bell
+4	Magma Barrier
+5	Resonating Shield , Spearfield , Rapid Assault , Fury of the Mountain
+9	Forge Hammer , Hand of Chayula , Skeletal Reaver
+11	Whirling Assault
+Level	Requires Level	Str
+1	0	0
+Version	Changes
+0.5.0	* The Hateforge Unique Gloves can now roll +16-30 maximum Rage if you've used a Skill that Requires Glory in the past 20 seconds (previously +8-12 maximum Rage per Skill that requires Glory used in the past 6 seconds, up to 5 times). * The Craving Slaughter Notable Passive Skill now provides +15 maximum Rage if you've used a Skill that Requires Glory in the past 20 seconds (previously +8 per Skill that Requires Glory used in the past 6 seconds, up to 5 times) * Rage I , Rage II , and Rage III : Can now support Minion Skills.
+0.4.0	- You now lose 5 rage per second if you have not taken damage or gained rage in the past 4 seconds (from 10 rage per second if not taken damage or gained rage in the past 2 seconds). - Mirage Archer: Creating a Mirage now has a 10 second cooldown, the cooldown starts when a Mirage is created and is no longer reset by dodge rolling. You can now have multiple Mirages active at once. Mirage duration is now 5.4-6 seconds at gem levels 8-20 (previously 4.4-5). - Your current Rage is no longer displayed in your buff bar. Instead, there is now a Rage meter next to the mana globe.
+0.2.0	- Fixed a bug where effects that occur on reaching maximum Rage were not functioning correctly if you went from 0 Rage to maximum Rage in a single hit.

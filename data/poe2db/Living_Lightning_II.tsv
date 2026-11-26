@@ -1,0 +1,53 @@
+# https://poe2db.tw/us/Living_Lightning_II · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Tier	Gems
+1	Falling Thunder
+3	Lightning Spear
+4	Herald of Thunder
+5	Electrocuting Arrow , Galvanic Shards , Thunderstorm
+7	Siphoning Strike , Storm Wave
+9	Charged Staff , Stormblast Bolts
+11	Ball Lightning , Shockburst Rounds
+Level	Requires Level	Int	Mana	CooldownTime	Base Damage	Minion Level
+1	0	0	100%	0	100%, 100%, 100%, 100%	2
+2		0			100%, 100%	4
+3		0			100%, 100%	6
+4		0			100%, 100%	8
+5		0			100%, 100%	10
+6		0			100%, 100%	12
+7		0			100%, 100%	14
+8		0			100%, 100%	16
+9		0			100%, 100%	18
+10		0			100%, 100%	20
+11		0			100%, 100%	22
+12		0			100%, 100%	24
+13		0			100%, 100%	26
+14		0			100%, 100%	28
+15		0			100%, 100%	30
+16		0			100%, 100%	32
+17		0			100%, 100%	34
+18		0			100%, 100%	36
+19		0			100%, 100%	38
+20		0			100%, 100%	40
+21					100%, 100%	42
+22					100%, 100%	44
+23					100%, 100%	46
+24					100%, 100%	48
+25					100%, 100%	50
+26					100%, 100%	52
+27					100%, 100%	54
+28					100%, 100%	56
+29					100%, 100%	58
+30					100%, 100%	60
+31					100%, 100%	62
+32					100%, 100%	64
+33					100%, 100%	66
+34					100%, 100%	68
+35					100%, 100%	70
+36					100%, 100%	72
+37					100%, 100%	74
+38					100%, 100%	76
+39					100%, 100%	78
+40					100%, 100%	80
+Version	Changes
+0.5.0	* Fixed a bug where Living Lightning II did not scale its level from the Gem it was Supporting.
+0.4.0	- Living Lightning II now has a Cooldown count of 8 (previously 5).

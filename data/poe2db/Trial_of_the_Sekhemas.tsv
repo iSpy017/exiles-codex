@@ -1,0 +1,191 @@
+# https://poe2db.tw/us/Trial_of_the_Sekhemas · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Name	Show Full Descriptions
+Act	2
+Level	22
+Connected	The Ardura Caravan
+Topologies	entrance
+Level	Name	Experience	Damage	Attack Time	Life	Armour	Evasion	Energy Shield			 |
+22	Emal	955	50	1.17	3,660	138			0	0	0	0
+22	Tanim	955	50	1.17	3,660	138			0	0	0	0
+Name	Show Full Descriptions
+Act	2
+Level	22
+Boss	Rattlecage, the Earthbreaker
+Level	Name	Experience	Damage	Attack Time	Life	Armour	Evasion	Energy Shield			 |
+22	Black Strider	13,532	53	1.47	17,690	106			-30	0	0	0
+22	Quake Golem	12,179	47	1.47	15,921	212			75	-50	0	0
+22	Rattlecage, the Earthbreaker	16,915	66	1.47	22,113	212			75	-50	30	0
+22	Brimstone Crab	7,781	30	0.9849	10,172	212			30	0	-30	0
+22	Serpent Shaman	13,532	53	0.9849	17,690	106		31	0	30	0	0
+22	Skitter Golem	478	25	1.005	183	170			30	30	0	0
+22	Vault Lurker	716	37	1.5	275	106			-30	0	0	0
+22	Serpent Clan	1,194	62	1.005	458	106			0	30	0	0
+22	Quake Golem	1,433	74	1.5	549	212			75	-50	0	0
+22	Brimstone Crab	915	48	1.005	351	212			30	0	-30	0
+22	Desiccated Lich Summoner	1,194	62	3	915	143		275	-30	0	30	0
+22	Boulder Ant	597	31	1.5	229	186			30	30	0	0
+22	Rasp Scavenger	796	41	1.005	305	143			0	-30	0	0
+22	Rasp Scavenger	955	50	1.005	366	148			0	-30	0	0
+22	Tombshrieker	1,075	56	1.005	412	117			0	0	30	0
+Name	Show Full Descriptions
+Act	2
+Level	22
+Topologies	airlock_1
+Level	Name	Experience	Damage	Attack Time	Life	Armour	Evasion	Energy Shield			 |
+22	Desiccated Lich Summoner	1,194	62	3	915	143		275	-30	0	30	0
+Name	Show Full Descriptions
+Act	2
+Level	22
+Topologies	airlock_2
+Level	Name	Experience	Damage	Attack Time	Life	Armour	Evasion	Energy Shield			 |
+22	Desiccated Lich Summoner	1,194	62	3	915	143		275	-30	0	30	0
+Name	Show Full Descriptions
+Act	2
+Level	22
+Topologies	airlock_3
+Level	Name	Experience	Damage	Attack Time	Life	Armour	Evasion	Energy Shield			 |
+22	Desiccated Lich Summoner	1,194	62	3	915	143		275	-30	0	30	0
+Name	Show Full Descriptions
+Act	2
+Level	22
+Boss	Rafiq of the Frozen Spring Hadi of the Flaming River
+Topologies	airlock_1
+Level	Name	Experience	Damage	Attack Time	Life	Armour	Evasion	Energy Shield			 |
+22	Risen Arbalest	9,134	36	1.47	11,941	148			0	0	0	0
+22	Adorned Scarab	10,149	39	1.47	13,268	180			0	-30	30	0
+22	Gilded Beetle	12,517	49	1.47	16,363	212			0	-30	30	0
+22	Desiccated Lich	10,149	39	2.94	13,268	143		137	-30	0	30	0
+22	Risen Tale-woman	10,149	39	1.47	13,268	106		92	0	30	0	0
+22	Rafiq of the Frozen Spring	16,915	82	2.2785	13,268	212			-30	75	0	0
+22	Hadi of the Flaming River	16,915	82	2.3079	13,268	212			75	-30	0	0
+22	Adorned Beetle	677	35	1.5	259	159			0	-30	30	0
+22	Adorned Scarab	1,194	62	1.5	458	180			0	-30	30	0
+22	Risen Magi	1,592	83	1.5	610	106		183	30	-30	0	0
+22	Desiccated Lich Summoner	1,194	62	3	915	143		275	-30	0	30	0
+22	Mar Acolyte	1,194	62	1.17	458	106		46	30	-30	0	0
+22	Terracotta Soldier	876	52	1.17	470	159			30	30	0	0
+22	Risen Maraketh	796	45	1.5	305	106			0	0	0	0
+22	Sand Spirit	876	45	1.755	403	106		81	0	-30	30	0
+22	Urnwalker	1,353	70	1.5	519	143			0	30	0	0
+Name	Show Full Descriptions
+Act	2
+Level	22
+Topologies	airlock_1
+Level	Name	Experience	Damage	Attack Time	Life	Armour	Evasion	Energy Shield			 |
+22	Desiccated Lich Summoner	1,194	62	3	915	143		275	-30	0	30	0
+22	Terracotta Soldier	876	52	1.17	470	159			30	30	0	0
+Name	Show Full Descriptions
+Act	2
+Level	22
+Topologies	airlock_2
+Level	Name	Experience	Damage	Attack Time	Life	Armour	Evasion	Energy Shield			 |
+22	Desiccated Lich Summoner	1,194	62	3	915	143		275	-30	0	30	0
+22	Terracotta Soldier	876	52	1.17	470	159			30	30	0	0
+Name	Show Full Descriptions
+Act	2
+Level	22
+Topologies	airlock_3
+Level	Name	Experience	Damage	Attack Time	Life	Armour	Evasion	Energy Shield			 |
+22	Desiccated Lich Summoner	1,194	62	3	915	143		275	-30	0	30	0
+22	Terracotta Soldier	876	52	1.17	470	159			30	30	0	0
+Name	Show Full Descriptions
+Act	2
+Level	22
+Boss	Ashar, the Sand Mother
+Level	Name	Experience	Damage	Attack Time	Life	Armour	Evasion	Energy Shield			 |
+22	Adorned Scarab	10,149	39	1.47	13,268	180			0	-30	30	0
+22	Gilded Beetle	12,517	49	1.47	16,363	212			0	-30	30	0
+22	Brimstone Crab	7,781	30	0.9849	10,172	212			30	0	-30	0
+22	Desiccated Lich	10,149	39	2.94	13,268	143		137	-30	0	30	0
+22	Serpent Shaman	13,532	53	0.9849	17,690	106		31	0	30	0	0
+22	Ashar, the Sand Mother	16,915	66	1.47	22,113	180			30	-30	30	0
+22	Porcupine Goliath	1,114	58	1.05	427	106			0	0	0	0
+22	Spire Burrower	2,587	121	1.5	991	191			0	0	0	0
+22	Adorned Beetle	677	35	1.5	259	159			0	-30	30	0
+22	Adorned Scarab	1,194	62	1.5	458	180			0	-30	30	0
+22	Serpent Clan	1,194	62	1.005	458	106			0	30	0	0
+22	Brimstone Crab	915	48	1.005	351	212			30	0	-30	0
+22	Desiccated Lich Summoner	1,194	62	3	915	143		275	-30	0	30	0
+22	Rasp Scavenger	796	41	1.005	305	143			0	-30	0	0
+22	Rasp Scavenger	955	50	1.005	366	148			0	-30	0	0
+22	Vesper Bat	955	50	1.5	366	106			0	-30	30	0
+22	Sand Spirit	876	45	1.755	403	106		81	0	-30	30	0
+22	Dune Lurker	1,313	68	1.005	503	106			0	0	30	0
+22	Walking Goliath	1,711	98	1.5	656	106			0	0	0	0
+22	Urnwalker	1,353	70	1.5	519	143			0	30	0	0
+Name	Show Full Descriptions
+Act	2
+Level	22
+Topologies	airlock_1
+Level	Name	Experience	Damage	Attack Time	Life	Armour	Evasion	Energy Shield			 |
+22	Spire Burrower	2,587	121	1.5	991	191			0	0	0	0
+22	Desiccated Lich Summoner	1,194	62	3	915	143		275	-30	0	30	0
+Name	Show Full Descriptions
+Act	2
+Level	22
+Topologies	airlock_2
+Level	Name	Experience	Damage	Attack Time	Life	Armour	Evasion	Energy Shield			 |
+22	Spire Burrower	2,587	121	1.5	991	191			0	0	0	0
+22	Desiccated Lich Summoner	1,194	62	3	915	143		275	-30	0	30	0
+Name	Show Full Descriptions
+Act	2
+Level	22
+Topologies	airlock_3
+Level	Name	Experience	Damage	Attack Time	Life	Armour	Evasion	Energy Shield			 |
+22	Spire Burrower	2,587	121	1.5	991	191			0	0	0	0
+22	Desiccated Lich Summoner	1,194	62	3	915	143		275	-30	0	30	0
+Name	Show Full Descriptions
+Act	2
+Level	22
+Boss	Zarokh, the Temporal
+Level	Name	Experience	Damage	Attack Time	Life	Armour	Evasion	Energy Shield			 |
+22	Risen Magi	13,532	53	1.47	17,690	106		183	30	-30	0	0
+22	Desiccated Lich	10,149	39	2.94	13,268	143		137	-30	0	30	0
+22	Zarokh, the Temporal	27,064	39	1.47	66,338	106		160	30	30	30	0
+22	Risen Tale-woman	10,149	39	1.47	13,268	106		92	0	30	0	0
+22	Invisible	796	28	1.5	305	106			0	0	0	0
+22	Frost Wraith	1,274	66	1.5	488	106		171	-30	75	0	0
+22	Desiccated Lich Summoner	1,194	62	3	915	143		275	-30	0	30	0
+22	Sandflesh Mage	796	41	1.5	305	106			0	0	0	0
+22	Sand Spirit	876	45	1.755	403	106		81	0	-30	30	0
+22	Vril Apparition	557	29	1.5	214	106		107	0	0	0	0
+22	Winged Horror	1,075	56	1.005	412	106			0	0	-30	0
+22	Walking Goliath	1,711	98	1.5	656	106			0	0	0	0
+22	Goliath	1,990	103	1.5	763	106			75	-30	0	0
+22	Urnwalker	1,353	70	1.5	519	143			0	30	0	0
+Name	Show Full Descriptions
+Act	2
+Level	22
+Topologies	airlock_1
+Level	Name	Experience	Damage	Attack Time	Life	Armour	Evasion	Energy Shield			 |
+22	Invisible	796	28	1.5	305	106			0	0	0	0
+22	Desiccated Lich Summoner	1,194	62	3	915	143		275	-30	0	30	0
+Name	Show Full Descriptions
+Act	2
+Level	22
+Topologies	airlock_2
+Level	Name	Experience	Damage	Attack Time	Life	Armour	Evasion	Energy Shield			 |
+22	Invisible	796	28	1.5	305	106			0	0	0	0
+22	Desiccated Lich Summoner	1,194	62	3	915	143		275	-30	0	30	0
+Name	Show Full Descriptions
+Act	2
+Level	22
+Topologies	airlock_3
+Level	Name	Experience	Damage	Attack Time	Life	Armour	Evasion	Energy Shield			 |
+22	Invisible	796	28	1.5	305	106			0	0	0	0
+22	Desiccated Lich Summoner	1,194	62	3	915	143		275	-30	0	30	0
+Type	Name	Quantity
+Trial of the Sekhemas	Zarokh, the Temporal	143
+PosX	PosY	Unlock
+0	0	Complete the Test of Cunning
+1	0	Complete the Test of Strength
+2	0	Complete the Test of Strength
+3	0	Complete the Test of Will
+0	1	Complete the Test of Will
+4	1	Complete the Test of Cunning
+0	2	Complete the Test of Cunning
+4	2	Complete the Test of Time
+1	3	Complete the Test of Time
+2	3	Complete the Test of Strength
+3	3	Complete the Test of Will
+4	3	Complete the Test of Time

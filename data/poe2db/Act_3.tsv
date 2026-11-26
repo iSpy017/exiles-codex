@@ -1,0 +1,82 @@
+# https://poe2db.tw/us/Act_3 · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Name	Level	Boss
+Sandswept Marsh	33	Rootdredge · Dredge Fiend · Bloodthief Queen · Orok Shaman Rootdredge Hanging Tree Orok Campfire
+Ziggurat Encampment	44 |
+Infested Barrens	35	Troubled Camp Vaal Beacon
+Mystic Refuge	35	Druid of the Broken Circle · Unearthed Soldier Scrying Pool
+The Matlan Waterways	39	Azak Shaman · Azak Brute Canal Lever Narag's Hut Vaal Beacon Grave Findings
+Jungle Ruins	34	Mighty Silverfist · Alpha Primate Mighty Silverfist ( 2 Weapon Set Passive Skill Points ) Troubled Camp Vaal Beacon A Warning
+The Venom Crypts	35	Orok Shaman Orok Poison Venom Draught ( 25 % increased Stun Threshold 30 % increased Elemental Ailment Threshold 25 % increased Mana Regeneration Rate ) Abyss Vaal Beacon A Reprieve
+Chimeral Wetlands	36	Xyclucian, the Chimera Xyclucian, the Chimera Ravaged Camp Toxic Bloom Vaal Beacon
+Jiquani's Machinarium	37	Blackjaw, the Remnant · Vaal Skeletal Priest · Vaal Skeletal Archer Blackjaw, the Remnant ( +10 % to Fire Resistance 1 Broken Boss Faces )
+Jiquani's Sanctum	38	Zicoatl, Warden of the Core · Vaal Skeletal Archer · Vaal Skeletal Priest · Undead Vaal Guard · Undead Vaal Guard Zicoatl, Warden of the Core Paquate's Mechanism Vaal Beacon
+The Azak Bog	40	Ignagduk, the Bog Witch · Azak Brute · Azak Shaman · Azak Mauler · Azak Torchbearer · Azak Stalker Ignagduk, the Bog Witch ( +30 to Spirit 1 Broken Boss Faces ) A Travesty
+The Drowned City	40	Filthy First-born · River Hag
+The Molten Vault	41	Mektul, the Forgemaster · Gold-melted Blacksmith · Vaal Embalmed Archer · Vaal Embalmed Bearer · Gold-Melted Sentinel Mektul, the Forgemaster Molten Flow Cooled Bridge
+The Trial of Chaos The Temple of Chaos	38 38	Uxmal, the Beastlord · Chetza, the Feathered Plague · Bahlak, the Sky Seer · The Trialmaster Ultimatum
+Apex of Filth	41	The Queen of Filth · Foul Sage · Pyromushroom Cultivator · Foul Blacksmith · Foul Mauler The Queen of Filth Bubbling Respite
+Temple of Kopec	42	Ketzuli, High Priest of the Sun · Bloodrite Priest Ketzuli, High Priest of the Sun
+Utzaal	43	Viper Napuatzi · Loyal Jaguar · Vaal Overseer · Vaal Goliath Viper Napuatzi Chaos Statue Peculiar Fortunes
+Aggorat	44	Vaal Goliath · Bannerbearing Zealot · Vaal Goliath · Vaal Formshifter · Vaal Goliath · Vaal Formshifter · Blood Priest · Blood Priestess Blood Sacrifice ( 2 Weapon Set Passive Skill Points ) Undamaged Core Peculiar Fortunes
+The Black Chambers	45	Doryani, Royal Thaumaturge · Doryani's Triumph · Brutal Transcendent · Surgical Experimentalist · Goliath Transcendent · Shielded Transcendent Doryani, Royal Thaumaturge
+Type	Name	Quantity
+Act 3	Alva, Master Explorer	309
+Act 3	Alva's Journal	1
+Act 3	Ancient Carving	1
+Act 3	Ancient Scrawl |
+Act 3	Atalui, Blood Priestess	9
+Act 3	Atazek, Blood Priest	6
+Act 3	Blood Offering |
+Act 3	Cauldron Keeper	2
+Act 3	Crimson Clouds	1
+Act 3	Disciple of Atziri |
+Act 3	Doryani	560
+Act 3	Expedition Logbook	2
+Act 3	Flayed Offering |
+Act 3	Gwendolyn Albright	38
+Act 3	Impaled Offering |
+Act 3	Jiquani's Frustration	2
+Act 3	Jiquani's Rumination	1
+Act 3	Ketzuli, High Priest of the Sun	87
+Act 3	Lost Temple Logbook	1
+Act 3	Old Carving	1
+Act 3	Oswald	135
+Act 3	Oswald's Death Journal	13
+Act 3	Queen of Filth	161
+Act 3	Ravaged Corpse	1
+Act 3	Recent Carving	1
+Act 3	Rejoice!	1
+Act 3	Sebastian Carroway	65
+Act 3	Servi	135
+Act 3	Stone Tablet	1
+Act 3	Tonqui, Seer of the Sun |
+Act 3	Torn Offering |
+Act 3	Trinkets of Gold	1
+Act 3	Weathered Carving	1
+Act 3	Temoc, Drill Overseer	22
+Act 3	Mektul, the Forgemaster	168
+Act 3	Disloyalty	1
+Act 3	Huitzil, Royal Blood Priest	39
+Act 3	Crumbling Plaque	1
+Act 3	Xolotl, The Forgotten	11
+Act 3	BlackJaw	40
+Act 3	Ignagduk, the Bog Witch	37
+Act 3	Apparition of Shame	9
+Act 3	Apparition of Malice	3
+Act 3	Apparition of Wrath	9
+Name	Show Full Descriptions
+Act	3
+Level	0
+Topologies	Dam_Short_1 Lake_1, sink SandsweptMarsh_1 source Wetlands_1, Compass_Waterfall_02 LakeSource_2 sink CarverBog source source Jungle_1, Label_02 Underground_WE end end
+| 			↓
+The Azak Bog 40	↔	The Matlan Waterways 39		Sandswept Marsh 33
+| 	↕		↕ |
+The Venom Crypts 34	↔	Jungle Ruins 34	↔	Ziggurat Encampment	↔	The Drowned City 40	↔	Apex of Filth 41
+| 	↕		↕	⤡		⤡
+| 	Infested Barrens 35		Ziggurat Encampment (Past)		Temple of Kopec 42		The Molten Vault 41
+| 	↕		↕ |
+| 	Chimeral Wetlands 36		Utzaal 43
+| ⤢	↕		↕
+The Temple of Chaos		Jiquani's Machinarium 37		Aggorat 44 |
+| 	↕		↕
+| 	Jiquani's Sanctum 38		The Black Chambers 45

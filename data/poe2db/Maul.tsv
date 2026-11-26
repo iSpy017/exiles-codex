@@ -1,0 +1,53 @@
+# https://poe2db.tw/us/Maul · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Tier	Gems
+1	Fire Attunement Rapid Attacks I Rage I
+2	Life Leech I Brutality II Armour Break I
+3	Bleed II Close Combat I Armour Break II
+4	Rapid Attacks II Rage II Armour Break III
+5	Bleed III Brutality III Rage III
+Level	Requires Level	Base Damage
+1	0	80%, 80%, 80%
+2	3	88%, 88%, 88%
+3	6	97%, 97%, 97%
+4	10	106%, 106%, 106%
+5	14	115%, 115%, 115%
+6	18	124%, 124%, 124%
+7	22	133%, 133%, 133%
+8	26	142%, 142%, 142%
+9	31	150%, 150%, 150%
+10	36	158%, 158%, 158%
+11	41	167%, 167%, 167%
+12	46	177%, 177%, 177%
+13	52	188%, 188%, 188%
+14	58	199%, 199%, 199%
+15	64	212%, 212%, 212%
+16	66	225%, 225%, 225%
+17	72	239%, 239%, 239%
+18	78	255%, 255%, 255%
+19	84	272%, 272%, 272%
+20	90	290%, 290%, 290%
+21		309%, 309%, 309%
+22		330%, 330%, 330%
+23		352%, 352%, 352%
+24		375%, 375%, 375%
+25		400%, 400%, 400%
+26		427%, 427%, 427%
+27		455%, 455%, 455%
+28		485%, 485%, 485%
+29		518%, 518%, 518%
+30		552%, 552%, 552%
+31		589%, 589%, 589%
+32		628%, 628%, 628%
+33		670%, 670%, 670%
+34		715%, 715%, 715%
+35		762%, 762%, 762%
+36		813%, 813%, 813%
+37		867%, 867%, 867%
+38		925%, 925%, 925%
+39		987%, 987%, 987%
+40		1052%, 1052%, 1052%
+Version	Changes
+0.4.0	- Forge Maul now has the implicit modifiers "Crushes Enemies on Hit" and now has 26-35 damage (previously 29-39). Existing items will not have this implicit. - Anvil Maul now has the implicit modifiers "Crushes Enemies on Hit" and now has 101-136 damage (previously 112-151). Existing items will not have this implicit. - Crumbling Maul now has 8% critical strike chance (previously 5%). - Disintegrating Maul now has 8% critical strike chance (previously 5%) and deals 92-112 damage (previously 93-114). - Ruination Maul now has 8% critical strike chance (previously 5%) and deals 104-127 damage (previously 113-138).
+0.2.0f	* Azak Brute s, Azak Mauler s, Azak Stalker s, and Undead Vaal Guard s have had the frequency they use their skills such as ground slams reduced and the cooldowns increased.
+Name	Damage%	Life%	Spectre
+Wild Bear Spirit	450	150 |

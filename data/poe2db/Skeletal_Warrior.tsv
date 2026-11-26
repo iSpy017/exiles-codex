@@ -1,0 +1,60 @@
+# https://poe2db.tw/us/Skeletal_Warrior · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Tier	Gems
+1	Rage I Meat Shield I Sacrificial Lamb I
+2	Brutality II Minion Instability Armour Break I
+3	Feeding Frenzy I Essence Harvest Sacrificial Lamb II
+4	Heavy Swing Impale
+5	Brutality III Rage III Minion Mastery
+Level	Requires Level	Int	Mana	Base Damage	Minion Level
+1	0	4	60	100%, 100%, 100%	2
+2	3	9	44	100%, 100%, 100%	4
+3	6	14	33	100%, 100%, 100%	6
+4	10	21	27	100%, 100%, 100%	8
+5	14	28	25	100%, 100%, 100%	10
+6	18	35	25	100%, 100%, 100%	12
+7	22	41	23	100%, 100%, 100%	14
+8	26	48	23	100%, 100%, 100%	16
+9	31	57	23	100%, 100%, 100%	18
+10	36	65	22	100%, 100%, 100%	20
+11	41	74	22	100%, 100%, 100%	22
+12	46	82	22	100%, 100%, 100%	24
+13	52	92	21	100%, 100%, 100%	26
+14	58	103	21	100%, 100%, 100%	28
+15	64	113	21	100%, 100%, 100%	30
+16	66	116	21	100%, 100%, 100%	32
+17	72	126	20	100%, 100%, 100%	34
+18	78	137	20	100%, 100%, 100%	36
+19	84	147	20	100%, 100%, 100%	38
+20	90	157	20	100%, 100%, 100%	40
+21			19	100%, 100%, 100%	42
+22			19	100%, 100%, 100%	44
+23			19	100%, 100%, 100%	46
+24			19	100%, 100%, 100%	48
+25			19	100%, 100%, 100%	50
+26			18	100%, 100%, 100%	52
+27			18	100%, 100%, 100%	54
+28			18	100%, 100%, 100%	56
+29			18	100%, 100%, 100%	58
+30			18	100%, 100%, 100%	60
+31			17	100%, 100%, 100%	62
+32			17	100%, 100%, 100%	64
+33			17	100%, 100%, 100%	66
+34			17	100%, 100%, 100%	68
+35			17	100%, 100%, 100%	70
+36			16	100%, 100%, 100%	72
+37			16	100%, 100%, 100%	74
+38			16	100%, 100%, 100%	76
+39			16	100%, 100%, 100%	78
+40			16	100%, 100%, 100%	80
+Version	Changes
+0.2.0	- Skeletal Warrior can no longer be engraved in the Gemcutting menu, as it was only provided as a stop-gap until this functionality was implemented. Existing copies of the Skeletal Warrior skill gem have been turned into Skeletal Sniper gems. The Skeletal Warrior skill granted by some sceptres now allows you to summon additional skeletons by reserving spirit, in addition to the two free skeletons it grants automatically.
+Tags	bone_armour , bones , fast_movement , has_one_hand_sword , has_one_handed_melee , medium_height , melee , not_dex , not_int , physical_affinity , skeleton , slashing_weapon , Sword1H_onhit_audio , undead
+Family	MonsterNoDropsOrExperience
+Domains	Monster (3)
+GenerationType	Unique (3)
+Stats	monster no drops or experience 1 — 1 Global — Unscalable Value
+Family	MonsterBlock
+Domains	Monster (3)
+GenerationType	Unique (3)
+Stats	monster base block % 30 — 30 Global additional maximum block % 0 — 0 Global
+Craft Tags	block

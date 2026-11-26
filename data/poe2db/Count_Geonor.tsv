@@ -1,0 +1,40 @@
+# https://poe2db.tw/us/Count_Geonor · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Area	Ogham Manor
+Tags	fast_movement , human , humanoid , not_dex , not_int , red_blood , Sword1H_onhit_audio
+Area	Ogham Manor , The Iron Citadel , Western Enigma Chamber
+Tags	fast_movement , human , humanoid , not_dex , not_int , red_blood , Sword1H_onhit_audio
+Family	FreezeDamageIncrease
+Domains	Monster (3)
+GenerationType	Unique (3)
+Stats	hit damage freeze multiplier +% 100 — 100 Global
+Adds Tags	no_fire_spell_mods no_lightning_spell_mods no_chaos_spell_mods
+Craft Tags	Elemental Cold Ailment
+Family	MonsterMapBossExtraForms
+Domains	Monster (3)
+GenerationType	Unique (3)
+Stats	monster has second form 1 — 1 Global — Unscalable Value
+Area	Ogham Manor
+Tags	beast , human , humanoid , not_int , red_blood , slow_movement , Sword1H_onhit_audio
+Area	Ogham Manor
+Tags	beast , human , humanoid , not_int , red_blood , slow_movement , Sword1H_onhit_audio
+Family	FreezeDamageIncrease
+Domains	Monster (3)
+GenerationType	Unique (3)
+Stats	hit damage freeze multiplier +% 100 — 100 Global
+Adds Tags	no_fire_spell_mods no_lightning_spell_mods no_chaos_spell_mods
+Craft Tags	Elemental Cold Ailment
+Family	MonsterMapBossExtraForms
+Domains	Monster (3)
+GenerationType	Unique (3)
+Stats	monster has second form 1 — 1 Global — Unscalable Value
+NPC	Name
+Una	You've lived in Ogham most of your life. Did you ever meet the Count before his madness took hold? As a child, I met him once, and he was kind to me. His smile was even - dare I say it - inspiring. The role of Count has always been reserved for the best of us, and yet here we are. Everything has changed. From the moment this curse fell upon our lands, our way of life has been slowly eroding. If the best of us can fall so far, what hope do {we} have? Do what you must.
+Una	You must understand our way of life to know how dire this situation has become. The Count is the voice of our people, even above the Thanes. The role of Count was created to unify our clans against our Eternal oppressors, and it has always been reserved for the best of us. As a child, I met Geonor once, and he was kind to me. Everything has changed. From the moment this curse fell upon our lands, our way of life has been slowly eroding. If the best of us can fall so far, what hope do {we} have? Do what you must
+Renly	The Count's name will not be remembered in our songs. Hah! Good riddance.
+Finn	Never had any love for ol' Count Geonor. Give him a stab or two for me.
+Finn	I was first to notice the mad Count's fist closing around this land. He kept rounding up people like me... for reasons that smelled like wolf droppings. I'm a bit of a slippery fish though, so I dodged his nets. Then, his mercenaries started coming for people I actually liked, and that's when I knew something was up. The village folk kept defending his actions. I don't know why they couldn't see it. Maybe they didn't want to see it.
+The Hooded One	If you intend to face the Count, I must warn you: an ancient corrupting power has driven him to madness. There is no telling what you may find within the walls of the Manor. Where the Seed of Corruption takes root, life bends itself into unnatural shapes, and the minds of men grow fevered. Though you may face horrors beyond comprehension, it is this Seed that is the true danger at the heart of the Manor.
+Leitis	There is only one thing for certain. Count Geonor must die. He ordered the guard to round up everyone in the village, and when we resisted, they burned it to the ground. Enter the Manor. Take our vengeance upon him!
+The Hooded One	The Count accosted me and stole a very dangerous object—a Seed that I have kept hidden from humanity. Somehow, he knew that I possessed it. He cannot possibly know how dangerous it is. His attempts to harness its power will court disaster. You must hurry to the Village. At the very least, those who are still sane may be convinced to aid in containing the Seed.
+NPC	Name
+Leitis	For what it's worth, my name is Leitis. I appreciate the rescue, but... Eamon... everything I know... it's all gone. It isn't worth much, but take this. Perhaps it will aid you against that monster.

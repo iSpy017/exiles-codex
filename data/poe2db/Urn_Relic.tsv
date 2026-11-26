@@ -1,0 +1,60 @@
+# https://poe2db.tw/us/Urn_Relic · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Name	Level	Pre/Suf	Description	Weight
+Steadfast	1	Prefix	(5 — 8) % increased maximum Life	small_sanctum_relic 1 default 0
+Enduring	40	Prefix	(9 — 12) % increased maximum Life	small_sanctum_relic 1 default 0
+Adamant	55	Prefix	(13 — 16) % increased maximum Life	small_sanctum_relic 1 default 0
+Ardent	67	Prefix	(17 — 20) % increased maximum Life	small_sanctum_relic 1 default 0
+Resolute	76	Prefix	(21 — 25) % increased maximum Life	small_sanctum_relic 1 default 0
+Honourable	1	Prefix	(9 — 12) % increased maximum Honour	small_sanctum_relic 1 default 0
+Moral	40	Prefix	(13 — 16) % increased maximum Honour	small_sanctum_relic 1 default 0
+Principled	55	Prefix	(17 — 20) % increased maximum Honour	small_sanctum_relic 1 default 0
+Respected	67	Prefix	(21 — 24) % increased maximum Honour	small_sanctum_relic 1 default 0
+Venerable	76	Prefix	(25 — 30) % increased maximum Honour	small_sanctum_relic 1 default 0
+Revitalising	1	Prefix	(6 — 10) % increased Honour restored	small_sanctum_relic 1 default 0
+Galvanising	50	Prefix	(11 — 15) % increased Honour restored	small_sanctum_relic 1 default 0
+Enlivening	70	Prefix	(16 — 20) % increased Honour restored	small_sanctum_relic 1 default 0
+Emboldening	75	Prefix	(21 — 24) % increased Honour restored	small_sanctum_relic 1 default 0
+Brightening	80	Prefix	(25 — 29) % increased Honour restored	small_sanctum_relic 1 default 0
+of Dampening	1	Suffix	Monsters have (5 — 6) % chance to drop double Sacred Water	small_sanctum_relic 1 default 0
+of Soaking	35	Suffix	Monsters have (7 — 8) % chance to drop double Sacred Water	small_sanctum_relic 1 default 0
+of Drenching	54	Suffix	Monsters have (9 — 10) % chance to drop double Sacred Water	small_sanctum_relic 1 default 0
+of Saturating	70	Suffix	Monsters have (11 — 15) % chance to drop double Sacred Water	small_sanctum_relic 1 default 0
+of Flowing	1	Suffix	Fountains have (5 — 6) % chance to grant double Sacred Water	small_sanctum_relic 1 default 0
+of Brimming	35	Suffix	Fountains have (7 — 8) % chance to grant double Sacred Water	small_sanctum_relic 1 default 0
+of Overflowing	54	Suffix	Fountains have (9 — 10) % chance to grant double Sacred Water	small_sanctum_relic 1 default 0
+of Abundance	70	Suffix	Fountains have (11 — 15) % chance to grant double Sacred Water	small_sanctum_relic 1 default 0
+Commoner's	1	Prefix	Gain (30 — 39) Sacred Water at the start of the Trial	small_sanctum_relic 1 default 0
+Dekhara's	40	Prefix	Gain (40 — 49) Sacred Water at the start of the Trial	small_sanctum_relic 1 default 0
+Djinn's	55	Prefix	Gain (50 — 59) Sacred Water at the start of the Trial	small_sanctum_relic 1 default 0
+Sekhema's	67	Prefix	Gain (40 — 49) Sacred Water at the start of the Trial	small_sanctum_relic 1 default 0
+Divinity's	76	Prefix	Gain (50 — 59) Sacred Water at the start of the Trial	small_sanctum_relic 1 default 0
+of Discovery	1	Suffix	(6 — 10) % increased quantity of Relics dropped by Monsters	small_sanctum_relic 1 default 0
+of Learning	50	Suffix	(11 — 15) % increased quantity of Relics dropped by Monsters	small_sanctum_relic 1 default 0
+of Investigation	80	Suffix	(16 — 20) % increased quantity of Relics dropped by Monsters	small_sanctum_relic 1 default 0
+Reinforced	1	Prefix	(20 — 29) % increased Armour , Evasion and Energy Shield	small_sanctum_relic 1 default 0
+Layered	50	Prefix	(30 — 39) % increased Armour , Evasion and Energy Shield	small_sanctum_relic 1 default 0
+Thickened	65	Prefix	(40 — 49) % increased Armour , Evasion and Energy Shield	small_sanctum_relic 1 default 0
+Girded	75	Prefix	(50 — 70) % increased Armour , Evasion and Energy Shield	small_sanctum_relic 1 default 0
+Acrobatic	1	Prefix	Traps deal (5 — 7) % reduced Damage	small_sanctum_relic 1 default 0
+Limber	78	Prefix	Traps deal (8 — 10) % reduced Damage	small_sanctum_relic 1 default 0
+Nimble	1	Prefix	(3 — 4) % increased Movement Speed	small_sanctum_relic 1 default 0
+Swift	55	Prefix	(5 — 6) % increased Movement Speed	small_sanctum_relic 1 default 0
+Hasted	78	Prefix	(7 — 10) % increased Movement Speed	small_sanctum_relic 1 default 0
+of Lunging	1	Suffix	+(0.3 — 0.4) metres to Dodge Roll distance	small_sanctum_relic 1 default 0
+of Eluding	70	Suffix	+(0.5 — 0.7) metres to Dodge Roll distance	small_sanctum_relic 1 default 0
+of Unyielding	1	Suffix	(8 — 11) % reduced Slowing Potency of Debuffs on You	small_sanctum_relic 1 default 0
+of Unrelenting	55	Suffix	(12 — 15) % reduced Slowing Potency of Debuffs on You	small_sanctum_relic 1 default 0
+of the Pathfinder	76	Suffix	(16 — 20) % reduced Slowing Potency of Debuffs on You	small_sanctum_relic 1 default 0
+of Stoutness	1	Suffix	Hits against you have (12 — 15) % reduced Critical Damage Bonus	small_sanctum_relic 1 default 0
+of Tenacity	55	Suffix	Hits against you have (16 — 19) % reduced Critical Damage Bonus	small_sanctum_relic 1 default 0
+of Unwavering	76	Suffix	Hits against you have (20 — 25) % reduced Critical Damage Bonus	small_sanctum_relic 1 default 0
+of Worth	1	Suffix	+(8 — 10) % to Honour Resistance	small_sanctum_relic 1 default 0
+of Deserving	40	Suffix	+(11 — 13) % to Honour Resistance	small_sanctum_relic 1 default 0
+of Justification	55	Suffix	+(14 — 16) % to Honour Resistance	small_sanctum_relic 1 default 0
+of Entitlement	67	Suffix	+(17 — 19) % to Honour Resistance	small_sanctum_relic 1 default 0
+of Merit	76	Suffix	+(20 — 22) % to Honour Resistance	small_sanctum_relic 1 default 0
+of Access	1	Suffix	(6 — 10) % increased quantity of Keys dropped by Monsters	small_sanctum_relic 1 default 0
+of Admission	50	Suffix	(11 — 15) % increased quantity of Keys dropped by Monsters	small_sanctum_relic 1 default 0
+of Entry	65	Suffix	(16 — 20) % increased quantity of Keys dropped by Monsters	small_sanctum_relic 1 default 0
+of Entrance	75	Suffix	(21 — 25) % increased quantity of Keys dropped by Monsters	small_sanctum_relic 1 default 0
+| 1	Corrupted	(8 — 10) % increased Honour restored	default 1

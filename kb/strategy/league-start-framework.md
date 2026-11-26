@@ -1,4 +1,10 @@
-# League Start Framework (from "The Only POE2 League Start Guide you NEED")
+---
+title: League Start Framework (from "The Only POE2 League Start Guide you NEED")
+status: done
+tracker_topic: "League start framework (video transcript)"
+tracker_note: "done (pre-1.0 opinion)"
+defaults: v=1.0 vol=may-change
+---
 
 Source: video transcript supplied by David, 2026-11-17 (12-page PDF, read in full). Creator name not in the transcript. Strategy opinion, not game data → treat as tier 3/5: useful framing, no mechanics claims accepted without verification.
 Version: written pre-1.0 (creator refers to an upcoming league with Trial of Chaos and "citadels"). Volatility: may-change.

@@ -1,0 +1,97 @@
+# https://poe2db.tw/us/Act_1 · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Name	Level	Boss
+The Riverbank	1	The Bloated Miller The Bloated Miller
+Clearfell Encampment	15 |
+Clearfell	2	Beira of the Rotten Pack · Vile Hag Beira of the Rotten Pack ( +10 % to Cold Resistance 1 Broken Boss Faces ) Mysterious Campsite
+Mud Burrow	3	The Devourer The Devourer
+The Grelwood	4	The Brambleghast · Werewolf Prowler The Brambleghast The Tree of Souls Witch Hut Areagne, Forgotten Witch
+Lost Catacombs	12	Priest of the Chalice · Runed Knight · Unearthed Runecaster · Fungal Proliferator · Fungal Artillery The Starlit Rite
+The Red Vale	5	The Rust King The Rust King
+The Grim Tangle	6	The Rotten Druid · Fungal Proliferator · Fungal Artillery Ervig, the Rotten Druid Decrepit Runestones
+Cemetery of the Eternals	7	Lachlann of Endless Lament · Burdened Wretch · Undertaker Lachlann of Endless Lament Ancient Ruin
+Mausoleum of the Praetor	8	Draven, the Eternal Praetor · Lightning Wraith · Eternal Knight · Courtesan · Ghoul Commander Draven, the Eternal Praetor Forgotten Riches
+Tomb of the Consort	8	Asinia, the Praetor's Consort · Eternal Knight · Dread Servant Asinia, the Praetor's Consort Embattled Trove
+Root Hollow	15	The Rotten Druid The Hooded One's Request
+Hunting Grounds	10	The Crowbell · Venomous Crab Matriarch · Bramble Hulk The Crowbell ( 2 Weapon Set Passive Skill Points ) Ritual Altar Dryadic Ritual Wild Runestones
+Freythorn	11	Skeleton Spriggan · Cultist Witch · Cultist Archer · Ribrattle The King in the Mists ( +30 to Spirit 1 Broken Boss Faces )
+Ogham Farmlands	12	Scarecrow Beast Una's Hut ( 2 Weapon Set Passive Skill Points ) Crop Circle Bared Runestones
+Ogham Village	13	The Executioner · Blood Collector · Decrepit Mercenary Renly's Workshop Blacksmith Chest The Executioner
+The Manor Ramparts	14	Decrepit Mercenary · Courtesan · Iron Thaumaturgist · Iron Spearman · Iron Guard The Gallows
+Ogham Manor	15	Candlemass, the Living Rite · Count Geonor · Courtesan · Iron Thaumaturgist Candlemass, the Living Rite ( +20 to maximum Life 1 Broken Boss Faces ) Count Geonor
+Type	Name	Quantity
+Act 1	Oba |
+Act 1	[DNT-UNUSED] Glyph	2
+Act 1	Aoife	38
+Act 1	Asinia's Proclamation	1
+Act 1	Beira of the Rotten Pack	21
+Act 1	Brutal Orders	1
+Act 1	Count's Decree	2
+Act 1	Count's Orders	1
+Act 1	Count's Sentencing	1
+Act 1	Draven, the Eternal Praetor	85
+Act 1	Draven's Dictum	1
+Act 1	Eamon |
+Act 1	Farrow	318
+Act 1	Finn	164
+Act 1	Geonor's Journal	2
+Act 1	Grave of Count Lachlann	1
+Act 1	Grieving Epitaph	5
+Act 1	Lachlann the Lost	40
+Act 1	Lachlann's Letter	1
+Act 1	Legacy	1
+Act 1	Leitis	15
+Act 1	Mortimer	29
+Act 1	Mysterious Orders	1
+Act 1	Notice of Amnesty	1
+Act 1	Notice of Criminality	1
+Act 1	Ogham Village	1
+Act 1	Proclamation	1
+Act 1	Psalm of Blood	1
+Act 1	Psalm of Madness	1
+Act 1	Renly	128
+Act 1	Rusted Grave |
+Act 1	Savvy Letter	1
+Act 1	Sorrowful Memoriam	6
+Act 1	Starlit Sacrament	1
+Act 1	The Executioner	74
+Act 1	The Hooded One	93
+Act 1	The Way Out	3
+Act 1	Una	162
+Act 1	Wounded Man	4
+Act 1	Zanas Necklace |
+Act 1	Count Geonor	89
+Act 1	Geonor, the Putrid Wolf	68
+Act 1	Ghostly Voice	1
+Act 1	Og The Mangler	8
+Act 1	Imperial Knight	18
+Act 1	Lachlann of Endless Lament	9
+Act 1	Count's Journal	1
+Act 1	Torture Log	1
+Act 1	The Bloated Miller	8
+Act 1	The Rust King	5
+Act 1	Bearer Of Penitence	13
+Name	Show Full Descriptions
+Act	1
+Level	0
+Topologies	source_1 Clearfell_2F source_2 Graveyard_1 Village_1 sink_1 Canopy OldForest_1 Label_02 Compass_02 Underground_NE end end end source_1 Clearfell_2 source_2 Graveyard_1 Village_1 sink_1 Canopy OldForest_1 Label_02 Compass_02 Underground_NW end end end source_1 Clearfell_1 source_2 sink_1 OldForest_1 Label_Grass_01 Compass_02 Graveyard_1 Village_2 Canopy Underground_SN end end end source_1 Clearfell_3F sink_1 source_1 OldForest_2 Label_Grass_02 Graveyard_2 Canopy Village_2 Underground_SE end end end Compass_Grass_02 source_1 Clearfell_3 sink_1 source_1 OldForest_2 Label_Grass_02 Graveyard_2 Canopy Village_2 Underground_SW end end end Compass_Grass_02 source_1 Clearfell_1F source_2 sink_1 OldForest_1 Label_Grass_01 Compass_01 Graveyard_1 Village_2 Canopy Underground_WE end end end
+| 	The Riverbank 1 / 45
+| 	↕ |
+| 	Clearfell Encampment |
+| 	↕ |
+| 	Clearfell 2 / 45	↔	Mud Burrow 3 / 46
+| 	↕ |
+| 	The Grelwood 4 / 47	↔	The Red Vale 5 / 47
+| 	↕ |
+| 	The Grim Tangle 6 / 47
+| 	↕ |
+Tomb of the Consort 9 / 48	↔	Cemetery of the Eternals 7 / 47	↔	Mausoleum of the Praetor 9 / 48 |
+| 	↕ |
+| 	Hunting Grounds 10 / 49	↔	Freythorn 11 / 49 |
+| 	↕ |
+| 	Ogham Farmlands 12 / 49 |
+| 	↕ |
+| 	Ogham Village 13 / 50
+| 	↓ |
+| 	The Manor Ramparts 14 / 50
+| 	↕ |
+| 	Ogham Manor 15 / 51

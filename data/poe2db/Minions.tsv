@@ -1,0 +1,238 @@
+# https://poe2db.tw/us/Minions · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Gem Level	Minion Level
+1	2
+2	4
+3	6
+4	8
+5	10
+6	12
+7	14
+8	16
+9	18
+10	20
+11	22
+12	24
+13	26
+14	28
+15	30
+16	32
+17	34
+18	36
+19	38
+20	40
+21	42
+22	44
+23	46
+24	48
+25	50
+26	52
+27	54
+28	56
+29	58
+30	60
+31	62
+32	64
+33	66
+34	68
+35	70
+36	72
+37	74
+38	76
+39	78
+40	80
+Name	Level	Pre/Suf	Description	Weight
+of the Taskmaster	5	Suffix	+1 to Level of all Minion Skills Minion Gem	helmet 1 amulet 1 default 0
+of the Despot	41	Suffix	+2 to Level of all Minion Skills Minion Gem	helmet 1 amulet 1 default 0
+of the Overseer	75	Suffix	+3 to Level of all Minion Skills Minion Gem	amulet 1 default 0
+of the Taskmaster	2	Suffix	+1 to Level of all Minion Skills Minion Gem	sceptre 1 default 0
+of the Despot	25	Suffix	+2 to Level of all Minion Skills Minion Gem	sceptre 1 default 0
+of the Overseer	55	Suffix	+3 to Level of all Minion Skills Minion Gem	sceptre 1 default 0
+of the Slavedriver	78	Suffix	+4 to Level of all Minion Skills Minion Gem	sceptre 1 default 0
+of the Mentor	2	Suffix	Minions have (21 — 25) % increased maximum Life Life Minion	sceptre 1 default 0
+of the Tutor	16	Suffix	Minions have (26 — 30) % increased maximum Life Life Minion	sceptre 1 default 0
+of the Director	32	Suffix	Minions have (31 — 35) % increased maximum Life Life Minion	sceptre 1 default 0
+of the Headmaster	48	Suffix	Minions have (36 — 40) % increased maximum Life Life Minion	sceptre 1 default 0
+of the Administrator	64	Suffix	Minions have (41 — 45) % increased maximum Life Life Minion	sceptre 1 default 0
+of the Rector	80	Suffix	Minions have (46 — 50) % increased maximum Life Life Minion	sceptre 1 default 0
+| 1	Corrupted	+1 to Level of all Minion Skills Minion Gem	helmet 1 default 0
+| 1	Unique	+2 to Level of all Minion Skills Minion Gem	helmet 1 default 0
+Hustler's	13	Prefix	Minions deal (7 — 9) % increased Damage Damage Minion	belt 0 genesis_tree_minion 1 default 0
+Conniver's	26	Prefix	Minions deal (10 — 12) % increased Damage Damage Minion	belt 0 genesis_tree_minion 1 default 0
+Schemer's	33	Prefix	Minions deal (13 — 15) % increased Damage Damage Minion	belt 0 genesis_tree_minion 1 default 0
+Plotter's	46	Prefix	Minions deal (16 — 18) % increased Damage Damage Minion	belt 0 genesis_tree_minion 1 default 0
+Conspirator's	54	Prefix	Minions deal (19 — 21) % increased Damage Damage Minion	belt 0 genesis_tree_minion 1 default 0
+Exploiter's	65	Prefix	Minions deal (22 — 24) % increased Damage Damage Minion	belt 0 genesis_tree_minion 1 default 0
+Manipulator's	70	Prefix	Minions deal (25 — 27) % increased Damage Damage Minion	belt 0 genesis_tree_minion 1 default 0
+Puppeteer's	82	Prefix	Minions deal (28 — 31) % increased Damage Damage Minion	belt 0 genesis_tree_minion 1 default 0
+of Persuasion	27	Suffix	Minions have (5 — 7) % increased Movement Speed Speed Minion	ring 0 genesis_tree_minion 1 default 0
+of Pressure	48	Suffix	Minions have (8 — 10) % increased Movement Speed Speed Minion	ring 0 genesis_tree_minion 1 default 0
+of Coercion	68	Suffix	Minions have (11 — 13) % increased Movement Speed Speed Minion	ring 0 genesis_tree_minion 1 default 0
+of Compulsion	77	Suffix	Minions have (14 — 16) % increased Movement Speed Speed Minion	ring 0 genesis_tree_minion 1 default 0
+of Numbness	22	Suffix	Minions have +(7 — 9) % to all Elemental Resistances Elemental Fire Cold Lightning Resistance Minion	belt 0 genesis_tree_minion 1 default 0
+of Dullness	38	Suffix	Minions have +(10 — 12) % to all Elemental Resistances Elemental Fire Cold Lightning Resistance Minion	belt 0 genesis_tree_minion 1 default 0
+of Desensitisation	49	Suffix	Minions have +(14 — 16) % to all Elemental Resistances Elemental Fire Cold Lightning Resistance Minion	belt 0 genesis_tree_minion 1 default 0
+of Conditioning	57	Suffix	Minions have +(17 — 19) % to all Elemental Resistances Elemental Fire Cold Lightning Resistance Minion	belt 0 genesis_tree_minion 1 default 0
+of Acclimatisation	66	Suffix	Minions have +(20 — 22) % to all Elemental Resistances Elemental Fire Cold Lightning Resistance Minion	belt 0 genesis_tree_minion 1 default 0
+of Adaptation	73	Suffix	Minions have +(23 — 25) % to all Elemental Resistances Elemental Fire Cold Lightning Resistance Minion	belt 0 genesis_tree_minion 1 default 0
+of Guidance	31	Suffix	Minions have (3 — 4) % increased Attack and Cast Speed Attack Caster Speed Minion	belt 0 genesis_tree_minion 1 default 0
+of Direction	53	Suffix	Minions have (5 — 6) % increased Attack and Cast Speed Attack Caster Speed Minion	belt 0 genesis_tree_minion 1 default 0
+of Management	69	Suffix	Minions have (7 — 8) % increased Attack and Cast Speed Attack Caster Speed Minion	belt 0 genesis_tree_minion 1 default 0
+of Control	80	Suffix	Minions have (9 — 10) % increased Attack and Cast Speed Attack Caster Speed Minion	belt 0 genesis_tree_minion 1 default 0
+of Pricking	18	Suffix	Minions have (5 — 12) % increased Critical Hit Chance Minion Critical	belt 0 genesis_tree_minion 1 default 0
+of Stinging	32	Suffix	Minions have (13 — 20) % increased Critical Hit Chance Minion Critical	belt 0 genesis_tree_minion 1 default 0
+of Gouging	45	Suffix	Minions have (21 — 28) % increased Critical Hit Chance Minion Critical	belt 0 genesis_tree_minion 1 default 0
+of Puncturing	58	Suffix	Minions have (29 — 36) % increased Critical Hit Chance Minion Critical	belt 0 genesis_tree_minion 1 default 0
+of Lacinating	70	Suffix	Minions have (37 — 44) % increased Critical Hit Chance Minion Critical	belt 0 genesis_tree_minion 1 default 0
+of Piercing	81	Suffix	Minions have (45 — 52) % increased Critical Hit Chance Minion Critical	belt 0 genesis_tree_minion 1 default 0
+of Quashing	17	Suffix	Minions have (6 — 10) % increased Critical Damage Bonus Damage Minion Critical	belt 0 genesis_tree_minion 1 default 0
+of Purging	30	Suffix	Minions have (11 — 15) % increased Critical Damage Bonus Damage Minion Critical	belt 0 genesis_tree_minion 1 default 0
+of Elimination	44	Suffix	Minions have (16 — 20) % increased Critical Damage Bonus Damage Minion Critical	belt 0 genesis_tree_minion 1 default 0
+of Devastation	57	Suffix	Minions have (21 — 25) % increased Critical Damage Bonus Damage Minion Critical	belt 0 genesis_tree_minion 1 default 0
+of Eradication	69	Suffix	Minions have (26 — 30) % increased Critical Damage Bonus Damage Minion Critical	belt 0 genesis_tree_minion 1 default 0
+of Extinction	80	Suffix	Minions have (31 — 35) % increased Critical Damage Bonus Damage Minion Critical	belt 0 genesis_tree_minion 1 default 0
+Bearing	18	Prefix	Minions have (7 — 10) % increased maximum Life Life Minion	genesis_tree_minion 1 default 0
+Bracing	29	Prefix	Minions have (11 — 14) % increased maximum Life Life Minion	genesis_tree_minion 1 default 0
+Toughening	41	Prefix	Minions have (15 — 18) % increased maximum Life Life Minion	genesis_tree_minion 1 default 0
+Reinforcing	52	Prefix	Minions have (19 — 22) % increased maximum Life Life Minion	genesis_tree_minion 1 default 0
+Bolstering	67	Prefix	Minions have (23 — 26) % increased maximum Life Life Minion	genesis_tree_minion 1 default 0
+Fortifying	75	Prefix	Minions have (27 — 30) % increased maximum Life Life Minion	genesis_tree_minion 1 default 0
+Stirring	24	Prefix	Minions Revive (1 — 2) % faster Minion	ring 0 genesis_tree_minion 1 default 0
+Rousing	45	Prefix	Minions Revive (3 — 5) % faster Minion	ring 0 genesis_tree_minion 1 default 0
+Waking	63	Prefix	Minions Revive (7 — 9) % faster Minion	ring 0 genesis_tree_minion 1 default 0
+Restless	76	Prefix	Minions Revive (10 — 12) % faster Minion	ring 0 genesis_tree_minion 1 default 0
+Guide's	18	Prefix	Minions deal (13 — 20) % increased Damage with Command Skills Damage Minion	ring 0 genesis_tree_minion 1 default 0
+Lookout's	35	Prefix	Minions deal (21 — 28) % increased Damage with Command Skills Damage Minion	ring 0 genesis_tree_minion 1 default 0
+Watcher's	44	Prefix	Minions deal (29 — 36) % increased Damage with Command Skills Damage Minion	ring 0 genesis_tree_minion 1 default 0
+Sentry's	52	Prefix	Minions deal (37 — 44) % increased Damage with Command Skills Damage Minion	ring 0 genesis_tree_minion 1 default 0
+Shepherd's	63	Prefix	Minions deal (45 — 52) % increased Damage with Command Skills Damage Minion	ring 0 genesis_tree_minion 1 default 0
+Custodian's	81	Prefix	Minions deal (53 — 61) % increased Damage with Command Skills Damage Minion	ring 0 genesis_tree_minion 1 default 0
+of the Taskmaster	36	Suffix	+1 to Level of all Minion Skills Minion Gem	ring 0 genesis_tree_minion 1 default 0
+of the Despot	64	Suffix	+2 to Level of all Minion Skills Minion Gem	ring 0 genesis_tree_minion 1 default 0
+of Clutching	16	Suffix	Minions have (20 — 25) % increased Immobilisation buildup Minion	ring 0 genesis_tree_minion 1 default 0
+of Grasping	34	Suffix	Minions have (26 — 31) % increased Immobilisation buildup Minion	ring 0 genesis_tree_minion 1 default 0
+of Gripping	48	Suffix	Minions have (32 — 37) % increased Immobilisation buildup Minion	ring 0 genesis_tree_minion 1 default 0
+of Snaring	56	Suffix	Minions have (38 — 43) % increased Immobilisation buildup Minion	ring 0 genesis_tree_minion 1 default 0
+of Grappling	65	Suffix	Minions have (44 — 49) % increased Immobilisation buildup Minion	ring 0 genesis_tree_minion 1 default 0
+of Seizing	74	Suffix	Minions have (50 — 55) % increased Immobilisation buildup Minion	ring 0 genesis_tree_minion 1 default 0
+of Scurrying	23	Suffix	Minions have (5 — 8) % increased Area of Effect Minion	ring 0 genesis_tree_minion 1 default 0
+of Bustling	36	Suffix	Minions have (9 — 12) % increased Area of Effect Minion	ring 0 genesis_tree_minion 1 default 0
+of Trampling	49	Suffix	Minions have (13 — 16) % increased Area of Effect Minion	ring 0 genesis_tree_minion 1 default 0
+of Storming	61	Suffix	Minions have (17 — 20) % increased Area of Effect Minion	ring 0 genesis_tree_minion 1 default 0
+of Stampeding	73	Suffix	Minions have (21 — 24) % increased Area of Effect Minion	ring 0 genesis_tree_minion 1 default 0
+Name	Level	Pre/Suf	Description	Weight
+TBD	7	Prefix	damage removed from pack minions before life or es % [50]	boss 0 magic 0 default 1
+| 1	Unique	damage removed from pack minions before life or es % [0] |
+| 1	Unique	Minions have 70 % reduced maximum Life Life |
+| 1	Unique	Minion Instability Damage Elemental Fire Minion |
+| 1	Unique	monster penalty against minions damage +% final vs player minions [-20] Damage |
+| 1	Unique	monster penalty against minions damage +% final vs player minions [-25] Damage |
+| 1	Unique	monster penalty against minions damage +% final vs player minions [-30] Damage |
+| 1	Unique	monster penalty against minions damage +% final vs player minions [-35] Damage |
+| 1	Unique	monster penalty against minions damage +% final vs player minions [-40] Damage |
+| 1	Unique	permanent actor scale +% on minion death [-2] permanent damage taken +% on minion death [2] permanent item quantity +% on minion death [-40] permanent item rarity +% on minion death [-80] Minion |
+| 1	Unique	cannot be used as minion [1] |
+| 1	Unique	cannot be used as minion [1] corpse cannot be destroyed [1] is bestiary yellow beast [1] |
+Name	Level	Pre/Suf	Description	Weight
+Glinting	1	Prefix	(2 — 3) to (4 — 5) added Physical Damage Players and their Minions have (2 — 3) to (4 — 5) added Physical Damage Damage Physical	heist_equipment_weapon 1 default 0
+Burnished	45	Prefix	(4 — 5) to (6 — 8) added Physical Damage Players and their Minions have (4 — 5) to (6 — 8) added Physical Damage Damage Physical	heist_equipment_weapon 1 default 0
+Polished	75	Prefix	(6 — 8) to (9 — 11) added Physical Damage Players and their Minions have (6 — 8) to (9 — 11) added Physical Damage Damage Physical	heist_equipment_weapon 1 default 0
+Honed	83	Prefix	(7 — 9) to (12 — 14) added Physical Damage Players and their Minions have (7 — 9) to (12 — 14) added Physical Damage Damage Physical	heist_equipment_weapon 1 default 0
+Heated	1	Prefix	(11 — 15) to (18 — 21) added Fire Damage Players and their Minions have (11 — 15) to (18 — 21) added Fire Damage Damage Elemental Fire	heist_equipment_weapon 1 default 0
+Smouldering	45	Prefix	(16 — 20) to (22 — 25) added Fire Damage Players and their Minions have (16 — 20) to (22 — 25) added Fire Damage Damage Elemental Fire	heist_equipment_weapon 1 default 0
+Smoking	75	Prefix	(20 — 25) to (26 — 35) added Fire Damage Players and their Minions have (20 — 25) to (26 — 35) added Fire Damage Damage Elemental Fire	heist_equipment_weapon 1 default 0
+Burning	83	Prefix	(26 — 30) to (36 — 42) added Fire Damage Players and their Minions have (26 — 30) to (36 — 42) added Fire Damage Damage Elemental Fire	heist_equipment_weapon 1 default 0
+Frosted	1	Prefix	(11 — 15) to (18 — 21) added Cold Damage Players and their Minions have (11 — 15) to (18 — 21) added Cold Damage Damage Elemental Cold	heist_equipment_weapon 1 default 0
+Chilled	45	Prefix	(16 — 20) to (22 — 25) added Cold Damage Players and their Minions have (16 — 20) to (22 — 25) added Cold Damage Damage Elemental Cold	heist_equipment_weapon 1 default 0
+Icy	75	Prefix	(20 — 25) to (26 — 35) added Cold Damage Players and their Minions have (20 — 25) to (26 — 35) added Cold Damage Damage Elemental Cold	heist_equipment_weapon 1 default 0
+Frigid	83	Prefix	(26 — 30) to (36 — 42) added Cold Damage Players and their Minions have (26 — 30) to (36 — 42) added Cold Damage Damage Elemental Cold	heist_equipment_weapon 1 default 0
+Humming	1	Prefix	1 to (35 — 40) added Lightning Damage Players and their Minions have 1 to (35 — 40) added Lightning Damage Damage Elemental Lightning	heist_equipment_weapon 1 default 0
+Buzzing	45	Prefix	1 to (41 — 47) added Lightning Damage Players and their Minions have 1 to (41 — 47) added Lightning Damage Damage Elemental Lightning	heist_equipment_weapon 1 default 0
+Snapping	75	Prefix	1 to (48 — 60) added Lightning Damage Players and their Minions have 1 to (48 — 60) added Lightning Damage Damage Elemental Lightning	heist_equipment_weapon 1 default 0
+Crackling	83	Prefix	1 to (61 — 66) added Lightning Damage Players and their Minions have 1 to (61 — 66) added Lightning Damage Damage Elemental Lightning	heist_equipment_weapon 1 default 0
+of the Newt	1	Suffix	Players and their Minions Regenerate (0.8 — 1.1) % of maximum Life per second Life	heist_equipment_melee 1 default 0
+of the Lizard	45	Suffix	Players and their Minions Regenerate (1.2 — 1.4) % of maximum Life per second Life	heist_equipment_melee 1 default 0
+of the Flatworm	75	Suffix	Players and their Minions Regenerate (1.5 — 1.7) % of maximum Life per second Life	heist_equipment_melee 1 default 0
+of the Starfish	82	Suffix	Players and their Minions Regenerate (1.8 — 2) % of maximum Life per second Life	heist_equipment_melee 1 default 0
+of Excitement	1	Suffix	Players and their Minions have (21 — 25) % increased Mana Regeneration Rate Mana	heist_equipment_caster 1 default 0
+of Joy	45	Suffix	Players and their Minions have (26 — 30) % increased Mana Regeneration Rate Mana	heist_equipment_caster 1 default 0
+of Elation	75	Suffix	Players and their Minions have (31 — 35) % increased Mana Regeneration Rate Mana	heist_equipment_caster 1 default 0
+of Bliss	82	Suffix	Players and their Minions have (36 — 40) % increased Mana Regeneration Rate Mana	heist_equipment_caster 1 default 0
+Name	Level	Domain	Pre/Suf	Description	Weight
+Novice's	10	Flask	Prefix	Grants (51 — 56) % of Life Recovery to Minions Life Minion	life_flask 1 default 0
+Acolyte's	28	Flask	Prefix	Grants (57 — 62) % of Life Recovery to Minions Life Minion	life_flask 1 default 0
+Summoner's	46	Flask	Prefix	Grants (63 — 68) % of Life Recovery to Minions Life Minion	life_flask 1 default 0
+Conjurer's	64	Flask	Prefix	Grants (69 — 74) % of Life Recovery to Minions Life Minion	life_flask 1 default 0
+Necromancer's	82	Flask	Prefix	Grants (75 — 80) % of Life Recovery to Minions Life Minion	life_flask 1 default 0
+| 1	Strongbox	Prefix	strongbox construct has monsterstrongerminions1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Prefix	strongbox construct has monsterrevivesminions1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Prefix	strongbox construct has monsterminionstakelifeinstead1 [1]	strongbox_robot_rare_guard 1 default 0
+Training	1	Jewel	Prefix	(10 — 20) % increased Minion Accuracy Rating Attack Minion	intjewel 0 default 0
+Companion	1	Jewel	Prefix	Minions have (5 — 8) % increased Area of Effect Minion	strjewel 1 default 0
+of Orchestration	1	Jewel	Suffix	Minions have (2 — 4) % increased Attack and Cast Speed Attack Caster Speed Minion	intjewel 1 default 0
+of Righteousness	1	Jewel	Suffix	Minions have +(7 — 13) % to Chaos Resistance Chaos Resistance Minion	intjewel 1 default 0
+of Marshalling	1	Jewel	Suffix	Minions have (10 — 20) % increased Critical Hit Chance Minion Critical	intjewel 1 default 0
+of Gripping	1	Jewel	Suffix	Minions have (15 — 25) % increased Critical Damage Bonus Damage Minion Critical	intjewel 1 default 0
+Authoritative	1	Jewel	Prefix	Minions deal (5 — 15) % increased Damage Damage Minion	intjewel 1 default 0
+Fortuitous	1	Jewel	Prefix	Minions have (5 — 15) % increased maximum Life Life Minion	strjewel 1 default 0
+of Confidence	1	Jewel	Suffix	Minions have (6 — 16) % additional Physical Damage Reduction Physical Minion	strjewel 1 default 0
+of Acclimatisation	1	Jewel	Suffix	Minions have +(5 — 10) % to all Elemental Resistances Elemental Fire Cold Lightning Resistance Minion	intjewel 1 default 0
+of Revival	1	Jewel	Suffix	Minions Revive (5 — 15) % faster Minion	intjewel 0 default 0
+Training	1	Jewel	Prefix	Small Passive Skills in Radius also grant (2 — 3) % increased Minion Accuracy Rating Attack Minion	int_radius_jewel 0 default 0
+Companion	1	Jewel	Prefix	Notable Passive Skills in Radius also grant Minions have (3 — 5) % increased Area of Effect Minion	str_radius_jewel 1 default 0
+of Orchestration	1	Jewel	Suffix	Notable Passive Skills in Radius also grant Minions have (1 — 2) % increased Attack and Cast Speed Attack Caster Speed Minion	int_radius_jewel 1 default 0
+of Righteousness	1	Jewel	Suffix	Small Passive Skills in Radius also grant Minions have +(1 — 2) % to Chaos Resistance Chaos Resistance Minion	int_radius_jewel 1 default 0
+of Marshalling	1	Jewel	Suffix	Notable Passive Skills in Radius also grant Minions have (5 — 10) % increased Critical Hit Chance Minion Critical	int_radius_jewel 1 default 0
+of Gripping	1	Jewel	Suffix	Notable Passive Skills in Radius also grant Minions have (6 — 12) % increased Critical Damage Bonus Damage Minion Critical	int_radius_jewel 1 default 0
+Authoritative	1	Jewel	Prefix	Small Passive Skills in Radius also grant Minions deal (1 — 2) % increased Damage Damage Minion	int_radius_jewel 1 default 0
+Fortuitous	1	Jewel	Prefix	Small Passive Skills in Radius also grant Minions have (1 — 2) % increased maximum Life Life Minion	str_radius_jewel 1 default 0
+of Confidence	1	Jewel	Suffix	Small Passive Skills in Radius also grant Minions have (1 — 2) % additional Physical Damage Reduction Physical Minion	str_radius_jewel 1 default 0
+of Acclimatisation	1	Jewel	Suffix	Small Passive Skills in Radius also grant Minions have +(1 — 2) % to all Elemental Resistances Elemental Fire Cold Lightning Resistance Minion	int_radius_jewel 1 default 0
+of Revival	1	Jewel	Suffix	Notable Passive Skills in Radius also grant Minions Revive (3 — 7) % faster Minion	int_radius_jewel 0 default 0
+| 1	Jewel	Unique	Minions have (6 — 8) % increased Area of Effect Minion |
+Leadership	1	Jewel	Unique	Minions deal (14 — 16) % increased Damage Damage Minion	not_int 0 default 1
+of the Wall	1	Jewel	Unique	Minions have +(2 — 4) % Chance to Block Attack Damage Minion	not_int 0 default 0
+Master's	1	Jewel	Unique	Minions have (8 — 12) % increased maximum Life Life Minion	not_int 0 default 1
+of Resilience	1	Jewel	Unique	Minions have +(11 — 15) % to all Elemental Resistances Elemental Resistance Minion	not_int 0 default 1
+of Training	1	Jewel	Unique	(22 — 26) % increased Minion Accuracy Rating Attack Minion	not_int 0 default 1
+| 1	Jewel	Unique	Minions have +(7 — 10) % to all Elemental Resistances Elemental Resistance Minion |
+| 1	Jewel	Unique	Passives in Radius apply to Minions instead of you local jewel effect base radius [800] some passives apply to minions [1] Minion |
+| 1	Jewel	Unique	minion spell suppression chance % [2,5] Minion |
+| 1	Jewel	Unique	Minions Recover 2 % of their maximum Life when they Block Life Minion |
+| 1	Jewel	Unique	Minions have +10 % to Critical Damage Bonus per Grand Spectrum number of stackable unique jewels [1] Minion Critical |
+| 1	Atlas	Prefix	Players and their Minions cannot take Reflected Damage Your Maps contain 4 additional Packs with Mirrored Rare Monsters 3 uses remaining	default 1
+| 1	Atlas	Prefix	Players and their Minions cannot take Reflected Damage Your Maps contain 5 additional Packs with Mirrored Rare Monsters 15 uses remaining	default 1
+of Cycling	1	Abyss	Suffix	Players and their Minions deal no damage for 3 out of every 10 seconds map map item drop chance +% final from map [40] map number of rare packs +% [50]	map 1 default 0
+| 1	Abyss	Unique	Conquered Small Passive Skills also grant Minions deal (3 — 5) % increased damage Damage Minion	historic_abyss_jewel_2 1 default 0
+| 1	Abyss	Unique	Minions Revive (5 — 10) % faster Minion	heart_unique_jewel_prefix 1 default 0
+| 1	Abyss	Unique	Minions gain (10 — 15) % of their maximum Life as Extra maximum Energy Shield Energy Shield Minion	heart_unique_jewel_prefix 1 default 0
+| 1	Abyss	Unique	Minions Regenerate (1 — 3) % of maximum Life per second Life Minion	heart_unique_jewel_prefix 1 default 0
+| 1	Abyss	Unique	Minions have (3 — 12) % additional Physical Damage Reduction Physical Minion	heart_unique_jewel_suffix 1 default 0
+| 1	Abyss	Unique	Minions have (2 — 3) % increased Attack and Cast Speed Attack Caster Speed Minion	heart_unique_jewel_suffix 1 default 0
+| 1	Abyss	Unique	Minions have (6 — 12) % increased Critical Hit Chance Minion Critical	heart_unique_jewel_suffix 1 default 0
+| 1	Abyss	Unique	Minions have +(3 — 4) % to all Elemental Resistances Elemental Fire Cold Lightning Resistance Minion	heart_unique_jewel_suffix 1 default 0
+Lightless	1	Abyss	Prefix	(5 — 10) % increased Armour Minions deal (4 — 8) % increased Damage Armour Damage Minion	strjewel 1 intjewel 1 dexjewel 1 default 0
+Lightless	1	Abyss	Prefix	(5 — 10) % increased Evasion Rating Minions deal (4 — 8) % increased Damage Evasion Damage Minion	strjewel 1 intjewel 1 dexjewel 1 default 0
+Lightless	1	Abyss	Prefix	(5 — 10) % increased maximum Energy Shield Minions deal (4 — 8) % increased Damage Energy Shield Damage Minion	strjewel 1 intjewel 1 dexjewel 1 default 0
+Lightless	1	Abyss	Prefix	Minions have (4 — 8) % increased maximum Life minion area of effect +% [3,6] Life Minion	strjewel 1 intjewel 1 dexjewel 1 default 0
+of Amanamu	65	Abyss	Suffix	+(1 — 2) to Level of all Minion Skills amanamu Minion Gem	focus 1 default 0 amanamu_mod 1
+Amanamu's	65	Abyss	Prefix	Minions deal (15 — 25) % increased Damage if you've Hit Recently amanamu Damage Minion	ring 1 amulet 1 default 0 amanamu_mod 1
+of Kurgal	65	Abyss	Suffix	Minions have (12 — 20) % increased Cooldown Recovery Rate kurgal Minion	amulet 1 default 0 kurgal_mod 1
+Amanamu's	65	Abyss	Prefix	(55 — 64) % increased Spell Damage Minions deal (55 — 64) % increased Damage amanamu Caster Minion	wand 1 default 0 amanamu_mod 1
+Amanamu's	65	Abyss	Prefix	Minions deal (60 — 79) % increased Damage if you've Hit Recently amanamu Damage Minion	talisman 1 default 0 amanamu_mod 1
+| 1	Abyss	Suffix	Minions have (41 — 50) % increased maximum Life Life Minion	watcher_abyss_suffix 1 default 0
+of Scattering	1	Abyss	Suffix	Minions have +(50 — 100) % Surpassing chance to fire an additional Projectile Minion	amulet 0 ring 0 breach_desecration 1 default 0
+of Multitudes	1	Abyss	Suffix	Temporary Minion Skills have +1 to Limit of Minions summoned Minion	amulet 0 belt 0 breach_desecration 1 default 0
+Scratching	1	Abyss	Prefix	Minions Break Armour equal to (2 — 4) % of Physical damage dealt Physical Minion	amulet 0 belt 0 breach_desecration 1 default 0
+Contaminating	1	Abyss	Prefix	Minions have (35 — 45) % increased Magnitude of Damaging Ailments Minion	amulet 0 belt 0 breach_desecration 1 default 0
+of Punctuality	1	Abyss	Suffix	Minions have (20 — 30) % increased Skill Speed with Command Skills Speed Minion	amulet 0 belt 0 breach_desecration 1 default 0
+of Invigoration	1	Abyss	Suffix	Minions have (21 — 29) % increased Cooldown Recovery Rate Minion	amulet 0 belt 0 breach_desecration 1 default 0
+Instructor's	1	Abyss	Prefix	(7 — 12) % increased Minion Damage per different Command Skill used in the past 15 seconds Damage Minion	amulet 0 ring 0 breach_desecration 1 default 0
+Monstrous	1	Abyss	Prefix	Your Minions are Gigantic if they have Revived Recently Minion	amulet 0 ring 0 breach_desecration 1 default 0
+of Coherence	1	Abyss	Suffix	(7 — 10) % increased Reservation Efficiency of Minion Skills	amulet 0 ring 0 breach_desecration 1 default 0
+of Ravaging	1	Abyss	Suffix	Minions ' Strikes have Melee Splash	amulet 0 ring 0 breach_desecration 1 default 0
+of Binding	1	Abyss	Suffix	(35 — 49) % increased Minion Duration Minion	amulet 0 ring 0 breach_desecration 1 default 0
+of Tormented Souls	1	MemoryLines	Suffix	Rare and Unique Monsters found in Areas are Possessed and their Minions are Touched memory line type hash [24671]	memory_line_niko 1 default 0
+Faction	Category	Show Full Descriptions	Code
+Vaal	Notable	Minions deal (8 — 13) % increased Damage	vaal_small_minion_damage
+Maraketh	Notable	Minions deal 20 % increased Damage	maraketh_notable_add_minion_damage
+Maraketh	Notable	Minions have 15 % increased Movement Speed	maraketh_notable_add_minion_movement_speed

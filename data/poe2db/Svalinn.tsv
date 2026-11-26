@@ -1,0 +1,30 @@
+# https://poe2db.tw/us/Svalinn · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Version	Changes
+0.5.0	* The Svalinn Unique Shield's Cast on Block Skill now has Supported Skills Cost nothing. It also now has +50-100 Runic Ward, existing items are not affected by this change.
+0.4.0	- Svalinn now has "You take 0-20% of Damage From Blocked Hits" (previously 15-20%). - Svalinn now has "200-300% Increased Armour" (previously 150 to 200%).
+0.2.0	- Fixed a bug where the Cast on Block Skill granted by the Svalinn Unique Shield was granting the wrong amount of energy. It now grants 25 base energy on block (previously displayed 250 but actually granting 2.5).
+Family	DefencesPercent
+Domains	Item (1)
+GenerationType	Unique (3)
+Req. level	75 (Effective: 60)
+Stats	local physical damage reduction rating +% 200 — 300 Local
+Craft Tags	defences Armour
+Family	AdditionalBlock
+Domains	Item (1)
+GenerationType	Unique (3)
+Stats	base block % damage taken 0 — 20 Global
+Family	IncreasedBlockChance
+Domains	Item (1)
+GenerationType	Unique (3)
+Stats	base block chance luck 1 — 1 Global
+Family	GrantedSkill
+Domains	Item (1)
+GenerationType	Unique (3)
+Craft Tags	skill
+Family	LocalRunicWard
+Domains	Item (1)
+GenerationType	Unique (3)
+Stats	local ward 50 — 100 Local
+Craft Tags	runic_ward
+Offer	Your Offer	Note
+Legacy of Svalinn	1x Aldur's Legacy 1x Svalinn |

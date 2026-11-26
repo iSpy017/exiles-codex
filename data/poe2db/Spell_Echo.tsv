@@ -1,0 +1,10 @@
+# https://poe2db.tw/us/Spell_Echo · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Tier	Gems
+3	Bone Cage
+11	Comet , Hexblast
+Level	Requires Level	Int
+1	0	0
+Version	Changes
+0.4.0b	* Fixed a bug where Summon Spectre, Tame Beast, and Disciple of Varashta's Ruzhan could not be supported by Spell Echo or Spell Cascade.
+0.3.0c	* Fixed an issue preventing Orb of Storms and Solar Orb from being supported by Unleash. These skills are still unintentionally unable to be supported by Spell Echo and Spell Cascade — this will be fixed at a later date.
+0.2.0	- Spell Echo Support can no longer support Triggered Skills.

@@ -1,0 +1,8 @@
+# https://poe2db.tw/us/Elemental_Discharge · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Tier	Gems
+5	Arc , Thunderstorm
+Level	Requires Level	Int
+1	0	0
+Version	Changes
+0.2.0g	* Most Skills that have no mana cost which you don't cast yourself are now also granted a hidden no skill cost stat preventing them from gaining additional costs, such as from Lich's Eldritch Empowerment Notable Passive Skill. Examples include Elemental Discharge, Impending Doom's Doom Blast and Blink. Spells you cast yourself granted from Wands and Staves will still be able to get additional costs.
+0.1.1	* Fixed a bug where Mana Flare, Elemental Discharge, and the version of Ember Fusillade triggered by Dusk Vigil were not considered triggered skills (and therefore could be supported by some supports they don't apply to triggered skills)

@@ -1,4 +1,10 @@
-# Is item rarity worth stacking? (community view vs dev statement)
+---
+title: Is item rarity worth stacking? (community view vs dev statement)
+status: done
+tracker_topic: "Rarity value (creator vs dev)"
+tracker_note: "done (0.5.5 + 1.0 stance)"
+defaults: v=0.5.5 vol=may-change
+---
 
 Version: 0.5.5 creator view; 1.0 unchanged per GGG so far. Volatility: may-change.
 Sources (YouTube transcripts supplied by David, ingested 2026-11-17):
@@ -6,16 +12,18 @@ Sources (YouTube transcripts supplied by David, ingested 2026-11-17):
 - "PoE2 Thailand Interview" — Jonathan's answer on magic find. Tier 1 via transcript. → [[strategy/dev-statements-1.0-balance]]
 
 ## Creator's position
-- Claim: For the main big-chase farms (Expedition, Ritual-like mechanics, the updated Trial of Chaos, Sekhemas, Simulacrum) rarity does not multiply the chase drops; their value comes from internal mechanisms. In his Expedition testing, going 100 → 150 → 200% was underwhelming; playing in a group helped drops far more. He plans not to chase rarity in 1.0 (will use it if it drops). Exceptions where rarity matters: Azmeri-spirit farming in Abyssal Depths and Omen of Light farming.
-- Version: 0.5.5 | Volatility: may-change
-- Source: transcript "Why Rarity is Not Essential for Farming", tier 5, 2026-11-17
-- Confidence: single-source (creator opinion/testing)
-- Notes: Trade-off is the affix slots on rings/boots/gloves/amulets; a stronger character reaches endgame sooner. Group play as a loot multiplier is a claim, not a sourced number.
+@ v=0.5.5 vol=may-change conf=single-source date=2026-11-17
+For the main big-chase farms (Expedition, Ritual-like mechanics, the updated Trial of Chaos, Sekhemas, Simulacrum) rarity does not multiply the chase drops; their value comes from internal mechanisms. In his Expedition testing, going 100 → 150 → 200% was underwhelming; playing in a group helped drops far more. He plans not to chase rarity in 1.0 (will use it if it drops). Exceptions where rarity matters: Azmeri-spirit farming in Abyssal Depths and Omen of Light farming.
+- src: transcript "Why Rarity is Not Essential for Farming", tier 5, 2026-11-17
+- conf: single-source (creator opinion/testing)
+- notes: Trade-off is the affix slots on rings/boots/gloves/amulets; a stronger character reaches endgame sooner. Group play as a loot multiplier is a claim, not a sourced number.
+
 
 ## Dev view
-- Claim: GGG would drop item rarity if they had a replacement stat; they see it as a third scaling axis. Players dislike that it boosts currency; GGG might change that. Existing mechanics of the stat → [[items/rarity]] (wiki: benefit strongest around 100–150%, diminishing above — tier-5-grade).
-- Source: Thailand interview transcript, tier 1 via transcript, 2026-11-17
-- Confidence: single-source
+@ v=0.5.5 vol=may-change conf=single-source date=2026-11-17 fill=v,vol
+GGG would drop item rarity if they had a replacement stat; they see it as a third scaling axis. Players dislike that it boosts currency; GGG might change that. Existing mechanics of the stat → [[items/rarity]] (wiki: benefit strongest around 100–150%, diminishing above — tier-5-grade).
+
+- src: Thailand interview transcript, tier 1 via transcript, 2026-11-17
 
 ## No conflict recorded
 - Creator says rarity isn't essential for chase items; Jonathan says it still scales currency. These answer different questions (chase-item drops vs raw currency). Don't treat either as the settled number.

@@ -1,0 +1,93 @@
+# https://poe2db.tw/us/Act_4 · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Name	Level	Boss
+Kingsmarch	53 |
+Isle of Kin	46	The Blind Beast · Wardrum Kin · Shaman Kin The Blind Beast Torn Map Piece Doomed Mine Beast Pen
+Volcanic Warrens	47	Krutog, Lord of Kin · Wardrum Kin · Shaman Kin Krutog, Lord of Kin Magma Twins
+Kedge Bay	46	Searot Sniper · Bloated Anchorman · Searot Harpooner · Drowned Bearer Torn Map Piece
+Journey's End	47	Captain Hartlin · Rotting Soulcatcher Captain Hartlin
+Whakapanu Island	46	Great White One · Quill Crab · Spiked Scuttler Great White One Dread Crab Torn Map Piece
+Singing Caverns	47	Diamora, Song of Death · Skittering Jellycrab · Brine Maiden Diamora, Song of Death Beckoning Clam Shoreline Hideout
+Eye of Hinekora	46	Navali's Rest ( 5 % increased maximum Mana )
+Halls of the Dead	47	Yama The White · Ancestral Channeler · Ancestral Hornbearer · Ancestral Archer Yama The White ( 2 Weapon Set Passive Skill Points ) Ancestral Tattoos ( +5 to Dexterity +5 % to Lightning Resistance +5 to Intelligence +5 % to Cold Resistance +5 to Strength +5 % to Fire Resistance )
+Trial of the Ancestors	51 |
+Abandoned Prison	46	Spined Necromancer · Forael, the Soulkeeper · Eaten Rat The Armoury Forgotten Cells Goddess of Justice ( 30 % increased Life Recovery from Flasks 30 % increased Mana Recovery from Flasks )
+Solitary Confinement	47	The Prisoner · Pale Abductor The Prisoner
+Shrike Island	46	Scourge of the Skies · Goliath Shrike · Vile Vulture Scourge of the Skies Torn Map Piece
+Arastas	52 |
+Arastas	52	Torvian, Hand of the Saviour · Twilight Order Priest · Twilight Order Oathsworn · Faithful Warrior · Twilight Order Officer Torvian, Hand of the Saviour Golden Bells
+The Excavation	52	Benedictus, First Herald of Utopia · Twilight Order Officer · Twilight Order Oathsworn · Zealous Shockwarden · Zealous Pillarcrusher · Zealous Courser · Zealous Excavator Benedictus, First Herald
+Ngakanu	53 |
+Ngakanu	53	Blood-fevered Brew-breather · Blood-fevered Arsonist · Blood-fevered Wisewoman Mad Butcher Abyss
+Heart of the Tribe	53	Tavakai, the Chieftain · Blood-fevered Brew-breather · Blood-fevered Arsonist · Blood-fevered Plaguespreader · Blood-fevered Wisewoman Tavakai, Tukohama Chieftain Meeting House
+Plunder's Point	53	Remote Station
+Type	Name	Quantity
+Act 4	Adrapheme's Bidding	1
+Act 4	Aloana's Demise	1
+Act 4	Ange	91
+Act 4	Benedictus, First Herald of Utopia	70
+Act 4	Cadigan the Wise	1
+Act 4	Captain's Log	1
+Act 4	Dannig, Warrior Skald	265
+Act 4	Emperor's Warning	1
+Act 4	Feverish Writings	1
+Act 4	Freya Hartlin	27
+Act 4	Hinekora Totem |
+Act 4	Kaimana	4
+Act 4	Kanu	77
+Act 4	Kaom's Declaration	1
+Act 4	Karui Carvings I	1
+Act 4	Karui Carvings II	1
+Act 4	Karui Carvings III	1
+Act 4	Krutog, Lord of Kin	37
+Act 4	Maata's Declaration	1
+Act 4	Makoru	100
+Act 4	Matiki	60
+Act 4	Missionary Lorandis	76
+Act 4	Rakiata's Declaration	1
+Act 4	Reprimanding Letter	1
+Act 4	Return to Ship |
+Act 4	Rhodri	115
+Act 4	Ruhaki	53
+Act 4	Scattered Scratchings	1
+Act 4	Servitor Marius	39
+Act 4	Tattered Diary	1
+Act 4	Tavakai	181
+Act 4	Tavakai's Plea	1
+Act 4	Tavakai's Proclamation	1
+Act 4	Tavakai's Warning	1
+Act 4	Terrible Fate	1
+Act 4	The Countess	28
+Act 4	The Lady of Justice	1
+Act 4	The Test of Might	1
+Act 4	Tome of Judgement	1
+Act 4	Tujen	230
+Act 4	Voice of the Emperor	2
+Act 4	Word of Akoya	1
+Act 4	Yama the White	40
+Act 4	Sacrificial Ange	33
+Act 4	Vel Anxa, of the Order	28
+Act 4	Captain Hartlin	29
+Act 4	Diamora, the Song of Death	26
+Act 4	The Prisoner	125
+Act 4	Tukohama	1
+Act 4	Apparition of Pride	9
+Act 4	Apparition of Disdain	9
+Act 4	Apparition of Greed	9
+Act 4	Apparition of Rejection	9
+Act 4	Herius, of the Order	6
+Act 4	Cnaeus, of the Order	12
+Act 4	Ngakanu Tribesman	1
+Act 4	Jacob, the Town Crier	11
+Act 4	Ngakanu Guard	2
+Name	Show Full Descriptions
+Act	4
+Level	0
+| 			↓
+Solitary Confinement 47-52	↔	Abandoned Prison 46-51	↔	Kingsmarch	↔	Isle of Kin 46-51	↔	Volcanic Warrens 47-52
+| 	Shrike Island 46-51	↔	↔	Kedge Bay 46-51	↔	Journey's End 47-52
+| 	Plunder's Point 53	↔	↔	Whakapanu Island 46-51	↔	Singing Caverns 47-52
+Halls of the Dead 52	↔	Eye of Hinekora 51	↔	↔	Arastas 52	↔	The Excavation 52
+↕				↕
+Trial of the Ancestors 51				Ngakanu 53
+| 			↕
+| 			Heart of the Tribe 53

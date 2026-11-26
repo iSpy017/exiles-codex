@@ -1,0 +1,56 @@
+# https://poe2db.tw/us/Skeletal_Storm_Mage · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Tier	Gems
+1	Magnified Area I Chain I Shock
+2	Chain II Electrocute Bidding I
+3	Elemental Focus Feeding Frenzy I Muster
+4	Feeding Frenzy II Overcharge Bidding II
+5	Chain III Lightning Mastery Persistent Ground III
+Level	Requires Level	Int	Mana	Base Damage	Minion Level
+1	0	4	120	100%, 100%, 100%, 100%	2
+2	3	9	87	100%, 100%, 100%, 100%	4
+3	6	14	66	100%, 100%, 100%, 100%	6
+4	10	21	54	100%, 100%, 100%, 100%	8
+5	14	28	49	100%, 100%, 100%, 100%	10
+6	18	35	49	100%, 100%, 100%, 100%	12
+7	22	41	45	100%, 100%, 100%, 100%	14
+8	26	48	45	100%, 100%, 100%, 100%	16
+9	31	57	45	100%, 100%, 100%, 100%	18
+10	36	65	42	100%, 100%, 100%, 100%	20
+11	41	74	42	100%, 100%, 100%, 100%	22
+12	46	82	42	100%, 100%, 100%, 100%	24
+13	52	92	40	100%, 100%, 100%, 100%	26
+14	58	103	40	100%, 100%, 100%, 100%	28
+15	64	113	40	100%, 100%, 100%, 100%	30
+16	66	116	40	100%, 100%, 100%, 100%	32
+17	72	126	39	100%, 100%, 100%, 100%	34
+18	78	137	39	100%, 100%, 100%, 100%	36
+19	84	147	39	100%, 100%, 100%, 100%	38
+20	90	157	39	100%, 100%, 100%, 100%	40
+21			38	100%, 100%, 100%, 100%	42
+22			38	100%, 100%, 100%, 100%	44
+23			38	100%, 100%, 100%, 100%	46
+24			38	100%, 100%, 100%, 100%	48
+25			38	100%, 100%, 100%, 100%	50
+26			37	100%, 100%, 100%, 100%	52
+27			37	100%, 100%, 100%, 100%	54
+28			37	100%, 100%, 100%, 100%	56
+29			37	100%, 100%, 100%, 100%	58
+30			37	100%, 100%, 100%, 100%	60
+31			36	100%, 100%, 100%, 100%	62
+32			36	100%, 100%, 100%, 100%	64
+33			36	100%, 100%, 100%, 100%	66
+34			36	100%, 100%, 100%, 100%	68
+35			36	100%, 100%, 100%, 100%	70
+36			35	100%, 100%, 100%, 100%	72
+37			35	100%, 100%, 100%, 100%	74
+38			35	100%, 100%, 100%, 100%	76
+39			35	100%, 100%, 100%, 100%	78
+40			35	100%, 100%, 100%, 100%	80
+Version	Changes
+0.3.0	- Skeletal Storm Mage: Command: Death Storm now deals 154-551 to 873-3121 Lightning Damage at Gem levels 11-20 (previously 128-459 to 727-2600). Bolt and Shocked Ground radius is now 2 metres (previously 1.8). Projectiles now Chain 2 times at all Gem levels (previously 2-4).
+0.2.0	- Skeletal Storm Mage chain count now scales up with minion gem level, up to +4 Chains at Gem level 20 (previously +2 at all levels).
+Tags	bone_armour , bones , Caster, is_unarmed , lightning_affinity , medium_height , medium_movement , not_dex , not_str , ranged , skeleton , slashing_weapon , Unarmed_onhit_audio , undead
+Family	MonsterNoDropsOrExperience
+Domains	Monster (3)
+GenerationType	Unique (3)
+Stats	monster no drops or experience 1 — 1 Global — Unscalable Value

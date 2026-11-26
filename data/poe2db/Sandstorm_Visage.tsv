@@ -1,0 +1,23 @@
+# https://poe2db.tw/us/Sandstorm_Visage · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Version	Changes
+0.4.0	- Sandstorm Visage now has "Every Second, Inflicts Critical Weakness on enemies in your Presence for 15-20 seconds" (previously always 15 seconds).
+0.2.0	- The Sandstorm Visage Unique Helmet now causes enemies in your Presence to gain Critical Weakness once per second for 15 seconds (previously 1 second). Existing items can be updated with a Divine Orb.
+Family	BaseLocalDefences
+Domains	Item (1)
+GenerationType	Unique (3)
+Req. level	66 (Effective: 52)
+Stats	local energy shield 80 — 120 Local
+Craft Tags	defences Energy Shield
+Family	Dexterity
+Domains	Item (1)
+GenerationType	Unique (3)
+Stats	additional dexterity 20 — 30 Global
+Craft Tags	Attribute
+Family	PresenceRadius
+Domains	Item (1)
+GenerationType	Unique (3)
+Stats	enemies in presence are blinded 1 — 1 Global
+Family	PresenceRadius
+Domains	Item (1)
+GenerationType	Unique (3)
+Stats	enemies in presence gain critical weakness every second for seconds 15 — 20 Global

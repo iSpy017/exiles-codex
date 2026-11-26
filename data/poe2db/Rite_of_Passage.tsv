@@ -1,0 +1,7 @@
+# https://poe2db.tw/us/Rite_of_Passage · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Version	Changes
+0.5.0	* Fixed numerous bugs related to the player versions of Azmeri Spirit Possessions (created by the Rite of Passage Unique Charm) not using their skills or otherwise not functioning correctly. Player versions of Azmeri Spirit Possession modifiers (created by the Rite of Passage Unique Charm) now deal dramatically more damage and use their skills more frequently. Enemy versions are unchanged.
+Family	FlaskEnchantment
+Domains	Flask (2)
+GenerationType	Unique (3)
+Stats	local flask use on killing rare or unique enemy 1 — 1 Local

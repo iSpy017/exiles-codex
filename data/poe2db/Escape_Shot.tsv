@@ -1,0 +1,54 @@
+# https://poe2db.tw/us/Escape_Shot · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Tier	Gems
+1	Cold Attunement Ice Bite I Deep Freeze
+2	Freeze Frost Nexus Short Fuse I
+3	Magnified Area II Alignment I
+4	Cold Exposure Culling Strike I Short Fuse II
+5	Close Combat II Holy Descent Long Fuse II
+Level	Requires Level	Dex	Mana	Base Damage	300 % more Freeze Buildup	300 % more Magnitude of Chill inflicted	Fires 7 Projectiles
+1	0	4	11	65%, 65%, 65%, 60%	300	300	7
+2	3	9	12	72%, 72%, 72%, 66%	315	315	7
+3	6	14	14	79%, 79%, 79%, 73%	330	330	7
+4	10	21	16	87%, 87%, 87%, 79%	345	345	7
+5	14	28	18	94%, 94%, 94%, 85%	360	360	8
+6	18	35	21	102%, 102%, 102%, 92%	375	375	8
+7	22	41	23	110%, 110%, 110%, 98%	390	390	8
+8	26	48	26	118%, 118%, 118%, 104%	405	405	8
+9	31	57	28	125%, 125%, 125%, 109%	420	420	9
+10	36	65	31	133%, 133%, 133%, 115%	435	435	9
+11	41	74	35	142%, 142%, 142%, 121%	450	450	9
+12	46	82	38	152%, 152%, 152%, 127%	465	465	9
+13	52	92	42	162%, 162%, 162%, 133%	480	480	10
+14	58	103	45	173%, 173%, 173%, 140%	495	495	10
+15	64	113	49	185%, 185%, 185%, 147%	510	510	10
+16	66	116	54	199%, 199%, 199%, 154%	525	525	10
+17	72	126	58	213%, 213%, 213%, 162%	540	540	11
+18	78	137	63	229%, 229%, 229%, 170%	555	555	11
+19	84	147	69	246%, 246%, 246%, 178%	570	570	11
+20	90	157	74	265%, 265%, 265%, 187%	585	585	11
+21			80	286%, 286%, 286%, 196%	600	600	12
+22			86	308%, 308%, 308%, 206%	615	615	12
+23			93	332%, 332%, 332%, 217%	630	630	12
+24			100	357%, 357%, 357%, 227%	645	645	12
+25			107	385%, 385%, 385%, 239%	660	660	13
+26			115	415%, 415%, 415%, 251%	675	675	13
+27			124	447%, 447%, 447%, 263%	690	690	13
+28			133	481%, 481%, 481%, 276%	705	705	13
+29			142	519%, 519%, 519%, 290%	720	720	14
+30			152	559%, 559%, 559%, 305%	735	735	14
+31			163	602%, 602%, 602%, 320%	742	742	14
+32			174	648%, 648%, 648%, 336%	750	750	14
+33			186	699%, 699%, 699%, 353%	757	757	15
+34			198	753%, 753%, 753%, 371%	765	765	15
+35			212	811%, 811%, 811%, 389%	772	772	15
+36			226	873%, 873%, 873%, 408%	780	780	15
+37			241	941%, 941%, 941%, 429%	787	787	16
+38			256	1014%, 1014%, 1014%, 450%	795	795	16
+39			273	1092%, 1092%, 1092%, 473%	802	802	16
+40			290	1176%, 1176%, 1176%, 497%	810	810	16
+Version	Changes
+0.4.0	- Ice Fragments (created by skills such as from Escape Shot and Ice-Tipped Arrows) are now only able to hit each enemy once per group of Fragments created. - Escape Shot: Now fires 7 Ice Fragment Projectiles (previously 4), fires additional Ice Fragments as it levels up (11 at Level 20) and now deals 60-265% of Attack Damage (previously 55-172%). Ice Fragments now have an Explosion radius of 2 metres (previously 1.5 metres). Now has equal Magnitude of Chill inflicted as Freeze Buildup.
+0.3.0	- Escape Shot: Now creates ice fragments in its area of effect. These fragments explode after a short duration to deal additional damage. Additionally, it now causes you to travel 6 metres back (previously 4.5 metres).
+0.2.0	- The jumps performed when using Escape Shot and Toxic Growth now allow you to jump over enemies and small amounts of terrain. Vaulting Impact will also receive this change at a later date. - Escape Shot now scales Freeze Buildup with Gem level, up to 585% more at Gem level 20 (previously 300% at all levels). Quality is now 0-120% more Freeze Buildup (previously 0-80%).
+Name	Damage%	Life%	Spectre
+Bronnach, the Manhunter	175	130 |

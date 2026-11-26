@@ -1,7 +1,13 @@
-# Sorceress ascendancies — node text (0.5.x)
+---
+title: Sorceress ascendancies — node text (0.5.x)
+status: done
+tracker_topic: "Sorceress ascendancies — node text"
+tracker_note: "done (0.5.x; node pathing/adjacency not captured; granted-skill text missing)"
+defaults: v=0.5.x
+---
 
 Version: 0.5.x (PoE2DB crawl 2026-11-23). 1.0 overhauls the tree; re-check every node at patch day.
-Source: PoE2DB ascendancy pages in the local corpus ([[tools/poe2db-corpus]]) — [Stormweaver](https://poe2db.tw/us/Stormweaver), [Chronomancer](https://poe2db.tw/us/Chronomancer), [Disciple of Varashta](https://poe2db.tw/us/Disciple_of_Varashta), tier 2, crawl 2026-11-23. Single-source. Pathing order/adjacency isn't in the text crawl (tree is drawn by JavaScript) → which notables need which small nodes is a gap; check the in-game tree.
+Source: PoE2DB ascendancy pages in the local corpus ([[notes/tools/poe2db-corpus]]) — poe2db:Stormweaver, poe2db:Chronomancer, poe2db:Disciple_of_Varashta, tier 2, crawl 2026-11-23. Single-source. Pathing order/adjacency isn't in the text crawl (tree is drawn by JavaScript) → which notables need which small nodes is a gap; check the in-game tree.
 Points: 8 total, 2 per trial step ([[classes/ascendancy-trials]]).
 
 ## Stormweaver
@@ -40,5 +46,6 @@ Points: 8 total, 2 per trial step ([[classes/ascendancy-trials]]).
 - Notes: ES base recharge delay is 4 s → 3 s with The Fourth Teaching ([[mechanics/energy-shield]]) [INFERRED arithmetic].
 
 ## Tier-list view (context)
+@ v=0.5.x vol=may-change conf=single-source date=2026-11-23 fill=src
 - 0.5 Mobalytics tiers: Disciple A, Stormweaver B, Chronomancer C ([[builds/starter-archetypes]]). Those rate whole builds, not single nodes.
-- Version: 0.5.x · Volatility: may-change · Confidence: single-source (node text)
+- conf: single-source (node text)

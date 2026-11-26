@@ -1,0 +1,56 @@
+# https://poe2db.tw/us/Frostbolt · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Tier	Gems
+1	Multishot I Projectile Acceleration I Unleash
+2	Multishot II Ricochet I Considered Casting
+3	Inexorable Critical I Deliberation
+4	Rapid Casting II Ricochet II
+5	Projectile Acceleration III Cold Mastery
+Level	Requires Level	Int	Mana	Base Damage	Deals 5 to 8 Cold Damage	100 % more Magnitude of Chill inflicted	Deals 9 to 13 Cold Damage
+1	0	4	5	100%, 100%, 100%, 100%	5, 8	100	9, 13
+2	3	9	6	100%, 100%, 100%, 100%	7, 10	105	12, 18
+3	6	14	8	100%, 100%, 100%, 100%	9, 14	110	16, 24
+4	10	21	9	100%, 100%, 100%, 100%	12, 18	115	21, 31
+5	14	28	10	100%, 100%, 100%, 100%	15, 23	120	26, 39
+6	18	35	12	100%, 100%, 100%, 100%	19, 28	125	32, 47
+7	22	41	14	100%, 100%, 100%, 100%	23, 34	130	38, 57
+8	26	48	16	100%, 100%, 100%, 100%	27, 41	135	45, 68
+9	31	57	18	100%, 100%, 100%, 100%	32, 48	140	53, 80
+10	36	65	20	100%, 100%, 100%, 100%	38, 56	145	62, 93
+11	41	74	22	100%, 100%, 100%, 100%	44, 66	150	72, 108
+12	46	82	25	100%, 100%, 100%, 100%	51, 76	155	83, 124
+13	52	92	28	100%, 100%, 100%, 100%	58, 87	160	95, 143
+14	58	103	32	100%, 100%, 100%, 100%	67, 100	165	109, 163
+15	64	113	35	100%, 100%, 100%, 100%	76, 114	170	124, 186
+16	66	116	39	100%, 100%, 100%, 100%	87, 130	175	141, 211
+17	72	126	44	100%, 100%, 100%, 100%	99, 148	180	159, 239
+18	78	137	48	100%, 100%, 100%, 100%	112, 168	185	180, 270
+19	84	147	53	100%, 100%, 100%, 100%	127, 190	190	204, 305
+20	90	157	59	100%, 100%, 100%, 100%	144, 216	195	230, 344
+21			65	100%, 100%, 100%, 100%	162, 244	200	259, 388
+22			72	100%, 100%, 100%, 100%	184, 275	205	291, 437
+23			79	100%, 100%, 100%, 100%	207, 311	210	327, 491
+24			87	100%, 100%, 100%, 100%	234, 351	215	368, 552
+25			96	100%, 100%, 100%, 100%	264, 396	220	413, 620
+26			105	100%, 100%, 100%, 100%	298, 446	225	464, 697
+27			115	100%, 100%, 100%, 100%	336, 503	230	521, 782
+28			126	100%, 100%, 100%, 100%	379, 568	235	586, 878
+29			138	100%, 100%, 100%, 100%	427, 640	240	658, 986
+30			151	100%, 100%, 100%, 100%	482, 723	245	738, 1108
+31			165	100%, 100%, 100%, 100%	544, 816	247	829, 1244
+32			181	100%, 100%, 100%, 100%	614, 921	250	932, 1398
+33			197	100%, 100%, 100%, 100%	693, 1040	252	1047, 1571
+34			215	100%, 100%, 100%, 100%	784, 1176	255	1178, 1766
+35			235	100%, 100%, 100%, 100%	886, 1329	257	1325, 1987
+36			256	100%, 100%, 100%, 100%	1003, 1504	260	1491, 2236
+37			279	100%, 100%, 100%, 100%	1135, 1703	262	1679, 2518
+38			303	100%, 100%, 100%, 100%	1286, 1930	265	1892, 2838
+39			330	100%, 100%, 100%, 100%	1459, 2188	267	2133, 3199
+40			359	100%, 100%, 100%, 100%	1655, 2483	270	2407, 3610
+Version	Changes
+0.5.0	* Ice Nova: Is no longer able to originate from Frostbolt while cascading sideways.
+0.4.0	- Frostbolt: Now has 120-195% more Magnitude of Chill inflicted at Gem levels 5-20. No longer has Chills Enemies as though dealing more damage.
+0.3.0	- Cold Snap: Has been reworked, and renamed to Snap. It can now be used on any frozen, shocked or ignited enemy or on a Frostbolt, causing an explosion of the corresponding damage type and creating a remnant of the corresponding type from enemies. This explosion can chain react to a limited extent from enemies hit that are affected by the same ailment. Now deals 48-540 to 72-810 Cold Damage, 2-27 to 46-512 Lightning Damage, or 17-192 to 26-288 Fire Damage at Gem levels 5–20 (previously 70-670 to 105-1005 Cold Damage). Quality now grants 0-10% chance to spawn an additional remnant (previously 0-20% chance to not consume freeze). Cold Explosion now deals 50% more Damage against Unique Enemies. Now has a 4 second Cooldown. - Frostbolt: Now has a minimum level of 5. Base Projectile Speed has been lowered by 20%. No longer leaves Chilled Ground as it travels. Instead, it Chills as though dealing 120-195%% more Damage at Gem levels 5-20. Projectile now deals 15-23 Cold Damage at Gem level 5 (previously 24-36), scaling up to 144-216 Cold Damage at Gem level 20 (previously 201-302). This change does not affect the explosion. - Cold Snap: Has been reworked, and renamed to Snap. It can now be used on any frozen, shocked or ignited enemy or on a Frostbolt, causing an explosion of the corresponding damage type and creating a remnant of the corresponding type from enemies. This explosion can chain react to a limited extent from enemies hit that are affected by the same ailment. Now deals 48-540 to 72-810 Cold Damage, 2-27 to 46-512 Lightning Damage, or 17-192 to 26-288 Fire Damage at Gem levels 5–20 (previously 70-670 to 105-1005 Cold Damage). Quality now grants 0-10% chance to spawn an additional remnant (previously 0-20% chance to not consume freeze). Cold Explosion now deals 50% more Damage against Unique Enemies. Now has a 4 second Cooldown. - Frostbolt: Now has a minimum level of 5. Base Projectile Speed has been lowered by 20%. No longer leaves Chilled Ground as it travels. Instead, it Chills as though dealing 120-195%% more Damage at Gem levels 5-20. Projectile now deals 15-23 Cold Damage at Gem level 5 (previously 24-36), scaling up to 144-216 Cold Damage at Gem level 20 (previously 201-302). This change does not affect the explosion. - Cold Snap: Has been reworked, and renamed to Snap. It can now be used on any frozen, shocked or ignited enemy or on a Frostbolt, causing an explosion of the corresponding damage type and creating a remnant of the corresponding type from enemies. This explosion can chain react to a limited extent from enemies hit that are affected by the same ailment. Now deals 48-540 to 72-810 Cold Damage, 2-27 to 46-512 Lightning Damage, or 17-192 to 26-288 Fire Damage at Gem levels 5–20 (previously 70-670 to 105-1005 Cold Damage). Quality now grants 0-10% chance to spawn an additional remnant (previously 0-20% chance to not consume freeze). Cold Explosion now deals 50% more Damage against Unique Enemies.
+0.2.0e	* Frostbolt 's Explosion radius is now 2.4 metres (previously 1.6). * The Freeze Buildup from Ice Nova and Ice Nova when cast near a Frostbolt are now matching. Ice Nova now has 100-157% more Freeze Buildup at Gem levels 1-20 (previously 50% only when cast on Frostbolt ).
+Name	Damage%	Life%	Spectre
+Hesperia, the Arcane Tempest	175	225 |
+Xipocado, Royal Architect	300	371 |

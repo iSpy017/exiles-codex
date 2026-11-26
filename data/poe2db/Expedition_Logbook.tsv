@@ -1,0 +1,71 @@
+# https://poe2db.tw/us/Expedition_Logbook · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Possible Areas	Logbook Sites	Weight
+Smuggler's Den	Lush Isle , Frigid Bluffs , Barren Atoll , Scorched Cay	10000
+Ancient Cache	Exhumed Ruins	5000
+Rancid Nest	Craggy Peninsula , Moor of Fallen Skies , Sloughed Gully , Grazed Prairie	10000
+Sulphur Mines	Craggy Peninsula , Scorched Cay , Stagnant Basin	10000
+Hidden Aquifer	Lush Isle , Barren Atoll , Bleached Shoals	7000
+Gilded Deposit	Craggy Peninsula , Scorched Cay , Stagnant Basin , Sloughed Gully	10000
+Derelict Catacombs	Moor of Fallen Skies , Grazed Prairie	7000
+Stale Crevice	Craggy Peninsula , Moor of Fallen Skies , Sloughed Gully , Grazed Prairie	10000
+Tranquil Chamber	Lush Isle , Barren Atoll , Bleached Shoals	7000
+Decayed Laboratory	Craggy Peninsula , Frigid Bluffs	7000
+NPC	Name	Icon	Item	Boss
+Dannig	Druids of the Broken Circle		Broken Circle Artifact Exotic Coinage	Min Level: Medved, Feller of Heroes
+Dannig	Black Scythe Mercenaries		Black Scythe Artifact Exotic Coinage	Min Level: Vorana, Last to Fall
+Dannig	Order of the Chalice		Order Artifact Exotic Coinage	Min Level: Uhtred, Covetous Traitor
+Dannig	Knights of the Sun		Sun Artifact -1	Min Level: Olroth, Origin of the Fall
+Dannig	Expedition of Aldur			Min Level:
+Logbook Sites	Possible Areas	Notable Modifiers
+Lush Isle	Smuggler's Den Hidden Aquifer Tranquil Chamber |
+Craggy Peninsula	Rancid Nest Sulphur Mines Gilded Deposit Stale Crevice Decayed Laboratory |
+Frigid Bluffs	Smuggler's Den Decayed Laboratory |
+Barren Atoll	Smuggler's Den Hidden Aquifer Tranquil Chamber |
+Exhumed Ruins	Ancient Cache |
+Bleached Shoals	Hidden Aquifer Tranquil Chamber |
+Scorched Cay	Smuggler's Den Sulphur Mines Gilded Deposit |
+Moor of Fallen Skies	Rancid Nest Derelict Catacombs Stale Crevice |
+Stagnant Basin	Sulphur Mines Gilded Deposit |
+Sloughed Gully	Rancid Nest Gilded Deposit Stale Crevice |
+Grazed Prairie	Rancid Nest Derelict Catacombs Stale Crevice |
+Plunder's Point	 |
+Sprawling Jungle	 |
+Mournful Cliffside	 |
+Secluded Temple	 |
+Obscure Island	 |
+NPC	Name
+Expedition Logbook	The Orok are truly terrifying to behold. I suspect their canine features result from genetic mutations, perhaps borne of the Cataclysms that reshaped these lands. Their tribesmen are savage — I rarely leave their territories without scars to show for it — yet they hold a knowledge we Oriathans have long since abandoned. Our 'high-born' civilization prides itself on its advancements but remains woefully primitive in matters of the spirit and the natural world. For all their brutality, the Orok live in harmony with the forces of nature. Perhaps they have no choice, but I wonder if we are the fools for believing we've transcended it. Better to live with nature than to die defying it.
+Expedition Logbook	We strayed from the route marked on our map, driven further afield by painted men with savage intent. Tonight, for reasons I cannot fathom, we have been granted a brief reprieve. Our hunters halted at the edge of this marsh, unwilling to pursue. They watched from the trees as we threaded the narrow band of solid ground between desert and swamp. I know not what they fear, but we must brave the unknown if we are to reach the encampment at the Ziggurat. Through my spyglass, I see nothing ahead. The waters lie still, and the muddy banks between seem clear. Yet my nerves burn with the unmistakable sense of being watched. There is no one... no thing... but this silence feels alive. We have no choice but to run for it.
+24h Value	24h volume traded
+1 Divine Orb 1.47 Expedition Logbook	578
+7.81 Chaos Orb 1 Expedition Logbook	64
+457 Exalted Orb 1 Expedition Logbook	13
+24h Value	24h volume traded
+1 Divine Orb 1.47 Expedition Logbook	578
+7.81 Chaos Orb 1 Expedition Logbook	64
+457 Exalted Orb 1 Expedition Logbook	13
+Level	Description	Weight
+1	(25 — 50) % increased Expedition Explosive Radius	default 1
+1	(25 — 50) % increased number of Expedition Explosives	default 1
+68	Area contains Medved, Feller of Heroes	expedition_faction_druids_of_the_broken_circle 0 default 0
+68	Area contains Vorana, Last to Fall	expedition_faction_black_scythe 0 default 0
+75	Area contains Uhtred, Covetous Traitor	expedition_faction_order_of_the_chalice 0 default 0
+81	Area contains Olroth, Origin of the Fall	expedition_faction_knights_of_the_sun 0 default 0
+1	Excavated Chests have a (15 — 25) % chance to contain twice as many Items	default 1
+1	(25 — 50) % increased Expedition Explosive Placement Range	default 1
+1	Area contains (25 — 50) % increased number of Monster Markers	default 1
+1	All Verisium Remnants have at least 5 Rune slots	default 1
+1	All Verisium Remnants have at least 6 Rune slots	default 1
+1	All Verisium Remnants have at least 7 Rune slots	default 1
+1	+1 Verisium Remnant with at least 7 Rune slots	default 1
+1	+1 Verisium Remnant with at least 8 Rune slots	default 1
+1	+1 Verisium Remnant with at least 9 Rune slots	default 1
+1	A Verisium Remnant in Area will contain a Power Rune	default 1
+1	Monsters from Verisium Remnants drop (25 — 50) % increased Verisium	default 1
+1	Verisium Remnants in Area are rolled 1 times, keeping the rarest outcome	default 1
+1	Runic Monsters are Duplicated	default 1
+1	(25 — 50) % increased number of Runic Monster Markers	default 1
+1	Area contains +(1 — 3) Verisium Remnants	default 1
+1	(10 — 40) % increased number of Runic Monster Markers	default 1
+1	Area contains (8 — 16) additional Chest Markers	default 1
+1	(10 — 40) % increased quantity of Artifacts dropped by Monsters	default 1

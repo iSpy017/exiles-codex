@@ -1,0 +1,16 @@
+# https://poe2db.tw/us/Electrocute · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Tier	Gems
+1	Lightning Arrow , Spark
+7	Siphoning Strike , Storm Wave
+11	Skeletal Storm Mage
+13	Magnetic Salvo , Lightning Conduit
+Level	Requires Level	Dex
+1	0	0
+Version	Changes
+0.4.0	- Voltaic Mark: No longer makes the target susceptible to Shock or causes an explosion. Instead, makes the target more susceptible to being Electrocuted, and on Electrocuting a marked target, grants you a Buff with which you Gain extra damage as Lightning damage, for a duration, or until you mark another target.
+0.3.1	* Updated descriptions of Freeze, Electrocute and Pin buildup on monsters.
+0.3.0	- NEW: Combat Frenzy: Quality now provides 0-10% chance when you gain a Charge to gain an additional Charge (previously 0-20%). Now gains a Frenzy Charge when you Freeze, Electrocute or Pin an enemy, no more than once every 7.3-6.1 seconds at Gem levels 8-20 (previously 5.3-4.1 seconds). - Fixed a bug where Electrocute Support was able to inflict Electrocute with Skills that were also supported by Elemental Focus. - Combat Frenzy: Quality now provides 0-10% chance when you gain a Charge to gain an additional Charge (previously 0-20%). Now gains a Frenzy Charge when you Freeze, Electrocute or Pin an enemy, no more than once every 7.3-6.1 seconds at Gem levels 8-20 (previously 5.3-4.1 seconds).
+0.2.0e	* Fixed a bug where Electrocute was not counting towards "per Elemental Ailment on the Enemy".
+0.2.0	- Combat Frenzy now has Gain a Frenzy Charge when you Freeze, Electrocute or Pin an enemy, no more than once every 5.3-4.1 seconds at Gem levels 8-20 (previously 2.48-1.58). - Electrocute now builds up roughly 44% slower on non-players. - Fixed a bug where Thorns were not causing Stun, Freeze, Electrocute, Pin, Armour Break, Daze, nor Knockback. - Fixed a bug where conditional effects that looked for ailments on the target didn't count electrocute.
+0.1.0e	* Added a new Lightning Damage and Electrocute Cluster to the passive tree in between the Ranger and Monk sections. * Electrocute is now 25% harder to Buildup. (But the Damage Penalty has been removed from the Support Gem) * The Electrocute Support no longer penalizes Damage. Instead it now prevents the Supported Skill from being able to Shock.
+0.1.0d	* Fixed a bug which caused enemies to be Primed for Stun or Electrocute earlier than intended while in a party.

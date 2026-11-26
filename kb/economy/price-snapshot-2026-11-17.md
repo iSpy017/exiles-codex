@@ -1,4 +1,9 @@
-# Price snapshot — Currency, Forbidden Rites, 2026-11-17
+---
+title: Price snapshot — Currency, Forbidden Rites, 2026-11-17
+status: done
+tracker_topic: "Price snapshot (Currency, Forbidden Rites)"
+tracker_note: "done (volatile, dated)"
+---
 
 Source: poe.ninja PoE2 Currency page, Forbidden Rites (0.5.5), saved by David and uploaded 2026-11-17 (tier 4). Late league. Volatile — valid for this date only.
 

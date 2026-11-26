@@ -1,0 +1,240 @@
+# https://poe2db.tw/us/Jewels · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Name	Level	Pre/Suf	Description
+Lightless	1	Prefix	(5 — 10) % increased Armour (4 — 8) % increased Attack Damage Armour Damage Attack
+Lightless	1	Prefix	(4 — 8) % increased Warcry Buff Effect (5 — 10) % increased Damage with Warcries Damage
+Lightless	1	Prefix	(5 — 10) % increased Evasion Rating (4 — 8) % increased Totem Damage Evasion Damage
+Lightless	1	Prefix	(5 — 10) % increased maximum Energy Shield (4 — 8) % increased Totem Damage Energy Shield Damage
+Lightless	1	Prefix	(5 — 10) % increased Armour (4 — 8) % increased Totem Damage Armour Damage
+Lightless	1	Prefix	(5 — 10) % increased Evasion Rating (4 — 8) % increased Thorns damage Evasion Damage
+Lightless	1	Prefix	(5 — 10) % increased maximum Energy Shield (4 — 8) % increased Thorns damage Energy Shield Damage
+Lightless	1	Prefix	(5 — 10) % increased Armour (4 — 8) % increased Thorns damage Armour Damage
+Lightless	1	Prefix	(4 — 8) % increased Spell Damage (5 — 10) % increased Evasion Rating Evasion Damage Caster
+Lightless	1	Prefix	(4 — 8) % increased Spell Damage (5 — 10) % increased maximum Energy Shield Energy Shield Damage Caster
+Lightless	1	Prefix	(4 — 8) % increased Spell Damage (5 — 10) % increased Armour Armour Damage Caster
+Lightless	1	Prefix	15 % increased chance to Poison (5 — 10) % increased Magnitude of Poison you inflict Damage Ailment
+Lightless	1	Prefix	(5 — 10) % increased Evasion Rating Minions deal (4 — 8) % increased Damage Evasion Damage Minion
+Lightless	1	Prefix	(5 — 10) % increased maximum Energy Shield Minions deal (4 — 8) % increased Damage Energy Shield Damage Minion
+Lightless	1	Prefix	(5 — 10) % increased Armour Minions deal (4 — 8) % increased Damage Armour Damage Minion
+Lightless	1	Prefix	(4 — 8) % increased Lightning Damage Damage Penetrates (4 — 7) % Lightning Resistance Damage Elemental Lightning
+Lightless	1	Prefix	(10 — 20) % increased Magnitude of Abyssal Wasting you inflict
+Lightless	1	Prefix	(5 — 10) % increased maximum Energy Shield (4 — 8) % increased Attack Damage Energy Shield Damage Attack
+Lightless	1	Prefix	(5 — 10) % increased Evasion Rating (4 — 8) % increased Attack Damage Evasion Damage Attack
+Lightless	1	Prefix	(8 — 15) % increased Presence Area of Effect Aura Skills have (2 — 4) % increased Magnitudes Aura
+Lightless	1	Prefix	(5 — 10) % increased Magnitude of Bleeding you inflict 15 % increased chance to inflict Bleeding Damage Physical Ailment
+Lightless	1	Prefix	(4 — 8) % increased Chaos Damage (3 — 6) % increased Withered Magnitude Damage Chaos
+Lightless	1	Prefix	(4 — 8) % increased Cold Damage Damage Penetrates (4 — 7) % Cold Resistance Damage Elemental Cold
+Lightless	1	Prefix	Companions deal (5 — 10) % increased Damage Companions have (5 — 10) % increased maximum Life Life Damage Minion
+Lightless	1	Prefix	(4 — 8) % increased Elemental Damage (4 — 8) % increased Magnitude of Ailments you inflict Damage Elemental Fire Cold Lightning Ailment
+Lightless	1	Prefix	(4 — 8) % increased Exposure Effect Elemental Fire Cold Lightning
+Lightless	1	Prefix	(4 — 8) % increased Fire Damage Damage Penetrates (4 — 7) % Fire Resistance Damage Elemental Fire
+Lightless	1	Prefix	(4 — 8) % increased Global Physical Damage Break (4 — 8) % increased Armour Armour Damage Physical
+Lightless	1	Prefix	Minions have (4 — 8) % increased maximum Life minion area of effect +% [3,6] Life Minion
+of the Abyss	1	Suffix	(1 — 2) % increased Dexterity Attribute
+of the Abyss	1	Suffix	(1 — 2) % increased Intelligence Attribute
+of the Abyss	1	Suffix	(1 — 2) % increased Strength Attribute
+Name	Level	Pre/Suf	Description
+Accurate	1	Prefix	(5 — 10) % increased Accuracy Rating Attack
+Acrimonious	1	Prefix	(5 — 15) % increased Magnitude of Ailments you inflict Damage Ailment
+Blasting	1	Prefix	(4 — 6) % increased Area of Effect
+Armoured	1	Prefix	(10 — 20) % increased Armour Armour
+Shattering	1	Prefix	Break (5 — 15) % increased Armour
+Combat	1	Prefix	(5 — 15) % increased Attack Damage Damage Attack
+Commanding	1	Prefix	Aura Skills have (3 — 7) % increased Magnitudes Aura
+Sinister	1	Prefix	(5 — 15) % increased Damage with Axes Damage Attack
+Bleeding	1	Prefix	(3 — 7) % chance to inflict Bleeding on Hit Physical Ailment
+Stifling	1	Prefix	(5 — 10) % increased Blind Effect
+Protecting	1	Prefix	(3 — 7) % increased Block chance
+Slaying	1	Prefix	(10 — 20) % increased Damage with Hits against Rare and Unique Enemies Damage
+Precise	1	Prefix	(5 — 15) % increased Accuracy Rating with Bows Attack
+Perforating	1	Prefix	(6 — 16) % increased Damage with Bows Damage Attack
+Verdant	1	Prefix	(10 — 20) % increased Damage while you have an active Charm Charm Damage
+Chaotic	1	Prefix	(7 — 13) % increased Chaos Damage Damage Chaos
+Chilling	1	Prefix	(5 — 15) % increased Cold Damage Damage Elemental Cold
+Numbing	1	Prefix	Damage Penetrates (5 — 10) % Cold Resistance Damage Elemental Cold
+Necromantic	1	Prefix	(10 — 20) % increased Damage if you have Consumed a Corpse Recently Damage
+Rancorous	1	Prefix	(10 — 20) % increased Magnitude of Damaging Ailments you inflict with Critical Hits Damage Critical Ailment
+Bolting	1	Prefix	(6 — 16) % increased Damage with Crossbows Damage Attack
+Expanding	1	Prefix	(8 — 12) % increased Area of Effect of Curses Caster Curse
+Hexing	1	Prefix	(2 — 4) % increased Curse Magnitudes Caster Curse
+Lethal	1	Prefix	(6 — 16) % increased Damage with Daggers Damage Attack
+Exploiting	1	Prefix	(15 — 25) % increased Damage against Enemies with Fully Broken Armour Damage
+Prismatic	1	Prefix	(5 — 15) % increased Elemental Damage Damage Elemental Fire Cold Lightning
+Empowering	1	Prefix	Empowered Attacks deal (10 — 20) % increased Damage Damage Attack
+Shimmering	1	Prefix	(10 — 20) % increased maximum Energy Shield Energy Shield
+Serene	1	Prefix	(10 — 15) % faster start of Energy Shield Recharge Energy Shield
+Fevered	1	Prefix	(10 — 20) % increased Energy Shield Recharge Rate Energy Shield
+Evasive	1	Prefix	(10 — 20) % increased Evasion Rating Evasion
+Flaming	1	Prefix	(5 — 15) % increased Fire Damage Damage Elemental Fire
+Searing	1	Prefix	Damage Penetrates (5 — 10) % Fire Resistance Damage Elemental Fire
+Flailing	1	Prefix	(6 — 16) % increased Damage with Flails Damage Attack
+Focusing	1	Prefix	(30 — 50) % increased Energy Shield from Equipped Focus Energy Shield
+Heralding	1	Prefix	Herald Skills deal (15 — 25) % increased Damage Damage
+Burning	1	Prefix	(5 — 15) % increased Ignite Magnitude Damage Elemental Fire Ailment
+Humming	1	Prefix	(5 — 15) % increased Lightning Damage Damage Elemental Lightning
+Surging	1	Prefix	Damage Penetrates (5 — 10) % Lightning Resistance Damage Elemental Lightning
+Beating	1	Prefix	(6 — 16) % increased Damage with Maces Damage Attack
+Marking	1	Prefix	(4 — 8) % increased Effect of your Mark Skills
+Angry	1	Prefix	+(1 — 2) to Maximum Rage
+Clashing	1	Prefix	(5 — 15) % increased Melee Damage Damage Attack
+Training	1	Prefix	(10 — 20) % increased Minion Accuracy Rating Attack Minion
+Companion	1	Prefix	Minions have (5 — 8) % increased Area of Effect Minion
+Authoritative	1	Prefix	Minions deal (5 — 15) % increased Damage Damage Minion
+Fortuitous	1	Prefix	Minions have (5 — 15) % increased maximum Life Life Minion
+Sacrificial	1	Prefix	Offerings have (15 — 25) % increased Maximum Life Life Minion
+Sharpened	1	Prefix	(5 — 15) % increased Global Physical Damage Damage Physical
+Venomous	1	Prefix	(5 — 15) % increased Magnitude of Poison you inflict Damage Ailment
+Archer's	1	Prefix	(5 — 15) % increased Projectile Damage Damage
+Soaring	1	Prefix	(4 — 8) % increased Projectile Speed Speed
+Monk's	1	Prefix	(6 — 16) % increased Damage with Quarterstaves Damage Attack
+Fletching	1	Prefix	(4 — 6) % increased bonuses gained from Equipped Quiver
+Shielding	1	Prefix	(18 — 32) % increased Armour , Evasion and Energy Shield from Equipped Shield
+Jolting	1	Prefix	(10 — 15) % increased Magnitude of Shock you inflict Elemental Lightning Ailment
+Spearheaded	1	Prefix	(6 — 16) % increased Damage with Spears Damage Attack
+Mystic	1	Prefix	(5 — 15) % increased Spell Damage Damage Caster
+Haemorrhaging	1	Prefix	(5 — 15) % increased Magnitude of Bleeding you inflict Damage Physical Attack Ailment
+Vicious	1	Prefix	(6 — 16) % increased Damage with Swords Damage Attack
+Retaliating	1	Prefix	(10 — 20) % increased Thorns damage Damage
+Shaman's	1	Prefix	(10 — 18) % increased Totem Damage Damage
+Carved	1	Prefix	(10 — 20) % increased Totem Life Life
+Trapping	1	Prefix	(6 — 16) % increased Trap Damage Damage
+Triggered	1	Prefix	Triggered Spells deal (10 — 18) % increased Spell Damage Damage Caster
+Punching	1	Prefix	(6 — 16) % increased Damage with Unarmed Attacks Damage Attack
+of Warcries	1	Prefix	(5 — 15) % increased Warcry Buff Effect
+Yelling	1	Prefix	(10 — 20) % increased Damage with Warcries Damage
+Withering	1	Prefix	(5 — 10) % increased Withered Magnitude Chaos
+Retreating	1	Prefix	(10 — 20) % increased Projectile Damage if you've dealt a Melee Hit in the past eight seconds Damage Attack
+Engaging	1	Prefix	(10 — 20) % increased Melee Damage if you've dealt a Projectile Attack Hit in the past eight seconds Damage Attack
+Parrying	1	Prefix	(15 — 25) % increased Parry Damage Damage
+Kinship	1	Prefix	Companions deal (10 — 20) % increased Damage Damage Minion
+Kindred	1	Prefix	Companions have (10 — 20) % increased maximum Life Life Minion
+Hazardous	1	Prefix	(10 — 20) % increased Hazard Damage Damage
+Incise	1	Prefix	(15 — 25) % chance for Attack Hits to apply Incision Physical Ailment
+Rallying	1	Prefix	Banner Skills have (6 — 16) % increased Area of Effect
+Iconic	1	Prefix	(15 — 25) % increased Presence Area of Effect Aura
+| 1	Prefix	(40 — 60) % increased Effect of Suffixes
+| 1	Prefix	Upgrades Radius to Very Large local jewel effect base radius [500]
+| 1	Prefix	+1 Suffix Modifier allowed
+Bestial	1	Prefix	(5 — 15) % increased Damage while Shapeshifted Damage
+Overgrown	1	Prefix	(5 — 15) % increased Damage with Plant Skills Damage
+of Ailing	1	Suffix	(5 — 15) % increased chance to inflict Ailments Ailment
+of Enduring	1	Suffix	(10 — 20) % increased Elemental Ailment Threshold Ailment
+Resonating	1	Suffix	(10 — 20) % increased Armour Break Duration
+of Deadliness	1	Suffix	(6 — 16) % increased Critical Hit Chance for Attacks Attack Critical
+of Demolishing	1	Suffix	(10 — 20) % increased Critical Damage Bonus for Attack Damage Damage Attack Critical
+of Alacrity	1	Suffix	(2 — 4) % increased Attack Speed Attack Speed
+of Cleaving	1	Suffix	(2 — 4) % increased Attack Speed with Axes Attack Speed
+of Haemophilia	1	Suffix	(5 — 10) % increased Bleeding Duration Physical Attack Ailment
+of Blinding	1	Suffix	(3 — 7) % chance to Blind Enemies on Hit with Attacks Attack
+of Nocking	1	Suffix	(2 — 4) % increased Attack Speed with Bows Attack Speed
+of Enchanting	1	Suffix	(2 — 4) % increased Cast Speed Caster Speed
+of Chaining	1	Suffix	Projectiles have (3 — 5) % chance to Chain an additional time from terrain
+of the Woodland	1	Suffix	(5 — 15) % increased Charm Effect Duration Charm
+of the Thicker	1	Suffix	(5 — 15) % increased Charm Charges gained Charm
+of Frost	1	Suffix	(15 — 25) % increased Chill Duration on Enemies Elemental Cold Ailment
+of Chronomancy	1	Suffix	(3 — 5) % increased Cooldown Recovery Rate
+of Annihilation	1	Suffix	(5 — 15) % increased Critical Hit Chance Critical
+of Potency	1	Suffix	(10 — 20) % increased Critical Damage Bonus Damage Critical
+of Unmaking	1	Suffix	(10 — 20) % increased Critical Spell Damage Bonus Damage Caster Critical
+of Reloading	1	Suffix	(10 — 15) % increased Crossbow Reload Speed Attack Speed
+of Rapidity	1	Suffix	(2 — 4) % increased Attack Speed with Crossbows Attack Speed
+of Chanting	1	Suffix	(5 — 15) % faster Curse Activation Caster Curse
+of Continuation	1	Suffix	(15 — 25) % increased Curse Duration Caster Curse
+of Backstabbing	1	Suffix	(6 — 16) % increased Critical Hit Chance with Daggers Attack Critical
+of Slicing	1	Suffix	(2 — 4) % increased Attack Speed with Daggers Attack Speed
+of Mind	1	Suffix	(2 — 4) % of Damage is taken from Mana before Life Life Mana
+of Suffusion	1	Suffix	(5 — 10) % increased Duration of Damaging Ailments on Enemies Ailment
+of Dazing	1	Suffix	(5 — 10) % chance to Daze on Hit
+of Diminishing	1	Suffix	Debuffs on you expire (5 — 10) % faster
+of Suffering	1	Suffix	(5 — 10) % increased Duration of Ignite , Shock and Chill on Enemies Elemental Fire Cold Lightning Ailment
+of Generation	1	Suffix	Meta Skills gain (4 — 8) % increased Energy
+of Decrepifying	1	Suffix	Damaging Ailments deal damage (3 — 7) % faster Damage Ailment
+of Thrashing	1	Suffix	(6 — 16) % increased Critical Hit Chance with Flails Attack Critical
+of Gathering	1	Suffix	(5 — 10) % increased Flask Charges gained
+of Prolonging	1	Suffix	(5 — 10) % increased Flask Effect Duration
+of Forking	1	Suffix	Projectiles have (10 — 15) % chance for an additional Projectile when Forking
+of Freezing	1	Suffix	(10 — 20) % increased Freeze Buildup Elemental Cold Ailment
+of Snowbreathing	1	Suffix	(18 — 32) % increased Freeze Threshold Elemental Cold Ailment
+of Ignition	1	Suffix	(10 — 20) % increased Flammability Magnitude Elemental Fire Ailment
+of Lengthening	1	Suffix	(5 — 10) % increased Skill Effect Duration
+of Fending	1	Suffix	(5 — 15) % increased Knockback Distance
+of Sacrifice	1	Suffix	(4 — 6) % of Skill Mana Costs Converted to Life Costs Life
+of Recovery	1	Suffix	(5 — 15) % increased Life Recovery from Flasks Life
+of Pathfinding	1	Suffix	(10 — 20) % increased Life Flask Charges gained
+of Frenzy	1	Suffix	(5 — 15) % increased amount of Life Leeched Life
+of Success	1	Suffix	Recover (1 — 2) % of maximum Life on Kill Life
+of Infusion	1	Suffix	(2 — 3) % of Damage taken Recouped as Life Life
+of Regeneration	1	Suffix	(5 — 10) % increased Life Regeneration rate Life
+of Thumping	1	Suffix	(15 — 25) % increased Stun Buildup with Maces Attack
+of Quenching	1	Suffix	(5 — 15) % increased Mana Recovery from Flasks Mana
+of Fountains	1	Suffix	(10 — 20) % increased Mana Flask Charges gained
+of Thirsting	1	Suffix	(5 — 15) % increased amount of Mana Leeched Mana
+of Osmosis	1	Suffix	Recover (1 — 2) % of maximum Mana on Kill Mana
+of Energy	1	Suffix	(5 — 15) % increased Mana Regeneration Rate Mana
+of Targeting	1	Suffix	Mark Skills have (5 — 15) % increased Use Speed Speed
+of Tracking	1	Suffix	Mark Skills have (18 — 32) % increased Skill Effect Duration
+of the Kraken	1	Suffix	+1 % to Maximum Cold Resistance Elemental Cold Resistance
+of the Phoenix	1	Suffix	+1 % to Maximum Fire Resistance Elemental Fire Resistance
+of the Leviathan	1	Suffix	+1 % to Maximum Lightning Resistance Elemental Lightning Resistance
+of Orchestration	1	Suffix	Minions have (2 — 4) % increased Attack and Cast Speed Attack Caster Speed Minion
+of Righteousness	1	Suffix	Minions have +(7 — 13) % to Chaos Resistance Chaos Resistance Minion
+of Marshalling	1	Suffix	Minions have (10 — 20) % increased Critical Hit Chance Minion Critical
+of Gripping	1	Suffix	Minions have (15 — 25) % increased Critical Damage Bonus Damage Minion Critical
+of Confidence	1	Suffix	Minions have (6 — 16) % additional Physical Damage Reduction Physical Minion
+of Acclimatisation	1	Suffix	Minions have +(5 — 10) % to all Elemental Resistances Elemental Fire Cold Lightning Resistance Minion
+of Revival	1	Suffix	Minions Revive (5 — 15) % faster Minion
+of Speed	1	Suffix	(1 — 2) % increased Movement Speed Speed
+of Offering	1	Suffix	Offering Skills have (15 — 25) % increased Duration Minion
+of Piercing	1	Suffix	(10 — 20) % chance to Pierce an Enemy
+of Pinning	1	Suffix	(10 — 20) % increased Pin Buildup
+of Poisoning	1	Suffix	(5 — 10) % chance to Poison on Hit Ailment
+of Infection	1	Suffix	(5 — 10) % increased Poison Duration Chaos Ailment
+of Glaciers	1	Suffix	(10 — 20) % increased Freeze Buildup with Quarterstaves Elemental Cold Ailment
+of Sequencing	1	Suffix	(2 — 4) % increased Attack Speed with Quarterstaves Attack Speed
+of Raging	1	Suffix	Gain 1 Rage on Melee Hit Attack
+of Retribution	1	Suffix	Gain (1 — 3) Rage when Hit by an Enemy
+of Shocking	1	Suffix	(10 — 20) % increased chance to Shock Elemental Lightning Ailment
+of Paralyzing	1	Suffix	(15 — 25) % increased Shock Duration Elemental Lightning Ailment
+of Hastening	1	Suffix	(5 — 10) % reduced Slowing Potency of Debuffs on You
+of Spearing	1	Suffix	(2 — 4) % increased Attack Speed with Spears Attack Speed
+of Hunting	1	Suffix	(10 — 20) % increased Critical Damage Bonus with Spears Attack Critical
+of Annihilating	1	Suffix	(5 — 15) % increased Critical Hit Chance for Spells Caster Critical
+of Stunning	1	Suffix	(10 — 20) % increased Stun Buildup
+of Withstanding	1	Suffix	(6 — 16) % increased Stun Threshold
+of Barriers	1	Suffix	Gain additional Stun Threshold equal to (5 — 15) % of maximum Energy Shield
+of Inuring	1	Suffix	Gain additional Ailment Threshold equal to (5 — 15) % of maximum Energy Shield Ailment
+of Stoutness	1	Suffix	(15 — 25) % increased Stun Threshold if you haven't been Stunned Recently
+of Fencing	1	Suffix	(2 — 4) % increased Attack Speed with Swords Attack Speed
+of Ancestry	1	Suffix	(10 — 20) % increased Totem Placement speed Speed
+of Preparation	1	Suffix	(4 — 8) % increased Trap Throwing Speed Speed
+of Rallying	1	Suffix	(5 — 15) % increased Warcry Cooldown Recovery Rate
+of Lungs	1	Suffix	(10 — 20) % increased Warcry Speed Speed
+of Swapping	1	Suffix	(15 — 25) % increased Weapon Swap Speed Attack Speed
+of Jabbing	1	Suffix	(2 — 4) % increased Unarmed Attack Speed Attack Speed
+of Unsettling	1	Suffix	(10 — 15) % increased Parried Debuff Duration
+of Biding	1	Suffix	(15 — 25) % increased Stun Threshold while Parrying
+of Volatility	1	Suffix	(2 — 3) % chance to gain Volatility on Kill
+of Valour	1	Suffix	(15 — 20) % increased Glory generation for Banner Skills
+of Inspiring	1	Suffix	Banner Skills have (15 — 25) % increased Duration
+| 1	Suffix	(40 — 60) % increased Effect of Prefixes
+| 1	Suffix	Notable Passive Skills in Radius also grant +(5 — 7) % to Fire Resistance Elemental Fire Resistance
+| 1	Suffix	Notable Passive Skills in Radius also grant +(5 — 7) % to Cold Resistance Elemental Cold Resistance
+| 1	Suffix	Notable Passive Skills in Radius also grant +(5 — 7) % to Lightning Resistance Elemental Lightning Resistance
+| 1	Suffix	Notable Passive Skills in Radius also grant +(4 — 5) % to Chaos Resistance Chaos Resistance
+| 1	Suffix	+1 % to Maximum Chaos Resistance Chaos Resistance
+| 1	Suffix	+1 Prefix Modifier allowed
+| 1	Suffix	Debilitate Enemies on Hit while you have an Emerald and a Sapphire socketed in your tree
+| 1	Suffix	Blind Enemies on Hit while you have a Ruby and a Sapphire socketed in your tree
+| 1	Suffix	Inflict Elemental Exposure on Hit while you have a Ruby and an Emerald socketed in your tree Elemental
+of the Wild	1	Suffix	(2 — 4) % increased Skill Speed while Shapeshifted Speed
+Level	Pre/Suf	Description
+1	Corrupted	+(4 — 6) to Strength Attribute
+1	Corrupted	+(4 — 6) to Dexterity Attribute
+1	Corrupted	+(4 — 6) to Intelligence Attribute
+1	Corrupted	+(5 — 10) % to Fire Resistance Elemental Fire Resistance
+1	Corrupted	+(5 — 10) % to Cold Resistance Elemental Cold Resistance
+1	Corrupted	+(5 — 10) % to Lightning Resistance Elemental Lightning Resistance
+1	Corrupted	+(3 — 7) % to Chaos Resistance Chaos Resistance
+1	Corrupted	Immune to Maim
+1	Corrupted	You cannot be Hindered
+1	Corrupted	Corrupted Blood cannot be inflicted on you Physical Ailment
+1	Corrupted	Cannot be Blinded

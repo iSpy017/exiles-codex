@@ -1,0 +1,127 @@
+# https://poe2db.tw/us/Herald_of_Thunder · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Tier	Gems
+1	Concentrated Area Precision I
+2	Maim Herbalism I
+3	Elemental Focus Deadly Herald
+4	Precision II Living Lightning II
+5	Blind II Culling Strike II
+Level	Requires Level	Dex	Base Damage	Lightning Bolts strike the targets of your next 2 Attack Hits after killing a Shocked enemy with Attack damage
+1	0	4	100%, 100%, 100%, 30%	2
+2	3	9	100%, 100%, 100%, 33%	2
+3	6	14	100%, 100%, 100%, 37%	2
+4	10	21	100%, 100%, 100%, 40%	2
+5	14	28	100%, 100%, 100%, 44%	2
+6	18	35	100%, 100%, 100%, 47%	2
+7	22	41	100%, 100%, 100%, 51%	2
+8	26	48	100%, 100%, 100%, 55%	2
+9	31	57	100%, 100%, 100%, 58%	2
+10	36	65	100%, 100%, 100%, 62%	2
+11	41	74	100%, 100%, 100%, 66%	3
+12	46	82	100%, 100%, 100%, 70%	3
+13	52	92	100%, 100%, 100%, 75%	3
+14	58	103	100%, 100%, 100%, 80%	3
+15	64	113	100%, 100%, 100%, 85%	3
+16	66	116	100%, 100%, 100%, 92%	3
+17	72	126	100%, 100%, 100%, 98%	3
+18	78	137	100%, 100%, 100%, 106%	3
+19	84	147	100%, 100%, 100%, 114%	3
+20	90	157	100%, 100%, 100%, 122%	3
+21			100%, 100%, 100%, 132%	4
+22			100%, 100%, 100%, 142%	4
+23			100%, 100%, 100%, 153%	4
+24			100%, 100%, 100%, 165%	4
+25			100%, 100%, 100%, 178%	4
+26			100%, 100%, 100%, 191%	4
+27			100%, 100%, 100%, 206%	4
+28			100%, 100%, 100%, 222%	4
+29			100%, 100%, 100%, 239%	4
+30			100%, 100%, 100%, 258%	4
+31			100%, 100%, 100%, 278%	5
+32			100%, 100%, 100%, 299%	5
+33			100%, 100%, 100%, 322%	5
+34			100%, 100%, 100%, 347%	5
+35			100%, 100%, 100%, 374%	5
+36			100%, 100%, 100%, 403%	5
+37			100%, 100%, 100%, 434%	5
+38			100%, 100%, 100%, 468%	5
+39			100%, 100%, 100%, 504%	5
+40			100%, 100%, 100%, 543%	5
+Version	Changes
+0.4.0	- Herald of Thunder: Now has an Attack Damage of 40%-122% (previously 47-143%) at Gem levels 4-20.
+0.3.0	- Herald of Thunder: Bolt impact radius is now 1 metre (from 1.4)
+0.2.0	- Herald of Thunder's Bolt impact Radius is now 1.4 metres (previously 1.6).
+Tier	Gems
+1	Concentrated Area Precision I
+2	Maim Herbalism I
+3	Elemental Focus Deadly Herald
+4	Precision II Living Lightning II
+5	Blind II Culling Strike II
+Level	Requires Level	Base Damage	Lightning Bolts strike the targets of your next 2 Attack Hits after killing a Shocked enemy with Attack damage
+1	0	100%, 100%, 100%, 30%	2
+2	3	100%, 100%, 100%, 33%	2
+3	6	100%, 100%, 100%, 37%	2
+4	10	100%, 100%, 100%, 40%	2
+5	14	100%, 100%, 100%, 44%	2
+6	18	100%, 100%, 100%, 47%	2
+7	22	100%, 100%, 100%, 51%	2
+8	26	100%, 100%, 100%, 55%	2
+9	31	100%, 100%, 100%, 58%	2
+10	36	100%, 100%, 100%, 62%	2
+11	41	100%, 100%, 100%, 66%	3
+12	46	100%, 100%, 100%, 70%	3
+13	52	100%, 100%, 100%, 75%	3
+14	58	100%, 100%, 100%, 80%	3
+15	64	100%, 100%, 100%, 85%	3
+16	66	100%, 100%, 100%, 92%	3
+17	72	100%, 100%, 100%, 98%	3
+18	78	100%, 100%, 100%, 106%	3
+19	84	100%, 100%, 100%, 114%	3
+20	90	100%, 100%, 100%, 122%	3
+21		100%, 100%, 100%, 132%	4
+22		100%, 100%, 100%, 142%	4
+23		100%, 100%, 100%, 153%	4
+24		100%, 100%, 100%, 165%	4
+25		100%, 100%, 100%, 178%	4
+26		100%, 100%, 100%, 191%	4
+27		100%, 100%, 100%, 206%	4
+28		100%, 100%, 100%, 222%	4
+29		100%, 100%, 100%, 239%	4
+30		100%, 100%, 100%, 258%	4
+31		100%, 100%, 100%, 278%	5
+32		100%, 100%, 100%, 299%	5
+33		100%, 100%, 100%, 322%	5
+34		100%, 100%, 100%, 347%	5
+35		100%, 100%, 100%, 374%	5
+36		100%, 100%, 100%, 403%	5
+37		100%, 100%, 100%, 434%	5
+38		100%, 100%, 100%, 468%	5
+39		100%, 100%, 100%, 504%	5
+40		100%, 100%, 100%, 543%	5
+Version	Changes
+0.4.0	- Herald of Thunder: Now has an Attack Damage of 40%-122% (previously 47-143%) at Gem levels 4-20.
+0.3.0	- Herald of Thunder: Bolt impact radius is now 1 metre (from 1.4)
+0.2.0	- Herald of Thunder's Bolt impact Radius is now 1.4 metres (previously 1.6).
+Code	lightning damage +%
+IsPublic	1
+IsLocal	0
+IsWeaponLocal	0
+IsParty	0
+IsVirtual	0
+IsScalable	1
+StatSemantics	1
+Code	base damage taken +%
+IsPublic	1
+IsLocal	0
+IsWeaponLocal	0
+IsParty	0
+IsVirtual	0
+IsScalable	1
+StatSemantics	1
+Code	damage +%
+IsPublic	1
+IsLocal	0
+IsWeaponLocal	0
+IsParty	0
+IsVirtual	0
+IsScalable	1
+StatSemantics	1

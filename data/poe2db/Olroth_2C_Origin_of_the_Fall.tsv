@@ -1,0 +1,21 @@
+# https://poe2db.tw/us/Olroth_2C_Origin_of_the_Fall · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Area	Obscure Island , Kalguuran Tomb
+Tags	Caster, fire_affinity , has_two_hand_sword , has_two_handed_melee , human , humanoid , light_armour , medium_movement , melee , not_dex , not_int , physical_affinity , red_blood , slashing_weapon , Sword2H_onhit_audio , undead , ward_armour
+Family	PinnacleAtlasBoss
+Domains	Monster (3)
+GenerationType	Unique (3)
+Adds Tags	pinnacle_boss
+Family	MonsterActBoss
+Domains	Monster (3)
+GenerationType	Unique (3)
+Stats	i am boss of tier 3 — 3 Global monster slain experience +% 0 — 0 Global monster dropped item rarity +% 4800 — 4800 Global
+Family	ExpeditionUnaffectedByRemnants
+Domains	Monster (3)
+GenerationType	Unique (3)
+Stats	expedition relic mods do not apply 1 — 1 Global
+NPC	Name
+Olroth's Resolve	Olroth the Gallant, tireless and true, he fights for me, he fights for you!
+Olroth's Reliquary Key	They knew the truth, but had no choice Generations hence, perhaps, one day, there would be a chance
+Olroth's Logbook	He made his way to the ends of the earth...
+Olroth's Crest of the Sun	The Knights of the Sun defined what it means to be a hero in a world full of monsters, mysteries, and darkness.
+Olroth's Boon	For leading the expedition in search of that crimson omen, Cadigan III gifted Olroth a royal boon of power. Should he succeed, the Knights of the Sun would be forever lauded.

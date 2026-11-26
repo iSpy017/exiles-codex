@@ -1,0 +1,58 @@
+# https://poe2db.tw/us/Snipe · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Tier	Gems
+1	Brutality I Hourglass Window of Opportunity I
+2	Brutality II Longshot I
+3	Bleed II Steadfast II Deadly Resolve
+4	Execute II Impale Perfection
+5	Bleed III Brutality III Heft
+Level	Requires Level	Dex	Mana	Base Damage	31 % more damage with Hits for explosions originating from a Unique enemy
+1	0	4	18	100%, 100%, 100%, 400%, 630%	31
+2	3	9	20	110%, 110%, 110%, 440%, 693%	32
+3	6	14	23	121%, 121%, 121%, 484%, 764%	33
+4	10	21	26	132%, 132%, 132%, 529%, 838%	34
+5	14	28	30	142%, 142%, 142%, 573%, 912%	35
+6	18	35	33	153%, 153%, 153%, 618%, 990%	36
+7	22	41	37	164%, 164%, 164%, 664%, 1074%	37
+8	26	48	41	174%, 174%, 174%, 708%, 1156%	38
+9	31	57	46	182%, 182%, 182%, 748%, 1237%	39
+10	36	65	51	191%, 191%, 191%, 790%, 1326%	40
+11	41	74	56	201%, 201%, 201%, 837%, 1425%	41
+12	46	82	61	211%, 211%, 211%, 886%, 1536%	42
+13	52	92	67	222%, 222%, 222%, 939%, 1660%	43
+14	58	103	73	233%, 233%, 233%, 997%, 1798%	44
+15	64	113	79	244%, 244%, 244%, 1059%, 1953%	45
+16	66	116	86	257%, 257%, 257%, 1125%, 2127%	46
+17	72	126	94	269%, 269%, 269%, 1197%, 2322%	47
+18	78	137	101	283%, 283%, 283%, 1275%, 2541%	48
+19	84	147	110	297%, 297%, 297%, 1358%, 2788%	49
+20	90	157	119	312%, 312%, 312%, 1449%, 3067%	50
+21			128	327%, 327%, 327%, 1545%, 3374%	51
+22			138	344%, 344%, 344%, 1648%, 3711%	52
+23			148	361%, 361%, 361%, 1758%, 4082%	53
+24			160	379%, 379%, 379%, 1875%, 4491%	54
+25			172	398%, 398%, 398%, 2000%, 4940%	55
+26			184	418%, 418%, 418%, 2133%, 5434%	56
+27			198	439%, 439%, 439%, 2275%, 5977%	57
+28			212	461%, 461%, 461%, 2427%, 6575%	58
+29			227	484%, 484%, 484%, 2589%, 7232%	59
+30			243	508%, 508%, 508%, 2761%, 7955%	60
+31			259	533%, 533%, 533%, 2945%, 8751%	61
+32			277	560%, 560%, 560%, 3141%, 9626%	62
+33			296	588%, 588%, 588%, 3351%, 10589%	63
+34			316	618%, 618%, 618%, 3574%, 11648%	64
+35			337	648%, 648%, 648%, 3812%, 12813%	65
+36			359	681%, 681%, 681%, 4066%, 14094%	66
+37			383	715%, 715%, 715%, 4337%, 15504%	67
+38			408	751%, 751%, 751%, 4626%, 17054%	68
+39			434	788%, 788%, 788%, 4934%, 18760%	69
+40			462	828%, 828%, 828%, 5262%, 20636%	70
+Version	Changes
+0.5.2	* Reduced the damage of the Snipe skill used by the Cultist Archer Monster.
+0.5.1	* Fixed a bug with Mirage Archer targeting when using channelled Bow skills such as Snipe, Detonating Arrow, and Rapid Shot.
+0.5.0	* Mirage Archer and Mirage Deadeye : Can now be used with Channelled Skills, including Snipe, Plasma Blast, and Detonating Arrow. * Snipe : Now deals 121-312% of Attack Damage at Gem levels 3-20 (previously 133-343%), and Explosion now deals 484-1449% of Attack Damage at Gem levels 3-20 (previously 454-1358%). Icy Blast now deals 764-3067% of Attack Damage at Gem levels 3-20 (previously 913-3062%), and now has 33-50% more damage with Hits for explosions originating from a Unique enemy at Gem levels 3-20 (previously always 50%). Icy blast Explosion radius is now 3 metres (previously 3.2).
+0.4.0	- Snipe: Icy blast now deals 644-2160% of Attack Damage at gem levels 3-20 (previously 560-1878%). Removed Heavy Blast and Heavy Stun interaction from the skill.
+0.3.0	- Skeletal Sniper: Command: Gas Arrow cooldown is now 6 seconds (previously 8). Gas Cloud now deals 80% Attack Damage (previously 70%).Quality now provides Minions deal 0-20% more Damage, instead of 0-10% reduced Reservation. - Snipe: Explosion is no longer Guaranteed Critical Hit and doesn't have increased Critical Damage Bonus. Explosion now deals 363-936% Attack Damage at Gem levels 3-20 (previously 133-343%), and has a radius of 2.5 metres (previously 1.6). Perfectly timed arrows that hit a Frozen or Heavy Stunned enemy now cause larger explosions that deal much more damage. Quality now provides +0-0.4 metres to Explosion radius. - NEW: Sniper's Mark: Now has a Cooldown of 6 seconds (previously 2). - Sniper's Mark: Now has a Cooldown of 6 seconds (previously 2). - Snipe: Explosion is no longer Guaranteed Critical Hit and doesn't have increased Critical Damage Bonus. Explosion now deals 363-936% Attack Damage at Gem levels 3-20 (previously 133-343%), and has a radius of 2.5 metres (previously 1.6). Perfectly timed arrows that hit a Frozen or Heavy Stunned enemy now cause larger explosions that deal much more damage. Quality now provides +0-0.4 metres to Explosion radius.
+0.2.0	- Skeletal Warrior can no longer be engraved in the Gemcutting menu, as it was only provided as a stop-gap until this functionality was implemented. Existing copies of the Skeletal Warrior skill gem have been turned into Skeletal Sniper gems. The Skeletal Warrior skill granted by some sceptres now allows you to summon additional skeletons by reserving spirit, in addition to the two free skeletons it grants automatically. - Snipe's attack speed multiplier and mana cost has been adjusted so that the attack time matches the time until a perfect strike. This is mainly to improve descriptions and the function of the skill is unchanged. - The Poison Cloud from Skeletal Sniper now gains 20% more Radius per second, up to a maximum of 80% (previously 40%, up to a maximum of 200%).
+0.1.0e	* Sniper's Mark cooldown reduced from 6 seconds to 2 seconds at all Levels.
+Name	Damage%	Life%	Spectre
+Bronnach, the Manhunter	175	130 |

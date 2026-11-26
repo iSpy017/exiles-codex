@@ -1,0 +1,56 @@
+# https://poe2db.tw/us/Raise_Zombie · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Tier	Gems
+1	Brutality I Prolonged Duration I Perpetual Charge
+2	Brutality II Behead I Minion Instability
+3	Feeding Frenzy I Corpse Conservation Muster
+4	Heavy Swing Feeding Frenzy II Impale
+5	Brutality III Physical Mastery
+Level	Requires Level	Int	Mana	Base Damage	Empowered Zombies deal 100 % more damage with Hits	Minion Level
+1	0	4	10	100%, 100%, 100%	100	2
+2	3	9	11	100%, 100%, 100%	105	4
+3	6	14	13	100%, 100%, 100%	110	6
+4	10	21	16	100%, 100%, 100%	116	8
+5	14	28	18	100%, 100%, 100%	122	10
+6	18	35	21	100%, 100%, 100%	128	12
+7	22	41	24	100%, 100%, 100%	134	14
+8	26	48	27	100%, 100%, 100%	141	16
+9	31	57	31	100%, 100%, 100%	148	18
+10	36	65	35	100%, 100%, 100%	155	20
+11	41	74	39	100%, 100%, 100%	163	22
+12	46	82	44	100%, 100%, 100%	171	24
+13	52	92	49	100%, 100%, 100%	180	26
+14	58	103	55	100%, 100%, 100%	189	28
+15	64	113	61	100%, 100%, 100%	198	30
+16	66	116	68	100%, 100%, 100%	208	32
+17	72	126	75	100%, 100%, 100%	218	34
+18	78	137	83	100%, 100%, 100%	229	36
+19	84	147	92	100%, 100%, 100%	241	38
+20	90	157	102	100%, 100%, 100%	253	40
+21			113	100%, 100%, 100%	265	42
+22			124	100%, 100%, 100%	279	44
+23			137	100%, 100%, 100%	293	46
+24			150	100%, 100%, 100%	307	48
+25			165	100%, 100%, 100%	323	50
+26			181	100%, 100%, 100%	339	52
+27			199	100%, 100%, 100%	356	54
+28			218	100%, 100%, 100%	373	56
+29			238	100%, 100%, 100%	392	58
+30			261	100%, 100%, 100%	412	60
+31			285	100%, 100%, 100%	432	62
+32			311	100%, 100%, 100%	454	64
+33			340	100%, 100%, 100%	476	66
+34			371	100%, 100%, 100%	500	68
+35			404	100%, 100%, 100%	525	70
+36			440	100%, 100%, 100%	552	72
+37			480	100%, 100%, 100%	579	74
+38			522	100%, 100%, 100%	608	76
+39			568	100%, 100%, 100%	639	78
+40			618	100%, 100%, 100%	670	80
+Version	Changes
+0.4.0	- Raise Zombie: Creating a Zombie from a Power Charge now also creates 2 additional non-empowered Zombies. Empowered Zombie now deals 122-253% more damage with Hits at Gem levels 5-20 (previously 100).
+0.3.0	- Raise Zombie: Quality now provides 0-25% increased Effect of Empowerment on Raised Zombies, instead of 0-20% more Minion Movement Speed.
+Tags	animal_claw_weapon , flesh_armour , is_unarmed , medium_height , melee , physical_affinity , Unarmed_onhit_audio , undead , very_slow_movement , zombie
+Family	MonsterNoDropsOrExperience
+Domains	Monster (3)
+GenerationType	Unique (3)
+Stats	monster no drops or experience 1 — 1 Global — Unscalable Value

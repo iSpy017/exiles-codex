@@ -1,14 +1,20 @@
-# 0.5.5 Practice Build for 1.0
+---
+title: 0.5.5 Practice Build for 1.0
+status: done
+tracker_topic: "0.5.5 practice build for 1.0"
+tracker_note: "done (volatile; re-judge at 1.0)"
+defaults: vol=volatile
+---
 
 Status: recommendation, 2026-11-17 (24 days before launch). Volatility: volatile — re-judge when 1.0 patch notes drop.
 Question (David, 2026-11-17): which build in 0.5.5 is least likely to change in 1.0, so practice carries over?
 
 ## Pick: Ice Shot Deadeye, levelled with Lightning Arrow
-- Claim: Fubgun's Ice Shot Deadeye levels on Lightning Arrow + Lightning Rod until Ice Shot unlocks at level 31, then maps with Ice Shot and bosses with Snipe after freezing. One run practises both the decision-sheet incumbent (Lightning Arrow Deadeye) and the strongest 0.5.5 bow mapper.
-- Version: 0.5.5
-- Volatility: volatile
-- Source: [Mobalytics Fubgun Ice Shot Deadeye levelling guide](https://mobalytics.gg/poe-2/builds/ice-shot-deadeye-leveling-guide) (updated 2026-09-12, unlock at 31), [endgame guide](https://mobalytics.gg/poe-2/builds/ice-shot-deadeye) (updated 2026-09-12), tier 3; Fubgun S-tier 0.5.5 ([Kami-labs](https://kami-labs.fr/en/path-of-exile-2/tier-list-league-start-poe2-0-5-5/), tier 5); retrieved 2026-11-17
-- Confidence: single-source per fact
+@ v=0.5.5 vol=volatile conf=single-source date=2026-11-17
+Fubgun's Ice Shot Deadeye levels on Lightning Arrow + Lightning Rod until Ice Shot unlocks at level 31, then maps with Ice Shot and bosses with Snipe after freezing. One run practises both the decision-sheet incumbent (Lightning Arrow Deadeye) and the strongest 0.5.5 bow mapper.
+
+- src: Mobalytics Fubgun Ice Shot Deadeye levelling guide [S046] (updated 2026-09-12, unlock at 31), endgame guide [S045] (updated 2026-09-12), tier 3; Fubgun S-tier 0.5.5 (Kami-labs [S027], tier 5); retrieved 2026-11-17
+- conf: single-source per fact
 
 ## Why it should carry over best
 1. Not on GGG's rework list. Official 1.0 press release names major reworks for Mercenary, Infernalist, Blood Mage and Acolyte of Chayula only ([GGG press release](https://www.pathofexile.com/forum/view-thread/4013917/page/1), tier 1). Deadeye and bows aren't named → [INFERRED] lowest-risk of the decision-sheet candidates. Knight doesn't exist in 0.5.5; Infernalist and Blood Mage are reworked; Grenade Gemling (what you already practised) sits on the reworked Mercenary.

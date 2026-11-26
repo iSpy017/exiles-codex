@@ -1,0 +1,59 @@
+# https://poe2db.tw/us/Skeletal_Arsonist · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Tier	Gems
+1	Multishot I Magnified Area I Elemental Armament I
+2	Multishot II Elemental Armament II Bidding I
+3	Feeding Frenzy I Eternal Flame II Muster
+4	Feeding Frenzy II Fire Exposure Bidding II
+5	Fire Penetration II Ignite III Fire Mastery
+Level	Requires Level	Int	Mana	Base Damage	Can target Minions with 29 Life or less	Minion Level
+1	0	4	90	100%, 100%, 100%, 100%	29	2
+2	3	9	65	100%, 100%, 100%, 100%	54	4
+3	6	14	50	100%, 100%, 100%, 100%	83	6
+4	10	21	47	100%, 100%, 100%, 100%	114	8
+5	14	28	47	100%, 100%, 100%, 100%	148	10
+6	18	35	47	100%, 100%, 100%, 100%	187	12
+7	22	41	44	100%, 100%, 100%, 100%	229	14
+8	26	48	44	100%, 100%, 100%, 100%	277	16
+9	31	57	44	100%, 100%, 100%, 100%	329	18
+10	36	65	42	100%, 100%, 100%, 100%	386	20
+11	41	74	42	100%, 100%, 100%, 100%	449	22
+12	46	82	42	100%, 100%, 100%, 100%	518	24
+13	52	92	40	100%, 100%, 100%, 100%	594	26
+14	58	103	40	100%, 100%, 100%, 100%	677	28
+15	64	113	40	100%, 100%, 100%, 100%	770	30
+16	66	116	40	100%, 100%, 100%, 100%	870	32
+17	72	126	39	100%, 100%, 100%, 100%	981	34
+18	78	137	39	100%, 100%, 100%, 100%	1101	36
+19	84	147	39	100%, 100%, 100%, 100%	1235	38
+20	90	157	39	100%, 100%, 100%, 100%	1379	40
+21			38	100%, 100%, 100%, 100%	1538	42
+22			38	100%, 100%, 100%, 100%	1711	44
+23			38	100%, 100%, 100%, 100%	1899	46
+24			38	100%, 100%, 100%, 100%	2105	48
+25			38	100%, 100%, 100%, 100%	2330	50
+26			37	100%, 100%, 100%, 100%	2575	52
+27			37	100%, 100%, 100%, 100%	2842	54
+28			37	100%, 100%, 100%, 100%	3134	56
+29			37	100%, 100%, 100%, 100%	3451	58
+30			37	100%, 100%, 100%, 100%	3795	60
+31			36	100%, 100%, 100%, 100%	4173	62
+32			36	100%, 100%, 100%, 100%	4583	64
+33			36	100%, 100%, 100%, 100%	5028	66
+34			36	100%, 100%, 100%, 100%	5513	68
+35			36	100%, 100%, 100%, 100%	6040	70
+36			35	100%, 100%, 100%, 100%	6612	72
+37			35	100%, 100%, 100%, 100%	7236	74
+38			35	100%, 100%, 100%, 100%	7913	76
+39			35	100%, 100%, 100%, 100%	8647	78
+40			35	100%, 100%, 100%, 100%	9447	80
+Version	Changes
+0.4.0d	* Fixed a bug where Raging Spirits couldn't be targeted by Skeletal Arsonist's Explosive Demise command skill
+0.3.0	- Skeletal Arsonist: Explosive Demise is now an Attack instead of Spell, dealing 300% Attack Damage. Now deals additional Fire Damage equal to 8% of Minion's maximum Life (previously 12%), and can now target Minions with 30-1096 Life or less (previously 27-913).
+0.2.0c	* The Life threshold Skeletal Arsonist s can target other Minions, and the heal amount of Skeletal Clerics has been adjusted proportionately to the Minion Life changes.
+0.2.0	- Adjusted the target Life Threshold for Skeletal Arsonist's Explosive Demise Skill accordingly with the Life scaling changes. - Skeletal Arsonist's Explosive Demise Skill deals additional Fire Damage equal to 12% of Minion's maximum Life (previously 15%), and now has 2.4 metres Explosion Radius (previously 2 metres). - Fixed a bug where spell-related Support Gems could not support Skeletal Arsonists.
+0.1.0e	* Skeletal Arsonist 's Spirit Costs now match Frost and Ice Mages from Level 5 onwards, making them more expensive while keeping their costs early-game the same.
+Tags	bone_armour , bones , Caster, fire_affinity , is_unarmed , medium_height , medium_movement , not_dex , not_str , ranged , skeleton , slashing_weapon , Unarmed_onhit_audio , undead
+Family	MonsterNoDropsOrExperience
+Domains	Monster (3)
+GenerationType	Unique (3)
+Stats	monster no drops or experience 1 — 1 Global — Unscalable Value

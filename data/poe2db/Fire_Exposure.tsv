@@ -1,0 +1,25 @@
+# https://poe2db.tw/us/Fire_Exposure · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Tier	Gems
+1	Flame Wall , Volcano
+3	Fireball , Skeletal Arsonist , Incendiary Shot , Rolling Magma
+5	Perfect Strike , Molten Blast , Gas Grenade
+7	Volcanic Fissure , Detonate Dead , Explosive Shot
+9	Forge Hammer , Detonating Arrow , Siege Ballista
+11	Firestorm
+13	Ancestral Cry , Spear of Solaris , Walking Calamity
+Level	Requires Level	Str
+1	0	0
+Version	Changes
+0.3.0	- Explosive Concoction, granted by the Explosive Concoction Notable Passive Skill choice, no longer has 200% more magnitude of ignite inflicted, and no longer inflicts Fire Exposure on hit. Now fires up to four additional mini flask projectiles at ignited enemies. Quality now grants +0-2 additional mini flask projectiles thrown at ignited enemies, instead of - Explosive Concoction quality no longer grants effect of fire exposure, instead granting up to two additional mini flask projectiles thrown at ignited enemies, instead of 0-20% increased Fire Exposure effect. - Incinerate: Has been reworked, it now requires fuel gained by spending mana to use. It no longer has a mana cost itself, and no longer applies fire exposure. Its cast speed is now fixed and it gains a stage every 0.25 seconds. Its cone length is now 5.8 metres (previously 4.6). It now has 12 maximum stages (previously 8). It no longer creates burning ground by default. Instead, a fire infusion can be consumed to cause it to create ignited ground. Ignited ground radius is now 1.4 metres (previously 0.8 metres). Its minimum gem level is now 9 (previously 5). Beam now has 50% less Ignite Duration (previously 25%), and deals 30% more Damage per Stage (previously 40%). Beam now Ignites as though dealing 100-519 to 151-778 Fire Damage at Gem levels 9 to 20 (previously 66-314 to 99-470). Now inflicts 80% less Flammability Magnitude. - Molten Blast: Now steps backwards instead of forwards if used while moving in the opposite direction to where you're targeting, or attacking in place. Now inflicts 200% more Flammability, and has 100% more Ignite Duration. The secondary projectile count can no longer be modified. Quality now grants 0-30% chance to inflict Elemental Exposure on Hit (previously Fire Exposure). - The Xoph's Blood Unique Amulet's Enemies in your Presence have Fire Exposure modifier now applies Elemental Exposure instead. - Incinerate: Has been reworked, it now requires fuel gained by spending mana to use. It no longer has a mana cost itself, and no longer applies fire exposure. Its cast speed is now fixed and it gains a stage every 0.25 seconds. Its cone length is now 5.8 metres (previously 4.6). It now has 12 maximum stages (previously 8). It no longer creates burning ground by default. Instead, a fire infusion can be consumed to cause it to create ignited ground. Ignited ground radius is now 1.4 metres (previously 0.8 metres). Its minimum gem level is now 9 (previously 5). Beam now has 50% less Ignite Duration (previously 25%), and deals 30% more Damage per Stage (previously 40%). Beam now Ignites as though dealing 100-519 to 151-778 Fire Damage at Gem levels 9 to 20 (previously 66-314 to 99-470). Now inflicts 80% less Flammability Magnitude.
+0.2.0f	* Fire Exposure and Lightning Exposure Supports have had their wording adjusted to make clear their effects apply to any target, not just Enemies. This is not a functional change, just a clarification of wording.
+0.2.0e	* Incinerate 's Fire Exposure Duration is now 8 seconds (previously 2 seconds).
+0.2.0	- Fixed a bug where the fire exposure on fully breaking armour from the Wylund's Stake unique mace would not always apply consistently.
+0.1.0e	* The Fire Exposure, Lightning Exposure and Cold Exposure Support Gems no longer penalize Damage of Supported Skills. They now have a Mana Cost Multiplier of 120%.
+Code	exposure - to total fire resistance
+IsPublic	0
+IsLocal	0
+IsWeaponLocal	0
+IsParty	1
+IsVirtual	0
+IsScalable	1
+StatSemantics	3

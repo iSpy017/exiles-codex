@@ -1,0 +1,34 @@
+# https://poe2db.tw/us/Choir_of_the_Storm · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Version	Changes
+0.5.4	* The Choir of the Storm Unique Amulet now has a level requirement of 55.
+0.4.0	- Choir of the Storm now has "50-100% to Lightning Resistance" (previously 20-30%). - Choir of the Storm's Lightning Bolt skill now has 5 Cooldown uses (previously 1).
+0.3.0	- Lightning Bolt (granted by Choir of the Storm Unique Amulet): Now correctly typed as a Triggered Skill. This means it will scale off of increases and reductions to Triggered Skill Damage as well as other similar stats, and also means it will no longer be capable of generating Energy to Trigger other Skills. - Fixed a bug where the Lightning Bolt Skill granted by the Choir of the Storm Unique Amulet was not considered a Triggered Skill for damage modifiers.
+0.2.0	- The Choir of the Storm Unique Amulet once again triggers Lightning Bolt (previously Greater Lightning Bolt).
+0.1.1	* The Lightning Bolt Skill granted by the Choir of the Storm Unique Amulet has been renamed to Greater Lightning Bolt to differentiate it from the Skill granted by Staves. Triggered Greater Lightning Bolts are now unable to trigger a subsequent Greater Lightning Bolt if the first was a Critical Hit. Greater Lightning Bolt now deals roughly 3.5 times more base Lightning Damage compared to Lightning Bolt.
+Family	Dexterity
+Domains	Item (1)
+GenerationType	Unique (3)
+Req. level	10 (Effective: 8)
+Stats	additional dexterity 10 — 15 Global
+Craft Tags	Attribute
+Catalysts	Adaptive Catalyst Refined Adaptive Catalyst
+Family	LightningResistance
+Domains	Item (1)
+GenerationType	Unique (3)
+Req. level	69 (Effective: 55)
+Stats	base lightning damage resistance % 50 — 100 Global
+Craft Tags	elemental_resistance lightning_resistance Elemental Lightning Resistance
+Catalysts	Esh's Catalyst Refined Esh's Catalyst
+Family	LightningResistancePenetration
+Domains	Item (1)
+GenerationType	Unique (3)
+Req. level	69 (Effective: 55)
+Stats	critical strikes ignore lightning resistance 1 — 1 Global
+Craft Tags	Elemental Lightning Critical
+Catalysts	Esh's Catalyst Refined Esh's Catalyst
+Family	GrantedSkill
+Domains	Item (1)
+GenerationType	Unique (3)
+Req. level	69 (Effective: 55)
+Stats	local display triggers level x lightning bolt on critical strike 1 — 1 Global
+Craft Tags	skill

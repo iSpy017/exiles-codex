@@ -1,0 +1,57 @@
+# https://poe2db.tw/us/Precursor_Tower · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Name	Show Full Descriptions
+Act	10
+Level	65
+Boss	Precursor Displacer Precursor Extractor
+Tags	map , map_tower
+Level	Name	Experience	Damage	Attack Time	Life	Armour	Evasion	Energy Shield			 |
+65	Precursor Extractor	457,024	338	1.47	547,474	3,540			0	0	30	0
+65	Precursor Displacer	457,024	338	1.47	594,997	3,540			0	0	30	0
+Name	Show Full Descriptions
+Act	10
+Level	65
+Boss	Precursor Displacer Precursor Extractor
+Tags	map , map_tower , desert_biome
+Level	Name	Experience	Damage	Attack Time	Life	Armour	Evasion	Energy Shield			 |
+65	Precursor Extractor	457,024	338	1.47	547,474	3,540			0	0	30	0
+65	Precursor Displacer	457,024	338	1.47	594,997	3,540			0	0	30	0
+Name	Show Full Descriptions
+Act	10
+Level	65
+Boss	Precursor Displacer Precursor Extractor
+Tags	map , map_tower , forest_biome
+Level	Name	Experience	Damage	Attack Time	Life	Armour	Evasion	Energy Shield			 |
+65	Precursor Extractor	457,024	338	1.47	547,474	3,540			0	0	30	0
+65	Precursor Displacer	457,024	338	1.47	594,997	3,540			0	0	30	0
+Name	Show Full Descriptions
+Act	10
+Level	65
+Boss	Precursor Displacer Precursor Extractor
+Tags	map , map_tower , grass_biome
+Level	Name	Experience	Damage	Attack Time	Life	Armour	Evasion	Energy Shield			 |
+65	Precursor Extractor	457,024	338	1.47	547,474	3,540			0	0	30	0
+65	Precursor Displacer	457,024	338	1.47	594,997	3,540			0	0	30	0
+Name	Show Full Descriptions
+Act	10
+Level	65
+Boss	Precursor Displacer Precursor Extractor
+Tags	map , mountain_biome
+Level	Name	Experience	Damage	Attack Time	Life	Armour	Evasion	Energy Shield			 |
+65	Precursor Extractor	457,024	338	1.47	547,474	3,540			0	0	30	0
+65	Precursor Displacer	457,024	338	1.47	594,997	3,540			0	0	30	0
+Name	Show Full Descriptions
+Act	10
+Level	65
+Boss	Precursor Displacer Precursor Extractor
+Tags	map , map_tower , swamp_biome
+Level	Name	Experience	Damage	Attack Time	Life	Armour	Evasion	Energy Shield			 |
+65	Precursor Extractor	457,024	338	1.47	547,474	3,540			0	0	30	0
+65	Precursor Displacer	457,024	338	1.47	594,997	3,540			0	0	30	0
+Name	Show Full Descriptions
+Act	10
+Level	65
+Boss	Karash, The Dune Dweller
+Tags	map , map_tower
+Topologies	graph graph graph graph graph graph graph graph
+Level	Name	Experience	Damage	Attack Time	Life	Armour	Evasion	Energy Shield			 |
+65	Karash, The Dune Dweller	457,024	338	1.47	475,238	3,439			30	-30	30	0

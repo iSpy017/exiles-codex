@@ -1,0 +1,33 @@
+# https://poe2db.tw/us/Palm_of_the_Dreamer · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Family	ChaosDamage
+Domains	Item (1)
+GenerationType	Unique (3)
+Stats	non skill base all damage % to gain as chaos 27 — 27 Global
+Craft Tags	chaos_damage Damage Chaos
+Family	ChaosDamage
+Domains	Item (1)
+GenerationType	Unique (3)
+Req. level	82 (Effective: 65)
+Stats	allies in presence attack maximum added chaos damage 25 — 37 Global allies in presence attack minimum added chaos damage 13 — 17 Global
+Craft Tags	chaos_damage Damage Chaos Attack
+Family	SkillEffectDuration
+Domains	Item (1)
+GenerationType	Unique (3)
+Req. level	82 (Effective: 65)
+Stats	skill effect duration +% -13 — 13 Global
+Family	AllAttributes
+Domains	Item (1)
+GenerationType	Unique (3)
+Req. level	82 (Effective: 65)
+Stats	additional all attributes 7 — 13 Global
+Craft Tags	Attribute
+Family	LightRadius
+Domains	Item (1)
+GenerationType	Unique (3)
+Req. level	82 (Effective: 65)
+Stats	light radius +% -23 — -23 Global
+Family	UniqueChaosShrine
+Domains	Item (1)
+GenerationType	Unique (3)
+Req. level	82 (Effective: 65)
+Stats	has unique chaos shrine effect 1 — 1 Global

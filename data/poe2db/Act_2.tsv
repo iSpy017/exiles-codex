@@ -1,0 +1,77 @@
+# https://poe2db.tw/us/Act_2 · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Name	Level	Boss
+Vastiri Outskirts	16	Rathbreaker · Rotting Hulk Rathbreaker
+The Ardura Caravan	32 |
+Traitor's Passage	19	Balbala, the Traitor · Quake Golem Balbala, the Traitor Bell Chest
+The Halani Gates	20	Jamanra, the Risen King Forward Command Tents Jamanra, the Risen King
+The Halani Gates	20 |
+Keth	21	Kabala, Constrictor Queen · Serpent Shaman · Desiccated Lich Kabala, Constrictor Queen ( 2 Weapon Set Passive Skill Points ) Abandoned Shrine Emerging Arm
+The Lost City	22	Risen Arbalest · Risen Magi · Adorned Scarab The Galleria Golden Tomb
+Buried Shrines	23	Azarian, the Forsaken Son · Mar Acolyte · Risen Arbalest Azarian, the Forsaken Son Guarded Sarcophagus Elemental Offering
+Mastodon Badlands	21	Lost-men Zealot · Lost-men Zealot · Lost-men Necromancer Shrine of Bones Abyss
+The Bone Pits	22	Ekbab, Ancient Steed · Lost-men Zealot · Lost-men Zealot · Lost-men Necromancer · Sun Clan Scavenger · Drudge Osseodon Ekbab, Ancient Steed Preserved Witness
+Lightless Passage	22	Lost-men Brute
+The Well of Souls	22 |
+Valley of the Titans	21	Desiccated Lich · Quake Golem Medallion ( 30 % increased Charm Charges gained +1 Charm Slots 30 % increased Charm Effect Duration +1 Charm Slots ) Abyss Essence
+The Titan Grotto	22	Zalmarath, the Colossus Titans' Treasure The Titan's Fall Zalmarath, the Colossus
+Deshar	28	Rasp Scavenger Final Letter ( 2 Weapon Set Passive Skill Points ) Watchful Twins The Forgotten Hollow Warding Hand
+Path of Mourning	29	Risen Tale-woman Shifting Vases
+The Spires of Deshar	30	Tor Gul, the Defiler · Faridun Impaler Sisters of Garukhan ( +10 % to Lightning Resistance ) Tor Gul, the Defiler
+Mawdun Quarry	17	Plague Harvester Tinker's Tools Faridun War Cache
+Mawdun Mine	18	Rudja, the Dread Engineer Rudja, Dread Engineer Essence
+Dreadnought	31	Jamanra, the Abomination · Faridun Plaguebringer Jamanra, the Abomination
+Trial of the Sekhemas	22	Trial of Ascendancy
+Skull of the Titan	28	Black Scythe Arbalest · Black Scythe Mercenary · Quake Golem Ancient Arsenal
+The Halani Gates	20 |
+Type	Name	Quantity
+Act 2	[DNT-UNUSED] Maraketh Caravan Guard 1 |
+Act 2	[DNT-UNUSED] Maraketh Caravan Guard 2 |
+Act 2	Abandoned Rhoa	1
+Act 2	Azarian, the Forsaken Son	15
+Act 2	Balbala	56
+Act 2	Balbala, the Advisor	204
+Act 2	Book of Jamanra	1
+Act 2	Boundless Potential	1
+Act 2	Decree of Imprisonment	1
+Act 2	Desert Map	89
+Act 2	Desperate Message	1
+Act 2	Etchings of Varashta	5
+Act 2	Final Testament	1
+Act 2	Gweinth	1
+Act 2	Halani, the Water Goddess |
+Act 2	Inscription |
+Act 2	Ivory Curio	1
+Act 2	Jamanra, the Abomination	141
+Act 2	Jamanra, the Risen King	139
+Act 2	Lark	1
+Act 2	Maraketh Tale-Woman |
+Act 2	Maraketh Wise Woman |
+Act 2	Risu	1
+Act 2	Risu, Faridun Defector	114
+Act 2	Sekhema Asala	138
+Act 2	Shambrin	113
+Act 2	Testament of Defiance	1
+Act 2	Testament of Keth	1
+Act 2	The Forge	1
+Act 2	The Rite of Flame	1
+Act 2	The Water Goddess	11
+Act 2	Wayfarer's Stone	2
+Act 2	Zarka	132
+Act 2	Iktab, the Deathlord	11
+Act 2	Rudja, Dread Engineer	75
+Act 2	Kabala, Constrictor Queen	30
+Name	Show Full Descriptions
+Act	2
+Level	0
+Topologies	Ascendancy_E, TitanValley end end end end end Gates_N, end end end black white white end end Outpost_1, end end end black Badlands_N, black Dreadnought_SN Spires_EE, Oasis_E, Quarry ToAct3 Keth_NE, Town_01 Town_03_St black white Underground_SN_01 end end Compass_02 Label_Cliff_Cv Ascendancy_E_F, TitanValley end end end end end Gates_N, end end end black white white end end Outpost_1, end end end black Badlands_N, black Dreadnought_SN Spires_EE, Oasis_E, Quarry Label_02 Keth_NE, Town_01 black white Town_03 ToAct3 white Underground_SN_02 end end Compass_02 Ascendancy_E, TitanValley end Gates_N, end end white white end end Outpost_1, end end end Badlands_N, Compass_Cliff_Cv black Dreadnought_SN Spires_EE, Oasis_E, Quarry ToAct3 Keth_NE, Town_01 white Town_03_StLower white Underground_WE_01 end end Label_01 Ascendancy_E_F, TitanValley end Gates_N, end end end end black white white end end Outpost_1, end end end black Badlands_N, black Dreadnought_SN Spires_EE, Oasis_E, Quarry Keth_NE, Town_01 black white ToAct3 Town_03_St Underground_WE_02 end end Compass_02 Label_02 Ascendancy_E, TitanValley end end end end end Gates_N, end end end black white end end Outpost_1, end end end black Badlands_N, black Dreadnought_SN Spires_EE, Oasis_E, Quarry ToAct3 Keth_NE, Town_01 Town_03_St black white white Underground_NS_01 end end Compass_02 Label_Cliff_St_02 Ascendancy_E_F, TitanValley end end end end end Gates_N, end white white end end Outpost_1, end end end black Badlands_N, black Dreadnought_SN Spires_EE, Oasis_E, Quarry Keth_NE, Town_01 white Town_03_StLower ToAct3 Label_Cliff_St_02 Underground_NS_02 end end Compass_02 Ascendancy_E, TitanValley end end end end Gates_N, end white white Outpost_1, end end Badlands_N, black Dreadnought_SN Spires_EE, Oasis_E, Quarry Keth_NE, Town_01 white Town_03_StLower white ToAct3_St Underground_EW_01 end end Compass_02 Label_Cliff_St_01 Ascendancy_E_F, TitanValley end end end end Gates_N, end end black white white Outpost_1, end end black Badlands_N, black Dreadnought_SN Spires_EE, Oasis_E, Quarry Keth_NE, Town_01 black white ToAct3 Town_03_St Underground_EW_02 end end Compass_02 Label_Cliff_St_02
+| 			↓
+| 			Vastiri Outskirts 16	 |
+| 			↕
+Mawdun Mine 18	↔	Mawdun Quarry 17	↔	The Ardura Caravan	↔	Trial of the Sekhemas
+The Halani Gates 20	↔	Traitor's Passage 19	↔	↔	Dreadnought 31	 |
+| 		⤢	↕		↕	⤡
+| 	Mastodon Badlands 21		Valley of the Titans 21		Keth 21		Deshar 28
+| 	↕		↕		↕		↕
+| 	The Bone Pits 22		The Titan Grotto 22		The Lost City 22		Path of Mourning 29
+| 					↕		↕
+| 					Buried Shrines 23		The Spires of Deshar 30

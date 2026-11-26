@@ -1,0 +1,52 @@
+# https://poe2db.tw/us/Flame_Breath · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Tier	Gems
+1	Fire Attunement Ignite I Elemental Armament I
+2	Fire Penetration I Wildfire Fiery Death
+3	Ignite II Eternal Flame II Stormfire
+4	Rapid Attacks II Efficiency II Blazing Critical
+5	Fire Penetration II Ignite III Defy II
+Level	Requires Level	Str	Int	Mana	Base Damage
+1	0	4	4	23	30%, 30%, 30%
+2	3	7	7	26	33%, 33%, 33%
+3	6	9	9	30	36%, 36%, 36%
+4	10	13	13	35	40%, 40%, 40%
+5	14	17	17	39	43%, 43%, 43%
+6	18	20	20	44	46%, 46%, 46%
+7	22	24	24	49	50%, 50%, 50%
+8	26	28	28	54	53%, 53%, 53%
+9	31	32	32	60	56%, 56%, 56%
+10	36	37	37	67	59%, 59%, 59%
+11	41	41	41	73	63%, 63%, 63%
+12	46	46	46	80	66%, 66%, 66%
+13	52	51	51	88	70%, 70%, 70%
+14	58	57	57	96	75%, 75%, 75%
+15	64	62	62	105	79%, 79%, 79%
+16	66	64	64	114	84%, 84%, 84%
+17	72	70	70	124	90%, 90%, 90%
+18	78	75	75	134	96%, 96%, 96%
+19	84	80	80	145	102%, 102%, 102%
+20	90	86	86	157	109%, 109%, 109%
+21				169	116%, 116%, 116%
+22				182	124%, 124%, 124%
+23				196	132%, 132%, 132%
+24				211	141%, 141%, 141%
+25				227	150%, 150%, 150%
+26				244	160%, 160%, 160%
+27				261	171%, 171%, 171%
+28				280	182%, 182%, 182%
+29				300	194%, 194%, 194%
+30				321	207%, 207%, 207%
+31				343	221%, 221%, 221%
+32				367	236%, 236%, 236%
+33				392	251%, 251%, 251%
+34				418	268%, 268%, 268%
+35				446	286%, 286%, 286%
+36				476	305%, 305%, 305%
+37				507	325%, 325%, 325%
+38				540	347%, 347%, 347%
+39				575	370%, 370%, 370%
+40				612	395%, 395%, 395%
+Version	Changes
+0.5.0	* Flame Breath : Now has an Energy Gain penalty similar to Incinerate. * For players using click to move, clicking to move while channelling a skill that can be used while moving will no longer interrupt channelling. This should significantly improve the usability of skills such as Flame Breath and Incinerate on click to move.
+0.4.0c	* Flame Breath no longer goes on cooldown upon finishing channelling. It now only goes on cooldown upon beginning channelling.
+0.2.0e	* Uxmal, the Beastlord can no longer recharge Energy Shield while they are in the air, uses his Flame Breath less often, and has had the number of times they can change locations through the fight reduced.

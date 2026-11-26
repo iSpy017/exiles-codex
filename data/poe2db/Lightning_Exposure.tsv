@@ -1,0 +1,23 @@
+# https://poe2db.tw/us/Lightning_Exposure · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Tier	Gems
+1	Spark
+3	Orb of Storms
+5	Arc , Tempest Flurry , Thunderstorm
+7	Storm Wave
+9	Lightning Warp
+11	Ball Lightning
+Level	Requires Level	Dex
+1	0	0
+Version	Changes
+0.4.0	- Greater Rune of Nobility now grants 10% chance to inflict Elemental Exposure instead of Lightning Exposure.
+0.3.0	- Fulminating Concoction, granted by Fulminating Concoction Notable Passive Skill choice, no longer inflicts Lightning Exposure on hit. It now has 50% more Shock Effect. Quality now grants 0-40% more chance to Shock (previously 0-20% increased effect of Lightning Exposure).
+0.2.0f	* Fire Exposure and Lightning Exposure Supports have had their wording adjusted to make clear their effects apply to any target, not just Enemies. This is not a functional change, just a clarification of wording.
+0.1.0e	* The Fire Exposure, Lightning Exposure and Cold Exposure Support Gems no longer penalize Damage of Supported Skills. They now have a Mana Cost Multiplier of 120%.
+Code	exposure - to total lightning resistance
+IsPublic	0
+IsLocal	0
+IsWeaponLocal	0
+IsParty	0
+IsVirtual	0
+IsScalable	1
+StatSemantics	3

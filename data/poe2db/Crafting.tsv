@@ -1,0 +1,18 @@
+# https://poe2db.tw/us/Crafting · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Currency	Restriction	Effect
+Orb of Transmutation , Greater Orb of Transmutation , Perfect Orb of Transmutation	Normal	Upgrades a Normal to a Magic , adding 1 affix
+Orb of Alchemy	Normal	Upgrades a Normal to a Rare , adding 4 affixes
+Orb of Chance	Normal	Upgrades a Normal to a Unique , or destroys it
+Regal Orb , Greater Regal Orb , Perfect Regal Orb	Magic	Upgrade Magic to Rare, adding 1 affix.
+Lesser Essence , Essence , Greater Essence	Magic	Upgrade Magic to Rare , adding 1 specific affix.
+Currency	Restrictions	Effects
+Orb of Augmentation , Greater Orb of Augmentation , Perfect Orb of Augmentation	Magic	Magic Adds 1 affix to magic item.
+Exalted Orb , Greater Exalted Orb , Perfect Exalted Orb	Rare	Adds 1 affix to rare item.
+Orb of Annulment	Magic or Rare	Removes 1 affix from Magic or Rare item, without affecting rarity.
+Chaos Orb , Greater Chaos Orb , Perfect Chaos Orb	Rare	Rare item remove 1 affix and add 1 affix.
+Perfect Essence	Rare	Removes a random modifier and augments a Rare item with a new guaranteed modifier
+Currency	Restriction	Effect
+Ancient Collarbone , Preserved Collarbone , Gnawed Collarbone	Rare Necklace, Ring, or Belt	Desecration
+Ancient Jawbone , Preserved Jawbone , Gnawed Jawbone	Rare Weapon or Quiver	Desecration
+Ancient Rib , Preserved Rib , Gnawed Rib	Rare Armor	Desecration
+Preserved Cranium	Rare Jewel	Desecration

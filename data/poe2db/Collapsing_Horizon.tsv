@@ -1,0 +1,24 @@
+# https://poe2db.tw/us/Collapsing_Horizon · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Version	Changes
+0.5.0	* The Collapsing Horizon Unique Quarterstaff now grants 100% increased Elemental Damage (previously 100% increased Elemental Damage with Attacks).
+0.2.0	- Fixed a bug where the Collapsing Horizon Unique Quarterstaff was providing its Elemental Gem Level bonus multiple times to Skills with more than one element type.
+0.1.1c	* Fixed a bug where it was possible to snapshot increases to the level of Elemental Skills using the Collapsing Horizon Unique Quaterstaff.
+Family	ElementalDamagePercent
+Domains	Item (1)
+GenerationType	Unique (3)
+Stats	elemental damage +% 100 — 100 Global
+Craft Tags	elemental_damage Damage Elemental Fire Cold Lightning
+Family	CriticalStrikeChanceIncrease
+Domains	Item (1)
+GenerationType	Unique (3)
+Stats	local critical strike chance 500 — 1000 Local
+Craft Tags	Attack Critical
+Family	GlobalDamageTypeGemLevel
+Domains	Item (1)
+GenerationType	Unique (3)
+Stats	elemental skill gem level + 2 — 4 Global
+Craft Tags	Gem
+Family	EnergyGain
+Domains	Item (1)
+GenerationType	Unique (3)
+Stats	trigger skills refund half energy spent chance % 100 — 100 Global

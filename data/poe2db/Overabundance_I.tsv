@@ -1,0 +1,11 @@
+# https://poe2db.tw/us/Overabundance_I · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Tier	Gems
+1	Volcano
+3	Shockwave Totem , Orb of Storms , Tempest Bell
+7	Artillery Ballista , Spell Totem
+9	Siege Ballista
+11	Tornado Shot , Firestorm , Whirlwind Lance
+Level	Requires Level	Dex
+1	0	0
+Version	Changes
+0.5.0	* Overabundance III : Now properly describes that it cannot support Persistent Skills.

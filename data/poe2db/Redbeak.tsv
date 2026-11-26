@@ -1,0 +1,20 @@
+# https://poe2db.tw/us/Redbeak · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Family	PhysicalDamage
+Domains	Item (1)
+GenerationType	Unique (3)
+Stats	local maximum added physical damage 7 — 10 Local local minimum added physical damage 4 — 6 Local
+Craft Tags	physical_damage Damage Physical Attack
+Family	IncreasedAttackSpeed
+Domains	Item (1)
+GenerationType	Unique (3)
+Stats	local attack speed +% 10 — 10 Local
+Craft Tags	Attack Speed
+Family	LifeGainedFromEnemyDeath
+Domains	Item (1)
+GenerationType	Unique (3)
+Stats	base life gained on enemy death 3 — 3 Global
+Craft Tags	resource Life
+Family	AttackDamage
+Domains	Item (1)
+GenerationType	Unique (3)
+Stats	attack damage +% when on low life 100 — 100 Global

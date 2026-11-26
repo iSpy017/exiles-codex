@@ -1,0 +1,85 @@
+# https://poe2db.tw/us/Voltaic_Mark · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Tier	Gems
+1	Efficiency I Prolonged Duration I Mark of Siphoning
+2	Mark for Death
+3	Prolonged Duration II Cooldown Recovery I
+4	Efficiency II Cooldown Recovery II Mark of Siphoning II
+5	Lightning Mastery Charged Mark
+Level	Requires Level	Dex	Mana	Base Damage	Hits against Marked enemy cause 25 % increased Electrocute buildup
+1	0	4	18	100%, 100%, 100%	25
+2	3	9	20	100%, 100%, 100%	26
+3	6	14	23	100%, 100%, 100%	26
+4	10	21	25	100%, 100%, 100%	27
+5	14	28	28	100%, 100%, 100%	27
+6	18	35	31	100%, 100%, 100%	28
+7	22	41	33	100%, 100%, 100%	28
+8	26	48	36	100%, 100%, 100%	29
+9	31	57	39	100%, 100%, 100%	29
+10	36	65	42	100%, 100%, 100%	30
+11	41	74	46	100%, 100%, 100%	30
+12	46	82	49	100%, 100%, 100%	31
+13	52	92	52	100%, 100%, 100%	31
+14	58	103	56	100%, 100%, 100%	32
+15	64	113	59	100%, 100%, 100%	32
+16	66	116	63	100%, 100%, 100%	33
+17	72	126	67	100%, 100%, 100%	33
+18	78	137	71	100%, 100%, 100%	34
+19	84	147	75	100%, 100%, 100%	34
+20	90	157	79	100%, 100%, 100%	35
+21			83	100%, 100%, 100%	35
+22			88	100%, 100%, 100%	36
+23			92	100%, 100%, 100%	36
+24			97	100%, 100%, 100%	37
+25			102	100%, 100%, 100%	37
+26			107	100%, 100%, 100%	38
+27			112	100%, 100%, 100%	38
+28			117	100%, 100%, 100%	39
+29			123	100%, 100%, 100%	39
+30			128	100%, 100%, 100%	40
+31			134	100%, 100%, 100%	40
+32			140	100%, 100%, 100%	41
+33			146	100%, 100%, 100%	41
+34			152	100%, 100%, 100%	42
+35			159	100%, 100%, 100%	42
+36			166	100%, 100%, 100%	43
+37			172	100%, 100%, 100%	43
+38			179	100%, 100%, 100%	44
+39			187	100%, 100%, 100%	44
+40			194	100%, 100%, 100%	45
+Version	Changes
+0.4.0	- Voltaic Mark: No longer makes the target susceptible to Shock or causes an explosion. Instead, makes the target more susceptible to being Electrocuted, and on Electrocuting a marked target, grants you a Buff with which you Gain extra damage as Lightning damage, for a duration, or until you mark another target.
+0.3.0c	* Fixed a bug where the following skills were not scaling with modifiers to area damage: Toxic Growth, Magma Barrier, Whirlwind Lance (whirlwind only), Freezing Mark, Voltaic Mark, and Bloodhound's Mark.
+tbl	code	mod
+MarkTypes	VoltaicMark |
+Code	shocked effect on self +%
+IsPublic	0
+IsLocal	0
+IsWeaponLocal	0
+IsParty	0
+IsVirtual	0
+IsScalable	1
+StatSemantics	1
+Code	shock chance on self +% final from thaumaturgist mark
+IsPublic	0
+IsLocal	0
+IsWeaponLocal	0
+IsParty	0
+IsVirtual	0
+IsScalable	1
+StatSemantics	1
+Code	hit damage electrocute multiplier +% on self
+IsPublic	0
+IsLocal	0
+IsWeaponLocal	0
+IsParty	0
+IsVirtual	0
+IsScalable	1
+StatSemantics	1
+Code	non skill base all damage % to gain as lightning
+IsPublic	0
+IsLocal	0
+IsWeaponLocal	0
+IsParty	0
+IsVirtual	0
+IsScalable	1
+StatSemantics	1

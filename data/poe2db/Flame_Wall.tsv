@@ -1,0 +1,77 @@
+# https://poe2db.tw/us/Flame_Wall · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Tier	Gems
+1	Prolonged Duration I Fortress I Zenith I
+2	Considered Casting Rising Tempest
+3	Prolonged Duration II Fortress II Zenith II
+4	Rapid Casting II Fire Exposure
+5	Ignite III Fire Mastery
+Level	Requires Level	Int	Mana	Base Damage	Ignites as though dealing 5 to 8 Fire damage	Wall deals 1.8 Fire Damage per second	Wall length is 5 metres	Wall duration is 4.5 seconds	Projectiles which pass through the wall deal 2 to 3 Added Fire Damage	Projectiles which pass through the Infused wall deal 1 to 4 Added Lightning Damage
+1	0	4	10	100%, 100%, 100%, 100%, 100%	5, 8	1.8	5	4.5	2, 3	1, 4
+2	3	9	12	100%, 100%, 100%, 100%, 100%	7, 11	2.4	5.1	4.6	2, 4	1, 6
+3	6	14	15	100%, 100%, 100%, 100%, 100%	10, 15	3.2	5.2	4.7	3, 5	1, 8
+4	10	21	17	100%, 100%, 100%, 100%, 100%	13, 19	4.2	5.3	4.8	4, 6	1, 10
+5	14	28	20	100%, 100%, 100%, 100%, 100%	16, 24	5.3	5.4	4.9	5, 7	1, 12
+6	18	35	23	100%, 100%, 100%, 100%, 100%	20, 30	6.6	5.5	5	6, 9	1, 14
+7	22	41	26	100%, 100%, 100%, 100%, 100%	24, 37	8.1	5.6	5.1	7, 10	1, 16
+8	26	48	30	100%, 100%, 100%, 100%, 100%	29, 44	9.7	5.7	5.2	8, 12	1, 19
+9	31	57	34	100%, 100%, 100%, 100%, 100%	35, 52	11.5	5.8	5.3	9, 14	1, 22
+10	36	65	38	100%, 100%, 100%, 100%, 100%	41, 62	13.7	5.9	5.4	10, 15	1, 24
+11	41	74	43	100%, 100%, 100%, 100%, 100%	49, 73	16	6	5.5	12, 17	1, 28
+12	46	82	48	100%, 100%, 100%, 100%, 100%	57, 85	18.8	6.1	5.6	13, 19	2, 31
+13	52	92	54	100%, 100%, 100%, 100%, 100%	66, 99	21.9	6.2	5.7	14, 22	2, 34
+14	58	103	60	100%, 100%, 100%, 100%, 100%	77, 115	25.4	6.3	5.8	16, 24	2, 38
+15	64	113	67	100%, 100%, 100%, 100%, 100%	89, 134	29.4	6.4	5.9	18, 26	2, 42
+16	66	116	74	100%, 100%, 100%, 100%, 100%	103, 154	33.9	6.5	6	19, 29	2, 46
+17	72	126	82	100%, 100%, 100%, 100%, 100%	119, 178	39.1	6.6	6.1	21, 32	3, 50
+18	78	137	91	100%, 100%, 100%, 100%, 100%	137, 205	45.1	6.7	6.2	23, 35	3, 55
+19	84	147	101	100%, 100%, 100%, 100%, 100%	157, 236	51.8	6.8	6.3	25, 38	3, 59
+20	90	157	111	100%, 100%, 100%, 100%, 100%	181, 271	59.6	6.9	6.4	27, 41	3, 65
+21			123	100%, 100%, 100%, 100%, 100%	208, 311	68.5	7	6.5	29, 44	4, 70
+22			135	100%, 100%, 100%, 100%, 100%	238, 358	78.6	7.1	6.6	32, 48	4, 75
+23			149	100%, 100%, 100%, 100%, 100%	274, 411	90.3	7.2	6.7	34, 51	4, 81
+24			164	100%, 100%, 100%, 100%, 100%	314, 472	103.7	7.3	6.8	37, 55	5, 87
+25			180	100%, 100%, 100%, 100%, 100%	361, 542	119.2	7.4	6.9	40, 59	5, 94
+26			198	100%, 100%, 100%, 100%, 100%	415, 623	136.9	7.5	7	42, 64	5, 101
+27			217	100%, 100%, 100%, 100%, 100%	477, 716	157.4	7.6	7.1	45, 68	6, 108
+28			237	100%, 100%, 100%, 100%, 100%	549, 823	181	7.7	7.2	49, 73	6, 115
+29			260	100%, 100%, 100%, 100%, 100%	632, 947	208.3	7.8	7.3	52, 78	6, 123
+30			284	100%, 100%, 100%, 100%, 100%	727, 1091	239.9	7.9	7.4	55, 83	7, 132
+31			311	100%, 100%, 100%, 100%, 100%	838, 1258	276.6	8	7.45	59, 89	7, 140
+32			339	100%, 100%, 100%, 100%, 100%	967, 1451	319	8.1	7.5	63, 95	8, 150
+33			370	100%, 100%, 100%, 100%, 100%	1117, 1675	368.4	8.2	7.55	67, 101	8, 159
+34			404	100%, 100%, 100%, 100%, 100%	1291, 1936	425.8	8.3	7.6	71, 107	9, 169
+35			441	100%, 100%, 100%, 100%, 100%	1494, 2241	492.7	8.4	7.65	76, 114	9, 180
+36			480	100%, 100%, 100%, 100%, 100%	1730, 2596	570.8	8.5	7.7	80, 121	10, 191
+37			523	100%, 100%, 100%, 100%, 100%	2007, 3010	662	8.6	7.75	85, 128	11, 203
+38			570	100%, 100%, 100%, 100%, 100%	2330, 3495	768.6	8.7	7.8	91, 136	11, 215
+39			620	100%, 100%, 100%, 100%, 100%	2709, 4064	893.6	8.8	7.85	96, 144	12, 228
+40			674	100%, 100%, 100%, 100%, 100%	3154, 4730	1040.3	8.9	7.9	102, 153	13, 242
+Version	Changes
+0.5.5d	* Fixed a bug where Spark visuals had an incorrect appearance after passing through a Phantasmal Flame Wall.
+0.3.0	- Eye of Winter: When passing through an allied Flame Wall, the Eye itself and now all the shards it subsequently released will receive the Flame Wall's added Fire Damage. Shard Projectiles now travel 25% further. Eye Projectiles no longer releases a burst of shards at the end of its flight. The frequency the Eye Projectiles fires projectiles has been increased by roughly 35%. Each use of the Skill now deals 900% more Damage with its first Hit against each enemy. Now has a cast time of 1.4 seconds (previously 1.1), a Mana cost of 94-195 at Gem levels 13-20 (previously 54-128), and a 15 second Cooldown. Now Gains 100% of damage as damage of the corresponding Type when passing over an Elemental Ground Effect or Orb (previously 75%), and now deals 16-40 to 24-59 Cold Damage at Gem levels 13-20 (previously 7-17 to 10-25). - Flame Wall: Can now consume a Lightning Infusion to grant additional Lightning Damage to projectiles that pass through it, as well as the Fire Damage. No longer causes projectiles that pass through it to ignite enemies. Now deals 1.8 to 59.6 Fire Damage per second to enemies in the wall at Gem levels 1-20. Now ignites as though dealing 5-8 Fire Damage at gem level 1 (previously 9 to 14), scaling up to 181-271 at gem level 20 (previously 299-448). Now has a base Critical Hit chance of 5% (previously 0%). - Eye of Winter: When passing through an allied Flame Wall, the Eye itself and now all the shards it subsequently released will receive the Flame Wall's added Fire Damage. Shard Projectiles now travel 25% further. Eye Projectiles no longer releases a burst of shards at the end of its flight. The frequency the Eye Projectiles fires projectiles has been increased by roughly 35%. Each use of the Skill now deals 900% more Damage with its first Hit against each enemy. Now has a cast time of 1.4 seconds (previously 1.1), a Mana cost of 94-195 at Gem levels 13-20 (previously 54-128), and a 15 second Cooldown. Now Gains 100% of damage as damage of the corresponding Type when passing over an Elemental Ground Effect or Orb (previously 75%), and now deals 16-40 to 24-59 Cold Damage at Gem levels 13-20 (previously 7-17 to 10-25).
+0.2.0	- Flame Wall now causes projectiles which pass through the wall to deal 33 to 48 Added Fire Damage at gem level 20 (previously 64 to 91), while the Gem level 1 values are unchanged. More significant reductions have been made past Gem level 20.
+0.1.0d	* Trigger gem energy gain was not in the right place and it was far too easy to use ailments to trigger spells. One problem with the previous system is that if we balanced it to make triggering happen in boss fights then the triggering would happen far too often during clearing. In order to address this we are now making "Monster Power" part of the calculation for energy gain. This means that it's far easier to trigger skills from Unique Monsters than it is from normal monsters, but you also hit many more normal monsters when fighting. Another issue was using low level skills with unconditional ailment applications such as Flame Wall to ignite enemies for triggering. In order to make the source of the ignite matter we are making the energy gain be dependent on the strength of the ignite. We have also rebalanced all energy gain across the board.
+Code	base fire damage taken per minute
+IsPublic	0
+IsLocal	0
+IsWeaponLocal	0
+IsParty	0
+IsVirtual	0
+IsScalable	1
+StatSemantics	3
+Code	base fire damage taken per minute
+IsPublic	0
+IsLocal	0
+IsWeaponLocal	0
+IsParty	0
+IsVirtual	0
+IsScalable	1
+StatSemantics	3
+Code	base fire damage taken per minute
+IsPublic	0
+IsLocal	0
+IsWeaponLocal	0
+IsParty	0
+IsVirtual	0
+IsScalable	1
+StatSemantics	3

@@ -1,4 +1,9 @@
-# Player Profile
+---
+title: Player Profile
+status: done
+tracker_topic: "Player profile (seed)"
+tracker_note: "done"
+---
 
 - ~400+ hours in PoE2.
 - Plays trade league (softcore).

@@ -1,0 +1,23 @@
+# https://poe2db.tw/us/Twisted_Domain · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Name	Show Full Descriptions
+Act	10
+Level	79
+Boss	Xesht, We That Are One
+Tags	pinnacle_boss
+Mods	breach map initial time ms [45000] breach map time to portal ms [150000] Breach Monsters in Area do not drop Splinters map breach chest ring quantity +% [200] map breach monster catalyst quantity +% [200] Players cannot gain or lose experience map contains powerful map boss [0] map drop no league tablets [1]
+Topologies	entrance GreatWall boss2 stairs
+Level	Name	Experience	Damage	Attack Time	Life	Armour	Evasion	Energy Shield			 |
+79	It That Hates	1,388,288	413	1.47	1,441,416	4,540		3,976	0	0	0	0
+79	It That Lashes	1,596,531	427	1.47	1,657,628	6,810			0	0	0	0
+79	It That Guards	1,249,459	372	1.47	1,297,274	4,540		8,947	0	50	-30	0
+79	It That Controls	1,388,288	413	1.47	1,441,416	4,540		12,426	50	-30	0	0
+79	It That Stalks	1,249,459	372	1.47	1,297,274	4,540			-30	0	50	0
+79	Xesht, We That Are One	2,776,576	620	1.47	10,378,195	4,540		17,893	30	30	30	0
+79	It That Hunts	97,997	389	1.5	29,822	4,540			0	0	0	0
+79	It That Shreds	97,997	389	1.5	29,822	5,448			0	0	0	0
+79	It That Claws	89,830	357	1.5	27,337	5,448			0	30	-30	0
+79	It That Suspects	102,080	405	1.5	31,065	4,540		9,320	30	-30	0	0
+79	It That Grasps	89,830	357	1.5	27,337	4,540			0	0	0	0
+79	It That Crawls	81,664	324	1.5	24,852	4,540			0	0	0	0
+79	It That Watches	97,997	389	1.5	29,822	4,540			0	0	0	0
+79	It That Creeps	93,914	373	1.5	28,580	4,540			0	0	30	0

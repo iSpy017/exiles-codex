@@ -1,0 +1,53 @@
+# https://poe2db.tw/us/Strength · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Name	Level	Pre/Suf	Description	Weight
+of the Brute	1	Suffix	+(5 — 8) to Strength Attribute	ring 1 amulet 1 belt 1 str_armour 1 str_dex_armour 1 str_int_armour 1 str_dex_int_armour 1 mace 1 axe 1 sword 1 spear 1 flail 1 crossbow 1 sceptre 1 talisman 1 default 0
+of the Wrestler	11	Suffix	+(9 — 12) to Strength Attribute	ring 1 amulet 1 belt 1 str_armour 1 str_dex_armour 1 str_int_armour 1 str_dex_int_armour 1 mace 1 axe 1 sword 1 spear 1 flail 1 crossbow 1 sceptre 1 talisman 1 default 0
+of the Bear	22	Suffix	+(13 — 16) to Strength Attribute	ring 1 amulet 1 belt 1 str_armour 1 str_dex_armour 1 str_int_armour 1 str_dex_int_armour 1 mace 1 axe 1 sword 1 spear 1 flail 1 crossbow 1 sceptre 1 talisman 1 default 0
+of the Lion	33	Suffix	+(17 — 20) to Strength Attribute	ring 1 amulet 1 belt 1 str_armour 1 str_dex_armour 1 str_int_armour 1 str_dex_int_armour 1 mace 1 axe 1 sword 1 spear 1 flail 1 crossbow 1 sceptre 1 talisman 1 default 0
+of the Gorilla	44	Suffix	+(21 — 24) to Strength Attribute	ring 1 amulet 1 belt 1 str_armour 1 str_dex_armour 1 str_int_armour 1 str_dex_int_armour 1 mace 1 axe 1 sword 1 spear 1 flail 1 crossbow 1 sceptre 1 talisman 1 default 0
+of the Goliath	55	Suffix	+(25 — 27) to Strength Attribute	ring 1 amulet 1 belt 1 str_armour 1 str_dex_armour 1 str_int_armour 1 str_dex_int_armour 1 mace 1 axe 1 sword 1 spear 1 flail 1 crossbow 1 sceptre 1 talisman 1 default 0
+of the Leviathan	66	Suffix	+(28 — 30) to Strength Attribute	ring 1 amulet 1 belt 1 str_armour 1 str_dex_armour 1 str_int_armour 1 str_dex_int_armour 1 mace 1 axe 1 sword 1 spear 1 flail 1 crossbow 1 sceptre 1 talisman 1 default 0
+of the Titan	74	Suffix	+(31 — 33) to Strength Attribute	ring 1 amulet 1 belt 1 str_armour 1 str_dex_armour 1 str_int_armour 1 str_dex_int_armour 1 mace 1 axe 1 sword 1 spear 1 flail 1 crossbow 1 sceptre 1 talisman 1 default 0
+of the Gods	81	Suffix	+(34 — 36) to Strength Attribute	belt 1 default 0
+| 1	Corrupted	+(10 — 15) to Strength Attribute	belt 1 ring 1 amulet 1 default 0
+Filigree	1	Prefix	(20 — 40) % increased Fishing Line Strength	fishing_rod 1 default 0
+| 1	Unique	+(35 — 50) to Strength Attribute	belt 1 ring 1 amulet 1 default 0
+| 1	Unique	+(14 — 16) to Strength Attribute	default 1
+Name	Level	Pre/Suf	Description	Weight
+of Endurance	1	Suffix	monster additional strength ratio % for armour [100] Armour	Armour 1 default 1
+Ox-Touched	1	Torment	50 % increased Elemental Ailment Threshold 50 % reduced Slowing Potency of Debuffs on You monster additional strength ratio % for armour [100] |
+Hunted by the Raging Ox	1	Torment	100 % increased Elemental Ailment Threshold 50 % reduced Slowing Potency of Debuffs on You dropped items are converted to str items [1] monster additional strength ratio % for armour [100] |
+Name	Level	Domain	Pre/Suf	Description	Weight
+Marauder's	1	Strongbox	Prefix	Contained non-Unique Armour and Weapons will require Strength	strongbox_robot_rare_guard 0 strongbox_can_roll_attribute_replacements_strength 1 default 0
+Duelist's	1	Strongbox	Prefix	Contained non-Unique Armour and Weapons will only require Strength or Dexterity	strongbox_robot_rare_guard 0 strongbox_can_roll_attribute_replacements_strength 1 strongbox_can_roll_attribute_replacements_dexterity 1 default 0
+Templar's	1	Strongbox	Prefix	Contained non-Unique Armour and Weapons will only require Strength or Intelligence	strongbox_robot_rare_guard 0 martial_strongbox 0 strongbox_can_roll_attribute_replacements_intelligence 1 strongbox_can_roll_attribute_replacements_strength 1 default 0
+Templar's	1	Strongbox	Prefix	Contained non-Unique Armour and Weapons will only require Strength or Intelligence	strongbox_robot_rare_guard 0 strongbox_can_roll_attribute_replacements_intelligence_martial 1 strongbox_can_roll_attribute_replacements_strength_martial 1 default 0
+| 1	Jewel	Unique	Notable Passive Skills in Radius also grant (2 — 3) % increased Strength Attribute |
+| 1	Jewel	Corrupted	+(4 — 6) to Strength Attribute	default 1
+of Strength	1	Jewel	Unique	+(12 — 16) to Strength Attribute	not_str 1 default 1
+of Athletics	1	Jewel	Unique	+(8 — 10) to Strength and Dexterity Attribute	not_int 1 default 1
+of Spirit	1	Jewel	Unique	+(8 — 10) to Strength and Intelligence Attribute	not_dex 1 default 1
+| 1	Jewel	Unique	Strength from Passives in Radius is Transformed to Dexterity local jewel effect base radius [800] Attribute |
+| 1	Jewel	Unique	Strength from Passives in Radius is Transformed to Dexterity local jewel effect base radius [1500] Attribute |
+| 1	Jewel	Unique	Intelligence from Passives in Radius is Transformed to Strength local jewel effect base radius [800] Attribute |
+| 1	Jewel	Unique	Intelligence from Passives in Radius is Transformed to Strength local jewel effect base radius [1500] Attribute |
+| 1	Jewel	Unique	+(16 — 24) to Strength Attribute |
+| 1	Jewel	Unique	Strength from Passives in Radius is Transformed to Intelligence local jewel effect base radius [800] Attribute |
+| 1	Jewel	Unique	Strength from Passives in Radius is Transformed to Intelligence local jewel effect base radius [1500] Attribute |
+| 1	Jewel	Unique	Dexterity from Passives in Radius is Transformed to Strength local jewel effect base radius [800] Attribute |
+| 1	Jewel	Unique	Dexterity from Passives in Radius is Transformed to Strength local jewel effect base radius [1500] Attribute |
+| 1	Jewel	Unique	3 % increased Totem Life per 10 Strength Allocated in Radius local jewel effect base radius [1500] Life |
+| 1	Jewel	Unique	Dexterity and Intelligence from passives in Radius count towards Strength Melee Damage bonus local jewel effect base radius [1200] Damage Physical Attack |
+| 1	Jewel	Unique	With at least 40 Strength in Radius, Ground Slam has a 50 % increased angle local jewel effect base radius [1200] Attack |
+| 1	Jewel	Unique	With at least 40 Strength in Radius, Ground Slam has a 35 % chance to grant an Endurance Charge when you Stun an Enemy Attack |
+| 1	Jewel	Unique	With 40 total Strength and Intelligence in Radius, Prismatic Skills deal 50% less Cold Damage With 40 total Strength and Intelligence in Radius, Prismatic Skills cannot choose Cold local jewel effect base radius [1200] Damage Elemental Cold Attack |
+| 1	Jewel	Unique	With 40 total Dexterity and Strength in Radius, Prismatic Skills deal 50% less Lightning Damage With 40 total Dexterity and Strength in Radius, Prismatic Skills cannot choose Lightning local jewel effect base radius [1200] Damage Elemental Lightning Attack |
+| 1	Jewel	Unique	With at least 40 Strength in Radius, Combust is Disabled local jewel effect base radius [1200] Attack |
+of the Abyss	1	Abyss	Suffix	(1 — 2) % increased Strength Attribute	strjewel 1 intjewel 1 dexjewel 1 default 0
+of Ulaman	65	Abyss	Suffix	+(9 — 15) to Strength and Dexterity ulaman Attribute	Armour 1 belt 1 ring 1 amulet 1 default 0 ulaman_mod 1
+of Amanamu	65	Abyss	Suffix	+(9 — 15) to Strength and Intelligence amanamu Attribute	Armour 1 belt 1 ring 1 amulet 1 default 0 amanamu_mod 1
+Faction	Category	Show Full Descriptions	Code
+Karui	Attribute	+2 to Strength	karui_attribute_strength
+Karui	Normal	+4 to Strength	karui_small_strength
+Karui	Notable	+20 to Strength	karui_notable_add_strength
+Karui	Notable	5 % increased Strength	karui_notable_add_percent_strength

@@ -1,0 +1,33 @@
+# https://poe2db.tw/us/Essence · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Name	Level	Pre/Suf	Description	Weight
+| 1	Unique	monster drop no essences [1] |
+Name	Level	Pre/Suf	Description	Weight
+of Whispering	1	Suffix	Heist Chests have a (6 — 7) % chance to Duplicate contained Essences	heist_equipment_reward 1 default 0
+of Weeping	45	Suffix	Heist Chests have a (8 — 9) % chance to Duplicate contained Essences	heist_equipment_reward 1 default 0
+of Screaming	75	Suffix	Heist Chests have a (10 — 12) % chance to Duplicate contained Essences	heist_equipment_reward 1 default 0
+of Deafening	83	Suffix	Heist Chests have a (13 — 15) % chance to Duplicate contained Essences	heist_equipment_reward 1 default 0
+Name	Level	Pre/Suf	Description	Weight
+of Superstition	1	Suffix	3 % chance to receive additional Essences when opening a Reward Chest in a Heist	default 1
+of Superstition	50	Suffix	4 % chance to receive additional Essences when opening a Reward Chest in a Heist	default 1
+of Superstition	70	Suffix	(5 — 6) % chance to receive additional Essences when opening a Reward Chest in a Heist	default 1
+Name	Level	Domain	Pre/Suf	Description	Weight
+| 1	Atlas	Prefix	Monsters Imprisoned by Essences have a 50 % chance to contain a Remnant of Corruption Your Maps contain 1 additional Essences 3 uses remaining map extra content weighting [1]	unique_map 0 no_monster_packs 0 default 1
+| 1	Atlas	Prefix	Monsters Imprisoned by Essences have a 50 % chance to contain a Remnant of Corruption Your Maps contain 2 additional Essences 15 uses remaining map extra content weighting [1]	unique_map 0 no_monster_packs 0 default 1
+Veiled	1	MasterVeiled	Prefix	have veiled mod choices ever been revealed [0] unveiled mod level range percent override from essence [0] veiled mod X remaining rerolls [0] veiled mod seed [0,32767] veiled mod type [0] |
+of the Veil	1	MasterVeiled	Suffix	have veiled mod choices ever been revealed [0] unveiled mod level range percent override from essence [0] veiled mod X remaining rerolls [0] veiled mod seed [0,32767] veiled mod type [0] |
+| 1	MasterVeiled	Unique	have veiled mod choices ever been revealed [0] unveiled mod level range percent override from essence [0] veiled mod X remaining rerolls [0] veiled mod seed [0] veiled mod type [1001] |
+| 1	MasterVeiled	Unique	have veiled mod choices ever been revealed [0] unveiled mod level range percent override from essence [0] veiled mod X remaining rerolls [0] veiled mod seed [0] veiled mod type [1002] |
+| 1	MasterVeiled	Unique	have veiled mod choices ever been revealed [0] unveiled mod level range percent override from essence [0] veiled mod X remaining rerolls [0] veiled mod seed [0] veiled mod type [1003] |
+| 1	MasterVeiled	Unique	have veiled mod choices ever been revealed [0] unveiled mod level range percent override from essence [0] veiled mod X remaining rerolls [0] veiled mod seed [0] veiled mod type [1004] |
+| 1	MasterVeiled	Unique	have veiled mod choices ever been revealed [0] unveiled mod level range percent override from essence [0] veiled mod X remaining rerolls [0] veiled mod seed [0] veiled mod type [1006] |
+| 1	MasterVeiled	Unique	have veiled mod choices ever been revealed [0] unveiled mod level range percent override from essence [0] veiled mod X remaining rerolls [0] veiled mod seed [0] veiled mod type [1013] |
+| 1	MasterVeiled	Unique	have veiled mod choices ever been revealed [0] unveiled mod level range percent override from essence [0] veiled mod X remaining rerolls [0] veiled mod seed [0] veiled mod type [1007] |
+| 1	MasterVeiled	Unique	have veiled mod choices ever been revealed [0] unveiled mod level range percent override from essence [0] veiled mod X remaining rerolls [0] veiled mod seed [0] veiled mod type [1012] |
+| 1	MasterVeiled	Unique	have veiled mod choices ever been revealed [0] unveiled mod level range percent override from essence [0] veiled mod X remaining rerolls [0] veiled mod seed [0] veiled mod type [1005] |
+| 1	MasterVeiled	Unique	have veiled mod choices ever been revealed [0] unveiled mod level range percent override from essence [0] veiled mod X remaining rerolls [0] veiled mod seed [0] veiled mod type [1014] |
+| 1	MemoryLines	Unique	Areas can contain Essences Area contains 5 additional Essences |
+of Collective Stasis	1	MemoryLines	Suffix	Areas contain additional Essences Essences contain multiple Rare Monsters with Essences memory line type hash [-11718]	memory_line_kirac 0 default 0
+of Crystal Prisons	1	MemoryLines	Suffix	Areas contain additional Essences Essences contain Rogue Exiles memory line type hash [23679]	memory_line_einhar 1 default 0
+of the Essence	1	Tower	Suffix	Map has (70 — 100) % increased chance to contain Essences	default 1
+Crystallised	1	Tower	Prefix	Map contains 1 additional Essences % increased Quantity of Waystones found in Map	default 1
+of Crystals	1	Tower	Suffix	Map contains (1 — 2) additional Essences map contains powerful map boss [0]	tower_augment_map_boss 1 default 0

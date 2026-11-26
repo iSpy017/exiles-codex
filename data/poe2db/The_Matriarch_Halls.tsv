@@ -1,0 +1,23 @@
+# https://poe2db.tw/us/The_Matriarch_Halls · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Name	Show Full Descriptions
+Act	10
+Level	65
+Boss	Phya, Sentinel of the Cradle
+Tags	map
+Level	Name	Experience	Damage	Attack Time	Life	Armour	Evasion	Energy Shield			 |
+65	Phya, Sentinel of the Cradle	548,429	271	1.47	1,155,778	2,023		9,964	-30	30	0	0
+65	Precursor Spherator	393,040	291	1.47	490,445	3,641		8,456	0	0	0	0
+65	Black Strider	43,014	425	1.5	13,110	2,023			-30	0	0	0
+65	Tombshrieker	29,034	287	1.005	8,849	2,225			0	0	30	0
+65	Precursor Centipede	20,432	202	1.5	7,473	2,832			0	0	0	0
+65	Precursor Driller	18,281	181	1.5	6,686	2,832			0	0	0	0
+65	Precursor Refractor	22,582	223	1.5	8,259	3,237			0	0	30	0
+65	Precursor Fabricator	37,637	372	1.5	13,766	3,035			0	0	30	0
+Name	Show Full Descriptions
+Act	10
+Level	65
+Boss	Phya, Sentinel of the Cradle
+Tags	map
+Mods	map is quest area [1]
+Level	Name	Experience	Damage	Attack Time	Life	Armour	Evasion	Energy Shield			 |
+65	Phya, Sentinel of the Cradle	548,429	271	1.47	1,155,778	2,023		9,964	-30	30	0	0

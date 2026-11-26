@@ -1,0 +1,42 @@
+# https://poe2db.tw/us/From_Nothing · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Version	Changes
+0.5.5	* Fixed a bug where it was possible to snapshot the effects of the Prism of Belief and From Nothing Unique Jewels.
+0.5.4b	* Passive Skills allocated from using the From Nothing Unique Jewel are now properly reset when fully respeccing.
+Family	PassiveJewelGrantsRadius
+Domains	Jewel (11)
+GenerationType	Unique (3)
+Stats	local jewel effect base radius 1000 — 1000 Local — Unscalable Value local unique jewel disconnected passives can be allocated around keystone hash 0 — 0 Local — Unscalable Value
+Passive Hash	The Market
+44017	Resolute Technique
+32349	Giant's Blood
+14540	Unwavering Stance
+18684	Avatar of Fire
+51749	Blood Magic
+52	Zealot's Oath
+45202	Ancestral Bond
+55048	Pain Attunement
+56349	Chaos Inoculation
+57513	Eldritch Battery
+45918	Mind Over Matter
+47759	Whispers of Doom
+39935	Necromantic Talisman
+33979	Conduit
+25520	Resonance
+33404	Eternal Youth
+37484	Primal Hunger
+14226	Dance with Death
+34497	Heartstopper
+25100	Oasis
+33369	Vaal Pact
+28492	Iron Reflexes
+19288	Glancing Blows
+46742	Elemental Equilibrium
+56605	Bulwark
+9085	Crimson Assault
+41861	Trusted Kinship
+64601	Hollow Palm Technique
+42680	Blackflame Covenant
+11230	Ritual Cadence
+49547	Scarred Faith
+61942	Lord of the Wilds
+49363	Wildsurge Incantation

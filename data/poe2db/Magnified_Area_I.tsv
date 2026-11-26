@@ -1,0 +1,16 @@
+# https://poe2db.tw/us/Magnified_Area_I · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Tier	Gems
+1	Lightning Rod , Ice Nova , Frost Bomb , Contagion , Explosive Grenade , Explosive Spear , Furious Slam
+3	Shockwave Totem , Vine Arrow , Tempest Bell , Wind Blast , Skeletal Arsonist , Rake , Wing Blast , Rolling Magma
+4	Herald of Ash , Plague Bearer , Wind Dancer , War Banner , Iron Ward
+5	Resonating Shield , Toxic Growth , Snap , Vaulting Impact , Gas Grenade , Spearfield , Thunderstorm
+7	Earthshatter , Leap Slam , Shield Wall , Temporal Chains , Siphoning Strike , Storm Wave , Detonate Dead , Glacial Bolt , Artillery Ballista , Blood Hunt , Cross Slash , Ferocious Roar
+8	Blasphemy , Defiance Banner
+9	Fortifying Cry , Lightning Warp , Frost Wall , Stormblast Bolts , Oil Grenade , Siege Ballista , Thunderous Leap , Oil Barrage , Thrashing Vines
+11	Stampede , Ball Lightning , Shattering Palm , Hexblast , Skeletal Storm Mage , Elemental Sundering , Tornado
+13	Ancestral Cry , Magnetic Salvo , Toxic Domain , Lightning Conduit , Gathering Storm , Skeletal Brute , Siege Cascade , Cluster Grenade , Spear of Solaris , Walking Calamity
+14	Dread Banner
+Level	Requires Level	Int
+1	0	0
+Version	Changes
+0.4.0	- Magnified Area II support gem no longer causes the supported Skill to deal less damage.

@@ -1,0 +1,52 @@
+# https://poe2db.tw/us/Ice_Shot · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Tier	Gems
+1	Cold Attunement Chain I Ice Bite I
+2	Longshot I Elemental Armament II Frozen Spite
+3	Pierce II Salvo Deliberation
+4	Projectile Acceleration II Spectral Volley Nova Projectiles II
+5	Pierce III Alignment III
+Level	Requires Level	Dex	Mana	Base Damage
+1	0	4	6	95%, 95%, 95%, 100%
+2	3	9	6	105%, 105%, 105%, 100%
+3	6	14	7	115%, 115%, 115%, 100%
+4	10	21	9	126%, 126%, 126%, 100%
+5	14	28	10	136%, 136%, 136%, 100%
+6	18	35	11	147%, 147%, 147%, 100%
+7	22	41	12	158%, 158%, 158%, 100%
+8	26	48	14	168%, 168%, 168%, 100%
+9	31	57	15	178%, 178%, 178%, 100%
+10	36	65	17	188%, 188%, 188%, 100%
+11	41	74	19	199%, 199%, 199%, 100%
+12	46	82	20	210%, 210%, 210%, 100%
+13	52	92	22	223%, 223%, 223%, 100%
+14	58	103	24	237%, 237%, 237%, 100%
+15	64	113	27	251%, 251%, 251%, 100%
+16	66	116	29	267%, 267%, 267%, 100%
+17	72	126	31	284%, 284%, 284%, 100%
+18	78	137	34	303%, 303%, 303%, 100%
+19	84	147	37	323%, 323%, 323%, 100%
+20	90	157	40	344%, 344%, 344%, 100%
+21			43	367%, 367%, 367%, 100%
+22			47	391%, 391%, 391%, 100%
+23			50	418%, 418%, 418%, 100%
+24			54	445%, 445%, 445%, 100%
+25			58	475%, 475%, 475%, 100%
+26			62	507%, 507%, 507%, 100%
+27			67	540%, 540%, 540%, 100%
+28			72	576%, 576%, 576%, 100%
+29			77	615%, 615%, 615%, 100%
+30			82	656%, 656%, 656%, 100%
+31			88	699%, 699%, 699%, 100%
+32			94	746%, 746%, 746%, 100%
+33			101	796%, 796%, 796%, 100%
+34			107	849%, 849%, 849%, 100%
+35			115	905%, 905%, 905%, 100%
+36			122	966%, 966%, 966%, 100%
+37			130	1030%, 1030%, 1030%, 100%
+38			139	1099%, 1099%, 1099%, 100%
+39			148	1172%, 1172%, 1172%, 100%
+40			157	1250%, 1250%, 1250%, 100%
+Version	Changes
+0.5.0	* Ice Shot : Ice Shards no longer have 25% more Freeze Buildup.
+0.4.0	- Ice Shot: Now converts 80% of Physical damage to Cold damage (previously 70%). Cone Angle increased by approximately 50%. Now has 25% more Freeze buildup. Now deals 178-344% of Attack Damage at Gem levels 9-20 (previously 173-296%). Quality now grants 0-30% more Magnitude of Chill inflicted (previously 0-20% more Attack Damage). Shards now has fires 9-11 Projectiles (previously 6-8). Shards now deals 178-344% of Attack Damage at Gem levels 9-20 (previously 137-234%).
+0.1.0e	* Ice Shot Shards (Secondary) now gains additional Projectiles as it Levels up * Ice Shot Shards now targets within 90 Degree Cone * Ice Shot Shards now travel further base (200ms, from 100ms), to be tested & iterated. * Ice Shot Arrow & Projectiles are now smaller and are the same size as other arrows. * Fixed a bug where Ice Shot was unable to cause Freeze buildup.

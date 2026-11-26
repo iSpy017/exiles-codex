@@ -1,0 +1,131 @@
+# https://poe2db.tw/us/Arctic_Armour · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Tier	Gems
+1	Controlled Destruction Clarity I
+2	Freeze Mysticism I
+3	Knockback Warm Blooded
+4	Bounty II Mysticism II
+5	Cold Mastery
+Level	Requires Level	Int	Base Damage	Deals 3 to 5 Cold Damage per Stage	Gains a Stage every 1.25 seconds, up to a maximum of 2 Stages
+1	0	4	100%, 100%, 100%	3, 5	1.25, 2
+2	3	9	100%, 100%, 100%	5, 7	1.18, 2
+3	6	14	100%, 100%, 100%	6, 9	1.15, 2
+4	10	21	100%, 100%, 100%	8, 12	1.13, 3
+5	14	28	100%, 100%, 100%	10, 15	1.1, 3
+6	18	35	100%, 100%, 100%	13, 19	1.08, 3
+7	22	41	100%, 100%, 100%	15, 23	1.05, 3
+8	26	48	100%, 100%, 100%	18, 27	1.03, 3
+9	31	57	100%, 100%, 100%	22, 32	1, 3
+10	36	65	100%, 100%, 100%	25, 38	0.98, 3
+11	41	74	100%, 100%, 100%	29, 44	0.95, 4
+12	46	82	100%, 100%, 100%	34, 51	0.93, 4
+13	52	92	100%, 100%, 100%	40, 59	0.9, 4
+14	58	103	100%, 100%, 100%	46, 68	0.88, 4
+15	64	113	100%, 100%, 100%	52, 78	0.85, 4
+16	66	116	100%, 100%, 100%	60, 90	0.83, 4
+17	72	126	100%, 100%, 100%	68, 103	0.8, 4
+18	78	137	100%, 100%, 100%	78, 117	0.78, 4
+19	84	147	100%, 100%, 100%	89, 133	0.75, 4
+20	90	157	100%, 100%, 100%	101, 152	0.73, 5
+21			100%, 100%, 100%	115, 173	0.7, 5
+22			100%, 100%, 100%	131, 196	0.68, 5
+23			100%, 100%, 100%	149, 223	0.65, 5
+24			100%, 100%, 100%	169, 253	0.63, 5
+25			100%, 100%, 100%	192, 288	0.6, 5
+26			100%, 100%, 100%	218, 327	0.58, 5
+27			100%, 100%, 100%	247, 371	0.55, 6
+28			100%, 100%, 100%	281, 421	0.53, 6
+29			100%, 100%, 100%	319, 479	0.5, 6
+30			100%, 100%, 100%	363, 544	0.48, 6
+31			100%, 100%, 100%	413, 619	0.45, 6
+32			100%, 100%, 100%	470, 705	0.43, 7
+33			100%, 100%, 100%	535, 802	0.4, 7
+34			100%, 100%, 100%	609, 914	0.38, 7
+35			100%, 100%, 100%	695, 1042	0.35, 7
+36			100%, 100%, 100%	793, 1190	0.33, 7
+37			100%, 100%, 100%	906, 1359	0.3, 8
+38			100%, 100%, 100%	1036, 1553	0.28, 8
+39			100%, 100%, 100%	1185, 1777	0.25, 8
+40			100%, 100%, 100%	1357, 2036	0.23, 8
+Version	Changes
+0.4.0	- Arctic Armour: Now deals 8 to 12 Cold Damage per Stage at Gem level 4 (previously 16 to 24), scaling to 101 to 152 Cold Damage per Stage at Gem level 20 (previously 203 to 304). Now has 100% more Freeze Buildup. Now has 100% more Magnitude of Chill inflicted.
+0.3.0	- Enabled the following existing Armour microtransactions for use in Path of Exile 2: Angelic Armour Set, Angelic Hood, Angelic Cloak, Angelic Wings, Arctic Armour Set, Basilisk Armour Set, Basilisk Hood, Celestial Armour Set, Darkwood Armour Set, Demonic Armour Set, Demonic Hood, Executioner Armour Set, Havenwood Armour Set, Imperator Armour Set, Imperial Sun Armour Set, Imperial Sun Helmet Attachment, Lightbringer Armour Set, Lightbringer Hood, Overseer Armour Set, Overseer Hood, Project Armour Set, Project Hood, Shackled Immortal Armour Set, Sin Armour Set, Sin and Innocence Armour Set, Suffering Armour Set, and Suffering Helmet Attachment.
+Code	mana degeneration per minute
+IsPublic	1
+IsLocal	0
+IsWeaponLocal	0
+IsParty	0
+IsVirtual	0
+IsScalable	1
+StatSemantics	3
+Code	physical damage taken +
+IsPublic	1
+IsLocal	0
+IsWeaponLocal	0
+IsParty	0
+IsVirtual	0
+IsScalable	1
+StatSemantics	3
+Code	fire damage taken +
+IsPublic	1
+IsLocal	0
+IsWeaponLocal	0
+IsParty	0
+IsVirtual	0
+IsScalable	1
+StatSemantics	3
+Code	base movement velocity +%
+IsPublic	1
+IsLocal	0
+IsWeaponLocal	0
+IsParty	0
+IsVirtual	0
+IsScalable	1
+StatSemantics	1
+Code	base immune to freeze
+IsPublic	0
+IsLocal	0
+IsWeaponLocal	0
+IsParty	0
+IsVirtual	0
+IsScalable	0
+StatSemantics	4
+Code	arctic armour total physical damage taken +% final
+IsPublic	0
+IsLocal	0
+IsWeaponLocal	0
+IsParty	0
+IsVirtual	0
+IsScalable	1
+StatSemantics	1
+Code	arctic armour total fire damage taken +% final
+IsPublic	0
+IsLocal	0
+IsWeaponLocal	0
+IsParty	0
+IsVirtual	0
+IsScalable	1
+StatSemantics	1
+Code	physical damage reduction rating +%
+IsPublic	1
+IsLocal	0
+IsWeaponLocal	0
+IsParty	0
+IsVirtual	0
+IsScalable	1
+StatSemantics	1
+Code	number of arctic armour stationary stacks
+IsPublic	0
+IsLocal	0
+IsWeaponLocal	0
+IsParty	0
+IsVirtual	0
+IsScalable	1
+StatSemantics	3
+Code	base immune to freeze
+IsPublic	0
+IsLocal	0
+IsWeaponLocal	0
+IsParty	0
+IsVirtual	0
+IsScalable	0
+StatSemantics	4

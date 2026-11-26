@@ -1,0 +1,19 @@
+# https://poe2db.tw/us/Druidic_Prowess · crawl 2026-11-23 · CC BY-NC-SA 3.0
+tbl	code	mod
+BuffTemplates	DruidicProwess	10 % increased Skill Speed gain x rage on spell hit [3]
+Code	gain x rage on spell hit
+IsPublic	0
+IsLocal	0
+IsWeaponLocal	0
+IsParty	0
+IsVirtual	0
+IsScalable	1
+StatSemantics	3
+Code	skill speed +%
+IsPublic	0
+IsLocal	0
+IsWeaponLocal	0
+IsParty	0
+IsVirtual	0
+IsScalable	1
+StatSemantics	1

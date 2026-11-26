@@ -1,0 +1,4 @@
+# https://poe2db.tw/us/Heavy_Stun · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Name	Level	Domain	Pre/Suf	Description	Weight
+of Amanamu	65	Abyss	Suffix	Shield Skills fully Break Armour when they Heavy Stun targets amanamu	dex_shield 0 dex_int_shield 0 shield 1 default 0 amanamu_mod 1
+of Amanamu	65	Abyss	Suffix	Your Heavy Stun buildup empties (30 — 40) % faster amanamu	dex_shield 0 dex_int_shield 0 shield 1 default 0 amanamu_mod 1

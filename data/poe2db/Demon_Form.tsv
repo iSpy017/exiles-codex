@@ -1,0 +1,54 @@
+# https://poe2db.tw/us/Demon_Form · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Tier	Gems
+3	Cooldown Recovery I
+4	Cooldown Recovery II
+Level	Requires Level	Mana	Base Damage	12 % increased Cast Speed while in Demon Form	0.8 Life Loss per second per Demonflame
+1	0	6	100%, 100%, 100%	12	0.8
+2	3	7	100%, 100%, 100%	13	1.1
+3	6	8	100%, 100%, 100%	13	1.2
+4	10	10	100%, 100%, 100%	14	1.7
+5	14	11	100%, 100%, 100%	15	2.1
+6	18	13	100%, 100%, 100%	15	2.4
+7	22	15	100%, 100%, 100%	16	2.7
+8	26	17	100%, 100%, 100%	17	3
+9	31	20	100%, 100%, 100%	17	3.5
+10	36	22	100%, 100%, 100%	18	4.1
+11	41	25	100%, 100%, 100%	19	5.1
+12	46	28	100%, 100%, 100%	20	5.8
+13	52	31	100%, 100%, 100%	20	6.6
+14	58	35	100%, 100%, 100%	21	7.6
+15	64	39	100%, 100%, 100%	22	8.6
+16	66	43	100%, 100%, 100%	22	9.8
+17	72	48	100%, 100%, 100%	23	13
+18	78	53	100%, 100%, 100%	24	14.1
+19	84	59	100%, 100%, 100%	24	16.3
+20	90	65	100%, 100%, 100%	25	18.5
+21		72	100%, 100%, 100%	26	19.1
+22		79	100%, 100%, 100%	26	19.7
+23		88	100%, 100%, 100%	27	20.2
+24		96	100%, 100%, 100%	28	20.8
+25		106	100%, 100%, 100%	28	21.3
+26		116	100%, 100%, 100%	29	21.8
+27		127	100%, 100%, 100%	30	22.3
+28		139	100%, 100%, 100%	30	22.7
+29		153	100%, 100%, 100%	31	23.2
+30		167	100%, 100%, 100%	32	23.6
+31		183	100%, 100%, 100%	32	24
+32		200	100%, 100%, 100%	33	24.4
+33		218	100%, 100%, 100%	33	24.8
+34		238	100%, 100%, 100%	33	25.2
+35		259	100%, 100%, 100%	34	25.6
+36		283	100%, 100%, 100%	34	25.9
+37		308	100%, 100%, 100%	34	26.3
+38		335	100%, 100%, 100%	35	26.6
+39		365	100%, 100%, 100%	35	26.9
+40		397	100%, 100%, 100%	35	27.3
+Version	Changes
+0.4.0	- Fixed a bug where Second Wind III Support wasn't working with Demon Form. The life restoration now occurs when Demon Form is put on cooldown.
+0.3.0b	* Fixed a bug where Persistent Skills could not be activated when shapeshifted into Demon Form . * Fixed a bug where Yama The White was not making clones of Infernalists that were in Demon Form.
+0.3.0	- Demon Form, granted by the Demonic Possession Notable Passive Skill, no longer disables your weapons or has its own weapon set. It no longer grants level of all Spell Skills while in Demon Form, or increased Spell Damage per Demonflame. It now grants 3% more Spell Damage per Demonflame, and Quality now provides +0-10% increased Cast Speed while in Demon Form (previously had no Quality). Life Loss per second from Demonflame is now lower beyond Skill Gem 20. - Demon Form, granted by the Demonic Possession Notable Passive Skill, no longer disables your weapons or has its own weapon set. It no longer grants level of all Spell Skills while in Demon Form, or increased Spell Damage per Demonflame. It now grants 3% more Spell Damage per Demonflame, and Quality now provides +0-10% increased Cast Speed while in Demon Form (previously had no Quality). Life Loss per second from Demonflame is now lower beyond Skill Gem 20.
+0.2.0d	* Fixed a bug where Convalescence would shapeshift you out of Demon Form .
+0.2.0	- The Demon Form Skill granted by the Demonic Possession Ascendancy Passive Skill now has a Cooldown of 15 seconds (previously 20), and a maximum Demonflame of 10 (previously uncapped). You now lose a flat amount of Life per second per Demonflame (scaling with Skill level), rather than a percentage of your Maximum Life. The dodge roll while in Demon Form has also had its distance reduced. - Using Blink while in Demon Form now plays an appropriate animation instead of landing to Blink. - Fixed a bug with Second Wind Support and Demon Form where the additional Cooldown would still tick while in Demon Form. - Fixed a bug that caused Demon Form's current cooldown time to not be displayed. - Fixed a bug where using Demon Form would kill your Minions when using a controller.
+0.1.0f	* Fixed a client crash that could occur after entering Demon Form while fighting Zarokh, the Temporal.
+0.1.0e	* Fixed a bug where interactables would remove the player from Demon Form. * Fixed a bug introduced in patch 0.1.0e where the Spell Gem Level from the Demon Form buff did not apply unless you resocketed affected gems. * Fixed a bug that could cause some characters to be disconnected, most notably when trying to use the Demon Form skill granted by the Demonic Possession Infernalist Ascendancy Passive Skill.
+0.1.0c	* Fixed a bug where some Persistent Buff Skills, such as Raging Spirits and Mana Remnants, were not working for the Infernalist when in Demon Form. * Demon form now has a minimum of 1 life lost per second, per stack.

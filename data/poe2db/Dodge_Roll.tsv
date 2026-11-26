@@ -1,0 +1,9 @@
+# https://poe2db.tw/us/Dodge_Roll · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Name	Level	Pre/Suf	Description	Weight
+Uhtred's	45	Prefix	+(0.3 — 0.4) metres to Dodge Roll distance	chronomancy 1 default 0
+Uhtred's	78	Prefix	+(0.4 — 0.5) metres to Dodge Roll distance	chronomancy 1 default 0
+Name	Level	Domain	Pre/Suf	Description	Weight
+of Lunging	1	SanctumRelic	Suffix	+(0.3 — 0.4) metres to Dodge Roll distance	small_sanctum_relic 1 default 0
+of Eluding	70	SanctumRelic	Suffix	+(0.5 — 0.7) metres to Dodge Roll distance	small_sanctum_relic 1 default 0
+of Amanamu	65	Abyss	Suffix	+(0.1 — 0.2) metres to Dodge Roll distance amanamu	boots 1 default 0 amanamu_mod 1
+of Kurgal	65	Abyss	Suffix	(8 — 12) % increased Mana Cost Efficiency if you have Dodge Rolled Recently kurgal Mana	boots 1 default 0 kurgal_mod 1

@@ -1,0 +1,56 @@
+# https://poe2db.tw/us/Ice_Nova · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Tier	Gems
+1	Magnified Area I Deep Freeze Hourglass
+2	Considered Casting Rising Tempest Encroaching Ground
+3	Inexorable Critical I Astral Projection Execrate
+4	Rapid Casting II Cold Exposure
+5	Cold Mastery Persistent Ground III
+Level	Requires Level	Int	Mana	Base Damage	Deals 6 to 8 Cold Damage	100 % more Freeze Buildup	100 % more Magnitude of Chill inflicted	Deals 15 to 22 Cold Damage
+1	0	4	7	100%, 100%, 100%, 100%, 100%	6, 8	100	100	15, 22
+2	3	9	8	100%, 100%, 100%, 100%	7, 10	103	103	20, 30
+3	6	14	10	100%, 100%, 100%, 100%	9, 13	106	106	27, 41
+4	10	21	11	100%, 100%, 100%, 100%	11, 17	109	109	36, 54
+5	14	28	13	100%, 100%, 100%, 100%	14, 21	112	112	45, 68
+6	18	35	15	100%, 100%, 100%, 100%	17, 26	115	115	55, 83
+7	22	41	17	100%, 100%, 100%, 100%	21, 31	118	118	67, 101
+8	26	48	20	100%, 100%, 100%, 100%	25, 37	121	121	80, 120
+9	31	57	22	100%, 100%, 100%, 100%	29, 44	124	124	95, 143
+10	36	65	25	100%, 100%, 100%, 100%	34, 51	127	127	112, 168
+11	41	74	28	100%, 100%, 100%, 100%	40, 60	130	130	130, 196
+12	46	82	32	100%, 100%, 100%, 100%	46, 69	133	133	151, 227
+13	52	92	36	100%, 100%, 100%, 100%	53, 79	136	136	175, 262
+14	58	103	40	100%, 100%, 100%, 100%	61, 91	139	139	201, 302
+15	64	113	44	100%, 100%, 100%, 100%	69, 104	142	142	231, 347
+16	66	116	49	100%, 100%, 100%, 100%	79, 119	145	145	265, 397
+17	72	126	55	100%, 100%, 100%, 100%	90, 135	148	148	303, 454
+18	78	137	61	100%, 100%, 100%, 100%	102, 153	151	151	345, 518
+19	84	147	67	100%, 100%, 100%, 100%	116, 173	154	154	393, 590
+20	90	157	74	100%, 100%, 100%, 100%	131, 196	157	157	448, 672
+21			82	100%, 100%, 100%, 100%	148, 222	160	160	509, 764
+22			90	100%, 100%, 100%, 100%	167, 251	163	163	579, 868
+23			99	100%, 100%, 100%, 100%	189, 283	166	166	658, 986
+24			109	100%, 100%, 100%, 100%	213, 319	169	169	747, 1120
+25			120	100%, 100%, 100%, 100%	240, 360	172	172	848, 1272
+26			131	100%, 100%, 100%, 100%	271, 406	175	175	963, 1445
+27			144	100%, 100%, 100%, 100%	305, 458	178	178	1094, 1641
+28			158	100%, 100%, 100%, 100%	345, 517	181	181	1242, 1864
+29			173	100%, 100%, 100%, 100%	389, 583	184	184	1412, 2118
+30			189	100%, 100%, 100%, 100%	438, 658	187	187	1605, 2407
+31			207	100%, 100%, 100%, 100%	495, 742	188	188	1825, 2738
+32			226	100%, 100%, 100%, 100%	559, 838	190	190	2077, 3116
+33			247	100%, 100%, 100%, 100%	631, 947	191	191	2365, 3548
+34			269	100%, 100%, 100%, 100%	713, 1070	193	193	2695, 4042
+35			294	100%, 100%, 100%, 100%	807, 1210	194	194	3073, 4609
+36			320	100%, 100%, 100%, 100%	913, 1369	196	196	3507, 5260
+37			348	100%, 100%, 100%, 100%	1033, 1550	197	197	4006, 6008
+38			379	100%, 100%, 100%, 100%	1171, 1756	199	199	4579, 6869
+39			413	100%, 100%, 100%, 100%	1328, 1992	200	200	5240, 7860
+40			449	100%, 100%, 100%, 100%	1507, 2260	202	202	6002, 9002
+Version	Changes
+0.5.0	* Fixed a bug that caused Ice Nova to have the wrong visual effects and audio when repeated. * Ice Nova: Is no longer able to originate from Frostbolt while cascading sideways.
+0.4.0	- Ice Nova: Cold-Infused Ice Nova explosion and Chilled Ground radius are now 4.8 metres (previously 3.2). Cold-Infused Ice Nova now Deals 15 to 22 Cold Damage at Gem level 1-20 (previously 13-20), scaling to 448 to 672 Cold Damage at Gem level 20 (previously 394 to 591). - Fixed an issue where the visuals for Ice Nova weren't always matching the area in which it hit.
+0.3.0	- Ice Nova: Can now consume a Cold Infusion to deal more damage and create an area of chilled ground.
+0.2.0e	* The Freeze Buildup from Ice Nova and Ice Nova when cast near a Frostbolt are now matching. Ice Nova now has 100-157% more Freeze Buildup at Gem levels 1-20 (previously 50% only when cast on Frostbolt ).
+Name	Damage%	Life%	Spectre
+Bronnach, the Manhunter	175	130 |
+Hesperia, the Arcane Tempest	175	225 |

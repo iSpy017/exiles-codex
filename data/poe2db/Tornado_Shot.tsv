@@ -1,0 +1,55 @@
+# https://poe2db.tw/us/Tornado_Shot · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Tier	Gems
+1	Prolonged Duration I Overabundance I Slow Potency
+2	Maim Durability
+3	Magnified Area II Prolonged Duration II
+4	Efficiency II Overabundance II
+5	Blind II Physical Mastery Elemental Armament III
+Level	Requires Level	Dex	Mana	Base Damage	Deals 4.3 Physical damage per second
+1	0	4	13	50%, 50%, 50%, 100%	4.3
+2	3	9	15	55%, 55%, 55%, 100%	6.3
+3	6	14	17	60%, 60%, 60%, 100%	9.1
+4	10	21	19	66%, 66%, 66%, 100%	12.3
+5	14	28	22	71%, 71%, 71%, 100%	16
+6	18	35	25	77%, 77%, 77%, 100%	20.2
+7	22	41	28	82%, 82%, 82%, 100%	25
+8	26	48	31	87%, 87%, 87%, 100%	30.4
+9	31	57	34	91%, 91%, 91%, 100%	36.7
+10	36	65	37	96%, 96%, 96%, 100%	43.9
+11	41	74	41	101%, 101%, 101%, 100%	52.1
+12	46	82	45	106%, 106%, 106%, 100%	61.4
+13	52	92	50	111%, 111%, 111%, 100%	72.2
+14	58	103	54	116%, 116%, 116%, 100%	84.5
+15	64	113	59	122%, 122%, 122%, 100%	98.7
+16	66	116	64	128%, 128%, 128%, 100%	114.9
+17	72	126	70	135%, 135%, 135%, 100%	133.6
+18	78	137	76	141%, 141%, 141%, 100%	155.2
+19	84	147	82	149%, 149%, 149%, 100%	180
+20	90	157	88	156%, 156%, 156%, 100%	208.7
+21			96	164%, 164%, 164%, 100%	241.8
+22			103	172%, 172%, 172%, 100%	280.2
+23			111	181%, 181%, 181%, 100%	324.6
+24			119	190%, 190%, 190%, 100%	376.1
+25			128	199%, 199%, 199%, 100%	435.9
+26			138	209%, 209%, 209%, 100%	505.5
+27			148	219%, 219%, 219%, 100%	586.5
+28			158	230%, 230%, 230%, 100%	681
+29			170	242%, 242%, 242%, 100%	791.3
+30			182	254%, 254%, 254%, 100%	920.4
+31			194	267%, 267%, 267%, 100%	1071.6
+32			208	280%, 280%, 280%, 100%	1248.9
+33			222	294%, 294%, 294%, 100%	1457.2
+34			237	309%, 309%, 309%, 100%	1702.3
+35			253	324%, 324%, 324%, 100%	1991.1
+36			269	340%, 340%, 340%, 100%	2332
+37			287	357%, 357%, 357%, 100%	2735
+38			306	375%, 375%, 375%, 100%	3212.1
+39			326	394%, 394%, 394%, 100%	3778
+40			346	414%, 414%, 414%, 100%	4450.3
+Version	Changes
+0.4.0	- Added Wind type to the following Skills: Twister, Whirling Slash, Wind Blast, Wing Blast, Whirlwind Lance, Wind Serpent's Fury, Tornado, Tornado Shot, the Projectiles created by Staggering Palm
+0.2.0e	* Tornado Shot now has a maximum Tornado duration of 15 seconds at all Gem levels (previously 7-7.9 at Gem levels 11-20).
+0.2.0	- Tornado Shot's splitting effect now also applies to thrown Spears.
+0.1.0e	* Tornado Shot 's Damage over Time has been adjusted, it is now slightly higher at Lower Levels, and substantially lower at Higher Levels. The intention of this ability was to propagate your other Bow skills, as opposed to doing an immense amount of damage itself. * Fixed a bug where Ballista skills didn't work with Tornadoes created by Tornado Shot.
+Name	Damage%	Life%	Spectre
+Adrienne, the Malignant Rose	175	130 |

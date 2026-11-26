@@ -1,0 +1,70 @@
+# https://poe2db.tw/us/Zarokh_2C_the_Temporal · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Area	Trial of the Sekhemas
+Tags	construct , ghost , medium_movement , not_dex , not_str , sand_blood , Unarmed_onhit_audio
+Family	Nothing
+Domains	Monster (3)
+GenerationType	Unique (3)
+Family	Nothing
+Domains	Monster (3)
+GenerationType	Unique (3)
+Family	MonsterCannotBeStunnedFrozenElectrocuted
+Domains	Monster (3)
+GenerationType	Unique (3)
+Stats	base cannot be frozen 1 — 1 Global base cannot be stunned 0 — 0 Global — Unscalable Value base cannot be electrocuted 1 — 1 Global
+Family	Nothing
+Domains	Monster (3)
+GenerationType	Unique (3)
+Family	Nothing
+Domains	Monster (3)
+GenerationType	Unique (3)
+Family	Nothing
+Domains	Monster (3)
+GenerationType	Unique (3)
+Family	Nothing
+Domains	Monster (3)
+GenerationType	Unique (3)
+Family	Nothing
+Domains	Monster (3)
+GenerationType	Unique (3)
+Family	MonsterActBoss
+Domains	Monster (3)
+GenerationType	Unique (3)
+Stats	i am boss of tier 3 — 3 Global monster slain experience +% 0 — 0 Global monster dropped item rarity +% 4800 — 4800 Global
+Family	MonsterMapBoss
+Domains	Monster (3)
+GenerationType	Unique (3)
+Stats	monster slain experience +% 9000 — 9000 Global monster dropped item rarity +% 3200 — 3200 Global monster dropped item quantity +% 800 — 800 Global unique monster guarantee one rare 1 — 1 Global monster map key of at least same tier as current map drop chance % 25 — 25 Global
+Tags	construct , ghost , medium_movement , not_dex , not_str , sand_blood , Unarmed_onhit_audio
+Family	Nothing
+Domains	Monster (3)
+GenerationType	Unique (3)
+Family	Nothing
+Domains	Monster (3)
+GenerationType	Unique (3)
+Family	MonsterCannotBeStunnedFrozenElectrocuted
+Domains	Monster (3)
+GenerationType	Unique (3)
+Stats	base cannot be frozen 1 — 1 Global base cannot be stunned 0 — 0 Global — Unscalable Value base cannot be electrocuted 1 — 1 Global
+Family	Nothing
+Domains	Monster (3)
+GenerationType	Unique (3)
+Family	Nothing
+Domains	Monster (3)
+GenerationType	Unique (3)
+Family	Nothing
+Domains	Monster (3)
+GenerationType	Unique (3)
+Family	Nothing
+Domains	Monster (3)
+GenerationType	Unique (3)
+Family	Nothing
+Domains	Monster (3)
+GenerationType	Unique (3)
+Family	MonsterActBoss
+Domains	Monster (3)
+GenerationType	Unique (3)
+Stats	i am boss of tier 3 — 3 Global monster slain experience +% 0 — 0 Global monster dropped item rarity +% 4800 — 4800 Global
+Family	MonsterMapBoss
+Domains	Monster (3)
+GenerationType	Unique (3)
+Stats	monster slain experience +% 9000 — 9000 Global monster dropped item rarity +% 3200 — 3200 Global monster dropped item quantity +% 800 — 800 Global unique monster guarantee one rare 1 — 1 Global monster map key of at least same tier as current map drop chance % 25 — 25 Global

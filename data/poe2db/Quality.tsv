@@ -1,0 +1,23 @@
+# https://poe2db.tw/us/Quality · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Name	Level	Pre/Suf	Description	Weight
+| 1	Unique	monster drop additional currency items with quality [2] |
+Name	Level	Domain	Pre/Suf	Description	Weight
+| 1	Chest	Unique	Contained Items have (15 — 20) % Quality |
+| 1	Chest	Unique	Contained Items have (5 — 14) % Quality |
+| 1	Chest	Unique	Contained Items have (5 — 18) % Quality |
+| 1	Chest	Unique	Contained Items have (5 — 9) % Quality |
+| 1	Chest	Unique	Contained Items have (5 — 16) % Quality |
+| 1	Chest	Unique	Contained Items have (8 — 15) % Quality |
+| 1	Chest	Unique	Contained Items have (5 — 24) % Quality |
+| 1	Chest	Unique	Contained Items have (10 — 27) % Quality |
+| 1	Chest	Unique	Contained Items have (15 — 30) % Quality |
+| 1	Chest	Unique	Contained Items have (6 — 14) % Quality |
+| 1	Chest	Unique	Contained Items have (6 — 9) % Quality |
+| 1	Chest	Unique	Contained Items have (10 — 14) % Quality |
+| 1	Chest	Unique	Contained Items have (5 — 20) % Quality |
+| 1	Chest	Unique	chest drops corrupted uniques with quality outside normal range caster [1] |
+of Quality	1	Strongbox	Suffix	Contained Items have (5 — 15) % Quality	strongbox_robot_rare_guard 0 martial_strongbox 1 armourer_strongbox 1 caster_strongbox 1 default 0
+of Greater Quality	1	Strongbox	Suffix	Contained Items have (15 — 20) % Quality	strongbox_robot_rare_guard 0 martial_strongbox_highertiermod 1 armourer_strongbox_highertiermod 1 caster_strongbox_highertiermod 1 default_highertiermod 0 default 0
+| 1	Atlas	Prefix	Map Bosses deal 20 % increased Damage Your Maps have 20 % Quality 3 uses remaining Damage	default 1
+| 1	Atlas	Prefix	Map Bosses have 20 % increased Life Quality bonus of your Maps also applies to Rarity of Items found 3 uses remaining Life	default 1
+of Kurgal	65	Abyss	Suffix	+(3 — 5) % to Quality of all Skills kurgal Gem	amulet 1 default 0 kurgal_mod 1

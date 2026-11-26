@@ -1,0 +1,32 @@
+# https://poe2db.tw/us/The_Raven_Trickster · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Area	The Withered Willow
+Tags	fast_movement , human , humanoid , not_dex , Unarmed_onhit_audio
+Family	PinnacleAtlasBoss
+Domains	Monster (3)
+GenerationType	Unique (3)
+Adds Tags	pinnacle_boss
+Family	Nothing
+Domains	Monster (3)
+GenerationType	Unique (3)
+Family	Nothing
+Domains	Monster (3)
+GenerationType	Unique (3)
+Family	Nothing
+Domains	Monster (3)
+GenerationType	Unique (3)
+Family	Stance
+Domains	Monster (3)
+GenerationType	Unique (3)
+Stats	stance movement speed +% final -60 — -60 Global
+Family	MonsterActBoss
+Domains	Monster (3)
+GenerationType	Unique (3)
+Stats	i am boss of tier 3 — 3 Global monster slain experience +% 0 — 0 Global monster dropped item rarity +% 4800 — 4800 Global
+Family	MonsterMapBoss
+Domains	Monster (3)
+GenerationType	Unique (3)
+Stats	monster slain experience +% 9000 — 9000 Global monster dropped item rarity +% 3200 — 3200 Global monster dropped item quantity +% 800 — 800 Global unique monster guarantee one rare 1 — 1 Global monster map key of at least same tier as current map drop chance % 25 — 25 Global
+Family	MonsterMapBoss
+Domains	Monster (3)
+GenerationType	Unique (3)
+Stats	monster slain experience +% 0 — 0 Global monster dropped item rarity +% 9500 — 9500 Global unique monster guarantee one rare 1 — 1 Global monster map key of at least same tier as current map drop chance % 0 — 0 Global

@@ -1,0 +1,55 @@
+# https://poe2db.tw/us/Gas_Arrow · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Tier	Gems
+1	Fire Attunement Prolonged Duration I Corrosion
+2	Bursting Plague Deadly Poison I Commiserate
+3	Magnified Area II Salvo Persistent Ground II
+4	Overabundance II Deadly Poison II Nova Projectiles II
+5	Poison III Chaos Mastery Persistent Ground III
+Level	Requires Level	Dex	Mana	Base Damage
+1	0	4	9	30%, 30%, 30%, 70%, 90%
+2	3	9	10	33%, 33%, 33%, 77%, 99%
+3	6	14	12	36%, 36%, 36%, 85%, 109%
+4	10	21	13	40%, 40%, 40%, 92%, 119%
+5	14	28	15	43%, 43%, 43%, 100%, 128%
+6	18	35	17	46%, 46%, 46%, 107%, 138%
+7	22	41	19	49%, 49%, 49%, 115%, 147%
+8	26	48	21	52%, 52%, 52%, 122%, 156%
+9	31	57	24	55%, 55%, 55%, 128%, 164%
+10	36	65	26	57%, 57%, 57%, 134%, 172%
+11	41	74	29	60%, 60%, 60%, 141%, 181%
+12	46	82	32	63%, 63%, 63%, 148%, 190%
+13	52	92	35	66%, 66%, 66%, 155%, 199%
+14	58	103	38	70%, 70%, 70%, 163%, 209%
+15	64	113	41	73%, 73%, 73%, 171%, 220%
+16	66	116	45	77%, 77%, 77%, 180%, 231%
+17	72	126	49	81%, 81%, 81%, 189%, 242%
+18	78	137	53	85%, 85%, 85%, 198%, 255%
+19	84	147	57	89%, 89%, 89%, 208%, 267%
+20	90	157	62	94%, 94%, 94%, 218%, 281%
+21			67	98%, 98%, 98%, 229%, 295%
+22			72	103%, 103%, 103%, 241%, 309%
+23			78	108%, 108%, 108%, 253%, 325%
+24			84	114%, 114%, 114%, 265%, 341%
+25			90	119%, 119%, 119%, 279%, 358%
+26			97	125%, 125%, 125%, 293%, 376%
+27			104	132%, 132%, 132%, 307%, 395%
+28			111	138%, 138%, 138%, 323%, 415%
+29			119	145%, 145%, 145%, 339%, 435%
+30			128	152%, 152%, 152%, 356%, 457%
+31			136	160%, 160%, 160%, 373%, 480%
+32			146	168%, 168%, 168%, 392%, 504%
+33			156	176%, 176%, 176%, 412%, 529%
+34			166	185%, 185%, 185%, 432%, 556%
+35			177	195%, 195%, 195%, 454%, 584%
+36			189	204%, 204%, 204%, 477%, 613%
+37			202	214%, 214%, 214%, 500%, 643%
+38			215	225%, 225%, 225%, 525%, 676%
+39			229	236%, 236%, 236%, 552%, 709%
+40			243	248%, 248%, 248%, 579%, 745%
+Version	Changes
+0.3.0	- Skeletal Sniper: Command: Gas Arrow cooldown is now 6 seconds (previously 8). Gas Cloud now deals 80% Attack Damage (previously 70%).Quality now provides Minions deal 0-20% more Damage, instead of 0-10% reduced Reservation. - Fixed a bug where the clouds created by Gas Arrow were missing some of their effects.
+0.2.0	- Gas Arrow, Gas Grenades and Decompose now have a limit of 6 Poison Clouds. - The Poison Cloud on Gas Arrow, Gas Grenade and Decompose now gain 20% more Radius per second, up to a maximum of 80% (all previously 50%, up to a maximum of 200%).
+0.1.0b	* Gas Arrow's explosion base damage has been reduced to 100%-312% at gem levels 1-20 (previously 250%-780%).
+Name	Damage%	Life%	Spectre
+Adrienne, the Malignant Rose	175	130 |
+Skeletal Sniper	115	55 |

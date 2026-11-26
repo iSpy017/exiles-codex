@@ -1,0 +1,41 @@
+# https://poe2db.tw/us/The_King_in_the_Mists · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Area	Freythorn
+Tags	cultist , human , humanoid , immobile , red_blood , StaffWood_onhit_audio
+Area	Freythorn , Crux of Nothingness
+Tags	cultist , human , humanoid , immobile , red_blood , StaffWood_onhit_audio
+Family	PinnacleAtlasBoss
+Domains	Monster (3)
+GenerationType	Unique (3)
+Adds Tags	pinnacle_boss
+Family	MonsterMapBossExtraForms
+Domains	Monster (3)
+GenerationType	Unique (3)
+Stats	monster has second form 1 — 1 Global — Unscalable Value
+Area	Freythorn
+Tags	demon , humanoid , large_model , not_dex , StaffWood_onhit_audio , very_slow_movement
+Family	MonsterActBoss
+Domains	Monster (3)
+GenerationType	Unique (3)
+Stats	i am boss of tier 2 — 2 Global monster slain experience +% 0 — 0 Global monster dropped item rarity +% 1600 — 1600 Global
+Area	Freythorn , Crux of Nothingness
+Tags	demon , humanoid , large_model , not_dex , StaffWood_onhit_audio , very_slow_movement
+Family	PinnacleAtlasBoss
+Domains	Monster (3)
+GenerationType	Unique (3)
+Adds Tags	pinnacle_boss
+Family	MonsterActBoss
+Domains	Monster (3)
+GenerationType	Unique (3)
+Stats	i am boss of tier 3 — 3 Global monster slain experience +% 0 — 0 Global monster dropped item rarity +% 4800 — 4800 Global
+Family	MonsterMapBoss
+Domains	Monster (3)
+GenerationType	Unique (3)
+Stats	monster slain experience +% 9000 — 9000 Global monster dropped item rarity +% 3200 — 3200 Global monster dropped item quantity +% 800 — 800 Global unique monster guarantee one rare 1 — 1 Global monster map key of at least same tier as current map drop chance % 25 — 25 Global
+Area	Freythorn
+Tags	demon , humanoid , large_model , not_dex , StaffWood_onhit_audio , very_slow_movement
+Family	MonsterActBoss
+Domains	Monster (3)
+GenerationType	Unique (3)
+Stats	i am boss of tier 2 — 2 Global monster slain experience +% 0 — 0 Global monster dropped item rarity +% 1600 — 1600 Global
+NPC	Name
+Finn	So, the cultists really did have a king lurking out there in the shadows. Shame. I might have followed him myself if he'd simply promised decent meals instead. Thank you, hero. It's not the result I was hoping for, but at least I know the truth. Clearfell's all I have left now. If I was a drinking man, it'd be a sobering thought.

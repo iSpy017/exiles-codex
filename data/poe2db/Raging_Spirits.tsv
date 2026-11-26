@@ -1,0 +1,63 @@
+# https://poe2db.tw/us/Raging_Spirits · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Tier	Gems
+1	Fire Attunement Prolonged Duration I
+2	Elemental Armament II Mysticism I
+3	Immolate Prolonged Duration II
+4	Feeding Frenzy II Mysticism II
+5	Fire Mastery Minion Mastery
+Level	Requires Level	Int	Base Damage	Minion Level
+1	0	4	100%, 100%, 100%	2
+2	3	9	100%, 100%, 100%	4
+3	6	14	100%, 100%, 100%	6
+4	10	21	100%, 100%, 100%	8
+5	14	28	100%, 100%, 100%	10
+6	18	35	100%, 100%, 100%	12
+7	22	41	100%, 100%, 100%	14
+8	26	48	100%, 100%, 100%	16
+9	31	57	100%, 100%, 100%	18
+10	36	65	100%, 100%, 100%	20
+11	41	74	100%, 100%, 100%	22
+12	46	82	100%, 100%, 100%	24
+13	52	92	100%, 100%, 100%	26
+14	58	103	100%, 100%, 100%	28
+15	64	113	100%, 100%, 100%	30
+16	66	116	100%, 100%, 100%	32
+17	72	126	100%, 100%, 100%	34
+18	78	137	100%, 100%, 100%	36
+19	84	147	100%, 100%, 100%	38
+20	90	157	100%, 100%, 100%	40
+21			100%, 100%, 100%	42
+22			100%, 100%, 100%	44
+23			100%, 100%, 100%	46
+24			100%, 100%, 100%	48
+25			100%, 100%, 100%	50
+26			100%, 100%, 100%	52
+27			100%, 100%, 100%	54
+28			100%, 100%, 100%	56
+29			100%, 100%, 100%	58
+30			100%, 100%, 100%	60
+31			100%, 100%, 100%	62
+32			100%, 100%, 100%	64
+33			100%, 100%, 100%	66
+34			100%, 100%, 100%	68
+35			100%, 100%, 100%	70
+36			100%, 100%, 100%	72
+37			100%, 100%, 100%	74
+38			100%, 100%, 100%	76
+39			100%, 100%, 100%	78
+40			100%, 100%, 100%	80
+Version	Changes
+0.5.0	* Fixed a bug where Fire Skills used by Spell Totems could generate Raging Spirits. * Fixed a bug where Fire Skills used by Visages from Align Fate could generate Raging Spirits.
+0.4.0d	* Fixed a bug where Raging Spirits couldn't be targeted by Skeletal Arsonist's Explosive Demise command skill
+0.3.0	- Updated the description for Raging Spirits to clarify that the flaming skulls do not follow player commands (as they're busy raging).
+0.2.0	- Raging Spirits now has a Spirit Duration of 5 seconds (previously 4), and a Maximum 2 Spirits summoned per Spell Cast (previously 5). The description of Raging Spirits has also been updated to make more clear that triggered spells will not summon spirits. - Improved the performance of spawning very high amounts of Raging Spirits. If you spawn a large number of Spirits at the same time, the spawning of them is now spread out over a short duration. - Fixed a bug where the Raging Spirits Skill did not display the duration of the spirits.
+0.1.0d	* Fixed a bug where some fire spells, such as Volatile Dead and Incinerate, were not functioning correctly with Raging Spirits. * Fixed a bug where Summon Raging Spirits failed to cleanup on death when they were killed on the same frame they were created.
+0.1.0c	* Fixed a bug where some Persistent Buff Skills, such as Raging Spirits and Mana Remnants, were not working for the Infernalist when in Demon Form. * Summon Raging Spirits now only summons 5 Raging Spirits per cast at all levels. The tooltip display will be updated in a future restart patch. * Summon Raging Spirits can no longer be spawned from triggered Fire Skills.
+Tags	bone_armour , construct , extra_extra_small_height , fast_movement , is_unarmed , melee , physical_affinity , skeleton , Unarmed_onhit_audio , undead
+Family	IncreasedAttackSpeed
+Domains	Monster (3)
+GenerationType	Unique (3)
+Stats	active skill attack speed +% final 40 — 40 Global
+Craft Tags	Attack Speed
+Name	Damage%	Life%	Spectre
+Nyassa, the Flaming Hand	175	225 |

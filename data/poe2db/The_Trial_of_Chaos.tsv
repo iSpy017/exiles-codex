@@ -1,0 +1,17 @@
+# https://poe2db.tw/us/The_Trial_of_Chaos · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Name	Show Full Descriptions
+Act	3
+Level	38
+Connected	The Temple of Chaos
+Boss	Uxmal, the Beastlord Chetza, the Feathered Plague Bahlak, the Sky Seer The Trialmaster
+Tags	dungeon
+Topologies	entrance end exit_ruin graph graph
+Level	Name	Experience	Damage	Attack Time	Life	Armour	Evasion	Energy Shield			 |
+38	Uxmal, the Beastlord	77,478	133	1.47	89,700	364			30	30	30	0
+38	Chetza, the Feathered Plague	77,478	133	1.9698	77,865	364			-30	30	0	0
+38	Bahlak, the Sky Seer	77,478	177	1.47	77,865	364		295	-30	0	75	0
+38	The Trialmaster	123,964	197	1.47	233,595	546			75	75	75	0
+Level	Trial Length
+1	4
+60	7
+75	10

@@ -1,77 +1,73 @@
-# Damage Types & Conversion
+---
+title: Damage Types & Conversion
+status: done
+tracker_topic: "Damage types & conversion"
+tracker_note: "done (0.5.x; recheck 1.0)"
+---
 
 Version note: all entries researched 2026-11-17 against 0.5.x sources (live league 0.5.5). Re-check at 1.0.
 Access note: poe2wiki pages are blocked to direct fetch (Anubis); poe2wiki claims below come from search-engine snippets of those pages.
 
 ## The five damage types
-- Claim: Five types: Physical, Fire, Cold, Lightning, Chaos. Fire, Cold, Lightning are the elemental types.
-- Version: 0.5.x
-- Volatility: stable
-- Source: [PoE2DB Keywords](https://poe2db.tw/us/Keywords), tier 2, retrieved 2026-11-17
-- Confidence: single-source (consistent with every other page read)
+@ v=0.5.x vol=stable conf=single-source date=2026-11-17
+Five types: Physical, Fire, Cold, Lightning, Chaos. Fire, Cold, Lightning are the elemental types.
+
+- src: poe2db:Keywords, tier 2, retrieved 2026-11-17
+- conf: single-source (consistent with every other page read)
 
 ## How each type is mitigated / special behaviour
-- Claim: Physical is reduced by Armour (the only type that is), the others by their matching resistance. Chaos is the rarest type and strips double its value from Energy Shield. Fire hits build Flammability (→ Ignite); Cold hits apply Chill and build Freeze but cannot build Heavy Stun; Lightning hits can Shock.
-- Version: 0.5.x
-- Volatility: may-change
-- Source: [PoE2DB Keywords](https://poe2db.tw/us/Keywords), tier 2, retrieved 2026-11-17
-- Confidence: single-source
-- Notes: details per ailment in batch 2 docs; armour/res in [[mechanics/armour]], [[mechanics/resistances]]
+@ v=0.5.x vol=may-change conf=single-source date=2026-11-17
+Physical is reduced by Armour (the only type that is), the others by their matching resistance. Chaos is the rarest type and strips double its value from Energy Shield. Fire hits build Flammability (→ Ignite); Cold hits apply Chill and build Freeze but cannot build Heavy Stun; Lightning hits can Shock.
+- src: poe2db:Keywords, tier 2, retrieved 2026-11-17
+- notes: details per ailment in batch 2 docs; armour/res in [[mechanics/armour]], [[mechanics/resistances]]
+
 
 ## Conversion: two-step order
-- Claim: Conversion happens in two steps: conversion built into the skill (skill gem, item- or ascendancy-granted skill) first, then every other source (gear, tree, global effects) applies to what's left.
-- Version: 0.5.x
-- Volatility: may-change
-- Source: [PoE2DB Damage Conversion](https://poe2db.tw/us/Damage_conversion), tier 2; [poe2wiki Conversion](https://www.poe2wiki.net/wiki/Convert), tier 2; both retrieved 2026-11-17
-- Confidence: confirmed
+@ v=0.5.x vol=may-change conf=confirmed date=2026-11-17
+Conversion happens in two steps: conversion built into the skill (skill gem, item- or ascendancy-granted skill) first, then every other source (gear, tree, global effects) applies to what's left.
+
+- src: poe2db:Damage_conversion, tier 2; poe2wiki Conversion [S678], tier 2; both retrieved 2026-11-17
 
 ## Converted damage scales only as its final type
-- Claim: Once converted, damage scales with modifiers for its new type only; the original type's modifiers no longer apply (e.g. phys→fire is not boosted by increased physical damage). This is a change from PoE1.
-- Version: 0.5.x
-- Volatility: may-change
-- Source: [poe2wiki Damage conversion](https://poe2wiki.net/wiki/Damage_conversion), tier 2; [PoE2DB Damage Conversion](https://poe2db.tw/Damage_Conversion), tier 2; retrieved 2026-11-17
-- Confidence: confirmed
+@ v=0.5.x vol=may-change conf=confirmed date=2026-11-17
+Once converted, damage scales with modifiers for its new type only; the original type's modifiers no longer apply (e.g. phys→fire is not boosted by increased physical damage). This is a change from PoE1.
+
+- src: poe2wiki Damage conversion [S610], tier 2; PoE2DB Damage Conversion [S107], tier 2; retrieved 2026-11-17
 
 ## Any type → any type, no loops
-- Claim: Damage can convert from any type to any other with no fixed order (PoE1 had a strict order). All conversion is applied at once, so damage can't convert twice and loops are impossible.
-- Version: 0.5.x
-- Volatility: may-change
-- Source: [poe2wiki Overconversion](https://poe2wiki.net/wiki/Overconversion), tier 2; [Mobalytics Damage Conversion](https://mobalytics.gg/poe-2/guides/damage-conversion), tier 3; retrieved 2026-11-17
-- Confidence: confirmed
+@ v=0.5.x vol=may-change conf=confirmed date=2026-11-17
+Damage can convert from any type to any other with no fixed order (PoE1 had a strict order). All conversion is applied at once, so damage can't convert twice and loops are impossible.
+
+- src: poe2wiki Overconversion [S626], tier 2; Mobalytics Damage Conversion [S060], tier 3; retrieved 2026-11-17
 
 ## Overconversion
-- Claim: If either step adds up to more than 100% of a type, it's scaled down proportionally to 100%.
-- Version: 0.5.x
-- Volatility: may-change
-- Source: [poe2wiki Overconversion](https://poe2wiki.net/wiki/Overconversion), tier 2, retrieved 2026-11-17
-- Confidence: single-source
+@ v=0.5.x vol=may-change conf=single-source date=2026-11-17
+If either step adds up to more than 100% of a type, it's scaled down proportionally to 100%.
+
+- src: poe2wiki Overconversion [S626], tier 2, retrieved 2026-11-17
 
 ## When conversion is calculated
-- Claim: Conversion is applied after flat added damage is combined with base damage, but before any increased/more modifiers.
-- Version: 0.5.x
-- Volatility: may-change
-- Source: [poe2wiki Damage conversion](https://poe2wiki.net/wiki/Damage_conversion), tier 2; [Mobalytics Damage Conversion](https://mobalytics.gg/poe-2/guides/damage-conversion), tier 3; retrieved 2026-11-17
-- Confidence: confirmed
-- Notes: exception — weapon-local conversion on some weapons applies before the weapon's own local mods (quality, added phys, % phys), so those local mods don't boost the converted portion. Source: [poe2wiki Conversion](https://www.poe2wiki.net/wiki/Convert), single-source.
+@ v=0.5.x vol=may-change conf=confirmed date=2026-11-17
+Conversion is applied after flat added damage is combined with base damage, but before any increased/more modifiers.
+- src: poe2wiki Damage conversion [S610], tier 2; Mobalytics Damage Conversion [S060], tier 3; retrieved 2026-11-17 poe2wiki Conversion [S678], single-source.
+- notes: exception — weapon-local conversion on some weapons applies before the weapon's own local mods (quality, added phys, % phys), so those local mods don't boost the converted portion.
+
 
 ## "Gain as extra"
-- Claim: "Gain X% of [type] as extra [type]" adds new damage while leaving the original intact (regular conversion removes it). It follows the same two-step process. Gained damage scales with the new type's modifiers only.
-- Version: 0.5.x
-- Volatility: may-change
-- Source: [poe2wiki Overconversion](https://poe2wiki.net/wiki/Overconversion), tier 2; [poe2wiki Conversion](https://poe2wiki.net/wiki/Convert/edit?redlink=1), tier 2; retrieved 2026-11-17
-- Confidence: single-source (one wiki, two pages)
+@ v=0.5.x vol=may-change conf=single-source date=2026-11-17
+"Gain X% of [type] as extra [type]" adds new damage while leaving the original intact (regular conversion removes it). It follows the same two-step process. Gained damage scales with the new type's modifiers only.
+
+- src: poe2wiki Overconversion [S626], tier 2; poe2wiki Conversion [S607], tier 2; retrieved 2026-11-17
+- conf: single-source (one wiki, two pages)
 
 ## Hits only
-- Claim: Conversion and gain only affect hits; damage over time can't be converted or gained.
-- Version: 0.5.x
-- Volatility: stable
-- Source: [PoE2DB Damage Conversion](https://poe2db.tw/us/Damage_conversion), tier 2; [poe2wiki Damage conversion](https://poe2wiki.net/wiki/Damage_conversion), tier 2; [Mobalytics](https://mobalytics.gg/poe-2/guides/damage-conversion), tier 3; retrieved 2026-11-17
-- Confidence: confirmed
-- Notes: see [[mechanics/hits-vs-dot]]
+@ v=0.5.x vol=stable conf=confirmed date=2026-11-17
+Conversion and gain only affect hits; damage over time can't be converted or gained.
+- src: poe2db:Damage_conversion, tier 2; poe2wiki Damage conversion [S610], tier 2; Mobalytics [S060], tier 3; retrieved 2026-11-17
+- notes: see [[mechanics/hits-vs-dot]]
+
 
 ## Non-damage conversion
-- Claim: Stat conversion (e.g. evasion → armour) works the same way: the converted part scales with the new stat's modifiers only.
-- Version: 0.5.x
-- Volatility: may-change
-- Source: [poe2wiki Conversion (Gains)](https://poe2wiki.net/wiki/Gains), tier 2, retrieved 2026-11-17
-- Confidence: single-source
+@ v=0.5.x vol=may-change conf=single-source date=2026-11-17
+Stat conversion (e.g. evasion → armour) works the same way: the converted part scales with the new stat's modifiers only.
+- src: poe2wiki Conversion (Gains) [S618], tier 2, retrieved 2026-11-17

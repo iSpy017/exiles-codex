@@ -1,0 +1,58 @@
+# https://poe2db.tw/us/Skeletal_Cleric · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Tier	Gems
+1	Rapid Casting I Meat Shield I Last Gasp
+2	Deathmarch
+3	Meat Shield II Essence Harvest
+4	Rapid Casting II
+5	Minion Mastery
+Level	Requires Level	Int	Mana	Base Damage	Minion Level
+1	0	4	60	100%, 100%, 100%	2
+2	3	9	44	100%, 100%, 100%	4
+3	6	14	33	100%, 100%, 100%	6
+4	10	21	27	100%, 100%, 100%	8
+5	14	28	25	100%, 100%, 100%	10
+6	18	35	25	100%, 100%, 100%	12
+7	22	41	23	100%, 100%, 100%	14
+8	26	48	23	100%, 100%, 100%	16
+9	31	57	23	100%, 100%, 100%	18
+10	36	65	22	100%, 100%, 100%	20
+11	41	74	22	100%, 100%, 100%	22
+12	46	82	22	100%, 100%, 100%	24
+13	52	92	21	100%, 100%, 100%	26
+14	58	103	21	100%, 100%, 100%	28
+15	64	113	21	100%, 100%, 100%	30
+16	66	116	21	100%, 100%, 100%	32
+17	72	126	20	100%, 100%, 100%	34
+18	78	137	20	100%, 100%, 100%	36
+19	84	147	20	100%, 100%, 100%	38
+20	90	157	20	100%, 100%, 100%	40
+21			19	100%, 100%, 100%	42
+22			19	100%, 100%, 100%	44
+23			19	100%, 100%, 100%	46
+24			19	100%, 100%, 100%	48
+25			19	100%, 100%, 100%	50
+26			18	100%, 100%, 100%	52
+27			18	100%, 100%, 100%	54
+28			18	100%, 100%, 100%	56
+29			18	100%, 100%, 100%	58
+30			18	100%, 100%, 100%	60
+31			17	100%, 100%, 100%	62
+32			17	100%, 100%, 100%	64
+33			17	100%, 100%, 100%	66
+34			17	100%, 100%, 100%	68
+35			17	100%, 100%, 100%	70
+36			16	100%, 100%, 100%	72
+37			16	100%, 100%, 100%	74
+38			16	100%, 100%, 100%	76
+39			16	100%, 100%, 100%	78
+40			16	100%, 100%, 100%	80
+Version	Changes
+0.3.0	- Skeletal Cleric: Quality now provides Revived Skeletons are immune to damage for 0-3 seconds after being revived, instead of 0-30% more Maximum Minion Life.
+0.2.0d	* Fixed a bug where Skeletal Cleric s would fail to follow the player.
+0.2.0c	* The Life threshold Skeletal Arsonist s can target other Minions, and the heal amount of Skeletal Clerics has been adjusted proportionately to the Minion Life changes.
+0.2.0	- Adjusted Skeletal Cleric's Heal Life scaling accordingly. - Improved Skeletal Cleric behaviour to reduce cases where they would run at enemies and attempt to attack them.
+Tags	bone_armour , bones , Caster, fire_affinity , is_unarmed , medium_height , medium_movement , not_dex , not_str , ranged , skeleton , slashing_weapon , Unarmed_onhit_audio , undead
+Family	MonsterNoDropsOrExperience
+Domains	Monster (3)
+GenerationType	Unique (3)
+Stats	monster no drops or experience 1 — 1 Global — Unscalable Value

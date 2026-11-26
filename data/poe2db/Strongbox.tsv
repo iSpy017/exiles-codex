@@ -1,0 +1,284 @@
+# https://poe2db.tw/us/Strongbox · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Name	Description
+Name	Level	Pre/Suf	Description	Weight
+| 1	Unique	strongbox monsters actor scale +% [0] strongbox monsters attack speed +% [0] strongbox monsters damage +% [0] strongbox monsters item quantity +% [0] strongbox monsters life +% [0] strongbox monsters movement velocity +% [0] Attack Speed |
+Name	Level	Pre/Suf	Description	Weight
+| 1	Unique	Your Maps contain 5 additional Strongboxes map extra content weighting [0]	default 1
+| 1	Unique	Your Maps contain 2 additional Strongboxes map extra content weighting [0]	default 1
+Name	Level	Domain	Pre/Suf	Description	Weight
+| 1	Chest	Unique	Strongbox Monsters are Enraged Strongbox Monsters have 500 % increased Item Quantity |
+| 1	Chest	Unique	Strongbox Monsters are Enraged Strongbox Monsters have 600 % increased Item Quantity |
+Protected by the Winter Owl	1	Chest	Torment	possessed strongbox type id [1] |
+Protected by the Ancient Serpent	1	Chest	Torment	possessed strongbox type id [2] |
+Protected by the Howling Ape	1	Chest	Torment	possessed strongbox type id [3] |
+Protected by the Great Bear	1	Chest	Torment	possessed strongbox type id [4] |
+Protected by the Frenzied Boar	1	Chest	Torment	possessed strongbox type id [5] |
+Protected by the Raging Ox	1	Chest	Torment	possessed strongbox type id [6] |
+Protected by the Noble Wolf	1	Chest	Torment	possessed strongbox type id [7] |
+Protected by the Fabled Stag	1	Chest	Torment	possessed strongbox type id [8] |
+Protected by the Wild Cat	1	Chest	Torment	possessed strongbox type id [9] |
+Protected by the Spring Hare	1	Chest	Torment	possessed strongbox type id [19] |
+Protected by the Cunning Fox	1	Chest	Torment	possessed strongbox type id [20] |
+Protected by the Abyssal	1	Chest	Torment	possessed strongbox type id [20] |
+of Monstrous Treasures	1	Strongbox	Suffix	(40 — 60) % more Rarity of Contained Items (40 — 60) % increased Rarity of Items Dropped from Strongbox Monsters	strongbox_robot_rare_guard 0 default 1
+of Monstrous Bounty	1	Strongbox	Suffix	(15 — 30) % more Quantity of Contained Items (15 — 30) % increased Effectiveness of Strongbox Monsters	strongbox_robot_rare_guard 0 default 1
+of Monstrous Treasures	1	Strongbox	Suffix	(60 — 100) % more Rarity of Contained Items (60 — 100) % increased Rarity of Items Dropped from Strongbox Monsters	strongbox_robot_rare_guard 0 default_highertiermod 1 default 0
+of Monstrous Bounty	1	Strongbox	Suffix	(25 — 50) % more Quantity of Contained Items (25 — 50) % increased Effectiveness of Strongbox Monsters	strongbox_robot_rare_guard 0 default_highertiermod 1 default 0
+| 1	Strongbox	Unique	strongbox use static spawns [1] |
+| 1	Strongbox	Suffix	strongbox construct has monsterstunresilience1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Suffix	strongbox construct has monsterimmunetoslow1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Suffix	strongbox construct has monstermodreducedcritmulti1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Suffix	strongbox construct has monsterchaosresistance1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Suffix	strongbox construct has monsterextraarmour1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Suffix	strongbox construct has monsterextraevasion1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Suffix	strongbox construct has monsterextraenergyshield1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Suffix	strongbox construct has monsterfireresistance1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Suffix	strongbox construct has monstercoldresistance1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Suffix	strongbox construct has monsterlightningresistance1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Suffix	strongbox construct has monsterliferegenerationratepercentage1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Suffix	strongbox construct has monsterincreasedspeed1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Suffix	strongbox construct has monstercriticalstrikechance1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Suffix	strongbox construct has monsterstundamageincrease1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Suffix	strongbox construct has monsterarmourpenetration1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Suffix	strongbox construct has monsterincreasedaccuracy1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Suffix	strongbox construct has monsteradditionalprojectiles1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Suffix	strongbox construct has monsterareaofeffect1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Prefix	strongbox construct has monsterburninggroundondeath1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Prefix	strongbox construct has monsterchilledgroundondeath1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Prefix	strongbox construct has monstershockedgroundondeath1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Suffix	strongbox construct has monsterburninggroundtrail1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Suffix	strongbox construct has monsterchilledgroundtrail1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Suffix	strongbox construct has monstershockedgroundtrail1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Suffix	strongbox construct has monsteralwayspoison1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Suffix	strongbox construct has monsteralwaysbleed1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Suffix	strongbox construct has monsterignitechanceincrease1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Suffix	strongbox construct has monsterfreezedamageincrease1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Suffix	strongbox construct has monstershockchanceincrease1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Suffix	strongbox construct has monsterdamagegainedasfire1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Suffix	strongbox construct has monsterdamagegainedascold1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Suffix	strongbox construct has monsterdamagegainedaslightning1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Suffix	strongbox construct has monsterdamagegainedaschaos1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Prefix	strongbox construct has monsterflamebeacons1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Prefix	strongbox construct has monsterfrostbeacons1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Prefix	strongbox construct has monsterlightningbeacons1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Prefix	strongbox construct has monsterstrongerminions1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Prefix	strongbox construct has monsterphysicaldamageaura1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Prefix	strongbox construct has monsterincreasedspeedaura1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Prefix	strongbox construct has monsterenergyshieldaura1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Prefix	strongbox construct has monsterresistanceaura1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Prefix	strongbox construct has monstertemporalaura1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Prefix	strongbox construct has monsterhinderaura1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Prefix	strongbox construct has monsterpreventrecoveryaura1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Prefix	strongbox construct has monsterimmuneaura1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Prefix	strongbox construct has monsterimmuneaura2 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Prefix	strongbox construct has monstermanasiphonaura1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Prefix	strongbox construct has monstermanasiphonaura2 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Prefix	strongbox construct has monsterhealingnova1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Prefix	strongbox construct has monsterflaskremovalaura1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Prefix	strongbox construct has monsterrevivesminions1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Prefix	strongbox construct has monsterminionstakelifeinstead1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Prefix	strongbox construct has monstershroudwalker1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Prefix	strongbox construct has monstershroudwalker2 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Prefix	strongbox construct has monsterperiodicenrage1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Prefix	strongbox construct has monsterperiodicenrage2 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Prefix	strongbox construct has monstercorpseexploder1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Prefix	strongbox construct has monsterlightningmirage1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Prefix	strongbox construct has monsterlightningmirage2 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Prefix	strongbox construct has monstermagmabarrier1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Unique	strongbox construct has monsterglacialprison1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Prefix	strongbox construct has monsterflamewaller1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Prefix	strongbox construct has monsterlightningstorms1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Unique	strongbox construct has monsterlivingcrystals1 [1]	strongbox_robot_rare_guard 0 default 0
+| 1	Strongbox	Prefix	strongbox construct has monstervolatileplants1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Prefix	strongbox construct has monstervolatileplants2 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Prefix	strongbox construct has monstervolatilerocks1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Prefix	strongbox construct has monstervolatilerocks2 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Prefix	strongbox construct has monsterproximaltangibility1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Unique	strongbox robot rare guard does not spawn immediately [1] |
+| 1	Atlas	Prefix	Your Maps contain 2 additional Strongboxes Strongboxes in your Maps are at least Rare Strongboxes in your Maps are Corrupted 3 uses remaining map extra content weighting [1]	no_strongboxes 0 default 1
+| 1	Atlas	Prefix	Your Maps contain 3 additional Strongboxes Strongboxes in your Maps are at least Rare Strongboxes in your Maps are Corrupted 15 uses remaining map extra content weighting [1]	no_strongboxes 0 default 1
+| 1	Atlas	Prefix	Strongbox Monsters are Enraged Strongbox Monsters have 500 % increased Item Quantity Your Maps contain 1 additional Strongboxes 3 uses remaining map extra content weighting [1] map strongbox monsters movement velocity +% [25] Attack Speed	hall_of_grandmasters 0 no_strongboxes 0 default 1
+| 1	Atlas	Prefix	Strongbox Monsters are Enraged Strongbox Monsters have 600 % increased Item Quantity Your Maps contain 1 additional Strongboxes 15 uses remaining map extra content weighting [1] map strongbox monsters movement velocity +% [30] Attack Speed	hall_of_grandmasters 0 no_strongboxes 0 default 1
+| 1	MapDevice	Unique	Area contains 3 additional Strongboxes map extra content weighting [1] |
+| 1	MapDevice	Unique	Area contains 4 additional Strongboxes map extra content weighting [1] |
+| 1	MapDevice	Unique	Area contains 5 additional Strongboxes map extra content weighting [1] |
+| 1	MapDevice	Unique	Area contains 9 additional Strongboxes map extra content weighting [1] |
+| 1	MemoryLines	Unique	Area contains 5 additional Strongboxes |
+of Cascading Fortunes	1	MemoryLines	Suffix	Areas contain additional Strongboxes Strongboxes are found in Sequences Strongboxes in a Sequence open when the previous Strongbox in the Sequence has unlocked memory line type hash [-18946]	memory_line_alva 1 default 0
+of Hidden Behemoths	1	MemoryLines	Suffix	Areas contain additional Strongboxes Strongboxes contain Unique Map Bosses memory line type hash [-31908]	memory_line_alva 0 default 0
+of Strongboxes	1	Tower	Suffix	Map has (70 — 100) % increased chance to contain Strongboxes	default 1
+of the Antiquarian	1	Tower	Suffix	% reduced Pack Size in Map % increased Quantity of Waystones found in Map Map contains 1 additional Strongboxes	default 1
+of Treasure	1	Tower	Suffix	Expeditions contain (1 — 2) buried Strongboxes in Map expedition additional core league level [0]	tower_augment_expedition 1 default 0
+of Compartments	1	Tower	Suffix	Map contains (1 — 2) additional Strongboxes map contains powerful map boss [0]	tower_augment_map_boss 1 default 0
+Level	Pre/Suf	Description
+1	Suffix	(25 — 50) % more Quantity of Contained Items
+1	Suffix	(50 — 100) % more Rarity of Contained Items
+1	Suffix	Contains 1 additional Unique Items
+1	Suffix	+ 1 Chest level
+1	Suffix	Contains Identified Items
+1	Suffix	Contained Items have (5 — 15) % Quality
+1	Suffix	Contained Items have 1 additional Sockets
+75	Suffix	Contains 1 additional Exceptional Items
+75	Suffix	Contains 1 additional Exceptional Martial Weapons
+75	Suffix	Contains 1 additional Exceptional Caster Weapons
+75	Suffix	Contains 1 additional Exceptional Armour Items
+1	Suffix	(40 — 60) % more Rarity of Contained Items (40 — 60) % increased Rarity of Items Dropped from Strongbox Monsters
+1	Suffix	(15 — 30) % more Quantity of Contained Items (15 — 30) % increased Effectiveness of Strongbox Monsters
+5	Suffix	Contains (1 — 2) additional Runes
+24	Suffix	Contains 1 additional Djinn Baryas
+39	Suffix	Contains 1 additional Inscribed Ultimatums
+65	Suffix	Contains 1 additional Unusual Tablets
+1	Suffix	(100 — 150) % more Quantity of Contained Items
+1	Suffix	(150 — 250) % more Rarity of Contained Items
+1	Suffix	Contains (3 — 5) additional Unique Items
+1	Suffix	+ 2 Chest level
+1	Suffix	Contained Items have (15 — 20) % Quality
+1	Suffix	Contained Items have maximum Sockets
+75	Suffix	Contains (2 — 3) additional Exceptional Items
+75	Suffix	Contains (2 — 3) additional Exceptional Martial Weapons
+75	Suffix	Contains (2 — 3) additional Exceptional Caster Weapons
+75	Suffix	Contains (2 — 3) additional Exceptional Armour Items
+1	Suffix	(60 — 100) % more Rarity of Contained Items (60 — 100) % increased Rarity of Items Dropped from Strongbox Monsters
+1	Suffix	(25 — 50) % more Quantity of Contained Items (25 — 50) % increased Effectiveness of Strongbox Monsters
+5	Suffix	Contains (5 — 7) additional Runes
+24	Suffix	Contains 3 additional Djinn Baryas
+39	Suffix	Contains 3 additional Inscribed Ultimatums
+65	Suffix	Contains 3 additional Unusual Tablets
+2	Prefix	Summons Skeletons chest delay drops until daemons finish [1]
+8	Prefix	(10 — 20) % more Rarity of Contained Items Freezes you when activated
+1	Prefix	Casts Ice Nova chest play warning sound [1]
+35	Prefix	Guarded by (1 — 2) packs of Rare Monsters chest delay drops until daemons finish [1]
+10	Prefix	Guarded by (2 — 4) packs of Magic Monsters chest delay drops until daemons finish [1]
+1	Prefix	Guarded by (4 — 8) packs of Monsters chest delay drops until daemons finish [1]
+12	Prefix	Guarded by 1 Rogue Exiles
+1	Prefix	Revives nearby dead Monsters with Onslaught
+35	Prefix	Guarded by a stream of Monsters
+4	Prefix	Detonates nearby corpses chest play warning sound [1]
+1	Prefix	Guarded by camoflaged Monsters
+15	Prefix	Casts a random Hex Curse Spell when activated
+1	Prefix	Ignites you when activated
+10	Prefix	Casts Firestorm chest play warning sound [1]
+1	Prefix	(10 — 20) % more Rarity of Contained Items Summons Volatile Crags chest play warning sound [1]
+1	Prefix	(10 — 20) % more Rarity of Contained Items Casts Lightning Storms chest play warning sound [1]
+1	Prefix	(10 — 20) % more Rarity of Contained Items Casts Chaos Barrages chest play warning sound [1]
+8	Prefix	Spreads Caustic Ground chest play warning sound [1]
+1	Prefix	Explodes chest play warning sound [1]
+1	Prefix	Cursed by Winter Hags chest play warning sound [1]
+1	Prefix	Contained non-Unique Armour and Weapons will require Strength
+1	Prefix	Contained non-Unique Armour and Weapons will require Dexterity
+1	Prefix	Contained non-Unique Armour and Weapons will require Intelligence
+1	Prefix	Contained non-Unique Armour and Weapons will only require Strength or Dexterity
+1	Prefix	Contained non-Unique Armour and Weapons will only require Dexterity or Intelligence
+1	Prefix	Contained non-Unique Armour and Weapons will only require Strength or Intelligence
+1	Prefix	Contained non-Unique items are always Wands
+1	Prefix	Contained non-Unique items are always Staves
+1	Prefix	Contained non-Unique items are always Sceptres
+1	Prefix	Contained non-Unique items are always Foci
+1	Prefix	Contained non-Unique items are always Amulets
+1	Prefix	Contained non-Unique items are always Rings
+1	Prefix	Contained Magic and Rare items are always Jewels
+1	Prefix	Contains 1 additional Breach Precursor Tablets
+1	Prefix	Contains 1 additional Expedition Precursor Tablets
+1	Prefix	Contains 1 additional Delirium Precursor Tablets
+1	Prefix	Contains 1 additional Ritual Precursor Tablets
+1	Prefix	Contains 1 additional Abyss Precursor Tablets
+1	Prefix	Contains 1 additional Atziri's Temple Precursor Tablets
+1	Prefix	Contains 1 additional Irradiated Precursor Tablets
+1	Prefix	Contains 1 additional Overseer Precursor Tablets
+1	Prefix	Contained Chaos Orbs have a 10% chance to be upgraded
+1	Prefix	Contained Orbs of Transmutation have a 10% chance to be upgraded
+1	Prefix	Contained Orbs of Augmentation have a 10% chance to be upgraded
+1	Prefix	Contained Exalted Orbs have a 10% chance to be upgraded
+1	Prefix	Contained Regal Orbs have a 10% chance to be upgraded
+1	Prefix	vase monster add mod armour [1]
+1	Prefix	Guarding Rare Monsters have an additional Defensive Modifier
+1	Prefix	Guarding Rare Monsters have an additional Elemental Area Modifier
+1	Prefix	Guarding Rare Monsters have an additional Ailment Modifier
+1	Prefix	Guarding Rare Monsters have an additional Extra Damage Modifier
+1	Suffix	strongbox construct has monsterstunresilience1 [1]
+1	Suffix	strongbox construct has monsterimmunetoslow1 [1]
+1	Suffix	strongbox construct has monstermodreducedcritmulti1 [1]
+1	Suffix	strongbox construct has monsterchaosresistance1 [1]
+1	Suffix	strongbox construct has monsterextraarmour1 [1]
+1	Suffix	strongbox construct has monsterextraevasion1 [1]
+1	Suffix	strongbox construct has monsterextraenergyshield1 [1]
+1	Suffix	strongbox construct has monsterfireresistance1 [1]
+1	Suffix	strongbox construct has monstercoldresistance1 [1]
+1	Suffix	strongbox construct has monsterlightningresistance1 [1]
+1	Suffix	strongbox construct has monsterliferegenerationratepercentage1 [1]
+1	Suffix	strongbox construct has monsterincreasedspeed1 [1]
+1	Suffix	strongbox construct has monstercriticalstrikechance1 [1]
+1	Suffix	strongbox construct has monsterstundamageincrease1 [1]
+1	Suffix	strongbox construct has monsterarmourpenetration1 [1]
+1	Suffix	strongbox construct has monsterincreasedaccuracy1 [1]
+1	Suffix	strongbox construct has monsteradditionalprojectiles1 [1]
+1	Suffix	strongbox construct has monsterareaofeffect1 [1]
+1	Prefix	strongbox construct has monsterburninggroundondeath1 [1]
+1	Prefix	strongbox construct has monsterchilledgroundondeath1 [1]
+1	Prefix	strongbox construct has monstershockedgroundondeath1 [1]
+1	Suffix	strongbox construct has monsterburninggroundtrail1 [1]
+1	Suffix	strongbox construct has monsterchilledgroundtrail1 [1]
+1	Suffix	strongbox construct has monstershockedgroundtrail1 [1]
+1	Suffix	strongbox construct has monsteralwayspoison1 [1]
+1	Suffix	strongbox construct has monsteralwaysbleed1 [1]
+1	Suffix	strongbox construct has monsterignitechanceincrease1 [1]
+1	Suffix	strongbox construct has monsterfreezedamageincrease1 [1]
+1	Suffix	strongbox construct has monstershockchanceincrease1 [1]
+1	Suffix	strongbox construct has monsterdamagegainedasfire1 [1]
+1	Suffix	strongbox construct has monsterdamagegainedascold1 [1]
+1	Suffix	strongbox construct has monsterdamagegainedaslightning1 [1]
+1	Suffix	strongbox construct has monsterdamagegainedaschaos1 [1]
+1	Prefix	strongbox construct has monsterflamebeacons1 [1]
+1	Prefix	strongbox construct has monsterfrostbeacons1 [1]
+1	Prefix	strongbox construct has monsterlightningbeacons1 [1]
+1	Prefix	strongbox construct has monsterstrongerminions1 [1]
+1	Prefix	strongbox construct has monsterphysicaldamageaura1 [1]
+1	Prefix	strongbox construct has monsterincreasedspeedaura1 [1]
+1	Prefix	strongbox construct has monsterenergyshieldaura1 [1]
+1	Prefix	strongbox construct has monsterresistanceaura1 [1]
+1	Prefix	strongbox construct has monstertemporalaura1 [1]
+1	Prefix	strongbox construct has monsterhinderaura1 [1]
+1	Prefix	strongbox construct has monsterpreventrecoveryaura1 [1]
+1	Prefix	strongbox construct has monsterimmuneaura1 [1]
+1	Prefix	strongbox construct has monsterimmuneaura2 [1]
+1	Prefix	strongbox construct has monstermanasiphonaura1 [1]
+1	Prefix	strongbox construct has monstermanasiphonaura2 [1]
+1	Prefix	strongbox construct has monsterhealingnova1 [1]
+1	Prefix	strongbox construct has monsterflaskremovalaura1 [1]
+1	Prefix	strongbox construct has monsterrevivesminions1 [1]
+1	Prefix	strongbox construct has monsterminionstakelifeinstead1 [1]
+1	Prefix	strongbox construct has monstershroudwalker1 [1]
+1	Prefix	strongbox construct has monstershroudwalker2 [1]
+1	Prefix	strongbox construct has monsterperiodicenrage1 [1]
+1	Prefix	strongbox construct has monsterperiodicenrage2 [1]
+1	Prefix	strongbox construct has monstercorpseexploder1 [1]
+1	Prefix	strongbox construct has monsterlightningmirage1 [1]
+1	Prefix	strongbox construct has monsterlightningmirage2 [1]
+1	Prefix	strongbox construct has monstermagmabarrier1 [1]
+1	Prefix	strongbox construct has monsterflamewaller1 [1]
+1	Prefix	strongbox construct has monsterlightningstorms1 [1]
+1	Prefix	strongbox construct has monstervolatileplants1 [1]
+1	Prefix	strongbox construct has monstervolatileplants2 [1]
+1	Prefix	strongbox construct has monstervolatilerocks1 [1]
+1	Prefix	strongbox construct has monstervolatilerocks2 [1]
+1	Prefix	strongbox construct has monsterproximaltangibility1 [1]
+1	Prefix	Contained non-Unique items always have a Fire Granted Skill
+1	Prefix	Contained non-Unique items always have a Cold Granted Skill
+1	Prefix	Contained non-Unique items always have a Lightning Granted Skill
+1	Prefix	Contained non-Unique items always have a Physical Granted Skill
+1	Prefix	Contained non-Unique items always have a Chaos Granted Skill
+1	Prefix	Contained non-Unique items always have a Generic Granted Skill
+1	Prefix	Contained non-Unique items are Maces
+1	Prefix	Contained non-Unique items are Swords
+1	Prefix	Contained non-Unique items are Bows
+1	Prefix	Contained non-Unique items are Crossbows
+1	Prefix	Contained non-Unique items are Quarterstaves
+1	Prefix	Contained non-Unique items are Spears
+1	Prefix	Contained non-Unique items are Talismans
+1	Prefix	Contained non-Unique items are Quivers
+1	Prefix	Contained non-Unique items are Body Armour
+1	Prefix	Contained non-Unique items are Helmets
+1	Prefix	Contained non-Unique items are Gloves
+1	Prefix	Contained non-Unique items are Boots
+1	Prefix	Contained non-Unique items are Shields
+1	Prefix	Contained non-Unique items are Belts

@@ -1,0 +1,24 @@
+# https://poe2db.tw/us/Blessed_Bonds · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Family	BaseLocalDefences
+Domains	Item (1)
+GenerationType	Unique (3)
+Req. level	70 (Effective: 56)
+Stats	local energy shield 30 — 50 Local local base evasion rating 60 — 100 Local
+Craft Tags	defences Evasion Energy Shield
+Family	ManaGainedFromEnemyDeath
+Domains	Item (1)
+GenerationType	Unique (3)
+Stats	base mana gained on enemy death 25 — 35 Global
+Craft Tags	resource Mana
+Family	ExposureOnHit
+Domains	Item (1)
+GenerationType	Unique (3)
+Stats	inflict cold exposure on ignite 1 — 1 Global
+Family	ExposureOnHit
+Domains	Item (1)
+GenerationType	Unique (3)
+Stats	inflict fire exposure on shock 1 — 1 Global
+Family	ExposureOnHit
+Domains	Item (1)
+GenerationType	Unique (3)
+Stats	inflict lightning exposure on crit 1 — 1 Global

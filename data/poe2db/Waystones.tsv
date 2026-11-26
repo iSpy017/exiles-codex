@@ -1,0 +1,169 @@
+# https://poe2db.tw/us/Waystones · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Item	Map	Level
+| The Reliquary Vault	65
+| The Reliquary Vault	65
+| The Reliquary Vault	65
+| The Reliquary Vault	65
+| The Reliquary Vault	65
+| The Reliquary Vault	65
+| The Reliquary Vault	65
+| The Reliquary Vault	65
+| The Reliquary Vault	65
+| The Reliquary Vault	65
+| The Reliquary Vault	65
+| The Reliquary Vault	65
+| The Reliquary Vault	65
+| The Reliquary Vault	65
+Name	Pre/Suf	Description
+Abyssal	Prefix	Abyssal Monsters grant (50 — 100) % increased Experience map map item drop chance +% final from map [20] map pack size +% final from map [16]
+Abyssal	Prefix	Area contains (2 — 3) additional Abysses map item drop rarity +% final from map [25] map map item drop chance +% final from map [20]
+Abyssal	Prefix	Abysses spawn (50 — 100) % increased Monsters map map item drop chance +% final from map [20] map pack size +% final from map [12]
+Abyssal	Prefix	Area is overrun by the Abyssal 3 additional Rare Monsters are spawned from Abysses Area contains (14 — 18) additional Abysses map abyss tower augment quantity +% final from overrun unique tablet [0] map map item drop chance +% final from map [25] map pack size +% final from map [10]
+Abyssal	Prefix	Abysses lead to an Abyssal Boss map item drop rarity +% final from map [25] map map item drop chance +% final from map [10]
+Abyssal	Prefix	Area contains 1 additional Incubator Queens map map item drop chance +% final from map [25] map pack size +% final from map [12]
+Abyssal	Prefix	Abyss Pits have (50 — 80) % chance to spawn all Monsters as at least Magic Abyss Cracks have (40 — 60) % chance to spawn all Monsters as at least Magic map map item drop chance +% final from map [25] map number of magic packs +% [40]
+Abyssal	Prefix	Abysses lead to an Abyssal Depths map item drop rarity +% final from map [25] map map item drop chance +% final from map [20]
+Abyssal	Prefix	Abyssal Monsters have increased Difficulty and Reward for each closed Pit map map item drop chance +% final from map [20] map pack size +% final from map [12]
+Abyssal	Prefix	Abyss Pits in Area always have Rewards map map item drop chance +% final from map [25] map number of magic packs +% [40] map number of rare packs +% [30]
+Abyssal	Prefix	Natural Rare Monsters in Area have 1 extra Abyssal Modifiers map map item drop chance +% final from map [25] map number of rare packs +% [30]
+of Consumption	Suffix	Natural Rare Monsters in Area Eat the Souls of slain Monsters in their Presence Players steal the Eaten Souls of Slain Rare Monsters in Area map map item drop chance +% final from map [25] map pack size +% final from map [18]
+of Cycling	Suffix	Players and their Minions deal no damage for 3 out of every 10 seconds map map item drop chance +% final from map [40] map number of rare packs +% [50]
+of Deceleration	Suffix	Players have 3 % less Movement and Skill Speed for each time they've used a Skill Recently map item drop rarity +% final from map [45] map map item drop chance +% final from map [25]
+of Grasping	Suffix	Monsters inflict 1 Grasping Vines on Hit map map item drop chance +% final from map [30] map pack size +% final from map [22]
+of Retribution	Suffix	Players are Marked for Death for 10 seconds after killing a Rare or Unique monster map item drop quantity +% [0] map item drop rarity +% final from map [40] map map item drop chance +% final from map [25] map pack size +% final from map [10]
+of Siphoning	Suffix	Area has patches of Mana Siphoning Ground map ground effect patches per 100 tiles [10] map ground effect radius [16] map ground mana siphoning base lightning damage to deal per minute [7200] map ground mana siphoning mana degeneration per minute [1200] map map item drop chance +% final from map [35] map pack size +% final from map [18]
+of Union	Suffix	map map item drop chance +% final from map [20] map pack size +% final from map [22]
+of Union	Suffix	map map item drop chance +% final from map [25] map number of rare packs +% [50]
+Level	Pre/Suf	Description
+1	Prefix |
+1	Suffix	Rare Monsters have 1 additional Modifiers 10 % increased Waystones found in Area 25 % increased Rare Monsters
+1	Prefix	Monsters deal (5 — 9) % of Damage as Extra Fire Monsters have 16 % more Effectiveness 15 % more Waystones found in Area
+1	Prefix	Monsters deal (10 — 14) % of Damage as Extra Fire Monsters have 16 % more Effectiveness 15 % more Waystones found in Area
+1	Prefix	Monsters deal (15 — 19) % of Damage as Extra Fire Monsters have 16 % more Effectiveness 15 % more Waystones found in Area
+1	Prefix	Monsters deal (20 — 24) % of Damage as Extra Fire Monsters have 16 % more Effectiveness 15 % more Waystones found in Area
+1	Prefix	Monsters deal (5 — 9) % of Damage as Extra Cold 14 % more Rarity of Items found in this Area 15 % more Waystones found in Area
+1	Prefix	Monsters deal (10 — 14) % of Damage as Extra Cold 14 % more Rarity of Items found in this Area 15 % more Waystones found in Area
+1	Prefix	Monsters deal (15 — 19) % of Damage as Extra Cold 14 % more Rarity of Items found in this Area 15 % more Waystones found in Area
+1	Prefix	Monsters deal (20 — 24) % of Damage as Extra Cold 14 % more Rarity of Items found in this Area 15 % more Waystones found in Area
+1	Prefix	Monsters deal (5 — 9) % of Damage as Extra Lightning 8 % more Pack size 15 % more Waystones found in Area
+1	Prefix	Monsters deal (10 — 14) % of Damage as Extra Lightning 8 % more Pack size 15 % more Waystones found in Area
+1	Prefix	Monsters deal (15 — 19) % of Damage as Extra Lightning 8 % more Pack size 15 % more Waystones found in Area
+1	Prefix	Monsters deal (20 — 24) % of Damage as Extra Lightning 8 % more Pack size 15 % more Waystones found in Area
+1	Prefix	(5 — 9) % increased Monster Damage 25 % more Magic and Rare Monsters Rare Monsters have 25 % more chance of Monster Modifiers 20 % more Waystones found in Area
+1	Prefix	(10 — 14) % increased Monster Damage 25 % more Magic and Rare Monsters Rare Monsters have 25 % more chance of Monster Modifiers 20 % more Waystones found in Area
+1	Prefix	(15 — 19) % increased Monster Damage 25 % more Magic and Rare Monsters Rare Monsters have 25 % more chance of Monster Modifiers 20 % more Waystones found in Area
+1	Prefix	(20 — 24) % increased Monster Damage 25 % more Magic and Rare Monsters Rare Monsters have 25 % more chance of Monster Modifiers 20 % more Waystones found in Area
+1	Prefix	Monsters have (10 — 15) % increased Attack , Cast and Movement Speed 9 % more Pack size 25 % more Waystones found in Area
+1	Prefix	Monsters have (80 — 120) % increased Critical Hit Chance Monsters have +(11 — 15) % Critical Damage Bonus 9 % more Pack size 15 % more Waystones found in Area
+1	Prefix	Monsters have (140 — 180) % increased Critical Hit Chance Monsters have +(16 — 20) % Critical Damage Bonus 9 % more Pack size 15 % more Waystones found in Area
+1	Prefix	Monsters have (200 — 240) % increased Critical Hit Chance Monsters have +(21 — 25) % Critical Damage Bonus 9 % more Pack size 15 % more Waystones found in Area
+1	Prefix	Monsters have (260 — 300) % increased Critical Hit Chance Monsters have +(26 — 30) % Critical Damage Bonus 9 % more Pack size 15 % more Waystones found in Area
+1	Prefix	(10 — 14) % more Monster Life 23 % more Magic and Rare Monsters Rare Monsters have 23 % more chance of Monster Modifiers 15 % more Waystones found in Area
+1	Prefix	(15 — 19) % more Monster Life 23 % more Magic and Rare Monsters Rare Monsters have 23 % more chance of Monster Modifiers 15 % more Waystones found in Area
+1	Prefix	(20 — 25) % more Monster Life 23 % more Magic and Rare Monsters Rare Monsters have 23 % more chance of Monster Modifiers 15 % more Waystones found in Area
+1	Prefix	(26 — 30) % more Monster Life 23 % more Magic and Rare Monsters Rare Monsters have 23 % more chance of Monster Modifiers 15 % more Waystones found in Area
+1	Suffix	+ (20 — 24) % Monster Elemental Resistances 14 % more Rarity of Items found in this Area 10 % more Waystones found in Area
+1	Suffix	+ (25 — 29) % Monster Elemental Resistances 14 % more Rarity of Items found in this Area 10 % more Waystones found in Area
+1	Suffix	+ (30 — 34) % Monster Elemental Resistances 14 % more Rarity of Items found in this Area 10 % more Waystones found in Area
+1	Suffix	+ (35 — 40) % Monster Elemental Resistances 14 % more Rarity of Items found in this Area 10 % more Waystones found in Area
+1	Suffix	Monsters are Armoured 18 % more Magic and Rare Monsters Rare Monsters have 18 % more chance of Monster Modifiers 15 % more Waystones found in Area
+1	Suffix	Monsters are Evasive 6 % more Pack size 15 % more Waystones found in Area
+1	Suffix	Monsters gain (12 — 25) % of maximum Life as Extra maximum Energy Shield 13 % more Rarity of Items found in this Area 15 % more Waystones found in Area
+1	Prefix	Monsters have (13 — 19) % chance to Poison on Hit 7 % more Pack size 10 % more Waystones found in Area
+1	Prefix	Monsters have (20 — 26) % chance to Poison on Hit 7 % more Pack size 10 % more Waystones found in Area
+1	Prefix	Monsters have (27 — 33) % chance to Poison on Hit 7 % more Pack size 10 % more Waystones found in Area
+1	Prefix	Monsters have (34 — 40) % chance to Poison on Hit 7 % more Pack size 10 % more Waystones found in Area
+1	Prefix	Monsters have (5 — 10) % chance to inflict Bleeding on Hit Monsters have 13 % more Effectiveness 10 % more Waystones found in Area
+1	Prefix	Monsters have (10 — 15) % chance to inflict Bleeding on Hit Monsters have 13 % more Effectiveness 10 % more Waystones found in Area
+1	Prefix	Monsters have (15 — 20) % chance to inflict Bleeding on Hit Monsters have 13 % more Effectiveness 10 % more Waystones found in Area
+1	Prefix	Monsters have (20 — 25) % chance to inflict Bleeding on Hit Monsters have 13 % more Effectiveness 10 % more Waystones found in Area
+1	Suffix	Monsters have (30 — 39) % increased Ailment Threshold Monsters have (30 — 39) % increased Stun Threshold Monsters have 13 % more Effectiveness 10 % more Waystones found in Area
+1	Suffix	Monsters have (50 — 59) % increased Ailment Threshold Monsters have (40 — 49) % increased Stun Threshold Monsters have 13 % more Effectiveness 10 % more Waystones found in Area
+1	Suffix	Monsters have (70 — 79) % increased Ailment Threshold Monsters have (60 — 69) % increased Stun Threshold Monsters have 13 % more Effectiveness 10 % more Waystones found in Area
+1	Suffix	Monsters have (70 — 79) % increased Ailment Threshold Monsters have (70 — 79) % increased Stun Threshold Monsters have 13 % more Effectiveness 10 % more Waystones found in Area
+1	Prefix	Monsters Break Armour equal to (15 — 20) % of Physical Damage dealt 19 % more Magic and Rare Monsters Rare Monsters have 19 % more chance of Monster Modifiers 10 % more Waystones found in Area
+1	Prefix	Monsters Break Armour equal to (20 — 25) % of Physical Damage dealt 19 % more Magic and Rare Monsters Rare Monsters have 19 % more chance of Monster Modifiers 10 % more Waystones found in Area
+1	Prefix	Monsters Break Armour equal to (25 — 30) % of Physical Damage dealt 19 % more Magic and Rare Monsters Rare Monsters have 19 % more chance of Monster Modifiers 10 % more Waystones found in Area
+1	Prefix	Monsters Break Armour equal to (30 — 45) % of Physical Damage dealt 19 % more Magic and Rare Monsters Rare Monsters have 19 % more chance of Monster Modifiers 10 % more Waystones found in Area
+1	Prefix	Monsters have (10 — 20) % increased Accuracy Rating 7 % more Pack size 10 % more Waystones found in Area
+1	Prefix	Monsters have (20 — 30) % increased Accuracy Rating 7 % more Pack size 10 % more Waystones found in Area
+1	Prefix	Monsters have (30 — 40) % increased Accuracy Rating 7 % more Pack size 10 % more Waystones found in Area
+1	Prefix	Monsters have (40 — 50) % increased Accuracy Rating 7 % more Pack size 10 % more Waystones found in Area
+1	Prefix	Monsters deal (5 — 9) % of Damage as Extra Chaos 15 % more Rarity of Items found in this Area 15 % more Waystones found in Area
+1	Prefix	Monsters deal (10 — 14) % of Damage as Extra Chaos 15 % more Rarity of Items found in this Area 15 % more Waystones found in Area
+1	Prefix	Monsters deal (15 — 19) % of Damage as Extra Chaos 15 % more Rarity of Items found in this Area 15 % more Waystones found in Area
+1	Prefix	Monsters deal (20 — 24) % of Damage as Extra Chaos 15 % more Rarity of Items found in this Area 15 % more Waystones found in Area
+1	Prefix	Monsters have (50 — 60) % increased Stun Buildup Monsters have 13 % more Effectiveness 15 % more Waystones found in Area
+1	Prefix	Monsters have (70 — 80) % increased Stun Buildup Monsters have 13 % more Effectiveness 15 % more Waystones found in Area
+1	Prefix	Monsters have (90 — 100) % increased Stun Buildup Monsters have 13 % more Effectiveness 15 % more Waystones found in Area
+1	Prefix	Monsters have (100 — 110) % increased Stun Buildup Monsters have 13 % more Effectiveness 15 % more Waystones found in Area
+1	Suffix	Monster have (60 — 79) % increased Elemental Ailment Application 11 % more Rarity of Items found in this Area 15 % more Waystones found in Area
+1	Suffix	Monster have (80 — 99) % increased Elemental Ailment Application 11 % more Rarity of Items found in this Area 15 % more Waystones found in Area
+1	Suffix	Monster have (100 — 119) % increased Elemental Ailment Application 11 % more Rarity of Items found in this Area 15 % more Waystones found in Area
+1	Suffix	Monster have (120 — 130) % increased Elemental Ailment Application 11 % more Rarity of Items found in this Area 15 % more Waystones found in Area
+1	Prefix	Monsters fire 2 additional Projectiles 9 % more Pack size 25 % more Waystones found in Area
+1	Prefix	Monsters fire 3 additional Projectiles 9 % more Pack size 25 % more Waystones found in Area
+1	Suffix	Monsters have 50 % increased Area of Effect 20 % more Waystones found in Area
+1	Suffix	Players are periodically Cursed with Enfeeble Monsters have 16 % more Effectiveness 20 % more Waystones found in Area
+1	Suffix	Players are periodically Cursed with Temporal Chains 8 % more Pack size 20 % more Waystones found in Area
+1	Suffix	Players are periodically Cursed with Elemental Weakness 13 % more Rarity of Items found in this Area 20 % more Waystones found in Area
+1	Suffix	Area has patches of Ignited Ground Monsters have 15 % more Effectiveness 15 % more Waystones found in Area ground fire art variation [1033] map ground effect patches per 100 tiles [4] map ground effect radius [20]
+1	Suffix	Area has patches of Ignited Ground Monsters have 15 % more Effectiveness 15 % more Waystones found in Area ground fire art variation [1033] map ground effect patches per 100 tiles [5] map ground effect radius [20]
+1	Suffix	Area has patches of Ignited Ground Monsters have 15 % more Effectiveness 15 % more Waystones found in Area ground fire art variation [1033] map ground effect patches per 100 tiles [6] map ground effect radius [20]
+1	Suffix	Area has patches of Ignited Ground Monsters have 15 % more Effectiveness 15 % more Waystones found in Area ground fire art variation [1033] map ground effect patches per 100 tiles [7] map ground effect radius [20]
+1	Suffix	Area has patches of Chilled Ground 12 % more Rarity of Items found in this Area 15 % more Waystones found in Area ground ice art variation [1014] map ground effect patches per 100 tiles [3] map ground effect radius [26]
+1	Suffix	Area has patches of Chilled Ground 12 % more Rarity of Items found in this Area 15 % more Waystones found in Area ground ice art variation [1014] map ground effect patches per 100 tiles [4] map ground effect radius [26]
+1	Suffix	Area has patches of Chilled Ground 12 % more Rarity of Items found in this Area 15 % more Waystones found in Area ground ice art variation [1014] map ground effect patches per 100 tiles [5] map ground effect radius [26]
+1	Suffix	Area has patches of Chilled Ground 12 % more Rarity of Items found in this Area 15 % more Waystones found in Area ground ice art variation [1014] map ground effect patches per 100 tiles [6] map ground effect radius [26]
+1	Suffix	Area has patches of Shocked Ground 7 % more Pack size 15 % more Waystones found in Area ground lightning art variation [1011] map ground effect patches per 100 tiles [5] map ground effect radius [17]
+1	Suffix	Area has patches of Shocked Ground 7 % more Pack size 15 % more Waystones found in Area ground lightning art variation [1011] map ground effect patches per 100 tiles [6] map ground effect radius [17]
+1	Suffix	Area has patches of Shocked Ground 7 % more Pack size 15 % more Waystones found in Area ground lightning art variation [1011] map ground effect patches per 100 tiles [7] map ground effect radius [17]
+1	Suffix	Area has patches of Shocked Ground 7 % more Pack size 15 % more Waystones found in Area ground lightning art variation [1011] map ground effect patches per 100 tiles [8] map ground effect radius [17]
+1	Prefix	Monster Damage Penetrates (6 — 8) % Elemental Resistances 16 % more Rarity of Items found in this Area 20 % more Waystones found in Area
+1	Prefix	Monster Damage Penetrates (9 — 11) % Elemental Resistances 16 % more Rarity of Items found in this Area 20 % more Waystones found in Area
+1	Prefix	Monster Damage Penetrates (12 — 14) % Elemental Resistances 16 % more Rarity of Items found in this Area 20 % more Waystones found in Area
+1	Prefix	Monster Damage Penetrates (14 — 16) % Elemental Resistances 16 % more Rarity of Items found in this Area 20 % more Waystones found in Area
+1	Suffix	(-4 — -3) % maximum Player Resistances 10 % more Pack size 25 % more Waystones found in Area
+1	Suffix	(-6 — -4) % maximum Player Resistances 10 % more Pack size 25 % more Waystones found in Area
+1	Suffix	(-8 — -6) % maximum Player Resistances 10 % more Pack size 25 % more Waystones found in Area
+1	Suffix	(-10 — -8) % maximum Player Resistances 10 % more Pack size 25 % more Waystones found in Area
+1	Suffix	Players gain (20 — 24) % reduced Flask Charges 7 % more Pack size 15 % more Waystones found in Area
+1	Suffix	Players gain (25 — 29) % reduced Flask Charges 7 % more Pack size 15 % more Waystones found in Area
+1	Suffix	Players gain (30 — 35) % reduced Flask Charges 7 % more Pack size 15 % more Waystones found in Area
+1	Suffix	Players have (20 — 29) % less Recovery Rate of Life and Energy Shield 15 % more Rarity of Items found in this Area 20 % more Waystones found in Area
+1	Suffix	Players have (30 — 35) % less Recovery Rate of Life and Energy Shield 15 % more Rarity of Items found in this Area 20 % more Waystones found in Area
+1	Suffix	Players have (36 — 40) % less Recovery Rate of Life and Energy Shield 15 % more Rarity of Items found in this Area 20 % more Waystones found in Area
+1	Suffix	Players have (15 — 20) % less Cooldown Recovery Rate 12 % more Rarity of Items found in this Area 15 % more Waystones found in Area
+1	Suffix	Players have (20 — 25) % less Cooldown Recovery Rate 12 % more Rarity of Items found in this Area 15 % more Waystones found in Area
+1	Suffix	Players have (25 — 30) % less Cooldown Recovery Rate 12 % more Rarity of Items found in this Area 15 % more Waystones found in Area
+1	Suffix	Monsters take (15 — 19) % reduced Extra Damage from Critical Hits 18 % more Magic and Rare Monsters Rare Monsters have 18 % more chance of Monster Modifiers 10 % more Waystones found in Area
+1	Suffix	Monsters take (20 — 25) % reduced Extra Damage from Critical Hits 18 % more Magic and Rare Monsters Rare Monsters have 18 % more chance of Monster Modifiers 10 % more Waystones found in Area
+1	Suffix	Monsters take (26 — 30) % reduced Extra Damage from Critical Hits 18 % more Magic and Rare Monsters Rare Monsters have 18 % more chance of Monster Modifiers 10 % more Waystones found in Area
+1	Suffix	(20 — 30) % less effect of Curses on Monsters 10 % more Rarity of Items found in this Area 10 % more Waystones found in Area
+1	Suffix	(30 — 40) % less effect of Curses on Monsters 10 % more Rarity of Items found in this Area 10 % more Waystones found in Area
+1	Suffix	(40 — 50) % less effect of Curses on Monsters 10 % more Rarity of Items found in this Area 10 % more Waystones found in Area
+Level	Resist Penalty
+1	0
+16	-10
+33	-20
+45	-30
+54	-40
+60	-50
+65	-60
+Map Level	Map Completed	Reroll Cost
+68	0 |
+69	1 |
+70	3 |
+71	7 |
+72	14 |
+73	22 |
+74	29 |
+75	36 |
+76	43 |
+77	50 |
+78	58 |
+79	65 |
+80	72 |
+81	79 |
+82	90 |
+83	101 |

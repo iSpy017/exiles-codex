@@ -1,0 +1,54 @@
+# https://poe2db.tw/us/Ravenous_Swarm · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Tier	Gems
+1	Prolonged Duration I Armour Demolisher I
+2	Mysticism I Upwelling I
+3	Prolonged Duration II Armour Demolisher II Cooldown Recovery I
+4	Clarity II Cooldown Recovery II Upwelling II
+5	Chaos Mastery
+Level	Requires Level	Int	Base Damage	Swarm duration is 6 seconds	Minion Level
+1	0	4	100%, 100%, 100%	6	2
+2	3	9	100%, 100%, 100%	6.2	4
+3	6	14	100%, 100%, 100%	6.4	6
+4	10	21	100%, 100%, 100%	6.6	8
+5	14	28	100%, 100%, 100%	6.8	10
+6	18	35	100%, 100%, 100%	7	12
+7	22	41	100%, 100%, 100%	7.2	14
+8	26	48	100%, 100%, 100%	7.4	16
+9	31	57	100%, 100%, 100%	7.6	18
+10	36	65	100%, 100%, 100%	7.8	20
+11	41	74	100%, 100%, 100%	8	22
+12	46	82	100%, 100%, 100%	8.2	24
+13	52	92	100%, 100%, 100%	8.4	26
+14	58	103	100%, 100%, 100%	8.6	28
+15	64	113	100%, 100%, 100%	8.8	30
+16	66	116	100%, 100%, 100%	9	32
+17	72	126	100%, 100%, 100%	9.2	34
+18	78	137	100%, 100%, 100%	9.4	36
+19	84	147	100%, 100%, 100%	9.6	38
+20	90	157	100%, 100%, 100%	9.8	40
+21			100%, 100%, 100%	10	42
+22			100%, 100%, 100%	10.2	44
+23			100%, 100%, 100%	10.4	46
+24			100%, 100%, 100%	10.6	48
+25			100%, 100%, 100%	10.8	50
+26			100%, 100%, 100%	11	52
+27			100%, 100%, 100%	11.2	54
+28			100%, 100%, 100%	11.4	56
+29			100%, 100%, 100%	11.6	58
+30			100%, 100%, 100%	11.8	60
+31			100%, 100%, 100%	11.9	62
+32			100%, 100%, 100%	12	64
+33			100%, 100%, 100%	12.1	66
+34			100%, 100%, 100%	12.2	68
+35			100%, 100%, 100%	12.3	70
+36			100%, 100%, 100%	12.4	72
+37			100%, 100%, 100%	12.5	74
+38			100%, 100%, 100%	12.6	76
+39			100%, 100%, 100%	12.7	78
+40			100%, 100%, 100%	12.8	80
+Version	Changes
+0.5.3	* Fixed a bug where Minions created by Ravenous Swarm could be damaged.
+0.5.0	* Ravenous Swarm : Now has "Modifiers to Cooldown Recovery Rate also apply to swarm spawning frequency".
+0.4.0	- Fixed a bug where Ravenous Swarm did not display correct Active Swarm Limit.
+0.3.0	- Added a new Intelligence Persistent Buff Gem — Ravenous Swarm: While active and enemies are nearby, swarms of insects emerge from your body to pursue enemies. The swarms are untargetable Minions that periodically Attack and Poison enemies within the swarm.
+Tags	beast , slow_movement , Unarmed_onhit_audio

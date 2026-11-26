@@ -1,0 +1,9 @@
+# https://poe2db.tw/us/Glory · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Name	Level	Pre/Suf	Description	Weight
+Vorana's	45	Prefix	(20 — 49) % increased Glory generation	berserking 1 default 0
+Vorana's	75	Prefix	(50 — 85) % increased Glory generation	berserking 1 default 0
+Name	Level	Domain	Pre/Suf	Description	Weight
+of Valour	1	Jewel	Suffix	(15 — 20) % increased Glory generation for Banner Skills	strjewel 1 default 0
+of Valour	1	Jewel	Suffix	Notable Passive Skills in Radius also grant (8 — 12) % increased Glory generation for Banner Skills	str_radius_jewel 1 default 0
+of Amanamu	65	Abyss	Suffix	(10 — 20) % increased Glory generation amanamu	dex_armour 0 int_armour 0 dex_int_armour 0 helmet 1 default 0 amanamu_mod 1
+Ulaman's	65	Abyss	Prefix	(20 — 30) % chance for Skills to retain 40% of Glory on use ulaman	amulet 1 default 0 ulaman_mod 1

@@ -1,0 +1,50 @@
+# https://poe2db.tw/us/Voltaic_Barrier · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Tier	Gems
+1	Lightning Attunement Elemental Armament I Expanse
+2	Blind I Rising Tempest Ambrosia
+3	Fortress II Longshot II Deliberation
+4	Inexorable Critical II Stun II
+5	Culling Strike II Elemental Armament III
+Level	Requires Level	Mana	Base Damage
+1	0	20	20%, 20%, 20%, 40%
+2	3	22	22%, 22%, 22%, 44%
+3	6	25	24%, 24%, 24%, 48%
+4	10	29	26%, 26%, 26%, 53%
+5	14	32	28%, 28%, 28%, 57%
+6	18	35	31%, 31%, 31%, 61%
+7	22	39	33%, 33%, 33%, 66%
+8	26	43	35%, 35%, 35%, 69%
+9	31	47	36%, 36%, 36%, 73%
+10	36	51	38%, 38%, 38%, 77%
+11	41	56	40%, 40%, 40%, 80%
+12	46	61	42%, 42%, 42%, 84%
+13	52	66	44%, 44%, 44%, 89%
+14	58	71	47%, 47%, 47%, 93%
+15	64	76	49%, 49%, 49%, 98%
+16	66	82	51%, 51%, 51%, 103%
+17	72	88	54%, 54%, 54%, 108%
+18	78	94	57%, 57%, 57%, 113%
+19	84	101	59%, 59%, 59%, 119%
+20	90	108	62%, 62%, 62%, 125%
+21		115	65%, 65%, 65%, 131%
+22		123	69%, 69%, 69%, 138%
+23		131	72%, 72%, 72%, 144%
+24		139	76%, 76%, 76%, 152%
+25		147	80%, 80%, 80%, 159%
+26		157	84%, 84%, 84%, 167%
+27		166	88%, 88%, 88%, 176%
+28		176	92%, 92%, 92%, 184%
+29		186	97%, 97%, 97%, 194%
+30		197	102%, 102%, 102%, 203%
+31		208	107%, 107%, 107%, 213%
+32		220	112%, 112%, 112%, 224%
+33		232	118%, 118%, 118%, 235%
+34		245	124%, 124%, 124%, 247%
+35		258	130%, 130%, 130%, 259%
+36		272	136%, 136%, 136%, 272%
+37		287	143%, 143%, 143%, 286%
+38		302	150%, 150%, 150%, 300%
+39		318	158%, 158%, 158%, 315%
+40		335	166%, 166%, 166%, 331%
+Version	Changes
+0.5.0	* Added 21 Kalguuran Skills that can be crafted from Remnants: Animus Exchange, Animus Splinters, Bitter Dead, Conductive Runes, Detonate Living, Eternal March, Explosive Transmutation, Fragments of the Past, Frostflame Nova, Grim Pillars, Hollow Shell, Leylines, Powered by Verisium, Refutation, Remnants of Kalguur, Repulsion, Runic Reprieve, Skyfall, Triskelion Cascade, Verisium Manifestations, and Voltaic Barrier. * Added 21 Kalguuran Skills that can be crafted from Remnants: Animus Exchange, Animus Splinters, Bitter Dead, Conductive Runes, Detonate Living, Eternal March, Explosive Transmutation, Fragments of the Past, Frostflame Nova, Grim Pillars, Hollow Shell, Leylines, Powered by Verisium, Rain of Blades, Refutation, Remnants of Kalguur, Repulsion, Runic Reprieve, Skyfall, Triskelion Cascade, Verisium Manifestations, Voltaic Barrier, and Wardbound Minions.

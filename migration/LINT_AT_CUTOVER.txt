@@ -1,0 +1,21 @@
+lint: 154 docs, 806 entries, 0 errors, 117 warnings
+warn [INFERRED] tag at line end (check reason nearby): 12
+    builds/budget-tiers: …'on sourced examples.\n\n## Working tier definitions '
+    builds/starter-archetypes: …"hs/weaknesses paraphrase Fubgun's reasons\n- conf: "
+    builds/storm-shaman-levelling: …'\n- conf: single-source; usefulness for this build '
+warn entry: confidence unknown: 25
+    builds/kb-test-frostbolt-chronomancer-0.5.5 «d. Gear breakpoints»
+    builds/kb-test-frostbolt-chronomancer-damage-0.5.5 «Checkpoint 1 — Count Geonor (Ogham Manor»
+    builds/kb-test-frostbolt-chronomancer-damage-0.5.5 «Checkpoint 2 — Campaign end (Act 4, area»
+warn entry: no source: 18
+    builds/budget-tiers «Sourced anchors»
+    builds/kb-test-frostbolt-chronomancer-0.5.5 «a. Why this class / ascendancy / skill»
+    builds/kb-test-frostbolt-chronomancer-damage-0.5.5 «Checkpoint 1 — Count Geonor (Ogham Manor»
+warn entry: version unknown: 9
+    builds/storm-shaman-pivot «First upgrades (5-div T15 test, gate 4)»
+    builds/storm-shaman-pivot «Ritual play notes»
+    builds/storm-shaman-pivot «AFK second character (brief)»
+warn entry: volatility unknown: 53
+    builds/storm-shaman-levelling «Starting links (0.5 recommendations, re-»
+    builds/storm-shaman-levelling «Gear breakpoints (caster: follow +levels»
+    builds/storm-shaman-pivot «First upgrades (5-div T15 test, gate 4)»

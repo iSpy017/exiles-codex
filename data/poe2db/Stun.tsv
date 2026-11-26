@@ -1,0 +1,157 @@
+# https://poe2db.tw/us/Stun · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Name	Level	Pre/Suf	Description	Weight
+Beetle's	10	Prefix	(6 — 13) % increased Armour +(8 — 13) to Stun Threshold	body_armour 0 helmet 0 gloves 0 str_armour 1 default 0
+Crab's	19	Prefix	(14 — 20) % increased Armour +(14 — 24) to Stun Threshold	body_armour 0 helmet 0 gloves 0 str_armour 1 default 0
+Armadillo's	38	Prefix	(21 — 26) % increased Armour +(25 — 40) to Stun Threshold	body_armour 0 helmet 0 gloves 0 str_armour 1 default 0
+Rhino's	48	Prefix	(27 — 32) % increased Armour +(41 — 63) to Stun Threshold	body_armour 0 helmet 0 gloves 0 str_armour 1 default 0
+Elephant's	63	Prefix	(33 — 38) % increased Armour +(64 — 94) to Stun Threshold	body_armour 0 helmet 0 gloves 0 str_armour 1 default 0
+Mammoth's	74	Prefix	(39 — 42) % increased Armour +(95 — 136) to Stun Threshold	body_armour 0 helmet 0 gloves 0 str_armour 1 default 0
+Mosquito's	10	Prefix	(6 — 13) % increased Evasion Rating +(8 — 13) to Stun Threshold	body_armour 0 helmet 0 gloves 0 dex_armour 1 default 0
+Moth's	19	Prefix	(14 — 20) % increased Evasion Rating +(14 — 24) to Stun Threshold	body_armour 0 helmet 0 gloves 0 dex_armour 1 default 0
+Butterfly's	38	Prefix	(21 — 26) % increased Evasion Rating +(25 — 40) to Stun Threshold	body_armour 0 helmet 0 gloves 0 dex_armour 1 default 0
+Wasp's	48	Prefix	(27 — 32) % increased Evasion Rating +(41 — 63) to Stun Threshold	body_armour 0 helmet 0 gloves 0 dex_armour 1 default 0
+Dragonfly's	63	Prefix	(33 — 38) % increased Evasion Rating +(64 — 94) to Stun Threshold	body_armour 0 helmet 0 gloves 0 dex_armour 1 default 0
+Hummingbird's	74	Prefix	(39 — 42) % increased Evasion Rating +(95 — 136) to Stun Threshold	body_armour 0 helmet 0 gloves 0 dex_armour 1 default 0
+Pixie's	10	Prefix	(6 — 13) % increased Energy Shield +(8 — 13) to Stun Threshold	body_armour 0 helmet 0 gloves 0 focus 0 int_armour 1 default 0
+Gremlin's	19	Prefix	(14 — 20) % increased Energy Shield +(14 — 24) to Stun Threshold	body_armour 0 helmet 0 gloves 0 focus 0 int_armour 1 default 0
+Boggart's	38	Prefix	(21 — 26) % increased Energy Shield +(25 — 40) to Stun Threshold	body_armour 0 helmet 0 gloves 0 focus 0 int_armour 1 default 0
+Naga's	48	Prefix	(27 — 32) % increased Energy Shield +(41 — 63) to Stun Threshold	body_armour 0 helmet 0 gloves 0 focus 0 int_armour 1 default 0
+Djinn's	63	Prefix	(33 — 38) % increased Energy Shield +(64 — 94) to Stun Threshold	body_armour 0 helmet 0 gloves 0 focus 0 int_armour 1 default 0
+Seraphim's	74	Prefix	(39 — 42) % increased Energy Shield +(95 — 136) to Stun Threshold	body_armour 0 helmet 0 gloves 0 focus 0 int_armour 1 default 0
+Captain's	10	Prefix	(6 — 13) % increased Armour and Evasion +(8 — 13) to Stun Threshold	body_armour 0 helmet 0 gloves 0 str_dex_armour 1 default 0
+Commander's	19	Prefix	(14 — 20) % increased Armour and Evasion +(14 — 24) to Stun Threshold	body_armour 0 helmet 0 gloves 0 str_dex_armour 1 default 0
+Magnate's	38	Prefix	(21 — 26) % increased Armour and Evasion +(25 — 40) to Stun Threshold	body_armour 0 helmet 0 gloves 0 str_dex_armour 1 default 0
+Marshal's	48	Prefix	(27 — 32) % increased Armour and Evasion +(41 — 63) to Stun Threshold	body_armour 0 helmet 0 gloves 0 str_dex_armour 1 default 0
+General's	63	Prefix	(33 — 38) % increased Armour and Evasion +(64 — 94) to Stun Threshold	body_armour 0 helmet 0 gloves 0 str_dex_armour 1 default 0
+Warlord's	74	Prefix	(39 — 42) % increased Armour and Evasion +(95 — 136) to Stun Threshold	body_armour 0 helmet 0 gloves 0 str_dex_armour 1 default 0
+Defender's	10	Prefix	(6 — 13) % increased Armour and Energy Shield +(8 — 13) to Stun Threshold	body_armour 0 helmet 0 gloves 0 str_int_armour 1 default 0
+Protector's	19	Prefix	(14 — 20) % increased Armour and Energy Shield +(14 — 24) to Stun Threshold	body_armour 0 helmet 0 gloves 0 str_int_armour 1 default 0
+Keeper's	38	Prefix	(21 — 26) % increased Armour and Energy Shield +(25 — 40) to Stun Threshold	body_armour 0 helmet 0 gloves 0 str_int_armour 1 default 0
+Guardian's	48	Prefix	(27 — 32) % increased Armour and Energy Shield +(41 — 63) to Stun Threshold	body_armour 0 helmet 0 gloves 0 str_int_armour 1 default 0
+Warden's	63	Prefix	(33 — 38) % increased Armour and Energy Shield +(64 — 94) to Stun Threshold	body_armour 0 helmet 0 gloves 0 str_int_armour 1 default 0
+Sentinel's	74	Prefix	(39 — 42) % increased Armour and Energy Shield +(95 — 136) to Stun Threshold	body_armour 0 helmet 0 gloves 0 str_int_armour 1 default 0
+Intuitive	10	Prefix	(6 — 13) % increased Evasion and Energy Shield +(8 — 13) to Stun Threshold	body_armour 0 helmet 0 gloves 0 dex_int_armour 1 default 0
+Psychic	19	Prefix	(14 — 20) % increased Evasion and Energy Shield +(14 — 24) to Stun Threshold	body_armour 0 helmet 0 gloves 0 dex_int_armour 1 default 0
+Telepath's	38	Prefix	(21 — 26) % increased Evasion and Energy Shield +(25 — 40) to Stun Threshold	body_armour 0 helmet 0 gloves 0 dex_int_armour 1 default 0
+Illusionist's	48	Prefix	(27 — 32) % increased Evasion and Energy Shield +(41 — 63) to Stun Threshold	body_armour 0 helmet 0 gloves 0 dex_int_armour 1 default 0
+Mentalist's	63	Prefix	(33 — 38) % increased Evasion and Energy Shield +(64 — 94) to Stun Threshold	body_armour 0 helmet 0 gloves 0 dex_int_armour 1 default 0
+Trickster's	74	Prefix	(39 — 42) % increased Evasion and Energy Shield +(95 — 136) to Stun Threshold	body_armour 0 helmet 0 gloves 0 dex_int_armour 1 default 0
+of Thick Skin	1	Suffix	+(6 — 11) to Stun Threshold	body_armour 1 boots 1 shield 1 belt 1 default 0
+of Reinforced Skin	8	Suffix	+(12 — 29) to Stun Threshold	body_armour 1 boots 1 shield 1 belt 1 default 0
+of Stone Skin	15	Suffix	+(30 — 49) to Stun Threshold	body_armour 1 boots 1 shield 1 belt 1 default 0
+of Iron Skin	22	Suffix	+(50 — 72) to Stun Threshold	body_armour 1 boots 1 shield 1 belt 1 default 0
+of Steel Skin	29	Suffix	+(73 — 97) to Stun Threshold	body_armour 1 boots 1 shield 1 belt 1 default 0
+of Granite Skin	36	Suffix	+(98 — 124) to Stun Threshold	body_armour 1 boots 1 shield 1 belt 1 default 0
+of Platinum Skin	45	Suffix	+(125 — 163) to Stun Threshold	body_armour 1 boots 1 shield 1 belt 1 default 0
+of Adamantite Skin	54	Suffix	+(164 — 206) to Stun Threshold	body_armour 1 boots 1 shield 1 belt 1 default 0
+of Corundum Skin	63	Suffix	+(207 — 253) to Stun Threshold	body_armour 1 boots 1 shield 1 belt 1 default 0
+of Obsidian Skin	72	Suffix	+(254 — 304) to Stun Threshold	body_armour 1 boots 1 shield 1 belt 1 default 0
+of Titanium Skin	80	Suffix	+(305 — 352) to Stun Threshold	boots 1 default 0
+of Impact	5	Suffix	(11 — 13) % increased Stun Duration	ranged 0 weapon 1 default 0
+of Dazing	18	Suffix	(14 — 16) % increased Stun Duration	ranged 0 weapon 1 default 0
+of Stunning	30	Suffix	(17 — 19) % increased Stun Duration	ranged 0 weapon 1 default 0
+of Slamming	44	Suffix	(20 — 22) % increased Stun Duration	ranged 0 weapon 1 default 0
+of Staggering	58	Suffix	(23 — 26) % increased Stun Duration	ranged 0 weapon 1 default 0
+of the Concussion	71	Suffix	(27 — 30) % increased Stun Duration	ranged 0 weapon 1 default 0
+of the Pugilist	5	Suffix	Causes (21 — 30) % increased Stun Buildup	ranged 0 weapon 1 default 0
+of the Brawler	20	Suffix	Causes (31 — 40) % increased Stun Buildup	ranged 0 weapon 1 default 0
+of the Boxer	30	Suffix	Causes (41 — 50) % increased Stun Buildup	ranged 0 weapon 1 default 0
+of the Combatant	44	Suffix	Causes (51 — 60) % increased Stun Buildup	ranged 0 weapon 1 default 0
+of the Gladiator	58	Suffix	Causes (61 — 70) % increased Stun Buildup	ranged 0 weapon 1 default 0
+of the Champion	74	Suffix	Causes (71 — 80) % increased Stun Buildup	ranged 0 weapon 1 default 0
+| 1	Corrupted	(20 — 30) % increased Stun Threshold	boots 1 default 0
+| 1	Corrupted	Causes (20 — 30) % increased Stun Buildup	mace 1 sword 1 axe 1 flail 1 warstaff 1 dagger 1 spear 1 default 0
+| 1	Unique	(50 — 75) % increased Stun Threshold	boots 1 default 0
+| 1	Unique	Causes (50 — 75) % increased Stun Buildup	mace 1 sword 1 axe 1 flail 1 warstaff 1 dagger 1 spear 1 default 0
+Name	Level	Pre/Suf	Description	Weight
+of the Brawler	1	Suffix	100 % increased Stun Buildup	melee 1 default 1
+of Stone Skin	1	Suffix	250 % increased Stun Threshold	default 1
+Steadfast	1	Unique	Cannot be Stunned	not_str 0 default 1
+| 1	Unique	Cannot be Stunned |
+| 1	Unique	100 % increased Stun Duration on you |
+| 1	Unique	(20 — 50) % increased Stun Duration on you |
+| 1	Unique	(30 — 50) % increased Stun Duration on you |
+| 1	Unique	Cannot be Knocked Back Cannot be Stunned not affected by action speed modifiers [1] |
+| 1	Unique	Cannot be Stunned base cannot be damaged [1] is hidden monster [1] stance movement speed +% final [-16] |
+| 1	Unique	Cannot be Stunned no movement speed [1] |
+| 1	Unique	50 % Chance to Block Attack Damage +5 % to maximum Block chance Cannot be Stunned by Hits you Block |
+| 1	Unique	Cannot be Stunned base cannot be damaged [1] is hidden monster [1] |
+| 1	Unique	30 % increased Stun Threshold |
+| 1	Unique	Stun Threshold is based on Energy Shield instead of Life |
+| 1	Unique	Cannot be Stunned 50 % reduced Damage taken stance movement speed +% final [-41] Speed |
+| 1	Unique	base chance to stun % [25] |
+| 1	Unique	Cannot be Knocked Back Cannot be Stunned Action Speed cannot be modified to below base value |
+| 1	Unique	cannot be stunned for ms after stun finished [0] cannot be stunned while stunned [1] |
+| 1	Unique	cannot be stunned for ms after stun finished [2000] cannot be stunned while stunned [1] |
+| 1	Unique	cannot be stunned for ms after stun finished [4000] cannot be stunned while stunned [1] |
+| 1	Unique	50 % increased Stun Threshold |
+| 1	Unique	75 % increased Stun Threshold |
+| 1	Unique	100 % increased Stun Threshold |
+| 1	Unique	Cannot be Frozen Cannot be Stunned You cannot be Electrocuted |
+| 1	Unique	Monsters have (80 — 100) % increased Ailment Threshold Monsters have (80 — 100) % increased Stun Threshold |
+| 1	Unique	Monsters have (30 — 50) % increased Stun Buildup |
+| 1	Unique	Monsters grant 60 % increased Experience Monsters have 50 % increased Ailment Threshold Monsters have 50 % increased Stun Threshold |
+Bear-Touched	1	Torment	20 % increased maximum Life 60 % increased Stun Buildup 100 % increased Stun Threshold |
+Hunted by the Great Bear	1	Torment	20 % increased maximum Life 60 % increased Stun Buildup 100 % increased Stun Threshold dropped items are converted to str items [1] |
+Spirit Of The Bear	1	Torment	20 % increased maximum Life 60 % increased Stun Buildup 60 % increased Stun Threshold |
+Name	Level	Pre/Suf	Description	Weight
+of the Unwavering	1	Suffix	Monsters have (30 — 39) % increased Ailment Threshold Monsters have (30 — 39) % increased Stun Threshold Monsters have 13 % more Effectiveness 10 % more Waystones found in Area	map_key_low 1 default 0
+of the Unwavering	1	Suffix	Monsters have (50 — 59) % increased Ailment Threshold Monsters have (40 — 49) % increased Stun Threshold Monsters have 13 % more Effectiveness 10 % more Waystones found in Area	map_key_medium 1 default 0
+of the Unwavering	1	Suffix	Monsters have (70 — 79) % increased Ailment Threshold Monsters have (60 — 69) % increased Stun Threshold Monsters have 13 % more Effectiveness 10 % more Waystones found in Area	map_key_high 1 default 0
+of the Unwavering	1	Suffix	Monsters have (70 — 79) % increased Ailment Threshold Monsters have (70 — 79) % increased Stun Threshold Monsters have 13 % more Effectiveness 10 % more Waystones found in Area	map_key_highest 1 default 0
+Impacting	1	Prefix	Monsters have (50 — 60) % increased Stun Buildup Monsters have 13 % more Effectiveness 15 % more Waystones found in Area	map_key_low 1 default 0
+Impacting	1	Prefix	Monsters have (70 — 80) % increased Stun Buildup Monsters have 13 % more Effectiveness 15 % more Waystones found in Area	map_key_medium 1 default 0
+Impacting	1	Prefix	Monsters have (90 — 100) % increased Stun Buildup Monsters have 13 % more Effectiveness 15 % more Waystones found in Area	map_key_high 1 default 0
+Impacting	1	Prefix	Monsters have (100 — 110) % increased Stun Buildup Monsters have 13 % more Effectiveness 15 % more Waystones found in Area	map_key_highest 1 default 0
+Unwavering	1	Unique	Monsters cannot be Stunned map item drop quantity +% [10]	secret_area 1 default 0
+Unwavering	69	Unique	Monsters cannot be Stunned Found Items have (1 — 3) % chance to drop Corrupted in Area Area contains 1 additional packs of Corrupted Vaal Monsters map item drop quantity +% [10]	secret_area 1 default 0
+Unwavering	1	Unique	(15 — 19) % more Monster Life Monsters cannot be Stunned 8 % increased Rarity of Items found 5 % increased Pack Size map item drop quantity +% [13] Life	low_tier_map 1 expedition_logbook 0 primordial_map 0 default 0
+Unwavering	1	Unique	(10 — 14) % more Monster Life Monsters cannot be Stunned 8 % increased Rarity of Items found 5 % increased Pack Size map item drop quantity +% [13] Life	low_tier_map 0 expedition_logbook 1 default 0
+Unwavering	68	Unique	(15 — 19) % more Monster Life Monsters cannot be Stunned 8 % increased Rarity of Items found 5 % increased Pack Size map item drop quantity +% [13] Life	top_tier_map 0 expedition_logbook 1 default 0
+Unwavering	1	Unique	(20 — 24) % more Monster Life Monsters cannot be Stunned 8 % increased Rarity of Items found 5 % increased Pack Size map item drop quantity +% [13] Life	mid_tier_map 1 expedition_logbook 0 primordial_map 0 default 0
+Unwavering	73	Unique	(20 — 24) % more Monster Life Monsters cannot be Stunned 8 % increased Rarity of Items found 5 % increased Pack Size map item drop quantity +% [13] Life	top_tier_map 0 expedition_logbook 1 default 0
+Unwavering	1	Unique	(25 — 30) % more Monster Life Monsters cannot be Stunned 8 % increased Rarity of Items found 5 % increased Pack Size map item drop quantity +% [13] Life	top_tier_map 1 maven_map 0 expedition_logbook 0 primordial_map 0 default 0
+Unwavering	1	Unique	(25 — 30) % more Monster Life Monsters cannot be Stunned 8 % increased Rarity of Items found map item drop quantity +% [13] Life	top_tier_map 0 maven_map 1 primordial_map 1 default 0
+Unwavering	78	Unique	(25 — 30) % more Monster Life Monsters cannot be Stunned 8 % increased Rarity of Items found 5 % increased Pack Size map item drop quantity +% [13] Life	top_tier_map 0 expedition_logbook 1 default 0
+Name	Level	Pre/Suf	Description	Weight
+| 1	DelveArea	Monsters cannot be Stunned (5 — 10) % increased Quantity of Items found in this Area (3 — 6) % increased Rarity of Items found in this Area (3 — 6) % increased Pack size Life	default 1
+Name	Level	Pre/Suf	Description	Weight
+Unwavering	1	Prefix	(5 — 9) % more Monster Life Monsters cannot be Stunned heist contract alert level +% final [-5] heist contract lockdown timer +% [5] heist monster spawner alive limit +% [5] map item drop quantity +% [13] map item drop rarity +% [8] Life	default 1
+Unwavering	46	Prefix	(10 — 14) % more Monster Life Monsters cannot be Stunned heist contract alert level +% final [-5] heist contract lockdown timer +% [5] heist monster spawner alive limit +% [5] map item drop quantity +% [13] map item drop rarity +% [8] Life	default 1
+Unwavering	68	Prefix	(15 — 19) % more Monster Life Monsters cannot be Stunned heist contract alert level +% final [-5] heist contract lockdown timer +% [5] heist monster spawner alive limit +% [5] map item drop quantity +% [13] map item drop rarity +% [8] Life	default 1
+Unwavering	73	Prefix	(20 — 24) % more Monster Life Monsters cannot be Stunned heist contract alert level +% final [-5] heist contract lockdown timer +% [5] heist monster spawner alive limit +% [5] map item drop quantity +% [13] map item drop rarity +% [8] Life	default 1
+Unwavering	78	Prefix	(25 — 30) % more Monster Life Monsters cannot be Stunned heist contract alert level +% final [-5] heist contract lockdown timer +% [5] heist monster spawner alive limit +% [5] map item drop quantity +% [13] map item drop rarity +% [8] Life	default 1
+Name	Level	Domain	Pre/Suf	Description	Weight
+| 1	Flask	Unique	Used when you become Stunned |
+| 1	Flask	Unique	Cannot be Stunned during Effect |
+| 1	Flask	Unique	Immunity to Freeze, Chill, Curses and Stuns during Effect |
+| 1	Strongbox	Suffix	strongbox construct has monsterstunresilience1 [1]	strongbox_robot_rare_guard 1 default 0
+| 1	Strongbox	Suffix	strongbox construct has monsterstundamageincrease1 [1]	strongbox_robot_rare_guard 1 default 0
+of Thumping	1	Jewel	Suffix	(15 — 25) % increased Stun Buildup with Maces Attack	strjewel 1 default 0
+of Stunning	1	Jewel	Suffix	(10 — 20) % increased Stun Buildup	strjewel 1 default 0
+of Withstanding	1	Jewel	Suffix	(6 — 16) % increased Stun Threshold	strjewel 1 default 0
+of Barriers	1	Jewel	Suffix	Gain additional Stun Threshold equal to (5 — 15) % of maximum Energy Shield	intjewel 1 default 0
+of Stoutness	1	Jewel	Suffix	(15 — 25) % increased Stun Threshold if you haven't been Stunned Recently	dexjewel 1 default 0
+of Biding	1	Jewel	Suffix	(15 — 25) % increased Stun Threshold while Parrying	dexjewel 1 default 0
+of Thumping	1	Jewel	Suffix	Notable Passive Skills in Radius also grant (6 — 12) % increased Stun Buildup with Maces Attack	str_radius_jewel 1 default 0
+of Stunning	1	Jewel	Suffix	Notable Passive Skills in Radius also grant (5 — 10) % increased Stun Buildup	str_radius_jewel 1 default 0
+of Withstanding	1	Jewel	Suffix	Small Passive Skills in Radius also grant (1 — 2) % increased Stun Threshold	str_radius_jewel 1 default 0
+of Barriers	1	Jewel	Suffix	Small Passive Skills in Radius also grant Gain additional Stun Threshold equal to (1 — 2) % of maximum Energy Shield	int_radius_jewel 1 default 0
+of Stoutness	1	Jewel	Suffix	Small Passive Skills in Radius also grant (2 — 3) % increased Stun Threshold if you haven't been Stunned Recently	dex_radius_jewel 1 default 0
+of Biding	1	Jewel	Suffix	Notable Passive Skills in Radius also grant (8 — 12) % increased Stun Threshold while Parrying	dex_radius_jewel 1 default 0
+of Stunning	1	Jewel	Unique	(10 — 14) % increased Stun Duration on Enemies	not_str 1 default 1
+of Recovery	1	Jewel	Unique	(25 — 35) % increased Stun Recovery	not_str 1 default 1
+| 1	Jewel	Unique	Totems cannot be Stunned |
+| 1	Jewel	Unique	With at least 40 Strength in Radius, Ground Slam has a 35 % chance to grant an Endurance Charge when you Stun an Enemy Attack |
+| 1	MapDevice	Unique	10 % more Monster Life % increased Monster Damage 10 % improved Rewards Monsters gain +20 % chance to Avoid being Stunned each time they are Revived Monsters gain 10 % increased Maximum Life each time they are Revived Monsters Regenerate 1 % of maximum Life per second for each time they have been Revived map fragment level + [2] Life Damage |
+| 1	Abyss	Unique	Conquered Small Passive Skills also grant (3 — 6) % increased Stun Threshold	historic_abyss_jewel_2 1 default 0
+| 1	Abyss	Unique	(6 — 12) % increased Stun Buildup	heart_unique_jewel_suffix 1 default 0
+| 1	Abyss	Unique	(5 — 10) % increased Stun Threshold	heart_unique_jewel_suffix 1 default 0
+| 1	Abyss	Unique	Gain additional Stun Threshold equal to (4 — 10) % of maximum Energy Shield	heart_unique_jewel_suffix 1 default 0
+of Amanamu	65	Abyss	Suffix	Shield Skills fully Break Armour when they Heavy Stun targets amanamu	dex_shield 0 dex_int_shield 0 shield 1 default 0 amanamu_mod 1
+of Amanamu	65	Abyss	Suffix	Your Heavy Stun buildup empties (30 — 40) % faster amanamu	dex_shield 0 dex_int_shield 0 shield 1 default 0 amanamu_mod 1
+| 0	IncursionLimb	Unique	(15 — 25) % increased Stun Threshold |
+Faction	Category	Show Full Descriptions	Code
+Karui	Notable	20 % increased Stun Duration on Enemies	karui_notable_add_stun_duration
+Karui	Notable	10 % reduced Enemy Stun Threshold	karui_notable_add_reduced_stun_threshold
+Maraketh	Notable	20 % chance to Avoid being Stunned	maraketh_notable_add_ailment_avoid

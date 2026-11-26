@@ -1,0 +1,20 @@
+# https://poe2db.tw/us/The_Well_of_Souls · crawl 2026-11-23 · CC BY-NC-SA 3.0
+#	Name
+1	Find the source of the Abyssal fissures Find the source of the Abyssal fissures. Area: Mastodon Badlands
+2	Enter Lightless Passage Enter Lightless Passage. Area: Mastodon Badlands
+3	Explore the Lightless Passage Explore the Lightless Passage. Area: Lightless Passage
+4	Enter the Well of Souls Enter the Well of Souls. Area: Lightless Passage
+5	Use the Well of Souls Use the Well of Souls. Area: The Well of Souls
+6	Quest Complete Quest Complete - You have found the Well of Souls and can now reveal Desecrated Modifiers.
+Name	Show Full Descriptions
+Act	2
+Level	22
+Connected	Lightless Passage
+Name	Show Full Descriptions
+Act	10
+Level	79
+Boss	Vessel of Kulemak
+Tags	pinnacle_boss
+Mods	Players cannot gain or lose experience map contains powerful map boss [0] map force human players when loading in [1] map drop no league tablets [1]
+Level	Name	Experience	Damage	Attack Time	Life	Armour	Evasion	Energy Shield			 |
+79	Vessel of Kulemak	2,776,576	1,099	1.47	1,873,841	6,810		6,462	0	0	0	0

@@ -1,0 +1,15 @@
+# https://poe2db.tw/us/Vessel_of_Kulemak · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Area	The Well of Souls
+Tags	abyssal , demon , MonsterBlunt_onhit_audio , not_dex , very_slow_movement
+Family	MonsterIgnoreActorScaleFromStats
+Domains	Monster (3)
+GenerationType	Unique (3)
+Stats	ignore actor scale from stats 1 — 1 Global
+Family	MonsterMapBoss
+Domains	Monster (3)
+GenerationType	Unique (3)
+Stats	monster slain experience +% 9000 — 9000 Global monster dropped item rarity +% 3200 — 3200 Global monster dropped item quantity +% 800 — 800 Global unique monster guarantee one rare 1 — 1 Global monster map key of at least same tier as current map drop chance % 25 — 25 Global
+Family	MonsterActBoss
+Domains	Monster (3)
+GenerationType	Unique (3)
+Stats	i am boss of tier 3 — 3 Global monster slain experience +% 0 — 0 Global monster dropped item rarity +% 4800 — 4800 Global

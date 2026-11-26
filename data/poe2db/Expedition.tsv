@@ -1,0 +1,120 @@
+# https://poe2db.tw/us/Expedition · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Level	Generation	Mods
+1	Suffix	20 % increased Pack size
+1	Suffix	50 % increased number of Rare Monsters
+1	Suffix	50 % increased number of Magic Monsters
+1	Suffix	50 % increased number of Rare Monsters 50 % increased number of Magic Monsters
+1	Suffix	20 % increased Quantity of Items Dropped by Monsters
+1	Suffix	20 % increased Quantity of Items Found in Excavated Chests
+1	Suffix	40 % increased Rarity of Items Dropped by Monsters
+1	Suffix	60 % increased Rarity of Items Dropped by Monsters
+1	Suffix	40 % increased Rarity of Items Found in Excavated Chests
+1	Suffix	Monsters grant 100 % increased Experience
+1	Suffix	Monsters grant 200 % increased Experience
+1	Suffix	50 % increased Quantity of Expedition Logbooks dropped by Runic Monsters
+1	Suffix	Items dropped by Monsters have 10 % chance to be Corrupted
+1	Suffix	Runic Monsters are Duplicated
+1	Suffix	80 % increased Quantity of Artifacts dropped by Monsters
+1	Suffix	100 % increased Quantity of Artifacts found in Excavated Chests
+1	Suffix	Monsters spawn with an additional 15 % of Life missing
+1	Suffix	Runic Monsters drop other Items instead of Weapons
+1	Suffix	Runic Monsters drop other Items instead of Armour
+1	Suffix	Runic Monsters drop other Items instead of Jewellery
+1	Suffix |
+1	Suffix	Monsters have 20 % increased Effectiveness
+1	Suffix	Adds a random runeshape to all monsters
+1	Suffix	Contains an Azmeri Spirit
+1	Suffix	15 % increased Rarity of Items Dropped by Monsters
+1	Suffix	20 % increased Rarity of Items Dropped by Monsters
+1	Prefix	Monsters have 30 % chance to Avoid All Damage from Hits
+1	Prefix	Monsters' Hits can't be Evaded
+1	Prefix	Monsters' Hits are always Critical Hits
+1	Prefix	Hits against Monsters cannot be Critical Hits
+1	Prefix	Life cannot be Leeched from Monsters Mana cannot be Leeched from Monsters
+1	Prefix	Monsters are Immune to Physical Damage
+1	Prefix	Monsters are Immune to Cold Damage
+1	Prefix	Monsters are Immune to Lightning Damage
+1	Prefix	Monsters are Immune to Fire Damage
+1	Prefix	Monsters are Immune to Chaos Damage
+1	Prefix	Monsters have 100 % increased Elemental Ailment Threshold
+1	Prefix	Runic Monsters apply 1 random Curse on Hit
+1	Prefix	Monsters are Hexproof
+1	Prefix	Monsters' Hits Break Armour equal to 200 % of Physical Damage dealt
+1	Prefix	Monsters do not grant Flask Charges when Slain
+1	Prefix	Every 4 seconds, Runic Monsters Regenerate 15 % of maximum Life over one second
+1	Prefix	Monsters have 30 % increased Attack Speed while on Low Life Monsters have 40 % increased Cast Speed while on Low Life Monsters have 25 % increased Movement Speed while on Low Life
+1	Prefix	Monsters have 250 % increased Critical Hit Chance against Enemies on Full Life
+1	Prefix	Monsters have +10 % to all maximum Resistances Monsters have +30 % to all Resistances
+1	Prefix	Monsters' Attack Hits inflict Bleeding
+1	Prefix	All Damage from Monsters' Hits Contributes to Poison Magnitude Monsters Poison on Hit
+1	Prefix	Monsters Penetrate 30 % Fire Resistance
+1	Prefix	Monsters Penetrate 30 % Cold Resistance
+1	Prefix	Monsters Penetrate 30 % Lightning Resistance
+1	Prefix	Monsters Penetrate 20 % Chaos Resistance
+1	Prefix	Monsters Gain 20 % of Damage as Extra Fire Damage
+1	Prefix	Monsters Gain 20 % of Damage as Extra Cold Damage
+1	Prefix	Monsters Gain 20 % of Damage as Extra Lightning Damage
+1	Prefix	Monsters Gain 12 % of Damage as Extra Chaos Damage
+1	Prefix	Monsters have 100 % increased Freeze Buildup Monsters have 100 % increased Flammability Magnitude Monsters have 100 % increased chance to Shock
+1	Prefix	Monsters have 15 % increased Movement Speed Monsters have 15 % increased Attack Speed Monsters have 25 % increased Cast Speed
+1	Prefix	Monsters deal 20 % increased Damage
+1	Prefix	Monsters have 30 % increased Maximum Life
+1	Prefix |
+1	Suffix	Monsters have + 30 % chance to Coalesce Corruption
+1	Suffix	Blessed by Kaom
+Type	Name	Quantity
+Expedition	Styrn, Knight of Aldur	44
+Expedition	Rog, the Dealer	353
+Expedition	Medved, Feller of Heroes	47
+Expedition	Vorana, Last to Fall	18
+Expedition	Uhtred, Covetous Traitor	30
+Expedition	Olroth, Origin of the Fall	85
+Name	Level	Pre/Suf	Description	Weight
+| 1	Unique	expedition relic mods do not apply [1] |
+Name	Level	Pre/Suf	Description	Weight
+| 1	Logbook	(25 — 50) % increased Expedition Explosive Radius	default 1
+| 1	Logbook	(25 — 50) % increased number of Expedition Explosives	default 1
+| 1	Logbook	(25 — 50) % increased Expedition Explosive Placement Range	default 1
+| 1	Logbook	All Verisium Remnants have at least 5 Rune slots	default 1
+| 1	Logbook	All Verisium Remnants have at least 6 Rune slots	default 1
+| 1	Logbook	All Verisium Remnants have at least 7 Rune slots	default 1
+| 1	Logbook	+1 Verisium Remnant with at least 7 Rune slots	default 1
+| 1	Logbook	+1 Verisium Remnant with at least 8 Rune slots	default 1
+| 1	Logbook	+1 Verisium Remnant with at least 9 Rune slots	default 1
+| 1	Logbook	A Verisium Remnant in Area will contain a Power Rune	default 1
+| 1	Logbook	Monsters from Verisium Remnants drop (25 — 50) % increased Verisium	default 1
+| 1	Logbook	Verisium Remnants in Area are rolled 1 times, keeping the rarest outcome	default 1
+| 1	Logbook	Area contains +(1 — 3) Verisium Remnants	default 1
+Name	Level	Domain	Pre/Suf	Description	Weight
+Expedition	1	Strongbox	Prefix	Contains 1 additional Expedition Precursor Tablets	strongbox_can_roll_waystone_replacements 0 default 0
+| 1	MapDevice	Unique	Contains an additional Expedition Encounter Area contains an Expedition Encounter |
+| 1	MapDevice	Unique	Contains an additional Expedition Encounter Area contains an Expedition Encounter Area contains 25 % increased number of Runic Monster Markers 20 % increased number of Expedition Explosives |
+| 1	MapDevice	Unique	Contains an additional Expedition Encounter Area contains an Expedition Encounter Area contains 50 % increased number of Runic Monster Markers 20 % increased number of Expedition Explosives |
+| 1	MapDevice	Unique	Contains an additional Expedition Encounter Area contains an Expedition Encounter Area contains 50 % increased number of Runic Monster Markers 20 % increased number of Expedition Explosives Remnants have 1 additional Suffix Modifiers |
+| 1	MemoryLines	Unique	Area contains an Expedition Encounter |
+| 1	Tower	Unique	Adds a Kalguuran Expedition to a Map 10 uses remaining |
+| 1	Tower	Unique	Adds a Kalguuran Expedition to a Map 5 uses remaining |
+of the Demolition	1	Tower	Suffix	(5 — 10) % increased Expedition Explosive Area of Effect in Map expedition additional core league level [0]	tower_augment_expedition 1 default 0
+of the Detonator	1	Tower	Suffix	(10 — 20) % increased Expedition Explosive Placement Range in Map	tower_augment_expedition 0 default 0
+of Knowledge	1	Tower	Suffix	(15 — 25) % increased Quantity of Expedition Logbooks dropped by Runic Monsters in Map expedition additional core league level [0]	tower_augment_expedition 1 default 0
+of Ancient Fiends	1	Tower	Suffix	(25 — 35) % increased number of Rare Expedition Monsters in Map	tower_augment_expedition 0 default 0
+of Runes	1	Tower	Suffix	Map contains (15 — 25) % increased number of Runic Monster Markers expedition additional core league level [0]	tower_augment_expedition 1 default 0
+of Verisium	1	Tower	Suffix	Monsters from Verisium Remnants drop (15 — 25) % increased Verisium expedition additional core league level [0]	tower_augment_expedition 1 default 0
+of Ancient Evil	1	Tower	Suffix	The first (1 — 2) unearthed Runic Monsters will be Rare Monsters in Map expedition additional core league level [0]	tower_augment_expedition 1 default 0
+of Sentinels	1	Tower	Suffix	Expeditions contain (1 — 2) Additional Verisium Sentries in Map expedition additional core league level [0]	tower_augment_expedition 1 default 0
+of Power	1	Tower	Suffix	(15 — 25) % increased Expedition Monster Rarity in Map expedition additional core league level [0] expedition elite pack size +% [20]	tower_augment_expedition 1 default 0
+of Preservation	1	Tower	Suffix	Expeditions contain (1 — 2) Additional Bosses encased in ice in Map expedition additional core league level [0]	tower_augment_expedition 1 default 0
+of Treasure	1	Tower	Suffix	Expeditions contain (1 — 2) buried Strongboxes in Map expedition additional core league level [0]	tower_augment_expedition 1 default 0
+of the Past	1	Tower	Suffix	Expeditions contain (1 — 2) Vaal Relics in Map expedition additional core league level [0]	tower_augment_expedition 1 default 0
+of Remnants	1	Tower	Suffix	Expeditions have + (30 — 40) % Surpassing chance to contain an additional Verisium Remnant expedition additional core league level [0]	tower_augment_expedition 1 default 0
+of Twins	1	Tower	Suffix	Expeditions have + (30 — 40) % Surpassing chance to Duplicate Runic Monsters in Map expedition additional core league level [0]	tower_augment_expedition 1 default 0
+of Ancient Fiends	1	Tower	Suffix	Verisium Remnants have + (25 — 35) % chance to add an additional Runic Modifier in Map expedition additional core league level [0]	tower_augment_expedition 1 default 0
+of Verisium	1	Tower	Unique	(15 — 30) % increased quantity of Expedition Artifacts dropped by Monsters in Map	tower_augment_expedition 0 default 0
+of the Writings	1	Tower	Unique	Expeditions in Map have +(1 — 2) Remnants	tower_augment_expedition 0 default 0
+of Relics	1	Tower	Unique	(12 — 18) % increased Effect of Expedition Remnants in Map	tower_augment_expedition 0 default 0
+| 1	Tower	Unique	Expedition Monsters in your Maps spawn with half of their Life missing |
+Vendor	Faction	Currency	Crafting type
+Dannig	Knights of the Sun	Sun Artifact	Artifact
+Gwennen	Druids of the Broken Circle	Broken Circle Artifact Exotic Coinage	Weapons Focus Quivers
+Rog	Order of the Chalice	Order Artifact Exotic Coinage	Armours Shields
+Tujen	Black Scythe Mercenaries	Black Scythe Artifact Exotic Coinage	Jewellery Belts

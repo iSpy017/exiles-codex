@@ -1,0 +1,27 @@
+# https://poe2db.tw/us/Bows · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Item Level	Local	Weight
+1	(10 — 20) % reduced Attribute Requirements	1
+Item Level	Local	Weight
+1	(15 — 25) % increased Physical Damage Damage Physical Attack	1
+Item Level	Local	Weight
+1	Adds (9 — 14) to (15 — 22) Fire Damage Damage Elemental Fire Attack	1
+Item Level	Local	Weight
+1	Adds (8 — 12) to (13 — 19) Cold Damage Damage Elemental Cold Attack	1
+Item Level	Local	Weight
+1	Adds (1 — 2) to (29 — 43) Lightning Damage Damage Elemental Lightning Attack	1
+Item Level	Local	Weight
+1	Adds (7 — 11) to (12 — 18) Chaos damage Damage Chaos Attack	1
+Item Level	Local	Weight
+1	(6 — 8) % increased Attack Speed Attack Speed	1
+Item Level	Local	Weight
+1	+(5 — 10) % to Critical Damage Bonus Damage Attack Critical	1
+Item Level	Local	Weight
+1	(10 — 15) % chance to Maim on Hit Attack	1
+Item Level	Local	Weight
+1	(5 — 10) % chance to Blind Enemies on hit	1
+Item Level	Global	Weight
+1	(20 — 30) % increased Elemental Damage with Attacks Damage Elemental Fire Cold Lightning	1
+Item Level	Global	Weight
+1	Bow Attacks fire 1 additional Arrows Attack	1
+Main Hand	Off Hand	Melee Skills
+Bows	Unarmed	Bow Shot

@@ -1,48 +1,70 @@
-# Stun & Heavy Stun
-
-Version: game data 0.5.5.9 (researched 2026-11-17). Re-check at 1.0.
-"Game keywords" = [RePoE poe2 keywords.json](https://github.com/repoe-fork/poe2), tier 2. Second source for most entries: [PoE2DB Keywords](https://poe2db.tw/us/Keywords) (same game text) — counted as one source.
+---
+title: Stun and Heavy Stun
+status: partial
+tracker_topic: "Stun & heavy stun"
+tracker_note: "partial (heavy stun 2 s base, poise stats [INFERRED]; per-monster thresholds missing; 15% vs 10% floor conflict)"
+defaults: v=0.5.x
+---
+Status: partial. Have: light/heavy stun rules, priming %, monster stun constants from game data. Missing: per-monster stun threshold numbers, heavy stun buildup formula, exact re-stun immunity length.
+Version: 0.5.x data (PoE2DB crawl 2026-11-23). Re-check all at 1.0. Merged with the earlier library doc (2026-11-17 entries kept under "Carried over").
+Sources: PoE2DB Stun, Heavy Stun, Keywords, Monster, Dazed (tier 2).
 
 ## Two kinds of stun
-- Claim: Light stun: any hit can cause it; interrupts for a fraction of a second. Heavy stun: happens when the target's stun bar fills; lasts several seconds; the target can't act and counts as Immobilised; harder to heavy stun again for a short time after.
-- Version: 0.5.5.9
-- Volatility: may-change
-- Source: game keywords "Stun", "Light Stun", "Heavy Stun", tier 2, retrieved 2026-11-17
-- Confidence: single-source (game data)
+@ v=0.5.x vol=may-change conf=confirmed date=2026-11-23
+any hit can cause a Light Stun, lasting a fraction of a second. Chance is damage-based, up to 100% for a hit equal to 100% of target max Life; chances below 15% count as 0. Heavy Stun happens when the target's Stun bar fills and lasts several seconds; hits add buildup based on damage.
+- src: poe2db:Stun, poe2db:Keywords, tier 2, crawl 2026-11-23
+- notes: players and their minions usually cannot be heavy stunned, except specific actions (raising a shield, parrying with a buckler, riding a mount).
 
-## Light stun chance (vs monsters)
-- Claim: Chance scales with damage relative to the target's max life — 100% base at a hit equal to their max life. Under 15% counts as 0%.
-- Version: 0.5.5.9
-- Source: game keywords "Light Stun", tier 2, retrieved 2026-11-17
-- Confidence: single-source (game data)
 
-## Stunning players
-- Claim: Your stun threshold = your max life. A hit ≥ threshold always stuns you; chance falls linearly for smaller hits; under 10% counts as 0%. Players and minions normally can't be heavy stunned, except while raising a shield, parrying with a buckler, or riding a mount; the bar only empties when not doing those. Heavily stunned players can't block, deflect or evade.
-- Version: 0.5.5.9
-- Volatility: may-change
-- Source: game keywords "Player Stun Threshold", "Player Heavy Stun", tier 2, retrieved 2026-11-17
-- Confidence: single-source (game data)
-- Notes: Blocked hits still apply stun ([[mechanics/block]]). "Unwavering Stance" = can't be light stunned, but no dodge roll or sprint. Stun recovery mods speed recovery.
+## Player stun threshold
+@ v=0.5.x vol=may-change conf=single-source date=2026-11-23
+base player Stun Threshold equals max Life. A hit equal or above it guarantees a stun; chance scales down linearly below. Chances under 10% count as 0.
+- src: poe2db:Keywords, tier 2, crawl 2026-11-23
+- notes: passive nodes give 12% increased Stun Threshold each ([PoE2DB Stun Threshold](https://poe2db.tw/us/Stun_Threshold)). Note the light-stun floor differs: 15% for enemies/general text, 10% for player threshold text; both appear on the same page.
 
-## Damage-type bonuses to stun
-- Claim: Player physical damage and player melee damage each give 50% more light-stun chance and heavy-stun buildup, multiplying together (phys melee ≈ 2.25×). Monster physical gives 100% more and monster melee 33% more, also multiplicative. Cold hits build Freeze, not heavy stun.
-- Version: 0.5.5.9
-- Volatility: may-change
-- Source: game keywords "Stun", "Heavy Stun", "Light Stun", tier 2; [PoE2DB Keywords](https://poe2db.tw/us/Keywords) (cold), tier 2; retrieved 2026-11-17
-- Confidence: single-source (game data); 2.25× is [INFERRED] arithmetic
 
-## Primed for Stun, Crushing Blows, Daze
-- Claim: Enemies are Primed for Stun at 40% heavy-stun buildup (Normal), 50% (Magic), 60% (Rare), 70% (Unique). Crushing Blows heavy-stun Primed enemies outright. Daze (chance on hit from some skills) lasts 8 s and makes the enemy take 50% more stun buildup.
-- Version: 0.5.5.9
-- Volatility: may-change
-- Source: game keywords "Primed for Stun", "Crushing Blows", "Daze", tier 2, retrieved 2026-11-17
-- Confidence: single-source (game data)
+## Enemy stun threshold and priming
+@ v=0.5.x vol=may-change conf=single-source date=2026-11-23
+lower enemy Stun Threshold means less buildup needed to stun or heavy stun. Primed for Stun at heavy-stun buildup: Normal 40%, Magic 50%, Rare 60%, Unique 70%.
+- src: poe2db:Keywords, tier 2, crawl 2026-11-23
+- notes: not found in PoE2DB: a base stun threshold number for monsters or a table by monster level. Map mods raise it: Unwavering suffix gives monsters 30-39 / 40-49 / 60-69 / 70-79 percent increased Stun Threshold across the four map tiers ([PoE2DB Ailment](https://poe2db.tw/us/Ailment)). Monster mods seen: Stun Resistant (250% increased Stun Threshold), Stuns (100% increased Stun buildup), Steadfast and a variant (cannot be stunned).
 
-## Monster mods
-- Claim: "Stun Resistant" = 250% increased stun threshold; "Stuns" = 100% increased stun buildup; "Increased Stun Threshold" monster mod text says it can't be stunned.
-- Version: 0.5.5.9
-- Source: game keywords (monster modifier entries), tier 2, retrieved 2026-11-17
-- Confidence: single-source (game data)
 
-## Not yet sourced
-- Monster stun-threshold values; heavy-stun duration in seconds; post-heavy-stun immunity length; boss stun rules.
+## Heavy stun duration and bar (monster game data)
+@ v=0.5.x vol=may-change conf=single-source date=2026-11-23
+Monster Default stats list base heavy stun duration 2000 ms and base light stun duration override 500 ms. Separate stats "poise decay delay" = 8000 ms and "poise decay per second" = 5%.
+- Claim [INFERRED]: poise is the heavy-stun bar, so it would decay 5% per second after an 8 s delay without new buildup. Reason: the poise stats sit beside the stun stats, but PoE2DB never states they govern the heavy-stun bar.
+- src: poe2db:Monster "Monster Default" table, tier 2, crawl 2026-11-23
+- notes: the poise mapping is [INFERRED] (see above); PoE2DB does not state it. Related mod: Amanamu shield suffix, Heavy Stun buildup empties 30-40% faster ([PoE2DB Heavy Stun](https://poe2db.tw/us/Heavy_Stun)).
+
+
+## Stun buildup multipliers
+@ v=0.5.x vol=may-change conf=confirmed date=2026-11-23
+player Physical damage and player Melee damage each give 50% more Light Stun chance and heavy stun buildup (multiplicative together). Monster Physical gives 100% more and monster Melee 33% more; Monster Default stats show the same (physical 100, melee 33).
+- src: poe2db:Stun, poe2db:Monster, tier 2, crawl 2026-11-23
+- conf: confirmed (two pages)
+- notes: Daze: lasts 8 s, enemy takes 50% more Stun buildup ([PoE2DB Dazed](https://poe2db.tw/us/Dazed)).
+
+
+## Monster rarity and party scaling of the stun bar
+@ v=0.5.x vol=may-change conf=inferred date=2026-11-23
+the stat "poise threshold" gets final increases by rarity: Magic +26%, Rare +125%, Unique +500%. Per extra party player: default monster +50%; Magic +10%, Rare +30%, Unique +85%.
+- Claim [INFERRED]: poise threshold is the heavy stun threshold. Reason: name proximity to stun stats only; not stated on PoE2DB.
+- src: poe2db:Monster Magic/Rare/Unique stats and Monster Default, tier 2, crawl 2026-11-23
+- conf: [INFERRED]: reading poise threshold as the heavy stun threshold; also unclear whether the +50% default and rarity per-player values stack or replace each other.
+- notes: see [[mechanics/monster-life]].
+
+
+## Stun immunity windows
+@ v=0.5.x vol=may-change conf=single-source date=2026-11-23
+after a heavy stun, re-stunning is harder for a short time (no duration given). Some bosses have stun/freeze immunity windows; 0.5.4b removed most of them from Tor Gul fights.
+- src: poe2db:Heavy_Stun, poe2db:Freeze «PoE2DB Freeze version history», tier 2, crawl 2026-11-23
+- notes: not found: the numeric length of the post-stun resistance window.
+
+
+## Carried over from earlier version (2026-11-17)
+@ v=0.5.5.9 vol=may-change conf=single-source date=2026-11-17
+Heavily stunned targets count as Immobilised. Heavily stunned players can't block, deflect or evade. The player heavy-stun bar only empties while not raising a shield / parrying / riding. "Unwavering Stance" = can't be light stunned, but no dodge roll or sprint. Blocked hits still apply stun ([[mechanics/block]]). Crushing Blows heavy-stun Primed enemies outright. Cold hits build Freeze, not heavy stun.
+- src: RePoE poe2 keywords.json ("Heavy Stun", "Player Heavy Stun", "Crushing Blows"), tier 2; poe2db:Keywords, tier 2; retrieved 2026-11-17
+- conf: single-source (game data)
+- notes: phys + melee player hits ≈ 2.25× stun buildup ([INFERRED] arithmetic from the two 50% more multipliers). Light-stun floor 15% vs 10% wording → [[conflicts]].

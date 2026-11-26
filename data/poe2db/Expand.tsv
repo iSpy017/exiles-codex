@@ -1,0 +1,16 @@
+# https://poe2db.tw/us/Expand · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Tier	Gems
+5	Thunderstorm
+11	Tornado
+Level	Requires Level	Int
+1	0	0
+Version	Changes
+1.0.0	The Passive Skill Tree has also undergone a massive overhaul, introducing hundreds of new stats and expanded support for a wide range of combat mechanics. Jewel Sockets have been relocated into passive clusters, while Support Gems have received extensive improvements, including rebalanced abilities.
+0.5.4b	* Fixed a bug where the Expanding Territory: Remnants and Warring Survivors Atlas Passive Skills, as well as Hilda's Mighty Prey and Patient Battue Atlas Master options were not applying their random chance to apply correctly. * Fixed a bug where items that are consumed by interacting with certain objects, such as the Pinnacle Boss Key used to access the Vessel of Kulemak boss fight, would be consumed from both the main inventory and the Titan's expanded inventory needlessly.
+0.5.4	This patch introduces a brand new Atlas Passive Tree for Runes of Aldur, expanded Expedition customisation, level-scaling Unique Items, a new currency item for Atziri's Temple , and more.
+0.5.0	* The Atlas Tree has been significantly expanded with over 300 nodes. After completing all the maps inside the fortress, you will gain enough passive points to fully allocate the Atlas Tree. * Unleash , Expand , Salvo , and Freezing Salvo Supports all now use the same concept of Seals, instead of each having their own version. This means standardised rules for Seals that will be consistent for all cases, resulting in some behaviour changes. Supports granting Seals now consistently all have the Seal category.
+0.3.0	- Hailstorm Rounds: Bolts now fall in an expanding circle rather than overlapping with each other. Now has an Impact radius of 1 metre (previously 1.2), and a Rain radius of 4.0 metres (previously 2.5). One bolt now falls every 0.1 seconds (previously 0.3), and there is no longer a minimum distance the bolts can land from the firing location. Now deals 146-254% off Attack Damage at Gem levels 11-20 (previously 109-204%), and has 130-157% more Freeze Buildup. Ammunition now has 100% more reload speed (previously 50% less).
+0.2.0f	* Bijouborne has intentionally kept its additional Charm Slots for now as in the future we will be expanding the maximum possible Charm slots to 6.
+0.2.0e	* The front of the Delirium Fog can now continue expanding while doing other mechanics, though the back of the fog will still pause. This prevents scenarios where you pause the fog while on the edge of it and accidentally end the Delirium.
+0.2.0	- Skills with Expanding ground effects were unintentionally scaling radius over time instead of area of effect. They still scale the radius, though we have updated the descriptions and lowered the values on many of the affected skills:
+0.1.0f	* Fixed a bug where Rare monsters could pause Delirium mist for an extended period of time, even before touching the Mirror of Delirium. This could result in opening a mirror and having no monsters spawn, or the mist not expanding fully. In addition, Delirium mist is now paused for 10 seconds when opening a Strongbox (previously 5). Note that unrelated to Delirium Mist, further changes to Strongboxes will be made in an upcoming patch to make them less terrible.

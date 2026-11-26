@@ -1,0 +1,56 @@
+# https://poe2db.tw/us/Freezing_Salvo · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Tier	Gems
+1	Cold Attunement Concentrated Area Ice Bite I
+2	Cold Penetration Freeze Embitter
+3	Close Combat I Alignment I Stoicism I
+4	Execute II Alignment II Hit and Run
+5	Projectile Acceleration III Close Combat II Cold Mastery
+Level	Requires Level	Dex	Mana	Base Damage	30 % more Freeze Buildup	30 % more Magnitude of Chill inflicted
+1	0	4	15	48%, 48%, 48%	30	30
+2	3	9	18	53%, 53%, 53%	32	32
+3	6	14	20	58%, 58%, 58%	34	34
+4	10	21	23	63%, 63%, 63%	36	36
+5	14	28	26	68%, 68%, 68%	38	38
+6	18	35	29	73%, 73%, 73%	40	40
+7	22	41	33	79%, 79%, 79%	42	42
+8	26	48	36	83%, 83%, 83%	44	44
+9	31	57	40	88%, 88%, 88%	46	46
+10	36	65	44	92%, 92%, 92%	48	48
+11	41	74	49	97%, 97%, 97%	50	50
+12	46	82	54	101%, 101%, 101%	52	52
+13	52	92	59	106%, 106%, 106%	54	54
+14	58	103	64	112%, 112%, 112%	56	56
+15	64	113	70	117%, 117%, 117%	58	58
+16	66	116	76	123%, 123%, 123%	60	60
+17	72	126	83	129%, 129%, 129%	62	62
+18	78	137	90	136%, 136%, 136%	64	64
+19	84	147	97	143%, 143%, 143%	66	66
+20	90	157	105	150%, 150%, 150%	68	68
+21			113	157%, 157%, 157%	70	70
+22			122	165%, 165%, 165%	72	72
+23			131	173%, 173%, 173%	74	74
+24			141	182%, 182%, 182%	76	76
+25			152	191%, 191%, 191%	78	78
+26			163	201%, 201%, 201%	80	80
+27			175	211%, 211%, 211%	82	82
+28			188	221%, 221%, 221%	84	84
+29			201	232%, 232%, 232%	86	86
+30			215	244%, 244%, 244%	88	88
+31			230	256%, 256%, 256%	90	90
+32			246	269%, 269%, 269%	92	92
+33			263	282%, 282%, 282%	94	94
+34			280	296%, 296%, 296%	96	96
+35			299	311%, 311%, 311%	98	98
+36			319	327%, 327%, 327%	100	100
+37			340	343%, 343%, 343%	102	102
+38			362	360%, 360%, 360%	104	104
+39			386	378%, 378%, 378%	106	106
+40			410	397%, 397%, 397%	108	108
+Version	Changes
+0.5.0	* Freezing Salvo : Now has 34-68% more Magnitude of Chill inflicted and more Freeze Buildup at Gem levels 3-20 (previously 56-107%). * Unleash , Expand , Salvo , and Freezing Salvo Supports all now use the same concept of Seals, instead of each having their own version. This means standardised rules for Seals that will be consistent for all cases, resulting in some behaviour changes. Supports granting Seals now consistently all have the Seal category. * Freezing Salvo and Salvo Support previously had an extra restriction that the relevant skill could not gain Seals while you were performing that skill. This is no longer the case, bringing them into consistency with the other Seal mechanics.
+0.4.0	- Freezing Salvo is now offered as a Tier III Skill Gem.
+0.3.1	* Fixed a bug that prevented Deliberation Support from being able to support Freezing Salvo.
+0.3.0	- NEW: Freezing Salvo: Spread has been increased by 25% Now fires an additional arrow at each Ice Fragment near its target location. Now has an Attack Damage of 68-150% at Gem levels 5-20 (previously 78-172%). Now accumulates a missile every 0.75 seconds at all Gem levels (previously 1-0.8 seconds at Gem levels 5-20), and now accumulates up to 10 additional missiles (previously 12). Quality now provides 0-40% more Freeze Buildup (previously Delay between missile accumulation is 0 to -0.2 seconds shorter). - Freezing Salvo: Spread has been increased by 25% Now fires an additional arrow at each Ice Fragment near its target location. Now has an Attack Damage of 68-150% at Gem levels 5-20 (previously 78-172%). Now accumulates a missile every 0.75 seconds at all Gem levels (previously 1-0.8 seconds at Gem levels 5-20), and now accumulates up to 10 additional missiles (previously 12). Quality now provides 0-40% more Freeze Buildup (previously Delay between missile accumulation is 0 to -0.2 seconds shorter). - Freezing Salvo: Quality now provides 0-40% more Freeze Buildup (previously Delay between missile accumulation is 0 to -0.2 seconds shorter). - NEW: Freezing Salvo: Quality now provides 0-40% more Freeze Buildup (previously Delay between missile accumulation is 0 to -0.2 seconds shorter).
+0.2.0	- Freezing Salvo now scales Freeze Buildup with Gem level, up to 107% more at Gem level 20 (previously 50% at all levels). - When using a controller, Detonating Arrow and Freezing Salvo will now target enemies if not manually aimed.
+Name	Damage%	Life%	Spectre
+Bronnach, the Manhunter	175	130 |

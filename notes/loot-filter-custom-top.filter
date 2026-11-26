@@ -1,0 +1,122 @@
+#=====================================================================
+# David's PoE2 1.0 filter: custom top block (SKELETON, pre-1.0)
+# Base filter: NeverSink via FilterBlade, using its economy (value) tiers.
+# This block sits ABOVE NeverSink's rules (FilterBlade custom rules / paste on top).
+# Sounds: Lazy Exile casino pack -> Documents\My Games\Path of Exile 2\Lazy_Filtersound\
+#
+# STATUS: structure only. Lists marked TODO get filled after 1.0 launch
+# from poe.ninja prices. Class/BaseType names marked VERIFY must be checked
+# against the 1.0 NeverSink filter. Several new 1.0 items have unknown names.
+#
+# Value tiers (3, agreed):
+#   T1 = jackpot  -> 6veryvaluable.mp3 (casino payout)
+#   T2 = sell it  -> 2currency.mp3 (currency) / 3uniques.mp3 (uniques)
+#   T3 = maybe    -> 1maybevaluable.mp3 (crafting bases, borderline)
+#   everything else: NeverSink defaults, no custom sound
+#
+# Stage thresholds (David's sell curve). One FilterBlade strictness per stage:
+#   Stage 1  Act 1        pick up anything worth >= 1 ex   (Soft)
+#   Stage 2  Act 2        >= 3 ex                          (Regular)
+#   Stage 3  Act 3 -> 6   >= 10 ex, T1 at 50 ex+           (Semi-Strict)
+#   Stage 4  Maps         >= 50 ex, T1 at ~1 div+          (Strict)
+#   Stage 5  Juiced maps  >= 1 div                         (Very Strict)
+#=====================================================================
+
+#---------------------------------------------------------------------
+# T1 JACKPOT: payout sound. Fill BaseType lists from 1.0 prices.
+#---------------------------------------------------------------------
+Show # T1 currency (TODO: from poe.ninja day 1-2. 0.5 examples: Divine Orb, Mirror of Kalandra, Hinekora's Lock, Fracturing Orb, Perfect Chaos Orb)
+	Class == "Stackable Currency"   # VERIFY class name in 1.0
+	BaseType == "Divine Orb" "Mirror of Kalandra" "Hinekora's Lock" "Fracturing Orb" "Perfect Chaos Orb" "Perfect Exalted Orb"
+	SetFontSize 45
+	SetTextColor 255 0 0 255
+	SetBorderColor 255 0 0 255
+	SetBackgroundColor 255 255 255 255
+	PlayEffect Red
+	MinimapIcon 0 Red Star
+	CustomAlertSound "Lazy_Filtersound/6veryvaluable.mp3" 300
+
+Show # T1 uniques (TODO: top-value uniques for 1.0 meta. 0.5 examples: Mageblood, Headhunter, Temporalis)
+	Rarity Unique
+	BaseType == "Utility Belt" "Heavy Belt" "Silk Robe"   # TODO: base names of chase uniques; this also shows non-chase uniques on those bases
+	SetFontSize 45
+	SetTextColor 175 96 37 255
+	SetBorderColor 255 0 0 255
+	SetBackgroundColor 255 255 255 255
+	PlayEffect Red
+	MinimapIcon 0 Red Star
+	CustomAlertSound "Lazy_Filtersound/6veryvaluable.mp3" 300
+
+Show # T1 new 1.0 league currency (TODO: exact names. Reveal notes mention Crimson Iron and Blood Veils)
+	BaseType "Crimson Iron" "Blood Veil"   # VERIFY names at launch
+	SetFontSize 45
+	SetBorderColor 255 0 0 255
+	PlayEffect Red
+	MinimapIcon 0 Red Star
+	CustomAlertSound "Lazy_Filtersound/6veryvaluable.mp3" 300
+
+#---------------------------------------------------------------------
+# T2 SELL: worth listing at the current stage
+#---------------------------------------------------------------------
+Show # T2 currency (TODO: fill per stage threshold)
+	Class == "Stackable Currency"   # VERIFY
+	BaseType == "Orb of Annulment" "Chaos Orb" "Greater Chaos Orb" "Vaal Orb"
+	SetFontSize 40
+	SetBorderColor 255 255 255 255
+	PlayEffect White
+	MinimapIcon 1 White Circle
+	CustomAlertSound "Lazy_Filtersound/2currency.mp3" 300
+
+Show # T2 omens and Abyssal Bones (crafting, agreed highlight)
+	Class == "Omen"   # VERIFY
+	SetFontSize 40
+	SetBorderColor 200 100 255 255
+	MinimapIcon 1 Purple Circle
+	CustomAlertSound "Lazy_Filtersound/2currency.mp3" 300
+
+Show # T2 Abyssal Bones
+	BaseType "Abyssal Bone"   # VERIFY name/class in 1.0
+	SetFontSize 40
+	SetBorderColor 200 100 255 255
+	MinimapIcon 1 Purple Circle
+	CustomAlertSound "Lazy_Filtersound/2currency.mp3" 300
+
+Show # T2 jewels (60 sockets in 1.0 -> demand up)
+	Class == "Jewels"   # VERIFY
+	Rarity Rare Unique
+	SetFontSize 40
+	SetBorderColor 0 200 255 255
+	MinimapIcon 1 Cyan Diamond
+	CustomAlertSound "Lazy_Filtersound/3uniques.mp3" 300
+
+Show # T2 uniques (TODO: mid-value list per stage)
+	Rarity Unique
+	BaseType == "TODO"
+	SetFontSize 40
+	SetBorderColor 175 96 37 255
+	MinimapIcon 1 Brown Star
+	CustomAlertSound "Lazy_Filtersound/3uniques.mp3" 300
+
+#---------------------------------------------------------------------
+# T3 MAYBE: crafting bases (agreed highlight)
+#---------------------------------------------------------------------
+Show # T3 item level 82+ bases in the top base types per slot (TODO: base list after 1.0, 200+ new bases)
+	ItemLevel >= 82
+	Rarity Normal Magic
+	BaseType == "TODO"
+	SetFontSize 36
+	SetBorderColor 0 255 0 255
+	MinimapIcon 2 Green Square
+	CustomAlertSound "Lazy_Filtersound/1maybevaluable.mp3" 200
+
+#---------------------------------------------------------------------
+# Waystones (Lazy map sounds)
+#---------------------------------------------------------------------
+Show # High-tier waystones
+	Class == "Waystones"   # VERIFY
+	WaystoneTier >= 15     # VERIFY condition name + top tier in 1.0
+	CustomAlertSound "Lazy_Filtersound/5highmaps.mp3" 250
+
+Show # Other waystones
+	Class == "Waystones"
+	CustomAlertSound "Lazy_Filtersound/4maps.mp3" 200

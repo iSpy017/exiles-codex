@@ -1,0 +1,56 @@
+# https://poe2db.tw/us/Skeletal_Frost_Mage · crawl 2026-11-23 · CC BY-NC-SA 3.0
+Tier	Gems
+1	Multishot I Pierce I Last Gasp
+2	Multishot II Freeze Bidding I
+3	Pierce II Wildshards I Muster
+4	Projectile Acceleration II Bidding II Nova Projectiles II
+5	Projectile Acceleration III Minion Mastery Wildshards II
+Level	Requires Level	Int	Mana	Base Damage	Minion Level
+1	0	4	120	100%, 100%, 100%, 100%	2
+2	3	9	87	100%, 100%, 100%, 100%	4
+3	6	14	66	100%, 100%, 100%, 100%	6
+4	10	21	54	100%, 100%, 100%, 100%	8
+5	14	28	49	100%, 100%, 100%, 100%	10
+6	18	35	49	100%, 100%, 100%, 100%	12
+7	22	41	46	100%, 100%, 100%, 100%	14
+8	26	48	46	100%, 100%, 100%, 100%	16
+9	31	57	46	100%, 100%, 100%, 100%	18
+10	36	65	43	100%, 100%, 100%, 100%	20
+11	41	74	43	100%, 100%, 100%, 100%	22
+12	46	82	43	100%, 100%, 100%, 100%	24
+13	52	92	41	100%, 100%, 100%, 100%	26
+14	58	103	41	100%, 100%, 100%, 100%	28
+15	64	113	41	100%, 100%, 100%, 100%	30
+16	66	116	41	100%, 100%, 100%, 100%	32
+17	72	126	39	100%, 100%, 100%, 100%	34
+18	78	137	39	100%, 100%, 100%, 100%	36
+19	84	147	39	100%, 100%, 100%, 100%	38
+20	90	157	39	100%, 100%, 100%, 100%	40
+21			38	100%, 100%, 100%, 100%	42
+22			38	100%, 100%, 100%, 100%	44
+23			38	100%, 100%, 100%, 100%	46
+24			38	100%, 100%, 100%, 100%	48
+25			38	100%, 100%, 100%, 100%	50
+26			37	100%, 100%, 100%, 100%	52
+27			37	100%, 100%, 100%, 100%	54
+28			37	100%, 100%, 100%, 100%	56
+29			37	100%, 100%, 100%, 100%	58
+30			37	100%, 100%, 100%, 100%	60
+31			36	100%, 100%, 100%, 100%	62
+32			36	100%, 100%, 100%, 100%	64
+33			36	100%, 100%, 100%, 100%	66
+34			36	100%, 100%, 100%, 100%	68
+35			36	100%, 100%, 100%, 100%	70
+36			35	100%, 100%, 100%, 100%	72
+37			35	100%, 100%, 100%, 100%	74
+38			35	100%, 100%, 100%, 100%	76
+39			35	100%, 100%, 100%, 100%	78
+40			35	100%, 100%, 100%, 100%	80
+Version	Changes
+0.3.0	- Skeletal Frost Mage: Has a new Command Skill: Ice Armour. Ice Armour coats minions in an area in frost, reducing the damage they take from Hits, causes enemies that Hit them to take Cold damage, and counts as Frozen for other effects and Skills.Quality now provides Minions deal 0-20% more Damage, instead of 0-10% reduced Reservation.
+0.2.0	- Skeletal Frost Mage's Ice Bomb now has an 8 second cooldown (previously 6).
+Tags	bone_armour , bones , Caster, cold_affinity , is_unarmed , medium_height , medium_movement , not_dex , not_str , ranged , skeleton , slashing_weapon , Unarmed_onhit_audio , undead
+Family	MonsterNoDropsOrExperience
+Domains	Monster (3)
+GenerationType	Unique (3)
+Stats	monster no drops or experience 1 — 1 Global — Unscalable Value

@@ -1,8 +1,14 @@
-# Ice Shot Deadeye — Levelling Playbook (0.5.5 practice run for 1.0)
+---
+title: Ice Shot Deadeye — Levelling Playbook (0.5.5 practice run for 1.0)
+status: partial
+tracker_topic: "Ice Shot Deadeye levelling playbook (practice)"
+tracker_note: "partial (0.5.5, single-source; open items listed in doc)"
+defaults: v=0.5.5 vol=volatile
+---
 
 Version: 0.5.5. Volatility: volatile — re-judge on 1.0 patch-notes day. Written 2026-11-17.
 Purpose: follow this act by act on the practice char. Why this build → [[strategy/practice-build-0.5.5]]. 1.0 changes: Interludes removed, Acts 5–6 added, tree and supports reworked ([[campaign/interludes]]).
-Source keys: **[ML]** = [Mobalytics Fubgun Ice Shot levelling guide](https://mobalytics.gg/poe-2/builds/ice-shot-deadeye-leveling-guide) (tier 3, updated 2026-09-12). **[ME]** = [Mobalytics Ice Shot endgame guide](https://mobalytics.gg/poe-2/builds/ice-shot-deadeye) (tier 3, 2026-09-12). Both retrieved 2026-11-17. Everything is single-source unless a KB doc is cited. Zone levels and rewards come from the act docs (PoE2DB, tier 2).
+Source keys: **[ML]** = Mobalytics Fubgun Ice Shot levelling guide [S046] (tier 3, updated 2026-09-12). **[ME]** = Mobalytics Ice Shot endgame guide [S045] (tier 3, 2026-09-12). Both retrieved 2026-11-17. Everything is single-source unless a KB doc is cited. Zone levels and rewards come from the act docs (PoE2DB, tier 2).
 
 ## 0. Rules for this run
 - Route Acts 1–4, super-sweat. Time each act; note where time was lost ([[strategy/practice-build-0.5.5]]).
@@ -75,7 +81,7 @@ Format: zone (level) → what to take. "pts" = weapon-set passive points. Bold =
 
 ### Act 4 (46–53)
 - Take: **Ngakanu Greater Jeweller's** (Heart of the Tribe 53) · Journey's End: Hartlin gives L13 skill gem + Delirium drop, Omniphobia 2 pts · Halls of the Dead: Yama 2 pts + tattoo (+5 Dex or +5% res; [ML] lists Dex and cold/fire res) · Navali 2 pts (Trial of the Ancestors) · Eye of Hinekora +5% mana · Abandoned Prison +30% flask life recovery · Whakapanu shark → +30% evasion [ML] (Kaom/Rakiata choice, [[campaign/act-4]]).
-- Which Act 4 bosses give the points is disputed → [[04-conflicts]].
+- Which Act 4 bosses give the points is disputed → [[conflicts]].
 
 ### Interludes (0.5.5 only, removed in 1.0)
 - [ML]: Khari Crossing +5% max life and +3% MS · Kriar Village +40 spirit · Interlude choice (res / MS / global defence, changeable) · Eye of Hinekora/Halls etc. as above.
