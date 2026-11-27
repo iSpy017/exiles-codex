@@ -77,3 +77,9 @@ Amanamu's Tithe (Persistent Minions: 50% chance on Minion death for an Abyssal M
 - src: poe2db:Amanamus_Tithe «PoE2DB Amanamu's Tithe»; poe2db:Kurgals_Leash «PoE2DB Kurgal's Leash», tier 2, crawl 2026-11-23
 - conf: single-source each
 - notes: Drop sources of lineages: [[gems/lineage-drop-sources]].
+
+## Troves, pit interactions and boss variants (poe2wiki)
+@ v=0.5.x vol=may-change conf=single-source date=2026-11-27
+Sealing a pit (killing everything it spawned) gives an Abyssal Trove, a magic or rare chest with random items and preserved bones; variants: Abyssal Armoury (armour only + rib bones) and Abyssal Arsenal (weapons only + jawbone bones). Sometimes the pit opens an Abyssal Depths entrance instead (from Act 2): a linear underground area whose rares always have an Abyssal mod and whose end rare has a Lichborn mod, with several Troves plus a Large Abyssal Trove (exclusive rewards) and a button straight back to the surface. In area 79+ maps a pit can lead to Lightless Void or Dark Domain instead: same as Depths plus a room with an Abyssal boss; the desecrated map mod "Abysses lead to an Abyssal Boss" forces this. Pit monsters absorb the rarity and mods of monsters killed nearby, and some absorbed mods turn into Abyssal or Lichborn mods. Interactions near a pit: a map boss spawns a giant larva; rogue exiles come back as Lichborn exiles (keep their uniques, can drop an exclusive unique jewel); essence monsters can carry an extra Essence of the Abyss; Expedition explosions also bring out Abyssal monsters. "Area is overrun by the Abyssal" spawns all of a map's natural monsters near Abysses.
+- src: poe2wiki Abyss [S744], tier 2, retrieved 2026-11-27 (rev 134844)
+- notes: trove drop tables and boss stats are still not on the page. Rares in Depths dropping Omen of Light is cited to a stream on the wiki → tier 5, left out.

@@ -65,6 +65,7 @@ Sources on every fact · version tags · dated prices · conflicts logged, not s
 | site/kb.json, index.jsonl, coverage.json, coverage.html | tools/build_index.py (CI) | app, Claude retrieval, coverage page |
 | refresh-worklist.md | tools/crawl_diff.py <old> <new> | 1.0 refresh: entries citing changed pages |
 | — | tools/kbsearch.py "q" | BM25 section search (negations kept) |
+| — | tools/craftodds.py <class> --target <family> | exalt odds from PoE2DB spawn weights (data/mods) |
 | — | tools/copycheck.py <corpus> | paraphrase check: 9-word runs shared with the crawl (stat/name lists are expected hits) |
 
 Docs whose tables duplicate generated data carry `data: [...]` in frontmatter: query those files instead of reading the tables.

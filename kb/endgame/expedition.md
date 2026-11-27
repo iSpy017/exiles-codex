@@ -116,3 +116,9 @@ Uniques carry a limit tag naming Olroth or Expedition. Styrn in the Tomb of the 
 Dannig's faction items (Broken Circle Artifact, Black Scythe Artifact, Order Artifact, Sun Artifact) and Exotic Coinage each show "no longer usable" on their own pages (Broken Circle, Black Scythe, Order, Sun, Exotic Coinage). Farrow and the Verisium Anvil are the live Expedition services. Rog, Gwennen and Tujen pages exist, but their 0.5.x roles are not described in the corpus.
 - src: poe2db:Broken_Circle_Artifact, poe2db:Exotic_Coinage, tier 2, crawl 2026-11-23
 - notes: Remnant mods still reference Artifact quantity; treated as leftover text.
+
+## Remnant waves and rune carry-over (poe2wiki)
+@ v=0.5.x vol=may-change conf=single-source date=2026-11-27
+A detonated Verisium Remnant spawns waves of defenders: one fewer wave than it has runes; its runes empower monsters or add hazards left to right. Each detonated remnant also passes one highlighted rune to the monsters of every later explosion in the chain. Starting without choosing a runeshape picks one at random. Explosives must sit within range of the detonator or the previous explosive; the chain moves to the next explosive once most summoned monsters are dead. Shattering a cleared remnant gives the chosen reward, some Verisium and sometimes Crests for Runeforging.
+- src: poe2wiki Expedition [S743], tier 2, retrieved 2026-11-27 (rev 135464)
+- notes: explosive count and radius per tier still not on the page. Runes of Aldur (0.5) form; [[crafting/league-crafting]].

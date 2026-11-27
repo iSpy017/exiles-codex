@@ -2,26 +2,27 @@
 title: Ritual (endgame league mechanic)
 status: partial
 tracker_topic: "Ritual"
-tracker_note: "partial (0.5.x; tribute/reroll costs not in corpus; recheck 1.0)"
+tracker_note: "partial (0.5.x; reroll/defer rules from poe2wiki 2026-11-27; exact Tribute per kill and Favour prices still unpublished; recheck 1.0)"
 defaults: v=0.5.x
 ---
 
-Status: partial. Not found in corpus: Tribute per kill, Favour prices, defer cost formula, full unique reward pool, King phases.
+Status: partial. Defer split and reroll rules added from poe2wiki (2026-11-27). Still missing: exact Tribute per kill, Favour prices, full unique reward pool, King phases.
 Version: 0.5.x (PoE2DB crawl 2026-11-23). 1.0 not checked.
 Sources: PoE2DB Ritual, boss, item and Version pages. Tag `atlas-dependent` marks atlas-reliant facts (no passive content recorded).
 
 ## Encounter loop
 @ v=0.5.x vol=may-change conf=single-source date=2026-11-23
-Altars absorb monsters killed inside their circle. After enough kills you activate the altar and the same monsters are resurrected. Kill them again to earn Tribute. Tribute buys Favours (rewards) from the altar.
+Altars absorb monsters killed inside their circle. After enough kills you activate the altar and the same monsters are resurrected. Kill them again to earn Tribute. Tribute buys Favours (rewards) from the altar. A Ritual zone has 3 altars by default, plus 1 for each extra source of Ritual content; Favours open once every altar in the zone is done. Tribute per kill depends on monster rarity and falls 25% each time the same monster is revived in that area; the atlas keystone Invigorated Sacrifices can halve that penalty in exchange for tougher, harder-hitting monsters (poe2wiki Ritual [S740], tier 2, retrieved 2026-11-27). In the Rite of the Nameless every completed ritual adds a reroll to all later rituals in the Rite, but its Tribute can't go to the King.
 - src: poe2db:Ritual, tier 2, crawl 2026-11-23
 - conf: single-source (PoE2DB item/description text; wiki blurb on same page agrees)
 - notes: Later rituals in an area also spawn earlier revived monsters, so late altars are the biggest fights.
 
 
 ## Reroll and defer
-@ v=0.5.x vol=volatile conf=single-source date=2026-11-23
-The Favour list can be rerolled for a Tribute cost. A Favour can be deferred: you pay part of its price and it comes back later. The exact costs are not in the corpus.
-- src: poe2db:Ritual, tier 2, crawl 2026-11-23 poe2db:Version_0.5.5.
+@ v=0.5.5 vol=may-change conf=confirmed date=2026-11-27
+The Favour list can be rerolled for Tribute, once per ritual by default; reroll-cost reductions stop at 90%. Deferring a Favour costs 15% of its price: it then comes back in later rituals 10% cheaper, so 5% is the real fee. A deferred Favour that shows up again and isn't re-deferred can rise in price, and after being skipped too often you're warned it will leave the deferral pool. Leftover Tribute can be offered to the King (bar towards An Audience with the King); the atlas passive Royal Lenience lets Tribute offered that way still defer items, at a higher Tribute cost. Each Favour sits in a price tier, so the same item always costs about the same.
+- src: poe2db:Ritual, tier 2, crawl 2026-11-23 poe2db:Version_0.5.5.; poe2wiki Ritual [S740], tier 2, retrieved 2026-11-27 (reroll count, 90% floor, 15%/10%/5% defer split, Royal Lenience)
+- conf: confirmed for the mechanics both sources describe (reroll + defer exist, party rules); the numbers are wiki-only (single-source)
 - notes: Party members get their own limited reward list that cannot be rerolled (0.5.5). Free reroll mods exist on tablets/atlas (see tablet table).  Freythorn rituals never show deferred items (0.5.0), to avoid losing items on re-entry at a higher level.
 
 

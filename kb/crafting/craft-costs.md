@@ -46,3 +46,10 @@ Expected cost = sum of deterministic steps (fixed cost) + gamble steps × expect
 Guide example: an expensive deterministic high-end staff craft ~200 div vs a gamble version ~30–40 div; one 0.5 guide estimates gamble crafts cost 2–5× the price of buying the same finished item.
 - src: ameblo.jp blog and Timesaver blog, tier 5 (RMT-linked; leads only, unverified), retrieved 2026-11-17
 - conf: [INFERRED] — unverified, do not use for decisions
+
+## Exalt odds from spawn weights (tools/craftodds.py)
+@ v=0.5.x vol=may-change conf=single-source date=2026-11-27
+`tools/craftodds.py <class> --ilvl N --target <family> --min-tier T --have <families> --open prefix,suffix --orb normal|greater|perfect` gives the chance one exalt-type click lands a wanted mod, using PoE2DB spawn weights. Worked example, ilvl 82 amulet with nothing on it, target +100 or more maximum Life (tiers 8–9): Exalted 1.18% per click, Greater 2.24%, Perfect 3.21% (Perfect cuts the pool from 209 to 83 mods). Each miss stays on the item, so filling three open slots with Perfect Exalts hits at least once only ≈ 9%.
+- src: PoE2DB Amulets mod table (spawn weights) poe2db:Amulets, tier 2, crawl 2026-11-23 → data/mods/Amulets.json; min-mod-level rule from [[crafting/currency-index]]
+- conf: weights single-source: the RePoE game export only carries 0/1 eligibility flags, not real weights, so it can't confirm them
+- notes: [INFERRED] assumes one draw from all eligible prefixes+suffixes in proportion to weight. Priced at Forbidden Rites 2026-11-17 (Perfect Exalted 2.6 div, see above), a Perfect-exalt-then-annul loop costs ≥ 81 div per hit — late-league prices, recheck at 1.0.

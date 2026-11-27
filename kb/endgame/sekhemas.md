@@ -125,3 +125,9 @@ Missing hourglasses in the Zarokh fight no longer fails the Trial. It damages Ho
 - src: poe2db:Version_0.3.0 lines 528 and 549, tier 2, crawl 2026-11-23
 - v: 0.3.0 (patch note); current 0.5.x behaviour not re-checked
 - notes: later notes may supersede it.
+
+## Floors by Barya level, merchant and shrine costs (poe2wiki)
+@ v=0.5.x vol=may-change conf=single-source date=2026-11-27
+How many floors a Djinn Barya opens depends on its area level: floor 1 at 22+ (also Balbala's quest Barya), floor 2 at 45+, floor 3 at 60+, floor 4 at 75+; 4 floors × 8 rooms = 32 rooms. The Relic Altar has 18 spaces, 12 of which unlock by completing floors (floor boss included); relics can't be changed once a run starts. The merchant (Balbala, the Released, also guaranteed in each floor-boss reward room) sells Boons at individual prices, relics for 300/400/500 Sacred Water by size, and Honour restores; a shrine costs 5 Sacred Water to restore Honour. Leftover Sacred Water converts to keys at the Keth forge in each boss reward room. Honour Resistance caps at 75%. Progress (Honour, water, boons, keys, afflictions) carries across rooms and floors; a client crash resets the room but keeps any Honour change.
+- src: poe2wiki Trial of the Sekhemas [S742], tier 2, retrieved 2026-11-27 (rev 134811)
+- notes: the 75% Honour Resistance cap matches the 75/90 note at the top of this doc. Honour lost per hit still isn't quantified on the page.

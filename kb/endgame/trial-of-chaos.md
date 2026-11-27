@@ -2,7 +2,7 @@
 title: Trial of Chaos (Inscribed Ultimatum)
 status: partial
 tracker_topic: "Trial of Chaos"
-tracker_note: "partial (0.5.x; reward tables, Fate key differences missing; recheck 1.0)"
+tracker_note: "partial (0.5.x; run flow, 30-room extension and key tiers added 2026-11-27; reward table per room missing; recheck 1.0)"
 defaults: v=0.5.x
 ---
 
@@ -68,3 +68,9 @@ Cowardly Fate, Deadly Fate and Victorious Fate are keys used at the final door o
 The Trial can offer Soul Cores (about 20 types, such as Tacati for poison magnitude and chaos res, Azcapa for Spirit). Per-slot values on [PoE2DB The Trial of Chaos](https://poe2db.tw/us/The_Trial_of_Chaos).
 - src: poe2db:The_Trial_of_Chaos, tier 2, crawl 2026-11-23
 - notes: Soul core library: [[items/soul-core-idol-effects]].
+
+## Run flow, extension to 30 rooms and key tiers (poe2wiki)
+@ v=0.5.x vol=may-change conf=single-source date=2026-11-27
+Before each trial the Trialmaster shows that room's reward and three modifiers; the one you pick applies to this and every later trial in the run, and each modifier also adds item rarity. After a successful trial you either carry on (harder) or end the run and take what's accumulated. Dying ends the run and loses the Trialmaster's accumulated rewards, though items that dropped stay. Finishing a 10-room run lets you keep going for another 10, up to room 30, with modifiers and rewards carried over; those extra rooms can offer a wager that doubles a chosen stack of currency on success. Key tiers by Inscribed Ultimatum area level: 39+ (also the Chimeral quest key), 60+, 75+, and 75+ with all three Fate keys, which adds a fixed trial boss and The Trialmaster. The Chimeral quest version can't be ended before the fourth room.
+- src: poe2wiki The Trial of Chaos [S741], tier 2, retrieved 2026-11-27 (rev 135162)
+- notes: lengths per key level (4/7/10) already above from PoE2DB. Rarity per modifier and the extra-room wager list aren't quantified on the page. [[endgame/pinnacle-bosses]] for The Trialmaster.
