@@ -6,7 +6,7 @@ tracker_note: "partial (0.5.x; rooms, medallions, devices, Atziri/Architect; pha
 defaults: v=0.5.x
 ---
 
-Status: partial. Missing: Temple Atlas tree (out of scope), Tablet mods, room-card draw rules, room-boss mapping.
+Status: partial. Room-card rules added 2026-11-27 (poe2wiki). Missing: Temple Atlas tree (out of scope), Tablet mods, room-boss mapping.
 Version: 0.5.x (introduced 0.4.0 as the Fate of the Vaal league; core game from 0.5.0). Not checked for 1.0.
 Sources: PoE2DB crawl 2026-11-23 pages (Atziri's Temple, Atziri boss pages, Vaal Beacon, Energised Crystal, currency pages) plus PoE2DB patch-note pages 0.4.0 to 0.5.5.
 Name check: the PoE2DB page is "Atziri's Temple" (id IncursionTemple). Internal "Incursion" ids. Not the same thing as Trial of Chaos (see [[endgame/trial-of-chaos]]).
@@ -104,3 +104,9 @@ Atziri drops Atziri's Medallion (a vault key). Take it to the checkpoint at Atzi
 Xipocado, Royal Architect: life 371%, damage 300%, boss tier 2; reference level 80 life 115,251. Skills include tablet shuffle and tablet warp (names only). Other named uniques: Pakteni, Kulka (life 330%, damage 300%, 3 tiers), Xalapa, Xolotl, Cualli.
 - src: poe2db:Xipocado_2C_Royal_Architect «PoE2DB Xipocado» lines 19-66, poe2db:Kulka_2C_Vaal_Thaumaturge «PoE2DB Kulka», tier 2, crawl 2026-11-23
 - notes: [INFERRED] that Xalapa is the Spymaster boss (audio ids Spymaster_) and Pakteni the Flesh Surgeon (title); Xolotl and Cualli room links not found.
+
+## Temple console: grid and room-card rules (poe2wiki)
+@ v=0.5.x vol=may-change conf=single-source date=2026-11-27
+The console shows the temple as a 9×9 grid with the Foyer entrance and Atziri's Chamber on opposite sides. Energising it deals six Room Cards; roughly half are Paths. Rooms go only next to Paths or next to rooms they interact with; Paths have a fixed orientation, join other Paths that have an exit that way, and connect themselves to adjacent rooms. Pairs that upgrade each other's tier get a brighter green outline on the grid. At least one card must be placed (Ctrl+click on Run Temple skips this); unplaced cards are discarded. The first beacons (Act 3) only open the present-day Temple; after Act 3, Doryani turns it permanently into the past version, which unlocks the new rooms, the Architect and Medallions. Temple progress, stored crystals and Medallions are per character.
+- src: poe2wiki Atziri's Temple [S747], tier 2, retrieved 2026-11-27 (rev 133890; page flags tier-4 room rewards as unconfirmed)
+- notes: medallion effects above match the wiki. Room-boss mapping still open.

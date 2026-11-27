@@ -2,7 +2,7 @@
 title: Pinnacle Bosses: Roster, Unlock Keys, Areas
 status: partial
 tracker_topic: "Pinnacle bosses + keys/fragments"
-tracker_note: "partial (0.5.x roster, keys, stats, biggest hits; some key drop sources missing; recheck 1.0)"
+tracker_note: "partial (0.5.x roster, keys, stats, biggest hits; Triskelion + Raven's Reflection sources added 2026-11-27; recheck 1.0)"
 defaults: v=0.5.x
 merged_from: [pinnacle-bosses.md, pinnacle-bosses-2.md]
 ---
@@ -62,14 +62,14 @@ Ritual pinnacle. Perform the Rite of the Nameless at the effigy in Caer Tarth. N
 @ v=0.5.x vol=may-change conf=single-source date=2026-11-23
 Expedition (Runes of Aldur) pinnacle. Key is The Triskelion Reforged, made at the Verisium Anvil from Shattered Triskelion; use it at the Fallen Star after speaking to Makoru in the Ruins of Kingsmarch. Tradeable (Currency Exchange listing).
 - src: poe2db:The_Triskelion_Reforged, poe2db:Shattered_Triskelion, tier 2, crawl 2026-11-23
-- notes: Shattered Triskelion drop source not found in corpus.
+- notes: Shattered Triskelion drops from Olroth, Origin of the Fall (drop-restricted, drop level 1) — poe2wiki Shattered Triskelion [S745], tier 2, retrieved 2026-11-27.
 
 
 ## The Raven Trickster (The Withered Willow, area 79)
 @ v=0.5.x vol=may-change conf=single-source date=2026-11-23
 Delirium pinnacle. Key: Raven's Reflection, brought to the Mirror in the Withered Willow. Separate Delirium pinnacle encounter: Simulacrum (see Kosis).
 - src: poe2db:Ravens_Reflection «PoE2DB Raven's Reflection», poe2db:Delirium, tier 2, crawl 2026-11-23
-- notes: Raven's Reflection drop source not found in corpus.
+- notes: Raven's Reflection is obtained by completing the Simulacrum (drop-restricted) — poe2wiki Raven's Reflection [S746], tier 2, retrieved 2026-11-27. The wiki names the place to use it "The Withered Hollow", PoE2DB "The Withered Willow" ([[conflicts]] C053).
 
 
 ## Kosis, The Revelation (Simulacrum)

@@ -482,3 +482,12 @@ conflicts:
       - **Essence of Ice effect** — resolved by game data (batch 24, 2026-11-26) in favour of B: PoE2DB pages for all four Ice tiers give added cold damage on weapons (Perfect: % of damage as extra cold); spell crit belongs to Essence of Seeking. → [[crafting/essences]]
       - **Do alternate gem quality types exist?** — resolved for 0.5.x (batch 29, 2026-11-26): not obtainable. Secondary Regrading Lens is "Not in game" on PoE2DB; no Prime lens page exists. Recheck at 1.0. → [[gems/quality]]
       - **Quality added per quality currency** — still resolved toward B (direction); the PoE2DB crawl has no per-use amounts (batch 27). A tier-5 lead says ~3% per Armourer's Scrap (unverified).
+  - id: C053
+    topic: "Where Raven's Reflection is used"
+    from: kb/endgame/pinnacle-bosses.md
+    status: open
+    text: |
+      - Doc: kb/endgame/pinnacle-bosses.md
+      - Source A: PoE2DB Raven's Reflection / Delirium (crawl 2026-11-23) — the Mirror in The Withered Willow
+      - Source B: poe2wiki Raven's Reflection [S746] (2026-11-27) — used at The Withered Hollow
+      - Status: open, leaning A — the 2026-11-23 crawl says "Withered Willow" on many pages and "Withered Hollow" on none. Check in game.
