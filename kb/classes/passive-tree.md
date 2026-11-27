@@ -16,11 +16,11 @@ One passive point per character level, plus some from quests. Ascendancy points 
 
 
 ## Tree size (0.5.5.9, placed nodes on the main tree)
-@ v=0.5.5.9 vol=may-change conf=single-source date=2026-11-17 fill=v,vol
+@ v=0.5.5.9 vol=may-change conf=confirmed date=2026-11-27 fill=v,vol
 - ~4,480 placed nodes · 984 notables · 33 keystones · 18 jewel sockets.
 
-- src: RePoE poe2 passive_skill_trees/Default.json [S002], tier 2, retrieved 2026-11-17
-- conf: single-source (game data); 18 sockets matches the reveal notes' "18 → 60" (claude/reveal-notes-and-price-findings.md).
+- src: RePoE poe2 passive_skill_trees/Default.json [S002], tier 2, retrieved 2026-11-17; Path of Building PoE2 [S739] TreeData 0_5/tree.json (commit 601768b), tier 2, retrieved 2026-11-27 → data/passive_tree_0_5.csv
+- conf: confirmed — PoB's 0.5 tree gives the same 984 notables, 33 keystones and 18 jewel sockets on the main tree (PoB counts 4,546 nodes incl. 431 ascendancy nodes; node totals depend on what is counted); 18 sockets matches the reveal notes' "18 → 60" (claude/reveal-notes-and-price-findings.md).
 
 ## Node types
 @ v=0.5.x vol=may-change conf=confirmed date=2026-11-17 fill=vol

@@ -1,522 +1,522 @@
-category,name,base,req_level,release,flags,n_mods,page,crawl
-Weapon,Brynhand's Mark,Wooden Club,1,0.1.0,,5,https://poe2db.tw/us/Brynhands_Mark,2026-11-23
-Weapon,Frostbreath,Slim Mace,10,0.1.0,,5,https://poe2db.tw/us/Frostbreath,2026-11-23
-Weapon,Trenchtimbre,Spiked Club,16,0.1.0,,4,https://poe2db.tw/us/Trenchtimbre,2026-11-23
-Weapon,Sculpted Suffering,Warpick,22,Dawn of the Hunt,,5,https://poe2db.tw/us/Sculpted_Suffering,2026-11-23
-Weapon,Brutus' Lead Sprinkler,Morning Star,45,Runes of Aldur,,5,https://poe2db.tw/us/Brutus_Lead_Sprinkler,2026-11-23
-Weapon,Nebuloch,Execratus Hammer,55,Dawn of the Hunt,,5,https://poe2db.tw/us/Nebuloch,2026-11-23
-Weapon,Mjölner,Torment Club,65,Dawn of the Hunt,,5,https://poe2db.tw/us/Mj%C3%B6lner,2026-11-23
-Weapon,Olrovasara,Torment Club,65,0.1.0,,4,https://poe2db.tw/us/Olrovasara,2026-11-23
-Weapon,Serle's Grit,Kalguuran Forgehammer,47,Runes of Aldur,,6,https://poe2db.tw/us/Serles_Grit,2026-11-23
-Weapon,Hoghunt,Felled Greatclub,1,0.1.0,,5,https://poe2db.tw/us/Hoghunt,2026-11-23
-Weapon,Hrimnor's Hymn,Oak Greathammer,4,0.1.0,,5,https://poe2db.tw/us/Hrimnors_Hymn,2026-11-23
-Weapon,Trephina,Forge Maul,11,0.1.0,,5,https://poe2db.tw/us/Trephina,2026-11-23
-Weapon,Brain Rattler,Studded Greatclub,16,0.1.0,,3,https://poe2db.tw/us/Brain_Rattler,2026-11-23
-Weapon,The Empty Roar,Cultist Greathammer,22,Dawn of the Hunt,,6,https://poe2db.tw/us/The_Empty_Roar,2026-11-23
-Weapon,Shyaba,Temple Maul,28,Dawn of the Hunt,,6,https://poe2db.tw/us/Shyaba,2026-11-23
-Weapon,Chober Chaber,Leaden Greathammer,33,0.1.0,,6,https://poe2db.tw/us/Chober_Chaber,2026-11-23
-Weapon,Quecholli,Crumbling Maul,38,0.1.0,,6,https://poe2db.tw/us/Quecholli,2026-11-23
-Weapon,Tidebreaker,Pointed Maul,45,Dawn of the Hunt,,5,https://poe2db.tw/us/Tidebreaker,2026-11-23
-Weapon,Marohi Erqi,Totemic Greatclub,60,Rise of the Abyssal,,7,https://poe2db.tw/us/Marohi_Erqi,2026-11-23
-Weapon,Totemic Greatclub,Requires:,50,,Corrupted,1,https://poe2db.tw/us/Totemic_Greatclub,2026-11-23
-Weapon,The Hammer of Faith,Giant Maul,65,Dawn of the Hunt,,5,https://poe2db.tw/us/The_Hammer_of_Faith,2026-11-23
-Weapon,Splinter of Lorrata,Hardwood Spear,1,Dawn of the Hunt,,6,https://poe2db.tw/us/Splinter_of_Lorrata,2026-11-23
-Weapon,Tyranny's Grip,Ironhead Spear,5,Dawn of the Hunt,,7,https://poe2db.tw/us/Tyrannys_Grip,2026-11-23
-Weapon,Chainsting,Hunting Spear,10,Dawn of the Hunt,,7,https://poe2db.tw/us/Chainsting,2026-11-23
-Weapon,Skysliver,Winged Spear,16,Dawn of the Hunt,,6,https://poe2db.tw/us/Skysliver,2026-11-23
-Weapon,Daevata's Wind,War Spear,21,Dawn of the Hunt,,7,https://poe2db.tw/us/Daevatas_Wind,2026-11-23
-Weapon,Tangletongue,Forked Spear,26,Dawn of the Hunt,,6,https://poe2db.tw/us/Tangletongue,2026-11-23
-Weapon,Saitha's Spear,Barbed Spear,33,Dawn of the Hunt,,7,https://poe2db.tw/us/Saithas_Spear,2026-11-23
-Weapon,Spire of Ire,Helix Spear,65,Dawn of the Hunt,,6,https://poe2db.tw/us/Spire_of_Ire,2026-11-23
-Weapon,Helix Spear,Requires:,65,,Corrupted,1,https://poe2db.tw/us/Helix_Spear,2026-11-23
-Weapon,The Blood Thorn,Wrapped Quarterstaff,1,0.1.0,,4,https://poe2db.tw/us/The_Blood_Thorn,2026-11-23
-Weapon,Pillar of the Caged God,Long Quarterstaff,4,0.1.0,,4,https://poe2db.tw/us/Pillar_of_the_Caged_God,2026-11-23
-Weapon,The Sentry,Gothic Quarterstaff,11,0.1.0,,6,https://poe2db.tw/us/The_Sentry,2026-11-23
-Weapon,Matsya,Crescent Quarterstaff,20,0.1.0,,6,https://poe2db.tw/us/Matsya,2026-11-23
-Weapon,Nazir's Judgement,Steelpoint Quarterstaff,28,0.1.0,,5,https://poe2db.tw/us/Nazirs_Judgement,2026-11-23
-Weapon,Collapsing Horizon,Wyrm Quarterstaff,65,0.1.0,,4,https://poe2db.tw/us/Collapsing_Horizon,2026-11-23
-Weapon,The Wicked Quill,Withered Wand,1,Dawn of the Hunt,,4,https://poe2db.tw/us/The_Wicked_Quill,2026-11-23
-Weapon,Sanguine Diviner,Bone Wand,2,0.1.0,,4,https://poe2db.tw/us/Sanguine_Diviner,2026-11-23
-Weapon,Lifesprig,Attuned Wand,2,0.1.0,,4,https://poe2db.tw/us/Lifesprig,2026-11-23
-Weapon,Adonia's Ego,Siphoning Wand,65,Dawn of the Hunt,,6,https://poe2db.tw/us/Adonias_Ego,2026-11-23
-Weapon,Enezun's Charge,Volatile Wand,16,0.1.0,,4,https://poe2db.tw/us/Enezuns_Charge,2026-11-23
-Weapon,Cursecarver,Acrid Wand,33,Dawn of the Hunt,,4,https://poe2db.tw/us/Cursecarver,2026-11-23
-Weapon,Liminal Coil,Twisted Wand,65,Runes of Aldur,,6,https://poe2db.tw/us/Liminal_Coil,2026-11-23
-Weapon,Runeseeker's Call,Runic Fork,65,Runes of Aldur,,3,https://poe2db.tw/us/Runeseekers_Call,2026-11-23
-Weapon,Dusk Vigil,Ashen Staff,1,0.1.0,,5,https://poe2db.tw/us/Dusk_Vigil,2026-11-23
-Weapon,Taryn's Shiver,Gelid Staff,2,0.1.0,,4,https://poe2db.tw/us/Taryns_Shiver,2026-11-23
-Weapon,Earthbound,Voltaic Staff,2,0.1.0,,5,https://poe2db.tw/us/Earthbound,2026-11-23
-Weapon,The Searing Touch,Pyrophyte Staff,16,0.1.0,,5,https://poe2db.tw/us/The_Searing_Touch,2026-11-23
-Weapon,Sire of Shards,Chiming Staff,25,Dawn of the Hunt,,5,https://poe2db.tw/us/Sire_of_Shards,2026-11-23
-Weapon,The Burden of Shadows,Chiming Staff,78,0.1.0,,3,https://poe2db.tw/us/The_Burden_of_Shadows,2026-11-23
-Weapon,The Unborn Lich,Ravenous Staff,65,Rise of the Abyssal,,1,https://poe2db.tw/us/The_Unborn_Lich,2026-11-23
-Weapon,The Whispering Ice,Permafrost Staff,75,Dawn of the Hunt,,5,https://poe2db.tw/us/The_Whispering_Ice,2026-11-23
-Weapon,Atziri's Rule,Reflecting Staff,70,Fate of the Vaal,Corrupted,5,https://poe2db.tw/us/Atziris_Rule,2026-11-23
-Weapon,The Raven's Flock,Perching Staff,65,Runes of Aldur,,5,https://poe2db.tw/us/The_Ravens_Flock,2026-11-23
-Weapon,Widowhail,Crude Bow,1,0.1.0,,1,https://poe2db.tw/us/Widowhail,2026-11-23
-Weapon,Quill Rain,Shortbow,5,0.1.0,,4,https://poe2db.tw/us/Quill_Rain,2026-11-23
-Weapon,Ironbound,Warden Bow,11,Runes of Aldur,,7,https://poe2db.tw/us/Ironbound,2026-11-23
-Weapon,Splinterheart,Recurve Bow,16,0.1.0,,4,https://poe2db.tw/us/Splinterheart,2026-11-23
-Weapon,Doomfletch,Composite Bow,22,Dawn of the Hunt,,4,https://poe2db.tw/us/Doomfletch,2026-11-23
-Weapon,Death's Harp,Dualstring Bow,28,0.1.0,,5,https://poe2db.tw/us/Deaths_Harp,2026-11-23
-Weapon,Slivertongue,Zealot Bow,39,Dawn of the Hunt,,6,https://poe2db.tw/us/Slivertongue,2026-11-23
-Weapon,Fairgraves' Curse,Artillery Bow,45,Rise of the Abyssal,,7,https://poe2db.tw/us/Fairgraves_Curse,2026-11-23
-Weapon,Artillery Bow,Requires:,45,,Corrupted,1,https://poe2db.tw/us/Artillery_Bow,2026-11-23
-Weapon,Lioneye's Glare,Heavy Bow,65,Dawn of the Hunt,,6,https://poe2db.tw/us/Lioneyes_Glare,2026-11-23
-Weapon,Mist Whisper,Makeshift Crossbow,1,0.1.0,,5,https://poe2db.tw/us/Mist_Whisper,2026-11-23
-Weapon,Rampart Raptor,Tense Crossbow,4,0.1.0,,5,https://poe2db.tw/us/Rampart_Raptor,2026-11-23
-Weapon,Double Vision,Dyad Crossbow,20,Rise of the Abyssal,,6,https://poe2db.tw/us/Double_Vision,2026-11-23
-Weapon,The Dark Defiler,Rattling Sceptre,1,0.1.0,,4,https://poe2db.tw/us/The_Dark_Defiler,2026-11-23
-Weapon,Sylvan's Effigy,Stoic Sceptre,62,Runes of Aldur,,6,https://poe2db.tw/us/Sylvans_Effigy,2026-11-23
-Weapon,Font of Power,Omen Sceptre,16,0.1.0,,4,https://poe2db.tw/us/Font_of_Power,2026-11-23
-Weapon,Sacred Flame,Shrine Sceptre,55,0.1.0,,4,https://poe2db.tw/us/Sacred_Flame,2026-11-23
-Weapon,Guiding Palm of the Heart,Shrine Sceptre,65,0.1.0,,6,https://poe2db.tw/us/Guiding_Palm_of_the_Heart,2026-11-23
-Weapon,Guiding Palm of the Eye,Shrine Sceptre,65,Dawn of the Hunt,,6,https://poe2db.tw/us/Guiding_Palm_of_the_Eye,2026-11-23
-Weapon,Guiding Palm of the Mind,Shrine Sceptre,65,Dawn of the Hunt,,6,https://poe2db.tw/us/Guiding_Palm_of_the_Mind,2026-11-23
-Weapon,Palm of the Dreamer,Shrine Sceptre,65,Dawn of the Hunt,Corrupted,6,https://poe2db.tw/us/Palm_of_the_Dreamer,2026-11-23
-Weapon,Amor Mandragora,Changeling Talisman,1,Fate of the Vaal,,5,https://poe2db.tw/us/Amor_Mandragora,2026-11-23
-Weapon,Spiteful Floret,Nettle Talisman,5,Runes of Aldur,,6,https://poe2db.tw/us/Spiteful_Floret,2026-11-23
-Weapon,Hysseg's Claw,Familial Talisman,16,Fate of the Vaal,,6,https://poe2db.tw/us/Hyssegs_Claw,2026-11-23
-Weapon,The Flesh Poppet,Vicious Talisman,40,Fate of the Vaal,,5,https://poe2db.tw/us/The_Flesh_Poppet,2026-11-23
-Weapon,Surge of the Tide,Lumbering Talisman,52,Runes of Aldur,,5,https://poe2db.tw/us/Surge_of_the_Tide,2026-11-23
-Weapon,Seeing Stars,Marching Mace,54,0.1.0,,4,https://poe2db.tw/us/Seeing_Stars,2026-11-23
-Weapon,Sadist's Mercy,Flanged Mace,67,Runes of Aldur,,6,https://poe2db.tw/us/Sadists_Mercy,2026-11-23
-Weapon,Twisted Empyrean,Aberrant Sledge,70,Runes of Aldur,,8,https://poe2db.tw/us/Twisted_Empyrean,2026-11-23
-Weapon,Duality,Warding Quarterstaff,65,Runes of Aldur,,6,https://poe2db.tw/us/Duality,2026-11-23
-Weapon,Voltaxic Rift,Fanatic Bow,79,Dawn of the Hunt,,5,https://poe2db.tw/us/Voltaxic_Rift,2026-11-23
-Weapon,Fanatic Bow,Requires:,79,,Corrupted,1,https://poe2db.tw/us/Fanatic_Bow,2026-11-23
-Weapon,Periphery,Heartwood Shortbow,67,Runes of Aldur,,6,https://poe2db.tw/us/Periphery,2026-11-23
-Weapon,The Last Lament,Desolate Crossbow,77,Dawn of the Hunt,,7,https://poe2db.tw/us/The_Last_Lament,2026-11-23
-Weapon,Redemption,Trarthan Cannon,65,Runes of Aldur,,5,https://poe2db.tw/us/Redemption,2026-11-23
-Weapon,Atziri's Contempt,Pronged Spear,72,Fate of the Vaal,,7,https://poe2db.tw/us/Atziris_Contempt,2026-11-23
-Weapon,Pronged Spear,Requires:,72,,Corrupted,1,https://poe2db.tw/us/Pronged_Spear,2026-11-23
-Weapon,The Ordained,Grand Spear,79,Runes of Aldur,,7,https://poe2db.tw/us/The_Ordained,2026-11-23
-Weapon,Grand Spear,Requires:,79,,Corrupted,2,https://poe2db.tw/us/Grand_Spear,2026-11-23
-Weapon,Fury of the King,Ashbark Talisman,72,Fate of the Vaal,,7,https://poe2db.tw/us/Fury_of_the_King,2026-11-23
-Weapon,Ashbark Talisman,Requires:,72,,Corrupted,1,https://poe2db.tw/us/Ashbark_Talisman,2026-11-23
-Armour,Bramblejack,Rusted Cuirass,1,0.1.0,,5,https://poe2db.tw/us/Bramblejack,2026-11-23
-Armour,Blackbraid,Fur Plate,4,0.1.0,,6,https://poe2db.tw/us/Blackbraid,2026-11-23
-Armour,Edyrn's Tusks,Iron Cuirass,11,0.1.0,,4,https://poe2db.tw/us/Edyrns_Tusks,2026-11-23
-Armour,Titanrot Cataphract,Maraketh Cuirass,20,0.1.0,,5,https://poe2db.tw/us/Titanrot_Cataphract,2026-11-23
-Armour,Wandering Reliquary,Steel Plate,27,0.1.0,,5,https://poe2db.tw/us/Wandering_Reliquary,2026-11-23
-Armour,Kingsguard,Full Plate,33,0.1.0,,5,https://poe2db.tw/us/Kingsguard,2026-11-23
-Armour,Greed's Embrace,Vaal Cuirass,37,0.1.0,,5,https://poe2db.tw/us/Greeds_Embrace,2026-11-23
-Armour,The Brass Dome,Champion Cuirass,58,0.1.0,,4,https://poe2db.tw/us/The_Brass_Dome,2026-11-23
-Armour,Kaom's Heart,Conqueror Plate,68,0.1.0,,3,https://poe2db.tw/us/Kaoms_Heart,2026-11-23
-Armour,Bristleboar,Leather Vest,1,0.1.0,,5,https://poe2db.tw/us/Bristleboar,2026-11-23
-Armour,Foxshade,Quilted Vest,4,0.1.0,,4,https://poe2db.tw/us/Foxshade,2026-11-23
-Armour,Ashrend,Pathfinder Coat,11,0.1.0,,5,https://poe2db.tw/us/Ashrend,2026-11-23
-Armour,Sands of Silk,Shrouded Vest,16,Dawn of the Hunt,,7,https://poe2db.tw/us/Sands_of_Silk,2026-11-23
-Armour,Briskwrap,Rhoahide Coat,22,0.1.0,,6,https://poe2db.tw/us/Briskwrap,2026-11-23
-Armour,Dustbloom,Studded Vest,26,0.1.0,,3,https://poe2db.tw/us/Dustbloom,2026-11-23
-Armour,The Rat Cage,Scout's Vest,33,0.1.0,,4,https://poe2db.tw/us/The_Rat_Cage,2026-11-23
-Armour,Quatl's Molt,Serpentscale Coat,36,0.1.0,,6,https://poe2db.tw/us/Quatls_Molt,2026-11-23
-Armour,Queen of the Forest,Smuggler Coat,51,0.1.0,,5,https://poe2db.tw/us/Queen_of_the_Forest,2026-11-23
-Armour,Yriel's Fostering,Strider Vest,52,Dawn of the Hunt,,6,https://poe2db.tw/us/Yriels_Fostering,2026-11-23
-Armour,The Auspex,Exquisite Vest,65,Runes of Aldur,,6,https://poe2db.tw/us/The_Auspex,2026-11-23
-Armour,Hyrri's Ire,Armoured Vest,73,Dawn of the Hunt,,6,https://poe2db.tw/us/Hyrris_Ire,2026-11-23
-Armour,Ghostwrithe,Tattered Robe,1,0.1.0,,3,https://poe2db.tw/us/Ghostwrithe,2026-11-23
-Armour,Bitterbloom,Feathered Robe,5,0.1.0,,4,https://poe2db.tw/us/Bitterbloom,2026-11-23
-Armour,The Black Doubt,Hexer's Robe,11,0.1.0,,4,https://poe2db.tw/us/The_Black_Doubt,2026-11-23
-Armour,Necromantle,Bone Raiment,16,0.1.0,,5,https://poe2db.tw/us/Necromantle,2026-11-23
-Armour,Cloak of Flame,Silk Robe,22,0.1.0,,5,https://poe2db.tw/us/Cloak_of_Flame,2026-11-23
-Armour,Temporalis,Silk Robe,64,0.1.0,,5,https://poe2db.tw/us/Temporalis,2026-11-23
-Armour,Prayers for Rain,Keth Raiment,28,0.1.0,,5,https://poe2db.tw/us/Prayers_for_Rain,2026-11-23
-Armour,Tetzlapokal's Desire,Votive Raiment,33,0.1.0,,5,https://poe2db.tw/us/Tetzlapokals_Desire,2026-11-23
-Armour,The Covenant,Altar Robe,40,0.1.0,,5,https://poe2db.tw/us/The_Covenant,2026-11-23
-Armour,Gloamgown,Elementalist Robe,45,Dawn of the Hunt,,5,https://poe2db.tw/us/Gloamgown,2026-11-23
-Armour,Vis Mortis,Plated Raiment,58,Dawn of the Hunt,,4,https://poe2db.tw/us/Vis_Mortis,2026-11-23
-Armour,Cloak of Defiance,Havoc Raiment,65,Dawn of the Hunt,,4,https://poe2db.tw/us/Cloak_of_Defiance,2026-11-23
-Armour,Silks of Veneration,Enlightened Robe,68,Dawn of the Hunt,,6,https://poe2db.tw/us/Silks_of_Veneration,2026-11-23
-Armour,Coat of Red,Chain Mail,1,0.1.0,,4,https://poe2db.tw/us/Coat_of_Red,2026-11-23
-Armour,The Barrow Dweller,Rogue Armour,11,0.1.0,,5,https://poe2db.tw/us/The_Barrow_Dweller,2026-11-23
-Armour,Irongrasp,Vagabond Armour,16,0.1.0,,5,https://poe2db.tw/us/Irongrasp,2026-11-23
-Armour,Pariah's Embrace,Cloaked Mail,26,0.1.0,,5,https://poe2db.tw/us/Pariahs_Embrace,2026-11-23
-Armour,Belly of the Beast,Explorer Armour,33,0.1.0,,5,https://poe2db.tw/us/Belly_of_the_Beast,2026-11-23
-Armour,Pragmatism,Explorer Armour,52,0.1.0,,4,https://poe2db.tw/us/Pragmatism,2026-11-23
-Armour,Doryani's Prototype,Scale Mail,37,0.1.0,,5,https://poe2db.tw/us/Doryanis_Prototype,2026-11-23
-Armour,Widow's Reign,Knight Armour,45,Dawn of the Hunt,,5,https://poe2db.tw/us/Widows_Reign,2026-11-23
-Armour,Perfidy,Knight Armour,45,0.1.0,,7,https://poe2db.tw/us/Perfidy,2026-11-23
-Armour,The Sunken Vessel,Knight Armour,45,Runes of Aldur,,6,https://poe2db.tw/us/The_Sunken_Vessel,2026-11-23
-Armour,Lightning Coil,Ancestral Mail,50,Rise of the Abyssal,,6,https://poe2db.tw/us/Lightning_Coil,2026-11-23
-Armour,The Fallen Formation,Lamellar Mail,54,Dawn of the Hunt,,6,https://poe2db.tw/us/The_Fallen_Formation,2026-11-23
-Armour,The Coming Calamity,Heroic Armour,65,Dawn of the Hunt,,4,https://poe2db.tw/us/The_Coming_Calamity,2026-11-23
-Armour,Enfolding Dawn,Pilgrim Vestments,1,0.1.0,,4,https://poe2db.tw/us/Enfolding_Dawn,2026-11-23
-Armour,Icetomb,Mail Vestments,16,0.1.0,,4,https://poe2db.tw/us/Icetomb,2026-11-23
-Armour,Reverie,Shaman Mantle,28,Runes of Aldur,,6,https://poe2db.tw/us/Reverie,2026-11-23
-Armour,Soul Mantle,Sacrificial Mantle,36,Dawn of the Hunt,,6,https://poe2db.tw/us/Soul_Mantle,2026-11-23
-Armour,The Mutable Star,Cleric Vestments,45,Dawn of the Hunt,,6,https://poe2db.tw/us/The_Mutable_Star,2026-11-23
-Armour,Waveshaper,Tideseer Mantle,51,Dawn of the Hunt,,6,https://poe2db.tw/us/Waveshaper,2026-11-23
-Armour,Couture of Crimson,Gilded Vestments,52,0.1.0,,4,https://poe2db.tw/us/Couture_of_Crimson,2026-11-23
-Armour,Geofri's Sanctuary,Revered Vestments,65,Runes of Aldur,,7,https://poe2db.tw/us/Geofris_Sanctuary,2026-11-23
-Armour,The Unleashed,Revered Vestments,65,Runes of Aldur,,5,https://poe2db.tw/us/The_Unleashed,2026-11-23
-Armour,Sacrosanctum,Corvus Mantle,68,Dawn of the Hunt,,7,https://poe2db.tw/us/Sacrosanctum,2026-11-23
-Armour,Loreweave,Ornate Ringmail,43,Runes of Aldur,,7,https://poe2db.tw/us/Loreweave,2026-11-23
-Armour,Decree of Loyalty,Ancient Mail,70,Runes of Aldur,,6,https://poe2db.tw/us/Decree_of_Loyalty,2026-11-23
-Armour,Apron of Emiran,Hermit Garb,1,0.1.0,,4,https://poe2db.tw/us/Apron_of_Emiran,2026-11-23
-Armour,Gloomform,Waxed Jacket,11,0.1.0,,5,https://poe2db.tw/us/Gloomform,2026-11-23
-Armour,Sierran Inheritance,Marabout Garb,16,0.1.0,,6,https://poe2db.tw/us/Sierran_Inheritance,2026-11-23
-Armour,The Dancing Mirage,Wayfarer Jacket,28,0.1.0,,4,https://poe2db.tw/us/The_Dancing_Mirage,2026-11-23
-Armour,Redflare Conduit,Anchorite Garb,33,0.1.0,,5,https://poe2db.tw/us/Redflare_Conduit,2026-11-23
-Armour,Zerphi's Serape,Scalper's Jacket,39,Dawn of the Hunt,,6,https://poe2db.tw/us/Zerphis_Serape,2026-11-23
-Armour,Cospri's Will,Assassin Garb,73,Rise of the Abyssal,,6,https://poe2db.tw/us/Cospris_Will,2026-11-23
-Armour,Wings of Caelyn,Rusted Greathelm,1,0.1.0,,5,https://poe2db.tw/us/Wings_of_Caelyn,2026-11-23
-Armour,Horns of Bynden,Rusted Greathelm,1,0.1.0,,5,https://poe2db.tw/us/Horns_of_Bynden,2026-11-23
-Armour,Ezomyte Peak,Soldier Greathelm,12,0.1.0,,5,https://poe2db.tw/us/Ezomyte_Peak,2026-11-23
-Armour,Black Sun Crest,Wrapped Greathelm,16,0.1.0,,5,https://poe2db.tw/us/Black_Sun_Crest,2026-11-23
-Armour,Thrillsteel,Spired Greathelm,27,0.1.0,,1,https://poe2db.tw/us/Thrillsteel,2026-11-23
-Armour,Deidbell,Elite Greathelm,33,0.1.0,,5,https://poe2db.tw/us/Deidbell,2026-11-23
-Armour,Corona of the Red Sun,Warrior Greathelm,36,0.1.0,,5,https://poe2db.tw/us/Corona_of_the_Red_Sun,2026-11-23
-Armour,Blood Price,Fierce Greathelm,51,Dawn of the Hunt,,5,https://poe2db.tw/us/Blood_Price,2026-11-23
-Armour,Innsmouth,Shabby Hood,1,0.1.0,,5,https://poe2db.tw/us/Innsmouth,2026-11-23
-Armour,Goldrim,Felt Cap,10,0.1.0,,3,https://poe2db.tw/us/Goldrim,2026-11-23
-Armour,Radiant Grief,Lace Hood,16,0.1.0,,4,https://poe2db.tw/us/Radiant_Grief,2026-11-23
-Armour,Elevore,Hunter Hood,33,0.1.0,,4,https://poe2db.tw/us/Elevore,2026-11-23
-Armour,Constricting Command,Viper Cap,38,Dawn of the Hunt,,4,https://poe2db.tw/us/Constricting_Command,2026-11-23
-Armour,The Black Insignia,Corsair Cap,45,Dawn of the Hunt,,5,https://poe2db.tw/us/The_Black_Insignia,2026-11-23
-Armour,Starkonja's Head,Leatherbound Hood,50,Dawn of the Hunt,,5,https://poe2db.tw/us/Starkonjas_Head,2026-11-23
-Armour,Heatshiver,Velvet Cap,52,Dawn of the Hunt,,5,https://poe2db.tw/us/Heatshiver,2026-11-23
-Armour,Myris Uxor,Covert Hood,56,0.1.0,,4,https://poe2db.tw/us/Myris_Uxor,2026-11-23
-Armour,Alpha's Howl,Plumed Cap,61,0.1.0,,4,https://poe2db.tw/us/Alphas_Howl,2026-11-23
-Armour,Crown of Thorns,Twig Circlet,1,0.1.0,,4,https://poe2db.tw/us/Crown_of_Thorns,2026-11-23
-Armour,The Devouring Diadem,Wicker Tiara,10,0.1.0,,5,https://poe2db.tw/us/The_Devouring_Diadem,2026-11-23
-Armour,Visage of Ayah,Beaded Circlet,16,0.1.0,,5,https://poe2db.tw/us/Visage_of_Ayah,2026-11-23
-Armour,Sandstorm Visage,Chain Tiara,52,0.1.0,,4,https://poe2db.tw/us/Sandstorm_Visage,2026-11-23
-Armour,Mask of the Stitched Demon,Feathered Tiara,33,0.1.0,,4,https://poe2db.tw/us/Mask_of_the_Stitched_Demon,2026-11-23
-Armour,Atziri's Disdain,Gold Circlet,40,0.1.0,,4,https://poe2db.tw/us/Atziris_Disdain,2026-11-23
-Armour,Crown of Eyes,Vermeil Circlet,45,Dawn of the Hunt,,5,https://poe2db.tw/us/Crown_of_Eyes,2026-11-23
-Armour,Scold's Bridle,Jade Tiara,50,Dawn of the Hunt,,5,https://poe2db.tw/us/Scolds_Bridle,2026-11-23
-Armour,Indigon,Magus Tiara,65,Dawn of the Hunt,,5,https://poe2db.tw/us/Indigon,2026-11-23
-Armour,Greymake,Brimmed Helm,5,0.1.0,,4,https://poe2db.tw/us/Greymake,2026-11-23
-Armour,Erian's Cobble,Guarded Helm,11,0.1.0,,15,https://poe2db.tw/us/Erians_Cobble,2026-11-23
-Armour,Ironride,Visored Helm,16,0.1.0,,5,https://poe2db.tw/us/Ironride,2026-11-23
-Armour,The Smiling Knight,Cowled Helm,26,0.1.0,,4,https://poe2db.tw/us/The_Smiling_Knight,2026-11-23
-Armour,The Vile Knight,Shielded Helm,33,0.1.0,,4,https://poe2db.tw/us/The_Vile_Knight,2026-11-23
-Armour,Assailum,Closed Helm,45,0.1.0,,4,https://poe2db.tw/us/Assailum,2026-11-23
-Armour,The Bringer of Rain,Decorated Helm,52,Dawn of the Hunt,,7,https://poe2db.tw/us/The_Bringer_of_Rain,2026-11-23
-Armour,Decree of Acuity,Ancient Visor,65,Runes of Aldur,,5,https://poe2db.tw/us/Decree_of_Acuity,2026-11-23
-Armour,Crown of the Victor,Iron Crown,5,0.1.0,,4,https://poe2db.tw/us/Crown_of_the_Victor,2026-11-23
-Armour,Bronzebeard,Horned Crown,10,0.1.0,,6,https://poe2db.tw/us/Bronzebeard,2026-11-23
-Armour,Crown of the Pale King,Cultist Crown,16,0.1.0,,5,https://poe2db.tw/us/Crown_of_the_Pale_King,2026-11-23
-Armour,Veil of the Night,Martyr Crown,28,0.1.0,,4,https://poe2db.tw/us/Veil_of_the_Night,2026-11-23
-Armour,Cornathaum,Heavy Crown,33,0.1.0,,4,https://poe2db.tw/us/Cornathaum,2026-11-23
-Armour,Keeper of the Arc,Spiritbone Crown,62,0.1.0,,4,https://poe2db.tw/us/Keeper_of_the_Arc,2026-11-23
-Armour,Vestige of Darkness,Tenebrous Crown,65,Runes of Aldur,,5,https://poe2db.tw/us/Vestige_of_Darkness,2026-11-23
-Armour,The Hollow Mask,Hewn Mask,5,Runes of Aldur,,7,https://poe2db.tw/us/The_Hollow_Mask,2026-11-23
-Armour,Mask of the Sanguimancer,Face Mask,10,0.1.0,,5,https://poe2db.tw/us/Mask_of_the_Sanguimancer,2026-11-23
-Armour,Leer Cast,Hooded Mask,16,0.1.0,,5,https://poe2db.tw/us/Leer_Cast,2026-11-23
-Armour,Atsak's Sight,Veiled Mask,28,0.1.0,,5,https://poe2db.tw/us/Atsaks_Sight,2026-11-23
-Armour,The Vertex,Tribal Mask,33,0.1.0,,5,https://poe2db.tw/us/The_Vertex,2026-11-23
-Armour,Glimpse of Chaos,Tribal Mask,52,0.1.0,Corrupted,7,https://poe2db.tw/us/Glimpse_of_Chaos,2026-11-23
-Armour,The Three Dragons,Solid Mask,45,0.1.0,,5,https://poe2db.tw/us/The_Three_Dragons,2026-11-23
-Armour,Mind of the Council,Death Mask,65,Dawn of the Hunt,,5,https://poe2db.tw/us/Mind_of_the_Council,2026-11-23
-Armour,Facebreaker,Stocky Mitts,1,Runes of Aldur,,13,https://poe2db.tw/us/Facebreaker,2026-11-23
-Armour,Treefingers,Riveted Mitts,11,0.1.0,,14,https://poe2db.tw/us/Treefingers,2026-11-23
-Armour,Lochtonial Caress,Tempered Mitts,16,0.1.0,,12,https://poe2db.tw/us/Lochtonial_Caress,2026-11-23
-Armour,Dreadfist,Bolstered Mitts,27,Dawn of the Hunt,,12,https://poe2db.tw/us/Dreadfist,2026-11-23
-Armour,Atziri's Acuity,Moulded Mitts,33,0.1.0,,13,https://poe2db.tw/us/Atziris_Acuity,2026-11-23
-Armour,Hateforge,Moulded Mitts,60,0.1.0,,12,https://poe2db.tw/us/Hateforge,2026-11-23
-Armour,Empire's Grasp,Titan Mitts,52,Dawn of the Hunt,,12,https://poe2db.tw/us/Empires_Grasp,2026-11-23
-Armour,Northpaw,Suede Bracers,1,0.1.0,,10,https://poe2db.tw/us/Northpaw,2026-11-23
-Armour,Grip of Winter,Firm Bracers,11,0.1.0,,12,https://poe2db.tw/us/Grip_of_Winter,2026-11-23
-Armour,Idle Hands,Sectioned Bracers,28,0.1.0,,12,https://poe2db.tw/us/Idle_Hands,2026-11-23
-Armour,Snakebite,Spined Bracers,33,0.1.0,,12,https://poe2db.tw/us/Snakebite,2026-11-23
-Armour,Maligaro's Virtuosity,Fine Bracers,45,0.1.0,,13,https://poe2db.tw/us/Maligaros_Virtuosity,2026-11-23
-Armour,Horror's Flight,Engraved Bracers,65,Runes of Aldur,,13,https://poe2db.tw/us/Horrors_Flight,2026-11-23
-Armour,Painter's Servant,Torn Gloves,1,0.1.0,,12,https://poe2db.tw/us/Painters_Servant,2026-11-23
-Armour,Candlemaker,Sombre Gloves,12,0.1.0,,14,https://poe2db.tw/us/Candlemaker,2026-11-23
-Armour,Doedre's Tenure,Stitched Gloves,16,0.1.0,,10,https://poe2db.tw/us/Doedres_Tenure,2026-11-23
-Armour,Kitoko's Current,Jewelled Gloves,26,0.1.0,,10,https://poe2db.tw/us/Kitokos_Current,2026-11-23
-Armour,Demon Stitcher,Intricate Gloves,33,0.1.0,,10,https://poe2db.tw/us/Demon_Stitcher,2026-11-23
-Armour,Nightscale,Pauascale Gloves,45,Dawn of the Hunt,,14,https://poe2db.tw/us/Nightscale,2026-11-23
-Armour,Leopold's Applause,Embroidered Gloves,52,Dawn of the Hunt,,12,https://poe2db.tw/us/Leopolds_Applause,2026-11-23
-Armour,Jarngreipr,Ringmail Gauntlets,6,0.1.0,,12,https://poe2db.tw/us/Jarngreipr,2026-11-23
-Armour,Aurseize,Layered Gauntlets,16,0.1.0,,8,https://poe2db.tw/us/Aurseize,2026-11-23
-Armour,Deathblow,Doubled Gauntlets,33,0.1.0,,12,https://poe2db.tw/us/Deathblow,2026-11-23
-Armour,Valako's Vice,Plate Gauntlets,45,Dawn of the Hunt,,14,https://poe2db.tw/us/Valakos_Vice,2026-11-23
-Armour,Aerisvane's Wings,Burnished Gauntlets,52,0.1.0,,9,https://poe2db.tw/us/Aerisvanes_Wings,2026-11-23
-Armour,Death Articulated,Ornate Gauntlets,65,Dawn of the Hunt,Corrupted,14,https://poe2db.tw/us/Death_Articulated,2026-11-23
-Armour,Gravebind,Rope Cuffs,5,0.1.0,,12,https://poe2db.tw/us/Gravebind,2026-11-23
-Armour,Shackles of the Wretched,Aged Cuffs,16,0.1.0,,13,https://poe2db.tw/us/Shackles_of_the_Wretched,2026-11-23
-Armour,Blueflame Bracers,Goldcast Cuffs,33,0.1.0,,12,https://poe2db.tw/us/Blueflame_Bracers,2026-11-23
-Armour,The Prisoner's Manacles,Kalguuran Cuffs,45,Dawn of the Hunt,,16,https://poe2db.tw/us/The_Prisoners_Manacles,2026-11-23
-Armour,Plaguefinger,Gauze Wraps,4,0.1.0,,11,https://poe2db.tw/us/Plaguefinger,2026-11-23
-Armour,Killjoy,Linen Wraps,16,0.1.0,,12,https://poe2db.tw/us/Killjoy,2026-11-23
-Armour,Hand of Wisdom and Action,Spiral Wraps,33,0.1.0,,10,https://poe2db.tw/us/Hand_of_Wisdom_and_Action,2026-11-23
-Armour,Essentia Sanguis,Furtive Wraps,52,Dawn of the Hunt,,12,https://poe2db.tw/us/Essentia_Sanguis,2026-11-23
-Armour,Thunderfist,Utility Wraps,65,Rise of the Abyssal,,13,https://poe2db.tw/us/Thunderfist,2026-11-23
-Armour,Legionstride,Rough Greaves,1,0.1.0,,4,https://poe2db.tw/us/Legionstride,2026-11-23
-Armour,Corpsewade,Iron Greaves,11,0.1.0,,4,https://poe2db.tw/us/Corpsewade,2026-11-23
-Armour,The Infinite Pursuit,Bronze Greaves,16,0.1.0,,5,https://poe2db.tw/us/The_Infinite_Pursuit,2026-11-23
-Armour,Trampletoe,Trimmed Greaves,27,0.1.0,,4,https://poe2db.tw/us/Trampletoe,2026-11-23
-Armour,Birth of Fury,Stone Greaves,33,0.1.0,,4,https://poe2db.tw/us/Birth_of_Fury,2026-11-23
-Armour,Briarpatch,Laced Boots,11,0.1.0,,5,https://poe2db.tw/us/Briarpatch,2026-11-23
-Armour,Gamblesprint,Embossed Boots,16,0.1.0,,5,https://poe2db.tw/us/Gamblesprint,2026-11-23
-Armour,Bushwhack,Lizardscale Boots,33,0.1.0,,4,https://poe2db.tw/us/Bushwhack,2026-11-23
-Armour,Luminous Pace,Straw Sandals,1,0.1.0,,5,https://poe2db.tw/us/Luminous_Pace,2026-11-23
-Armour,Wanderlust,Wrapped Sandals,11,0.1.0,,4,https://poe2db.tw/us/Wanderlust,2026-11-23
-Armour,Bones of Ullr,Lattice Sandals,16,0.1.0,,5,https://poe2db.tw/us/Bones_of_Ullr,2026-11-23
-Armour,Wondertrap,Silk Slippers,27,0.1.0,,6,https://poe2db.tw/us/Wondertrap,2026-11-23
-Armour,Windscream,Feathered Sandals,33,0.1.0,,5,https://poe2db.tw/us/Windscream,2026-11-23
-Armour,The Knight-errant,Mail Sabatons,6,0.1.0,,5,https://poe2db.tw/us/The_Knight-errant,2026-11-23
-Armour,Darkray Vectors,Braced Sabatons,16,0.1.0,,5,https://poe2db.tw/us/Darkray_Vectors,2026-11-23
-Armour,Obern's Bastion,Stacked Sabatons,33,0.1.0,,6,https://poe2db.tw/us/Oberns_Bastion,2026-11-23
-Armour,Shankgonne,Covered Sabatons,45,Rise of the Abyssal,,7,https://poe2db.tw/us/Shankgonne,2026-11-23
-Armour,Wake of Destruction,Secured Leggings,16,0.1.0,,4,https://poe2db.tw/us/Wake_of_Destruction,2026-11-23
-Armour,Decree of Flight,Ancient Leggings,65,Runes of Aldur,,6,https://poe2db.tw/us/Decree_of_Flight,2026-11-23
-Armour,Ghostmarch,Threaded Shoes,16,0.1.0,,5,https://poe2db.tw/us/Ghostmarch,2026-11-23
-Armour,Powertread,Hunting Shoes,33,0.1.0,,5,https://poe2db.tw/us/Powertread,2026-11-23
-Armour,Beetlebite,Threaded Shoes,16,0.1.0,,4,https://poe2db.tw/us/Beetlebite,2026-11-23
-Armour,Dionadair,Splintered Tower Shield,1,0.1.0,,5,https://poe2db.tw/us/Dionadair,2026-11-23
-Armour,Wulfsbane,Painted Tower Shield,6,0.1.0,,4,https://poe2db.tw/us/Wulfsbane,2026-11-23
-Armour,Doomgate,Braced Tower Shield,12,0.1.0,,5,https://poe2db.tw/us/Doomgate,2026-11-23
-Armour,Window to Paradise,Barricade Tower Shield,16,Dawn of the Hunt,,4,https://poe2db.tw/us/Window_to_Paradise,2026-11-23
-Armour,Lycosidae,Rampart Tower Shield,28,0.1.0,,4,https://poe2db.tw/us/Lycosidae,2026-11-23
-Armour,Redblade Banner,Heraldric Tower Shield,33,Dawn of the Hunt,,5,https://poe2db.tw/us/Redblade_Banner,2026-11-23
-Armour,Svalinn,Crucible Tower Shield,60,0.1.0,,4,https://poe2db.tw/us/Svalinn,2026-11-23
-Armour,Chernobog's Pillar,Blacksteel Tower Shield,65,Dawn of the Hunt,,5,https://poe2db.tw/us/Chernobogs_Pillar,2026-11-23
-Armour,Arvil's Wheel,Hardwood Targe,1,0.1.0,,6,https://poe2db.tw/us/Arvils_Wheel,2026-11-23
-Armour,Feathered Fortress,Crescent Targe,26,0.1.0,,5,https://poe2db.tw/us/Feathered_Fortress,2026-11-23
-Armour,Alkem Eira,Blazon Crest Shield,1,0.1.0,,4,https://poe2db.tw/us/Alkem_Eira,2026-11-23
-Armour,Oaksworn,Sigil Crest Shield,7,0.1.0,,4,https://poe2db.tw/us/Oaksworn,2026-11-23
-Armour,Saffell's Frame,Emblem Crest Shield,16,0.1.0,,6,https://poe2db.tw/us/Saffells_Frame,2026-11-23
-Armour,Crest of Ardura,Jingling Crest Shield,28,0.1.0,,4,https://poe2db.tw/us/Crest_of_Ardura,2026-11-23
-Armour,Mahuxotl's Machination,Omen Crest Shield,48,0.1.0,,3,https://poe2db.tw/us/Mahuxotls_Machination,2026-11-23
-Armour,Rise of the Phoenix,Omen Crest Shield,36,0.1.0,,5,https://poe2db.tw/us/Rise_of_the_Phoenix,2026-11-23
-Armour,Dunkelhalt,Leather Buckler,1,Dawn of the Hunt,,4,https://poe2db.tw/us/Dunkelhalt,2026-11-23
-Armour,Nocturne,Wooden Buckler,5,Dawn of the Hunt,,5,https://poe2db.tw/us/Nocturne,2026-11-23
-Armour,Rondel de Ezo,Plated Buckler,11,Dawn of the Hunt,,5,https://poe2db.tw/us/Rondel_de_Ezo,2026-11-23
-Armour,Bloodbarrier,Iron Buckler,16,Dawn of the Hunt,Corrupted,4,https://poe2db.tw/us/Bloodbarrier,2026-11-23
-Armour,Kaltenhalt,Ridged Buckler,22,Rise of the Abyssal,,6,https://poe2db.tw/us/Kaltenhalt,2026-11-23
-Armour,Silverthorne,Spiked Buckler,26,Dawn of the Hunt,,4,https://poe2db.tw/us/Silverthorne,2026-11-23
-Armour,Calgyra's Arc,Ornate Buckler,52,Dawn of the Hunt,,5,https://poe2db.tw/us/Calgyras_Arc,2026-11-23
-Armour,Sunsplinter,Array Buckler,55,Dawn of the Hunt,,3,https://poe2db.tw/us/Sunsplinter,2026-11-23
-Armour,Deathrattle,Twig Focus,1,0.1.0,,4,https://poe2db.tw/us/Deathrattle,2026-11-23
-Armour,Threaded Light,Woven Focus,6,0.1.0,,4,https://poe2db.tw/us/Threaded_Light,2026-11-23
-Armour,Effigy of Cruelty,Antler Focus,10,Dawn of the Hunt,,5,https://poe2db.tw/us/Effigy_of_Cruelty,2026-11-23
-Armour,Carrion Call,Engraved Focus,16,0.1.0,,5,https://poe2db.tw/us/Carrion_Call,2026-11-23
-Armour,Serpent's Lesson,Tonal Focus,22,0.1.0,,4,https://poe2db.tw/us/Serpents_Lesson,2026-11-23
-Armour,The Eternal Spark,Crystal Focus,26,0.1.0,,5,https://poe2db.tw/us/The_Eternal_Spark,2026-11-23
-Armour,Apep's Supremacy,Voodoo Focus,33,Dawn of the Hunt,,5,https://poe2db.tw/us/Apeps_Supremacy,2026-11-23
-Armour,Skin of the Loyal,Garment,1,0.1.0,,5,https://poe2db.tw/us/Skin_of_the_Loyal,2026-11-23
-Armour,Morior Invictus,Grand Regalia,65,0.1.0,,1,https://poe2db.tw/us/Morior_Invictus,2026-11-23
-Armour,Atziri's Splendour,Sacrificial Regalia,65,Fate of the Vaal,Corrupted,6,https://poe2db.tw/us/Atziris_Splendour,2026-11-23
-Armour,Solus Ipse,Grand Visage,65,0.1.0,,5,https://poe2db.tw/us/Solus_Ipse,2026-11-23
-Armour,Sine Aequo,Grand Manchettes,65,0.1.0,,10,https://poe2db.tw/us/Sine_Aequo,2026-11-23
-Armour,Ab Aeterno,Grand Cuisses,65,0.1.0,,5,https://poe2db.tw/us/Ab_Aeterno,2026-11-23
-Armour,Voll's Protector,Plated Vestments,59,0.1.0,,4,https://poe2db.tw/us/Volls_Protector,2026-11-23
-Armour,Forgotten Warden,Primal Markings,70,Runes of Aldur,,6,https://poe2db.tw/us/Forgotten_Warden,2026-11-23
-Armour,The Master's Reach,Tethering Bands,65,Runes of Aldur,,15,https://poe2db.tw/us/The_Masters_Reach,2026-11-23
-Armour,Atziri's Step,Cinched Boots,65,Fate of the Vaal,,6,https://poe2db.tw/us/Atziris_Step,2026-11-23
-Armour,The Surrender,Vaal Tower Shield,75,0.1.0,,4,https://poe2db.tw/us/The_Surrender,2026-11-23
-Armour,Nightfall,Glacial Fortress,70,Runes of Aldur,,7,https://poe2db.tw/us/Nightfall,2026-11-23
-Armour,Eyes of the Runefather,Venerable Defender,62,Runes of Aldur,,4,https://poe2db.tw/us/Eyes_of_the_Runefather,2026-11-23
-Armour,Prism Guardian,Intricate Crest Shield,65,Dawn of the Hunt,,5,https://poe2db.tw/us/Prism_Guardian,2026-11-23
-Armour,Rathpith Globe,Sacred Focus,75,Dawn of the Hunt,,5,https://poe2db.tw/us/Rathpith_Globe,2026-11-23
-Other,Heroic Tragedy,Timeless Jewel,,0.1.0,Corrupted,1,https://poe2db.tw/us/Heroic_Tragedy,2026-11-23
-Other,Undying Hate,Timeless Jewel,,Rise of the Abyssal,,1,https://poe2db.tw/us/Undying_Hate,2026-11-23
-Other,Grand Spectrum,Ruby,,0.1.0,,1,https://poe2db.tw/us/Grand_Spectrum,2026-11-23
-Other,Split Personality,Ruby,,Runes of Aldur,Corrupted,1,https://poe2db.tw/us/Split_Personality,2026-11-23
-Other,Voices,Sapphire,,Runes of Aldur,Corrupted,1,https://poe2db.tw/us/Voices,2026-11-23
-Other,Megalomaniac,Diamond,,0.1.0,Corrupted,3,https://poe2db.tw/us/Megalomaniac,2026-11-23
-Other,From Nothing,Diamond,,0.1.0,Corrupted,1,https://poe2db.tw/us/From_Nothing,2026-11-23
-Other,Controlled Metamorphosis,Diamond,,0.1.0,,3,https://poe2db.tw/us/Controlled_Metamorphosis,2026-11-23
-Other,Prism of Belief,Diamond,,0.1.0,Corrupted,1,https://poe2db.tw/us/Prism_of_Belief,2026-11-23
-Other,The Adorned,Diamond,,0.1.0,Corrupted,1,https://poe2db.tw/us/The_Adorned,2026-11-23
-Other,Flesh Crucible,Diamond,,Fate of the Vaal,Corrupted,1,https://poe2db.tw/us/Flesh_Crucible,2026-11-23
-Other,Against the Darkness,Time-Lost Diamond,,0.1.0,,2,https://poe2db.tw/us/Against_the_Darkness,2026-11-23
-Other,The Peacemaker's Draught,Amphora Relic,,0.1.0,,3,https://poe2db.tw/us/The_Peacemakers_Draught,2026-11-23
-Other,The Desperate Alliance,Vase Relic,,0.1.0,,4,https://poe2db.tw/us/The_Desperate_Alliance,2026-11-23
-Other,The Changing Seasons,Seal Relic,,0.1.0,,3,https://poe2db.tw/us/The_Changing_Seasons,2026-11-23
-Other,The Burden of Leadership,Tapestry Relic,,0.1.0,,3,https://poe2db.tw/us/The_Burden_of_Leadership,2026-11-23
-Other,The Last Flame,Incense Relic,,0.1.0,,5,https://poe2db.tw/us/The_Last_Flame,2026-11-23
-Other,Asphyxia's Wrath,Broadhead Quiver,1,0.1.0,,6,https://poe2db.tw/us/Asphyxias_Wrath,2026-11-23
-Other,Broadhead Quiver,Requires:,1,,Corrupted,1,https://poe2db.tw/us/Broadhead_Quiver,2026-11-23
-Other,Blackgleam,Fire Quiver,8,0.1.0,,6,https://poe2db.tw/us/Blackgleam,2026-11-23
-Other,Fire Quiver,Requires:,8,,Corrupted,1,https://poe2db.tw/us/Fire_Quiver,2026-11-23
-Other,The Lethal Draw,Sacral Quiver,16,Dawn of the Hunt,,5,https://poe2db.tw/us/The_Lethal_Draw,2026-11-23
-Other,Sacral Quiver,Requires:,16,,Corrupted,1,https://poe2db.tw/us/Sacral_Quiver,2026-11-23
-Other,Rearguard,Blunt Quiver,33,Dawn of the Hunt,,5,https://poe2db.tw/us/Rearguard,2026-11-23
-Other,Blunt Quiver,Requires:,33,,Corrupted,1,https://poe2db.tw/us/Blunt_Quiver,2026-11-23
-Other,Murkshaft,Toxic Quiver,39,Dawn of the Hunt,,7,https://poe2db.tw/us/Murkshaft,2026-11-23
-Other,Toxic Quiver,Requires:,39,,Corrupted,1,https://poe2db.tw/us/Toxic_Quiver,2026-11-23
-Other,Cadiro's Gambit,Primed Quiver,66,Dawn of the Hunt,,2,https://poe2db.tw/us/Cadiros_Gambit,2026-11-23
-Other,Primed Quiver,Requires:,51,,Corrupted,1,https://poe2db.tw/us/Primed_Quiver,2026-11-23
-Other,Drillneck,Penetrating Quiver,55,Fate of the Vaal,,7,https://poe2db.tw/us/Drillneck,2026-11-23
-Other,Penetrating Quiver,Requires:,55,,Corrupted,1,https://poe2db.tw/us/Penetrating_Quiver,2026-11-23
-Other,Beyond Reach,Visceral Quiver,65,0.1.0,,5,https://poe2db.tw/us/Beyond_Reach,2026-11-23
-Other,Visceral Quiver,Requires:,65,,Corrupted,1,https://poe2db.tw/us/Visceral_Quiver,2026-11-23
-Other,Igniferis,Crimson Amulet,65,0.1.0,,6,https://poe2db.tw/us/Igniferis,2026-11-23
-Other,Crimson Amulet,Requires:,65,,Corrupted,1,https://poe2db.tw/us/Crimson_Amulet,2026-11-23
-Other,Idol of Uldurn,Crimson Amulet,24,0.1.0,,6,https://poe2db.tw/us/Idol_of_Uldurn,2026-11-23
-Other,The Everlasting Gaze,Azure Amulet,1,0.1.0,,4,https://poe2db.tw/us/The_Everlasting_Gaze,2026-11-23
-Other,Azure Amulet,Amulet,25,,Corrupted,1,https://poe2db.tw/us/Azure_Amulet,2026-11-23
-Other,Ungil's Harmony,Azure Amulet,25,0.1.0,,6,https://poe2db.tw/us/Ungils_Harmony,2026-11-23
-Other,Revered Resin,Amber Amulet,8,0.1.0,,4,https://poe2db.tw/us/Revered_Resin,2026-11-23
-Other,Carnage Heart,Amber Amulet,8,0.1.0,,6,https://poe2db.tw/us/Carnage_Heart,2026-11-23
-Other,Xoph's Blood,Amber Amulet,52,0.1.0,,4,https://poe2db.tw/us/Xophs_Blood,2026-11-23
-Other,Surefooted Sigil,Jade Amulet,8,0.1.0,,5,https://poe2db.tw/us/Surefooted_Sigil,2026-11-23
-Other,Choir of the Storm,Jade Amulet,55,0.1.0,,4,https://poe2db.tw/us/Choir_of_the_Storm,2026-11-23
-Other,Defiance of Destiny,Jade Amulet,56,0.1.0,,5,https://poe2db.tw/us/Defiance_of_Destiny,2026-11-23
-Other,Ligurium Talisman,Lapis Amulet,35,0.1.0,,5,https://poe2db.tw/us/Ligurium_Talisman,2026-11-23
-Other,The Pandemonius,Lapis Amulet,52,0.1.0,,4,https://poe2db.tw/us/The_Pandemonius,2026-11-23
-Other,Stone of Lazhwar,Lapis Amulet,8,Dawn of the Hunt,,4,https://poe2db.tw/us/Stone_of_Lazhwar,2026-11-23
-Other,Rondel of Fragility,Lunar Amulet,14,0.1.0,,5,https://poe2db.tw/us/Rondel_of_Fragility,2026-11-23
-Other,Lunar Amulet,Requires:,14,,Corrupted,1,https://poe2db.tw/us/Lunar_Amulet,2026-11-23
-Other,The Anvil,Bloodstone Amulet,18,0.1.0,,6,https://poe2db.tw/us/The_Anvil,2026-11-23
-Other,Yoke of Suffering,Bloodstone Amulet,18,Dawn of the Hunt,,5,https://poe2db.tw/us/Yoke_of_Suffering,2026-11-23
-Other,Astramentis,Stellar Amulet,24,0.1.0,,3,https://poe2db.tw/us/Astramentis,2026-11-23
-Other,Stellar Amulet,Requires:,25,,Corrupted,1,https://poe2db.tw/us/Stellar_Amulet,2026-11-23
-Other,Fixation of Yix,Stellar Amulet,24,0.1.0,,7,https://poe2db.tw/us/Fixation_of_Yix,2026-11-23
-Other,Strugglescream,Stellar Amulet,52,0.1.0,,2,https://poe2db.tw/us/Strugglescream,2026-11-23
-Other,Hinekora's Sight,Stellar Amulet,44,Rise of the Abyssal,,4,https://poe2db.tw/us/Hinekoras_Sight,2026-11-23
-Other,Beacon of Azis,Solar Amulet,30,0.1.0,,5,https://poe2db.tw/us/Beacon_of_Azis,2026-11-23
-Other,Solar Amulet,Requires:,30,,Corrupted,1,https://poe2db.tw/us/Solar_Amulet,2026-11-23
-Other,Fireflower,Solar Amulet,52,0.1.0,,5,https://poe2db.tw/us/Fireflower,2026-11-23
-Other,Immaculate Adherence,Solar Amulet,30,Runes of Aldur,Corrupted,7,https://poe2db.tw/us/Immaculate_Adherence,2026-11-23
-Other,Eye of Chayula,Gold Amulet,35,0.1.0,,4,https://poe2db.tw/us/Eye_of_Chayula,2026-11-23
-Other,Gold Amulet,Requires:,35,,Corrupted,1,https://poe2db.tw/us/Gold_Amulet,2026-11-23
-Other,Serpent's Egg,Gold Amulet,35,0.1.0,,5,https://poe2db.tw/us/Serpents_Egg,2026-11-23
-Other,Eventide Petals,Veridical Chain,55,Runes of Aldur,,5,https://poe2db.tw/us/Eventide_Petals,2026-11-23
-Other,Blackheart,Iron Ring,1,0.1.0,,5,https://poe2db.tw/us/Blackheart,2026-11-23
-Other,Iron Ring,Requires:,1,,Corrupted,1,https://poe2db.tw/us/Iron_Ring,2026-11-23
-Other,Icefang Orbit,Iron Ring,36,Dawn of the Hunt,,7,https://poe2db.tw/us/Icefang_Orbit,2026-11-23
-Other,Prized Pain,Iron Ring,48,Dawn of the Hunt,,5,https://poe2db.tw/us/Prized_Pain,2026-11-23
-Other,Venopuncture,Iron Ring,36,Dawn of the Hunt,,7,https://poe2db.tw/us/Venopuncture,2026-11-23
-Other,Doedre's Damning,Lazuli Ring,1,0.1.0,,4,https://poe2db.tw/us/Doedres_Damning,2026-11-23
-Other,Lazuli Ring,Requires:,1,,Corrupted,1,https://poe2db.tw/us/Lazuli_Ring,2026-11-23
-Other,Glowswarm,Lazuli Ring,1,0.1.0,,5,https://poe2db.tw/us/Glowswarm,2026-11-23
-Other,Seed of Cataclysm,Lazuli Ring,1,0.1.0,,6,https://poe2db.tw/us/Seed_of_Cataclysm,2026-11-23
-Other,Cracklecreep,Ruby Ring,8,0.1.0,,5,https://poe2db.tw/us/Cracklecreep,2026-11-23
-Other,Ruby Ring,Requires:,8,,Corrupted,1,https://poe2db.tw/us/Ruby_Ring,2026-11-23
-Other,Blistering Bond,Ruby Ring,8,0.1.0,,7,https://poe2db.tw/us/Blistering_Bond,2026-11-23
-Other,Polcirkeln,Sapphire Ring,12,0.1.0,,5,https://poe2db.tw/us/Polcirkeln,2026-11-23
-Other,Sapphire Ring,Requires:,12,,Corrupted,1,https://poe2db.tw/us/Sapphire_Ring,2026-11-23
-Other,Dream Fragments,Sapphire Ring,12,0.1.0,,4,https://poe2db.tw/us/Dream_Fragments,2026-11-23
-Other,Whisper of the Brotherhood,Sapphire Ring,32,0.1.0,,5,https://poe2db.tw/us/Whisper_of_the_Brotherhood,2026-11-23
-Other,The Burrower,Topaz Ring,16,0.1.0,,5,https://poe2db.tw/us/The_Burrower,2026-11-23
-Other,Topaz Ring,Requires:,16,,Corrupted,1,https://poe2db.tw/us/Topaz_Ring,2026-11-23
-Other,Call of the Brotherhood,Topaz Ring,32,0.1.0,,5,https://poe2db.tw/us/Call_of_the_Brotherhood,2026-11-23
-Other,Levinstone,Topaz Ring,16,0.1.0,,5,https://poe2db.tw/us/Levinstone,2026-11-23
-Other,Ming's Heart,Amethyst Ring,20,0.1.0,,4,https://poe2db.tw/us/Mings_Heart,2026-11-23
-Other,Amethyst Ring,Requires:,20,,Corrupted,1,https://poe2db.tw/us/Amethyst_Ring,2026-11-23
-Other,Original Sin,Amethyst Ring,20,0.1.0,,3,https://poe2db.tw/us/Original_Sin,2026-11-23
-Other,Blackflame,Amethyst Ring,20,0.1.0,,7,https://poe2db.tw/us/Blackflame,2026-11-23
-Other,Veilpiercer,Amethyst Ring,20,Runes of Aldur,,7,https://poe2db.tw/us/Veilpiercer,2026-11-23
-Other,Vigilant View,Emerald Ring,26,Dawn of the Hunt,,7,https://poe2db.tw/us/Vigilant_View,2026-11-23
-Other,Emerald Ring,Requires:,26,,Corrupted,1,https://poe2db.tw/us/Emerald_Ring,2026-11-23
-Other,Death Rush,Emerald Ring,26,0.1.0,,5,https://poe2db.tw/us/Death_Rush,2026-11-23
-Other,Thief's Torment,Emerald Ring,26,0.1.0,,7,https://poe2db.tw/us/Thiefs_Torment,2026-11-23
-Other,Evergrasping Ring,Pearl Ring,32,Dawn of the Hunt,,4,https://poe2db.tw/us/Evergrasping_Ring,2026-11-23
-Other,Pearl Ring,Requires:,32,,Corrupted,1,https://poe2db.tw/us/Pearl_Ring,2026-11-23
-Other,Snakepit,Pearl Ring,32,0.1.0,,8,https://poe2db.tw/us/Snakepit,2026-11-23
-Other,Heartbound Loop,Pearl Ring,32,0.1.0,,6,https://poe2db.tw/us/Heartbound_Loop,2026-11-23
-Other,Gifts from Above,Prismatic Ring,35,Dawn of the Hunt,,5,https://poe2db.tw/us/Gifts_from_Above,2026-11-23
-Other,Prismatic Ring,Requires:,35,,Corrupted,1,https://poe2db.tw/us/Prismatic_Ring,2026-11-23
-Other,The Taming,Prismatic Ring,42,Runes of Aldur,,4,https://poe2db.tw/us/The_Taming,2026-11-23
-Other,Perandus Seal,Gold Ring,40,0.1.0,,4,https://poe2db.tw/us/Perandus_Seal,2026-11-23
-Other,Gold Ring,Requires:,40,,Corrupted,1,https://poe2db.tw/us/Gold_Ring,2026-11-23
-Other,Andvarius,Gold Ring,40,0.1.0,,4,https://poe2db.tw/us/Andvarius,2026-11-23
-Other,Ventor's Gamble,Gold Ring,64,0.1.0,,7,https://poe2db.tw/us/Ventors_Gamble,2026-11-23
-Other,Bursting Decay,Unset Ring,60,Dawn of the Hunt,Corrupted,5,https://poe2db.tw/us/Bursting_Decay,2026-11-23
-Other,Unset Ring,Requires:,44,,Corrupted,1,https://poe2db.tw/us/Unset_Ring,2026-11-23
-Other,Grip of Kulemak,Abyssal Signet,1,Rise of the Abyssal,,3,https://poe2db.tw/us/Grip_of_Kulemak,2026-11-23
-Other,Abyssal Signet,Requires:,40,,Corrupted,1,https://poe2db.tw/us/Abyssal_Signet,2026-11-23
-Other,Berek's Pass,Two-Stone Ring,42,Runes of Aldur,,5,https://poe2db.tw/us/Bereks_Pass,2026-11-23
-Other,Berek's Respite,Two-Stone Ring,42,Runes of Aldur,,5,https://poe2db.tw/us/Bereks_Respite,2026-11-23
-Other,Berek's Grip,Two-Stone Ring,42,Runes of Aldur,,5,https://poe2db.tw/us/Bereks_Grip,2026-11-23
-Other,Meginord's Girdle,Rawhide Belt,1,0.1.0,,5,https://poe2db.tw/us/Meginords_Girdle,2026-11-23
-Other,Rawhide Belt,Requires:,1,,Corrupted,1,https://poe2db.tw/us/Rawhide_Belt,2026-11-23
-Other,Midnight Braid,Rawhide Belt,1,0.1.0,,4,https://poe2db.tw/us/Midnight_Braid,2026-11-23
-Other,Keelhaul,Linen Belt,1,0.1.0,,5,https://poe2db.tw/us/Keelhaul,2026-11-23
-Other,Linen Belt,Belt,,,Corrupted,1,https://poe2db.tw/us/Linen_Belt,2026-11-23
-Other,Umbilicus Immortalis,Linen Belt,24,Rise of the Abyssal,,7,https://poe2db.tw/us/Umbilicus_Immortalis,2026-11-23
-Other,Birthright Buckle,Wide Belt,14,0.1.0,,6,https://poe2db.tw/us/Birthright_Buckle,2026-11-23
-Other,Wide Belt,Requires:,14,,Corrupted,1,https://poe2db.tw/us/Wide_Belt,2026-11-23
-Other,Byrnabas,Wide Belt,14,0.1.0,,5,https://poe2db.tw/us/Byrnabas,2026-11-23
-Other,The Gnashing Sash,Wide Belt,60,Dawn of the Hunt,Corrupted,5,https://poe2db.tw/us/The_Gnashing_Sash,2026-11-23
-Other,Soul Tether,Long Belt,20,0.1.0,,5,https://poe2db.tw/us/Soul_Tether,2026-11-23
-Other,Long Belt,Requires:,20,,Corrupted,1,https://poe2db.tw/us/Long_Belt,2026-11-23
-Other,Goregirdle,Plate Belt,24,Dawn of the Hunt,,5,https://poe2db.tw/us/Goregirdle,2026-11-23
-Other,Plate Belt,Requires:,25,,Corrupted,1,https://poe2db.tw/us/Plate_Belt,2026-11-23
-Other,Ryslatha's Coil,Ornate Belt,31,0.1.0,,5,https://poe2db.tw/us/Ryslathas_Coil,2026-11-23
-Other,Ornate Belt,Requires:,31,,Corrupted,1,https://poe2db.tw/us/Ornate_Belt,2026-11-23
-Other,Siegebreaker,Ornate Belt,50,Conquerors of Wraeclast,,1,https://poe2db.tw/us/Siegebreaker,2026-11-23
-Other,Coward's Legacy,Mail Belt,40,0.1.0,,5,https://poe2db.tw/us/Cowards_Legacy,2026-11-23
-Other,Mail Belt,Requires:,40,,Corrupted,1,https://poe2db.tw/us/Mail_Belt,2026-11-23
-Other,Bijouborne,Double Belt,44,Dawn of the Hunt,,6,https://poe2db.tw/us/Bijouborne,2026-11-23
-Other,Double Belt,Requires:,44,,Corrupted,1,https://poe2db.tw/us/Double_Belt,2026-11-23
-Other,Waistgate,Heavy Belt,50,Dawn of the Hunt,,6,https://poe2db.tw/us/Waistgate,2026-11-23
-Other,Headhunter,Heavy Belt,50,0.1.0,,5,https://poe2db.tw/us/Headhunter,2026-11-23
-Other,Zerphi's Genesis,Heavy Belt,56,0.1.0,Corrupted,7,https://poe2db.tw/us/Zerphis_Genesis,2026-11-23
-Other,Cat O' Nine Tails,Utility Belt,55,Runes of Aldur,,6,https://poe2db.tw/us/Cat_O_Nine_Tails,2026-11-23
-Other,Utility Belt,Requires:,55,,Corrupted,1,https://poe2db.tw/us/Utility_Belt,2026-11-23
-Other,Ingenuity,Utility Belt,55,0.1.0,,5,https://poe2db.tw/us/Ingenuity,2026-11-23
-Other,Mageblood,Utility Belt,55,Runes of Aldur,,6,https://poe2db.tw/us/Mageblood,2026-11-23
-Other,Shavronne's Satchel,Fine Belt,62,0.1.0,,5,https://poe2db.tw/us/Shavronnes_Satchel,2026-11-23
-Other,Fine Belt,Requires:,62,,Corrupted,1,https://poe2db.tw/us/Fine_Belt,2026-11-23
-Other,Darkness Enthroned,Fine Belt,62,Rise of the Abyssal,,3,https://poe2db.tw/us/Darkness_Enthroned,2026-11-23
-Other,Blood of the Warrior,Gargantuan Life Flask,40,Rise of the Abyssal,,4,https://poe2db.tw/us/Blood_of_the_Warrior,2026-11-23
-Other,Olroth's Resolve,Ultimate Life Flask,60,0.1.0,,2,https://poe2db.tw/us/Olroths_Resolve,2026-11-23
-Other,Opportunity,Ultimate Life Flask,60,Runes of Aldur,,7,https://poe2db.tw/us/Opportunity,2026-11-23
-Other,Lavianga's Spirits,Gargantuan Mana Flask,49,Fate of the Vaal,,2,https://poe2db.tw/us/Laviangas_Spirits,2026-11-23
-Other,Uhtred's Chalice,Transcendent Mana Flask,50,Runes of Aldur,,5,https://poe2db.tw/us/Uhtreds_Chalice,2026-11-23
-Other,Melting Maelstrom,Ultimate Mana Flask,60,0.1.0,,3,https://poe2db.tw/us/Melting_Maelstrom,2026-11-23
-Other,Nascent Hope,Thawing Charm,12,Dawn of the Hunt,,3,https://poe2db.tw/us/Nascent_Hope,2026-11-23
-Other,Sanguis Heroum,Staunching Charm,18,Dawn of the Hunt,,3,https://poe2db.tw/us/Sanguis_Heroum,2026-11-23
-Other,Arakaali's Gift,Antidote Charm,24,Dawn of the Hunt,,3,https://poe2db.tw/us/Arakaalis_Gift,2026-11-23
-Other,Beira's Anguish,Dousing Charm,32,Dawn of the Hunt,,3,https://poe2db.tw/us/Beiras_Anguish,2026-11-23
-Other,The Black Cat,Grounding Charm,32,Dawn of the Hunt,,3,https://poe2db.tw/us/The_Black_Cat,2026-11-23
-Other,For Utopia,Stone Charm,8,Dawn of the Hunt,,2,https://poe2db.tw/us/For_Utopia,2026-11-23
-Other,The Fall of the Axe,Silver Charm,10,Dawn of the Hunt,,2,https://poe2db.tw/us/The_Fall_of_the_Axe,2026-11-23
-Other,Ngamahu's Chosen,Ruby Charm,5,Dawn of the Hunt,,3,https://poe2db.tw/us/Ngamahus_Chosen,2026-11-23
-Other,Breath of the Mountains,Sapphire Charm,5,Dawn of the Hunt,,3,https://poe2db.tw/us/Breath_of_the_Mountains,2026-11-23
-Other,Valako's Roar,Topaz Charm,5,Dawn of the Hunt,,3,https://poe2db.tw/us/Valakos_Roar,2026-11-23
-Other,Forsaken Bangle,Amethyst Charm,40,Dawn of the Hunt,,3,https://poe2db.tw/us/Forsaken_Bangle,2026-11-23
-Other,Rite of Passage,Golden Charm,50,Dawn of the Hunt,,1,https://poe2db.tw/us/Rite_of_Passage,2026-11-23
-Other,Kalandra's Touch,Ring,1,0.1.0,,1,https://poe2db.tw/us/Kalandras_Touch,2026-11-23
-Other,Safrin's Resolve,Ring,40,0.1.0,,4,https://poe2db.tw/us/Safrins_Resolve,2026-11-23
-Other,Eshtera's Path,Ring,1,0.1.0,,4,https://poe2db.tw/us/Eshteras_Path,2026-11-23
-Other,Zaida's Longevity,Ring,40,0.1.0,,4,https://poe2db.tw/us/Zaidas_Longevity,2026-11-23
-Other,Wraeclast Besieged,Breach Tablet,,Dawn of the Hunt,,5,https://poe2db.tw/us/Wraeclast_Besieged,2026-11-23
-Other,Clear Skies,Delirium Tablet,,Dawn of the Hunt,,3,https://poe2db.tw/us/Clear_Skies,2026-11-23
-Other,Freedom of Faith,Ritual Tablet,,Dawn of the Hunt,,3,https://poe2db.tw/us/Freedom_of_Faith,2026-11-23
-Other,The Grand Project,Irradiated Tablet,,Dawn of the Hunt,,2,https://poe2db.tw/us/The_Grand_Project,2026-11-23
-Other,Visions of Paradise,Irradiated Tablet,,Dawn of the Hunt,,2,https://poe2db.tw/us/Visions_of_Paradise,2026-11-23
-Other,Mastered Domain,Irradiated Tablet,,Runes of Aldur,,2,https://poe2db.tw/us/Mastered_Domain,2026-11-23
-Other,Season of the Hunt,Overseer Tablet,,Dawn of the Hunt,,2,https://poe2db.tw/us/Season_of_the_Hunt,2026-11-23
-Other,Cruel Hegemony,Overseer Tablet,,Dawn of the Hunt,,2,https://poe2db.tw/us/Cruel_Hegemony,2026-11-23
-Other,Unforeseen Consequences,Abyss Tablet,,Fate of the Vaal,,2,https://poe2db.tw/us/Unforeseen_Consequences,2026-11-23
-Unlisted,Abyssus,,58,Conquerors of Wraeclast,,0,https://poe2db.tw/us/Abyssus,2026-11-23
-Unlisted,Agnar,,9,Conquerors of Wraeclast,,0,https://poe2db.tw/us/Agnar,2026-11-23
-Unlisted,Ako's Answer,,37,Conquerors of Wraeclast,,1,https://poe2db.tw/us/Akos_Answer,2026-11-23
-Unlisted,Ashcaller,,45,Conquerors of Wraeclast,,0,https://poe2db.tw/us/Ashcaller,2026-11-23
-Unlisted,Benevolence,,54,Conquerors of Wraeclast,,0,https://poe2db.tw/us/Benevolence,2026-11-23
-Unlisted,Blessed Bonds,,56,0.1.0,Drop disabled,5,https://poe2db.tw/us/Blessed_Bonds,2026-11-23
-Unlisted,Dealer's Hand,,45,,,1,https://poe2db.tw/us/Dealers_Hand,2026-11-23
-Unlisted,Death's Oath,,,,,0,https://poe2db.tw/us/Deaths_Oath,2026-11-23
-Unlisted,Demigod's Duty,,1,,Drop disabled,1,https://poe2db.tw/us/Demigods_Duty,2026-11-23
-Unlisted,Demigod's Fortitude,,1,,Drop disabled,1,https://poe2db.tw/us/Demigods_Fortitude,2026-11-23
-Unlisted,Demigod's Judgement,,1,,Drop disabled,1,https://poe2db.tw/us/Demigods_Judgement,2026-11-23
-Unlisted,Demigod's Loyalty,,1,,Drop disabled,1,https://poe2db.tw/us/Demigods_Loyalty,2026-11-23
-Unlisted,Demigod's Valor,,1,,Drop disabled,1,https://poe2db.tw/us/Demigods_Valor,2026-11-23
-Unlisted,Demigod's Virtue,,1,0.1.0,Drop disabled,2,https://poe2db.tw/us/Demigods_Virtue,2026-11-23
-Unlisted,Elysium,,27,Conquerors of Wraeclast,,0,https://poe2db.tw/us/Elysium,2026-11-23
-Unlisted,Forbidden Gaze,,26,0.1.0,Drop disabled,4,https://poe2db.tw/us/Forbidden_Gaze,2026-11-23
-Unlisted,Hand of Weeping Black,,26,Conquerors of Wraeclast,,0,https://poe2db.tw/us/Hand_of_Weeping_Black,2026-11-23
-Unlisted,Heart of the Well,,,Rise of the Abyssal,,0,https://poe2db.tw/us/Heart_of_the_Well,2026-11-23
-Unlisted,Infernoclasp,,24,0.1.0,Drop disabled,5,https://poe2db.tw/us/Infernoclasp,2026-11-23
-Unlisted,Ixchel's Torment,,65,Dawn of the Hunt,Corrupted,2,https://poe2db.tw/us/Ixchels_Torment,2026-11-23
-Unlisted,Kaom's Roots,,54,Conquerors of Wraeclast,,0,https://poe2db.tw/us/Kaoms_Roots,2026-11-23
-Unlisted,Mageguard,,45,,,0,https://poe2db.tw/us/Mageguard,2026-11-23
-Unlisted,Molten Tenet,,24,Conquerors of Wraeclast,,1,https://poe2db.tw/us/Molten_Tenet,2026-11-23
-Unlisted,Oro's Sacrifice,,54,Conquerors of Wraeclast,,0,https://poe2db.tw/us/Oros_Sacrifice,2026-11-23
-Unlisted,Riptide,,51,Conquerors of Wraeclast,,1,https://poe2db.tw/us/Riptide,2026-11-23
-Unlisted,The Deepest Tower,,45,Dawn of the Hunt,Drop disabled,6,https://poe2db.tw/us/The_Deepest_Tower,2026-11-23
-Unlisted,The Leviathan,,50,Conquerors of Wraeclast,,0,https://poe2db.tw/us/The_Leviathan,2026-11-23
-Unlisted,The Rain Festival Beetle,,,Dawn of the Hunt,,2,https://poe2db.tw/us/The_Rain_Festival_Beetle,2026-11-23
-Unlisted,The Wanderer,,1,Conquerors of Wraeclast,,0,https://poe2db.tw/us/The_Wanderer,2026-11-23
-Unlisted,The Watcher in the Dark,,65,Conquerors of Wraeclast,,0,https://poe2db.tw/us/The_Watcher_in_the_Dark,2026-11-23
-Unlisted,Thunderstep,,28,0.1.0,Drop disabled,4,https://poe2db.tw/us/Thunderstep,2026-11-23
-Unlisted,Victario's Study,,62,,,1,https://poe2db.tw/us/Victarios_Study,2026-11-23
-Unlisted,Windripper,,54,Conquerors of Wraeclast,,0,https://poe2db.tw/us/Windripper,2026-11-23
+category,name,base,req_level,release,flags,n_mods,page,crawl,pob_source,pob_league
+Weapon,Brynhand's Mark,Wooden Club,1,0.1.0,,5,https://poe2db.tw/us/Brynhands_Mark,2026-11-23,,
+Weapon,Frostbreath,Slim Mace,10,0.1.0,,5,https://poe2db.tw/us/Frostbreath,2026-11-23,,
+Weapon,Trenchtimbre,Spiked Club,16,0.1.0,,4,https://poe2db.tw/us/Trenchtimbre,2026-11-23,,
+Weapon,Sculpted Suffering,Warpick,22,Dawn of the Hunt,,5,https://poe2db.tw/us/Sculpted_Suffering,2026-11-23,,Dawn of the Hunt
+Weapon,Brutus' Lead Sprinkler,Morning Star,45,Runes of Aldur,,5,https://poe2db.tw/us/Brutus_Lead_Sprinkler,2026-11-23,,Runes of Aldur
+Weapon,Nebuloch,Execratus Hammer,55,Dawn of the Hunt,,5,https://poe2db.tw/us/Nebuloch,2026-11-23,,Dawn of the Hunt
+Weapon,Mjölner,Torment Club,65,Dawn of the Hunt,,5,https://poe2db.tw/us/Mj%C3%B6lner,2026-11-23,,Dawn of the Hunt
+Weapon,Olrovasara,Torment Club,65,0.1.0,,4,https://poe2db.tw/us/Olrovasara,2026-11-23,"Drops from Olroth, Origin of the Fall",
+Weapon,Serle's Grit,Kalguuran Forgehammer,47,Runes of Aldur,,6,https://poe2db.tw/us/Serles_Grit,2026-11-23,,Runes of Aldur
+Weapon,Hoghunt,Felled Greatclub,1,0.1.0,,5,https://poe2db.tw/us/Hoghunt,2026-11-23,,
+Weapon,Hrimnor's Hymn,Oak Greathammer,4,0.1.0,,5,https://poe2db.tw/us/Hrimnors_Hymn,2026-11-23,,
+Weapon,Trephina,Forge Maul,11,0.1.0,,5,https://poe2db.tw/us/Trephina,2026-11-23,,
+Weapon,Brain Rattler,Studded Greatclub,16,0.1.0,,3,https://poe2db.tw/us/Brain_Rattler,2026-11-23,,
+Weapon,The Empty Roar,Cultist Greathammer,22,Dawn of the Hunt,,6,https://poe2db.tw/us/The_Empty_Roar,2026-11-23,,Dawn of the Hunt
+Weapon,Shyaba,Temple Maul,28,Dawn of the Hunt,,6,https://poe2db.tw/us/Shyaba,2026-11-23,,Dawn of the Hunt
+Weapon,Chober Chaber,Leaden Greathammer,33,0.1.0,,6,https://poe2db.tw/us/Chober_Chaber,2026-11-23,,
+Weapon,Quecholli,Crumbling Maul,38,0.1.0,,6,https://poe2db.tw/us/Quecholli,2026-11-23,,
+Weapon,Tidebreaker,Pointed Maul,45,Dawn of the Hunt,,5,https://poe2db.tw/us/Tidebreaker,2026-11-23,,Dawn of the Hunt
+Weapon,Marohi Erqi,Totemic Greatclub,60,Rise of the Abyssal,,7,https://poe2db.tw/us/Marohi_Erqi,2026-11-23,,Rise of the Abyssal
+Weapon,Totemic Greatclub,Requires:,50,,Corrupted,1,https://poe2db.tw/us/Totemic_Greatclub,2026-11-23,,
+Weapon,The Hammer of Faith,Giant Maul,65,Dawn of the Hunt,,5,https://poe2db.tw/us/The_Hammer_of_Faith,2026-11-23,,Dawn of the Hunt
+Weapon,Splinter of Lorrata,Hardwood Spear,1,Dawn of the Hunt,,6,https://poe2db.tw/us/Splinter_of_Lorrata,2026-11-23,,Dawn of the Hunt
+Weapon,Tyranny's Grip,Ironhead Spear,5,Dawn of the Hunt,,7,https://poe2db.tw/us/Tyrannys_Grip,2026-11-23,,Dawn of the Hunt
+Weapon,Chainsting,Hunting Spear,10,Dawn of the Hunt,,7,https://poe2db.tw/us/Chainsting,2026-11-23,,Dawn of the Hunt
+Weapon,Skysliver,Winged Spear,16,Dawn of the Hunt,,6,https://poe2db.tw/us/Skysliver,2026-11-23,,Dawn of the Hunt
+Weapon,Daevata's Wind,War Spear,21,Dawn of the Hunt,,7,https://poe2db.tw/us/Daevatas_Wind,2026-11-23,,Dawn of the Hunt
+Weapon,Tangletongue,Forked Spear,26,Dawn of the Hunt,,6,https://poe2db.tw/us/Tangletongue,2026-11-23,,Dawn of the Hunt
+Weapon,Saitha's Spear,Barbed Spear,33,Dawn of the Hunt,,7,https://poe2db.tw/us/Saithas_Spear,2026-11-23,,Dawn of the Hunt
+Weapon,Spire of Ire,Helix Spear,65,Dawn of the Hunt,,6,https://poe2db.tw/us/Spire_of_Ire,2026-11-23,,Dawn of the Hunt
+Weapon,Helix Spear,Requires:,65,,Corrupted,1,https://poe2db.tw/us/Helix_Spear,2026-11-23,,
+Weapon,The Blood Thorn,Wrapped Quarterstaff,1,0.1.0,,4,https://poe2db.tw/us/The_Blood_Thorn,2026-11-23,,
+Weapon,Pillar of the Caged God,Long Quarterstaff,4,0.1.0,,4,https://poe2db.tw/us/Pillar_of_the_Caged_God,2026-11-23,,
+Weapon,The Sentry,Gothic Quarterstaff,11,0.1.0,,6,https://poe2db.tw/us/The_Sentry,2026-11-23,,
+Weapon,Matsya,Crescent Quarterstaff,20,0.1.0,,6,https://poe2db.tw/us/Matsya,2026-11-23,,
+Weapon,Nazir's Judgement,Steelpoint Quarterstaff,28,0.1.0,,5,https://poe2db.tw/us/Nazirs_Judgement,2026-11-23,,
+Weapon,Collapsing Horizon,Wyrm Quarterstaff,65,0.1.0,,4,https://poe2db.tw/us/Collapsing_Horizon,2026-11-23,"Drops from Kosis, The Revelation",
+Weapon,The Wicked Quill,Withered Wand,1,Dawn of the Hunt,,4,https://poe2db.tw/us/The_Wicked_Quill,2026-11-23,,Dawn of the Hunt
+Weapon,Sanguine Diviner,Bone Wand,2,0.1.0,,4,https://poe2db.tw/us/Sanguine_Diviner,2026-11-23,,
+Weapon,Lifesprig,Attuned Wand,2,0.1.0,,4,https://poe2db.tw/us/Lifesprig,2026-11-23,,
+Weapon,Adonia's Ego,Siphoning Wand,65,Dawn of the Hunt,,6,https://poe2db.tw/us/Adonias_Ego,2026-11-23,,Dawn of the Hunt
+Weapon,Enezun's Charge,Volatile Wand,16,0.1.0,,4,https://poe2db.tw/us/Enezuns_Charge,2026-11-23,,
+Weapon,Cursecarver,Acrid Wand,33,Dawn of the Hunt,,4,https://poe2db.tw/us/Cursecarver,2026-11-23,,Dawn of the Hunt
+Weapon,Liminal Coil,Twisted Wand,65,Runes of Aldur,,6,https://poe2db.tw/us/Liminal_Coil,2026-11-23,,Runes of Aldur
+Weapon,Runeseeker's Call,Runic Fork,65,Runes of Aldur,,3,https://poe2db.tw/us/Runeseekers_Call,2026-11-23,,Runes of Aldur
+Weapon,Dusk Vigil,Ashen Staff,1,0.1.0,,5,https://poe2db.tw/us/Dusk_Vigil,2026-11-23,,
+Weapon,Taryn's Shiver,Gelid Staff,2,0.1.0,,4,https://poe2db.tw/us/Taryns_Shiver,2026-11-23,,
+Weapon,Earthbound,Voltaic Staff,2,0.1.0,,5,https://poe2db.tw/us/Earthbound,2026-11-23,,
+Weapon,The Searing Touch,Pyrophyte Staff,16,0.1.0,,5,https://poe2db.tw/us/The_Searing_Touch,2026-11-23,,
+Weapon,Sire of Shards,Chiming Staff,25,Dawn of the Hunt,,5,https://poe2db.tw/us/Sire_of_Shards,2026-11-23,,Dawn of the Hunt
+Weapon,The Burden of Shadows,Chiming Staff,78,0.1.0,,3,https://poe2db.tw/us/The_Burden_of_Shadows,2026-11-23,Drops from The King in the Mists in Crux of Nothingness,
+Weapon,The Unborn Lich,Ravenous Staff,65,Rise of the Abyssal,,1,https://poe2db.tw/us/The_Unborn_Lich,2026-11-23,,Rise of the Abyssal
+Weapon,The Whispering Ice,Permafrost Staff,75,Dawn of the Hunt,,5,https://poe2db.tw/us/The_Whispering_Ice,2026-11-23,,Dawn of the Hunt
+Weapon,Atziri's Rule,Reflecting Staff,70,Fate of the Vaal,Corrupted,5,https://poe2db.tw/us/Atziris_Rule,2026-11-23,Drops from Atziri's Vault in Vaal Temple,Fate of the Vaal
+Weapon,The Raven's Flock,Perching Staff,65,Runes of Aldur,,5,https://poe2db.tw/us/The_Ravens_Flock,2026-11-23,,Runes of Aldur
+Weapon,Widowhail,Crude Bow,1,0.1.0,,1,https://poe2db.tw/us/Widowhail,2026-11-23,,
+Weapon,Quill Rain,Shortbow,5,0.1.0,,4,https://poe2db.tw/us/Quill_Rain,2026-11-23,,
+Weapon,Ironbound,Warden Bow,11,Runes of Aldur,,7,https://poe2db.tw/us/Ironbound,2026-11-23,,Runes of Aldur
+Weapon,Splinterheart,Recurve Bow,16,0.1.0,,4,https://poe2db.tw/us/Splinterheart,2026-11-23,,
+Weapon,Doomfletch,Composite Bow,22,Dawn of the Hunt,,4,https://poe2db.tw/us/Doomfletch,2026-11-23,,Dawn of the Hunt
+Weapon,Death's Harp,Dualstring Bow,28,0.1.0,,5,https://poe2db.tw/us/Deaths_Harp,2026-11-23,,
+Weapon,Slivertongue,Zealot Bow,39,Dawn of the Hunt,,6,https://poe2db.tw/us/Slivertongue,2026-11-23,,Dawn of the Hunt
+Weapon,Fairgraves' Curse,Artillery Bow,45,Rise of the Abyssal,,7,https://poe2db.tw/us/Fairgraves_Curse,2026-11-23,,Rise of the Abyssal
+Weapon,Artillery Bow,Requires:,45,,Corrupted,1,https://poe2db.tw/us/Artillery_Bow,2026-11-23,,
+Weapon,Lioneye's Glare,Heavy Bow,65,Dawn of the Hunt,,6,https://poe2db.tw/us/Lioneyes_Glare,2026-11-23,,Dawn of the Hunt
+Weapon,Mist Whisper,Makeshift Crossbow,1,0.1.0,,5,https://poe2db.tw/us/Mist_Whisper,2026-11-23,,
+Weapon,Rampart Raptor,Tense Crossbow,4,0.1.0,,5,https://poe2db.tw/us/Rampart_Raptor,2026-11-23,,
+Weapon,Double Vision,Dyad Crossbow,20,Rise of the Abyssal,,6,https://poe2db.tw/us/Double_Vision,2026-11-23,,Rise of the Abyssal
+Weapon,The Dark Defiler,Rattling Sceptre,1,0.1.0,,4,https://poe2db.tw/us/The_Dark_Defiler,2026-11-23,,
+Weapon,Sylvan's Effigy,Stoic Sceptre,62,Runes of Aldur,,6,https://poe2db.tw/us/Sylvans_Effigy,2026-11-23,,Runes of Aldur
+Weapon,Font of Power,Omen Sceptre,16,0.1.0,,4,https://poe2db.tw/us/Font_of_Power,2026-11-23,,
+Weapon,Sacred Flame,Shrine Sceptre,55,0.1.0,,4,https://poe2db.tw/us/Sacred_Flame,2026-11-23,Drops from Arbiter of Ash in The Burning Monolith,
+Weapon,Guiding Palm of the Heart,Shrine Sceptre,65,0.1.0,,6,https://poe2db.tw/us/Guiding_Palm_of_the_Heart,2026-11-23,,Dawn of the Hunt
+Weapon,Guiding Palm of the Eye,Shrine Sceptre,65,Dawn of the Hunt,,6,https://poe2db.tw/us/Guiding_Palm_of_the_Eye,2026-11-23,,Dawn of the Hunt
+Weapon,Guiding Palm of the Mind,Shrine Sceptre,65,Dawn of the Hunt,,6,https://poe2db.tw/us/Guiding_Palm_of_the_Mind,2026-11-23,,Dawn of the Hunt
+Weapon,Palm of the Dreamer,Shrine Sceptre,65,Dawn of the Hunt,Corrupted,6,https://poe2db.tw/us/Palm_of_the_Dreamer,2026-11-23,,Dawn of the Hunt
+Weapon,Amor Mandragora,Changeling Talisman,1,Fate of the Vaal,,5,https://poe2db.tw/us/Amor_Mandragora,2026-11-23,,Fate of the Vaal
+Weapon,Spiteful Floret,Nettle Talisman,5,Runes of Aldur,,6,https://poe2db.tw/us/Spiteful_Floret,2026-11-23,,Runes of Aldur
+Weapon,Hysseg's Claw,Familial Talisman,16,Fate of the Vaal,,6,https://poe2db.tw/us/Hyssegs_Claw,2026-11-23,,Fate of the Vaal
+Weapon,The Flesh Poppet,Vicious Talisman,40,Fate of the Vaal,,5,https://poe2db.tw/us/The_Flesh_Poppet,2026-11-23,,Fate of the Vaal
+Weapon,Surge of the Tide,Lumbering Talisman,52,Runes of Aldur,,5,https://poe2db.tw/us/Surge_of_the_Tide,2026-11-23,,Runes of Aldur
+Weapon,Seeing Stars,Marching Mace,54,0.1.0,,4,https://poe2db.tw/us/Seeing_Stars,2026-11-23,,
+Weapon,Sadist's Mercy,Flanged Mace,67,Runes of Aldur,,6,https://poe2db.tw/us/Sadists_Mercy,2026-11-23,,Runes of Aldur
+Weapon,Twisted Empyrean,Aberrant Sledge,70,Runes of Aldur,,8,https://poe2db.tw/us/Twisted_Empyrean,2026-11-23,,Runes of Aldur
+Weapon,Duality,Warding Quarterstaff,65,Runes of Aldur,,6,https://poe2db.tw/us/Duality,2026-11-23,,Runes of Aldur
+Weapon,Voltaxic Rift,Fanatic Bow,79,Dawn of the Hunt,,5,https://poe2db.tw/us/Voltaxic_Rift,2026-11-23,,Dawn of the Hunt
+Weapon,Fanatic Bow,Requires:,79,,Corrupted,1,https://poe2db.tw/us/Fanatic_Bow,2026-11-23,,
+Weapon,Periphery,Heartwood Shortbow,67,Runes of Aldur,,6,https://poe2db.tw/us/Periphery,2026-11-23,,Runes of Aldur
+Weapon,The Last Lament,Desolate Crossbow,77,Dawn of the Hunt,,7,https://poe2db.tw/us/The_Last_Lament,2026-11-23,,Dawn of the Hunt
+Weapon,Redemption,Trarthan Cannon,65,Runes of Aldur,,5,https://poe2db.tw/us/Redemption,2026-11-23,,Runes of Aldur
+Weapon,Atziri's Contempt,Pronged Spear,72,Fate of the Vaal,,7,https://poe2db.tw/us/Atziris_Contempt,2026-11-23,Drops from Atziri's Vault in Vaal Temple,Fate of the Vaal
+Weapon,Pronged Spear,Requires:,72,,Corrupted,1,https://poe2db.tw/us/Pronged_Spear,2026-11-23,,
+Weapon,The Ordained,Grand Spear,79,Runes of Aldur,,7,https://poe2db.tw/us/The_Ordained,2026-11-23,,Runes of Aldur
+Weapon,Grand Spear,Requires:,79,,Corrupted,2,https://poe2db.tw/us/Grand_Spear,2026-11-23,,
+Weapon,Fury of the King,Ashbark Talisman,72,Fate of the Vaal,,7,https://poe2db.tw/us/Fury_of_the_King,2026-11-23,,Fate of the Vaal
+Weapon,Ashbark Talisman,Requires:,72,,Corrupted,1,https://poe2db.tw/us/Ashbark_Talisman,2026-11-23,,
+Armour,Bramblejack,Rusted Cuirass,1,0.1.0,,5,https://poe2db.tw/us/Bramblejack,2026-11-23,,
+Armour,Blackbraid,Fur Plate,4,0.1.0,,6,https://poe2db.tw/us/Blackbraid,2026-11-23,,
+Armour,Edyrn's Tusks,Iron Cuirass,11,0.1.0,,4,https://poe2db.tw/us/Edyrns_Tusks,2026-11-23,,
+Armour,Titanrot Cataphract,Maraketh Cuirass,20,0.1.0,,5,https://poe2db.tw/us/Titanrot_Cataphract,2026-11-23,,
+Armour,Wandering Reliquary,Steel Plate,27,0.1.0,,5,https://poe2db.tw/us/Wandering_Reliquary,2026-11-23,,
+Armour,Kingsguard,Full Plate,33,0.1.0,,5,https://poe2db.tw/us/Kingsguard,2026-11-23,,
+Armour,Greed's Embrace,Vaal Cuirass,37,0.1.0,,5,https://poe2db.tw/us/Greeds_Embrace,2026-11-23,,
+Armour,The Brass Dome,Champion Cuirass,58,0.1.0,,4,https://poe2db.tw/us/The_Brass_Dome,2026-11-23,,
+Armour,Kaom's Heart,Conqueror Plate,68,0.1.0,,3,https://poe2db.tw/us/Kaoms_Heart,2026-11-23,,
+Armour,Bristleboar,Leather Vest,1,0.1.0,,5,https://poe2db.tw/us/Bristleboar,2026-11-23,,
+Armour,Foxshade,Quilted Vest,4,0.1.0,,4,https://poe2db.tw/us/Foxshade,2026-11-23,,
+Armour,Ashrend,Pathfinder Coat,11,0.1.0,,5,https://poe2db.tw/us/Ashrend,2026-11-23,,
+Armour,Sands of Silk,Shrouded Vest,16,Dawn of the Hunt,,7,https://poe2db.tw/us/Sands_of_Silk,2026-11-23,,Dawn of the Hunt
+Armour,Briskwrap,Rhoahide Coat,22,0.1.0,,6,https://poe2db.tw/us/Briskwrap,2026-11-23,,
+Armour,Dustbloom,Studded Vest,26,0.1.0,,3,https://poe2db.tw/us/Dustbloom,2026-11-23,,
+Armour,The Rat Cage,Scout's Vest,33,0.1.0,,4,https://poe2db.tw/us/The_Rat_Cage,2026-11-23,,
+Armour,Quatl's Molt,Serpentscale Coat,36,0.1.0,,6,https://poe2db.tw/us/Quatls_Molt,2026-11-23,,
+Armour,Queen of the Forest,Smuggler Coat,51,0.1.0,,5,https://poe2db.tw/us/Queen_of_the_Forest,2026-11-23,,
+Armour,Yriel's Fostering,Strider Vest,52,Dawn of the Hunt,,6,https://poe2db.tw/us/Yriels_Fostering,2026-11-23,,Dawn of the Hunt
+Armour,The Auspex,Exquisite Vest,65,Runes of Aldur,,6,https://poe2db.tw/us/The_Auspex,2026-11-23,,Runes of Aldur
+Armour,Hyrri's Ire,Armoured Vest,73,Dawn of the Hunt,,6,https://poe2db.tw/us/Hyrris_Ire,2026-11-23,,Dawn of the Hunt
+Armour,Ghostwrithe,Tattered Robe,1,0.1.0,,3,https://poe2db.tw/us/Ghostwrithe,2026-11-23,,
+Armour,Bitterbloom,Feathered Robe,5,0.1.0,,4,https://poe2db.tw/us/Bitterbloom,2026-11-23,,
+Armour,The Black Doubt,Hexer's Robe,11,0.1.0,,4,https://poe2db.tw/us/The_Black_Doubt,2026-11-23,,
+Armour,Necromantle,Bone Raiment,16,0.1.0,,5,https://poe2db.tw/us/Necromantle,2026-11-23,,
+Armour,Cloak of Flame,Silk Robe,22,0.1.0,,5,https://poe2db.tw/us/Cloak_of_Flame,2026-11-23,,
+Armour,Temporalis,Silk Robe,64,0.1.0,,5,https://poe2db.tw/us/Temporalis,2026-11-23,"Drops from Zarokh, the Temporal",
+Armour,Prayers for Rain,Keth Raiment,28,0.1.0,,5,https://poe2db.tw/us/Prayers_for_Rain,2026-11-23,,
+Armour,Tetzlapokal's Desire,Votive Raiment,33,0.1.0,,5,https://poe2db.tw/us/Tetzlapokals_Desire,2026-11-23,,
+Armour,The Covenant,Altar Robe,40,0.1.0,,5,https://poe2db.tw/us/The_Covenant,2026-11-23,,
+Armour,Gloamgown,Elementalist Robe,45,Dawn of the Hunt,,5,https://poe2db.tw/us/Gloamgown,2026-11-23,,Dawn of the Hunt
+Armour,Vis Mortis,Plated Raiment,58,Dawn of the Hunt,,4,https://poe2db.tw/us/Vis_Mortis,2026-11-23,,Dawn of the Hunt
+Armour,Cloak of Defiance,Havoc Raiment,65,Dawn of the Hunt,,4,https://poe2db.tw/us/Cloak_of_Defiance,2026-11-23,,Dawn of the Hunt
+Armour,Silks of Veneration,Enlightened Robe,68,Dawn of the Hunt,,6,https://poe2db.tw/us/Silks_of_Veneration,2026-11-23,,Dawn of the Hunt
+Armour,Coat of Red,Chain Mail,1,0.1.0,,4,https://poe2db.tw/us/Coat_of_Red,2026-11-23,,
+Armour,The Barrow Dweller,Rogue Armour,11,0.1.0,,5,https://poe2db.tw/us/The_Barrow_Dweller,2026-11-23,,
+Armour,Irongrasp,Vagabond Armour,16,0.1.0,,5,https://poe2db.tw/us/Irongrasp,2026-11-23,,
+Armour,Pariah's Embrace,Cloaked Mail,26,0.1.0,,5,https://poe2db.tw/us/Pariahs_Embrace,2026-11-23,,
+Armour,Belly of the Beast,Explorer Armour,33,0.1.0,,5,https://poe2db.tw/us/Belly_of_the_Beast,2026-11-23,,
+Armour,Pragmatism,Explorer Armour,52,0.1.0,,4,https://poe2db.tw/us/Pragmatism,2026-11-23,Drops from The King in the Mists in Crux of Nothingness,
+Armour,Doryani's Prototype,Scale Mail,37,0.1.0,,5,https://poe2db.tw/us/Doryanis_Prototype,2026-11-23,,
+Armour,Widow's Reign,Knight Armour,45,Dawn of the Hunt,,5,https://poe2db.tw/us/Widows_Reign,2026-11-23,,Dawn of the Hunt
+Armour,Perfidy,Knight Armour,45,0.1.0,,7,https://poe2db.tw/us/Perfidy,2026-11-23,"Drops from Kosis, The Revelation",
+Armour,The Sunken Vessel,Knight Armour,45,Runes of Aldur,,6,https://poe2db.tw/us/The_Sunken_Vessel,2026-11-23,,Runes of Aldur
+Armour,Lightning Coil,Ancestral Mail,50,Rise of the Abyssal,,6,https://poe2db.tw/us/Lightning_Coil,2026-11-23,,Rise of the Abyssal
+Armour,The Fallen Formation,Lamellar Mail,54,Dawn of the Hunt,,6,https://poe2db.tw/us/The_Fallen_Formation,2026-11-23,No longer obtainable,Dawn of the Hunt
+Armour,The Coming Calamity,Heroic Armour,65,Dawn of the Hunt,,4,https://poe2db.tw/us/The_Coming_Calamity,2026-11-23,,Dawn of the Hunt
+Armour,Enfolding Dawn,Pilgrim Vestments,1,0.1.0,,4,https://poe2db.tw/us/Enfolding_Dawn,2026-11-23,,
+Armour,Icetomb,Mail Vestments,16,0.1.0,,4,https://poe2db.tw/us/Icetomb,2026-11-23,,
+Armour,Reverie,Shaman Mantle,28,Runes of Aldur,,6,https://poe2db.tw/us/Reverie,2026-11-23,,
+Armour,Soul Mantle,Sacrificial Mantle,36,Dawn of the Hunt,,6,https://poe2db.tw/us/Soul_Mantle,2026-11-23,,Dawn of the Hunt
+Armour,The Mutable Star,Cleric Vestments,45,Dawn of the Hunt,,6,https://poe2db.tw/us/The_Mutable_Star,2026-11-23,,Dawn of the Hunt
+Armour,Waveshaper,Tideseer Mantle,51,Dawn of the Hunt,,6,https://poe2db.tw/us/Waveshaper,2026-11-23,,Dawn of the Hunt
+Armour,Couture of Crimson,Gilded Vestments,52,0.1.0,,4,https://poe2db.tw/us/Couture_of_Crimson,2026-11-23,,
+Armour,Geofri's Sanctuary,Revered Vestments,65,Runes of Aldur,,7,https://poe2db.tw/us/Geofris_Sanctuary,2026-11-23,,Runes of Aldur
+Armour,The Unleashed,Revered Vestments,65,Runes of Aldur,,5,https://poe2db.tw/us/The_Unleashed,2026-11-23,,Runes of Aldur
+Armour,Sacrosanctum,Corvus Mantle,68,Dawn of the Hunt,,7,https://poe2db.tw/us/Sacrosanctum,2026-11-23,,Dawn of the Hunt
+Armour,Loreweave,Ornate Ringmail,43,Runes of Aldur,,7,https://poe2db.tw/us/Loreweave,2026-11-23,,
+Armour,Decree of Loyalty,Ancient Mail,70,Runes of Aldur,,6,https://poe2db.tw/us/Decree_of_Loyalty,2026-11-23,,Runes of Aldur
+Armour,Apron of Emiran,Hermit Garb,1,0.1.0,,4,https://poe2db.tw/us/Apron_of_Emiran,2026-11-23,,
+Armour,Gloomform,Waxed Jacket,11,0.1.0,,5,https://poe2db.tw/us/Gloomform,2026-11-23,,
+Armour,Sierran Inheritance,Marabout Garb,16,0.1.0,,6,https://poe2db.tw/us/Sierran_Inheritance,2026-11-23,,
+Armour,The Dancing Mirage,Wayfarer Jacket,28,0.1.0,,4,https://poe2db.tw/us/The_Dancing_Mirage,2026-11-23,,
+Armour,Redflare Conduit,Anchorite Garb,33,0.1.0,,5,https://poe2db.tw/us/Redflare_Conduit,2026-11-23,,
+Armour,Zerphi's Serape,Scalper's Jacket,39,Dawn of the Hunt,,6,https://poe2db.tw/us/Zerphis_Serape,2026-11-23,,Dawn of the Hunt
+Armour,Cospri's Will,Assassin Garb,73,Rise of the Abyssal,,6,https://poe2db.tw/us/Cospris_Will,2026-11-23,,Rise of the Abyssal
+Armour,Wings of Caelyn,Rusted Greathelm,1,0.1.0,,5,https://poe2db.tw/us/Wings_of_Caelyn,2026-11-23,,
+Armour,Horns of Bynden,Rusted Greathelm,1,0.1.0,,5,https://poe2db.tw/us/Horns_of_Bynden,2026-11-23,,
+Armour,Ezomyte Peak,Soldier Greathelm,12,0.1.0,,5,https://poe2db.tw/us/Ezomyte_Peak,2026-11-23,,
+Armour,Black Sun Crest,Wrapped Greathelm,16,0.1.0,,5,https://poe2db.tw/us/Black_Sun_Crest,2026-11-23,,
+Armour,Thrillsteel,Spired Greathelm,27,0.1.0,,1,https://poe2db.tw/us/Thrillsteel,2026-11-23,,
+Armour,Deidbell,Elite Greathelm,33,0.1.0,,5,https://poe2db.tw/us/Deidbell,2026-11-23,,
+Armour,Corona of the Red Sun,Warrior Greathelm,36,0.1.0,,5,https://poe2db.tw/us/Corona_of_the_Red_Sun,2026-11-23,,
+Armour,Blood Price,Fierce Greathelm,51,Dawn of the Hunt,,5,https://poe2db.tw/us/Blood_Price,2026-11-23,,Dawn of the Hunt
+Armour,Innsmouth,Shabby Hood,1,0.1.0,,5,https://poe2db.tw/us/Innsmouth,2026-11-23,,
+Armour,Goldrim,Felt Cap,10,0.1.0,,3,https://poe2db.tw/us/Goldrim,2026-11-23,,
+Armour,Radiant Grief,Lace Hood,16,0.1.0,,4,https://poe2db.tw/us/Radiant_Grief,2026-11-23,,
+Armour,Elevore,Hunter Hood,33,0.1.0,,4,https://poe2db.tw/us/Elevore,2026-11-23,,
+Armour,Constricting Command,Viper Cap,38,Dawn of the Hunt,,4,https://poe2db.tw/us/Constricting_Command,2026-11-23,,Dawn of the Hunt
+Armour,The Black Insignia,Corsair Cap,45,Dawn of the Hunt,,5,https://poe2db.tw/us/The_Black_Insignia,2026-11-23,,Dawn of the Hunt
+Armour,Starkonja's Head,Leatherbound Hood,50,Dawn of the Hunt,,5,https://poe2db.tw/us/Starkonjas_Head,2026-11-23,,Dawn of the Hunt
+Armour,Heatshiver,Velvet Cap,52,Dawn of the Hunt,,5,https://poe2db.tw/us/Heatshiver,2026-11-23,,Dawn of the Hunt
+Armour,Myris Uxor,Covert Hood,56,0.1.0,,4,https://poe2db.tw/us/Myris_Uxor,2026-11-23,,
+Armour,Alpha's Howl,Plumed Cap,61,0.1.0,,4,https://poe2db.tw/us/Alphas_Howl,2026-11-23,,
+Armour,Crown of Thorns,Twig Circlet,1,0.1.0,,4,https://poe2db.tw/us/Crown_of_Thorns,2026-11-23,,
+Armour,The Devouring Diadem,Wicker Tiara,10,0.1.0,,5,https://poe2db.tw/us/The_Devouring_Diadem,2026-11-23,,
+Armour,Visage of Ayah,Beaded Circlet,16,0.1.0,,5,https://poe2db.tw/us/Visage_of_Ayah,2026-11-23,,
+Armour,Sandstorm Visage,Chain Tiara,52,0.1.0,,4,https://poe2db.tw/us/Sandstorm_Visage,2026-11-23,"Drops from Zarokh, the Temporal",
+Armour,Mask of the Stitched Demon,Feathered Tiara,33,0.1.0,,4,https://poe2db.tw/us/Mask_of_the_Stitched_Demon,2026-11-23,,
+Armour,Atziri's Disdain,Gold Circlet,40,0.1.0,,4,https://poe2db.tw/us/Atziris_Disdain,2026-11-23,,
+Armour,Crown of Eyes,Vermeil Circlet,45,Dawn of the Hunt,,5,https://poe2db.tw/us/Crown_of_Eyes,2026-11-23,,Dawn of the Hunt
+Armour,Scold's Bridle,Jade Tiara,50,Dawn of the Hunt,,5,https://poe2db.tw/us/Scolds_Bridle,2026-11-23,,Dawn of the Hunt
+Armour,Indigon,Magus Tiara,65,Dawn of the Hunt,,5,https://poe2db.tw/us/Indigon,2026-11-23,,Dawn of the Hunt
+Armour,Greymake,Brimmed Helm,5,0.1.0,,4,https://poe2db.tw/us/Greymake,2026-11-23,,
+Armour,Erian's Cobble,Guarded Helm,11,0.1.0,,15,https://poe2db.tw/us/Erians_Cobble,2026-11-23,,
+Armour,Ironride,Visored Helm,16,0.1.0,,5,https://poe2db.tw/us/Ironride,2026-11-23,,
+Armour,The Smiling Knight,Cowled Helm,26,0.1.0,,4,https://poe2db.tw/us/The_Smiling_Knight,2026-11-23,,
+Armour,The Vile Knight,Shielded Helm,33,0.1.0,,4,https://poe2db.tw/us/The_Vile_Knight,2026-11-23,,
+Armour,Assailum,Closed Helm,45,0.1.0,,4,https://poe2db.tw/us/Assailum,2026-11-23,"Drops from Kosis, The Revelation",
+Armour,The Bringer of Rain,Decorated Helm,52,Dawn of the Hunt,,7,https://poe2db.tw/us/The_Bringer_of_Rain,2026-11-23,,Dawn of the Hunt
+Armour,Decree of Acuity,Ancient Visor,65,Runes of Aldur,,5,https://poe2db.tw/us/Decree_of_Acuity,2026-11-23,,Runes of Aldur
+Armour,Crown of the Victor,Iron Crown,5,0.1.0,,4,https://poe2db.tw/us/Crown_of_the_Victor,2026-11-23,,
+Armour,Bronzebeard,Horned Crown,10,0.1.0,,6,https://poe2db.tw/us/Bronzebeard,2026-11-23,,
+Armour,Crown of the Pale King,Cultist Crown,16,0.1.0,,5,https://poe2db.tw/us/Crown_of_the_Pale_King,2026-11-23,,
+Armour,Veil of the Night,Martyr Crown,28,0.1.0,,4,https://poe2db.tw/us/Veil_of_the_Night,2026-11-23,,
+Armour,Cornathaum,Heavy Crown,33,0.1.0,,4,https://poe2db.tw/us/Cornathaum,2026-11-23,,
+Armour,Keeper of the Arc,Spiritbone Crown,62,0.1.0,,4,https://poe2db.tw/us/Keeper_of_the_Arc,2026-11-23,"Drops from Olroth, Origin of the Fall",
+Armour,Vestige of Darkness,Tenebrous Crown,65,Runes of Aldur,,5,https://poe2db.tw/us/Vestige_of_Darkness,2026-11-23,,Runes of Aldur
+Armour,The Hollow Mask,Hewn Mask,5,Runes of Aldur,,7,https://poe2db.tw/us/The_Hollow_Mask,2026-11-23,,
+Armour,Mask of the Sanguimancer,Face Mask,10,0.1.0,,5,https://poe2db.tw/us/Mask_of_the_Sanguimancer,2026-11-23,,
+Armour,Leer Cast,Hooded Mask,16,0.1.0,,5,https://poe2db.tw/us/Leer_Cast,2026-11-23,,
+Armour,Atsak's Sight,Veiled Mask,28,0.1.0,,5,https://poe2db.tw/us/Atsaks_Sight,2026-11-23,,
+Armour,The Vertex,Tribal Mask,33,0.1.0,,5,https://poe2db.tw/us/The_Vertex,2026-11-23,,
+Armour,Glimpse of Chaos,Tribal Mask,52,0.1.0,Corrupted,7,https://poe2db.tw/us/Glimpse_of_Chaos,2026-11-23,Drops from Trialmaster in The Trial of Chaos,
+Armour,The Three Dragons,Solid Mask,45,0.1.0,,5,https://poe2db.tw/us/The_Three_Dragons,2026-11-23,,
+Armour,Mind of the Council,Death Mask,65,Dawn of the Hunt,,5,https://poe2db.tw/us/Mind_of_the_Council,2026-11-23,,Dawn of the Hunt
+Armour,Facebreaker,Stocky Mitts,1,Runes of Aldur,,13,https://poe2db.tw/us/Facebreaker,2026-11-23,,Runes of Aldur
+Armour,Treefingers,Riveted Mitts,11,0.1.0,,14,https://poe2db.tw/us/Treefingers,2026-11-23,,
+Armour,Lochtonial Caress,Tempered Mitts,16,0.1.0,,12,https://poe2db.tw/us/Lochtonial_Caress,2026-11-23,,
+Armour,Dreadfist,Bolstered Mitts,27,Dawn of the Hunt,,12,https://poe2db.tw/us/Dreadfist,2026-11-23,,Dawn of the Hunt
+Armour,Atziri's Acuity,Moulded Mitts,33,0.1.0,,13,https://poe2db.tw/us/Atziris_Acuity,2026-11-23,,
+Armour,Hateforge,Moulded Mitts,60,0.1.0,,12,https://poe2db.tw/us/Hateforge,2026-11-23,Drops from Trialmaster in The Trial of Chaos,
+Armour,Empire's Grasp,Titan Mitts,52,Dawn of the Hunt,,12,https://poe2db.tw/us/Empires_Grasp,2026-11-23,,Dawn of the Hunt
+Armour,Northpaw,Suede Bracers,1,0.1.0,,10,https://poe2db.tw/us/Northpaw,2026-11-23,,
+Armour,Grip of Winter,Firm Bracers,11,0.1.0,,12,https://poe2db.tw/us/Grip_of_Winter,2026-11-23,,
+Armour,Idle Hands,Sectioned Bracers,28,0.1.0,,12,https://poe2db.tw/us/Idle_Hands,2026-11-23,,
+Armour,Snakebite,Spined Bracers,33,0.1.0,,12,https://poe2db.tw/us/Snakebite,2026-11-23,,
+Armour,Maligaro's Virtuosity,Fine Bracers,45,0.1.0,,13,https://poe2db.tw/us/Maligaros_Virtuosity,2026-11-23,,
+Armour,Horror's Flight,Engraved Bracers,65,Runes of Aldur,,13,https://poe2db.tw/us/Horrors_Flight,2026-11-23,,Runes of Aldur
+Armour,Painter's Servant,Torn Gloves,1,0.1.0,,12,https://poe2db.tw/us/Painters_Servant,2026-11-23,,
+Armour,Candlemaker,Sombre Gloves,12,0.1.0,,14,https://poe2db.tw/us/Candlemaker,2026-11-23,,
+Armour,Doedre's Tenure,Stitched Gloves,16,0.1.0,,10,https://poe2db.tw/us/Doedres_Tenure,2026-11-23,,
+Armour,Kitoko's Current,Jewelled Gloves,26,0.1.0,,10,https://poe2db.tw/us/Kitokos_Current,2026-11-23,,
+Armour,Demon Stitcher,Intricate Gloves,33,0.1.0,,10,https://poe2db.tw/us/Demon_Stitcher,2026-11-23,,
+Armour,Nightscale,Pauascale Gloves,45,Dawn of the Hunt,,14,https://poe2db.tw/us/Nightscale,2026-11-23,,Dawn of the Hunt
+Armour,Leopold's Applause,Embroidered Gloves,52,Dawn of the Hunt,,12,https://poe2db.tw/us/Leopolds_Applause,2026-11-23,,Dawn of the Hunt
+Armour,Jarngreipr,Ringmail Gauntlets,6,0.1.0,,12,https://poe2db.tw/us/Jarngreipr,2026-11-23,,
+Armour,Aurseize,Layered Gauntlets,16,0.1.0,,8,https://poe2db.tw/us/Aurseize,2026-11-23,,
+Armour,Deathblow,Doubled Gauntlets,33,0.1.0,,12,https://poe2db.tw/us/Deathblow,2026-11-23,,
+Armour,Valako's Vice,Plate Gauntlets,45,Dawn of the Hunt,,14,https://poe2db.tw/us/Valakos_Vice,2026-11-23,,Dawn of the Hunt
+Armour,Aerisvane's Wings,Burnished Gauntlets,52,0.1.0,,9,https://poe2db.tw/us/Aerisvanes_Wings,2026-11-23,,
+Armour,Death Articulated,Ornate Gauntlets,65,Dawn of the Hunt,Corrupted,14,https://poe2db.tw/us/Death_Articulated,2026-11-23,,Dawn of the Hunt
+Armour,Gravebind,Rope Cuffs,5,0.1.0,,12,https://poe2db.tw/us/Gravebind,2026-11-23,,
+Armour,Shackles of the Wretched,Aged Cuffs,16,0.1.0,,13,https://poe2db.tw/us/Shackles_of_the_Wretched,2026-11-23,,
+Armour,Blueflame Bracers,Goldcast Cuffs,33,0.1.0,,12,https://poe2db.tw/us/Blueflame_Bracers,2026-11-23,,
+Armour,The Prisoner's Manacles,Kalguuran Cuffs,45,Dawn of the Hunt,,16,https://poe2db.tw/us/The_Prisoners_Manacles,2026-11-23,,Dawn of the Hunt
+Armour,Plaguefinger,Gauze Wraps,4,0.1.0,,11,https://poe2db.tw/us/Plaguefinger,2026-11-23,,
+Armour,Killjoy,Linen Wraps,16,0.1.0,,12,https://poe2db.tw/us/Killjoy,2026-11-23,,
+Armour,Hand of Wisdom and Action,Spiral Wraps,33,0.1.0,,10,https://poe2db.tw/us/Hand_of_Wisdom_and_Action,2026-11-23,"Drops from Xesht, We That Are One in Twisted Domain",
+Armour,Essentia Sanguis,Furtive Wraps,52,Dawn of the Hunt,,12,https://poe2db.tw/us/Essentia_Sanguis,2026-11-23,,Dawn of the Hunt
+Armour,Thunderfist,Utility Wraps,65,Rise of the Abyssal,,13,https://poe2db.tw/us/Thunderfist,2026-11-23,,Rise of the Abyssal
+Armour,Legionstride,Rough Greaves,1,0.1.0,,4,https://poe2db.tw/us/Legionstride,2026-11-23,,
+Armour,Corpsewade,Iron Greaves,11,0.1.0,,4,https://poe2db.tw/us/Corpsewade,2026-11-23,,
+Armour,The Infinite Pursuit,Bronze Greaves,16,0.1.0,,5,https://poe2db.tw/us/The_Infinite_Pursuit,2026-11-23,,
+Armour,Trampletoe,Trimmed Greaves,27,0.1.0,,4,https://poe2db.tw/us/Trampletoe,2026-11-23,,
+Armour,Birth of Fury,Stone Greaves,33,0.1.0,,4,https://poe2db.tw/us/Birth_of_Fury,2026-11-23,,
+Armour,Briarpatch,Laced Boots,11,0.1.0,,5,https://poe2db.tw/us/Briarpatch,2026-11-23,,
+Armour,Gamblesprint,Embossed Boots,16,0.1.0,,5,https://poe2db.tw/us/Gamblesprint,2026-11-23,,
+Armour,Bushwhack,Lizardscale Boots,33,0.1.0,,4,https://poe2db.tw/us/Bushwhack,2026-11-23,,
+Armour,Luminous Pace,Straw Sandals,1,0.1.0,,5,https://poe2db.tw/us/Luminous_Pace,2026-11-23,,
+Armour,Wanderlust,Wrapped Sandals,11,0.1.0,,4,https://poe2db.tw/us/Wanderlust,2026-11-23,,
+Armour,Bones of Ullr,Lattice Sandals,16,0.1.0,,5,https://poe2db.tw/us/Bones_of_Ullr,2026-11-23,,
+Armour,Wondertrap,Silk Slippers,27,0.1.0,,6,https://poe2db.tw/us/Wondertrap,2026-11-23,,
+Armour,Windscream,Feathered Sandals,33,0.1.0,,5,https://poe2db.tw/us/Windscream,2026-11-23,,
+Armour,The Knight-errant,Mail Sabatons,6,0.1.0,,5,https://poe2db.tw/us/The_Knight-errant,2026-11-23,,
+Armour,Darkray Vectors,Braced Sabatons,16,0.1.0,,5,https://poe2db.tw/us/Darkray_Vectors,2026-11-23,,
+Armour,Obern's Bastion,Stacked Sabatons,33,0.1.0,,6,https://poe2db.tw/us/Oberns_Bastion,2026-11-23,,
+Armour,Shankgonne,Covered Sabatons,45,Rise of the Abyssal,,7,https://poe2db.tw/us/Shankgonne,2026-11-23,,Rise of the Abyssal
+Armour,Wake of Destruction,Secured Leggings,16,0.1.0,,4,https://poe2db.tw/us/Wake_of_Destruction,2026-11-23,,
+Armour,Decree of Flight,Ancient Leggings,65,Runes of Aldur,,6,https://poe2db.tw/us/Decree_of_Flight,2026-11-23,,Runes of Aldur
+Armour,Ghostmarch,Threaded Shoes,16,0.1.0,,5,https://poe2db.tw/us/Ghostmarch,2026-11-23,,
+Armour,Powertread,Hunting Shoes,33,0.1.0,,5,https://poe2db.tw/us/Powertread,2026-11-23,,
+Armour,Beetlebite,Threaded Shoes,16,0.1.0,,4,https://poe2db.tw/us/Beetlebite,2026-11-23,Drops from The King in the Mists in Crux of Nothingness,
+Armour,Dionadair,Splintered Tower Shield,1,0.1.0,,5,https://poe2db.tw/us/Dionadair,2026-11-23,,
+Armour,Wulfsbane,Painted Tower Shield,6,0.1.0,,4,https://poe2db.tw/us/Wulfsbane,2026-11-23,,
+Armour,Doomgate,Braced Tower Shield,12,0.1.0,,5,https://poe2db.tw/us/Doomgate,2026-11-23,,
+Armour,Window to Paradise,Barricade Tower Shield,16,Dawn of the Hunt,,4,https://poe2db.tw/us/Window_to_Paradise,2026-11-23,,Dawn of the Hunt
+Armour,Lycosidae,Rampart Tower Shield,28,0.1.0,,4,https://poe2db.tw/us/Lycosidae,2026-11-23,,
+Armour,Redblade Banner,Heraldric Tower Shield,33,Dawn of the Hunt,,5,https://poe2db.tw/us/Redblade_Banner,2026-11-23,,Dawn of the Hunt
+Armour,Svalinn,Crucible Tower Shield,60,0.1.0,,4,https://poe2db.tw/us/Svalinn,2026-11-23,"Drops from Olroth, Origin of the Fall",
+Armour,Chernobog's Pillar,Blacksteel Tower Shield,65,Dawn of the Hunt,,5,https://poe2db.tw/us/Chernobogs_Pillar,2026-11-23,,Dawn of the Hunt
+Armour,Arvil's Wheel,Hardwood Targe,1,0.1.0,,6,https://poe2db.tw/us/Arvils_Wheel,2026-11-23,,
+Armour,Feathered Fortress,Crescent Targe,26,0.1.0,,5,https://poe2db.tw/us/Feathered_Fortress,2026-11-23,,
+Armour,Alkem Eira,Blazon Crest Shield,1,0.1.0,,4,https://poe2db.tw/us/Alkem_Eira,2026-11-23,,
+Armour,Oaksworn,Sigil Crest Shield,7,0.1.0,,4,https://poe2db.tw/us/Oaksworn,2026-11-23,,
+Armour,Saffell's Frame,Emblem Crest Shield,16,0.1.0,,6,https://poe2db.tw/us/Saffells_Frame,2026-11-23,,
+Armour,Crest of Ardura,Jingling Crest Shield,28,0.1.0,,4,https://poe2db.tw/us/Crest_of_Ardura,2026-11-23,,
+Armour,Mahuxotl's Machination,Omen Crest Shield,48,0.1.0,,3,https://poe2db.tw/us/Mahuxotls_Machination,2026-11-23,Drops from Trialmaster in The Trial of Chaos,
+Armour,Rise of the Phoenix,Omen Crest Shield,36,0.1.0,,5,https://poe2db.tw/us/Rise_of_the_Phoenix,2026-11-23,,
+Armour,Dunkelhalt,Leather Buckler,1,Dawn of the Hunt,,4,https://poe2db.tw/us/Dunkelhalt,2026-11-23,,Dawn of the Hunt
+Armour,Nocturne,Wooden Buckler,5,Dawn of the Hunt,,5,https://poe2db.tw/us/Nocturne,2026-11-23,,Dawn of the Hunt
+Armour,Rondel de Ezo,Plated Buckler,11,Dawn of the Hunt,,5,https://poe2db.tw/us/Rondel_de_Ezo,2026-11-23,,Dawn of the Hunt
+Armour,Bloodbarrier,Iron Buckler,16,Dawn of the Hunt,Corrupted,4,https://poe2db.tw/us/Bloodbarrier,2026-11-23,,Dawn of the Hunt
+Armour,Kaltenhalt,Ridged Buckler,22,Rise of the Abyssal,,6,https://poe2db.tw/us/Kaltenhalt,2026-11-23,,Rise of the Abyssal
+Armour,Silverthorne,Spiked Buckler,26,Dawn of the Hunt,,4,https://poe2db.tw/us/Silverthorne,2026-11-23,,Dawn of the Hunt
+Armour,Calgyra's Arc,Ornate Buckler,52,Dawn of the Hunt,,5,https://poe2db.tw/us/Calgyras_Arc,2026-11-23,,Dawn of the Hunt
+Armour,Sunsplinter,Array Buckler,55,Dawn of the Hunt,,3,https://poe2db.tw/us/Sunsplinter,2026-11-23,,Dawn of the Hunt
+Armour,Deathrattle,Twig Focus,1,0.1.0,,4,https://poe2db.tw/us/Deathrattle,2026-11-23,,
+Armour,Threaded Light,Woven Focus,6,0.1.0,,4,https://poe2db.tw/us/Threaded_Light,2026-11-23,,
+Armour,Effigy of Cruelty,Antler Focus,10,Dawn of the Hunt,,5,https://poe2db.tw/us/Effigy_of_Cruelty,2026-11-23,,Dawn of the Hunt
+Armour,Carrion Call,Engraved Focus,16,0.1.0,,5,https://poe2db.tw/us/Carrion_Call,2026-11-23,,
+Armour,Serpent's Lesson,Tonal Focus,22,0.1.0,,4,https://poe2db.tw/us/Serpents_Lesson,2026-11-23,,
+Armour,The Eternal Spark,Crystal Focus,26,0.1.0,,5,https://poe2db.tw/us/The_Eternal_Spark,2026-11-23,,
+Armour,Apep's Supremacy,Voodoo Focus,33,Dawn of the Hunt,,5,https://poe2db.tw/us/Apeps_Supremacy,2026-11-23,,Dawn of the Hunt
+Armour,Skin of the Loyal,Garment,1,0.1.0,,5,https://poe2db.tw/us/Skin_of_the_Loyal,2026-11-23,"Drops from Xesht, We That Are One in Twisted Domain",
+Armour,Morior Invictus,Grand Regalia,65,0.1.0,,1,https://poe2db.tw/us/Morior_Invictus,2026-11-23,Drops from Arbiter of Ash in The Burning Monolith,
+Armour,Atziri's Splendour,Sacrificial Regalia,65,Fate of the Vaal,Corrupted,6,https://poe2db.tw/us/Atziris_Splendour,2026-11-23,Drops from Atziri's Vault in Vaal Temple,Fate of the Vaal
+Armour,Solus Ipse,Grand Visage,65,0.1.0,,5,https://poe2db.tw/us/Solus_Ipse,2026-11-23,Drops from Arbiter of Ash in The Burning Monolith,
+Armour,Sine Aequo,Grand Manchettes,65,0.1.0,,10,https://poe2db.tw/us/Sine_Aequo,2026-11-23,Drops from Arbiter of Ash in The Burning Monolith,
+Armour,Ab Aeterno,Grand Cuisses,65,0.1.0,,5,https://poe2db.tw/us/Ab_Aeterno,2026-11-23,Drops from Arbiter of Ash in The Burning Monolith,
+Armour,Voll's Protector,Plated Vestments,59,0.1.0,,4,https://poe2db.tw/us/Volls_Protector,2026-11-23,,
+Armour,Forgotten Warden,Primal Markings,70,Runes of Aldur,,6,https://poe2db.tw/us/Forgotten_Warden,2026-11-23,,Runes of Aldur
+Armour,The Master's Reach,Tethering Bands,65,Runes of Aldur,,15,https://poe2db.tw/us/The_Masters_Reach,2026-11-23,,
+Armour,Atziri's Step,Cinched Boots,65,Fate of the Vaal,,6,https://poe2db.tw/us/Atziris_Step,2026-11-23,Drops from Atziri's Vault in Vaal Temple,Fate of the Vaal
+Armour,The Surrender,Vaal Tower Shield,75,0.1.0,,4,https://poe2db.tw/us/The_Surrender,2026-11-23,,
+Armour,Nightfall,Glacial Fortress,70,Runes of Aldur,,7,https://poe2db.tw/us/Nightfall,2026-11-23,,Runes of Aldur
+Armour,Eyes of the Runefather,Venerable Defender,62,Runes of Aldur,,4,https://poe2db.tw/us/Eyes_of_the_Runefather,2026-11-23,,Runes of Aldur
+Armour,Prism Guardian,Intricate Crest Shield,65,Dawn of the Hunt,,5,https://poe2db.tw/us/Prism_Guardian,2026-11-23,,Dawn of the Hunt
+Armour,Rathpith Globe,Sacred Focus,75,Dawn of the Hunt,,5,https://poe2db.tw/us/Rathpith_Globe,2026-11-23,,Dawn of the Hunt
+Other,Heroic Tragedy,Timeless Jewel,,0.1.0,Corrupted,1,https://poe2db.tw/us/Heroic_Tragedy,2026-11-23,"Drops from Olroth, Origin of the Fall",
+Other,Undying Hate,Timeless Jewel,,Rise of the Abyssal,,1,https://poe2db.tw/us/Undying_Hate,2026-11-23,Drops from Vessel of Kulemak,
+Other,Grand Spectrum,Ruby,,0.1.0,,1,https://poe2db.tw/us/Grand_Spectrum,2026-11-23,,
+Other,Split Personality,Ruby,,Runes of Aldur,Corrupted,1,https://poe2db.tw/us/Split_Personality,2026-11-23,,Runes of Aldur
+Other,Voices,Sapphire,,Runes of Aldur,Corrupted,1,https://poe2db.tw/us/Voices,2026-11-23,,Runes of Aldur
+Other,Megalomaniac,Diamond,,0.1.0,Corrupted,3,https://poe2db.tw/us/Megalomaniac,2026-11-23,,
+Other,From Nothing,Diamond,,0.1.0,Corrupted,1,https://poe2db.tw/us/From_Nothing,2026-11-23,,
+Other,Controlled Metamorphosis,Diamond,,0.1.0,,3,https://poe2db.tw/us/Controlled_Metamorphosis,2026-11-23,"Drops from Xesht, We That Are One in Twisted Domain",
+Other,Prism of Belief,Diamond,,0.1.0,Corrupted,1,https://poe2db.tw/us/Prism_of_Belief,2026-11-23,,
+Other,The Adorned,Diamond,,0.1.0,Corrupted,1,https://poe2db.tw/us/The_Adorned,2026-11-23,Drops from Trialmaster in The Trial of Chaos,
+Other,Flesh Crucible,Diamond,,Fate of the Vaal,Corrupted,1,https://poe2db.tw/us/Flesh_Crucible,2026-11-23,,
+Other,Against the Darkness,Time-Lost Diamond,,0.1.0,,2,https://poe2db.tw/us/Against_the_Darkness,2026-11-23,,
+Other,The Peacemaker's Draught,Amphora Relic,,0.1.0,,3,https://poe2db.tw/us/The_Peacemakers_Draught,2026-11-23,,
+Other,The Desperate Alliance,Vase Relic,,0.1.0,,4,https://poe2db.tw/us/The_Desperate_Alliance,2026-11-23,,
+Other,The Changing Seasons,Seal Relic,,0.1.0,,3,https://poe2db.tw/us/The_Changing_Seasons,2026-11-23,,
+Other,The Burden of Leadership,Tapestry Relic,,0.1.0,,3,https://poe2db.tw/us/The_Burden_of_Leadership,2026-11-23,,
+Other,The Last Flame,Incense Relic,,0.1.0,,5,https://poe2db.tw/us/The_Last_Flame,2026-11-23,,
+Other,Asphyxia's Wrath,Broadhead Quiver,1,0.1.0,,6,https://poe2db.tw/us/Asphyxias_Wrath,2026-11-23,,
+Other,Broadhead Quiver,Requires:,1,,Corrupted,1,https://poe2db.tw/us/Broadhead_Quiver,2026-11-23,,
+Other,Blackgleam,Fire Quiver,8,0.1.0,,6,https://poe2db.tw/us/Blackgleam,2026-11-23,,
+Other,Fire Quiver,Requires:,8,,Corrupted,1,https://poe2db.tw/us/Fire_Quiver,2026-11-23,,
+Other,The Lethal Draw,Sacral Quiver,16,Dawn of the Hunt,,5,https://poe2db.tw/us/The_Lethal_Draw,2026-11-23,,Dawn of the Hunt
+Other,Sacral Quiver,Requires:,16,,Corrupted,1,https://poe2db.tw/us/Sacral_Quiver,2026-11-23,,
+Other,Rearguard,Blunt Quiver,33,Dawn of the Hunt,,5,https://poe2db.tw/us/Rearguard,2026-11-23,,Dawn of the Hunt
+Other,Blunt Quiver,Requires:,33,,Corrupted,1,https://poe2db.tw/us/Blunt_Quiver,2026-11-23,,
+Other,Murkshaft,Toxic Quiver,39,Dawn of the Hunt,,7,https://poe2db.tw/us/Murkshaft,2026-11-23,,Dawn of the Hunt
+Other,Toxic Quiver,Requires:,39,,Corrupted,1,https://poe2db.tw/us/Toxic_Quiver,2026-11-23,,
+Other,Cadiro's Gambit,Primed Quiver,66,Dawn of the Hunt,,2,https://poe2db.tw/us/Cadiros_Gambit,2026-11-23,,Dawn of the Hunt
+Other,Primed Quiver,Requires:,51,,Corrupted,1,https://poe2db.tw/us/Primed_Quiver,2026-11-23,,
+Other,Drillneck,Penetrating Quiver,55,Fate of the Vaal,,7,https://poe2db.tw/us/Drillneck,2026-11-23,Drops from Atziri's Vault in Vaal Temple,Fate of the Vaal
+Other,Penetrating Quiver,Requires:,55,,Corrupted,1,https://poe2db.tw/us/Penetrating_Quiver,2026-11-23,,
+Other,Beyond Reach,Visceral Quiver,65,0.1.0,,5,https://poe2db.tw/us/Beyond_Reach,2026-11-23,"Drops from Xesht, We That Are One in Twisted Domain",
+Other,Visceral Quiver,Requires:,65,,Corrupted,1,https://poe2db.tw/us/Visceral_Quiver,2026-11-23,,
+Other,Igniferis,Crimson Amulet,65,0.1.0,,6,https://poe2db.tw/us/Igniferis,2026-11-23,,
+Other,Crimson Amulet,Requires:,65,,Corrupted,1,https://poe2db.tw/us/Crimson_Amulet,2026-11-23,,
+Other,Idol of Uldurn,Crimson Amulet,24,0.1.0,,6,https://poe2db.tw/us/Idol_of_Uldurn,2026-11-23,,
+Other,The Everlasting Gaze,Azure Amulet,1,0.1.0,,4,https://poe2db.tw/us/The_Everlasting_Gaze,2026-11-23,,
+Other,Azure Amulet,Amulet,25,,Corrupted,1,https://poe2db.tw/us/Azure_Amulet,2026-11-23,,
+Other,Ungil's Harmony,Azure Amulet,25,0.1.0,,6,https://poe2db.tw/us/Ungils_Harmony,2026-11-23,,
+Other,Revered Resin,Amber Amulet,8,0.1.0,,4,https://poe2db.tw/us/Revered_Resin,2026-11-23,,
+Other,Carnage Heart,Amber Amulet,8,0.1.0,,6,https://poe2db.tw/us/Carnage_Heart,2026-11-23,,
+Other,Xoph's Blood,Amber Amulet,52,0.1.0,,4,https://poe2db.tw/us/Xophs_Blood,2026-11-23,"Drops from Xesht, We That Are One in Twisted Domain",
+Other,Surefooted Sigil,Jade Amulet,8,0.1.0,,5,https://poe2db.tw/us/Surefooted_Sigil,2026-11-23,,
+Other,Choir of the Storm,Jade Amulet,55,0.1.0,,4,https://poe2db.tw/us/Choir_of_the_Storm,2026-11-23,"Drops from Xesht, We That Are One in Twisted Domain",
+Other,Defiance of Destiny,Jade Amulet,56,0.1.0,,5,https://poe2db.tw/us/Defiance_of_Destiny,2026-11-23,,
+Other,Ligurium Talisman,Lapis Amulet,35,0.1.0,,5,https://poe2db.tw/us/Ligurium_Talisman,2026-11-23,,
+Other,The Pandemonius,Lapis Amulet,52,0.1.0,,4,https://poe2db.tw/us/The_Pandemonius,2026-11-23,"Drops from Xesht, We That Are One in Twisted Domain",
+Other,Stone of Lazhwar,Lapis Amulet,8,Dawn of the Hunt,,4,https://poe2db.tw/us/Stone_of_Lazhwar,2026-11-23,,Dawn of the Hunt
+Other,Rondel of Fragility,Lunar Amulet,14,0.1.0,,5,https://poe2db.tw/us/Rondel_of_Fragility,2026-11-23,,
+Other,Lunar Amulet,Requires:,14,,Corrupted,1,https://poe2db.tw/us/Lunar_Amulet,2026-11-23,,
+Other,The Anvil,Bloodstone Amulet,18,0.1.0,,6,https://poe2db.tw/us/The_Anvil,2026-11-23,,
+Other,Yoke of Suffering,Bloodstone Amulet,18,Dawn of the Hunt,,5,https://poe2db.tw/us/Yoke_of_Suffering,2026-11-23,,Dawn of the Hunt
+Other,Astramentis,Stellar Amulet,24,0.1.0,,3,https://poe2db.tw/us/Astramentis,2026-11-23,,
+Other,Stellar Amulet,Requires:,25,,Corrupted,1,https://poe2db.tw/us/Stellar_Amulet,2026-11-23,,
+Other,Fixation of Yix,Stellar Amulet,24,0.1.0,,7,https://poe2db.tw/us/Fixation_of_Yix,2026-11-23,,
+Other,Strugglescream,Stellar Amulet,52,0.1.0,,2,https://poe2db.tw/us/Strugglescream,2026-11-23,,
+Other,Hinekora's Sight,Stellar Amulet,44,Rise of the Abyssal,,4,https://poe2db.tw/us/Hinekoras_Sight,2026-11-23,,Rise of the Abyssal
+Other,Beacon of Azis,Solar Amulet,30,0.1.0,,5,https://poe2db.tw/us/Beacon_of_Azis,2026-11-23,,
+Other,Solar Amulet,Requires:,30,,Corrupted,1,https://poe2db.tw/us/Solar_Amulet,2026-11-23,,
+Other,Fireflower,Solar Amulet,52,0.1.0,,5,https://poe2db.tw/us/Fireflower,2026-11-23,,
+Other,Immaculate Adherence,Solar Amulet,30,Runes of Aldur,Corrupted,7,https://poe2db.tw/us/Immaculate_Adherence,2026-11-23,,Runes of Aldur
+Other,Eye of Chayula,Gold Amulet,35,0.1.0,,4,https://poe2db.tw/us/Eye_of_Chayula,2026-11-23,,
+Other,Gold Amulet,Requires:,35,,Corrupted,1,https://poe2db.tw/us/Gold_Amulet,2026-11-23,,
+Other,Serpent's Egg,Gold Amulet,35,0.1.0,,5,https://poe2db.tw/us/Serpents_Egg,2026-11-23,,
+Other,Eventide Petals,Veridical Chain,55,Runes of Aldur,,5,https://poe2db.tw/us/Eventide_Petals,2026-11-23,,Runes of Aldur
+Other,Blackheart,Iron Ring,1,0.1.0,,5,https://poe2db.tw/us/Blackheart,2026-11-23,,
+Other,Iron Ring,Requires:,1,,Corrupted,1,https://poe2db.tw/us/Iron_Ring,2026-11-23,,
+Other,Icefang Orbit,Iron Ring,36,Dawn of the Hunt,,7,https://poe2db.tw/us/Icefang_Orbit,2026-11-23,,Dawn of the Hunt
+Other,Prized Pain,Iron Ring,48,Dawn of the Hunt,,5,https://poe2db.tw/us/Prized_Pain,2026-11-23,,Dawn of the Hunt
+Other,Venopuncture,Iron Ring,36,Dawn of the Hunt,,7,https://poe2db.tw/us/Venopuncture,2026-11-23,,Dawn of the Hunt
+Other,Doedre's Damning,Lazuli Ring,1,0.1.0,,4,https://poe2db.tw/us/Doedres_Damning,2026-11-23,,
+Other,Lazuli Ring,Requires:,1,,Corrupted,1,https://poe2db.tw/us/Lazuli_Ring,2026-11-23,,
+Other,Glowswarm,Lazuli Ring,1,0.1.0,,5,https://poe2db.tw/us/Glowswarm,2026-11-23,,
+Other,Seed of Cataclysm,Lazuli Ring,1,0.1.0,,6,https://poe2db.tw/us/Seed_of_Cataclysm,2026-11-23,,
+Other,Cracklecreep,Ruby Ring,8,0.1.0,,5,https://poe2db.tw/us/Cracklecreep,2026-11-23,,
+Other,Ruby Ring,Requires:,8,,Corrupted,1,https://poe2db.tw/us/Ruby_Ring,2026-11-23,,
+Other,Blistering Bond,Ruby Ring,8,0.1.0,,7,https://poe2db.tw/us/Blistering_Bond,2026-11-23,,
+Other,Polcirkeln,Sapphire Ring,12,0.1.0,,5,https://poe2db.tw/us/Polcirkeln,2026-11-23,,
+Other,Sapphire Ring,Requires:,12,,Corrupted,1,https://poe2db.tw/us/Sapphire_Ring,2026-11-23,,
+Other,Dream Fragments,Sapphire Ring,12,0.1.0,,4,https://poe2db.tw/us/Dream_Fragments,2026-11-23,,
+Other,Whisper of the Brotherhood,Sapphire Ring,32,0.1.0,,5,https://poe2db.tw/us/Whisper_of_the_Brotherhood,2026-11-23,,
+Other,The Burrower,Topaz Ring,16,0.1.0,,5,https://poe2db.tw/us/The_Burrower,2026-11-23,,
+Other,Topaz Ring,Requires:,16,,Corrupted,1,https://poe2db.tw/us/Topaz_Ring,2026-11-23,,
+Other,Call of the Brotherhood,Topaz Ring,32,0.1.0,,5,https://poe2db.tw/us/Call_of_the_Brotherhood,2026-11-23,,
+Other,Levinstone,Topaz Ring,16,0.1.0,,5,https://poe2db.tw/us/Levinstone,2026-11-23,,
+Other,Ming's Heart,Amethyst Ring,20,0.1.0,,4,https://poe2db.tw/us/Mings_Heart,2026-11-23,,
+Other,Amethyst Ring,Requires:,20,,Corrupted,1,https://poe2db.tw/us/Amethyst_Ring,2026-11-23,,
+Other,Original Sin,Amethyst Ring,20,0.1.0,,3,https://poe2db.tw/us/Original_Sin,2026-11-23,,
+Other,Blackflame,Amethyst Ring,20,0.1.0,,7,https://poe2db.tw/us/Blackflame,2026-11-23,,
+Other,Veilpiercer,Amethyst Ring,20,Runes of Aldur,,7,https://poe2db.tw/us/Veilpiercer,2026-11-23,,Runes of Aldur
+Other,Vigilant View,Emerald Ring,26,Dawn of the Hunt,,7,https://poe2db.tw/us/Vigilant_View,2026-11-23,,Dawn of the Hunt
+Other,Emerald Ring,Requires:,26,,Corrupted,1,https://poe2db.tw/us/Emerald_Ring,2026-11-23,,
+Other,Death Rush,Emerald Ring,26,0.1.0,,5,https://poe2db.tw/us/Death_Rush,2026-11-23,,
+Other,Thief's Torment,Emerald Ring,26,0.1.0,,7,https://poe2db.tw/us/Thiefs_Torment,2026-11-23,,
+Other,Evergrasping Ring,Pearl Ring,32,Dawn of the Hunt,,4,https://poe2db.tw/us/Evergrasping_Ring,2026-11-23,,Dawn of the Hunt
+Other,Pearl Ring,Requires:,32,,Corrupted,1,https://poe2db.tw/us/Pearl_Ring,2026-11-23,,
+Other,Snakepit,Pearl Ring,32,0.1.0,,8,https://poe2db.tw/us/Snakepit,2026-11-23,,
+Other,Heartbound Loop,Pearl Ring,32,0.1.0,,6,https://poe2db.tw/us/Heartbound_Loop,2026-11-23,,
+Other,Gifts from Above,Prismatic Ring,35,Dawn of the Hunt,,5,https://poe2db.tw/us/Gifts_from_Above,2026-11-23,,Dawn of the Hunt
+Other,Prismatic Ring,Requires:,35,,Corrupted,1,https://poe2db.tw/us/Prismatic_Ring,2026-11-23,,
+Other,The Taming,Prismatic Ring,42,Runes of Aldur,,4,https://poe2db.tw/us/The_Taming,2026-11-23,,Runes of Aldur
+Other,Perandus Seal,Gold Ring,40,0.1.0,,4,https://poe2db.tw/us/Perandus_Seal,2026-11-23,,
+Other,Gold Ring,Requires:,40,,Corrupted,1,https://poe2db.tw/us/Gold_Ring,2026-11-23,,
+Other,Andvarius,Gold Ring,40,0.1.0,,4,https://poe2db.tw/us/Andvarius,2026-11-23,,
+Other,Ventor's Gamble,Gold Ring,64,0.1.0,,7,https://poe2db.tw/us/Ventors_Gamble,2026-11-23,,
+Other,Bursting Decay,Unset Ring,60,Dawn of the Hunt,Corrupted,5,https://poe2db.tw/us/Bursting_Decay,2026-11-23,,Dawn of the Hunt
+Other,Unset Ring,Requires:,44,,Corrupted,1,https://poe2db.tw/us/Unset_Ring,2026-11-23,,
+Other,Grip of Kulemak,Abyssal Signet,1,Rise of the Abyssal,,3,https://poe2db.tw/us/Grip_of_Kulemak,2026-11-23,,
+Other,Abyssal Signet,Requires:,40,,Corrupted,1,https://poe2db.tw/us/Abyssal_Signet,2026-11-23,,
+Other,Berek's Pass,Two-Stone Ring,42,Runes of Aldur,,5,https://poe2db.tw/us/Bereks_Pass,2026-11-23,,Runes of Aldur
+Other,Berek's Respite,Two-Stone Ring,42,Runes of Aldur,,5,https://poe2db.tw/us/Bereks_Respite,2026-11-23,,Runes of Aldur
+Other,Berek's Grip,Two-Stone Ring,42,Runes of Aldur,,5,https://poe2db.tw/us/Bereks_Grip,2026-11-23,,Runes of Aldur
+Other,Meginord's Girdle,Rawhide Belt,1,0.1.0,,5,https://poe2db.tw/us/Meginords_Girdle,2026-11-23,,
+Other,Rawhide Belt,Requires:,1,,Corrupted,1,https://poe2db.tw/us/Rawhide_Belt,2026-11-23,,
+Other,Midnight Braid,Rawhide Belt,1,0.1.0,,4,https://poe2db.tw/us/Midnight_Braid,2026-11-23,,
+Other,Keelhaul,Linen Belt,1,0.1.0,,5,https://poe2db.tw/us/Keelhaul,2026-11-23,,
+Other,Linen Belt,Belt,,,Corrupted,1,https://poe2db.tw/us/Linen_Belt,2026-11-23,,
+Other,Umbilicus Immortalis,Linen Belt,24,Rise of the Abyssal,,7,https://poe2db.tw/us/Umbilicus_Immortalis,2026-11-23,,Rise of the Abyssal
+Other,Birthright Buckle,Wide Belt,14,0.1.0,,6,https://poe2db.tw/us/Birthright_Buckle,2026-11-23,,
+Other,Wide Belt,Requires:,14,,Corrupted,1,https://poe2db.tw/us/Wide_Belt,2026-11-23,,
+Other,Byrnabas,Wide Belt,14,0.1.0,,5,https://poe2db.tw/us/Byrnabas,2026-11-23,,
+Other,The Gnashing Sash,Wide Belt,60,Dawn of the Hunt,Corrupted,5,https://poe2db.tw/us/The_Gnashing_Sash,2026-11-23,,Dawn of the Hunt
+Other,Soul Tether,Long Belt,20,0.1.0,,5,https://poe2db.tw/us/Soul_Tether,2026-11-23,,
+Other,Long Belt,Requires:,20,,Corrupted,1,https://poe2db.tw/us/Long_Belt,2026-11-23,,
+Other,Goregirdle,Plate Belt,24,Dawn of the Hunt,,5,https://poe2db.tw/us/Goregirdle,2026-11-23,,Dawn of the Hunt
+Other,Plate Belt,Requires:,25,,Corrupted,1,https://poe2db.tw/us/Plate_Belt,2026-11-23,,
+Other,Ryslatha's Coil,Ornate Belt,31,0.1.0,,5,https://poe2db.tw/us/Ryslathas_Coil,2026-11-23,,
+Other,Ornate Belt,Requires:,31,,Corrupted,1,https://poe2db.tw/us/Ornate_Belt,2026-11-23,,
+Other,Siegebreaker,Ornate Belt,50,Conquerors of Wraeclast,,1,https://poe2db.tw/us/Siegebreaker,2026-11-23,,
+Other,Coward's Legacy,Mail Belt,40,0.1.0,,5,https://poe2db.tw/us/Cowards_Legacy,2026-11-23,,
+Other,Mail Belt,Requires:,40,,Corrupted,1,https://poe2db.tw/us/Mail_Belt,2026-11-23,,
+Other,Bijouborne,Double Belt,44,Dawn of the Hunt,,6,https://poe2db.tw/us/Bijouborne,2026-11-23,,Dawn of the Hunt
+Other,Double Belt,Requires:,44,,Corrupted,1,https://poe2db.tw/us/Double_Belt,2026-11-23,,
+Other,Waistgate,Heavy Belt,50,Dawn of the Hunt,,6,https://poe2db.tw/us/Waistgate,2026-11-23,,Dawn of the Hunt
+Other,Headhunter,Heavy Belt,50,0.1.0,,5,https://poe2db.tw/us/Headhunter,2026-11-23,,
+Other,Zerphi's Genesis,Heavy Belt,56,0.1.0,Corrupted,7,https://poe2db.tw/us/Zerphis_Genesis,2026-11-23,Drops from Trialmaster in The Trial of Chaos,
+Other,Cat O' Nine Tails,Utility Belt,55,Runes of Aldur,,6,https://poe2db.tw/us/Cat_O_Nine_Tails,2026-11-23,,Runes of Aldur
+Other,Utility Belt,Requires:,55,,Corrupted,1,https://poe2db.tw/us/Utility_Belt,2026-11-23,,
+Other,Ingenuity,Utility Belt,55,0.1.0,,5,https://poe2db.tw/us/Ingenuity,2026-11-23,Drops from The King in the Mists in Crux of Nothingness,
+Other,Mageblood,Utility Belt,55,Runes of Aldur,,6,https://poe2db.tw/us/Mageblood,2026-11-23,,Runes of Aldur
+Other,Shavronne's Satchel,Fine Belt,62,0.1.0,,5,https://poe2db.tw/us/Shavronnes_Satchel,2026-11-23,,
+Other,Fine Belt,Requires:,62,,Corrupted,1,https://poe2db.tw/us/Fine_Belt,2026-11-23,,
+Other,Darkness Enthroned,Fine Belt,62,Rise of the Abyssal,,3,https://poe2db.tw/us/Darkness_Enthroned,2026-11-23,,Rise of the Abyssal
+Other,Blood of the Warrior,Gargantuan Life Flask,40,Rise of the Abyssal,,4,https://poe2db.tw/us/Blood_of_the_Warrior,2026-11-23,,Rise of the Abyssal
+Other,Olroth's Resolve,Ultimate Life Flask,60,0.1.0,,2,https://poe2db.tw/us/Olroths_Resolve,2026-11-23,"Drops from Olroth, Origin of the Fall",
+Other,Opportunity,Ultimate Life Flask,60,Runes of Aldur,,7,https://poe2db.tw/us/Opportunity,2026-11-23,,Runes of Aldur
+Other,Lavianga's Spirits,Gargantuan Mana Flask,49,Fate of the Vaal,,2,https://poe2db.tw/us/Laviangas_Spirits,2026-11-23,,Fate of the Vaal
+Other,Uhtred's Chalice,Transcendent Mana Flask,50,Runes of Aldur,,5,https://poe2db.tw/us/Uhtreds_Chalice,2026-11-23,,Runes of Aldur
+Other,Melting Maelstrom,Ultimate Mana Flask,60,0.1.0,,3,https://poe2db.tw/us/Melting_Maelstrom,2026-11-23,"Drops from Kosis, The Revelation",
+Other,Nascent Hope,Thawing Charm,12,Dawn of the Hunt,,3,https://poe2db.tw/us/Nascent_Hope,2026-11-23,,Dawn of the Hunt
+Other,Sanguis Heroum,Staunching Charm,18,Dawn of the Hunt,,3,https://poe2db.tw/us/Sanguis_Heroum,2026-11-23,,Dawn of the Hunt
+Other,Arakaali's Gift,Antidote Charm,24,Dawn of the Hunt,,3,https://poe2db.tw/us/Arakaalis_Gift,2026-11-23,,Dawn of the Hunt
+Other,Beira's Anguish,Dousing Charm,32,Dawn of the Hunt,,3,https://poe2db.tw/us/Beiras_Anguish,2026-11-23,,Dawn of the Hunt
+Other,The Black Cat,Grounding Charm,32,Dawn of the Hunt,,3,https://poe2db.tw/us/The_Black_Cat,2026-11-23,,Dawn of the Hunt
+Other,For Utopia,Stone Charm,8,Dawn of the Hunt,,2,https://poe2db.tw/us/For_Utopia,2026-11-23,,
+Other,The Fall of the Axe,Silver Charm,10,Dawn of the Hunt,,2,https://poe2db.tw/us/The_Fall_of_the_Axe,2026-11-23,,Dawn of the Hunt
+Other,Ngamahu's Chosen,Ruby Charm,5,Dawn of the Hunt,,3,https://poe2db.tw/us/Ngamahus_Chosen,2026-11-23,,Dawn of the Hunt
+Other,Breath of the Mountains,Sapphire Charm,5,Dawn of the Hunt,,3,https://poe2db.tw/us/Breath_of_the_Mountains,2026-11-23,,Dawn of the Hunt
+Other,Valako's Roar,Topaz Charm,5,Dawn of the Hunt,,3,https://poe2db.tw/us/Valakos_Roar,2026-11-23,,Dawn of the Hunt
+Other,Forsaken Bangle,Amethyst Charm,40,Dawn of the Hunt,,3,https://poe2db.tw/us/Forsaken_Bangle,2026-11-23,,Dawn of the Hunt
+Other,Rite of Passage,Golden Charm,50,Dawn of the Hunt,,1,https://poe2db.tw/us/Rite_of_Passage,2026-11-23,,Dawn of the Hunt
+Other,Kalandra's Touch,Ring,1,0.1.0,,1,https://poe2db.tw/us/Kalandras_Touch,2026-11-23,,
+Other,Safrin's Resolve,Ring,40,0.1.0,,4,https://poe2db.tw/us/Safrins_Resolve,2026-11-23,"Drops from Zarokh, the Temporal",
+Other,Eshtera's Path,Ring,1,0.1.0,,4,https://poe2db.tw/us/Eshteras_Path,2026-11-23,"Drops from Zarokh, the Temporal",
+Other,Zaida's Longevity,Ring,40,0.1.0,,4,https://poe2db.tw/us/Zaidas_Longevity,2026-11-23,"Drops from Zarokh, the Temporal",
+Other,Wraeclast Besieged,Breach Tablet,,Dawn of the Hunt,,5,https://poe2db.tw/us/Wraeclast_Besieged,2026-11-23,,
+Other,Clear Skies,Delirium Tablet,,Dawn of the Hunt,,3,https://poe2db.tw/us/Clear_Skies,2026-11-23,,
+Other,Freedom of Faith,Ritual Tablet,,Dawn of the Hunt,,3,https://poe2db.tw/us/Freedom_of_Faith,2026-11-23,,
+Other,The Grand Project,Irradiated Tablet,,Dawn of the Hunt,,2,https://poe2db.tw/us/The_Grand_Project,2026-11-23,,
+Other,Visions of Paradise,Irradiated Tablet,,Dawn of the Hunt,,2,https://poe2db.tw/us/Visions_of_Paradise,2026-11-23,,
+Other,Mastered Domain,Irradiated Tablet,,Runes of Aldur,,2,https://poe2db.tw/us/Mastered_Domain,2026-11-23,,
+Other,Season of the Hunt,Overseer Tablet,,Dawn of the Hunt,,2,https://poe2db.tw/us/Season_of_the_Hunt,2026-11-23,,
+Other,Cruel Hegemony,Overseer Tablet,,Dawn of the Hunt,,2,https://poe2db.tw/us/Cruel_Hegemony,2026-11-23,,
+Other,Unforeseen Consequences,Abyss Tablet,,Fate of the Vaal,,2,https://poe2db.tw/us/Unforeseen_Consequences,2026-11-23,,
+Unlisted,Abyssus,,58,Conquerors of Wraeclast,,0,https://poe2db.tw/us/Abyssus,2026-11-23,,
+Unlisted,Agnar,,9,Conquerors of Wraeclast,,0,https://poe2db.tw/us/Agnar,2026-11-23,,
+Unlisted,Ako's Answer,,37,Conquerors of Wraeclast,,1,https://poe2db.tw/us/Akos_Answer,2026-11-23,,
+Unlisted,Ashcaller,,45,Conquerors of Wraeclast,,0,https://poe2db.tw/us/Ashcaller,2026-11-23,,
+Unlisted,Benevolence,,54,Conquerors of Wraeclast,,0,https://poe2db.tw/us/Benevolence,2026-11-23,,
+Unlisted,Blessed Bonds,,56,0.1.0,Drop disabled,5,https://poe2db.tw/us/Blessed_Bonds,2026-11-23,No longer obtainable,
+Unlisted,Dealer's Hand,,45,,,1,https://poe2db.tw/us/Dealers_Hand,2026-11-23,,
+Unlisted,Death's Oath,,,,,0,https://poe2db.tw/us/Deaths_Oath,2026-11-23,,
+Unlisted,Demigod's Duty,,1,,Drop disabled,1,https://poe2db.tw/us/Demigods_Duty,2026-11-23,,
+Unlisted,Demigod's Fortitude,,1,,Drop disabled,1,https://poe2db.tw/us/Demigods_Fortitude,2026-11-23,,
+Unlisted,Demigod's Judgement,,1,,Drop disabled,1,https://poe2db.tw/us/Demigods_Judgement,2026-11-23,,
+Unlisted,Demigod's Loyalty,,1,,Drop disabled,1,https://poe2db.tw/us/Demigods_Loyalty,2026-11-23,,
+Unlisted,Demigod's Valor,,1,,Drop disabled,1,https://poe2db.tw/us/Demigods_Valor,2026-11-23,,
+Unlisted,Demigod's Virtue,,1,0.1.0,Drop disabled,2,https://poe2db.tw/us/Demigods_Virtue,2026-11-23,,
+Unlisted,Elysium,,27,Conquerors of Wraeclast,,0,https://poe2db.tw/us/Elysium,2026-11-23,,
+Unlisted,Forbidden Gaze,,26,0.1.0,Drop disabled,4,https://poe2db.tw/us/Forbidden_Gaze,2026-11-23,No longer obtainable,
+Unlisted,Hand of Weeping Black,,26,Conquerors of Wraeclast,,0,https://poe2db.tw/us/Hand_of_Weeping_Black,2026-11-23,,
+Unlisted,Heart of the Well,,,Rise of the Abyssal,,0,https://poe2db.tw/us/Heart_of_the_Well,2026-11-23,,
+Unlisted,Infernoclasp,,24,0.1.0,Drop disabled,5,https://poe2db.tw/us/Infernoclasp,2026-11-23,No longer obtainable,
+Unlisted,Ixchel's Torment,,65,Dawn of the Hunt,Corrupted,2,https://poe2db.tw/us/Ixchels_Torment,2026-11-23,,
+Unlisted,Kaom's Roots,,54,Conquerors of Wraeclast,,0,https://poe2db.tw/us/Kaoms_Roots,2026-11-23,,
+Unlisted,Mageguard,,45,,,0,https://poe2db.tw/us/Mageguard,2026-11-23,,
+Unlisted,Molten Tenet,,24,Conquerors of Wraeclast,,1,https://poe2db.tw/us/Molten_Tenet,2026-11-23,,
+Unlisted,Oro's Sacrifice,,54,Conquerors of Wraeclast,,0,https://poe2db.tw/us/Oros_Sacrifice,2026-11-23,,
+Unlisted,Riptide,,51,Conquerors of Wraeclast,,1,https://poe2db.tw/us/Riptide,2026-11-23,,
+Unlisted,The Deepest Tower,,45,Dawn of the Hunt,Drop disabled,6,https://poe2db.tw/us/The_Deepest_Tower,2026-11-23,No longer obtainable,Dawn of the Hunt
+Unlisted,The Leviathan,,50,Conquerors of Wraeclast,,0,https://poe2db.tw/us/The_Leviathan,2026-11-23,,
+Unlisted,The Rain Festival Beetle,,,Dawn of the Hunt,,2,https://poe2db.tw/us/The_Rain_Festival_Beetle,2026-11-23,,
+Unlisted,The Wanderer,,1,Conquerors of Wraeclast,,0,https://poe2db.tw/us/The_Wanderer,2026-11-23,,
+Unlisted,The Watcher in the Dark,,65,Conquerors of Wraeclast,,0,https://poe2db.tw/us/The_Watcher_in_the_Dark,2026-11-23,,
+Unlisted,Thunderstep,,28,0.1.0,Drop disabled,4,https://poe2db.tw/us/Thunderstep,2026-11-23,No longer obtainable,
+Unlisted,Victario's Study,,62,,,1,https://poe2db.tw/us/Victarios_Study,2026-11-23,,
+Unlisted,Windripper,,54,Conquerors of Wraeclast,,0,https://poe2db.tw/us/Windripper,2026-11-23,,

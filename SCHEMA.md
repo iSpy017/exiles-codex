@@ -60,6 +60,8 @@ Sources on every fact · version tags · dated prices · conflicts logged, not s
 |---|---|---|
 | data/uniques.csv, data/unique_mods.csv | tools/gen_uniques.py <corpus> <date> | every unique + its mods (Family/Stats from game data) |
 | data/poe2db/<Page>.tsv, _refs.csv | tools/gen_poe2db_refs.py <corpus> <date> | table rows of each PoE2DB page the KB cites; lint checks every poe2db: ref |
+| data/unique_sources.csv (+ pob_source/pob_league in uniques.csv) | tools/gen_pob_uniques.py <pob_repo> <ref> | Path of Building's unique sources and leagues |
+| data/passive_tree_<ver>.csv | tools/gen_pob_tree.py <pob_repo> <ver> <ref> | every passive node: kind, ascendancy, stats |
 | site/kb.json, index.jsonl, coverage.json, coverage.html | tools/build_index.py (CI) | app, Claude retrieval, coverage page |
 | refresh-worklist.md | tools/crawl_diff.py <old> <new> | 1.0 refresh: entries citing changed pages |
 | — | tools/kbsearch.py "q" | BM25 section search (negations kept) |

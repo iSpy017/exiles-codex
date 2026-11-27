@@ -109,3 +109,9 @@ Items tagged with a mechanic name rather than a boss.
 Palm of the Dreamer page says to use a Vaal Orb on Guiding Palm variants (no Limit tag). Grip of Kulemak and The Unborn Lich pages say they drop from Vessel of Kulemak.
 - src: poe2db:Palm_of_the_Dreamer, tier 2, crawl 2026-11-23
 - notes: Many other uniques (Runeforging / Forge recipe boxes) show crafting costs in Verisium plus a boss "Crest" item; not parsed here.
+
+## Cross-check with Path of Building's unique list
+@ v=0.5.x vol=may-change conf=confirmed date=2026-11-27
+Path of Building's hand-kept unique data names a source for 51 uniques (boss drops, Atziri's Vault, Trialmaster, "No longer obtainable" for 10). 50 of those 51 are already in this doc; the only new one is The Fallen Formation, marked no longer obtainable. Agreement is on which uniques have a special source; boss-by-boss agreement isn't checked yet.
+- src: Path of Building PoE2 [S739] src/Data/Uniques, tier 2, retrieved 2026-11-27 → data/unique_sources.csv (also merged into data/uniques.csv as pob_source / pob_league)
+- notes: PoB's list is hand-maintained, so it can lag the game; PoE2DB page tags remain the primary source here.

@@ -296,3 +296,4 @@ sources:
   - {id: S736, title: "Switchblade Gaming HC guide", url: "https://www.switchbladegaming.com/path-of-exile-2/hardcore-guide/", tier: "", last_checked: "2026-11-17"}
   - {id: S737, title: "Switchblade Gaming Titan guide", url: "https://www.switchbladegaming.com/path-of-exile-2/warrior-titan-build/", tier: "", last_checked: "2026-11-25"}
   - {id: S738, title: "The Outer Haven", url: "https://www.theouterhaven.net/?p=346033", tier: "", last_checked: "2026-11-17"}
+  - {id: S739, title: "Path of Building PoE2 (data: uniques, tree, skills)", url: "https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2", tier: "2", last_checked: "2026-11-27", use: "hand-maintained unique sources/leagues (data/unique_sources.csv), passive tree per version (data/passive_tree_<ver>.csv); local copy C:\\PoE2\\repos\\pob-poe2 via get-repos.bat", reachable: "YES: git clone from workspace and PC"}
