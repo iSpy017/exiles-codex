@@ -1,6 +1,6 @@
 /* Offline support: app shell cached up front; data files served from cache and refreshed in the background. */
 const VERSION = 'codex-v1';
-const SHELL = ['./', 'index.html', 'db.js', 'manifest.webmanifest', 'icon.svg', 'icon-192.png', 'icon-512.png', 'kb.json', 'data/mods/index.json'];
+const SHELL = ['./', 'index.html', 'db.js', 'exchange.js', 'manifest.webmanifest', 'icon.svg', 'icon-192.png', 'icon-512.png', 'kb.json', 'data/mods/index.json'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(VERSION).then(c => Promise.all(SHELL.map(u => c.add(u).catch(() => {})))).then(() => self.skipWaiting()));
