@@ -128,189 +128,288 @@ const CE = (() => {
   }
 
   // ---------- view ----------
-  const KEY = 'codex-ce';
+  // Layout: pair → two best ratios → verdict + ladder → the two orders to place → profit → optional depth/settings.
+  const KEY = 'codex-ce2';
+  const CURRENCIES = ['Exalted Orb', 'Divine Orb', 'Chaos Orb', 'Scroll of Wisdom', 'Orb of Augmentation', 'Regal Orb', 'Orb of Annulment',
+    'Orb of Chance', 'Greater Chaos Orb', 'Greater Exalted Orb', 'Greater Regal Orb', 'Perfect Chaos Orb', 'Perfect Exalted Orb',
+    'Perfect Orb of Augmentation', "Perfect Jeweller's Orb", 'Fracturing Orb', 'Vaal Orb', "Architect's Orb", "Armourer's Scrap",
+    "Blacksmith's Whetstone", 'Mirror of Kalandra']; // names from data/prices (Runes of Aldur + 2026-11-27 books)
+  // David's in-game books, 2026-11-27 (data/prices/2026-11-27_exchange-books.csv)
+  const EXAMPLES = [
+    { label: 'Scrolls', want: 'Scroll of Wisdom', have: 'Exalted Orb', avail: '22 : 1  12,187\n20 : 1  5,526\n18.50 : 1  35,890\n15 : 1  6,525\n3.05 : 1  61\n< 3.05 : 1  139', comp: '22.50 : 1  59\n150 : 1  1,221' },
+    { label: 'Augmentations', want: 'Orb of Augmentation', have: 'Exalted Orb', avail: '2.30 : 1  175\n2.20 : 1  167\n1.65 : 1  200\n1.61 : 1  1,771\n1.60 : 1  56\n< 1.60 : 1  17,313', comp: '19 : 1  11\n20 : 1  49\n50 : 1  5\n1000 : 1  2' },
+    { label: 'Regals', want: 'Regal Orb', have: 'Exalted Orb', avail: '1.11 : 1  1,769\n1 : 1  74\n1 : 3  20', comp: '2.28 : 1  981\n2.29 : 1  1,000\n2.30 : 1  521\n2.40 : 1  135\n2.60 : 1  193\n> 2.60 : 1  6,004' },
+  ];
   const today = () => { const d = new Date(); return new Date(d - d.getTimezoneOffset() * 6e4).toISOString().slice(0, 10); };
-  const blank = () => ({ want: '', have: '', league: '', avail: [], comp: [] });
-  let S = { book: blank(), tick: CE_TICK, unit: CE_STOCK_UNIT, tight: CE_TIGHT * 100, thin: CE_THIN * 100,
-            stake: '', n: '', fph: '', cross: { pA: '', a: 'Exalted Orb', pB: '', b: 'Chaos Orb', rate: '' }, watch: [] };
-  try { if (typeof localStorage !== 'undefined') S = Object.assign(S, JSON.parse(localStorage.getItem(KEY) || '{}')); } catch (e) {}
+  let S = { tab: 'flip', want: '', have: '', ba: '', bc: '', availText: '', compText: '', league: 'Forbidden Rites',
+            tick: CE_TICK, unit: CE_STOCK_UNIT, tight: CE_TIGHT * 100, thin: CE_THIN * 100, stake: '100', n: '', fph: '',
+            cross: { pA: '', a: 'Exalted Orb', pB: '', b: 'Chaos Orb', rate: '' }, watch: [] };
+  try {
+    if (typeof localStorage !== 'undefined') {
+      const saved = JSON.parse(localStorage.getItem(KEY) || 'null');
+      if (saved) S = Object.assign(S, saved);
+      else { const old = JSON.parse(localStorage.getItem('codex-ce') || '{}'); if (Array.isArray(old.watch)) S.watch = old.watch; }
+    }
+  } catch (e) {}
   const save = () => { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) {} };
   const $ = id => document.getElementById(id);
   const fR = x => Number.isFinite(x) ? String(clean(Math.round(x * 1e4) / 1e4)) : '—';
-  const fP = x => Number.isFinite(x) ? (x * 100).toFixed(2) + '%' : '—';
-  const fN = x => Number.isFinite(x) ? (Math.abs(x) >= 100 ? Math.round(x).toLocaleString('en') : String(Math.round(x * 1000) / 1000)) : '—';
+  const fP = x => Number.isFinite(x) ? (Math.abs(x) >= 10 ? (x * 100).toFixed(0) : (x * 100).toFixed(2)) + '%' : '—';
+  const fN = x => Number.isFinite(x) ? (Math.abs(x) >= 100 ? Math.round(x).toLocaleString('en') : String(Math.round(x * 100) / 100)) : '—';
   const fPrice = x => Number.isFinite(x) ? String(+x.toPrecision(4)) : '—';
   const opts = () => ({ tick: +S.tick || CE_TICK, tight: (+S.tight || CE_TIGHT * 100) / 100, thin: (+S.thin || CE_THIN * 100) / 100 });
-  const X = () => E(S.book.want || 'X'), Y = () => E(S.book.have || 'Y');
+  const X = () => E(S.want || 'the item'), Y = () => E(S.have || 'your currency');
+  const Xs = () => E(S.want || 'X'), Ys = () => E(S.have || 'Y');
+  const rowsOf = k => parseRows(S[k + 'Text']).rows;
+  const bestRatio = s => { const p = parseRatio(s); return p && !p.tail ? p.r : NaN; };
+  /** Book used for analysis: the two best-ratio fields (filled from the pasted book when there is one). */
+  function current() {
+    const a = bestRatio(S.ba), c = bestRatio(S.bc);
+    const av = rowsOf('avail'), cp = rowsOf('comp');
+    return { a, c, avail: av.length ? av : (a > 0 ? [{ r: a, text: S.ba.trim(), stock: null }] : []),
+             comp: cp.length ? cp : (c > 0 ? [{ r: c, text: S.bc.trim(), stock: null }] : []), hasBook: !!(av.length && cp.length) };
+  }
 
   function show() {
     const R = document.getElementById('reader');
-    R.innerHTML = `<h1>Exchange margin</h1>
-    <div class="path">Currency Exchange order book → first-in-line flip and round-trip margin · saved on this device only</div>
-    <p class="cehow">How to read this: paste or type both sides of the pair as shown in game. Ratios are <b>R : 1</b> = R of the item you want per 1 of the item you have.
-      Rules: <a href="#strategy-flipping-strats">flipping strategies</a> · mechanics: <a href="#economy-currency-exchange">Currency Exchange</a>.</p>
-    <div class="dbf">
-      <label class="grow">I want (X)<input id="cewant" value="${E(S.book.want)}" placeholder="e.g. Scroll of Wisdom"></label>
-      <label class="grow">I have (Y)<input id="cehave" value="${E(S.book.have)}" placeholder="e.g. Exalted Orb"></label>
-      <label class="grow">League<input id="celeague" value="${E(S.book.league)}" placeholder="for the CSV"></label>
-    </div>
-    <div class="cegrid">${['avail', 'comp'].map(k => `<section class="cebox">
-      <h3>${k === 'avail' ? 'Available Trades' : 'Competing Trades'}</h3>
-      <p class="rcount">${k === 'avail' ? 'Orders you can fill now. Best = highest R.' : 'Others waiting to buy X with Y. Best = lowest R.'}</p>
-      <label class="celbl" for="cepaste-${k}">Paste rows (ratio, stock — one per line)</label>
-      <textarea id="cepaste-${k}" rows="4" placeholder="22 : 1   12,187&#10;&lt; 3.05 : 1   139&#10;1 : 3   20"></textarea>
-      <div class="cebtns"><button class="tbtn" data-parse="${k}">Replace rows</button><button class="tbtn" data-append="${k}">Add rows</button><button class="tbtn" data-add="${k}">+ empty row</button></div>
-      <p class="rcount" id="cejunk-${k}" role="status"></p>
-      <div id="cerows-${k}"></div></section>`).join('')}</div>
-    <h3>Assumptions</h3>
-    <p class="rcount">Not confirmed game facts — change them if you learn better. The gold order fee is left out (gold only costs time).</p>
-    <div class="dbf">
-      <label>Tick (ratio step)<input id="cetick" type="number" step="0.001" min="0" value="${E(S.tick)}"></label>
-      <label>Competing "Stock" counts<select id="ceunit"><option value="X"${S.unit === 'X' ? ' selected' : ''}>X (item wanted)</option><option value="Y"${S.unit === 'Y' ? ' selected' : ''}>Y (item offered)</option></select></label>
-      <label>Tight below %<input id="cetight" type="number" step="0.5" min="0" value="${E(S.tight)}"></label>
-      <label>Illiquid above %<input id="cethin" type="number" step="1" min="0" value="${E(S.thin)}"></label>
-    </div>
-    <div class="dbf">
-      <label>Stake (Y)<input id="cestake" type="number" min="0" step="any" value="${E(S.stake)}" placeholder="e.g. 100"></label>
-      <label>Instant fill N (X)<input id="cen" type="number" min="0" step="any" value="${E(S.n)}" placeholder="e.g. 1000"></label>
-      <label>Fills per hour<input id="cefph" type="number" min="0" step="any" value="${E(S.fph)}" placeholder="your estimate"></label>
-    </div>
-    <div id="ceout" class="cecard" aria-live="polite"></div>
-    <h3>Cross-currency check ("trinity trading")</h3>
-    <p class="rcount">Same item priced in two currencies, plus the rate between them. Before fees.</p>
-    <div class="dbf">
-      <label>Price in A<input id="cepa" type="number" min="0" step="any" value="${E(S.cross.pA)}"></label>
-      <label class="grow">Currency A<input id="cea" value="${E(S.cross.a)}"></label>
-      <label>Price in B<input id="cepb" type="number" min="0" step="any" value="${E(S.cross.pB)}"></label>
-      <label class="grow">Currency B<input id="ceb" value="${E(S.cross.b)}"></label>
-      <label>A per 1 B<input id="cerate" type="number" min="0" step="any" value="${E(S.cross.rate)}"></label>
-    </div>
-    <p id="cecross" class="cecard" aria-live="polite"></p>
-    <h3>Watchlist</h3>
-    <p class="rcount">Saved books, ranked by margin × fills per hour. Stored in this browser only.</p>
-    <div class="cebtns"><button class="tbtn" id="cesave">Save current book</button><button class="tbtn" id="cecsv">Copy current as CSV</button><button class="tbtn" id="cecsvall">Copy watchlist as CSV</button></div>
-    <p class="rcount" id="cemsg" role="status"></p>
-    <div id="cewatch"></div>
-    <p class="foot">The tool does the arithmetic only; ratios, stock and fills per hour come from you. Margins on illiquid books assume someone eventually fills both of your orders.</p>`;
-    bind();
-    ['avail', 'comp'].forEach(drawRows);
-    out(); cross(); watch();
+    R.innerHTML = `<div class="ce">
+      <h1>Exchange margin</h1>
+      <p class="sub">Type the top ratio from each side of the in-game book. You get the two orders to place and what one round trip makes.</p>
+      <div class="cetabs" role="tablist" aria-label="Exchange tools">
+        <button role="tab" type="button" data-tab="flip" aria-selected="${S.tab === 'flip'}">Flip a pair</button>
+        <button role="tab" type="button" data-tab="cross" aria-selected="${S.tab === 'cross'}">Cross-currency</button>
+        <button role="tab" type="button" data-tab="watch" aria-selected="${S.tab === 'watch'}">Watchlist <span class="cnt" id="cewcount">${S.watch.length || ''}</span></button>
+      </div>
+      <div id="cepanel" role="tabpanel"></div>
+      <datalist id="cecur">${CURRENCIES.map(c => `<option value="${E(c)}">`).join('')}</datalist>
+      <p class="foot">How it works: <a href="#strategy-flipping-strats">flipping strategies</a> (undercut by the smallest step; judge by margin × how often it fills) and <a href="#economy-currency-exchange">Currency Exchange mechanics</a>. The page does arithmetic only; ratios, stock and fills per hour come from you. Everything is saved in this browser.</p>
+    </div>`;
+    bind(); panel();
   }
 
-  function drawRows(k) {
-    const rows = S.book[k];
-    $(`cerows-${k}`).innerHTML = rows.length ? `<div class="scroll"><table class="mt cet"><thead><tr><th>Ratio</th><th>Stock</th><th><span class="vh">Remove</span></th></tr></thead><tbody>
-      ${rows.map((r, i) => `<tr class="${r.r > 0 ? (r.tail ? 'tail' : '') : 'bad'}"><td><input aria-label="Ratio row ${i + 1}" data-k="${k}" data-i="${i}" data-f="text" value="${E(r.text ?? '')}"></td>
-        <td><input aria-label="Stock row ${i + 1}" type="number" min="0" step="any" data-k="${k}" data-i="${i}" data-f="stock" value="${E(r.stock ?? '')}"></td>
-        <td><button class="tbtn cex" data-del="${k}" data-i="${i}" aria-label="Remove row ${i + 1}">×</button></td></tr>`).join('')}
-      </tbody></table></div><p class="rcount">Rows starting &lt; or &gt; are aggregated tails: counted in depth, never used as best.</p>` : '<p class="empty">No rows yet.</p>';
+  function panel() {
+    document.querySelectorAll('.cetabs [data-tab]').forEach(b => b.setAttribute('aria-selected', b.dataset.tab === S.tab));
+    const P = $('cepanel');
+    if (S.tab === 'cross') { P.innerHTML = crossHTML(); cross(); return; }
+    if (S.tab === 'watch') { P.innerHTML = watchHTML(); return; }
+    P.innerHTML = `
+      <div class="cepair">
+        <label class="cef"><span>I want</span><input id="cewant" list="cecur" value="${E(S.want)}" placeholder="Scroll of Wisdom" autocomplete="off"></label>
+        <button type="button" class="ceswap" id="ceswap" aria-label="Swap want and have" title="Swap"><svg viewBox="0 0 24 24"><path d="M4 8h13l-3-3M20 16H7l3 3"/></svg></button>
+        <label class="cef"><span>I have</span><input id="cehave" list="cecur" value="${E(S.have)}" placeholder="Exalted Orb" autocomplete="off"></label>
+      </div>
+      <div class="cebest">
+        <label class="cef big"><span>Best Available</span><small>Top of the left list (highest ratio)</small>
+          <span class="ratio"><input id="ceba" inputmode="decimal" value="${E(S.ba)}" placeholder="22" autocomplete="off"><i>: 1</i></span></label>
+        <label class="cef big"><span>Best Competing</span><small>Top of the right list (lowest ratio)</small>
+          <span class="ratio"><input id="cebc" inputmode="decimal" value="${E(S.bc)}" placeholder="22.5" autocomplete="off"><i>: 1</i></span></label>
+      </div>
+      <p class="ceex">No book open? Load one of the 27 Nov books: ${EXAMPLES.map((x, i) => `<button type="button" class="pill" data-ex="${i}">${x.label}</button>`).join('')}</p>
+      <div id="ceout" aria-live="polite"></div>
+      <details class="cemore" id="cebook"${S.availText || S.compText ? ' open' : ''}>
+        <summary>Paste the whole book <small>for instant-fill depth and the CSV</small></summary>
+        <div class="cebook">
+          <label class="cef"><span>Available Trades</span><textarea id="ceat" rows="6" spellcheck="false" placeholder="22 : 1   12,187&#10;20 : 1   5,526&#10;&lt; 3.05 : 1   139">${E(S.availText)}</textarea><small id="ceas"></small></label>
+          <label class="cef"><span>Competing Trades</span><textarea id="cect" rows="6" spellcheck="false" placeholder="22.50 : 1   59&#10;150 : 1   1,221">${E(S.compText)}</textarea><small id="cecs"></small></label>
+        </div>
+        <p class="cehint">One row per line: ratio then stock. Rows starting with &lt; or &gt; are the game's grouped tails; they count for depth but never as the best order. The best-ratio boxes above fill in from what you paste.</p>
+        <div class="cerow"><label class="cef inline"><span>Instant fill</span><input id="cen" inputmode="decimal" value="${E(S.n)}" placeholder="1000"></label><span class="cehint">${Xs()} bought or sold right now against the book</span></div>
+        <div id="cedepth"></div>
+      </details>
+      <details class="cemore">
+        <summary>Assumptions <small>tick ${E(S.tick)}, stock in ${S.unit}, tight under ${E(S.tight)}%, illiquid over ${E(S.thin)}%</small></summary>
+        <div class="cerow wrap">
+          <label class="cef inline"><span>Tick (smallest ratio step)</span><input id="cetick" inputmode="decimal" value="${E(S.tick)}"></label>
+          <label class="cef inline"><span>Competing “Stock” counts</span><select id="ceunit"><option value="X"${S.unit === 'X' ? ' selected' : ''}>the item wanted</option><option value="Y"${S.unit === 'Y' ? ' selected' : ''}>the currency offered</option></select></label>
+          <label class="cef inline"><span>Tight below %</span><input id="cetight" inputmode="decimal" value="${E(S.tight)}"></label>
+          <label class="cef inline"><span>Illiquid above %</span><input id="cethin" inputmode="decimal" value="${E(S.thin)}"></label>
+        </div>
+        <p class="cehint">None of these are confirmed game facts. The tick comes from the two-decimal ratios on screen and the creators' “undercut by 0.01”. Which unit Competing stock counts is unconfirmed. The gold order fee is left out because gold only costs time.</p>
+      </details>`;
+    bookStatus(); out();
+  }
+
+  function bookStatus() {
+    for (const [k, id] of [['avail', 'ceas'], ['comp', 'cecs']]) {
+      const el = $(id); if (!el) continue;
+      const p = parseRows(S[k + 'Text']);
+      el.textContent = !S[k + 'Text'].trim() ? '' : `${p.rows.length} row${p.rows.length === 1 ? '' : 's'} read` + (p.junk.length ? `; skipped: ${p.junk.slice(0, 2).join(' | ')}${p.junk.length > 2 ? ' …' : ''}` : '');
+      el.className = p.junk.length ? 'bad' : '';
+    }
+  }
+
+  const VERDICT = {
+    tight: ['Tight spread: good to flip', s => `The book is only ${fP(s)} wide, so orders here fill often. Both of your orders sit first in line.`],
+    thin: ['Thin book: slower fills', s => `A ${fP(s)} spread means fewer trades. Put in your fills per hour before you commit much.`],
+    illiquid: ['Wide spread: few trades happen', s => `${fP(s)} apart because hardly anyone trades this pair. The margin only pays if someone fills both orders, so post and wait rather than plan around it.`],
+    crossed: ['Check the ratios', () => 'Best Competing should be higher than Best Available. The two boxes may be swapped.'],
+  };
+
+  function ladder(a, c, f) {
+    const pts = [{ r: a, t: `Sellers' best ${fR(a)}`, k: 'edge' }, { r: c, t: `Buyers' best ${fR(c)}`, k: 'edge' }];
+    if (f.room) pts.push({ r: f.sellR, t: `You sell at ${fR(f.sellR)}`, k: 'you' }, { r: f.buyR, t: `You buy at ${fR(f.buyR)}`, k: 'you' });
+    const lo = Math.log(a), hi = Math.log(c), pos = r => 8 + 84 * (Math.log(r) - lo) / (hi - lo || 1);
+    return `<div class="ladder" role="img" aria-label="Sellers' best ${fR(a)}, buyers' best ${fR(c)} ${Xs()} per ${Ys()}${f.room ? `; your sell ${fR(f.sellR)}, your buy ${fR(f.buyR)}` : ''}">
+      <div class="track"><div class="gap" style="left:${pos(a)}%;right:${100 - pos(c)}%"></div>
+      ${pts.map((p, i) => `<span class="mk ${p.k} ${i % 2 ? 'r' : 'l'}" style="left:${pos(p.r)}%"><b></b><em>${p.t}</em></span>`).join('')}</div>
+      <div class="axis"><span>more ${Xs()} per ${Ys()} is to the right</span></div></div>`;
   }
 
   function out() {
-    const b = S.book, o = opts(), A = analyse(b, o), el = $('ceout');
-    if (!A.a || !A.c) { el.innerHTML = `<p class="empty">Needs at least one real (not &lt;/&gt;) row on each side.</p>`; return; }
-    const f = A.flip, stake = parseFloat(S.stake), n = parseFloat(S.n), fph = parseFloat(S.fph);
-    const tag = { tight: 'tight · flippable', thin: 'thin', illiquid: 'illiquid · post and wait, don’t count on the margin', crossed: 'crossed book · check the rows' }[A.label];
-    let h = `<table class="mt"><tbody>
-      <tr><th>Best Available</th><td>${fR(A.a.r)} : 1 <span class="st">· 1 ${X()} = ${fPrice(1 / A.a.r)} ${Y()}</span></td></tr>
-      <tr><th>Best Competing</th><td>${fR(A.c.r)} : 1 <span class="st">· 1 ${X()} = ${fPrice(1 / A.c.r)} ${Y()}</span></td></tr>
-      <tr><th>Spread</th><td><b>${fP(A.spread)}</b> <span class="celab ${A.label}">${tag}</span></td></tr>
-      <tr><th>Midpoint</th><td>${fR(A.mid)} : 1 <span class="st">· 1 ${X()} ≈ ${fPrice(1 / A.mid)} ${Y()}</span></td></tr>`;
-    if (!f.room) h += `<tr><th>Flip</th><td><b>No room to flip</b> — the two best orders are within two ticks.</td></tr>`;
-    else {
-      h += `<tr><th>Your buy order</th><td>This pair (want ${X()}, have ${Y()}): <b>${fR(f.buyR)} : 1</b></td></tr>
-      <tr><th>Your sell order</th><td>Reverse pair (want ${Y()}, have ${X()}): <b>1 : ${fR(f.sellR)}</b> <span class="st">· ${fR(f.sellR)} ${X()} per ${Y()}</span></td></tr>
-      <tr><th>Round-trip margin</th><td><b class="${A.label === 'illiquid' ? 'cewarn' : 'cegood'}">${fP(f.margin)}</b> ${A.label === 'illiquid' ? '<span class="st">illiquid: wide because few trades happen</span>' : ''}</td></tr>`;
-      if (stake > 0) h += `<tr><th>Stake ${fN(stake)} ${Y()}</th><td>+${fN(stake * f.margin)} ${Y()} per round trip <span class="st">(or keep ${fN(stake * (f.buyR - f.sellR))} ${X()})</span></td></tr>`;
-      if (fph > 0) h += `<tr><th>Score</th><td>${fP(f.margin * fph)} per hour <span class="st">(margin × ${fN(fph)} fills/h)</span></td></tr>`;
+    const el = $('ceout'); if (!el) return;
+    const o = opts(), cur = current();
+    if (!(cur.a > 0) || !(cur.c > 0)) {
+      el.innerHTML = `<div class="ceempty">${S.ba || S.bc ? 'Both best ratios are needed. Type them as shown in game, like 22 or 18.50 (or 1 : 3).' : 'Your margin, the two orders to place and what a round trip makes will show here.'}</div>`;
+      const d = $('cedepth'); if (d) d.innerHTML = ''; return;
     }
-    if (n > 0) {
-      const d1 = depth(b.avail, n, 'available'), d2 = depth(b.comp, n, 'competing', S.unit);
-      const note = d => (d.partial ? ` <span class="cewarn">only ${fN(d.filled)} in the book</span>` : '') + (d.approx ? ' <span class="st">(uses a &lt;/&gt; tail at its bound: approximate)</span>' : '');
-      h += `<tr><th>Instant buy ${fN(n)} ${X()}</th><td>${d1.filled ? `avg ${fR(d1.avgR)} : 1 · costs ${fN(d1.y)} ${Y()}` : 'nothing to fill'}${note(d1)}</td></tr>
-      <tr><th>Instant sell ${fN(n)} ${X()}</th><td>${d2.filled ? `avg ${fR(d2.avgR)} : 1 · gets ${fN(d2.y)} ${Y()}` : 'nothing to fill'}${note(d2)} <span class="st">(Competing stock read as ${S.unit === 'X' ? X() : Y()})</span></td></tr>`;
+    const s = spread(cur.a, cur.c), lab = label(s, o.tight, o.thin), f = flipOrders(cur.a, cur.c, o.tick);
+    const [vt, vb] = VERDICT[lab] || VERDICT.crossed, stake = parseFloat(S.stake), fph = parseFloat(S.fph);
+    let h = `<div class="verdict ${lab}${f.room ? '' : ' none'}">
+      <div class="vm">${f.room ? `<span class="big">${fP(f.margin)}</span><span>per round trip</span>` : `<span class="big">None</span><span>no room to flip</span>`}</div>
+      <div class="vt"><b>${f.room || lab === 'crossed' ? vt : 'No room to flip'}</b><p>${f.room || lab === 'crossed' ? vb(s) : `The best orders are within two ticks (${E(S.tick)} each), so undercutting both sides would cross the book.`}</p>
+        <p class="vs">Spread ${fP(s)}. Mid price 1 ${Xs()} ≈ ${fPrice(1 / midpoint(cur.a, cur.c))} ${Ys()}.</p></div></div>`;
+    if (lab !== 'crossed') h += ladder(cur.a, cur.c, f);
+    if (f.room) {
+      h += `<div class="slips">
+        <div class="slip"><h3>Buy order</h3><p class="where">On the ${Xs()} / ${Ys()} pair</p>
+          <dl><dt>I want</dt><dd>${X()}</dd><dt>I have</dt><dd>${Y()}</dd></dl>
+          <div class="sr"><span class="rv">${fR(f.buyR)} : 1</span><button type="button" class="copy" data-copy="${fR(f.buyR)}">Copy ${fR(f.buyR)}</button></div>
+          <p class="why">One tick below the best competing order, so you're first in line to buy.</p></div>
+        <div class="slip"><h3>Sell order</h3><p class="where">On the reverse pair, ${Ys()} / ${Xs()}</p>
+          <dl><dt>I want</dt><dd>${Y()}</dd><dt>I have</dt><dd>${X()}</dd></dl>
+          <div class="sr"><span class="rv">1 : ${fR(f.sellR)}</span><button type="button" class="copy" data-copy="${fR(f.sellR)}">Copy ${fR(f.sellR)}</button></div>
+          <p class="why">One tick above the best available order: ${fR(f.sellR)} ${Xs()} for each ${Ys()}.</p></div></div>
+      <div class="profit">
+        <label class="cef inline"><span>Cycle</span><input id="cestake" inputmode="decimal" value="${E(S.stake)}" placeholder="100"><i>${Ys()}</i></label>
+        <p>${stake > 0 ? `Makes <b>+${fN(stake * f.margin)} ${Ys()}</b> per round trip, or keep <b>${fN(stake * (f.buyR - f.sellR))} ${Xs()}</b> instead.` : 'Enter an amount to see the profit per round trip.'}</p>
+      </div>
+      <div class="profit">
+        <label class="cef inline"><span>Fills per hour</span><input id="cefph" inputmode="decimal" value="${E(S.fph)}" placeholder="your guess"></label>
+        <p>${fph > 0 ? `About <b>${fP(f.margin * fph)}</b> of your stake per hour. Used to rank the watchlist.` : 'How often both orders fill, from watching the book. Ranks your watchlist.'}</p>
+        <button type="button" class="cta" id="cesave">Save to watchlist</button>
+      </div><p class="cemsg" id="cemsg" role="status"></p>`;
     }
-    el.innerHTML = h + '</tbody></table>';
+    el.innerHTML = h;
+    // depth (inside the book disclosure)
+    const d = $('cedepth'), n = parseFloat(S.n);
+    if (d) {
+      if (!cur.hasBook) d.innerHTML = '<p class="cehint">Paste both sides above to see depth.</p>';
+      else if (!(n > 0)) d.innerHTML = '';
+      else {
+        const d1 = depth(cur.avail, n, 'available'), d2 = depth(cur.comp, n, 'competing', S.unit);
+        const note = x => (x.partial ? ` <span class="warn">Only ${fN(x.filled)} in the book.</span>` : '') + (x.approx ? ' <span class="cehint">Uses a grouped &lt;/&gt; row at its bound, so it is approximate.</span>' : '');
+        d.innerHTML = `<div class="depth"><div><span>Buy ${fN(n)} ${Xs()} now</span><b>${d1.filled ? `${fN(d1.y)} ${Ys()}` : 'Nothing to fill'}</b><small>average ${fR(d1.avgR)} : 1${note(d1)}</small></div>
+          <div><span>Sell ${fN(n)} ${Xs()} now</span><b>${d2.filled ? `${fN(d2.y)} ${Ys()}` : 'Nothing to fill'}</b><small>average ${fR(d2.avgR)} : 1${note(d2)}</small></div></div>`;
+      }
+    }
   }
 
+  function crossHTML() {
+    const c = S.cross;
+    return `<p class="cehint lead">The same item priced in two currencies, plus the rate between those currencies. Shows the gain from buying in one and selling in the other, before fees.</p>
+      <div class="xform">
+        <p>One item costs <input id="cepa" inputmode="decimal" value="${E(c.pA)}" placeholder="140" aria-label="Price in currency A"> <input id="cea" class="cur" list="cecur" value="${E(c.a)}" aria-label="Currency A"></p>
+        <p>or <input id="cepb" inputmode="decimal" value="${E(c.pB)}" placeholder="6.25" aria-label="Price in currency B"> <input id="ceb" class="cur" list="cecur" value="${E(c.b)}" aria-label="Currency B"></p>
+        <p>and 1 <span id="cebn">${E(c.b || 'B')}</span> = <input id="cerate" inputmode="decimal" value="${E(c.rate)}" placeholder="28" aria-label="Rate"> <span id="cean">${E(c.a || 'A')}</span></p>
+      </div>
+      <div id="cecross" aria-live="polite"></div>
+      <p class="ceex">Example from the flipping notes: <button type="button" class="pill" id="cexex">140 ex, 6.25 chaos, 28 ex per chaos</button></p>`;
+  }
   function cross() {
-    const c = S.cross, r = crossRate(+c.pA, +c.pB, +c.rate), el = $('cecross');
-    if (!r) { el.innerHTML = '<span class="st">Fill in both prices and the rate.</span>'; return; }
+    const c = S.cross, r = crossRate(+c.pA, +c.pB, +c.rate), el = $('cecross'); if (!el) return;
     const a = E(c.a || 'A'), b = E(c.b || 'B');
-    el.innerHTML = `Buy for ${a}, sell for ${b}: <b class="${r.aToB > 0 ? 'cegood' : 'cewarn'}">${r.aToB >= 0 ? '+' : ''}${fP(r.aToB)}</b> · buy for ${b}, sell for ${a}: <b class="${r.bToA > 0 ? 'cegood' : 'cewarn'}">${r.bToA >= 0 ? '+' : ''}${fP(r.bToA)}</b>
-      <span class="st">(${fN(+c.pB)} ${b} = ${fN(c.pB * c.rate)} ${a})</span>`;
+    if ($('cebn')) { $('cebn').textContent = c.b || 'B'; $('cean').textContent = c.a || 'A'; }
+    if (!r) { el.innerHTML = '<div class="ceempty">Fill in both prices and the rate.</div>'; return; }
+    const best = r.aToB >= r.bToA ? { g: r.aToB, buy: a, sell: b } : { g: r.bToA, buy: b, sell: a };
+    el.innerHTML = `<div class="verdict ${best.g > 0 ? 'tight' : 'crossed'}"><div class="vm"><span class="big">${best.g > 0 ? '+' : ''}${fP(best.g)}</span><span>per lap</span></div>
+      <div class="vt"><b>${best.g > 0 ? `Buy with ${best.buy}, sell for ${best.sell}` : 'No gain either way'}</b>
+      <p>${fN(+c.pB)} ${b} is worth ${fN(c.pB * c.rate)} ${a}. Buying with ${a} and selling for ${b}: ${r.aToB >= 0 ? '+' : ''}${fP(r.aToB)}. The other way round: ${r.bToA >= 0 ? '+' : ''}${fP(r.bToA)}.</p></div></div>`;
   }
 
-  function watch() {
-    const L = rankWatch(S.watch.map((w, i) => Object.assign({ i }, w))), el = $('cewatch');
-    if (!L.length) { el.innerHTML = '<p class="empty">Nothing saved yet.</p>'; return; }
-    el.innerHTML = `<div class="scroll"><table class="mt"><thead><tr><th>Pair</th><th>Saved</th><th>Spread</th><th>Margin</th><th>Fills/h</th><th>Score</th><th><span class="vh">Actions</span></th></tr></thead><tbody>
-      ${L.map(w => `<tr><td>${E(w.want)} / ${E(w.have)}</td><td class="r">${E(w.date)}</td><td class="r">${fP(w.spread)} <span class="celab ${E(w.label)}">${E(w.label || '')}</span></td>
-        <td class="r">${w.margin == null ? 'no room' : fP(w.margin)}</td><td class="r">${w.fph === '' || w.fph == null ? '—' : E(w.fph)}</td><td class="r">${w.score == null ? 'unranked' : fP(w.score) + '/h'}</td>
-        <td class="n"><button class="tbtn" data-load="${w.i}">Load</button> <button class="tbtn" data-wdel="${w.i}" aria-label="Delete ${E(w.want)} / ${E(w.have)}">×</button></td></tr>`).join('')}
-      </tbody></table></div>`;
+  function watchHTML() {
+    const L = rankWatch(S.watch.map((w, i) => Object.assign({ i }, w)));
+    const list = L.length ? `<ol class="wl">${L.map((w, k) => `<li class="${E(w.label || '')}">
+        <span class="rk">${w.score == null ? '' : k + 1}</span>
+        <div class="wn"><b>${E(w.want)}</b> <span>for ${E(w.have)}</span><small>saved ${E(w.date)}, spread ${fP(w.spread)} (${E(w.label || '')})</small></div>
+        <div class="wv"><b>${w.margin == null ? 'No room' : fP(w.margin)}</b><small>${w.score == null ? (w.margin == null ? '' : 'add fills/hour to rank') : `${fP(w.score)} per hour`}</small></div>
+        <div class="wa"><button type="button" class="pill" data-load="${w.i}">Open</button><button type="button" class="x" data-wdel="${w.i}" aria-label="Remove ${E(w.want)} for ${E(w.have)}">×</button></div></li>`).join('')}</ol>`
+      : `<div class="ceempty">Nothing saved yet. Work out a pair under “Flip a pair”, then press Save to watchlist.</div>`;
+    return `<p class="cehint lead">Pairs you've saved, best first by margin × fills per hour. Pairs without fills per hour go to the bottom.</p>${list}
+      <div class="cerow wrap csv">
+        <label class="cef inline"><span>League for the CSV</span><input id="celeague" value="${E(S.league)}"></label>
+        <button type="button" class="pill" id="cecsvall"${S.watch.length ? '' : ' disabled'}>Copy watchlist as CSV</button>
+        <button type="button" class="pill" id="cecsv">Copy current book as CSV</button>
+      </div><p class="cehint">Rows match data/prices/*_exchange-books.csv, so a book can be added to the repo.</p><p class="cemsg" id="cemsg" role="status"></p>`;
   }
 
-  function msg(t) { $('cemsg').textContent = t; }
-  function copy(text, what) {
-    if (!text) { msg('Nothing to copy.'); return; }
-    const ok = () => msg(`Copied ${what} (${text.split('\n').length - 1} rows + header).`);
+  function msg(t) { const m = $('cemsg'); if (m) m.textContent = t; }
+  function copyText(text, done) {
     const fallback = () => { const t = document.createElement('textarea'); t.value = text; document.body.appendChild(t); t.select();
-      try { document.execCommand('copy'); ok(); } catch (e) { msg('Copy failed — select the text manually.'); } t.remove(); };
-    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(text).then(ok, fallback); else fallback();
+      try { document.execCommand('copy'); done(true); } catch (e) { done(false); } t.remove(); };
+    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(text).then(() => done(true), fallback); else fallback();
   }
-  const bookCSV = (bk) => toCSV(Object.assign({}, bk, { date: bk.date || today() }));
+  const bookCSV = bk => toCSV(Object.assign({ league: S.league }, bk, { date: bk.date || today() }));
+  const curBookCSV = () => { const c = current(); return bookCSV({ want: S.want, have: S.have, avail: c.avail, comp: c.comp }); };
+
+  function syncBest() { // pasted book → best boxes
+    const a = bestOf(rowsOf('avail'), 'available'), c = bestOf(rowsOf('comp'), 'competing');
+    if (a) { S.ba = a.text; if ($('ceba')) $('ceba').value = a.text; }
+    if (c) { S.bc = c.text; if ($('cebc')) $('cebc').value = c.text; }
+  }
 
   function bind() {
-    const R = document.getElementById('reader'), field = { cewant: 'want', cehave: 'have', celeague: 'league' };
-    const top = { cetick: 'tick', ceunit: 'unit', cetight: 'tight', cethin: 'thin', cestake: 'stake', cen: 'n', cefph: 'fph' };
+    const R = document.getElementById('reader');
+    const map = { cewant: 'want', cehave: 'have', ceba: 'ba', cebc: 'bc', cestake: 'stake', cefph: 'fph', cen: 'n', celeague: 'league',
+                  cetick: 'tick', ceunit: 'unit', cetight: 'tight', cethin: 'thin' };
     const cx = { cepa: 'pA', cea: 'a', cepb: 'pB', ceb: 'b', cerate: 'rate' };
     R.oninput = R.onchange = e => {
-      if (!$('ceout')) return;  // another view owns #reader now
+      if (!document.querySelector('.ce')) return;
       const t = e.target, id = t.id;
-      if (field[id]) { S.book[field[id]] = t.value; out(); }
-      else if (top[id]) { S[top[id]] = t.value; out(); }
-      else if (cx[id]) { S.cross[cx[id]] = t.value; cross(); }
-      else if (t.dataset.k) {
-        const row = S.book[t.dataset.k][+t.dataset.i];
-        if (t.dataset.f === 'stock') row.stock = t.value === '' ? null : parseFloat(t.value);
-        else { const p = parseRatio(t.value); row.text = t.value; row.r = p ? p.r : NaN; row.tail = p ? p.tail : null; if (p) row.text = p.text;
-          t.closest('tr').className = p ? (p.tail ? 'tail' : '') : 'bad'; }
-        out();
-      } else return;
+      if (cx[id]) { S.cross[cx[id]] = t.value; save(); cross(); return; }
+      if (id === 'ceat' || id === 'cect') { S[id === 'ceat' ? 'availText' : 'compText'] = t.value; syncBest(); bookStatus(); }
+      else if (map[id]) S[map[id]] = t.value; else return;
       save();
+      if (id === 'cestake' || id === 'cefph') { refreshProfit(); return; }
+      if (e.type === 'input' || id === 'ceunit') out();
     };
     R.onclick = e => {
-      const t = e.target.closest('button'); if (!t || !$('ceout')) return;
+      if (!document.querySelector('.ce')) return;
+      const t = e.target.closest('button'); if (!t) return;
       const d = t.dataset;
-      if (d.parse || d.append) {
-        const k = d.parse || d.append, ta = $(`cepaste-${k}`), p = parseRows(ta.value);
-        S.book[k] = d.parse ? p.rows : S.book[k].concat(p.rows);
-        $(`cejunk-${k}`).textContent = `${p.rows.length} rows read${p.junk.length ? ` · ignored ${p.junk.length}: ${p.junk.slice(0, 3).join(' | ')}${p.junk.length > 3 ? ' …' : ''}` : ''}`;
-        if (p.rows.length) ta.value = '';
-        drawRows(k); out(); save();
-      } else if (d.add) { S.book[d.add].push({ r: NaN, tail: null, text: '', stock: null }); drawRows(d.add); save();
-        const ins = document.querySelectorAll(`#cerows-${d.add} input[data-f=text]`); ins[ins.length - 1].focus(); }
-      else if (d.del) { S.book[d.del].splice(+d.i, 1); drawRows(d.del); out(); save(); }
-      else if (t.id === 'cesave') {
-        const A = analyse(S.book, opts());
-        if (!A.a || !A.c) { msg('Needs a best order on both sides before saving.'); return; }
-        const w = { want: S.book.want || 'X', have: S.book.have || 'Y', league: S.book.league, date: today(), fph: S.fph,
-          spread: A.spread, label: A.label, margin: A.flip.room ? A.flip.margin : null,
-          avail: S.book.avail.filter(r => r.r > 0), comp: S.book.comp.filter(r => r.r > 0) };
+      if (d.tab) { S.tab = d.tab; save(); panel(); return; }
+      if (t.id === 'ceswap') { [S.want, S.have] = [S.have, S.want]; save(); panel(); return; }
+      if (d.ex != null) { const x = EXAMPLES[+d.ex]; Object.assign(S, { want: x.want, have: x.have, availText: x.avail, compText: x.comp }); syncBest(); save(); panel(); return; }
+      if (d.copy) { copyText(d.copy, ok => { const old = t.textContent; t.textContent = ok ? 'Copied' : 'Copy failed'; t.classList.add('done'); setTimeout(() => { t.textContent = old; t.classList.remove('done'); }, 1400); }); return; }
+      if (t.id === 'cexex') { Object.assign(S.cross, { pA: '140', a: 'Exalted Orb', pB: '6.25', b: 'Chaos Orb', rate: '28' }); save(); panel(); return; }
+      if (t.id === 'cesave') {
+        const c = current(), o = opts(), f = flipOrders(c.a, c.c, o.tick), s = spread(c.a, c.c);
+        const w = { want: S.want || 'X', have: S.have || 'Y', league: S.league, date: today(), fph: S.fph, spread: s, label: label(s, o.tight, o.thin),
+                    margin: f.room ? f.margin : null, ba: S.ba, bc: S.bc, availText: S.availText, compText: S.compText, avail: c.avail, comp: c.comp };
         const j = S.watch.findIndex(x => x.want === w.want && x.have === w.have);
         if (j >= 0) S.watch[j] = w; else S.watch.push(w);
-        save(); watch(); msg(`Saved ${w.want} / ${w.have} (${w.date}).`);
-      } else if (t.id === 'cecsv') copy(CSV_HEAD + '\n' + bookCSV(S.book), 'the current book');
-      else if (t.id === 'cecsvall') copy(S.watch.length ? CSV_HEAD + '\n' + S.watch.map(bookCSV).filter(Boolean).join('\n') : '', 'the watchlist');
-      else if (d.load != null) {
+        save(); $('cewcount').textContent = S.watch.length; msg(`Saved ${w.want} for ${w.have}. It's on the Watchlist tab.`); return;
+      }
+      if (d.load != null) {
         const w = S.watch[+d.load];
-        S.book = { want: w.want, have: w.have, league: w.league || '', avail: w.avail.map(r => Object.assign({}, r)), comp: w.comp.map(r => Object.assign({}, r)) };
-        S.fph = w.fph ?? ''; save(); show(); msg(`Loaded ${w.want} / ${w.have} from ${w.date}.`);
-      } else if (d.wdel != null) { S.watch.splice(+d.wdel, 1); save(); watch(); }
+        Object.assign(S, { tab: 'flip', want: w.want, have: w.have, fph: w.fph ?? '',
+          ba: w.ba ?? (bestOf(w.avail, 'available') || {}).text ?? '', bc: w.bc ?? (bestOf(w.comp, 'competing') || {}).text ?? '',
+          availText: w.availText ?? '', compText: w.compText ?? '' });
+        save(); panel(); return;
+      }
+      if (d.wdel != null) { S.watch.splice(+d.wdel, 1); save(); $('cewcount').textContent = S.watch.length || ''; panel(); return; }
+      if (t.id === 'cecsv' || t.id === 'cecsvall') {
+        const body = t.id === 'cecsv' ? curBookCSV() : S.watch.map(bookCSV).filter(Boolean).join('\n');
+        if (!body) { msg('Nothing to copy yet: the current book is empty.'); return; }
+        copyText(CSV_HEAD + '\n' + body, ok => msg(ok ? `Copied ${body.split('\n').length} rows plus the header.` : 'Copy failed. Your browser blocked the clipboard.'));
+      }
     };
   }
-
+  // update only the profit sentences so the input being typed in keeps focus
+  function refreshProfit() {
+    const a = document.activeElement, id = a && a.id, pos = a && a.selectionStart;
+    out();
+    if (id && $(id)) { $(id).focus(); try { $(id).setSelectionRange(pos, pos); } catch (e) {} }
+  }
   return { show, parseRatio, parseRows, bestOf, spread, midpoint, label, flipOrders, depth, crossRate, analyse, rankWatch, toCSV,
            CSV_HEAD, TIGHT: CE_TIGHT, THIN: CE_THIN, TICK: CE_TICK, STOCK_UNIT: CE_STOCK_UNIT };
 })();

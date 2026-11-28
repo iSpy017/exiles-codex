@@ -70,7 +70,7 @@ window.DB = (() => {
       <div class="scroll"><table class="mt"><thead><tr><th>Affix</th><th>Type</th><th>Tier</th><th>Mod lvl</th><th>Effect</th><th>Weight</th></tr></thead><tbody>
       ${ms.slice(0, 600).map(m => `<tr><td class="n">${E(m.n) || '—'}</td><td class="${KIND[m.k] || ''}">${E(m.k)}</td>
         <td class="r">${m._best ? '★ ' : ''}${m.tier}/${m.tiers}</td><td class="r">${m.lvl ?? '—'}</td>
-        <td>${E(m.t)}<br>${m.tags.map(t => `<span class="tg">${E(t)}</span>`).join('')}</td><td class="r">${m.w ?? '—'}</td></tr>`).join('')}
+        <td>${E(m.t).replace(/([a-z)%])(?=[A-Z(])|([a-z])(?=%)/g, '$1$2<br>')}<br>${m.tags.map(t => `<span class="tg">${E(t)}</span>`).join('')}</td><td class="r">${m.w ?? '—'}</td></tr>`).join('')}
       </tbody></table></div>${ms.length > 600 ? '<p class="rcount">Showing first 600 — narrow the filters.</p>' : ''}
       <p class="foot">Data: <a href="${E(page.url)}" target="_blank" rel="noopener">poe2db.tw — ${E(page.title)}</a>, fetched ${E((page.fetched || '').slice(0, 10))}, licensed CC BY-NC-SA 3.0. Tier is ranked by mod level within each stat line; check in game before an expensive craft.</p>`;
   }
